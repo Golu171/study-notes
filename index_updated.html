@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Notes</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,"Noto Sans Devanagari",sans-serif;
+  background:#f1f5f9;
+  color:#172033;
+}
+.container{max-width:900px;margin:auto;padding:18px}
+.header{
+  background:#111827;color:white;border-radius:18px;
+  padding:22px;margin-bottom:18px;
+}
+.header h1{margin:0;font-size:28px}
+.header p{margin:7px 0 0;color:#cbd5e1}
+.search{
+  width:100%;padding:13px 15px;border:1px solid #cbd5e1;
+  border-radius:12px;font-size:16px;margin:16px 0;
+}
+.section-title{font-size:22px;font-weight:800;margin:20px 0 12px}
+.card{
+  display:block;text-decoration:none;color:inherit;background:white;
+  border:1px solid #e2e8f0;border-radius:16px;padding:17px;
+  margin-bottom:12px;box-shadow:0 4px 15px rgba(15,23,42,.07);
+  transition:.15s;
+}
+.card:hover{transform:translateY(-2px)}
+.card h3{margin:0 0 5px;font-size:19px}
+.card p{margin:0;color:#64748b;font-size:14px}
+.badge{
+  display:inline-block;background:#e0e7ff;color:#3730a3;
+  padding:4px 8px;border-radius:8px;font-size:12px;font-weight:700;
+  margin-bottom:8px;
+}
+.hidden{display:none}
+.footer{text-align:center;color:#64748b;font-size:13px;padding:25px 0}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📚 Study Notes</h1>
+    <p>English • Haryana GK • Maths • Reasoning</p>
+  </div>
+
+  <input id="search" class="search" type="search"
+         placeholder="Search notes...">
+
+  <div class="section-title">English</div>
+
+  <a class="card" href="English/Verb/Verb_Basic_Rules_Examples.html">
+    <span class="badge">ENGLISH • VERB</span>
+    <h3>Verb — Basic Rules & Examples</h3>
+    <p>Verb के basic rules, auxiliaries, modals और examples.</p>
+  </a>
+
+  <a class="card" href="English_Volume_1_One_Word_Substitution_Updated_with_Idioms_Final_v20.html">
+    <span class="badge">ENGLISH • VOCABULARY</span>
+    <h3>English Volume 1 — One Word Substitution</h3>
+    <p>One Word Substitution और related practice content.</p>
+  </a>
+
+  <div class="section-title">Other Subjects</div>
+
+  <a class="card" href="English/Idioms/">
+    <h3>📖 English — Idioms</h3>
+    <p>Idioms & their meanings</p>
+  </a>
+
+  <a class="card" href="English/Vocabulary/">
+    <h3>📝 English — Vocabulary</h3>
+    <p>Vocabulary study material</p>
+  </a>
+
+  <a class="card" href="Haryana-GK/">
+    <h3>🏛️ Haryana GK</h3>
+    <p>Haryana General Knowledge</p>
+  </a>
+
+  <a class="card" href="Maths/">
+    <h3>➗ Maths</h3>
+    <p>Maths notes and practice</p>
+  </a>
+
+  <a class="card" href="Reasoning/">
+    <h3>🧠 Reasoning</h3>
+    <p>Reasoning notes and practice</p>
+  </a>
+
+  <div class="footer">My Study Notes • Free GitHub Pages Website</div>
+</div>
+
+<script>
+const search=document.getElementById("search");
+const cards=[...document.querySelectorAll(".card")];
+
+search.addEventListener("input",()=>{
+  const q=search.value.toLowerCase().trim();
+  cards.forEach(card=>{
+    card.classList.toggle("hidden", !card.innerText.toLowerCase().includes(q));
+  });
+});
+</script>
+</body>
+</html>
