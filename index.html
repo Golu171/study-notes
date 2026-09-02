@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Notes</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#222}
+header{background:linear-gradient(135deg,#7b1113,#c62828);color:#fff;text-align:center;padding:30px 15px}
+h1{margin:0;font-size:32px}.wrap{max-width:1050px;margin:auto;padding:18px}
+.search{width:100%;padding:14px;border:1px solid #ddd;border-radius:12px;font-size:16px;margin-bottom:20px}
+h2{color:#8f1115}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{display:block;background:#fff;color:#222;text-decoration:none;padding:18px;border-radius:14px;box-shadow:0 3px 12px #0001}
+.card:hover{transform:translateY(-2px)}.icon{font-size:28px}.card h3{margin:8px 0 4px}.card p{margin:0;color:#666;font-size:14px}
+.empty{display:none;text-align:center;color:#777;padding:30px}footer{text-align:center;color:#777;padding:25px}
+</style></head>
+<body>
+<header><h1>📚 Study Notes</h1><p>English • Haryana GK • Maths • Reasoning</p></header>
+<div class="wrap">
+<input id="search" class="search" placeholder="🔍 Search topic or subject...">
+<section><h2>🇬🇧 English</h2><div class="grid">
+<a class="card" data-s="english verb basic auxiliary modal can could may might shall will would" href="English/Verb/Verb_Basic_Rules_Examples.html"><div class="icon">📝</div><h3>Verb (Basic)</h3><p>Rules, uses & examples</p></a>
+<a class="card" data-s="english idioms" href="English/Idioms/"><div class="icon">💬</div><h3>Idioms</h3><p>Add HTML files here</p></a>
+<a class="card" data-s="english vocabulary synonym antonym" href="English/Vocabulary/"><div class="icon">📖</div><h3>Vocabulary</h3><p>Add HTML files here</p></a>
+</div></section>
+<section><h2>📚 Other Subjects</h2><div class="grid">
+<a class="card" data-s="haryana gk" href="Haryana-GK/"><div class="icon">🏛️</div><h3>Haryana GK</h3><p>Add notes here</p></a>
+<a class="card" data-s="math maths" href="Maths/"><div class="icon">➗</div><h3>Maths</h3><p>Add notes here</p></a>
+<a class="card" data-s="reasoning" href="Reasoning/"><div class="icon">🧠</div><h3>Reasoning</h3><p>Add notes here</p></a>
+</div></section>
+<div id="empty" class="empty">No matching topic found.</div>
+</div>
+<footer>© Study Notes</footer>
+<script>
+const input=document.getElementById('search'),cards=[...document.querySelectorAll('.card')];
+input.oninput=()=>{let q=input.value.toLowerCase(),n=0;cards.forEach(c=>{let ok=!q||c.dataset.s.includes(q);c.style.display=ok?'block':'none';if(ok)n++});document.getElementById('empty').style.display=n?'none':'block'};
+</script>
+</body></html>
