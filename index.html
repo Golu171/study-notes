@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Study Notes</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  padding:12px;
+  background:#f3f6fb;
+  color:#172033;
+  font-family:'Poppins',sans-serif;
+}
+
+.wrap{
+  max-width:900px;
+  margin:auto;
+}
+
+
+/* =========================
+   TOP GREEN BOX
+========================= */
+
+.top{
+  background:linear-gradient(135deg,#119d59,#08763f);
+  color:#fff;
+
+  border-radius:23px;
+
+  padding:24px 18px 18px;
+
+  text-align:center;
+
+  box-shadow:0 8px 22px #0002;
+}
+
+
+/* MAIN TITLE */
+
+.main-title{
+  margin:0;
+
+  font-family:'Baloo 2',sans-serif;
+
+  font-size:38px;
+
+  line-height:1.1;
+
+  font-weight:800;
+
+  color:#ff5252;
+
+  text-shadow:0 2px 2px #0001;
+}
+
+
+/* CREDIT */
+
+.credit{
+  margin-top:20px;
+
+  font-family:'Poppins',sans-serif;
+
+  font-size:21px;
+
+  line-height:1.45;
+
+  font-weight:700;
+
+  color:#ff5252;
+}
+
+
+/* BUTTONS */
+
+.buttons{
+  display:flex;
+
+  justify-content:flex-end;
+
+  gap:9px;
+
+  margin-top:22px;
+}
+
+button{
+  border:0;
+
+  background:white;
+
+  color:#333;
+
+  width:72px;
+
+  height:58px;
+
+  border-radius:18px;
+
+  font-size:28px;
+
+  cursor:pointer;
+
+  box-shadow:0 3px 8px #0002;
+}
+
+button:active{
+  transform:scale(.95);
+}
+
+
+/* =========================
+   FOLDERS
+========================= */
+
+.heading{
+  margin:30px 5px 14px;
+
+  font-family:'Baloo 2',sans-serif;
+
+  font-size:32px;
+
+  line-height:1;
+
+  font-weight:800;
+}
+
+#status{
+  color:#687386;
+
+  font-size:17px;
+
+  margin:0 5px 14px;
+}
+
+.grid{
+  display:grid;
+
+  gap:14px;
+}
+
+
+/* FOLDER CARD */
+
+.folder{
+  background:#fff;
+
+  border-radius:21px;
+
+  padding:19px 20px;
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+
+  text-decoration:none;
+
+  color:#172033;
+
+  box-shadow:0 4px 14px #14233c14;
+
+  transition:.15s;
+}
+
+.folder:active{
+  transform:scale(.985);
+}
+
+.folder-icon{
+  font-size:39px;
+}
+
+.folder-content{
+  flex:1;
+}
+
+.folder-name{
+  font-family:'Poppins',sans-serif;
+
+  font-size:23px;
+
+  font-weight:800;
+}
+
+.folder-info{
+  margin-top:4px;
+
+  color:#707987;
+
+  font-size:14px;
+}
+
+.arrow{
+  font-size:27px;
+
+  color:#5a3db8;
+}
+
+
+/* EMPTY */
+
+.empty{
+  background:white;
+
+  padding:20px;
+
+  border-radius:18px;
+
+  color:#687386;
+}
+
+
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark{
+  background:#111827;
+
+  color:#e5e7eb;
+}
+
+body.dark .folder,
+body.dark .empty{
+  background:#1f2937;
+
+  color:#e5e7eb;
+}
+
+body.dark .folder-info{
+  color:#aab3c2;
+}
+
+body.dark #status{
+  color:#aab3c2;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:600px){
+
+  body{
+    padding:10px;
+  }
+
+  .top{
+    padding:22px 15px 15px;
+
+    border-radius:22px;
+  }
+
+  .main-title{
+    font-size:36px;
+  }
+
+  .credit{
+    margin-top:17px;
+
+    font-size:19px;
+  }
+
+  .buttons{
+    margin-top:19px;
+  }
+
+  button{
+    width:68px;
+
+    height:54px;
+
+    border-radius:17px;
+
+    font-size:26px;
+  }
+
+  .heading{
+    margin-top:29px;
+
+    font-size:31px;
+  }
+
+  .folder{
+    padding:18px;
+
+    border-radius:20px;
+
+    gap:13px;
+  }
+
+  .folder-icon{
+    font-size:37px;
+  }
+
+  .folder-name{
+    font-size:21px;
+  }
+
+  .folder-info{
+    font-size:13px;
+  }
+
+  .arrow{
+    font-size:25px;
+  }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="wrap">
+
+
+<!-- =========================
+     TOP
+========================= -->
+
+<div class="top">
+
+  <h1 class="main-title">
+    जय बजरंग बली
+  </h1>
+
+
+  <div class="credit">
+    Made by Sandeep Sheoran<br>
+    Dedicated to Golu
+  </div>
+
+
+  <div class="buttons">
+
+    <button
+      onclick="toggleDark()"
+      title="Dark Mode">
+      🌙
+    </button>
+
+
+    <button
+      onclick="fullScreen()"
+      title="Full Screen">
+      ⛶
+    </button>
+
+  </div>
+
+</div>
+
+
+<!-- =========================
+     FOLDERS
+========================= -->
+
+<h2 class="heading">
+  📁 Folders
+</h2>
+
+
+<div id="status">
+  Folders load हो रहे हैं...
+</div>
+
+
+<div id="folders"
+     class="grid">
+</div>
+
+
+</div>
+
+
+<script>
+
+
+/* =================================
+   GITHUB SETTINGS
+================================= */
+
+const OWNER = "Golu171";
+
+const REPO = "study-notes";
+
+const BRANCH = "main";
+
+
+/* =================================
+   GITHUB ROOT API
+================================= */
+
+const API =
+  "https://api.github.com/repos/"
+  + OWNER
+  + "/"
+  + REPO
+  + "/contents/?ref="
+  + BRANCH;
+
+
+/* =================================
+   CLEAN NAME
+================================= */
+
+function cleanName(name){
+
+  return name
+    .replace(/[_-]+/g," ")
+    .replace(/\s+/g," ")
+    .trim();
+
+}
+
+
+/* =================================
+   SAFE TEXT
+================================= */
+
+function esc(text){
+
+  const div =
+    document.createElement("div");
+
+  div.textContent = text;
+
+  return div.innerHTML;
+
+}
+
+
+/* =================================
+   SORT
+================================= */
+
+function sortFolders(a,b){
+
+  return a.name.localeCompare(
+    b.name,
+    undefined,
+    {
+      numeric:true,
+      sensitivity:"base"
+    }
+  );
+
+}
+
+
+/* =================================
+   LOAD ROOT FOLDERS
+================================= */
+
+async function loadFolders(){
+
+  try{
+
+    const response =
+      await fetch(
+        API,
+        {
+          headers:{
+            "Accept":
+            "application/vnd.github+json"
+          }
+        }
+      );
+
+
+    if(!response.ok){
+
+      throw new Error(
+        "GitHub API Error"
+      );
+
+    }
+
+
+    const data =
+      await response.json();
+
+
+    const folders =
+      data
+        .filter(
+          item =>
+            item.type === "dir"
+        )
+        .sort(sortFolders);
+
+
+    renderFolders(folders);
+
+  }
+
+
+  catch(error){
+
+    console.error(error);
+
+
+    document
+      .getElementById("status")
+      .textContent =
+        "Folders load नहीं हो पाए";
+
+
+    document
+      .getElementById("folders")
+      .innerHTML =
+        '<div class="empty">' +
+        'Internet check करके page फिर खोलें।' +
+        '</div>';
+
+  }
+
+}
+
+
+/* =================================
+   SHOW FOLDERS
+================================= */
+
+function renderFolders(folders){
+
+  const box =
+    document.getElementById("folders");
+
+
+  box.innerHTML = "";
+
+
+  document
+    .getElementById("status")
+    .textContent =
+      folders.length
+      + " Folder"
+      + (
+          folders.length === 1
+          ? ""
+          : "s"
+        )
+      + " मिले";
+
+
+  folders.forEach(folder => {
+
+    const a =
+      document.createElement("a");
+
+
+    a.className =
+      "folder";
+
+
+    /* EXACT PATH */
+
+    a.href =
+      "/" +
+      REPO +
+      "/" +
+      folder.path
+        .split("/")
+        .map(
+          part =>
+            encodeURIComponent(part)
+        )
+        .join("/")
+      +
+      "/";
+
+
+    a.innerHTML =
+
+      '<div class="folder-icon">' +
+      '📁' +
+      '</div>' +
+
+      '<div class="folder-content">' +
+
+      '<div class="folder-name">' +
+      esc(
+        cleanName(folder.name)
+      ) +
+      '</div>' +
+
+      '<div class="folder-info">' +
+      getDescription(folder.name) +
+      '</div>' +
+
+      '</div>' +
+
+      '<div class="arrow">' +
+      '→' +
+      '</div>';
+
+
+    box.appendChild(a);
+
+  });
+
+
+  if(!folders.length){
+
+    box.innerHTML =
+      '<div class="empty">' +
+      'अभी कोई folder नहीं मिला।' +
+      '</div>';
+
+  }
+
+}
+
+
+/* =================================
+   DESCRIPTION
+================================= */
+
+function getDescription(name){
+
+  const n =
+    name.toLowerCase();
+
+
+  if(n === "haryana-gk"){
+
+    return "Haryana GK के सभी HTML Tests यहाँ मिलेंगे";
+
+  }
+
+
+  if(n === "english"){
+
+    return "English के सभी HTML Tests यहाँ मिलेंगे";
+
+  }
+
+
+  if(n === "hssc national pyq"){
+
+    return "HSSC National PYQ के सभी HTML Tests यहाँ मिलेंगे";
+
+  }
+
+
+  return "इस folder के सभी HTML Tests यहाँ मिलेंगे";
+
+}
+
+
+/* =================================
+   DARK MODE
+================================= */
+
+function toggleDark(){
+
+  document
+    .body
+    .classList
+    .toggle("dark");
+
+
+  localStorage.setItem(
+    "darkMode",
+
+    document.body.classList.contains(
+      "dark"
+    )
+      ? "1"
+      : "0"
+  );
+
+}
+
+
+/* =================================
+   REMEMBER DARK MODE
+================================= */
+
+if(
+  localStorage.getItem(
+    "darkMode"
+  ) === "1"
+){
+
+  document
+    .body
+    .classList
+    .add("dark");
+
+}
+
+
+/* =================================
+   FULL SCREEN
+================================= */
+
+function fullScreen(){
+
+  if(
+    !document.fullscreenElement
+  ){
+
+    document
+      .documentElement
+      .requestFullscreen?.()
+      .catch(
+        ()=>{}
+      );
+
+  }
+
+  else{
+
+    document
+      .exitFullscreen?.()
+      .catch(
+        ()=>{}
+      );
+
+  }
+
+}
+
+
+/* =================================
+   START
+================================= */
+
+loadFolders();
+
+</script>
+
+
+</body>
+  </html>
