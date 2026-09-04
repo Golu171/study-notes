@@ -1,19 +1,494 @@
 <!DOCTYPE html>
-<html lang="hi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>HARYANA CURRENT</title>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HARYANA CURRENT</title>
+
 <style>
-*{box-sizing:border-box}body{margin:0;padding:18px 14px 35px;font-family:Arial,sans-serif;background:#f3f6fb;color:#172033}.container{max-width:900px;margin:auto}.top{background:linear-gradient(135deg,#0f9d58,#087f46);color:white;border-radius:20px;padding:18px;box-shadow:0 8px 22px #0002}.row{display:flex;justify-content:space-between;gap:10px}.btn{border:0;color:white;background:#ffffff2e;padding:9px 13px;border-radius:10px;font-size:16px;text-decoration:none;cursor:pointer}h1{margin:18px 0 5px;font-size:28px}.sub{margin:0;font-size:15px}.search{width:100%;margin-top:16px;padding:13px;border:0;border-radius:12px;font-size:16px}.grid{display:grid;gap:12px;margin-top:12px}h2{margin:24px 2px 12px}.status,.card{background:white;border-radius:15px;padding:15px;box-shadow:0 3px 10px #0001}.card{cursor:pointer;border:1px solid #e4e8ef}.title{font-weight:700;font-size:17px}.file{font-size:12px;color:#778095;margin-top:6px;word-break:break-all}.dark{background:#111827;color:#eee}.dark .card,.dark .status{background:#1b2433;color:#eee;border-color:#303b4d}.dark .file{color:#aab4c5}.viewer{display:none}.bar{background:#172033;color:white;padding:10px;border-radius:12px;display:flex;justify-content:space-between}.frame{width:100%;height:calc(100vh - 70px);border:0;background:white}.fs{padding:0}.fs .top,.fs #list{display:none}.fs .viewer{display:block}.fs .container{max-width:none}
-</style></head><body><div class="container">
-<div class="top"><div class="row"><a class="btn" href="../index.html">← Haryana GK</a><button class="btn" onclick="toggleFull()">⛶ Full Screen</button></div><h1>📰 HARYANA CURRENT</h1><p class="sub">सभी Haryana Current Affairs HTML Tests यहाँ मिलेंगे</p><input id="search" class="search" placeholder="🔎 Current Affairs खोजें..." oninput="filter()"></div>
-<div id="list"><h2>📁 Available Tests</h2><div id="status" class="status">Tests की सूची लोड हो रही है...</div><div id="tests" class="grid"></div></div>
-<div class="viewer"><div class="bar"><button class="btn" onclick="closeTest()">← Tests</button><span id="name">Test</span><button class="btn" onclick="toggleFull()">⛶</button></div><iframe id="frame" class="frame" allowfullscreen></iframe></div>
-</div><script>
-const O="Golu171",R="study-notes",F="HARYANA-GK/HARYANA-CURRENT";let files=[];
-async function load(){try{let r=await fetch(`https://api.github.com/repos/${O}/${R}/contents/${F}?ref=main`);if(!r.ok)throw 0;files=(await r.json()).filter(x=>x.type=="file"&&x.name.toLowerCase().endsWith(".html")&&x.name.toLowerCase()!="index.html").sort((a,b)=>a.name.localeCompare(b.name,undefined,{numeric:true}));status.textContent=files.length+" HTML Tests मिले";show(files)}catch(e){status.textContent="Tests की सूची लोड नहीं हो पाई।"}}
-function show(a){tests.innerHTML=a.length?a.map(x=>`<div class="card" onclick='openTest(${JSON.stringify(x.name)})'><div class="title">📝 ${clean(x.name)}</div><div class="file">${x.name}</div></div>`).join(""):"<div class='card'>अभी कोई HTML Test नहीं मिला।</div>"}
-function openTest(n){frame.src="./"+encodeURIComponent(n);name.textContent=clean(n);document.getElementById("list").style.display="none";document.querySelector(".viewer").style.display="block";document.body.classList.add("fs");document.documentElement.requestFullscreen?.().catch(()=>{})}
-function closeTest(){document.body.classList.remove("fs");document.getElementById("list").style.display="block";document.querySelector(".viewer").style.display="none";frame.src="";if(document.fullscreenElement)document.exitFullscreen().catch(()=>{})}
-function toggleFull(){if(document.fullscreenElement){document.exitFullscreen().catch(()=>{});document.body.classList.remove("fs")}else{document.documentElement.requestFullscreen?.().then(()=>document.body.classList.add("fs")).catch(()=>document.body.classList.toggle("fs"))}}
-function filter(){let q=search.value.toLowerCase();show(files.filter(x=>x.name.toLowerCase().includes(q)))}
-function clean(n){return n.replace(/\.html$/i,"").replace(/[_-]+/g," ").replace(/\s+/g," ").trim()}
+*{box-sizing:border-box}
+
+body{
+margin:0;
+padding:15px;
+font-family:Arial,sans-serif;
+background:#f3f6fb;
+color:#172033
+}
+
+.wrap{
+max-width:900px;
+margin:auto
+}
+
+.top{
+background:linear-gradient(135deg,#0f9d58,#087f46);
+color:#fff;
+border-radius:20px;
+padding:18px;
+box-shadow:0 8px 22px #0002
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+gap:10px
+}
+
+button{
+border:0;
+border-radius:10px;
+padding:9px 13px;
+background:#ffffff2b;
+color:#fff;
+font-size:16px
+}
+
+h1{
+margin:18px 0 5px;
+font-size:29px
+}
+
+.sub{
+margin:0
+}
+
+.search{
+width:100%;
+margin-top:16px;
+padding:13px;
+border:0;
+border-radius:12px;
+font-size:16px;
+outline:0
+}
+
+h2{
+font-size:21px;
+margin:24px 2px 12px
+}
+
+#status{
+color:#687386;
+margin-bottom:14px
+}
+
+.grid{
+display:grid;
+gap:12px
+}
+
+.card{
+background:#fff;
+border-radius:18px;
+padding:17px;
+box-shadow:0 4px 14px #14233c14;
+cursor:pointer;
+display:block
+}
+
+.title{
+font-size:19px;
+font-weight:bold
+}
+
+.file{
+font-size:14px;
+color:#788393;
+margin-top:6px
+}
+
+.folder .title{
+color:#087f46
+}
+
+.empty{
+background:#fff;
+padding:20px;
+border-radius:18px;
+color:#687386
+}
+
+.viewer{
+display:none;
+position:fixed;
+inset:0;
+background:#fff;
+z-index:9999
+}
+
+.viewerbar{
+height:54px;
+background:#087f46;
+color:#fff;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:10px;
+padding:8px 12px
+}
+
+.viewerbar span{
+overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+font-weight:bold
+}
+
+iframe{
+width:100%;
+height:calc(100vh - 54px);
+border:0
+}
+
+@media(max-width:600px){
+body{padding:10px}
+h1{font-size:27px}
+.title{font-size:18px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<div class="top">
+
+<div class="row">
+
+<button onclick="goBack()">← Back</button>
+
+<button onclick="fullScreen()">⛶ Full Screen</button>
+
+</div>
+
+<h1>📚 HARYANA CURRENT</h1>
+
+<p class="sub">
+सभी Haryana Current Affairs HTML Tests यहाँ मिलेंगे
+</p>
+
+<input
+id="search"
+class="search"
+type="search"
+placeholder="🔎 Test या Folder खोजें..."
+oninput="searchItems()">
+
+</div>
+
+<h2>📁 Available</h2>
+
+<div id="status">Loading...</div>
+
+<div id="items" class="grid"></div>
+
+</div>
+
+
+<div id="viewer" class="viewer">
+
+<div class="viewerbar">
+
+<button onclick="closeTest()">← Tests</button>
+
+<span id="viewerTitle">Test</span>
+
+<button onclick="fullScreen()">⛶</button>
+
+</div>
+
+<iframe id="frame" allowfullscreen></iframe>
+
+</div>
+
+
+<script>
+
+const OWNER="Golu171";
+const REPO="study-notes";
+const ROOT="HARYANA-GK/HARYANA-CURRENT";
+const BRANCH="main";
+
+let folders=[];
+let files=[];
+
+
+function api(path){
+
+return "https://api.github.com/repos/"
++OWNER+"/"+REPO+"/contents/"
++path.split("/").map(encodeURIComponent).join("/")
++"?ref="+BRANCH;
+
+}
+
+
+function clean(name){
+
+return name
+.replace(/\.html$/i,"")
+.replace(/[_-]+/g," ")
+.replace(/\s+/g," ")
+.trim();
+
+}
+
+
+function esc(text){
+
+const d=document.createElement("div");
+
+d.textContent=text;
+
+return d.innerHTML;
+
+}
+
+
+function sortName(a,b){
+
+return a.name.localeCompare(
+b.name,
+undefined,
+{
+numeric:true,
+sensitivity:"base"
+}
+);
+
+}
+
+
+async function load(){
+
+try{
+
+const response=await fetch(
+api(ROOT),
+{
+headers:{
+"Accept":"application/vnd.github+json"
+}
+}
+);
+
+if(!response.ok)
+throw new Error("GitHub API Error");
+
+
+const data=await response.json();
+
+
+folders=data
+.filter(x=>x.type==="dir")
+.sort(sortName);
+
+
+files=data
+.filter(x=>
+x.type==="file" &&
+/\.html$/i.test(x.name) &&
+x.name.toLowerCase()!=="index.html"
+)
+.sort(sortName);
+
+
+document.getElementById("status").textContent=
+folders.length+" Folder"+
+(folders.length===1?"":"s")
++" + "+
+files.length+" HTML Test"+
+(files.length===1?"":"s")
++" मिले";
+
+
+render();
+
+
+}
+catch(error){
+
+document.getElementById("status")
+.textContent="Files load नहीं हो पाईं";
+
+document.getElementById("items").innerHTML=
+'<div class="empty">'+
+'Internet check करके page फिर खोलें।'+
+'</div>';
+
+}
+
+}
+
+
+function render(){
+
+const box=document.getElementById("items");
+
+box.innerHTML="";
+
+
+folders.forEach(folder=>{
+
+const a=document.createElement("a");
+
+a.className="card folder";
+
+
+a.href="./"+
+encodeURIComponent(folder.name)+
+"/";
+
+
+a.innerHTML=
+'<div class="title">📁 '+
+esc(clean(folder.name))+
+'</div>'+
+'<div class="file">Folder खोलें →</div>';
+
+
+box.appendChild(a);
+
+});
+
+
+files.forEach(file=>{
+
+const d=document.createElement("div");
+
+d.className="card";
+
+
+d.onclick=()=>openTest(file.name);
+
+
+d.innerHTML=
+'<div class="title">📝 '+
+esc(clean(file.name))+
+'</div>'+
+'<div class="file">'+
+esc(file.name)+
+'</div>';
+
+
+box.appendChild(d);
+
+});
+
+
+if(!folders.length && !files.length){
+
+box.innerHTML=
+'<div class="empty">'+
+'अभी कोई HTML Test या Folder नहीं मिला।'+
+'</div>';
+
+}
+
+}
+
+
+function searchItems(){
+
+const q=
+document.getElementById("search")
+.value
+.toLowerCase()
+.trim();
+
+
+const oldFolders=folders;
+
+const oldFiles=files;
+
+
+folders=oldFolders.filter(x=>
+x.name.toLowerCase().includes(q)
+);
+
+
+files=oldFiles.filter(x=>
+x.name.toLowerCase().includes(q)
+);
+
+
+render();
+
+
+folders=oldFolders;
+
+files=oldFiles;
+
+}
+
+
+function openTest(name){
+
+/*
+IMPORTANT:
+HTML files इसी HARYANA-CURRENT folder
+के अंदर हैं।
+
+इसलिए सीधे उसी folder से file खुलेगी।
+*/
+
+document.getElementById("frame").src=
+"./"+
+encodeURIComponent(name);
+
+
+document.getElementById("viewerTitle")
+.textContent=clean(name);
+
+
+document.getElementById("viewer")
+.style.display="block";
+
+}
+
+
+function closeTest(){
+
+document.getElementById("viewer")
+.style.display="none";
+
+document.getElementById("frame")
+.src="";
+
+}
+
+
+function fullScreen(){
+
+if(!document.fullscreenElement){
+
+document.documentElement
+.requestFullscreen()
+.catch(()=>{});
+
+}
+else{
+
+document.exitFullscreen()
+.catch(()=>{});
+
+}
+
+}
+
+
+function goBack(){
+
+location.href="../";
+
+}
+
+
 load();
-</script></body></html>
+
+</script>
+
+</body>
+</html>
