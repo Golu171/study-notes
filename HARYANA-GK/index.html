@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HARYANA GK</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ padding:15px;
+ font-family:Arial,sans-serif;
+ background:#f3f6fb;
+ color:#172033
+}
+.wrap{max-width:900px;margin:auto}
+.top{
+ background:linear-gradient(135deg,#0f9d58,#087f46);
+ color:white;
+ border-radius:20px;
+ padding:18px;
+ box-shadow:0 8px 22px #0002
+}
+.row{
+ display:flex;
+ justify-content:space-between;
+ gap:10px
+}
+button{
+ border:0;
+ border-radius:10px;
+ padding:9px 13px;
+ background:#ffffff2b;
+ color:white;
+ font-size:16px
+}
+h1{margin:18px 0 5px;font-size:29px}
+.sub{margin:0}
+.search{
+ width:100%;
+ margin-top:16px;
+ padding:13px;
+ border:0;
+ border-radius:12px;
+ font-size:16px;
+ outline:0
+}
+h2{font-size:21px;margin:24px 2px 12px}
+#status{color:#687386;margin-bottom:14px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.card{
+  background:linear-gradient(145deg,#ffffff,#f4f8fb);
+  border:1px solid #d8e2ea;
+  border-radius:20px;
+  padding:16px;
+  min-height:150px;
+  box-shadow:0 7px 18px #14233c16;
+  cursor:pointer;
+  text-decoration:none;
+  color:inherit;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  position:relative;
+  overflow:hidden;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.card:active{
+  transform:scale(.98);
+}
+.card::after{
+  content:"";
+  position:absolute;
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  right:-35px;
+  top:-35px;
+  background:#0f9d5810;
+}
+.card-icon{
+  width:52px;
+  height:52px;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:27px;
+  background:#dff1f0;
+  color:#17656a;
+  border:1px solid #c8dfde;
+  margin-bottom:12px;
+}
+.card.folder .card-icon{
+  background:#e7f4ea;
+  color:#087f46;
+  border-color:#c7e2cf;
+}
+.title{
+  font-size:19px;
+  font-weight:800;
+  line-height:1.25;
+  position:relative;
+  z-index:1;
+}
+.file{
+  font-size:13px;
+  color:#788393;
+  margin-top:7px;
+  position:relative;
+  z-index:1;
+}
+.card-meta{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  max-width:100%;
+  margin-top:10px;
+  padding:5px 9px;
+  border-radius:999px;
+  background:#e9f5ee;
+  color:#198754;
+  font-size:12px;
+  font-weight:700;
+  position:relative;
+  z-index:1;
+}
+.folder .title{color:#17656a}
+.empty{
+ background:white;
+ padding:20px;
+ border-radius:18px;
+ color:#687386
+}
+.viewer{
+ display:none;
+ position:fixed;
+ inset:0;
+ background:white;
+ z-index:9999
+}
+.viewerbar{
+ height:54px;
+ background:#087f46;
+ color:white;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:10px;
+ padding:8px 12px
+}
+.viewerbar span{
+ overflow:hidden;
+ text-overflow:ellipsis;
+ white-space:nowrap;
+ font-weight:bold
+}
+iframe{
+ width:100%;
+ height:calc(100vh - 54px);
+ border:0
+}
+@media(max-width:600px){
+ body{padding:10px}
+ h1{font-size:27px}
+ .title{font-size:18px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<div class="top">
+
+<div class="row">
+<button onclick="goBack()">← Back</button>
+<button onclick="fullScreen()">⛶ Full Screen</button>
+</div>
+
+<h1 id="heading">📚 HARYANA GK</h1>
+
+<p class="sub" id="sub">
+सभी Haryana GK Tests और Folders
+</p>
+
+<input
+ id="search"
+ class="search"
+ type="search"
+ placeholder="🔎 Test या Folder खोजें..."
+ oninput="searchItems()">
+
+</div>
+
+<h2>📁 Available</h2>
+
+<div id="status">Loading...</div>
+
+<div id="items" class="grid"></div>
+
+</div>
+
+
+<div id="viewer" class="viewer">
+
+<div class="viewerbar">
+
+<button onclick="closeTest()">← Tests</button>
+
+<span id="viewerTitle">Test</span>
+
+<button onclick="fullScreen()">⛶</button>
+
+</div>
+
+<iframe id="frame" allowfullscreen></iframe>
+
+</div>
+
+
+<script>
+
+const ROOT="HARYANA-GK";
+const MANIFEST="/site-index.json";
+
+let currentPath=ROOT;
+let folders=[];
+let files=[];
+
+function clean(name){
+
+return name
+.replace(/\.html$/i,"")
+.replace(/[_-]+/g," ")
+.replace(/\s+/g," ")
+.trim();
+
+}
+
+
+function escapeHTML(text){
+
+const d=document.createElement("div");
+d.textContent=text;
+return d.innerHTML;
+
+}
+
+
+function sortName(a,b){
+
+return a.name.localeCompare(
+ b.name,
+ undefined,
+ {numeric:true,sensitivity:"base"}
+);
+
+}
+
+
+async function load(){
+
+  try{
+
+    const response = await fetch(
+      MANIFEST + "?v=" + Date.now(),
+      {cache:"no-store"}
+    );
+
+    if(!response.ok)
+      throw new Error("Manifest Error");
+
+    const data = await response.json();
+
+    const prefix = currentPath + "/";
+
+    folders = data
+      .filter(x =>
+        x.type==="dir" &&
+        x.path.startsWith(prefix) &&
+        !x.path.slice(prefix.length).includes("/")
+      )
+      .sort(sortName);
+
+    files = data
+      .filter(x =>
+        x.type==="file" &&
+        x.path.startsWith(prefix) &&
+        !x.path.slice(prefix.length).includes("/") &&
+        /\.html$/i.test(x.name) &&
+        x.name.toLowerCase()!=="index.html"
+      )
+      .sort(sortName);
+
+    let name=currentPath.split("/").pop();
+
+    document.getElementById("heading")
+      .textContent="📚 "+clean(name).toUpperCase();
+
+    document.getElementById("status").textContent =
+      folders.length+" Folder"+(folders.length==1?"":"s")+
+      " + "+files.length+" HTML Test"+(files.length==1?"":"s")+" मिले";
+
+    render();
+
+  }catch(error){
+
+    console.error(error);
+
+    document.getElementById("status")
+      .textContent="Files load नहीं हो पाईं";
+
+    document.getElementById("items").innerHTML =
+      '<div class="empty">Cloudflare manifest नहीं मिला। पहले build.js के साथ deployment करें।</div>';
+  }
+}
+
+
+function render(){
+
+  const box=document.getElementById("items");
+  box.innerHTML="";
+
+  folders.forEach(folder=>{
+
+    const a=document.createElement("a");
+
+    a.className="card folder";
+
+    a.href =
+      "./?folder="+encodeURIComponent(folder.path);
+
+    a.innerHTML =
+      '<div>'+
+        '<div class="card-icon">▣</div>'+
+        '<div class="title">'+escapeHTML(clean(folder.name))+'</div>'+
+      '</div>'+
+      '<div class="card-meta">📁 Folder खोलें →</div>';
+
+    box.appendChild(a);
+  });
+
+  files.forEach(file=>{
+
+    const div=document.createElement("div");
+
+    div.className="card";
+
+    div.onclick=()=>openTest(file);
+
+    div.innerHTML =
+      '<div>'+
+        '<div class="card-icon">▤</div>'+
+        '<div class="title">'+escapeHTML(clean(file.name))+'</div>'+
+        '<div class="file">'+escapeHTML(file.name)+'</div>'+
+      '</div>'+
+      '<div class="card-meta">▶ Test खोलें</div>';
+
+    box.appendChild(div);
+  });
+
+  if(!folders.length && !files.length){
+
+    box.innerHTML =
+      '<div class="empty">अभी कोई Test या Folder नहीं मिला।</div>';
+  }
+}
+
+
+function searchItems(){
+
+const q=
+document.getElementById("search")
+.value.toLowerCase()
+.trim();
+
+
+const oldFolders=folders;
+const oldFiles=files;
+
+
+folders=oldFolders.filter(x=>
+ x.name.toLowerCase().includes(q)
+);
+
+files=oldFiles.filter(x=>
+ x.name.toLowerCase().includes(q)
+);
+
+
+render();
+
+
+folders=oldFolders;
+files=oldFiles;
+
+}
+
+
+function openTest(file){
+
+document.getElementById("frame").src=
+"./"+encodeURIComponent(file.name);
+
+document.getElementById("viewerTitle")
+.textContent=clean(file.name);
+
+document.getElementById("viewer")
+.style.display="block";
+
+}
+
+
+function closeTest(){
+
+document.getElementById("viewer")
+.style.display="none";
+
+document.getElementById("frame").src="";
+
+}
+
+
+function fullScreen(){
+
+if(!document.fullscreenElement){
+
+document.documentElement
+.requestFullscreen()
+.catch(()=>{});
+
+}else{
+
+document.exitFullscreen()
+.catch(()=>{});
+
+}
+
+}
+
+
+function goBack(){
+
+if(currentPath===ROOT){
+
+location.href="/";
+
+return;
+
+}
+
+const parts=currentPath.split("/");
+
+parts.pop();
+
+location.href=
+location.pathname+
+"?folder="+
+encodeURIComponent(parts.join("/"));
+
+}
+
+
+const params=
+new URLSearchParams(location.search);
+
+const requested=
+params.get("folder");
+
+
+if(
+ requested &&
+ requested.startsWith(ROOT+"/")
+){
+
+currentPath=requested;
+
+}
+
+
+load();
+
+</script>
+
+</body>
+  </html>
