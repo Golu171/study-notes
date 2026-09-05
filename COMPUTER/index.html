@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>COMPUTER • Study Notes</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#f1f5fb;
+  color:#172238;
+  font-family:Arial,"Noto Sans Devanagari",sans-serif;
+}
+.wrap{max-width:1000px;margin:auto;padding:18px 20px 40px}
+.top{
+  display:flex;justify-content:flex-end;gap:8px;margin-bottom:8px
+}
+.tool{
+  width:72px;height:58px;border:1px solid #d8e0e8;border-radius:17px;
+  background:#fff;font-size:27px;box-shadow:0 5px 14px #00000012;
+  cursor:pointer
+}
+h1{
+  margin:4px 0 22px;font-size:38px;font-weight:900;
+  letter-spacing:-1px
+}
+.folder-title{display:flex;align-items:center;gap:10px}
+.folder-title .emoji{font-size:35px}
+.list{display:grid;grid-template-columns:1fr;gap:12px}
+.card{
+  min-height:145px;background:#fff;border:1px solid #d8e0e8;
+  border-radius:28px;padding:28px 30px;display:flex;align-items:center;
+  gap:25px;box-shadow:0 7px 20px #00000010;cursor:pointer;
+  transition:.15s
+}
+.card:active{transform:scale(.99)}
+.icon{
+  width:185px;min-width:185px;height:185px;border-radius:28px;
+  background:#edfafa;border:1px solid #d8e6e8;
+  display:flex;align-items:center;justify-content:center
+}
+.folder-svg{width:105px;height:105px}
+.info{flex:1;min-width:0}
+.name{
+  color:#3d56a3;font-size:31px;font-weight:900;
+  margin-bottom:10px;line-height:1.15
+}
+.meta{
+  color:#6e7988;font-size:23px;line-height:1.45
+}
+.arrow{font-size:48px;color:#707983;font-weight:500}
+.empty{
+  color:#6e7988;font-size:20px;text-align:center;padding:35px 10px
+}
+.note{
+  margin:24px 4px 0;text-align:center;color:#697789;
+  font-size:20px;line-height:1.5
+}
+@media(max-width:600px){
+  .wrap{padding:12px 20px 35px}
+  .top{margin-bottom:3px}
+  .tool{width:72px;height:58px}
+  h1{font-size:37px;margin-bottom:22px}
+  .list{gap:12px}
+  .card{min-height:150px;padding:24px 18px;gap:18px;border-radius:28px}
+  .icon{width:185px;min-width:185px;height:185px}
+  .name{font-size:29px}
+  .meta{font-size:22px}
+  .arrow{font-size:44px}
+}
+@media(max-width:430px){
+  .card{padding:22px 16px;gap:15px}
+  .icon{width:105px;min-width:105px;height:105px;border-radius:25px}
+  .folder-svg{width:68px;height:68px}
+  .name{font-size:23px}
+  .meta{font-size:18px}
+  .arrow{font-size:38px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <button class="tool" onclick="toggleFullscreen()" aria-label="Fullscreen">⛶</button>
+    <button class="tool" onclick="toggleDark()" aria-label="Dark mode">🌙</button>
+  </div>
+
+  <h1 class="folder-title"><span class="emoji">📁</span> Select Folder</h1>
+  <div id="list" class="list"></div>
+  <div class="note" id="note"></div>
+</div>
+
+<script>
+const OWNER="Golu171";
+const REPO="study-notes";
+const BRANCH="main";
+const ROOT="COMPUTER";
+
+const folderSVG=`
+<svg class="folder-svg" viewBox="0 0 120 120" fill="none">
+  <path d="M14 37c0-6 5-11 11-11h25l11 12h24c7 0 12 5 12 12v39c0 7-5 12-12 12H26c-7 0-12-5-12-12V37Z"
+    stroke="#4d8586" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M16 48h77" stroke="#4d8586" stroke-width="7" stroke-linecap="round"/>
+</svg>`;
+
+function encPath(path){
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
+function openItem(path,type){
+  const url=location.origin+"/"+REPO+"/"+encPath(path);
+  if(type==="folder"){
+    location.href=url+"/";
+  }else{
+    location.href=url;
+  }
+}
+
+async function load(){
+  const list=document.getElementById("list");
+  const note=document.getElementById("note");
+  try{
+    const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${encPath(ROOT)}?ref=${BRANCH}`;
+    const res=await fetch(api,{cache:"no-store"});
+    if(!res.ok) throw new Error("GitHub API error");
+    const items=await res.json();
+
+    const folders=items.filter(x=>x.type==="dir");
+    const files=items.filter(x=>x.type==="file" &&
+      x.name.toLowerCase().endsWith(".html") &&
+      x.name.toLowerCase()!=="index.html");
+
+    list.innerHTML="";
+    const all=[...folders,...files];
+
+    all.forEach(x=>{
+      const card=document.createElement("div");
+      card.className="card";
+      const isFolder=x.type==="dir";
+      const display=x.name.replace(/\.html$/i,"").replace(/[-_]+/g," ");
+      card.innerHTML=`
+        <div class="icon">${folderSVG}</div>
+        <div class="info">
+          <div class="name">${display}</div>
+          <div class="meta">${isFolder ? "Folder • Open to view Parts / Tests" : "HTML Test / Part"}</div>
+        </div>
+        <div class="arrow">›</div>`;
+      card.onclick=()=>openItem(x.path,x.type);
+      list.appendChild(card);
+    });
+
+    note.textContent = all.length
+      ? "Computer ke HTML Tests / Parts yahan automatically show honge."
+      : "Is folder me abhi koi HTML Test / Part nahi mila.";
+  }catch(e){
+    list.innerHTML='<div class="empty">Files load nahi ho pa rahi hain. GitHub Pages par thodi der baad refresh karein.</div>';
+    note.textContent="";
+  }
+}
+
+function toggleDark(){
+  document.body.classList.toggle("dark");
+  if(document.body.classList.contains("dark")){
+    document.body.style.background="#111827";
+    document.body.style.color="#f1f5f9";
+    document.querySelectorAll(".card").forEach(x=>x.style.background="#1f2937");
+  }else{
+    document.body.style.background="#f1f5fb";
+    document.body.style.color="#172238";
+    document.querySelectorAll(".card").forEach(x=>x.style.background="#fff");
+  }
+}
+function toggleFullscreen(){
+  if(!document.fullscreenElement){
+    document.documentElement.requestFullscreen?.();
+  }else{
+    document.exitFullscreen?.();
+  }
+}
+load();
+</script>
+</body>
+</html>
