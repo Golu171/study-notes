@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MATHEMATICS</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Poppins,Arial,sans-serif}
+body{background:#f3f6fb;color:#172033;padding:12px 10px 30px}
+.wrap{max-width:900px;margin:auto}
+
+.top{
+  background:#205e61;
+  color:#fff;
+  border-radius:22px;
+  padding:15px;
+  box-shadow:0 9px 24px rgba(25,48,70,.16);
+}
+.toprow{display:flex;justify-content:space-between;gap:9px}
+.btn{
+  border:0;border-radius:12px;padding:9px 12px;
+  background:rgba(255,255,255,.16);color:#fff;
+  font-size:14px;font-weight:700;cursor:pointer
+}
+h1{margin:15px 0 3px;font-size:28px;font-weight:900}
+.sub{margin:0;font-size:14px;opacity:.92}
+.search{
+  width:100%;margin-top:14px;padding:12px 14px;
+  border:0;border-radius:13px;outline:0;font-size:15px;
+  background:#fff;color:#172033
+}
+h2{
+  margin:27px 2px 12px;padding-left:14px;position:relative;
+  font-size:24px;color:#596276;font-weight:900
+}
+h2:before{
+  content:"";position:absolute;left:0;top:2px;
+  width:5px;height:23px;border-radius:5px;background:#4c8f92
+}
+#status{display:none}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px
+}
+.card{
+  min-height:150px;
+  border-radius:21px;
+  padding:18px 15px;
+  border:1.5px solid rgba(91,111,130,.28);
+  box-shadow:0 4px 12px rgba(40,55,75,.08);
+  cursor:pointer;
+  text-decoration:none;
+  color:#182034;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  transition:transform .12s ease
+}
+.card:active{transform:scale(.975)}
+.card:nth-child(6n+1){background:#d9e8e9}
+.card:nth-child(6n+2){background:#d9dce8}
+.card:nth-child(6n+3){background:#d5e8df}
+.card:nth-child(6n+4){background:#ddd9eb}
+.card:nth-child(6n+5){background:#dce9d7}
+.card:nth-child(6n+6){background:#e0d6e5}
+
+.card-icon{
+  width:52px;height:52px;border-radius:17px;
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(255,255,255,.25);
+  border:1px solid rgba(90,115,130,.12);
+  margin-bottom:14px;color:#3d7377
+}
+.card-icon svg{width:33px;height:33px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.test-icon{font-size:29px;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}
+.title{font-size:17px;line-height:1.25;font-weight:900;word-break:break-word}
+.file{margin-top:6px;font-size:11px;color:#7d8795;line-height:1.25;word-break:break-all}
+.empty{
+  grid-column:1/-1;background:#fff;padding:20px;border-radius:18px;
+  color:#687386
+}
+.viewer{
+  display:none;position:fixed;inset:0;background:#fff;z-index:9999
+}
+.viewerbar{
+  height:54px;background:#205e61;color:#fff;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:8px;padding:8px 10px
+}
+.viewerbar button{
+  border:0;border-radius:10px;background:rgba(255,255,255,.17);
+  color:#fff;padding:8px 11px;font-size:14px;font-weight:700
+}
+.viewerbar span{
+  flex:1;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap;text-align:center;font-weight:800
+}
+iframe{width:100%;height:calc(100vh - 54px);border:0}
+
+body.dark{background:#111827;color:#eef2f7}
+body.dark h2{color:#cbd2df}
+body.dark .card:nth-child(6n+1){background:#294247}
+body.dark .card:nth-child(6n+2){background:#35394a}
+body.dark .card:nth-child(6n+3){background:#29453b}
+body.dark .card:nth-child(6n+4){background:#403a4e}
+body.dark .card:nth-child(6n+5){background:#354631}
+body.dark .card:nth-child(6n+6){background:#433748}
+body.dark .card{border-color:rgba(255,255,255,.13);color:#f2f5f8}
+body.dark .file{color:#b7bfca}
+body.dark .card-icon{background:rgba(255,255,255,.10);color:#b8d5d6}
+
+@media(max-width:600px){
+  h1{font-size:27px}
+  .title{font-size:16px}
+  .card{min-height:148px;padding:18px 14px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="toprow">
+      <button class="btn" onclick="goBack()">← Home</button>
+      <button class="btn" onclick="toggleFull()">⛶ Full Screen</button>
+    </div>
+    <h1 id="heading">📚 MATHEMATICS</h1>
+    <p id="sub" class="sub">सभी Haryana GK HTML Tests यहाँ मिलेंगे</p>
+    <input id="search" class="search" type="search"
+           placeholder="🔎 Test या Folder खोजें..." oninput="filterItems()">
+  </div>
+
+  <h2>अभ्यास</h2>
+  <div id="status"></div>
+  <div id="items" class="grid"></div>
+</div>
+
+<div id="viewer" class="viewer">
+  <div class="viewerbar">
+    <button onclick="closeTest()">← Tests</button>
+    <span id="viewerTitle">Test</span>
+    <button onclick="toggleFull()">⛶</button>
+  </div>
+  <iframe id="testFrame" allowfullscreen></iframe>
+</div>
+
+<script>
+const OWNER="Golu171";
+const REPO="study-notes";
+const ROOT="MATHEMATICS";
+const BRANCH="main";
+
+let currentPath=ROOT;
+let allFolders=[];
+let allFiles=[];
+
+function apiUrl(path){
+  return "https://api.github.com/repos/"+OWNER+"/"+REPO+
+    "/contents/"+path.split("/").map(encodeURIComponent).join("/")+
+    "?ref="+BRANCH;
+}
+
+function clean(n){
+  return n.replace(/\.html$/i,"").replace(/[_-]+/g," ")
+    .replace(/\s+/g," ").trim();
+}
+
+function esc(t){
+  const d=document.createElement("div");
+  d.textContent=t;
+  return d.innerHTML;
+}
+
+function sortByName(a,b){
+  return a.name.localeCompare(b.name,undefined,
+    {numeric:true,sensitivity:"base"});
+}
+
+function bookIcon(){
+  return `<svg viewBox="0 0 48 48">
+    <path d="M8 10.5c6.5-2.2 11.8-.9 16 2.8v25.2c4.2-3.7 9.5-5 16-2.8z"/>
+    <path d="M40 10.5c-6.5-2.2-11.8-.9-16 2.8v25.2c4.2-3.7 9.5-5-16-2.8z"/>
+    <path d="M24 13.3v25.2"/>
+  </svg>`;
+}
+
+function fileIcon(){
+  return `<svg viewBox="0 0 48 48">
+    <rect x="11" y="7" width="25" height="34" rx="3"/>
+    <path d="M17 15h13M17 21h13M17 27h10M17 33h7"/>
+    <path d="M36 15h3a2 2 0 0 1 2 2v22a2 2 0 0 1-2 2H18"/>
+  </svg>`;
+}
+
+function folderIcon(){
+  return `<svg viewBox="0 0 48 48">
+    <path d="M7 15h13l3 4h18v18a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4z"/>
+    <path d="M7 15v-2a4 4 0 0 1 4-4h8l4 4h14a4 4 0 0 1 4 4"/>
+  </svg>`;
+}
+
+function iconForFile(){
+  return fileIcon();
+}
+
+async function loadFolder(){
+  const box=document.getElementById("items");
+
+  box.innerHTML='<div class="empty">Tests लोड हो रहे हैं...</div>';
+
+  try{
+    const r=await fetch(apiUrl(currentPath),{
+      headers:{"Accept":"application/vnd.github+json"}
+    });
+
+    if(!r.ok) throw new Error("GitHub API error");
+
+    const data=await r.json();
+
+    allFolders=data.filter(x=>x.type==="dir").sort(sortByName);
+
+    allFiles=data.filter(x=>
+      x.type==="file" &&
+      /\.html$/i.test(x.name) &&
+      x.name.toLowerCase()!=="index.html"
+    ).sort(sortByName);
+
+    const label=currentPath===ROOT
+      ? "MATHEMATICS"
+      : clean(currentPath.split("/").pop()).toUpperCase();
+
+    document.getElementById("heading").textContent="📚 "+label;
+
+    document.getElementById("sub").textContent=
+      allFiles.length+" HTML Tests"+(allFolders.length
+      ? " • "+allFolders.length+" Subfolders":"");
+
+    render(allFolders,allFiles);
+
+  }catch(e){
+    console.error(e);
+    box.innerHTML=
+      '<div class="empty">GitHub से Tests नहीं मिल पाए। Internet check करके page refresh करें।</div>';
+  }
+}
+
+function render(folders,files){
+  const box=document.getElementById("items");
+  box.innerHTML="";
+
+  folders.forEach(folder=>{
+    const a=document.createElement("a");
+    a.className="card";
+    a.href=pageUrl(folder.path);
+
+    a.innerHTML=
+      '<div class="card-icon">'+folderIcon()+'</div>'+
+      '<div class="title">'+esc(clean(folder.name))+'</div>';
+
+    box.appendChild(a);
+  });
+
+  files.forEach(file=>{
+    const d=document.createElement("div");
+    d.className="card";
+    d.onclick=()=>openTest(file);
+
+    d.innerHTML=
+      '<div class="card-icon">'+iconForFile()+'</div>'+
+      '<div class="title">'+esc(clean(file.name))+'</div>'+
+      '<div class="file">'+esc(file.name)+'</div>';
+
+    box.appendChild(d);
+  });
+
+  if(!folders.length&&!files.length){
+    box.innerHTML=
+      '<div class="empty">अभी कोई HTML Test या Folder नहीं मिला।</div>';
+  }
+}
+
+function filterItems(){
+  const q=document.getElementById("search").value.toLowerCase().trim();
+
+  render(
+    allFolders.filter(x=>x.name.toLowerCase().includes(q)),
+    allFiles.filter(x=>x.name.toLowerCase().includes(q))
+  );
+}
+
+function pageUrl(path){
+  return location.pathname+"?folder="+encodeURIComponent(path);
+}
+
+function openTest(file){
+  document.getElementById("testFrame").src=
+    "./"+file.name.split("/").map(encodeURIComponent).join("/");
+
+  document.getElementById("viewerTitle").textContent=clean(file.name);
+  document.getElementById("viewer").style.display="block";
+}
+
+function closeTest(){
+  document.getElementById("viewer").style.display="none";
+  document.getElementById("testFrame").src="";
+}
+
+function toggleFull(){
+  if(document.fullscreenElement){
+    document.exitFullscreen().catch(()=>{});
+  }else{
+    document.documentElement.requestFullscreen?.().catch(()=>{});
+  }
+}
+
+function goBack(){
+  if(currentPath===ROOT){
+    location.href="../index.html";
+    return;
+  }
+
+  const parts=currentPath.split("/");
+  parts.pop();
+
+  if(parts.length===1 && parts[0]===ROOT){
+    location.href=location.pathname;
+  }else{
+    location.href=pageUrl(parts.join("/"));
+  }
+}
+
+const params=new URLSearchParams(location.search);
+const requested=params.get("folder");
+
+if(requested && (requested===ROOT || requested.startsWith(ROOT+"/"))){
+  currentPath=requested;
+}
+
+loadFolder();
+</script>
+</body>
+</html>
