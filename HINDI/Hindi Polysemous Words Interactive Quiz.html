@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>अनेकार्थक शब्द - ऑनलाइन अभ्यास परीक्षा (Mock Test)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Yatra+One&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['"Yatra One"', 'cursive', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #94a3b8;
+      border-radius: 4px;
+    }
+    .dark ::-webkit-scrollbar-thumb {
+      background: #475569;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-white transition-colors duration-200 min-h-screen flex flex-col font-sans selection:bg-indigo-500 selection:text-white">
+
+  <!-- Header Section with Controls -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-900/85 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3.5 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
+          अ
+        </div>
+        <div>
+          <h1 class="text-lg sm:text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+            अनेकार्थक शब्द अभ्यास परीक्षा
+          </h1>
+          <p class="text-xs text-slate-500 dark:text-slate-300 font-medium">कुल 146 प्रश्न | संपूर्ण पुस्तक शब्दावली</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Live Score Counter -->
+        <div class="hidden sm:flex items-center space-x-3 text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+          <span class="text-emerald-600 dark:text-emerald-400" id="headerCorrect">सही: 0</span>
+          <span class="text-rose-600 dark:text-rose-400" id="headerWrong">गलत: 0</span>
+          <span class="text-slate-600 dark:text-slate-300" id="headerAttempted">हल: 0/146</span>
+        </div>
+
+        <!-- Fullscreen Button -->
+        <button id="fullscreenBtn" onclick="toggleFullScreen()" title="फुल स्क्रीन टॉगल करें" class="p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all shadow-sm">
+          <svg id="fullscreenIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-5h-4m4 0v4m0-4l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/>
+          </svg>
+        </button>
+
+        <!-- Dark Theme Toggle Button -->
+        <button id="themeToggleBtn" onclick="toggleDarkMode()" title="डार्क / लाइट मोड बदलें" class="p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-slate-700 active:scale-95 transition-all shadow-sm flex items-center gap-1.5">
+          <svg id="sunIcon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
+          </svg>
+          <svg id="moonIcon" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+          </svg>
+          <span class="text-xs font-semibold hidden sm:inline" id="themeText">डार्क मोड</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Progress Bar & Instruction Banner -->
+  <div class="bg-indigo-50/70 dark:bg-slate-900 border-b border-indigo-100 dark:border-slate-800 py-3 px-4">
+    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs sm:text-sm">
+      <div class="flex items-center text-indigo-900 dark:text-indigo-200">
+        <svg class="w-4 h-4 mr-1.5 flex-shrink-0 text-indigo-600 dark:text-indigo-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+        </svg>
+        <span><strong>निर्देश:</strong> विकल्प पर क्लिक करके उत्तर जांचें। चयनित विकल्प पर पुनः क्लिक करने से व्याख्या छिप (Hide) या दिख (Show) सकती है।</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <button onclick="resetAllQuiz()" class="text-xs text-rose-600 dark:text-rose-400 hover:underline font-semibold">
+          सब रीसेट करें
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full bg-slate-200 dark:bg-slate-800 h-1.5 sticky top-[65px] z-40">
+    <div id="quizProgressBar" class="bg-indigo-600 dark:bg-indigo-500 h-1.5 transition-all duration-300 w-0"></div>
+  </div>
+
+  <!-- Main Container -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full space-y-6" id="quizContainer">
+    <!-- Questions dynamically injected by JS -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-6 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-center text-xs text-slate-500 dark:text-slate-400 transition-colors">
+    सामान्य हिन्दी व्याकरण | अनेकार्थक शब्द वस्तुनिष्ठ टेस्ट श्रृंखला
+  </footer>
+
+  <!-- Notification Toast Container -->
+  <div id="toastBox" class="fixed bottom-6 right-6 z-50 transform transition-all duration-300 translate-y-20 opacity-0 pointer-events-none">
+    <div class="bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2.5 rounded-xl shadow-xl text-sm font-medium flex items-center gap-2">
+      <span id="toastMsg">अलर्ट</span>
+    </div>
+  </div>
+
+  <script>
+    // Complete Dataset strictly following the provided images
+    const rawData = [
+      // Page 1: अ, आ, इ (1-85)
+      { id: 1, word: "अंक", exp: "चिह्न। संख्या का चिह्न; जैसे— 1, 2, 3। भाग्य, दाग, नाटक का एक अंश, जिसके अंत में यवनिका गिरा दी जाती है, गोद।" },
+      { id: 2, word: "अंग", exp: "शरीर, अंश।" },
+      { id: 3, word: "अंत", exp: "समाप्ति, सीमा, मृत्यु, परिणाम।" },
+      { id: 4, word: "अंतर", exp: "फर्क, बीच, दूरी, छिद्र, भीतर।" },
+      { id: 5, word: "अंतःकरण", exp: "हृदय, विवेक।" },
+      { id: 6, word: "अंबर", exp: "वस्त्र, आकाश, कपास।" },
+      { id: 7, word: "अंबुज", exp: "कमल, बेंत, वज्र, बह्म।" },
+      { id: 8, word: "अंशु", exp: "किरण, सूत, सूर्य।" },
+      { id: 9, word: "अकाल", exp: "कुसमय, दुर्भिक्ष, कमी।" },
+      { id: 10, word: "अक्षम", exp: "क्षमारहित, असमर्थ।" },
+      { id: 11, word: "अक्षर", exp: "अविनाशी, वर्ण, आत्म, बह्म, आकाश, मोक्ष, जल।" },
+      { id: 12, word: "अखंड", exp: "संपूर्ण, लगातार, निर्विघ्न।" },
+      { id: 13, word: "अखाड़ा", exp: "कुश्ती करने की जगह, साधुओं की जमायत।" },
+      { id: 14, word: "अगुआ", exp: "नेता, विवाह की बातचीत करनेवाला।" },
+      { id: 15, word: "अघ", exp: "पाप, दुःख, व्यसन।" },
+      { id: 16, word: "अघोर", exp: "सुहावना, बहुत भयंकर, शिव का एक रूप।" },
+      { id: 17, word: "अचल", exp: "चिरस्थायी, मजबूत, पर्वत।" },
+      { id: 18, word: "अचेत", exp: "बेहोश, अज्ञानी।" },
+      { id: 19, word: "अज", exp: "ब्रह्मा, विष्णु, शिव, कामदेव, बकरा।" },
+      { id: 20, word: "अतीत", exp: "बीता हुआ, पृथक्, मृत।" },
+      { id: 21, word: "अधर", exp: "नीचे का ओठ, अंतरिक्ष।" },
+      { id: 22, word: "अनन्त", exp: "असीम, अविनाशी, विष्णु, शेषनाग, आकाश।" },
+      { id: 23, word: "अनन्तर", exp: "पीछे, बाद, लगातार।" },
+      { id: 24, word: "अनागत", exp: "भावी, अपरिचित, अनादि, अपूर्व।" },
+      { id: 25, word: "अनाम", exp: "बिना नाम का, अप्रसिद्ध।" },
+      { id: 26, word: "अनी", exp: "नोक, समूह, सेना।" },
+      { id: 27, word: "अनुकूल", exp: "मुआफिक, पक्ष में रहनेवाला, प्रसन्न।" },
+      { id: 28, word: "अपवाद", exp: "खंडन, विरोध, निन्दा, वह नियम जो व्यापक नियम के विरुद्ध हो।" },
+      { id: 29, word: "अपूर्व", exp: "जो पहले न रहा हो, अद्भुत, उत्तम।" },
+      { id: 30, word: "अपेक्षा", exp: "चाह, आवश्यकता, मुकाबले, तुलना में।" },
+      { id: 31, word: "अप्रामाणिक", exp: "जो प्रमाण से सिद्ध न हो, जिस पर विश्वास न किया जा सके।" },
+      { id: 32, word: "अब्ज", exp: "कमल, शंख, चन्द्रमा, कपूर, धन्वन्तरि, सौ करोड़, अरब।" },
+      { id: 33, word: "अब्धि", exp: "समुद्र, सरोवर।" },
+      { id: 34, word: "अभक्त", exp: "भक्ति-शून्य, समूचा।" },
+      { id: 35, word: "अभाव", exp: "मौजूद न होना, कमी।" },
+      { id: 36, word: "अभिजान", exp: "कुल, परिवार, जन्मभूमि, वह जो घर में सबसे बड़ा हो।" },
+      { id: 37, word: "अभिजात", exp: "कुलीन, पंडित, पूज्य, मनोहर।" },
+      { id: 38, word: "अभिनन्दन", exp: "आनन्द, प्रशंसा, विनीत, प्रार्थना।" },
+      { id: 39, word: "अभिनीत", exp: "निकट लाया हुआ, अलंकृत, जिसका अभिनय किया गया हो।" },
+      { id: 40, word: "अभिभावक", exp: "रक्षक, पराजित करनेवाला, वशीभूत करनेवाला।" },
+      { id: 41, word: "अभिषेक", exp: "जल से सिंचन, बाधा-शांति के लिए कुश से जल छिड़कना, राजगद्दी।" },
+      { id: 42, word: "अभिसार", exp: "सहाय, युद्ध, प्रिय से मिलने संकेत-स्थल को जाना।" },
+      { id: 43, word: "अमीर", exp: "सरदार, धनी।" },
+      { id: 44, word: "अमृत", exp: "सुधा, जल, घी, अन्न, दूध, पारा, सोना।" },
+      { id: 45, word: "अरुचि", exp: "अनिच्छा, घृणा।" },
+      { id: 46, word: "अरुण", exp: "लाल, सूर्य, सूर्य का सारथी, सिन्दूर।" },
+      { id: 47, word: "अर्घ", exp: "देवता को समर्पित किया जानेवाला द्रव्य, मूल्य, मधु।" },
+      { id: 48, word: "अलि", exp: "भौंरा, कोयल, कौवा, कुत्ता, मदिरा, बिच्छु।" },
+      { id: 49, word: "अलीक", exp: "झूठ, अप्रतिष्ठित।" },
+      { id: 50, word: "अवकाश", exp: "बीच की खाली जगह, आकाश, दूरी, अवसर, समय।" },
+      { id: 51, word: "अवगत", exp: "विदित, गिरा हुआ।" },
+      { id: 52, word: "अवधि", exp: "सीमा, निर्धारित समय।" },
+      { id: 53, word: "अवनत", exp: "झुका हुआ, पतित।" },
+      { id: 54, word: "अवनति", exp: "कमी, हीन दशा, झुकाव, नम्रता।" },
+      { id: 55, word: "अवसाद", exp: "नाश, विषाद, थकावट, कमजोरी।" },
+      { id: 56, word: "अवस्था", exp: "दशा, समय, आयु, स्थिति।" },
+      { id: 57, word: "अशुद्ध", exp: "अपवित्र, बिना शोधा हुआ, गलत।" },
+      { id: 58, word: "असमर्थ", exp: "दुर्बल, अयोग्य, लाचार।" },
+      { id: 59, word: "असल", exp: "खरा, श्रेष्ठ, खालिस, जो बनावटी न हो, बुनियाद, मूलधन।" },
+      { id: 60, word: "असुर", exp: "दैत्य, रात्रि, नीच स्वभाव का मनुष्य, पृथ्वी, सूर्य।" },
+      { id: 61, word: "अस्त", exp: "छिपा हुआ, नष्ट।" },
+      { id: 62, word: "अस्वाभाविक", exp: "प्रकृति-विरुद्ध, बनावटी।" },
+      { id: 63, word: "आन्दोलन", exp: "बार-बार हिलना, हलचल।" },
+      { id: 64, word: "आकार", exp: "सूरत, कद, बनावट, निशान।" },
+      { id: 65, word: "आकृति", exp: "बनावट, रूप, मुख, मुख का भाव।" },
+      { id: 66, word: "आगार", exp: "घर, स्थान, खजाना।" },
+      { id: 67, word: "आघात", exp: "धक्का, प्रहार।" },
+      { id: 68, word: "आडम्बर", exp: "ढोंग, हाथी की चिग्घाड़, बड़ा ढोल।" },
+      { id: 69, word: "आतंक", exp: "रोब, भय, रोग।" },
+      { id: 70, word: "आधार", exp: "आश्रय, अवलंब, नींव।" },
+      { id: 71, word: "आन", exp: "मर्यादा, क्षण।" },
+      { id: 72, word: "आपत्ति", exp: "दुःख, विपत्ति, एतराज।" },
+      { id: 73, word: "आम", exp: "आम का पेड़ या फल, जनसाधारण।" },
+      { id: 74, word: "आराम", exp: "बगीचा, सुख, चैन।" },
+      { id: 75, word: "इन्दु", exp: "चन्द्रमा, कपूर।" },
+      { id: 76, word: "इकरार", exp: "वादा, स्वीकृति।" },
+      { id: 77, word: "इलाज", exp: "चिकित्सा, उपाय।" },
+      { id: 78, word: "ईमान", exp: "अच्छी नीयत, धर्म, धर्म पर विश्वास।" },
+      { id: 79, word: "उत्तर", exp: "उत्तर दिशा, जवाब, बाद का।" },
+      { id: 80, word: "उत्सर्ग", exp: "त्याग, दान, समाप्ति।" },
+      { id: 81, word: "उदासीन", exp: "विरक्त, तटस्थ, प्रेम-शून्य।" },
+      { id: 82, word: "उद्योग", exp: "प्रयत्न, रोजगार।" },
+      { id: 83, word: "उन्नत", exp: "ऊँचा, समुद्र।" },
+      { id: 84, word: "उपाधि", exp: "खिताब, उपद्रव।" },
+      { id: 85, word: "एकांत", exp: "अत्यन्त, अकेला, सूना।" },
+
+      // क वर्ग (1-16)
+      { id: 86, word: "कंचन", exp: "सोना, धतूरा।" },
+      { id: 87, word: "कंचुकी", exp: "चोली, द्वारपाल, साँप।" },
+      { id: 88, word: "कड़ी", exp: "लगाम, गीत की एक पंक्ति, छप्पर के नीचे उसे सँभालने के लिए लगाया गया बांस या लकड़ी।" },
+      { id: 89, word: "कनक", exp: "सोना, धतूरा।" },
+      { id: 90, word: "कपाल", exp: "ललाट, खोपड़ी, भाग्य।" },
+      { id: 91, word: "कमला", exp: "लक्ष्मी, ऐश्वर्य, संतरा।" },
+      { id: 92, word: "कर", exp: "किरण, हाथ, ओला, मालगुजारी, हाथी की सूँढ़।" },
+      { id: 93, word: "काल", exp: "समय, शिव, शिव का एक नाम।" },
+      { id: 94, word: "कुण्डली", exp: "जलेबी, जन्मकुण्डली, साँप की एक गेहुरी, साँप, मोर, वरुण, विष्णु।" },
+      { id: 95, word: "कुल", exp: "वंश, जाति, समूह, घर, सब।" },
+      { id: 96, word: "कुशल", exp: "खैरियत, प्रवीण।" },
+      { id: 97, word: "खैर", exp: "कत्था, कुशल, एक पक्षी।" },
+      { id: 98, word: "गम्भीर", exp: "गहरा, गूढ़, घोर, शान्त।" },
+      { id: 99, word: "गिरह", exp: "गाँठ, कलाबाजी।" },
+      { id: 100, word: "गुरु", exp: "बड़ा, भारी, मुश्किल से पचनेवाला, शिक्षा या मन्त्र देनेवाला।" },
+      { id: 101, word: "घन", exp: "मेघ, बड़ा हथौड़ा।" },
+
+      // च वर्ग (1-7)
+      { id: 102, word: "चौकी", exp: "तख्ता, जिसमें चार पाये लगे हों। पड़ाव, वह स्थान जहाँ आस-पास की रक्षा के लिए थोड़े सिपाही रहते हैं। रोटी बेलने का चकला।" },
+      { id: 103, word: "छकना", exp: "भोजन करके तृप्त होना, धोखे में पड़ना।" },
+      { id: 104, word: "छापा", exp: "छपाई का काम, बेखबर दुश्मनों पर हमला।" },
+      { id: 105, word: "छिद्र", exp: "छेद, दोष।" },
+      { id: 106, word: "जन", exp: "लोग, प्रजा, दास, समूह, जैसे— भक्तजन, प्रजाजन।" },
+      { id: 107, word: "जेठ", exp: "जेठ का महीना, बड़ा, पति का बड़ा भाई (स्त्री के लिए)।" },
+      { id: 108, word: "झख", exp: "झीखने की क्रिया, मछली।" },
+
+      // ट वर्ग (1-2)
+      { id: 109, word: "टीका", exp: "तिलक, चेचक आदि का टीका, किसी ग्रंथ की व्याख्या।" },
+      { id: 110, word: "ठाकुर", exp: "देवता, ईश्वर, सरदार।" },
+
+      // त वर्ग (1-4)
+      { id: 111, word: "तिलक", exp: "मस्तक में लगाये जानेवाला टीका, विवाह के पहले चढ़ाये जानेवाला टीका, राज्याभिषेक।" },
+      { id: 112, word: "तीर", exp: "नदी का किनारा, बाण।" },
+      { id: 113, word: "दक्षिण", exp: "दाहिना, अनुकूल, दक्षिण दिशा।" },
+      { id: 114, word: "दावा", exp: "नालिश, दृढ़तापूर्वक कथन।" },
+
+      // प वर्ग (1-15)
+      { id: 115, word: "पत्र", exp: "पत्ता, चिट्ठी, अखबार।" },
+      { id: 116, word: "पद", exp: "दर्जा, चिह्न, पाँव, प्रदेश, कविता की एक पंक्ति, चरण।" },
+      { id: 117, word: "पान", exp: "पीना, पान की लता और उसका पत्ता, पानी, मद्य।" },
+      { id: 118, word: "पानी", exp: "जल, प्रतिष्ठा, चमक।" },
+      { id: 119, word: "पुर", exp: "नगर, घर, दुर्ग, लोक।" },
+      { id: 120, word: "पूत", exp: "पवित्र, बेटा।" },
+      { id: 121, word: "पूर्व", exp: "पहले, पूरब की दिशा।" },
+      { id: 122, word: "प्रबन्ध", exp: "इन्तजाम, लेख।" },
+      { id: 123, word: "फाजिल", exp: "जरूरत से ज्यादा, विद्वान।" },
+      { id: 124, word: "बाग", exp: "उपवन, लगाम।" },
+      { id: 125, word: "बेला", exp: "एक फूल, लहर, समुद्र का किनारा, समय।" },
+      { id: 126, word: "भूत", exp: "प्राणी, प्रेत, अतीत।" },
+      { id: 127, word: "मंजिल", exp: "पड़ाव, मकान का खंड।" },
+      { id: 128, word: "मान", exp: "अभिमान, परिमाण, जिसके द्वारा कोई चीज नापी या तौली जाय, प्रतिष्ठा।" },
+      { id: 129, word: "मुद्रा", exp: "मोहर, छापा, सिक्का, मुख का भाव।" },
+
+      // य, र, ल, व (1-10)
+      { id: 130, word: "युग", exp: "जोड़ा, बारह वर्ष का समय।" },
+      { id: 131, word: "लाल", exp: "लाल रंग का प्यारा, रत्न।" },
+      { id: 132, word: "वर", exp: "श्रेष्ठ, पति, दुल्हा, वरदान।" },
+      { id: 133, word: "वार", exp: "द्वारा, रोक, आवरण, दफा, सप्ताह का दिन, चोट, आघात।" },
+      { id: 134, word: "वास", exp: "रहन, गृह, सुगन्ध, वस्त्र।" },
+      { id: 135, word: "विजय", exp: "दुर्गा, भाँग।" },
+      { id: 136, word: "विधि", exp: "ब्रह्म, रीति।" },
+      { id: 137, word: "विषय", exp: "मजमून, भोग-विलास।" },
+      { id: 138, word: "बिहार", exp: "घूमना, रमण, रति-क्रीड़ा, बौद्धों का मठ।" },
+      { id: 139, word: "ब्याज", exp: "छल, बहाना, विलम्ब।" },
+
+      // श, ष, स, ह (1-7)
+      { id: 140, word: "शूर", exp: "बहादुर, सूर्य, सिंह, विष्णु।" },
+      { id: 141, word: "शूल", exp: "काँटा, पीड़ा, एक रोग।" },
+      { id: 142, word: "श्रुति", exp: "वेद, कान, सुनना, शब्द।" },
+      { id: 143, word: "संघ", exp: "सभा, समूह, बौद्धों का मठ।" },
+      { id: 144, word: "संज्ञा", exp: "नाम, चेतना, होश।" },
+      { id: 145, word: "सयाना", exp: "अधिक उम्र वाला, युवा, होशियार।" },
+      { id: 146, word: "हल्का", exp: "जो भारी न हो (वजन), तुच्छ (व्यक्ति), आसान (काम), जो गहरा न हो (रंग), प्रफुल्ल, ताजा (मिजाज)।" }
+    ];
+
+    // Helper: Extract a key distinct phrase from explanation for the correct choice
+    function getPrimaryMeaning(exp) {
+      let parts = exp.split(/[।;,]/).map(s => s.trim()).filter(s => s.length > 0 && !s.startsWith("जैसे"));
+      if (parts.length >= 2) {
+        return parts.slice(0, 2).join(", ");
+      }
+      return parts[0] || exp;
+    }
+
+    // Generate intelligent distractors from other words in the list
+    const questions = rawData.map((item, index) => {
+      const correctMeaning = getPrimaryMeaning(item.exp);
+      
+      // Get 3 plausible distractors from other entries
+      const distractors = [];
+      const usedIndexes = new Set([index]);
+      
+      let attempts = 0;
+      while (distractors.length < 3 && attempts < 200) {
+        attempts++;
+        const randIdx = Math.floor(Math.random() * rawData.length);
+        if (!usedIndexes.has(randIdx)) {
+          usedIndexes.add(randIdx);
+          const distractor = getPrimaryMeaning(rawData[randIdx].exp);
+          if (distractor !== correctMeaning && !distractors.includes(distractor)) {
+            distractors.push(distractor);
+          }
+        }
+      }
+
+      // Shuffle options and record correct index
+      const options = [correctMeaning, ...distractors];
+      for (let i = options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [options[i], options[j]] = [options[j], options[i]];
+      }
+      const correctIndex = options.indexOf(correctMeaning);
+
+      return {
+        id: item.id,
+        word: item.word,
+        fullExplanation: item.exp,
+        correctMeaning: correctMeaning,
+        options: options,
+        correctIndex: correctIndex,
+        userSelectedIndex: null,
+        isExplanationVisible: false
+      };
+    });
+
+    let correctCount = 0;
+    let wrongCount = 0;
+    let attemptedCount = 0;
+
+    function renderQuiz() {
+      const container = document.getElementById('quizContainer');
+      let html = '';
+
+      questions.forEach((q, qIdx) => {
+        html += `
+          <article id="qCard-${q.id}" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm transition-all hover:shadow-md">
+            <!-- Question Header -->
+            <div class="flex items-start justify-between gap-4 mb-4">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 flex items-center justify-center font-bold text-sm">
+                  ${q.id}
+                </span>
+                <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+                  निम्न में से कौन-सा अर्थ <span class="text-indigo-600 dark:text-indigo-400 font-serif text-lg sm:text-xl font-black">‘${q.word}’</span> शब्द का है?
+                </h2>
+              </div>
+              <span id="badge-${q.id}" class="hidden text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap"></span>
+            </div>
+
+            <!-- 4 Options Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-2" id="optContainer-${q.id}">
+              ${q.options.map((opt, optIdx) => `
+                <button
+                  type="button"
+                  id="btn-${q.id}-${optIdx}"
+                  onclick="handleOptionClick(${qIdx}, ${optIdx})"
+                  class="option-btn text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-750 bg-slate-50/50 dark:bg-slate-800/40 text-slate-800 dark:text-white font-medium text-sm transition-all duration-150 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-start gap-2.5 active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-indigo-500/50"
+                >
+                  <span class="w-6 h-6 rounded-md bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-100 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                    ${['A', 'B', 'C', 'D'][optIdx]}
+                  </span>
+                  <span class="flex-1 text-slate-800 dark:text-white leading-relaxed">${opt}</span>
+                </button>
+              `).join('')}
+            </div>
+
+            <!-- Explanation Box (Initially Hidden) -->
+            <div id="expBox-${q.id}" class="hidden mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
+              <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border-l-4 border-indigo-500 text-sm">
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <div class="flex items-center gap-1.5 font-bold text-indigo-700 dark:text-indigo-300">
+                    <svg class="w-4 h-4 text-indigo-600 dark:text-indigo-400" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>सम्पूर्ण व्याख्या (पुस्तक अनुसार सभी अर्थ):</span>
+                  </div>
+                  <span class="text-xs text-slate-400 dark:text-slate-300 italic">(विकल्प पर पुनः क्लिक करके छिपाएं/दिखाएं)</span>
+                </div>
+                <div class="text-slate-700 dark:text-slate-100 leading-relaxed font-normal">
+                  <strong class="text-indigo-600 dark:text-indigo-400">${q.word}:</strong> ${q.fullExplanation}
+                </div>
+              </div>
+            </div>
+          </article>
+        `;
+      });
+
+      container.innerHTML = html;
+    }
+
+    function handleOptionClick(qIdx, optIdx) {
+      const q = questions[qIdx];
+      const expBox = document.getElementById(`expBox-${q.id}`);
+      const badge = document.getElementById(`badge-${q.id}`);
+
+      // First time answering this question
+      if (q.userSelectedIndex === null) {
+        q.userSelectedIndex = optIdx;
+        attemptedCount++;
+
+        const isCorrect = (optIdx === q.correctIndex);
+        if (isCorrect) {
+          correctCount++;
+        } else {
+          wrongCount++;
+        }
+
+        // Update score indicators
+        updateScoreBoard();
+
+        // Highlight options
+        highlightOptions(q, optIdx);
+
+        // Show badge
+        badge.classList.remove('hidden');
+        if (isCorrect) {
+          badge.className = 'text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800';
+          badge.textContent = '✓ सही उत्तर';
+        } else {
+          badge.className = 'text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap bg-rose-100 dark:bg-rose-950/80 text-rose-700 dark:text-rose-300 border border-rose-300 dark:border-rose-800';
+          badge.textContent = '✕ गलत उत्तर';
+        }
+
+        // Open explanation on first attempt
+        expBox.classList.remove('hidden');
+        q.isExplanationVisible = true;
+      } 
+      // If clicking again on any option
+      else {
+        // Toggle explanation visibility
+        if (q.isExplanationVisible) {
+          expBox.classList.add('hidden');
+          q.isExplanationVisible = false;
+          showToast(`प्रश्न ${q.id} की व्याख्या छिपाई गई`);
+        } else {
+          expBox.classList.remove('hidden');
+          q.isExplanationVisible = true;
+          showToast(`प्रश्न ${q.id} की व्याख्या खोली गई`);
+        }
+      }
+    }
+
+    // Highlight Buttons correctly
+    function highlightOptions(q, selectedIdx) {
+      q.options.forEach((_, idx) => {
+        const btn = document.getElementById(`btn-${q.id}-${idx}`);
+        const badgeSpan = btn.querySelector('span:first-child');
+        
+        if (idx === q.correctIndex) {
+          // Correct button styling
+          btn.className = 'option-btn text-left p-3.5 rounded-xl border-2 border-emerald-500 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-900 dark:text-white font-medium text-sm transition-all flex items-start gap-2.5';
+          badgeSpan.className = 'w-6 h-6 rounded-md bg-emerald-600 text-white flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5';
+          badgeSpan.innerHTML = '✓';
+        } else if (idx === selectedIdx && selectedIdx !== q.correctIndex) {
+          // Wrong button selected styling
+          btn.className = 'option-btn text-left p-3.5 rounded-xl border-2 border-rose-500 bg-rose-50/80 dark:bg-rose-950/40 text-rose-900 dark:text-white font-medium text-sm transition-all flex items-start gap-2.5';
+          badgeSpan.className = 'w-6 h-6 rounded-md bg-rose-600 text-white flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5';
+          badgeSpan.innerHTML = '✕';
+        } else {
+          // Other inactive buttons
+          btn.className = 'option-btn text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/30 dark:bg-slate-900/30 text-slate-400 dark:text-slate-400 text-sm opacity-60 cursor-pointer flex items-start gap-2.5';
+        }
+      });
+    }
+
+    // Update Header Scores
+    function updateScoreBoard() {
+      document.getElementById('headerCorrect').textContent = `सही: ${correctCount}`;
+      document.getElementById('headerWrong').textContent = `गलत: ${wrongCount}`;
+      document.getElementById('headerAttempted').textContent = `हल: ${attemptedCount}/${questions.length}`;
+
+      const pct = (attemptedCount / questions.length) * 100;
+      document.getElementById('quizProgressBar').style.width = `${pct}%`;
+    }
+
+    // Reset All Questions
+    function resetAllQuiz() {
+      if (!confirm("क्या आप पूरी परीक्षा को रीसेट करना चाहते हैं?")) return;
+      correctCount = 0;
+      wrongCount = 0;
+      attemptedCount = 0;
+      questions.forEach(q => {
+        q.userSelectedIndex = null;
+        q.isExplanationVisible = false;
+      });
+      renderQuiz();
+      updateScoreBoard();
+      showToast("सभी प्रश्न रीसेट कर दिए गए हैं।");
+    }
+
+    function toggleDarkMode() {
+      const html = document.documentElement;
+      const isDark = html.classList.toggle('dark');
+      const sunIcon = document.getElementById('sunIcon');
+      const moonIcon = document.getElementById('moonIcon');
+      const themeText = document.getElementById('themeText');
+
+      if (isDark) {
+        sunIcon.classList.remove('hidden');
+        moonIcon.classList.add('hidden');
+        themeText.textContent = 'लाइट मोड';
+        localStorage.setItem('pref-theme', 'dark');
+        showToast("डार्क मोड सक्रिय (सफेद टेक्स्ट)");
+      } else {
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+        themeText.textContent = 'डार्क मोड';
+        localStorage.setItem('pref-theme', 'light');
+        showToast("लाइट मोड सक्रिय");
+      }
+    }
+
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          showToast("फुल स्क्रीन मोड चालू");
+        }).catch(() => {
+          showToast("फुल स्क्रीन उपलब्ध नहीं है");
+        });
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen().then(() => {
+            showToast("फुल स्क्रीन बंद");
+          });
+        }
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastBox');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'translate-y-20', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-20', 'pointer-events-none');
+      }, 2000);
+    }
+
+    window.onload = function() {
+      // Check for theme preferences
+      if (localStorage.getItem('pref-theme') === 'dark' || 
+          (!localStorage.getItem('pref-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+        document.getElementById('sunIcon').classList.remove('hidden');
+        document.getElementById('moonIcon').classList.add('hidden');
+        document.getElementById('themeText').textContent = 'लाइट मोड';
+      }
+
+      renderQuiz();
+      updateScoreBoard();
+    };
+  </script>
+</body>
+</html>
