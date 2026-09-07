@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Top 100 Grammar Rules | SSC English | Practice Mode</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Confetti Animation Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --primary-dark: #2563eb;
+            --bg-color: #f4f7fc;
+            --text-dark: #0f172a;
+            --text-muted: #64748b;
+            --card-bg: #ffffff;
+            --border-light: #e2e8f0;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --telegram: #0088cc;
+            --whatsapp: #25D366;
+            
+            /* Dark Result Theme */
+            --dark-bg: #0d1117;
+            --dark-card: #161b22;
+            --dark-border: #30363d;
+            --dark-text: #c9d1d9;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent;}
+        body { background-color: var(--bg-color); color: var(--text-dark); display: flex; flex-direction: column; height: 100dvh; overflow: hidden; }
+
+        /* SCREENS */
+        #start-screen, #quiz-screen, #result-screen, #solution-screen { display: none; height: 100%; width: 100%; }
+        #start-screen { display: flex; }
+
+        /* TOP BANNER & DOUBT BUTTON */
+        .custom-banner {
+            background: linear-gradient(90deg, #1e293b, #0f172a); 
+            color: #e2e8f0; 
+            text-align: center;
+            padding: 12px 10px; 
+            font-size: 14px; 
+            font-weight: 600; 
+            text-decoration: none; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px; 
+            flex-shrink: 0; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+            z-index: 50; 
+            position: relative;
+        }
+        .custom-banner span { color: #38bdf8; font-weight: 800; }
+        
+        .doubt-badge {
+            background: linear-gradient(135deg, #f59e0b, #ea580c);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 800;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 15px rgba(234, 88, 12, 0.4);
+            animation: smooth-bounce 2s infinite;
+        }
+        @keyframes smooth-bounce { 
+            0%, 100% { transform: translateY(0) scale(1); } 
+            50% { transform: translateY(-4px) scale(1.02); } 
+        }
+
+        /* START SCREEN */
+        .start-container { flex: 1; display: flex; justify-content: center; align-items: center; padding: 20px; background: radial-gradient(circle at top right, #e0e7ff, #f4f7fc); }
+        .start-box { background: white; padding: 40px 30px; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.08); text-align: center; max-width: 400px; width: 100%; border: 1px solid #ffffff; }
+        .start-box h1 { color: var(--text-dark); font-size: 26px; margin-bottom: 8px; font-weight: 800; }
+        .start-box p { color: var(--text-muted); font-size: 14px; margin-bottom: 30px; font-weight: 500; background: #f1f5f9; padding: 8px; border-radius: 8px;}
+        .name-input { width: 100%; padding: 16px; border: 2px solid var(--border-light); border-radius: 12px; font-size: 16px; margin-bottom: 20px; outline: none; transition: 0.3s; text-align: center; font-weight: 600; background: #f8fafc;}
+        .name-input:focus { border-color: var(--primary); background: white; box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1); }
+        .start-btn { width: 100%; padding: 16px; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; border: none; border-radius: 12px; font-size: 18px; font-weight: 700; cursor: pointer; transition: 0.3s; box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2); }
+        .start-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(37, 99, 235, 0.3); }
+
+        /* QUIZ SCREEN */
+        #quiz-screen { flex-direction: column; overflow: hidden; }
+        header { background: #1e293b; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 20;}
+        .header-left { display: flex; align-items: center; gap: 15px; }
+        .pause-btn { background: rgba(255,255,255,0.1); border: none; color: white; width: 36px; height: 36px; border-radius: 10px; cursor: pointer; transition: 0.2s; font-size: 16px;}
+        .test-title { font-size: 13px; font-weight: 600; color: #94a3b8;}
+        .timer { font-size: 20px; font-weight: 800; letter-spacing: 1px; color: #38bdf8;}
+        .header-right { display: flex; align-items: center; gap: 15px; cursor: pointer; }
+        .lang-btn { background: rgba(255,255,255,0.1); border: none; color: white; padding: 8px 12px; border-radius: 8px; font-size: 14px; font-weight: 600; display: flex; gap: 6px; align-items: center;}
+
+        /* Progress Bar */
+        .progress-container { width: 100%; height: 4px; background: #cbd5e1; flex-shrink: 0; }
+        .progress-bar { height: 100%; background: var(--primary); width: 0%; transition: width 0.4s ease; border-radius: 0 4px 4px 0;}
+
+        .palette-bar { display: flex; gap: 12px; padding: 12px 15px; flex-shrink: 0; background: white; border-bottom: 1px solid var(--border-light); overflow-x: auto; white-space: nowrap; scroll-behavior: smooth; }
+        .palette-bar::-webkit-scrollbar { display: none; }
+        .pal-btn { width: 38px; height: 38px; min-width: 38px; border-radius: 10px; border: 2px solid var(--border-light); display: flex; justify-content: center; align-items: center; cursor: pointer; font-weight: 700; font-size: 14px; background: white; color: var(--text-muted); transition: 0.2s; }
+        .pal-btn.answered { background: var(--success); color: white; border-color: var(--success); }
+        .pal-btn.marked { background: var(--warning); color: white; border-color: var(--warning); }
+        .pal-btn.answered.marked { background: var(--primary); color: white; border-color: var(--primary); }
+        .pal-btn.active { border-color: var(--text-dark); color: var(--text-dark); transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+
+        .sub-header { background: #f8fafc; padding: 12px 15px; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; border-bottom: 1px solid var(--border-light);}
+        .q-info { display: flex; align-items: center; gap: 12px; }
+        .q-num { background: var(--text-dark); color: white; padding: 4px 12px; border-radius: 20px; font-weight: 800; font-size: 14px;}
+        .marks { display: flex; gap: 6px; font-size: 12px; font-weight: 700; }
+        .mark-pos { background: #d1fae5; color: #059669; padding: 3px 8px; border-radius: 6px; }
+        .mark-neg { background: #fee2e2; color: #dc2626; padding: 3px 8px; border-radius: 6px; }
+
+        .main-container { flex: 1; display: flex; overflow: hidden; background: var(--bg-color); }
+        .quiz-area { flex: 1; padding: 25px 15px; overflow-y: auto; max-width: 800px; margin: 0 auto; width: 100%; }
+        
+        .fade-in { animation: smoothSlide 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        @keyframes smoothSlide { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+        
+        .question-card { background: white; padding: 20px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); margin-bottom: 20px; border: 1px solid var(--border-light); }
+        .exam-tag { color: var(--primary-dark); font-size: 12px; font-weight: 700; margin-bottom: 15px; display: inline-block; background: #eff6ff; padding: 6px 12px; border-radius: 8px; text-transform: uppercase; letter-spacing: 0.5px;}
+        .question-text { font-size: 16px; line-height: 1.6; font-weight: 600; color: var(--text-dark); margin-bottom: 10px;}
+        .question-hi { color: var(--text-muted); font-size: 15px; font-weight: 500; line-height: 1.5; border-top: 1px dashed var(--border-light); padding-top: 12px;}
+        
+        .options-container { display: flex; flex-direction: column; gap: 12px; }
+        .option { border: 2px solid var(--border-light); border-radius: 12px; padding: 16px; display: flex; gap: 15px; align-items: center; cursor: pointer; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); background: white; }
+        .option:hover { border-color: #cbd5e1; transform: translateX(5px); }
+        .option.selected { border-color: var(--primary); background: #eff6ff; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1); transform: translateX(5px);}
+        .opt-num { background: #f1f5f9; color: var(--text-muted); font-weight: 800; width: 30px; height: 30px; border-radius: 8px; display: flex; justify-content: center; align-items: center; flex-shrink: 0; transition: 0.2s;}
+        .option.selected .opt-num { background: var(--primary); color: white; }
+        .opt-text { font-size: 16px; font-weight: 600; color: var(--text-dark);}
+
+        footer { background: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; border-top: 1px solid var(--border-light); box-shadow: 0 -4px 15px rgba(0,0,0,0.02); z-index: 10; gap: 10px; flex-wrap: wrap;}
+        .btn { padding: 12px 18px; border-radius: 10px; font-size: 14px; font-weight: 700; cursor: pointer; border: 1px solid var(--border-light); background: white; color: var(--text-dark); transition: 0.2s; display: flex; align-items: center; gap: 8px;}
+        .btn:active { transform: scale(0.95); }
+        .btn-primary { background: var(--primary); color: white; border: none; box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);}
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-warning { background: #fffbeb; color: var(--warning); border-color: #fde68a; }
+
+        /* OVERLAYS & SIDEBAR */
+        .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(5px); z-index: 9999; display: none; justify-content: center; align-items: center; }
+        .tg-modal { background: white; padding: 30px; border-radius: 24px; text-align: center; max-width: 380px; width: 90%; animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        @keyframes popIn { 0% { transform: scale(0.8); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+        
+        .confirm-stats { display: flex; justify-content: center; gap: 15px; margin: 25px 0; }
+        .c-stat-box { background: #f8fafc; padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); flex:1;}
+        .c-stat-box h3 { font-size: 26px; color: var(--primary); margin-bottom: 4px;}
+        .c-stat-box p { font-size: 12px; color: var(--text-muted); font-weight: 700; text-transform: uppercase;}
+        
+        .drawer-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 10000; display: none; }
+        .drawer { position: fixed; top: 0; right: -320px; width: 320px; height: 100%; background: white; box-shadow: -10px 0 30px rgba(0,0,0,0.1); z-index: 10001; transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1); display: flex; flex-direction: column; }
+        .drawer.open { right: 0; }
+        .drawer-header { background: #1e293b; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; font-size: 18px;}
+        .drawer-stats { padding: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; background: #f8fafc; border-bottom: 1px solid var(--border-light);}
+        .stat-item { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--text-muted); }
+        .stat-item .pal-btn { width: 20px; height: 20px; min-width: 20px; border-radius: 6px; font-size: 0; pointer-events: none;}
+        .drawer-body { padding: 20px; flex: 1; overflow-y: auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; align-content: start; }
+
+        /* RESULT SCREEN */
+        #result-screen { flex-direction: column; background: var(--dark-bg); color: var(--dark-text); overflow-y: auto; padding-bottom: 40px;}
+        .res-header { background: linear-gradient(180deg, #161b22, #0d1117); border-bottom: 1px solid var(--dark-border); padding: 30px 20px 40px; text-align: center; }
+        .res-header h2 { font-weight: 800; font-size: 26px; margin-bottom: 8px; color: white; text-transform: uppercase; letter-spacing: 1px;}
+        .res-header p { color: #8b949e; font-size: 14px; font-weight: 500;}
+        
+        .analysis-container { max-width: 800px; margin: -25px auto 0; padding: 0 15px; width: 100%; position: relative; z-index: 2; }
+        .main-score-card { background: var(--dark-card); padding: 30px; border-radius: 20px; text-align: center; margin-bottom: 25px; border: 1px solid var(--dark-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5); position: relative; overflow: hidden;}
+        
+        .grade-badge { position: absolute; top: 15px; right: 15px; background: rgba(59, 130, 246, 0.2); color: #58a6ff; padding: 8px 15px; border-radius: 12px; font-weight: 800; border: 1px solid rgba(59, 130, 246, 0.4); font-size: 18px;}
+        .main-score-card h1 { font-size: 60px; color: #3fb950; line-height: 1; margin-bottom: 10px; font-weight: 800; text-shadow: 0 0 20px rgba(63, 185, 80, 0.3);}
+        .main-score-card p { color: #8b949e; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;}
+        .perf-message { color: #8b949e; font-size: 15px; margin-top: 15px; font-weight: 500; }
+        
+        .a-stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 25px; }
+        .a-stat { background: var(--dark-card); padding: 20px; border-radius: 16px; border: 1px solid var(--dark-border); text-align: center; }
+        .a-stat h3 { font-size: 24px; color: white; margin-bottom: 5px;}
+        .a-stat p { font-size: 11px; color: #8b949e; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;}
+        
+        .dark-btn { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 12px 15px; border-radius: 12px; font-weight: 700; cursor: pointer; transition: 0.2s; display: flex; justify-content: center; align-items: center; gap: 8px; font-size: 14px;}
+        .dark-btn:hover:not(:disabled) { background: #30363d; }
+        .dark-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+        .dark-btn-primary { background: #238636; border: 1px solid rgba(240, 246, 252, 0.1); color: white;}
+        .dark-btn-primary:hover:not(:disabled) { background: #2ea043; }
+        .dark-btn-pdf { background: #1f6feb; border: 1px solid rgba(240, 246, 252, 0.1); color: white;}
+        .dark-btn-pdf:hover:not(:disabled) { background: #388bfd; }
+
+        /* SHARE BUTTONS */
+        .share-container { display: flex; gap: 12px; margin-top: 15px;}
+        .share-btn { flex: 1; padding: 15px; border-radius: 12px; font-size: 15px; font-weight: 700; cursor: pointer; color: white; border: none; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.2s;}
+        .share-btn:active { transform: scale(0.95); }
+        .share-wa { background: linear-gradient(135deg, #25D366, #1da851); box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2); }
+        .share-tg { background: linear-gradient(135deg, #0088cc, #006699); box-shadow: 0 4px 15px rgba(0, 136, 204, 0.2); }
+
+        /* SOLUTION SCREEN */
+        #solution-screen { flex-direction: column; background: var(--bg-color); }
+        .sol-header { background: #1e293b; color: white; padding: 18px 20px; display: flex; justify-content: space-between; align-items: center; position: sticky; top:0; z-index: 10; box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+        .sol-list { flex: 1; overflow-y: auto; padding: 25px 15px; max-width: 800px; margin: 0 auto; width: 100%; }
+        .sol-card { background: white; padding: 25px; border-radius: 16px; border: 1px solid var(--border-light); margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); }
+        
+        .sol-card.correct-ans { border-top: 5px solid var(--success); }
+        .sol-card.wrong-ans { border-top: 5px solid var(--danger); }
+        .sol-card.skip-ans { border-top: 5px solid var(--text-muted); }
+        
+        .sol-opt { padding: 14px; border: 2px solid var(--border-light); border-radius: 10px; margin-bottom: 10px; display: flex; gap: 12px; font-size: 15px; font-weight: 600; align-items: center;}
+        .sol-opt.is-correct { background: #f0fdf4; border-color: var(--success); color: #166534; }
+        .sol-opt.is-wrong { background: #fef2f2; border-color: var(--danger); color: #991b1b; }
+        .sol-opt .opt-num { width: 28px; height: 28px; background: white; border-radius: 6px; display: flex; justify-content: center; align-items: center;}
+        
+        .explanation-box { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px; margin-top: 20px; font-size: 15px; color: var(--text-dark); font-weight: 500; line-height: 1.6; border-left: 5px solid var(--primary); }
+
+        /* --- PDF PRINT STYLES (NO MORE BLANK PAGES!) --- */
+        @media print {
+            html, body {
+                height: auto !important;
+                overflow: visible !important;
+                display: block !important;
+                background: #fff !important;
+                color: #000 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            /* Hide the web app UI completely */
+            .custom-banner, #start-screen, #quiz-screen, #result-screen, #solution-screen, .overlay, .drawer, .drawer-overlay {
+                display: none !important;
+            }
+            /* Show only the PDF print container */
+            #print-area {
+                display: block !important;
+                position: relative !important;
+                width: 100% !important;
+            }
+            /* Styling for PDF content */
+            .p-card { 
+                page-break-inside: avoid; 
+                border-bottom: 1px dashed #ccc; 
+                padding-bottom: 15px; 
+                margin-bottom: 15px; 
+            }
+            .p-hdr { 
+                text-align: center; 
+                margin-bottom: 20px; 
+                border-bottom: 2px solid #000; 
+                padding-bottom: 10px; 
+            }
+            .p-exp { 
+                background-color: #f8fafc !important; 
+                border-left: 3px solid #3b82f6; 
+                padding: 10px; 
+                margin-top: 10px; 
+                -webkit-print-color-adjust: exact; 
+                print-color-adjust: exact; 
+            }
+        }
+
+        @media(max-width: 600px) {
+            .btn { padding: 10px; font-size: 13px; }
+            .header-left .test-title { display: none; }
+            .drawer { width: 85%; right: -100%; }
+            .lang-text { display: none; }
+            .share-container { flex-direction: column; }
+            .main-score-card h1 { font-size: 50px; }
+            .action-buttons { flex-direction: column; }
+        }
+    
+        .practice-explanation {
+            display: none;
+            margin: 14px 0 0;
+            padding: 16px 18px;
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-left: 4px solid var(--primary);
+            border-radius: 12px;
+            color: var(--text-dark);
+            line-height: 1.75;
+            font-size: 16px;
+        }
+        .practice-explanation.show { display: block; }
+        .practice-explanation .practice-status {
+            font-weight: 800;
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+        .practice-explanation .correct-status { color: var(--success); }
+        .practice-explanation .wrong-status { color: var(--danger); }
+        .practice-explanation .original-exp {
+            margin-top: 8px;
+        }
+        .practice-correct-option {
+            border-color: var(--success) !important;
+            background: rgba(63,185,80,.10) !important;
+        }
+        .practice-wrong-option {
+            border-color: var(--danger) !important;
+            background: rgba(248,81,73,.10) !important;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="custom-banner">
+        <div><span>Top 100 Grammar Rules</span> - Complete Grammar Quiz</div>
+        
+    </div>
+
+    <!-- START SCREEN -->
+    <div id="start-screen">
+        <div class="start-container">
+            <div class="start-box">
+                <h1>Top 100 Rules Quiz</h1>
+                <p>Based on KD Publication | 60 Minutes | 100 Questions</p>
+                <input type="text" id="userName" class="name-input" placeholder="Enter your Name to start..." autocomplete="off">
+                <button class="start-btn" onclick="startTest()">Start Test Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- OVERLAYS -->
+    
+
+    <div class="overlay" id="submitOverlay">
+        <div class="tg-modal" style="border-top: 5px solid var(--warning);">
+            <h2 style="color: var(--text-dark);">Submit Test?</h2>
+            <div class="confirm-stats">
+                <div class="c-stat-box"><h3 id="conf-ans">0</h3><p>Answered</p></div>
+                <div class="c-stat-box"><h3 id="conf-unans">0</h3><p>Unanswered</p></div>
+            </div>
+            <div style="display: flex; gap: 12px;">
+                <button class="btn" style="flex:1; justify-content:center; padding:14px;" onclick="closeOverlay('submitOverlay')">Cancel</button>
+                <button class="btn btn-primary" style="flex:1; justify-content:center; padding:14px; background:var(--success);" onclick="finalSubmit()">Submit Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIDEBAR DRAWER -->
+    <div class="drawer-overlay" id="drawerOverlay" onclick="toggleDrawer()"></div>
+    <div class="drawer" id="sideDrawer">
+        <div class="drawer-header">
+            <span style="font-weight: 800;">Test Overview</span>
+            <i class="fa-solid fa-xmark" style="cursor: pointer;" onclick="toggleDrawer()"></i>
+        </div>
+        <div class="drawer-stats">
+            <div class="stat-item"><div class="pal-btn answered"></div> <span id="s-ans">0</span> Answered</div>
+            <div class="stat-item"><div class="pal-btn"></div> <span id="s-unans">100</span> Not Ans</div>
+            <div class="stat-item"><div class="pal-btn marked"></div> <span id="s-mark">0</span> Marked</div>
+            <div class="stat-item"><div class="pal-btn answered marked"></div> <span id="s-ans-mark">0</span> Ans & Mark</div>
+        </div>
+        <div class="drawer-body" id="drawerPalette"></div>
+        <div style="padding: 20px; border-top: 1px solid var(--border-light);">
+            <button class="btn btn-primary" style="width: 100%; justify-content: center; padding: 15px; font-size: 16px; background: var(--success);" onclick="confirmSubmit()">Submit Test</button>
+        </div>
+    </div>
+
+    <!-- QUIZ SCREEN -->
+    <div id="quiz-screen">
+        <header>
+            <div class="header-left">
+                <button class="pause-btn" title="Menu" onclick="toggleDrawer()"><i class="fa-solid fa-bars"></i></button>
+                <div>
+                    <div class="test-title">Top 100 Grammar Rules</div>
+                    <div class="timer" id="timer">00:00:00</div>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="lang-btn" onclick="toggleLanguage()">
+                    <i class="fa-solid fa-language" style="font-size: 18px;"></i>
+                    <span class="lang-text" id="langText">A/अ</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="palette-bar" id="paletteBar"></div>
+
+        <div class="sub-header">
+            <div class="q-info">
+                <div class="q-num" id="qNumDisplay">1</div>
+                <div class="marks"><span class="mark-pos">+ 2.0</span> <span class="mark-neg">- 0.5</span></div>
+            </div>
+            <div style="color: var(--text-muted); font-size: 14px; font-weight: 600;"><i class="fa-regular fa-clock"></i> <span id="qTimer">00:00</span></div>
+        </div>
+
+        <div class="main-container" id="swipeArea">
+            <div class="quiz-area" id="quizAreaContent">
+                <div class="question-card">
+                    <div id="questionContainer"></div>
+                </div>
+                <div class="options-container" id="optionsContainer"></div>
+                <div id="practiceExplanation" class="practice-explanation"></div>
+            </div>
+        </div>
+
+        <footer>
+            <button class="btn" onclick="prevQuestion()" id="prevBtn"><i class="fa-solid fa-angle-left"></i> Prev</button>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-warning" onclick="markAndNext()"><i class="fa-regular fa-bookmark"></i> Mark</button>
+                <button class="btn" onclick="clearSelection()">Clear</button>
+                <button class="btn btn-primary" onclick="saveAndNext()" id="saveBtn">Save & Next <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- PREMIUM DARK RESULT SCREEN -->
+    <div id="result-screen">
+        <div class="res-header">
+            <h2>Test Completed!</h2>
+            <p>Here is your detailed performance analysis, <span id="rName" style="color:#58a6ff; font-weight:700;"></span>.</p>
+        </div>
+        
+        <div class="analysis-container">
+            <div class="main-score-card">
+                <div class="grade-badge" id="rGrade">A</div>
+                <p>TOTAL SCORE</p>
+                <h1 id="finalScore">0</h1>
+                <p style="color: #484f58;">OUT OF <span id="rTotalMarks">200</span> MARKS</p>
+                <p class="perf-message" id="rPerfMessage">Outstanding Performance!</p>
+            </div>
+
+            <div class="a-stats-grid">
+                <div class="a-stat">
+                    <p>Time Taken</p>
+                    <h3 id="rTimeTaken" style="color: #d2a8ff;">00:00</h3>
+                </div>
+                <div class="a-stat">
+                    <p>Accuracy</p>
+                    <h3 id="rAccuracy" style="color: #38bdf8;">0%</h3>
+                </div>
+                <div class="a-stat" style="border-left: 4px solid #3fb950;">
+                    <p>Correct</p>
+                    <h3 id="rCorrect" style="color: #3fb950;">0</h3>
+                </div>
+                <div class="a-stat" style="border-left: 4px solid #f85149;">
+                    <p>Incorrect</p>
+                    <h3 id="rWrong" style="color: #f85149;">0</h3>
+                </div>
+            </div>
+
+            <div class="action-buttons" style="display: flex; gap: 15px; margin-top: 20px;">
+                <button class="dark-btn" style="flex:1;" onclick="location.reload()"><i class="fa-solid fa-rotate-right"></i> Re-Attempt</button>
+                <button class="dark-btn dark-btn-primary" style="flex:1;" onclick="showSolutions()"><i class="fa-solid fa-book-open"></i> Solutions</button>
+                <button class="dark-btn dark-btn-pdf" style="flex:1;" id="pdfBtn" onclick="downloadPDF()"><i class="fa-solid fa-file-pdf"></i> Download PDF</button>
+            </div>
+
+            <div class="share-container">
+                <button class="share-btn share-wa" onclick="shareScore('whatsapp')"><i class="fa-brands fa-whatsapp" style="font-size: 18px;"></i> WhatsApp</button>
+                <button class="share-btn share-tg" onclick="shareScore('telegram')"><i class="fa-brands fa-telegram" style="font-size: 18px;"></i> Telegram</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SOLUTIONS SCREEN -->
+    <div id="solution-screen">
+        <div class="sol-header">
+            <h3 style="font-size: 18px; font-weight:700;"><i class="fa-solid fa-book-open"></i> Detailed Solutions</h3>
+            <i class="fa-solid fa-xmark" style="font-size: 24px; cursor: pointer;" onclick="hideSolutions()"></i>
+        </div>
+        <div class="sol-list" id="solutionsContainer"></div>
+    </div>
+
+    <!-- Hidden Container for Native PDF Printing -->
+    <div id="print-area" style="display: none;"></div>
+
+    <script>
+let userName = "";
+        let currentLang = 'both';
+        let userFinalScore = 0; 
+
+        const rawData = [
+            { en: "<strong>Rule 01: Find the grammatical error</strong><br>The price of woolen clothes (a) / come down (b) / in summer. (c) / No error. (d)", hi: "नियम 1 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 1", a: 1, opts: ["The price of woolen clothes (a)", "come down (b)", "in summer. (c)", "No error. (d)"], exp: "<b>Explanation:</b> Rule 1 states that a Singular Subject ('The price') takes a Singular Verb ('comes'). Therefore, 'come down' should be 'comes down'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Singular Subject ('The price') के साथ Singular Verb ('comes') का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 02: Find the grammatical error</strong><br>Trust me, (a) / I am believing you (b) / word for word. (c) / No error (d)", hi: "नियम 2 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 2", a: 1, opts: ["Trust me, (a)", "I am believing you (b)", "word for word. (c)", "No error (d)"], exp: "<b>Explanation:</b> Verbs of perception, thought, and feeling (like believe, know, see) do not generally come in 'V1+ing' (Continuous) form. Change 'am believing' to 'believe'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Perception (अनुभव), विचार और भावना बताने वाले verbs (जैसे believe, know, see) का प्रयोग सामान्यतः Continuous (V1+ing) रूप में नहीं होता है।</div>" },
+            { en: "<strong>Rule 03: Find the grammatical error</strong><br>I have seen (a) / him last night (b) / at a restaurant. (c) / No error (d)", hi: "नियम 3 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 3", a: 0, opts: ["I have seen (a)", "him last night (b)", "at a restaurant. (c)", "No error (d)"], exp: "<b>Explanation:</b> With past time indicators like 'last night', we should use the Simple Past (V2). Change 'have seen' to 'saw'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Past time दर्शाने वाले शब्दों (जैसे 'last night') के साथ Simple Past (V2) का प्रयोग किया जाता है।</div>" },
+            { en: "<strong>Rule 04: Find the grammatical error</strong><br>They approached (a) / the CEO and (b) / report the matter. (c) / No error (d)", hi: "नियम 4 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 4", a: 2, opts: ["They approached (a)", "the CEO and (b)", "report the matter. (c)", "No error (d)"], exp: "<b>Explanation:</b> A sentence that starts with past tense continues in past unless the 2nd sentence is of universal truth. Change 'report' into 'reported'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि वाक्य past tense में शुरू होता है, तो आगे का वाक्य भी past में ही रहता है, जब तक कि वह कोई universal truth (सार्वभौमिक सत्य) न हो।</div>" },
+            { en: "<strong>Rule 05: Find the grammatical error</strong><br>He said that (a) / he hasn't been to (b) / such a beautiful place before. (c) / No error (d)", hi: "नियम 5 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 5", a: 1, opts: ["He said that (a)", "he hasn't been to (b)", "such a beautiful place before. (c)", "No error (d)"], exp: "<b>Explanation:</b> If two actions take place in the past, the 1st action is in Past Perfect Tense. Change 'hasn't been' to 'hadn't been'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि past में दो घटनाएँ होती हैं, तो पहली घटना Past Perfect Tense में लिखी जाती है।</div>" },
+            { en: "<strong>Rule 06: Find the grammatical error</strong><br>I am living (a) / in the countryside (b) / for 10 years. (c) / No error (d)", hi: "नियम 6 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 6", a: 0, opts: ["I am living (a)", "in the countryside (b)", "for 10 years. (c)", "No error (d)"], exp: "<b>Explanation:</b> If you see 'for/since' + time, use Perfect or Perfect Continuous tense. Change 'am living' into 'have been living'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> वाक्य में 'for/since' + time होने पर Perfect या Perfect Continuous tense का उपयोग किया जाता है।</div>" },
+            { en: "<strong>Rule 07: Find the grammatical error</strong><br>We have been waiting (a) / for the result (b) / since two years. (c) / No error (d)", hi: "नियम 7 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 7", a: 2, opts: ["We have been waiting (a)", "for the result (b)", "since two years. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'For' is used for a duration/period of time, whereas 'since' is used for a starting point. Change 'since' into 'for'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'For' का उपयोग समय की अवधि (duration) के लिए होता है। 'Since' का उपयोग शुरुआती समय (starting point) बताने के लिए होता है।</div>" },
+            { en: "<strong>Rule 08: Find the grammatical error</strong><br>I wish, (a) / I was (b) / a billionaire. (c) / No error (d)", hi: "नियम 8 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 8", a: 1, opts: ["I wish, (a)", "I was (b)", "a billionaire. (c)", "No error (d)"], exp: "<b>Explanation:</b> In present imaginary/unreal situations (I wish, as if), we use V2, but 'was' is always replaced by 'were'. Change 'was' into 'were'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Present imaginary या अवास्तविक स्थितियों (I wish, as if) में V2 लगता है। इसमें helping verb हमेशा 'were' होता है।</div>" },
+            { en: "<strong>Rule 09: Find the grammatical error</strong><br>If you saw a tiger (a) / what would you (b) / have done? (c) / No error (d)", hi: "नियम 9 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 9", a: 2, opts: ["If you saw a tiger (a)", "what would you (b)", "have done? (c)", "No error (d)"], exp: "<b>Explanation:</b> Present Unreal Condition: If + S + V2, S + would + V1. Change 'have done' into 'do'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Present Unreal Condition का structure: If + S + V2, S + would + V1 होता है।</div>" },
+            { en: "<strong>Rule 10: Find the grammatical error</strong><br>If you will work hard, (a) / you will (b) / pass the exam. (c) / No error (d)", hi: "नियम 10 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 10", a: 0, opts: ["If you will work hard, (a)", "you will (b)", "pass the exam. (c)", "No error (d)"], exp: "<b>Explanation:</b> In future conditional sentences, the subordinate clause (if, unless) takes Simple Present, not will/shall. Remove 'will' from part (a).<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Future conditional वाक्यों में subordinate clause (if, unless वाले हिस्से) में Simple Present लगता है, will/shall का प्रयोग नहीं होता।</div>" },
+            { en: "<strong>Rule 11: Find the grammatical error</strong><br>Unless you do not understand the concept, (a) / you cannot solve (b) / the questions. (c) / No error (d)", hi: "नियम 11 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 11", a: 0, opts: ["Unless you do not understand the concept, (a)", "you cannot solve (b)", "the questions. (c)", "No error (d)"], exp: "<b>Explanation:</b> Words like Unless, Until, Prohibit, Deny, Hardly are negative. Do not use 'not' with them. Remove 'do not'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Unless, Until, Prohibit, Deny, Hardly नकारात्मक (negative) शब्द हैं। इनके साथ 'not' का प्रयोग नहीं किया जाता।</div>" },
+            { en: "<strong>Rule 12: Find the grammatical error</strong><br>The management hardly (a) / had some information (b) / about the seminar. (c) / No error (d)", hi: "नियम 12 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 12", a: 1, opts: ["The management hardly (a)", "had some information (b)", "about the seminar. (c)", "No error (d)"], exp: "<b>Explanation:</b> Negative sentences take 'any' and not 'some'. Because of 'hardly' (negative word), change 'some' into 'any'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Negative वाक्यों में 'any' का प्रयोग होता है, 'some' का नहीं। 'Hardly' जैसे नकारात्मक शब्द के कारण 'some' को 'any' में बदला जाता है।</div>" },
+            { en: "<strong>Rule 13: Find the grammatical error</strong><br>How beautiful (a) / is the Taj Mahal (b) / on a moonlit night! (c) / No error (d)", hi: "नियम 13 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 13", a: 1, opts: ["How beautiful (a)", "is the Taj Mahal (b)", "on a moonlit night! (c)", "No error (d)"], exp: "<b>Explanation:</b> Exclamatory sentences are not in inversion. The verb does not come before the subject. It should be 'the Taj Mahal is'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Exclamatory वाक्यों में inversion नहीं होता है। Verb, subject से पहले नहीं आ सकता।</div>" },
+            { en: "<strong>Rule 14: Find the grammatical error</strong><br>Twenty miles are (a) / a long distance (b) / to cover on foot. (c) / No error (d)", hi: "नियम 14 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 14", a: 0, opts: ["Twenty miles are (a)", "a long distance (b)", "to cover on foot. (c)", "No error (d)"], exp: "<b>Explanation:</b> If a plural number is taken as a singular unit (a long distance), it will take a Singular Verb. Change 'are' into 'is'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि किसी plural number को एक इकाई (singular unit) के रूप में देखा जाए (जैसे a long distance), तो उसके साथ Singular Verb लगता है।</div>" },
+            { en: "<strong>Rule 15: Find the grammatical error</strong><br>My brother (a) / along with his wife and children (b) / have arrived. (c) / No error (d)", hi: "नियम 15 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 15", a: 2, opts: ["My brother (a)", "along with his wife and children (b)", "have arrived. (c)", "No error (d)"], exp: "<b>Explanation:</b> If two subjects are joined by 'along with', 'with', 'as well as', the verb follows the first subject ('My brother'). Change 'have' into 'has'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि दो subjects 'along with', 'with', 'as well as' से जुड़े हों, तो Verb पहले subject के अनुसार प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 16: Find the grammatical error</strong><br>The galaxy of stars (a) / attract (b) / the astronauts. (c) / No error (d)", hi: "नियम 16 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 16", a: 1, opts: ["The galaxy of stars (a)", "attract (b)", "the astronauts. (c)", "No error (d)"], exp: "<b>Explanation:</b> The verb agrees with the main subject ('galaxy', singular) and not the nearest Noun ('stars'). Change 'attract' into 'attracts'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Verb हमेशा मुख्य subject (जैसे 'galaxy', जो singular है) के अनुसार आता है, पास वाले Noun (stars) के अनुसार नहीं।</div>" },
+            { en: "<strong>Rule 17: Find the grammatical error</strong><br>Neither the pilot (a) / nor the crew members (b) / knows anything. (c) / No error (d)", hi: "नियम 17 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 17", a: 2, opts: ["Neither the pilot (a)", "nor the crew members (b)", "knows anything. (c)", "No error (d)"], exp: "<b>Explanation:</b> When joined by 'either...or', 'neither...nor', the verb agrees with the nearest subject ('crew members'). Change 'knows' into 'know'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'either...or', 'neither...nor' से जुड़ने पर Verb सबसे करीब वाले subject के अनुसार आता है।</div>" },
+            { en: "<strong>Rule 18: Find the grammatical error</strong><br>Ebb and flow (a) / of tides have (b) / now been understood. (c) / No error (d)", hi: "नियम 18 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 18", a: 1, opts: ["Ebb and flow (a)", "of tides have (b)", "now been understood. (c)", "No error (d)"], exp: "<b>Explanation:</b> If two subjects joined by 'and' refer to the same idea/thing as a single unit, the verb is singular. Change 'have' into 'has'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि 'and' से जुड़े दो subjects एक ही idea या वस्तु को दर्शाते हैं, तो verb singular होता है।</div>" },
+            { en: "<strong>Rule 19: Find the grammatical error</strong><br>Each part of (a) / a banana tree (b) / are useful. (c) / No error (d)", hi: "नियम 19 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 19", a: 2, opts: ["Each part of (a)", "a banana tree (b)", "are useful. (c)", "No error (d)"], exp: "<b>Explanation:</b> Words like Each, every, everyone, nobody are singular and take a singular verb. Change 'are' into 'is'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Each, every, everyone, nobody singular होते हैं और singular verb लेते हैं।</div>" },
+            { en: "<strong>Rule 20: Find the grammatical error</strong><br>Each of (a) / these books (b) / are very useful. (c) / No error (d)", hi: "नियम 20 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 20", a: 2, opts: ["Each of (a)", "these books (b)", "are very useful. (c)", "No error (d)"], exp: "<b>Explanation:</b> Each of / Either of + Plural Noun takes a Singular Verb. Change 'are' into 'is'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Each of / Either of + Plural Noun के साथ Singular Verb का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 21: Find the grammatical error</strong><br>One must perform (a) / his duty (b) / properly. (c) / No error (d)", hi: "नियम 21 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 21", a: 1, opts: ["One must perform (a)", "his duty (b)", "properly. (c)", "No error (d)"], exp: "<b>Explanation:</b> The pronoun 'one' takes 'one's' as its possessive adjective, not 'his'. Change 'his' into 'one's'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Pronoun 'one' का possessive adjective 'one's' होता है, 'his' नहीं।</div>" },
+            { en: "<strong>Rule 22: Find the grammatical error</strong><br>One of the lawyers (a) / who has qualified (b) / is my sister. (c) / No error (d)", hi: "नियम 22 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 22", a: 1, opts: ["One of the lawyers (a)", "who has qualified (b)", "is my sister. (c)", "No error (d)"], exp: "<b>Explanation:</b> The verb following a Relative Pronoun ('who') agrees with its antecedent ('lawyers'). Change 'has' into 'have'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Relative Pronoun ('who') के बाद आने वाला Verb उसके ठीक पहले वाले शब्द (antecedent) के अनुसार होता है।</div>" },
+            { en: "<strong>Rule 23: Find the grammatical error</strong><br>Any one of these two roads (a) / will lead you (b) / to Noida. (c) / No error (d)", hi: "नियम 23 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 23", a: 0, opts: ["Any one of these two roads (a)", "will lead you (b)", "to Noida. (c)", "No error (d)"], exp: "<b>Explanation:</b> For exactly two items, use 'Either of'. 'Any one' is used for more than two. Change 'Any one' into 'Either'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> ठीक दो चीज़ों के लिए 'Either of' का प्रयोग होता है। 'Any one' का प्रयोग दो से अधिक चीज़ों के लिए किया जाता है।</div>" },
+            { en: "<strong>Rule 24: Find the grammatical error</strong><br>A number of student (a) / are waiting for (b) / the result. (c) / No error (d)", hi: "नियम 24 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 24", a: 0, opts: ["A number of student (a)", "are waiting for (b)", "the result. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'A number of' is followed by a Plural Noun and Plural Verb. Change 'student' into 'students'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'A number of' के बाद हमेशा Plural Noun और Plural Verb आता है।</div>" },
+            { en: "<strong>Rule 25: Find the grammatical error</strong><br>The principal and secretary (a) / of the college (b) / have been suspended. (c) / No error (d)", hi: "नियम 25 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 25", a: 2, opts: ["The principal and secretary (a)", "of the college (b)", "have been suspended. (c)", "No error (d)"], exp: "<b>Explanation:</b> If the Article 'The' is only before the first subject, it refers to the same person (Singular). Change 'have' into 'has'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि Article 'The' केवल पहले subject के पहले लगा हो, तो वह एक ही व्यक्ति (Singular) को दर्शाता है।</div>" },
+            { en: "<strong>Rule 26: Find the grammatical error</strong><br>Out of the innumerable stars (a) / in the sky (b) / how much have life? (c) / No error (d)", hi: "नियम 26 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 26", a: 2, opts: ["Out of the innumerable stars (a)", "in the sky (b)", "how much have life? (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Stars' is considered countable in grammar terms (we can count them). Use 'many' for countable nouns instead of 'much'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Stars' (तारे) grammar में countable (गिने जाने योग्य) माने जाते हैं। Countable nouns के लिए 'many' आता है, 'much' नहीं।</div>" },
+            { en: "<strong>Rule 27: Find the grammatical error</strong><br>He loves (a) / watching television, (b) / isn't it? (c) / No error (d)", hi: "नियम 27 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 27", a: 2, opts: ["He loves (a)", "watching television, (b)", "isn't it? (c)", "No error (d)"], exp: "<b>Explanation:</b> The question tag for a positive sentence is negative, and follows the same tense (Simple Present). Change 'isn't it?' into 'doesn't he?'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Positive वाक्य का question tag negative होता है और वह उसी tense में रहता है।</div>" },
+            { en: "<strong>Rule 28: Choose the correct Passive Voice</strong><br>My mother cooks food.", hi: "नियम 28 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 28", a: 1, opts: ["Food is being cooked by my mother.", "Food is cooked by my mother.", "Food is cook by my mother.", "Food has been cooked by my mother."], exp: "<b>Explanation:</b> Active: V1 + s/es. Passive: is/am/are + V3. So, 'Food is cooked by my mother'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Simple Present Active voice (V1 + s/es) का Passive voice: is/am/are + V3 होता है।</div>" },
+            { en: "<strong>Rule 29: Find the grammatical error</strong><br>It is time (a) / you should go (b) / to bed. (c) / No error (d)", hi: "नियम 29 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 29", a: 1, opts: ["It is time (a)", "you should go (b)", "to bed. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'It is time / high time' is followed by Subject + V2 (Simple Past). Change 'should go' into 'went'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'It is time / high time' के बाद हमेशा Subject + V2 (Simple Past) आता है।</div>" },
+            { en: "<strong>Rule 30: Find the grammatical error</strong><br>He rised (a) / many questions (b) / in the class. (c) / No error (d)", hi: "नियम 30 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 30", a: 0, opts: ["He rised (a)", "many questions (b)", "in the class. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Rise' means to go up (V2: rose). 'Raise' means to lift or ask (V2: raised). Change 'rised' into 'raised'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Rise' का मतलब है खुद ऊपर उठना (V2: rose)। 'Raise' का मतलब है उठाना या पूछना (V2: raised)।</div>" },
+            { en: "<strong>Rule 31: Find the grammatical error</strong><br>I avoid (a) / to sleep (b) / late at night. (c) / No error (d)", hi: "नियम 31 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 31", a: 1, opts: ["I avoid (a)", "to sleep (b)", "late at night. (c)", "No error (d)"], exp: "<b>Explanation:</b> Verbs like 'enjoy, avoid, mind, look forward to' are followed by a Gerund (V1+ing). Change 'to sleep' into 'sleeping'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> enjoy, avoid, mind, look forward to जैसे verbs के बाद हमेशा Gerund (V1+ing) आता है।</div>" },
+            { en: "<strong>Rule 32: Find the grammatical error</strong><br>He will telegraphed (a) / the code word (b) / to his commander. (c) / No error (d)", hi: "नियम 32 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 32", a: 0, opts: ["He will telegraphed (a)", "the code word (b)", "to his commander. (c)", "No error (d)"], exp: "<b>Explanation:</b> A Modal Verb (will/shall) is always followed by the base form of the verb (V1). Change 'telegraphed' into 'telegraph'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Modal Verb (will/shall) के बाद हमेशा verb की base form (V1) आती है।</div>" },
+            { en: "<strong>Rule 33: Find the grammatical error</strong><br>The sceneries (a) / of Kashmir (b) / enchanted me. (c) / No error (d)", hi: "नियम 33 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 33", a: 0, opts: ["The sceneries (a)", "of Kashmir (b)", "enchanted me. (c)", "No error (d)"], exp: "<b>Explanation:</b> Uncountable Nouns like scenery, poetry, luggage do not come in plural form. Change 'sceneries' into 'scenery'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Uncountable Nouns जैसे scenery, poetry, luggage का plural (बहुवचन) form नहीं होता।</div>" },
+            { en: "<strong>Rule 34: Find the grammatical error</strong><br>The scissor is (a) / lying on (b) / the table. (c) / No error (d)", hi: "नियम 34 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 34", a: 0, opts: ["The scissor is (a)", "lying on (b)", "the table. (c)", "No error (d)"], exp: "<b>Explanation:</b> Certain nouns like scissors, spectacles, pants always come in plural form and take a plural verb. Change 'scissor is' into 'scissors are'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> scissors, spectacles, pants जैसे nouns हमेशा plural form में आते हैं और plural verb लेते हैं।</div>" },
+            { en: "<strong>Rule 35: Find the grammatical error</strong><br>Cattles (a) / are grazing (b) / in the field. (c) / No error (d)", hi: "नियम 35 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 35", a: 0, opts: ["Cattles (a)", "are grazing (b)", "in the field. (c)", "No error (d)"], exp: "<b>Explanation:</b> Nouns like cattle, police, people are plural by meaning but do not take 's/es'. Change 'cattles' into 'cattle'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> cattle, police, people अर्थ में plural होते हैं। इनमें 's/es' का प्रयोग नहीं होता।</div>" },
+            { en: "<strong>Rule 36: Find the grammatical error</strong><br>Lasers are (a) / used for delicate (b) / eyes surgery. (c) / No error (d)", hi: "नियम 36 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 36", a: 2, opts: ["Lasers are (a)", "used for delicate (b)", "eyes surgery. (c)", "No error (d)"], exp: "<b>Explanation:</b> When a Noun is used as an Adjective (modifying 'surgery'), it remains singular. Change 'eyes' into 'eye'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> जब Noun का प्रयोग Adjective की तरह होता है, तो वह Singular रहता है (जैसे eyes surgery की जगह eye surgery)।</div>" },
+            { en: "<strong>Rule 37: Find the grammatical error</strong><br>I had (a) / a bad dream (b) / last night. (c) / No error (d)", hi: "नियम 37 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 37", a: 1, opts: ["I had (a)", "a bad dream (b)", "last night. (c)", "No error (d)"], exp: "<b>Explanation:</b> Confusing Nouns: In English, a scary dream is correctly called a 'nightmare', not 'bad dream'. Change 'bad dream' to 'nightmare'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> डरावने सपने को अंग्रेज़ी में 'bad dream' नहीं कहा जाता, 'nightmare' कहा जाता है।</div>" },
+            { en: "<strong>Rule 38: Find the grammatical error</strong><br>She has (a) / two (b) / sister-in-laws. (c) / No error (d)", hi: "नियम 38 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 38", a: 2, opts: ["She has (a)", "two (b)", "sister-in-laws. (c)", "No error (d)"], exp: "<b>Explanation:</b> In the plural form of compound Nouns, 's' is added to the 'main word'. Change 'sister-in-laws' into 'sisters-in-law'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Compound Nouns का plural बनाते समय 's' को मुख्य शब्द (main word) में जोड़ा जाता है।</div>" },
+            { en: "<strong>Rule 39: Find the grammatical error</strong><br>He was so afraid (a) / that his knees (b) / knocked one-another. (c) / No error (d)", hi: "नियम 39 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 39", a: 2, opts: ["He was so afraid (a)", "that his knees (b)", "knocked one-another. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Each other' is used for two, 'One another' for more than two. A person has two knees, so change 'one-another' into 'each other'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Each other' का प्रयोग दो के लिए होता है। 'One another' का प्रयोग दो से अधिक के लिए होता है।</div>" },
+            { en: "<strong>Rule 40: Find the grammatical error</strong><br>I, you and he (a) / performed well (b) / at the event. (c) / No error (d)", hi: "नियम 40 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 40", a: 0, opts: ["I, you and he (a)", "performed well (b)", "at the event. (c)", "No error (d)"], exp: "<b>Explanation:</b> For positive actions, the order of Pronouns is 231 (Second person, Third person, First person). Change 'I, you and he' to 'You, he and I'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Positive कार्यों के लिए Pronouns का क्रम 231 (Second person, Third person, First person) होता है।</div>" },
+            { en: "<strong>Rule 41: Find the grammatical error</strong><br>Myself (a) / Rahul, your assistant, (b) / from Delhi. (c) / No error (d)", hi: "नियम 41 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 41", a: 0, opts: ["Myself (a)", "Rahul, your assistant, (b)", "from Delhi. (c)", "No error (d)"], exp: "<b>Explanation:</b> A Reflexive Pronoun (Myself) cannot be used as the subject of a sentence. Change 'Myself' into 'I am'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Reflexive Pronoun (जैसे Myself) कभी भी वाक्य का subject नहीं बन सकता।</div>" },
+            { en: "<strong>Rule 42: Find the grammatical error</strong><br>He is (a) / more intelligent (b) / then you. (c) / No error (d)", hi: "नियम 42 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 42", a: 2, opts: ["He is (a)", "more intelligent (b)", "then you. (c)", "No error (d)"], exp: "<b>Explanation:</b> Comparative degree is followed by 'than' (for comparison), not 'then' (for time). Change 'then' into 'than'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Comparative degree के बाद तुलना के लिए 'than' आता है। समय बताने वाला 'then' नहीं आता।</div>" },
+            { en: "<strong>Rule 43: Find the grammatical error</strong><br>He is taller (a) / enough to pass (b) / the physical test. (c) / No error (d)", hi: "नियम 43 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 43", a: 0, opts: ["He is taller (a)", "enough to pass (b)", "the physical test. (c)", "No error (d)"], exp: "<b>Explanation:</b> We use Positive Degree with 'enough'. Change 'taller' into 'tall'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'enough' के साथ Positive Degree का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 44: Find the grammatical error</strong><br>The bear had (a) / a ring around (b) / it's nose. (c) / No error (d)", hi: "नियम 44 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 44", a: 2, opts: ["The bear had (a)", "a ring around (b)", "it's nose. (c)", "No error (d)"], exp: "<b>Explanation:</b> Possessive pronouns do not take an apostrophe. 'It's' means 'it is'. Change 'it's' to the possessive form 'its'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Possessive pronouns में apostrophe नहीं लगता। 'It's' का अर्थ 'it is' होता है, जबकि possessive form 'its' है।</div>" },
+            { en: "<strong>Rule 45: Find the grammatical error</strong><br>The dish (a) / tastes (b) / deliciously. (c) / No error (d)", hi: "नियम 45 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 45", a: 2, opts: ["The dish (a)", "tastes (b)", "deliciously. (c)", "No error (d)"], exp: "<b>Explanation:</b> Verbs of sensation (taste, look, seem, sound) take an Adjective, not an Adverb. Change 'deliciously' into 'delicious'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Verbs of sensation (taste, look, seem, sound) के बाद Adjective आता है, Adverb नहीं।</div>" },
+            { en: "<strong>Rule 46: Find the grammatical error</strong><br>He is a miser man (a) / who lives in (b) / the nearby lane. (c) / No error (d)", hi: "नियम 46 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 46", a: 0, opts: ["He is a miser man (a)", "who lives in (b)", "the nearby lane. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Miser' is a noun, 'Miserly' is an adjective. Since 'man' is a noun, it needs an adjective. Change 'miser' into 'miserly'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Miser' एक noun है और 'Miserly' adjective है। Noun की विशेषता बताने के लिए adjective की आवश्यकता होती है।</div>" },
+            { en: "<strong>Rule 47: Find the grammatical error</strong><br>Old habits (a) / die (b) / hardly. (c) / No error (d)", hi: "नियम 47 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 47", a: 2, opts: ["Old habits (a)", "die (b)", "hardly. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Hard' means with effort/difficulty. 'Hardly' means almost not. Change 'hardly' into 'hard' (meaning difficult to die).<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Hard' का अर्थ है मेहनत या कठिनाई से। 'Hardly' का अर्थ है लगभग नहीं।</div>" },
+            { en: "<strong>Rule 48: Find the grammatical error</strong><br>He is a honest man (a) / who is fair in (b) / his dealings. (c) / No error (d)", hi: "नियम 48 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 48", a: 0, opts: ["He is a honest man (a)", "who is fair in (b)", "his dealings. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'An' comes before a vowel sound. 'Honest' starts with the vowel sound 'o'. Change 'a' into 'an'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'An' का प्रयोग vowel (स्वर) sound से पहले होता है।</div>" },
+            { en: "<strong>Rule 49: Find the grammatical error</strong><br>Although he worked (a) / hard but (b) / he failed. (c) / No error (d)", hi: "नियम 49 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 49", a: 1, opts: ["Although he worked (a)", "hard but (b)", "he failed. (c)", "No error (d)"], exp: "<b>Explanation:</b> The correct pair of conjunction is Although/Though ... yet. Change 'but' into 'yet' or a comma.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Although/Though के साथ सही conjunction 'yet' या comma (,) होता है, 'but' नहीं।</div>" },
+            { en: "<strong>Rule 50: Find the grammatical error</strong><br>The doctor advised (a) / me to rest (b) / for few days. (c) / No error (d)", hi: "नियम 50 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 50", a: 2, opts: ["The doctor advised (a)", "me to rest (b)", "for few days. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Few' means almost zero. 'A few' means some. He advised resting for some days. Change 'few' into 'a few'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Few' का अर्थ शून्य के बराबर होता है। 'A few' का अर्थ 'कुछ' होता है।</div>" },
+            { en: "<strong>Rule 51: Find the grammatical error</strong><br>This is my (a) / friend’s Rohan’s (b) / house. (c) / No error (d)", hi: "नियम 51 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 51", a: 1, opts: ["This is my (a)", "friend’s Rohan’s (b)", "house. (c)", "No error (d)"], exp: "<b>Explanation:</b> Do not use double apostrophe ('s) consecutively. Change 'friend’s Rohan’s' into 'friend Rohan’s'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> लगातार दो बार apostrophe ('s) का प्रयोग नहीं किया जा सकता।</div>" },
+            { en: "<strong>Rule 52: Find the grammatical error</strong><br>He described (a) / about (b) / the incident (c) / No error (d)", hi: "नियम 52 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 52", a: 1, opts: ["He described (a)", "about (b)", "the incident (c)", "No error (d)"], exp: "<b>Explanation:</b> Certain verbs like describe, order, discuss, attack do not take any preposition. Remove 'about'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> describe, order, discuss, attack जैसे verbs कोई preposition नहीं लेते।</div>" },
+            { en: "<strong>Rule 53: Find the grammatical error</strong><br>He is (a) / senior than (b) / all of us (c) / No error (d)", hi: "नियम 53 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 53", a: 1, opts: ["He is (a)", "senior than (b)", "all of us (c)", "No error (d)"], exp: "<b>Explanation:</b> Adjectives ending in 'ior' (senior, junior, superior) take 'to' instead of 'than'. Change 'senior than' to 'senior to'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'ior' पर समाप्त होने वाले Adjectives (senior, junior) 'than' की जगह 'to' लेते हैं।</div>" },
+            { en: "<strong>Rule 54: Find the grammatical error</strong><br>I consider you (a) / as my (b) / brother (c) / No error (d)", hi: "नियम 54 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 54", a: 1, opts: ["I consider you (a)", "as my (b)", "brother (c)", "No error (d)"], exp: "<b>Explanation:</b> Do not use 'as' with verbs like name, elect, think, consider, call, appoint. Remove 'as'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> name, elect, think, consider, call जैसे verbs के साथ 'as' का प्रयोग नहीं किया जाता।</div>" },
+            { en: "<strong>Rule 55: Find the grammatical error</strong><br>Hardly I had seen him (a) / when he showed (b) / a clean pair of heels (c) / No error (d)", hi: "नियम 55 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 55", a: 0, opts: ["Hardly I had seen him (a)", "when he showed (b)", "a clean pair of heels (c)", "No error (d)"], exp: "<b>Explanation:</b> A Negative Introductory sentence (starting with Hardly, Scarcely) takes Inversion (Verb before Subject). Change 'I had' to 'had I'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Negative शब्द (Hardly, Scarcely) से शुरू होने वाले वाक्य Inversion (Subject से पहले Verb) लेते हैं।</div>" },
+            { en: "<strong>Rule 56: Find the grammatical error</strong><br>She is (a) / honest but (b) / miser (c) / No error (d)", hi: "नियम 56 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 56", a: 2, opts: ["She is (a)", "honest but (b)", "miser (c)", "No error (d)"], exp: "<b>Explanation:</b> A Conjunction balances equals (Adjective to Adjective). 'Honest' is Adj, 'Miser' is Noun. Change 'miser' into 'miserly' (Adj).<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Conjunction हमेशा समान Parts of speech को जोड़ता है (जैसे Adjective को Adjective से)।</div>" },
+            { en: "<strong>Rule 57: Find the grammatical error</strong><br>Good deeds (a) / are (b) / more everlasting (c) / No error (d)", hi: "नियम 57 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 57", a: 2, opts: ["Good deeds (a)", "are (b)", "more everlasting (c)", "No error (d)"], exp: "<b>Explanation:</b> Non-gradable Adjectives (everlasting, unique, excellent) do not come in comparative degrees. Remove 'more'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Non-gradable Adjectives (everlasting, unique) comparative degrees में नहीं आते।</div>" },
+            { en: "<strong>Rule 58: Find the grammatical error</strong><br>She is my (a) / cousin sister who (b) / lives in Lucknow (c) / No error (d)", hi: "नियम 58 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 58", a: 1, opts: ["She is my (a)", "cousin sister who (b)", "lives in Lucknow (c)", "No error (d)"], exp: "<b>Explanation:</b> Avoid redundant/superfluous words. We say 'cousin', not 'cousin sister' or 'cousin brother'. Remove 'sister'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Superfluous (अतिरिक्त) शब्दों से बचें, 'cousin sister/brother' नहीं होता, केवल 'cousin' होता है।</div>" },
+            { en: "<strong>Rule 59: Find the grammatical error</strong><br>He is (a) / more cleverer (b) / than she is (c) / No error (d)", hi: "नियम 59 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 59", a: 1, opts: ["He is (a)", "more cleverer (b)", "than she is (c)", "No error (d)"], exp: "<b>Explanation:</b> Two Comparative degrees cannot come together. 'Cleverer' is already comparative. Remove 'more'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> दो Comparative degrees एक साथ प्रयोग नहीं की जा सकतीं।</div>" },
+            { en: "<strong>Rule 60: Find the grammatical error</strong><br>The teacher distributed (a) / the sweets (b) / between the children (c) / No error (d)", hi: "नियम 60 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 60", a: 2, opts: ["The teacher distributed (a)", "the sweets (b)", "between the children (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Between' is used for 2 people/things. 'Among' is used for more than 2. Change 'between' into 'among'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Between' का प्रयोग 2 के लिए होता है। 'Among' का प्रयोग 2 से अधिक के लिए होता है।</div>" },
+            { en: "<strong>Rule 61: Find the grammatical error</strong><br>I prefer (a) / tea than (b) / coffee now. (c) / No error (d)", hi: "नियम 61 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 61", a: 1, opts: ["I prefer (a)", "tea than (b)", "coffee now. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Prefer' and 'preferable' take the preposition 'to' and not 'than'. Change 'than' into 'to'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Prefer' और 'preferable' के साथ preposition 'to' आता है, 'than' नहीं।</div>" },
+            { en: "<strong>Rule 62: Find the grammatical error</strong><br>You need (a) / not to worry (b) / now (c) / No error (d)", hi: "नियम 62 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 62", a: 1, opts: ["You need (a)", "not to worry (b)", "now (c)", "No error (d)"], exp: "<b>Explanation:</b> Modal auxiliary verbs 'Need not' & 'Dare not' take the base verb (bare infinitive) without 'to'. Remove 'to'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Modal auxiliary verbs 'Need not' और 'Dare not' बिना 'to' के base verb (bare infinitive) लेते हैं।</div>" },
+            { en: "<strong>Rule 63: Find the grammatical error</strong><br>I don't know (a) / whom does he want (b) / to meet. (c) / No error (d)", hi: "नियम 63 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 63", a: 1, opts: ["I don't know (a)", "whom does he want (b)", "to meet. (c)", "No error (d)"], exp: "<b>Explanation:</b> When a 'Wh' word comes in the middle of a sentence, it acts as a conjunction and is followed by an Assertive Sentence (Subject+Verb). Change 'does he want' to 'he wants'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> जब 'Wh' शब्द वाक्य के बीच में conjunction का काम करे, तो उसके बाद Assertive Sentence (Subject+Verb) आता है।</div>" },
+            { en: "<strong>Rule 64: Fill in the blank (Collocation)</strong><br>Now let's _________ the deal.", hi: "नियम 64 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 64", a: 0, opts: ["close", "cross", "make", "impose"], exp: "<b>Explanation:</b> The correct collocation is 'Close the deal'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> सही collocation 'Close the deal' होता है।</div>" },
+            { en: "<strong>Rule 65: Find the grammatical error</strong><br>He is (a) / the eldest man (b) / of the village. (c) / No error (d)", hi: "नियम 65 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 65", a: 1, opts: ["He is (a)", "the eldest man (b)", "of the village. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Eldest' is used for blood relations within a family. 'Oldest' is used for general age. Change 'eldest' into 'oldest'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Eldest' परिवार के खून के रिश्तों के लिए आता है। 'Oldest' सामान्य उम्र दर्शाने के लिए आता है।</div>" },
+            { en: "<strong>Rule 66: Find the grammatical error</strong><br>He gave her (a) / two red round (b) / balloons. (c) / No error (d)", hi: "नियम 66 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 66", a: 1, opts: ["He gave her (a)", "two red round (b)", "balloons. (c)", "No error (d)"], exp: "<b>Explanation:</b> The order of Adjectives is: Number, Opinion, Size, Age, Shape, Color. Shape (round) comes before Color (red). Change to 'two round red'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Adjectives का सही क्रम: Number, Opinion, Size, Age, Shape, Color होता है।</div>" },
+            { en: "<strong>Rule 67: Find the grammatical error</strong><br>He availed of (a) / the golden (b) / opportunity. (c) / No error (d)", hi: "नियम 67 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 67", a: 0, opts: ["He availed of (a)", "the golden (b)", "opportunity. (c)", "No error (d)"], exp: "<b>Explanation:</b> Verbs like 'avail' and 'adapt' take a Reflexive Pronoun. Add 'himself' after 'avail'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'avail' और 'adapt' जैसे verbs के साथ Reflexive Pronoun आता है।</div>" },
+            { en: "<strong>Rule 68: Find the grammatical error</strong><br>She is the one (a) / whom I think (b) / can lead the movement. (c) / No error (d)", hi: "नियम 68 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 68", a: 1, opts: ["She is the one (a)", "whom I think (b)", "can lead the movement. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Who' is used for the subject performing the action ('can lead'). 'Whom' is for objects. Change 'whom' into 'who'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> काम करने वाले (subject) के लिए 'Who' का प्रयोग होता है। Objects के लिए 'Whom' का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 69: Find the grammatical error</strong><br>Since he joined the army (a) / he did not take (b) / any leave. (c) / No error (d)", hi: "नियम 69 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 69", a: 1, opts: ["Since he joined the army (a)", "he did not take (b)", "any leave. (c)", "No error (d)"], exp: "<b>Explanation:</b> The structure is: Since + Simple Past, Present Perfect. Change 'did not take' into 'has not taken'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Structure: Since + Simple Past, उसके बाद Present Perfect होता है।</div>" },
+            { en: "<strong>Rule 70: Find the grammatical error</strong><br>He made her (a) / to do (b) / all the work. (c) / No error (d)", hi: "नियम 70 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 70", a: 1, opts: ["He made her (a)", "to do (b)", "all the work. (c)", "No error (d)"], exp: "<b>Explanation:</b> The causative verb 'Make' is followed by the bare infinitive (V1 without to). Change 'to do' into 'do'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Causative verb 'Make' के बाद bare infinitive (बिना 'to' के V1) आता है।</div>" },
+            { en: "<strong>Rule 71: Find the grammatical error</strong><br>He did not (a) / came to meet (b) / me last night. (c) / No error (d)", hi: "नियम 71 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 71", a: 1, opts: ["He did not (a)", "came to meet (b)", "me last night. (c)", "No error (d)"], exp: "<b>Explanation:</b> Two V2s cannot come adjacent to each other. 'Did' is already V2, so use V1 after it. Change 'came' to 'come'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> दो V2 एक साथ नहीं आ सकते। 'Did' स्वयं V2 है, इसलिए इसके बाद V1 आता है।</div>" },
+            { en: "<strong>Rule 72: Find the grammatical error</strong><br>There are two (a) / criterions to be (b) / followed by all. (c) / No error (d)", hi: "नियम 72 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 72", a: 1, opts: ["There are two (a)", "criterions to be (b)", "followed by all. (c)", "No error (d)"], exp: "<b>Explanation:</b> The plural of 'criterion' is 'criteria', not 'criterions'. Change 'criterions' into 'criteria'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'criterion' (एकवचन) का plural 'criteria' होता है, 'criterions' नहीं।</div>" },
+            { en: "<strong>Rule 73: Fill in the blank</strong><br>The class _________ going on.", hi: "नियम 73 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 73", a: 0, opts: ["is", "are", "have", "has"], exp: "<b>Explanation:</b> A Collective Noun acts as a singular unit when united. So it takes a singular verb 'is'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Collective Noun जब एक समूह के रूप में एकजुट हो तो Singular verb लेता है।</div>" },
+            { en: "<strong>Rule 74: Find the grammatical error</strong><br>He is too much (a) / anxious (b) / nowadays. (c) / No error (d)", hi: "नियम 74 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 74", a: 0, opts: ["He is too much (a)", "anxious (b)", "nowadays. (c)", "No error (d)"], exp: "<b>Explanation:</b> We use 'Too much + Noun' and 'Much too + Adjective'. Since 'anxious' is an Adjective, use 'much too'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Too much + Noun' और 'Much too + Adjective' का नियम प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 75: Find the grammatical error</strong><br>I need (a) / your favour (b) / in this matter. (c) / No error (d)", hi: "नियम 75 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 75", a: 1, opts: ["I need (a)", "your favour (b)", "in this matter. (c)", "No error (d)"], exp: "<b>Explanation:</b> Possessive Adjectives do not come with words like separation, leave, favour. Change 'your favour' to 'favour from you'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> separation, leave, favour जैसे शब्दों के साथ Possessive Adjectives (your, my) नहीं आते।</div>" },
+            { en: "<strong>Rule 76: Find the grammatical error</strong><br>There is no (a) / love lost between (b) / him and she. (c) / No error (d)", hi: "नियम 76 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 76", a: 2, opts: ["There is no (a)", "love lost between (b)", "him and she. (c)", "No error (d)"], exp: "<b>Explanation:</b> Prepositions like 'between...and' are followed by the objective case of a Pronoun. Change 'she' to 'her'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Prepositions (जैसे between...and) के बाद Pronoun का objective case (him, her) आता है।</div>" },
+            { en: "<strong>Rule 77: Find the grammatical error</strong><br>I have never (a) / and will never be (b) / an opportunist. (c) / No error (d)", hi: "नियम 77 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 77", a: 0, opts: ["I have never (a)", "and will never be (b)", "an opportunist. (c)", "No error (d)"], exp: "<b>Explanation:</b> If we need two forms of the same verb, we must state both. 'have' takes V3 (been), 'will' takes V1 (be). Add 'been' after 'have never'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> यदि एक ही verb के दो अलग-अलग forms की आवश्यकता हो, तो दोनों का उल्लेख करना चाहिए (जैसे have been, will be)।</div>" },
+            { en: "<strong>Rule 78: Find the grammatical error</strong><br>Being a rainy day, (a) / I did not go (b) / to office yesterday. (c) / No error (d)", hi: "नियम 78 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 78", a: 0, opts: ["Being a rainy day, (a)", "I did not go (b)", "to office yesterday. (c)", "No error (d)"], exp: "<b>Explanation:</b> Dangling participle: The subject 'I' cannot refer to the rainy day. Provide an independent subject. Change to 'It being a rainy day'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Dangling participle से बचने के लिए निर्जीव विषय (rainy day) के लिए एक स्वतंत्र subject (It) देना पड़ता है।</div>" },
+            { en: "<strong>Rule 79: Find the grammatical error</strong><br>I haven’t been (a) / to New York and (b) / my friend also. (c) / No error (d)", hi: "नियम 79 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 79", a: 2, opts: ["I haven’t been (a)", "to New York and (b)", "my friend also. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Also' cannot come at the end of a sentence, especially a negative one. Change 'my friend also' to 'neither has my friend'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Negative वाक्य के अंत में 'also' नहीं आ सकता। इसके स्थान पर 'neither' का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 80: Choose the correct Question Tag</strong><br>Let us go to party, _______?", hi: "नियम 80 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 80", a: 2, opts: ["don't we", "aren't we", "shall we", "will us"], exp: "<b>Explanation:</b> Sentences starting with 'Let us' or 'Let's' always take 'shall we' as the question tag.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Let us' या 'Let's' से शुरू होने वाले वाक्यों का Question tag 'shall we' होता है।</div>" },
+            { en: "<strong>Rule 81: Choose the correct Question Tag</strong><br>Everyone has arrived, _______?", hi: "नियम 81 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 81", a: 1, opts: ["hasn't he?", "haven't they?", "hasn't everyone?", "isn't it?"], exp: "<b>Explanation:</b> If the subject is everyone, everybody, someone, nobody, the Question tag is 'plural verb + they?'. So, 'haven't they?'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> everyone, everybody, nobody का Question tag 'plural verb + they' होता है।</div>" },
+            { en: "<strong>Rule 82: Find the grammatical error</strong><br>Men after men (a) / turned up for (b) / the ceremony. (c) / No error (d)", hi: "नियम 82 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 82", a: 0, opts: ["Men after men (a)", "turned up for (b)", "the ceremony. (c)", "No error (d)"], exp: "<b>Explanation:</b> If the same Noun is repeated after a Preposition, the Noun must be singular. Change 'Men after men' to 'Man after man'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Preposition के पहले और बाद में समान Noun दोहराया जाए, तो वह Noun singular होना चाहिए।</div>" },
+            { en: "<strong>Rule 83: Find the grammatical error</strong><br>The rich (a) / exploits (b) / the poor. (c) / No error (d)", hi: "नियम 83 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 83", a: 1, opts: ["The rich (a)", "exploits (b)", "the poor. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'The + Adjective' (The rich) represents a Plural Noun (rich people). It takes a Plural Verb. Change 'exploits' to 'exploit'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'The + Adjective' (जैसे The rich) Plural Noun दर्शाता है और Plural Verb लेता है।</div>" },
+            { en: "<strong>Rule 84: Find the grammatical error</strong><br>Kalidasa is (a) / Shakespeare (b) / of India (c) / No error (d)", hi: "नियम 84 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 84", a: 1, opts: ["Kalidasa is (a)", "Shakespeare (b)", "of India (c)", "No error (d)"], exp: "<b>Explanation:</b> When a proper noun is used as an epitome/perfect example, it acts as a common noun and takes 'The'. Change 'Shakespeare' to 'the Shakespeare'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> जब Proper noun को किसी उदाहरण के रूप में प्रयोग करें, तो वह common noun बन जाता है और Article 'The' लेता है।</div>" },
+            { en: "<strong>Rule 85: Find the grammatical error</strong><br>She is the (a) / wisest of the (b) / two sisters. (c) / No error (d)", hi: "नियम 85 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 85", a: 1, opts: ["She is the (a)", "wisest of the (b)", "two sisters. (c)", "No error (d)"], exp: "<b>Explanation:</b> If one is chosen out of 2, the structure is 'the + Comparative Degree'. Change 'wisest' into 'wiser'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 2 में से 1 चुनने (selection) पर 'the + Comparative Degree' का structure प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 86: Find the grammatical error</strong><br>The more electricity (a) / you use, the high (b) / the bill will be. (c) / No error (d)", hi: "नियम 86 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 86", a: 1, opts: ["The more electricity (a)", "you use, the high (b)", "the bill will be. (c)", "No error (d)"], exp: "<b>Explanation:</b> In parallel proportion (directly/inversely), both clauses take 'the + comparative degree'. Change 'the high' into 'the higher'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Parallel proportion में दोनों तरफ के clauses 'the + comparative degree' लेते हैं।</div>" },
+            { en: "<strong>Rule 87: Find the grammatical error</strong><br>United States (a) / is a (b) / nuclear power. (c) / No error (d)", hi: "नियम 87 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 87", a: 0, opts: ["United States (a)", "is a (b)", "nuclear power. (c)", "No error (d)"], exp: "<b>Explanation:</b> If the name of a place includes Union, United, Republic or Kingdom, use the article 'The' before it. Add 'The' before 'United States'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Union, United, Republic वाले स्थानों के नाम से पहले Article 'The' लगता है।</div>" },
+            { en: "<strong>Rule 88: Find the grammatical error</strong><br>He seldom (a) / or ever (b) / calls me up. (c) / No error (d)", hi: "नियम 88 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 88", a: 1, opts: ["He seldom (a)", "or ever (b)", "calls me up. (c)", "No error (d)"], exp: "<b>Explanation:</b> The correct pairs are 'Seldom or never' and 'Seldom if ever'. Change 'or ever' to 'or never' (or 'if ever').<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> सही जोड़े 'Seldom or never' और 'Seldom if ever' होते हैं।</div>" },
+            { en: "<strong>Rule 89: Find the grammatical error</strong><br>He was very (a) / shocked when he (b) / heard the news. (c) / No error (d)", hi: "नियम 89 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 89", a: 0, opts: ["He was very (a)", "shocked when he (b)", "heard the news. (c)", "No error (d)"], exp: "<b>Explanation:</b> 'Very' takes Present Participle (V+ing) and 'Much' takes Past Participle (V3). Since shocked is V3, change 'very' to 'much'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> 'Very' के साथ Present Participle (V+ing) आता है। 'Much' के साथ Past Participle (V3) आता है।</div>" },
+            { en: "<strong>Rule 90: Find the grammatical error</strong><br>My house (a) / is twice bigger (b) / than yours. (c) / No error (d)", hi: "नियम 90 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 90", a: 1, opts: ["My house (a)", "is twice bigger (b)", "than yours. (c)", "No error (d)"], exp: "<b>Explanation:</b> Words like Twice, Thrice do not take Comparative Degrees. Use Positive Degree (as...as). Change 'bigger' to 'as big as'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Twice, Thrice के साथ Comparative Degrees नहीं आते। इनके साथ Positive Degree (as...as) का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 91: Find the grammatical error</strong><br>Children must (a) / go to the (b) / school everyday. (c) / No error (d)", hi: "नियम 91 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 91", a: 1, opts: ["Children must (a)", "go to the (b)", "school everyday. (c)", "No error (d)"], exp: "<b>Explanation:</b> We don't add Articles to temple/school/jail if it refers to its primary purpose (studying). Remove 'the' before school.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> temple, school, jail यदि प्राथमिक उद्देश्य (जैसे पढ़ाई) के लिए उपयोग हों तो Article 'the' नहीं लगता।</div>" },
+            { en: "<strong>Rule 92: Find the grammatical error</strong><br>Earth moves (a) / around (b) / the Sun. (c) / No error (d)", hi: "नियम 92 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 92", a: 0, opts: ["Earth moves (a)", "around (b)", "the Sun. (c)", "No error (d)"], exp: "<b>Explanation:</b> Article 'The' is used before Heavenly Objects (Sun, Moon, Earth). Add 'The' before Earth.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> आकाशीय पिंडों (Sun, Moon, Earth) के पहले Article 'The' लगता है।</div>" },
+            { en: "<strong>Rule 93: Find the grammatical error</strong><br>The English is (a) / spoken all (b) / over the world. (c) / No error (d)", hi: "नियम 93 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 93", a: 0, opts: ["The English is (a)", "spoken all (b)", "over the world. (c)", "No error (d)"], exp: "<b>Explanation:</b> Article 'The' does not come before languages. 'The English' means the people of England. Remove 'The'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> भाषाओं से पहले Article 'The' नहीं आता। 'The English' का अर्थ इंग्लैंड के लोग होता है।</div>" },
+            { en: "<strong>Rule 94: Find the grammatical error</strong><br>I saw an afloat (a) / dead body when I was (b) / walking past the pond. (c) / No error (d)", hi: "नियम 94 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 94", a: 0, opts: ["I saw an afloat (a)", "dead body when I was (b)", "walking past the pond. (c)", "No error (d)"], exp: "<b>Explanation:</b> Predicative Adjectives (afloat, asleep, afraid) are not followed by a noun. Change 'an afloat' to 'a floating'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Predicative Adjectives (afloat, asleep) के तुरंत बाद noun नहीं आता।</div>" },
+            { en: "<strong>Rule 95: Find the grammatical error</strong><br>The headquarter of (a) / the United Nations (b) / is in New York. (c) / No error (d)", hi: "नियम 95 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 95", a: 0, opts: ["The headquarter of (a)", "the United Nations (b)", "is in New York. (c)", "No error (d)"], exp: "<b>Explanation:</b> In nouns, the correct word is 'Headquarters', not 'headquarter'. Change it to 'headquarters'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> सही noun 'Headquarters' होता है, 'headquarter' नहीं।</div>" },
+            { en: "<strong>Rule 96: Find the grammatical error</strong><br>I met my friends (a) / on last night (b) / to discuss our trip. (c) / No error (d)", hi: "नियम 96 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 96", a: 1, opts: ["I met my friends (a)", "on last night (b)", "to discuss our trip. (c)", "No error (d)"], exp: "<b>Explanation:</b> No Preposition & Article comes before days, today, tonight, tomorrow, yesterday, last night, last week etc. Remove 'on'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> days, today, tomorrow, yesterday, last night से पहले Preposition और Article नहीं लगता।</div>" },
+            { en: "<strong>Rule 97: Find the grammatical error</strong><br>She came (a) / to Delhi in (b) / May 22. (c) / No error (d)", hi: "नियम 97 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 97", a: 1, opts: ["She came (a)", "to Delhi in (b)", "May 22. (c)", "No error (d)"], exp: "<b>Explanation:</b> Preposition 'on' is used for days/dates, and 'in' is used for months/years. May 22 is a date, so change 'in' to 'on'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> दिनों/तारीखों के लिए 'on' का प्रयोग होता है। महीनों/वर्षों के लिए 'in' का प्रयोग होता है।</div>" },
+            { en: "<strong>Rule 98: Find the grammatical error</strong><br>I have been living (a) / in Delhi at Dwarka (b) / since 2020. (c) / No error (d)", hi: "नियम 98 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 98", a: 1, opts: ["I have been living (a)", "in Delhi at Dwarka (b)", "since 2020. (c)", "No error (d)"], exp: "<b>Explanation:</b> Order of Adverbs of place goes from 'More specific (small)' to 'Less specific (big)'. Change to 'at Dwarka in Delhi'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Adverbs of place का क्रम हमेशा विशिष्ट/छोटे स्थान से बड़े स्थान की ओर होता है।</div>" },
+            { en: "<strong>Rule 99: Find the grammatical error</strong><br>I have known (a) / to swim (b) / since I was a kid. (c) / No error (d)", hi: "नियम 99 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 99", a: 1, opts: ["I have known (a)", "to swim (b)", "since I was a kid. (c)", "No error (d)"], exp: "<b>Explanation:</b> If Know, Wonder, Discover, Learn are followed by 'to + V1', a 'wh' word must come before 'to + V1'. Add 'how' before 'to swim'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> Know, Learn के बाद यदि 'to + V1' हो, तो बीच में 'wh' शब्द (जैसे how) लगाना आवश्यक है।</div>" },
+            { en: "<strong>Rule 100: Find the grammatical error</strong><br>My mother (a) / is angry (b) / upon me. (c) / No error (d)", hi: "नियम 100 के अनुसार व्याकरण की गलती पहचानें।", tag: "Rule 100", a: 2, opts: ["My mother (a)", "is angry (b)", "upon me. (c)", "No error (d)"], exp: "<b>Explanation:</b> We use 'angry with' someone (person) and 'angry at' something (situation). Change 'upon me' to 'with me'.<br><br><div style='padding:10px; background:#e0f2fe; border-left:4px solid #0284c7; border-radius:6px; color:#0c4a6e;'><b>हिंदी में नियम:</b> किसी व्यक्ति से नाराज़ होने पर 'angry with' आता है। किसी बात/चीज़ पर नाराज़ होने पर 'angry at' आता है।</div>" }
+        ];
+
+        let currQ = 0, totalQ = rawData.length;
+        let userAns = new Array(totalQ).fill(null), markedForReview = new Array(totalQ).fill(false);
+        
+        let totalTime = 60 * 60, maxTime = totalTime, timerInt, qTimeSpent = new Array(totalQ).fill(0), qTimerInt;
+
+        document.addEventListener('keydown', function(event) {
+            if(document.getElementById('quiz-screen').style.display === 'flex') {
+                if(event.key === "ArrowRight") {
+                    saveAndNext();
+                } else if(event.key === "ArrowLeft") {
+                    prevQuestion();
+                }
+            }
+        });
+
+        function startTest() {
+            userName = "Practice Mode";
+            let elem = document.documentElement;
+            if (elem.requestFullscreen) { elem.requestFullscreen().catch(()=>{}); }
+
+            document.getElementById('rTotalMarks').innerText = totalQ * 2;
+            document.getElementById('start-screen').style.display = 'none';
+            document.getElementById('quiz-screen').style.display = 'flex';
+
+            buildPalettes();
+            loadQuestion(0);
+            startTimer();
+        }
+
+        function toggleLanguage() {
+            if(currentLang === 'both') { currentLang = 'en'; document.getElementById('langText').innerText = 'English'; }
+            else if(currentLang === 'en') { currentLang = 'hi'; document.getElementById('langText').innerText = 'Hindi'; }
+            else { currentLang = 'both'; document.getElementById('langText').innerText = 'A/अ'; }
+            loadQuestion(currQ);
+        }
+
+        function closeOverlay(id) { document.getElementById(id).style.display = 'none'; }
+        
+        function toggleDrawer() {
+            let drawer = document.getElementById('sideDrawer'); let overlay = document.getElementById('drawerOverlay');
+            if(drawer.classList.contains('open')) { drawer.classList.remove('open'); overlay.style.display = 'none'; } 
+            else { drawer.classList.add('open'); overlay.style.display = 'block'; }
+        }
+
+        function buildPalettes() {
+            let topBar = document.getElementById('paletteBar'); let sideGrid = document.getElementById('drawerPalette');
+            topBar.innerHTML = ""; sideGrid.innerHTML = "";
+            for(let i=0; i<totalQ; i++){
+                let topBtn = document.createElement('div'); topBtn.className = 'pal-btn'; topBtn.id = `pal-${i}`; topBtn.innerText = i + 1; topBtn.onclick = () => loadQuestion(i); topBar.appendChild(topBtn);
+                let sideBtn = document.createElement('div'); sideBtn.className = 'pal-btn'; sideBtn.id = `side-pal-${i}`; sideBtn.innerText = i + 1; sideBtn.onclick = () => { toggleDrawer(); loadQuestion(i); }; sideGrid.appendChild(sideBtn);
+            }
+        }
+
+        function updatePaletteAndStats() {
+            let ansCount = 0, markCount = 0, ansMarkCount = 0, unansCount = 0;
+            for(let i=0; i<totalQ; i++){
+                let stateClass = '';
+                if(userAns[i] !== null && markedForReview[i]) { stateClass = 'answered marked'; ansMarkCount++; } 
+                else if(userAns[i] !== null) { stateClass = 'answered'; ansCount++; } 
+                else if(markedForReview[i]) { stateClass = 'marked'; markCount++; } 
+                else { unansCount++; }
+
+                let activeClass = (i === currQ) ? ' active' : '';
+                let topBtn = document.getElementById(`pal-${i}`); if(topBtn) topBtn.className = 'pal-btn ' + stateClass + activeClass;
+                let sideBtn = document.getElementById(`side-pal-${i}`); if(sideBtn) sideBtn.className = 'pal-btn ' + stateClass + activeClass;
+            }
+            document.getElementById('s-ans').innerText = ansCount; document.getElementById('s-unans').innerText = unansCount;
+            document.getElementById('s-mark').innerText = markCount; document.getElementById('s-ans-mark').innerText = ansMarkCount;
+            
+            document.getElementById('conf-ans').innerText = ansCount + ansMarkCount;
+            document.getElementById('conf-unans').innerText = unansCount + markCount;
+        }
+
+        function loadQuestion(idx) {
+            currQ = idx; let qData = rawData[idx];
+            document.getElementById('qNumDisplay').innerText = "Question " + (idx + 1);
+            
+            let progressPercentage = ((idx + 1) / totalQ) * 100;
+            document.getElementById('progressBar').style.width = `${progressPercentage}%`;
+
+            let enDisplay = (currentLang === 'both' || currentLang === 'en') ? 'block' : 'none';
+            let hiDisplay = (currentLang === 'both' || currentLang === 'hi') ? 'block' : 'none';
+
+            let qArea = document.getElementById('quizAreaContent');
+            qArea.classList.remove('fade-in');
+            void qArea.offsetWidth;
+            qArea.classList.add('fade-in');
+
+            document.getElementById('questionContainer').innerHTML = `
+                <div class="exam-tag">${qData.tag}</div>
+                <div class="question-text" style="display:${enDisplay}">${qData.en}</div>
+                <div class="question-hi" style="display:${hiDisplay}">${qData.hi}</div>
+            `;
+            
+            let optsHtml = ""; let optionsLetters = ['A', 'B', 'C', 'D'];
+            qData.opts.forEach((opt, i) => {
+                let isSelected = userAns[idx] === i ? "selected" : "";
+                optsHtml += `<div class="option ${isSelected}" onclick="selectOption(${i})"><div class="opt-num">${optionsLetters[i]}</div><div class="opt-text">${opt}</div></div>`;
+            });
+            document.getElementById('optionsContainer').innerHTML = optsHtml;
+            const expBox = document.getElementById('practiceExplanation');
+            if (expBox) {
+                expBox.classList.remove('show');
+                expBox.innerHTML = '';
+            }
+
+            let prevBtn = document.getElementById('prevBtn'); prevBtn.style.visibility = (currQ === 0) ? "hidden" : "visible";
+            let saveBtn = document.getElementById('saveBtn');
+            if(currQ === totalQ - 1) { saveBtn.innerHTML = `Submit <i class="fa-solid fa-check"></i>`; saveBtn.style.background = "var(--success)"; } 
+            else { saveBtn.innerHTML = `Save & Next <i class="fa-solid fa-angle-right"></i>`; saveBtn.style.background = "var(--primary)"; }
+
+            let activePal = document.getElementById(`pal-${idx}`);
+            if(activePal) activePal.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            updatePaletteAndStats(); resetQTimer(true);
+        }
+
+        function selectOption(idx) {
+            userAns[currQ] = idx;
+            markedForReview[currQ] = false;
+
+            const qData = rawData[currQ];
+            const optionEls = document.querySelectorAll('#optionsContainer .option');
+
+            optionEls.forEach((el, i) => {
+                el.classList.remove('practice-correct-option', 'practice-wrong-option');
+                if (i === qData.a) el.classList.add('practice-correct-option');
+                if (i === idx && idx !== qData.a) el.classList.add('practice-wrong-option');
+            });
+
+            const expBox = document.getElementById('practiceExplanation');
+            const isCorrect = idx === qData.a;
+
+            expBox.innerHTML = `
+                <div class="practice-status ${isCorrect ? 'correct-status' : 'wrong-status'}">
+                    ${isCorrect ? '✅ Correct Answer' : '❌ Incorrect Answer'}
+                </div>
+                <div><b>Correct Answer:</b> ${String.fromCharCode(65 + qData.a)}. ${qData.opts[qData.a]}</div>
+                <div class="original-exp">${qData.exp}</div>
+            `;
+            expBox.classList.add('show');
+
+            updatePaletteAndStats();
+        }
+
+        function clearSelection() { userAns[currQ] = null; markedForReview[currQ] = false; loadQuestion(currQ); }
+        function markAndNext() { markedForReview[currQ] = true; goToNext(); }
+        function saveAndNext() { markedForReview[currQ] = false; if(currQ === totalQ - 1) { confirmSubmit(); } else { goToNext(); } }
+        function prevQuestion() { if (currQ > 0) loadQuestion(currQ - 1); }
+        function goToNext() { if (currQ < totalQ - 1) loadQuestion(currQ + 1); }
+
+        let touchstartX = 0; let touchendX = 0;
+        document.getElementById('swipeArea').addEventListener('touchstart', e => { touchstartX = e.changedTouches[0].screenX; }, {passive:true});
+        document.getElementById('swipeArea').addEventListener('touchend', e => {
+            touchendX = e.changedTouches[0].screenX;
+            if (touchendX < touchstartX - 60) goToNext();
+            if (touchendX > touchstartX + 60) prevQuestion();
+        }, {passive:true});
+
+        function confirmSubmit() {
+            updatePaletteAndStats();
+            document.getElementById('sideDrawer').classList.remove('open');
+            document.getElementById('drawerOverlay').style.display = 'none';
+            document.getElementById('submitOverlay').style.display = 'flex';
+        }
+
+        function triggerConfetti() {
+            var duration = 3 * 1000;
+            var end = Date.now() + duration;
+            (function frame() {
+                confetti({ particleCount: 5, angle: 60, spread: 55, origin: { x: 0 }, colors: ['#3b82f6', '#10b981', '#f59e0b'] });
+                confetti({ particleCount: 5, angle: 120, spread: 55, origin: { x: 1 }, colors: ['#3b82f6', '#10b981', '#f59e0b'] });
+                if (Date.now() < end) { requestAnimationFrame(frame); }
+            }());
+        }
+
+        function finalSubmit() {
+            clearInterval(timerInt); clearInterval(qTimerInt);
+            document.getElementById('submitOverlay').style.display = 'none';
+            document.getElementById('quiz-screen').style.display = 'none';
+            document.getElementById('result-screen').style.display = 'flex';
+
+            let correct = 0, wrong = 0, skip = 0;
+            userAns.forEach((ans, i) => {
+                if (ans !== null) { if (ans === rawData[i].a) correct++; else wrong++; } 
+                else { skip++; }
+            });
+
+            let score = (correct * 2.0) - (wrong * 0.5);
+            userFinalScore = score > 0 ? score.toFixed(2) : 0; 
+            
+            let timeUsed = maxTime - totalTime;
+            let tm = Math.floor(timeUsed / 60); let ts = timeUsed % 60;
+            document.getElementById('rTimeTaken').innerText = `${tm}m ${ts}s`;
+
+            let accuracy = (correct + wrong) > 0 ? ((correct / (correct + wrong)) * 100).toFixed(1) : 0;
+            
+            let maxScore = totalQ * 2;
+            let grade = 'Fail'; let gColor = '#f85149'; let perfMsg = "Needs Improvement! Keep Practicing.";
+            
+            if(score >= maxScore * 0.8) { grade = 'A+'; gColor = '#3fb950'; perfMsg = "Outstanding Performance! You are a Grammar Pro! 🏆"; }
+            else if(score >= maxScore * 0.6) { grade = 'A'; gColor = '#3fb950'; perfMsg = "Great Job! You have a solid grasp of Grammar. 🌟"; }
+            else if(score >= maxScore * 0.4) { grade = 'B'; gColor = '#d4af37'; perfMsg = "Good Attempt! A little more revision will make you perfect. 📚"; }
+            else if(score >= maxScore * 0.25) { grade = 'C'; gColor = '#d4af37'; perfMsg = "Fair Effort! Review the rules and try again. 💡"; }
+            
+            document.getElementById('rGrade').innerText = grade;
+            document.getElementById('rGrade').style.color = gColor;
+            document.getElementById('rGrade').style.borderColor = gColor;
+            document.getElementById('rGrade').style.background = `${gColor}20`; 
+
+            document.getElementById('rName').innerText = userName;
+            document.getElementById('finalScore').innerText = "+"+userFinalScore;
+            document.getElementById('rCorrect').innerText = correct;
+            document.getElementById('rWrong').innerText = wrong;
+            document.getElementById('rAccuracy').innerText = accuracy + '%';
+            document.getElementById('rPerfMessage').innerText = perfMsg;
+
+            if(grade === 'A+' || grade === 'A') { triggerConfetti(); }
+}
+
+        // ==========================================
+        // 🔥 NATIVE PDF PRINT ENGINE (0% CRASH) 🔥
+        // ==========================================
+        function downloadPDF() {
+            let btn = document.getElementById('pdfBtn');
+            let originalText = btn.innerHTML;
+            
+            // Show loading instantly to avoid UI freeze
+            btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Generating PDF...`;
+            btn.disabled = true;
+
+            setTimeout(() => {
+                let printArea = document.getElementById('print-area');
+                
+                let headerHtml = `
+                    <div class="p-hdr">
+                        <h2 style="color: #2563eb; margin-bottom: 5px;">Top 100 Grammar Rules</h2>
+                        <h4 style="color: #64748b; margin-top: 0; margin-bottom: 10px;">Detailed Solutions & Performance</h4>
+                        <p style="margin:0; font-size: 16px;"><b>Name:</b> ${userName} &nbsp; | &nbsp; <b>Score:</b> ${userFinalScore} / ${totalQ*2}</p>
+                    </div>
+                `;
+                
+                let contentHtml = "";
+                let optionsLetters = ['A', 'B', 'C', 'D'];
+                
+                rawData.forEach((q, i) => {
+                    let uAns = userAns[i];
+                    let isCrt = (uAns === q.a);
+                    let statusText = uAns === null ? "SKIPPED" : (isCrt ? "CORRECT" : "INCORRECT");
+                    let statusColor = uAns === null ? "#64748b" : (isCrt ? "#10b981" : "#ef4444");
+                    
+                    contentHtml += `
+                    <div class="p-card">
+                        <h4 style="margin: 0 0 10px 0; font-size: 16px;">Q${i+1}. ${q.en} <span style="color:${statusColor}; font-size:13px; font-weight:800;">[${statusText}]</span></h4>
+                        <ul style="list-style:none; padding-left:0; margin: 0 0 10px 0; font-size: 15px;">
+                    `;
+                    
+                    q.opts.forEach((opt, oIdx) => {
+                        let isRightAns = (oIdx === q.a);
+                        let isUserAns = (oIdx === uAns);
+                        let prefix = isRightAns ? "✅" : (isUserAns && !isCrt ? "❌" : "⚪");
+                        let optColor = isRightAns ? '#10b981' : (isUserAns && !isCrt ? '#ef4444' : '#0f172a');
+                        let fontWeight = isRightAns ? 'bold' : 'normal';
+                        
+                        contentHtml += `<li style="margin-bottom: 5px; color:${optColor}; font-weight:${fontWeight};">${prefix} ${optionsLetters[oIdx]}. ${opt}</li>`;
+                    });
+                    
+                    // Simple HTML parsing for explanation
+                    let cleanExp = q.exp.replace('<b>Explanation:</b>', '');
+                    contentHtml += `
+                        </ul>
+                        <div class="p-exp">
+                            <b>Explanation:</b> ${cleanExp}
+                        </div>
+                    </div>`;
+                });
+
+                printArea.innerHTML = headerHtml + contentHtml;
+
+                // Reset button text
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                
+                // Trigger Native Print Dialog (Which has 'Save as PDF' Option)
+                window.print();
+                
+            }, 300); // 300ms delay gives browser time to show spinner
+        }
+
+        function shareScore(platform) {
+            let maxScore = totalQ * 2;
+            let currentUrl = window.location.href;
+            let shareMsg = `📚 I scored ${userFinalScore} / ${maxScore} in Top 100 Grammar Rules Quiz!\n\nCan you beat my score? Try it here: ${currentUrl}`;
+            
+            if (platform === 'whatsapp') { window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(shareMsg)}`, '_blank'); } 
+            else if (platform === 'telegram') { window.open(`#`, '_blank'); }
+        }
+
+        function showSolutions() {
+            document.getElementById('result-screen').style.display = 'none';
+            document.getElementById('solution-screen').style.display = 'flex';
+
+            let solHtml = "";
+            let optionsLetters = ['A', 'B', 'C', 'D'];
+            rawData.forEach((q, i) => {
+                let ans = userAns[i]; let isCrt = (ans === q.a);
+                let cardClass = ans === null ? "skip-ans" : (isCrt ? "correct-ans" : "wrong-ans");
+                let badge = ans === null ? `<span style="color:var(--text-muted); font-weight:800; font-size:12px;">⚪ SKIPPED</span>` : 
+                           (isCrt ? `<span style="color:var(--success); font-weight:800; font-size:12px;">✅ CORRECT</span>` : `<span style="color:var(--danger); font-weight:800; font-size:12px;">❌ INCORRECT</span>`);
+
+                let optsList = "";
+                q.opts.forEach((opt, oIdx) => {
+                    let optClass = "";
+                    if(oIdx === q.a) optClass = "is-correct";
+                    else if(ans === oIdx && !isCrt) optClass = "is-wrong";
+                    optsList += `<div class="sol-opt ${optClass}"><div class="opt-num">${optionsLetters[oIdx]}</div> ${opt}</div>`;
+                });
+
+                solHtml += `
+                <div class="sol-card ${cardClass}">
+                    <div style="display:flex; justify-content:space-between; margin-bottom:15px; border-bottom:1px solid var(--border-light); padding-bottom:10px;">
+                        <b style="color:var(--text-dark);">Question ${i+1}</b> ${badge}
+                    </div>
+                    <div style="font-weight:600; margin-bottom:8px; color:var(--text-dark); font-size: 15px;">${q.en}</div>
+                    <div style="font-weight:500; margin-bottom:15px; color:var(--text-muted); font-size: 14px;">${q.hi}</div>
+                    <div style="display:flex; flex-direction:column; gap:8px;">${optsList}</div>
+                    <div class="explanation-box">${q.exp}</div>
+                </div>`;
+            });
+            document.getElementById('solutionsContainer').innerHTML = solHtml;
+        }
+
+        function hideSolutions() {
+            document.getElementById('solution-screen').style.display = 'none';
+            document.getElementById('result-screen').style.display = 'flex';
+        }
+
+        function startTimer() {
+            clearInterval(timerInt);
+            timerInt = setInterval(() => {
+                if(totalTime <= 0) { finalSubmit(); return; }
+                totalTime--;
+                let h = Math.floor(totalTime / 3600); let m = Math.floor((totalTime % 3600) / 60); let s = totalTime % 60;
+                document.getElementById('timer').innerText = `${h < 10 ? '0':''}${h}:${m < 10 ? '0':''}${m}:${s < 10 ? '0':''}${s}`;
+            }, 1000);
+        }
+
+        function resetQTimer(resetToZero) {
+            clearInterval(qTimerInt);
+            if(resetToZero) { renderQTime(); }
+            qTimerInt = setInterval(() => { qTimeSpent[currQ]++; renderQTime(); }, 1000);
+        }
+
+        function renderQTime() {
+            let m = Math.floor(qTimeSpent[currQ] / 60); let s = qTimeSpent[currQ] % 60;
+            document.getElementById('qTimer').innerText = `${m < 10 ? '0':''}${m}:${s < 10 ? '0':''}${s}`;
+        }
+    </script>
+</body>
+</html>
