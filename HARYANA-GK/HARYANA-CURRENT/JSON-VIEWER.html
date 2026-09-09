@@ -467,11 +467,16 @@ let marks = [];
 let dataLoaded = false;
 let dataLoading = null;
 
+const jsonFile = new URLSearchParams(location.search).get('file') || 'HARYANA-GK/HARYANA-CURRENT/MARCH-2026.json';
+
 async function loadJSONData() {
   if (dataLoaded) return true;
   if (dataLoading) return dataLoading;
 
-  dataLoading = fetch('MARCH-2026.json?ts=' + Date.now(), {
+  const parts = jsonFile.split('/');
+  const jsonName = parts[parts.length - 1];
+  const jsonUrl = jsonName === jsonFile ? jsonFile : parts.map(encodeURIComponent).join('/');
+  dataLoading = fetch(encodeURIComponent(jsonName)+'?ts=' + Date.now(), {
     cache: 'no-store'
   })
   .then(function(r) {
