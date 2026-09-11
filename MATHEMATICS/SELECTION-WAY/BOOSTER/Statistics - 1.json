@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "<p>The median date of the year 2019, given in the form of DD.MM is:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>01.07</p>\r\n",
+      "<p>30.06</p>\r\n",
+      "<p>02.07</p>\r\n",
+      "<p>03.07</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3 </strong>i.e.&nbsp;<strong>02.07.</strong></p>\r\n\r\n<p>Total days in 2019 = 365<br />\r\nMedian days = <span class=\"math-tex\">\\(\\left(\\frac{365+1}{2}\\right)^{th}\\)</span> days = 183 th days<br />\r\n1 Jan to 30 June = 181 days<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Median date = 2 July = 02.07&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वर्ष 2019 की माध्यिका तिथि, DD.MM के रूप में दी गई है:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>01.07</p>\r\n",
+      "<p>30.06</p>\r\n",
+      "<p>02.07</p>\r\n",
+      "<p>03.07</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<strong>02.07</strong>&nbsp;है।&nbsp;<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>2019 में कुल दिन = 365<br />\r\nऔसत दिन =<span class=\"math-tex\">\\( \\left(\\frac{365+1}{2}\\right)^{th} \\)</span>दिन = 183वा&nbsp;दिन<br />\r\n1 जनवरी से 30 जून = 181 दिन<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> औसत दिन = 2 जुलाई = 02.07</p>\r\n"
+  },
+  {
+    "question": "<p>What is the median of the following data: 6, 9, 13, 8, 3, 2, 5, 7, and 11?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>6.5</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 </strong>i.e. <strong>7.</strong></p>\r\n\r\n<p>Arrange the data in ascending order = 2, 3, 5, 6, 7, 8, 9, 11, 13<br />\r\nMedian =&nbsp;<span class=\"math-tex\">\\( \\left(\\frac{9+1}{2}\\right)^{th}\\)</span>=&nbsp;<span class=\"math-tex\">\\(5^{th}\\)</span> term = 7&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित आँकड़ों की माध्यिका&nbsp;क्या है: 6, 9, 13, 8, 3, 2, 5, 7, और 11?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>6.5</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>7</strong>&nbsp;है।&nbsp;</p>\r\n\r\n<p>डेटा को आरोही क्रम में व्यवस्थित करे&nbsp;= 2, 3, 5, 6, 7, 8, 9, 11, 13<br />\r\nमाध्यिका&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\left(\\frac{9+1}{2}\\right)^{th}\\)</span>= 5वां पद&nbsp;= 7&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Given below is the data on the age of various children. What is the difference between the mean and the mode of the ages?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>Age(years)</td>\r\n\t\t\t<td>Number of children</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>17</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>16</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>8</td>\r\n\t\t\t<td>16</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>9</td>\r\n\t\t\t<td>17</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10</td>\r\n\t\t\t<td>19</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>11</td>\r\n\t\t\t<td>15</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options": [
+      "<p>1.5</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2.5</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.<strong> 1.5.</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>Age(years)</td>\r\n\t\t\t<td>Number of children</td>\r\n\t\t\t<td>Total = Age &times; No. of children</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>17</td>\r\n\t\t\t<td>102</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>16</td>\r\n\t\t\t<td>112</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>8</td>\r\n\t\t\t<td>16</td>\r\n\t\t\t<td>128</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>9</td>\r\n\t\t\t<td>17</td>\r\n\t\t\t<td>153</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10</td>\r\n\t\t\t<td>19</td>\r\n\t\t\t<td>190</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>11</td>\r\n\t\t\t<td>15</td>\r\n\t\t\t<td>165</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Total</td>\r\n\t\t\t<td>100</td>\r\n\t\t\t<td>850</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Mean = <span class=\"math-tex\">\\(\\frac{850}{100}\\)</span>&nbsp;= 8.5<br />\r\nMode = 10 (Max 190)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Mode &ndash; Mean = 10 &ndash; 8.5 = 1.5&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>नीचे विभिन्न बच्चों की आयु का डेटा दिया गया है। आयु के माध्य और बहुलक के बीच क्या अंतर है?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>आयु (वर्ष)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>बच्चों की संख्या</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>17</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>16</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>8</td>\r\n\t\t\t<td>16</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>9</td>\r\n\t\t\t<td>17</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10</td>\r\n\t\t\t<td>19</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>11</td>\r\n\t\t\t<td>15</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>1.5</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2.5</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात् <strong>1.5&nbsp;</strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>आयु (वर्ष)</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:113px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">बच्चों की संख्या</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">कुल = आयु &times; बच्चों की संख्या</span></span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>17</td>\r\n\t\t\t<td>102</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>16</td>\r\n\t\t\t<td>112</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>8</td>\r\n\t\t\t<td>16</td>\r\n\t\t\t<td>128</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>9</td>\r\n\t\t\t<td>17</td>\r\n\t\t\t<td>153</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10</td>\r\n\t\t\t<td>19</td>\r\n\t\t\t<td>190</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>11</td>\r\n\t\t\t<td>15</td>\r\n\t\t\t<td>165</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">कुल</span></span></td>\r\n\t\t\t<td>100</td>\r\n\t\t\t<td>850</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>माध्य = <span class=\"math-tex\">\\(\\frac{850}{100}\\)</span>&nbsp;= 8.5<br />\r\nबहुलक = 10 (अधिकतम 190)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> बहुलक &ndash; माध्य = 10 &ndash; 8.5&nbsp;= 1.5</p>\r\n"
+  },
+  {
+    "question": "<p>What is the mode of the given data: 4, 3, 4, 3, 2, 2, 2, 5, 5, 3, 4, 6, 4, 3, 3?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e. <strong>3.</strong></p>\r\n\r\n<p>Numbers&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Repetition<br />\r\n4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr;&nbsp; &nbsp; &nbsp; 4 times<br />\r\n3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr;&nbsp;&nbsp; &nbsp; &nbsp; 5 times<br />\r\n2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr;&nbsp; &nbsp; &nbsp; &nbsp;3 times<br />\r\n5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &rarr;&nbsp;&nbsp; &nbsp; &nbsp; 2 times<br />\r\n6&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&rarr;&nbsp; &nbsp; &nbsp; &nbsp;1 times<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> 3 is repeated the most&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;Mode = 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आँकड़ों का बहुलक क्या है: 4, 3, 4, 3, 2, 2, 2, 5, 5, 3, 4, 6, 4, 3, 3?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात् <strong>3</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>संख्याएँ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; पुनरावृत्ति<br />\r\n4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr; &nbsp; &nbsp; &nbsp; 4 बार<br />\r\n3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr; &nbsp; &nbsp; &nbsp; &nbsp;5 बार<br />\r\n2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr; &nbsp; &nbsp; &nbsp; &nbsp;3 बार<br />\r\n5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr; &nbsp; &nbsp; &nbsp; &nbsp;2 बार<br />\r\n6&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rarr; &nbsp; &nbsp; &nbsp; &nbsp;1 बार<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> 3 सबसे अधिक बार दोहराया गया है<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> बहुलक = 3</p>\r\n"
+  },
+  {
+    "question": "<p>In the data given below, the number of sixes and the batsmen who hit them have been shown. What is the median of the number of sixes?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>No. of Sixes</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>No. of Batsman</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>4.5</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 </strong>i.e. <strong>3.</strong></p>\r\n\r\n<p>Arrange the data in ascending order: 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5<br />\r\nMedian = <span class=\"math-tex\">\\(\\left(\\frac{11+1}{2}\\right)^{th}\\)</span>=&nbsp;<span class=\"math-tex\">\\(6^{th}\\)</span>term = 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>नीचे दिए गए आँकड़ों में छक्कों की संख्या और उन्हें लगाने वाले बल्लेबाजों को दर्शाया गया है। छक्कों की संख्या का माध्यिका क्या है?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>छक्कों की संख्या</td>\r\n\t\t\t<td>बल्लेबाजों की संख्या</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>4.5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात् <strong>3</strong>&nbsp;है।</p>\r\n\r\n<p>डेटा को आरोही क्रम में व्यवस्थित करें: 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5<br />\r\nमाध्यिका = <span class=\"math-tex\">\\(\\left(\\frac{11+1}{2}\\right)^{th}\\)</span>= 6वाँ पद&nbsp;= 3</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The data below shows the number of wickets taken by each bowler and the number of bowlers who took them. What is the median of the number of wickets?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>No. of Wickets per bowler</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Number of Bowlers</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2.5</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 </strong>i.e. <strong>2.</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>No. of wickets</p>\r\n\r\n\t\t\t<p>Per bowler</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>No. of Bowlers</p>\r\n\r\n\t\t\t<p>(Freq.)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Cum. Freq.</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9 + 5 = 14</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>14 + 4 = 18</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>18 + 3 = 21</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>21 + 2 = 23</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Total number of frequency (N) = 23<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> <span class=\"math-tex\">\\(\\frac{N}{2}=\\frac{23}{2}\\)</span>&nbsp;= 11.5<br />\r\nThe half of the frequency lies between 9 and 14<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;Median of the data = 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>नीचे दिया गया डेटा प्रत्येक गेंदबाज द्वारा लिए गए विकेटों की संख्या और उन्हें लेने वाले गेंदबाजों की संख्या दर्शाता है। विकेटों की संख्या का माध्य क्या है?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>विकेटों की संख्या प्रति गेंदबाज</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>गेंदबाजों की संख्या</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2.5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्<strong> 2</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>प्रति गेंदबाज</p>\r\n\r\n\t\t\t<p>विकेटों की</p>\r\n\r\n\t\t\t<p>संख्या</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>गेंदबाजों</p>\r\n\r\n\t\t\t<p>की संख्या</p>\r\n\r\n\t\t\t<p>(आवृत्ति)</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>संचयी</p>\r\n\r\n\t\t\t<p>आवृत्ति</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>9 + 5 = 14</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>14 + 4 = 18</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>18 + 3 = 21</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>21 + 2 = 23</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>बारंबारता की कुल संख्या (N) = 23<br />\r\n<span class=\"math-tex\">\\(\\therefore \\frac{N}{2}=\\frac{23}{2}\\)</span>&nbsp;=11.5<br />\r\nआवृत्ति का आधा भाग 9 और 14 के बीच है<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> डेटा का माध्य = 2</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the difference between the mean and median of the given data?<br />\r\n4, 13, 8, 15, 9, 21, 18, 23, 35, 1?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>0.7</p>\r\n",
+      "<p>1.7</p>\r\n",
+      "<p>1.2</p>\r\n",
+      "<p>2.1</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<strong>0.7.</strong></p>\r\n\r\n<p>Arrange the data in ascending order = 1, 4, 8, 9, 13, 15, 18, 21, 23, 35<br />\r\nSum of these data = 147<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> mean = <span class=\"math-tex\">\\(\\frac{147}{10}\\)</span>&nbsp;= 14.7<br />\r\nMedian = <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{13+15}{2}\\)</span>&nbsp;= 14&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required difference = 14.7 - 14 = 0.7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आँकड़ों के माध्य और माध्यिका में क्या अंतर है?<br />\r\n4, 13, 8, 15, 9, 21, 18, 23, 35, 1?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>0.7</p>\r\n",
+      "<p>1.7</p>\r\n",
+      "<p>1.2</p>\r\n",
+      "<p>2.1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong>0.7&nbsp;</strong>&nbsp;है।</p>\r\n\r\n<p>आंकड़ों को आरोही क्रम में व्यवस्थित करें = 1, 4, 8, 9, 13, 15, 18, 21, 23, 35<br />\r\nइन आंकड़ों का योग = 147<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> माध्य&nbsp;= <span class=\"math-tex\">\\(\\frac{147}{10}\\)</span>&nbsp;=14.7<br />\r\nमाध्यिका&nbsp;= <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{13+15}{2}\\)</span>&nbsp;= 14<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;अभीष्ट अंतर = 14.7 - 14 = 0.7</p>\r\n"
+  },
+  {
+    "question": "<p>The marks of nine students in ascending order for a test are given below, with the Median as 34. The value of k is:</p>\r\n\r\n<p>12, 16, k, 28, k + 5, 32, 39, 47, 53.<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>29</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>32</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.<strong> 29</strong>.</p>\r\n\r\n<p>Median =&nbsp;<span class=\"math-tex\">\\(\\left(\\frac{n+1}{2}\\right)^{th}\\)</span><br />\r\n&rArr; 34 =&nbsp;<span class=\"math-tex\">\\(\\left(\\frac{9+1}{2}\\right)^{th} \\)</span><br />\r\n&rArr; 34 = k + 5<br />\r\n&rArr; K = 29</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक परीक्षा के लिए नौ छात्रों के अंक आरोही क्रम में नीचे दिए गए हैं, जिसमें माध्यिका 34 है। k का मान है:</p>\r\n\r\n<p>12, 16, k, 28, k + 5, 32, 39, 47, 53.<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>29</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>32</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong>29&nbsp;</strong>&nbsp;है।</p>\r\n\r\n<p>माध्यिका =&nbsp;<span class=\"math-tex\">\\(\\left(\\frac{n+1}{2}\\right)^{th}\\)</span><br />\r\n&rArr; 34 =&nbsp;<span class=\"math-tex\">\\(\\left(\\frac{9+1}{2}\\right)^{th} \\)</span><br />\r\n&rArr; 34 = k + 5<br />\r\n&rArr; K = 29</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A set of data&nbsp;is given. The mean of the set is 35, while the median is set as 60. Find the mode of the data.<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>25</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>110</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4 </strong>i.e.&nbsp;<strong>110</strong>.</p>\r\n\r\n<p>Mode = 3 Median &ndash; 2 mean<br />\r\n&rArr; 3 &times; 60 &ndash; 2 &times; 35<br />\r\n&rArr; 180 &ndash; 70 = 110</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>आँकड़ों का एक समूह दिया गया है। समूह का माध्य 35 है, जबकि माध्यिका 60 है। आँकड़ों का बहुलक ज्ञात कीजिए।<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>25</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>110</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात् <strong>110</strong>&nbsp;है।</p>\r\n\r\n<p>बहुलक = 3 माध्यिका &ndash; 2 माध्य<br />\r\n&rArr; 3 &times; 60 &ndash; 2 &times; 35<br />\r\n&rArr; 180 &ndash; 70 = 110</p>\r\n"
+  },
+  {
+    "question": "<p>Let x be the median of the data: 33, 42, 28, 49, 32, 37, 52, 57, 35, 41. If 32 is replaced by 36 and 41 by 63, then the median of the data, so obtained, is y. What is the value of (x + y)?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>78</p>\r\n",
+      "<p>78.5</p>\r\n",
+      "<p>79.5</p>\r\n",
+      "<p>79</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.&nbsp;<strong>78.5.</strong></p>\r\n\r\n<p>Arrange the data in ascending order = 28, 32, 33, 35, 37, 41, 42, 49, 52, 57<br />\r\nn = 10 (even)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Median = <span class=\"math-tex\">\\(\\frac{\\left(\\frac{n}{2}\\right)^{th}+\\left(\\frac{n}{2}+1\\right)^{th}}{2}\\)</span>&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\( \\frac{\\left(\\frac{10}{2}\\right)^{th}+\\left(\\frac{10}{2}+1\\right)^{th}}{2}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{37+41}{2}\\)</span>&nbsp;= 39 = x<br />\r\nReplace 32 by 36 and 41 by 63, and arrange the data in ascending order<br />\r\n28, 33, 35, 36, 37, 42, 49, 52, 57, 63<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;Median = <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{37+42}{2}\\)</span>&nbsp;= 39.5 = y<br />\r\n&rArr; x + y = 39 + 39.5 = 78.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मान लीजिए x, आँकड़ों की माध्यिका है: 33, 42, 28, 49, 32, 37, 52, 57, 35, 41। यदि 32 को 36 से और 41 को 63 से प्रतिस्थापित किया जाए, तो प्राप्त आँकड़ों की माध्यिका y है। (x + y) का मान क्या है?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>78</p>\r\n",
+      "<p>78.5</p>\r\n",
+      "<p>79.5</p>\r\n",
+      "<p>79</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<strong>78.5</strong>&nbsp;है।</p>\r\n\r\n<p>आंकड़ों को आरोही क्रम में व्यवस्थित करें = 28, 32, 33, 35, 37, 41, 42, 49, 52, 57<br />\r\nn = 10 (सम)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> माध्यिका&nbsp;= <span class=\"math-tex\">\\(\\frac{\\left(\\frac{n}{2}\\right)^{th}+\\left(\\frac{n}{2}+1\\right)^{th}}{2}\\)</span><br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\( \\frac{\\left(\\frac{10}{2}\\right)^{th}+\\left(\\frac{10}{2}+1\\right)^{th}}{2}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{37+41}{2}\\)</span>&nbsp;= 39 = x<br />\r\n32 को 36 से तथा 41 को 63 से प्रतिस्थापित करें तथा डेटा को आरोही क्रम में व्यवस्थित करें<br />\r\n28, 33, 35, 36, 37, 42, 49, 52, 57, 63<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;माध्यिका&nbsp;= <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{37+42}{2}\\)</span>&nbsp;= 39.5 = y<br />\r\n&rArr; x + y = 39 + 39.5 = 78.5</p>\r\n"
+  },
+  {
+    "question": "<p>Given that the mean of five numbers is 28. If one is excluded, the mean gets reduced by 5. Determine the excluded number.<br />\r\n<strong>(CHSL 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>46</p>\r\n",
+      "<p>48</p>\r\n",
+      "<p>47</p>\r\n",
+      "<p>45</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>48</strong>.</p>\r\n\r\n<p>Total reduction = 4 &times; 5 = 20<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Excluded number = 28 + 20 = 48</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिया गया है कि पाँच संख्याओं का माध्य 28 है। यदि एक को निकाल दिया जाए, तो माध्य 5 से कम हो जाता है। निकाली गई संख्या ज्ञात कीजिए।<br />\r\n<strong>(CHSL 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>46</p>\r\n",
+      "<p>48</p>\r\n",
+      "<p>47</p>\r\n",
+      "<p>45</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात्&nbsp;<strong>48</strong>&nbsp;है।</p>\r\n\r\n<p>कुल कटौती&nbsp;&nbsp;= 4 &times; 5 = 20<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> निकाली गई संख्या&nbsp;= 28 + 20&nbsp;= 48</p>\r\n"
+  },
+  {
+    "question": "<p>Calculate the mean from the following table:<br />\r\n<strong>(CPO 2022 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>Scores</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>Frequency</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>0-10</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>10-20</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>20-30</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>12</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>30-40</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>21</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>40-50</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>6</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>50-60</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>60-70</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options": [
+      "<p>33.4</p>\r\n",
+      "<p>32.6</p>\r\n",
+      "<p>35.8</p>\r\n",
+      "<p>34.2</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<strong>33.4.</strong></p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Score</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Freq.</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Midpoint</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Midpoint &times; Freq.</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">0-10</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10-20</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">60</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">20-30</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">12</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">25</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">300</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30-40</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">21</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">35</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">735</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">40-50</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">6</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">45</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">270</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">50-60</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">55</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">165</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">60-70</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">65</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">130</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Total</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">50</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:123px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1670</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&rArr; Mean = <span class=\"math-tex\">\\(\\frac{1670}{50}\\)</span>&nbsp;= 33.4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित तालिका से माध्य की गणना करें:<br />\r\n<strong>(CPO 2022 Pre)</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:78px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">अंक</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:85px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">आवृत्ति</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>0-10</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>10-20</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>20-30</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>12</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>30-40</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>21</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>40-50</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>6</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>50-60</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>60-70</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>33.4</p>\r\n",
+      "<p>32.6</p>\r\n",
+      "<p>35.8</p>\r\n",
+      "<p>34.2</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1&nbsp;</strong>अर्थात्&nbsp;<strong>33.4</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">अंक</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">आवृत्ति</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">मध्य बिंदु</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">मध्य बिंदु x आवृत्ति</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">0-10</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10-20</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">60</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">20-30</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">12</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">25</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">300</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30-40</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">21</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">35</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">735</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">40-50</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">6</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">45</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">270</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">50-60</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">55</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">165</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">60-70</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">65</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">130</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">कुल</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:52px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">50</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:76px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:127px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1670</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&rArr; माध्य&nbsp;= <span class=\"math-tex\">\\(\\frac{1670}{50}\\)</span>&nbsp;= 33.4</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the median of the following data is 11, then find the value of k.<br />\r\n3, 21, 10, 7, 6, 9, (k + 6), 15, 20, 16<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>6.</strong></p>\r\n\r\n<p>Firstly, arrange the series in ascending order<br />\r\n3, 6, 7, 9, (k + 6), 10, 15, 16, 20, 21<br />\r\nMedian = 11<br />\r\nTotal number of terms = 10&nbsp;<br />\r\nMedian =&nbsp;(5th Term + 6th Term)/2<br />\r\n&rArr; 11 =&nbsp;<span class=\"math-tex\">\\([(k+6)+10]\\over2\\)</span><br />\r\n&rArr; 22 = k + 16<br />\r\n&rArr; k = 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि निम्न आंकड़ों की माध्यिका 11 है, तो k का मान ज्ञात करें।<br />\r\n3, 21, 10, 7, 6, 9, (k + 6), 15, 20, 16<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात् <strong>6</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>सबसे पहले, श्रृंखला को आरोही क्रम में व्यवस्थित करें<br />\r\n3, 6, 7, 9, (k + 6), 10, 15, 16, 20, 21<br />\r\nमाध्यिका = 11<br />\r\nकुल पदों की संख्या = 10<br />\r\nमाध्यिका = (5वाँ पद + 6वाँ पद)/2<br />\r\n&rArr; 11 =&nbsp;<span class=\"math-tex\">\\([(k+6)+10]\\over2\\)</span><br />\r\n&rArr; 22 = k + 16<br />\r\n&rArr; k = 6</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the ratio of the mean and median of a certain data is 4 : 5, then the ratio of its mode and mean is:</p>\r\n",
+    "options": [
+      "<p>7 :&nbsp;5</p>\r\n",
+      "<p>6 : 5</p>\r\n",
+      "<p>8 : 5</p>\r\n",
+      "<p>7 : 4</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong><span style=\"font-size:11.0pt\">7 : 4.</span></strong></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Mode = 3 median &ndash; 2 mean<br />\r\n&rArr; 3 &times; 5 &ndash; 2 &times; 4 = 7<br />\r\nMode &nbsp; : &nbsp; Mean<br />\r\n&nbsp; &nbsp; &nbsp;7 &nbsp; &nbsp; &nbsp;: &nbsp; &nbsp; &nbsp;4 &nbsp;</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि किसी निश्चित डेटा के माध्य और माध्यिका का अनुपात 4: 5 है, तो इसके बहुलक और माध्य का अनुपात क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>7 :&nbsp;5</p>\r\n",
+      "<p>6 : 5</p>\r\n",
+      "<p>8 : 5</p>\r\n",
+      "<p>7 : 4</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<strong>7 : 4</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>बहुलक = 3 माध्यिका &ndash; 2 माध्य<br />\r\n<span style=\"font-size:11.0pt\">&rArr; 3 &times; 5 &ndash; 2 &times; 4 = 7</span><br />\r\nबहुलक &nbsp; : &nbsp; माध्य<br />\r\n&nbsp; &nbsp; &nbsp;7 &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; &nbsp;4</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the mean of the mode and median of the given data?<br />\r\n5, 4, 6, 9, 3, 2, 5, 6, 7, 8, 9, 5, 7,3<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>5.25</p>\r\n",
+      "<p>5.50</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.<strong>&nbsp;5.25.</strong></p>\r\n\r\n<p>Arrange in ascending order: 2, 3, 3, 4, 5, 5, 5, 6, 6, 7, 7, 8, 9, 9<br />\r\nMode = 5 (most repeated)<br />\r\nTotal terms = 14<br />\r\nMedian = <span class=\"math-tex\">\\(\\frac{14+1}{2}\\)</span>&nbsp;= 7.5<br />\r\nMedian = <span class=\"math-tex\">\\(\\frac{7^{th}term+\\ 8^{th}term}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{5+6}{2}\\)</span>&nbsp;= 5.5<br />\r\nMean =&nbsp;<span class=\"math-tex\">\\( \\frac{Mode+Median}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{5+5.5}{2}\\)</span>&nbsp;= 5.25</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आंकड़ों के बहुलक और माध्यिका का माध्यक ज्ञात करें।<br />\r\n5, 4, 6, 9, 3, 2,5, 6, 7, 8,9,5, 7,3<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>5.25</p>\r\n",
+      "<p>5.50</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात्&nbsp;<strong>5.25</strong>&nbsp;है।</p>\r\n\r\n<p>बढ़ते क्रम में व्यवस्थित करें:&nbsp;2, 3, 3, 4, 5, 5, 5, 6, 6, 7, 7, 8, 9, 9<br />\r\nबहुलक = 5 (अधिकतम दोहराया)<br />\r\nकुल पद&nbsp;= 14<br />\r\nमाध्यिका&nbsp;= <span class=\"math-tex\">\\(\\frac{14+1}{2}\\)</span>&nbsp;= 7.5<br />\r\nमाध्यिका&nbsp;= (7वाँ पद + 8वाँ पद)/2 =&nbsp;<span class=\"math-tex\">\\( \\frac{5+6}{2}\\)</span>&nbsp;= 5.5<br />\r\nमाध्यिका&nbsp;=&nbsp;(बहुलक + माध्यिका)/2&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{5+5.5}{2}\\)</span>&nbsp;= 5.25</p>\r\n"
+  },
+  {
+    "question": "<p>If the variance of 5 values is 0.81, then what is its standard deviation?&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>0.09</p>\r\n",
+      "<p>2.7</p>\r\n",
+      "<p>0.27</p>\r\n",
+      "<p>0.9</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.<strong> 0.9.</strong></p>\r\n\r\n<p>Stardred Deviation = <span class=\"math-tex\">\\(\\sqrt{Variance}\\)</span><br />\r\nStardred Deviation = <span class=\"math-tex\">\\(\\sqrt{0.81}\\)</span>&nbsp;= 0.9</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 5 मानों का विचरण 0.81 है, तो इसका मानक विचलन कितना है?<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>0.09</p>\r\n",
+      "<p>2.7</p>\r\n",
+      "<p>0.27</p>\r\n",
+      "<p>0.9</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात् <strong>0.9</strong>&nbsp;है।</p>\r\n\r\n<p>मानक विचलन = &radic;विचरण<br />\r\nमानक विचलन = <span class=\"math-tex\">\\(\\sqrt{0.81}\\)</span>&nbsp;= 0.9</p>\r\n"
+  },
+  {
+    "question": "<p>Find the mean (up to 2 decimal points) of the following numbers:&nbsp;<br />\r\n8.9, 6.5, 7.8, 12.3, 15.6, 14.4, 9.8&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>8.96</p>\r\n",
+      "<p>7.85</p>\r\n",
+      "<p>9.83</p>\r\n",
+      "<p>10.76</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.<strong> 10.76</strong>.</p>\r\n\r\n<p>Mean = <span class=\"math-tex\">\\(\\frac{8.9+6.5+7.8+12.3+15.6+14.4+9.8}{7}\\)</span>= <span class=\"math-tex\">\\(\\frac{75.3}{7}\\)</span>&nbsp;= 10.76</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्न संख्याओं का माध्य (2 दशमलव स्थान तक) ज्ञात करें।<br />\r\n8.9, 6.5, 7.8, 12.3, 15.6, 14.4, 9.8<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>8.96</p>\r\n",
+      "<p>7.85</p>\r\n",
+      "<p>9.83</p>\r\n",
+      "<p>10.76</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4&nbsp;</strong>अर्थात्&nbsp;<strong>10.76</strong>&nbsp;है।</p>\r\n\r\n<p>माध्य&nbsp;= <span class=\"math-tex\">\\(\\frac{8.9+6.5+7.8+12.3+15.6+14.4+9.8}{7}\\)</span>= <span class=\"math-tex\">\\(\\frac{75.3}{7}\\)</span>&nbsp;= 10.76</p>\r\n"
+  },
+  {
+    "question": "<p>The mean of 11, 10, 12, 13, 15, x, and 17 is 15. The value of x is:&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>18</p>\r\n",
+      "<p>29</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>27</strong>.</p>\r\n\r\n<p>Mean = <span class=\"math-tex\">\\(\\frac{11+10+12+13+15+x+17}{7}\\)</span></p>\r\n\r\n<p>&rArr; 15 =&nbsp;<span class=\"math-tex\">\\(78+x\\over7\\)</span></p>\r\n\r\n<p>&rArr; 105 = 78 + x</p>\r\n\r\n<p>&rArr; x = 27</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>11, 10, 12, 13, 15, x और 17 का माध्य 15 है। x का मान है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>18</p>\r\n",
+      "<p>29</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<strong>27</strong>&nbsp;है।</p>\r\n\r\n<p>माध्य = <span class=\"math-tex\">\\(\\frac{11+10+12+13+15+x+17}{7}\\)</span></p>\r\n\r\n<p>&rArr; 15 =&nbsp;<span class=\"math-tex\">\\(78+x\\over7\\)</span></p>\r\n\r\n<p>&rArr; 105 = 78 + x</p>\r\n\r\n<p>&rArr; x = 27</p>\r\n"
+  },
+  {
+    "question": "<p>In a week, the weights of a bag of tea were 350 kg, 280 kg, 340 kg, 270 kg, 360 kg, 310 kg, and 300 kg. The range (in kg) is:&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>80</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>70</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>90</strong>.</p>\r\n\r\n<p>Range = Maximum - Minimum<br />\r\n&rArr;&nbsp;360 &ndash; 270&nbsp;= 90</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक सप्ताह में, चाय के एक बैग का वज़न क्रमशः 350 किग्रा, 280 किग्रा, 340 किग्रा, 270 किग्रा, 360 किग्रा, 310 किग्रा और 300 किग्रा था। इनका परास (किग्रा में) है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>80</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>70</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात् <strong>90</strong>&nbsp;है।</p>\r\n\r\n<p>परास = अधिकतम - न्यूनतम<br />\r\n&rArr; 360 &ndash; 270 = 90</p>\r\n"
+  },
+  {
+    "question": "<p>If the mode of the following data is 14, then what is the value of k?<br />\r\n11, k, 8, 9, (k-1), 11, 12, 12, 15, (k - 1), 14&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>13</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>15.</strong></p>\r\n\r\n<p>Arrange the data in ascending order:&nbsp;<br />\r\n8, 9, 11, 11, 12, 12, 14, 15, (k - 1), (k - 1), k<br />\r\nMode = 14 (most repeated)<br />\r\nto become a mode of 14, (k - 1) should be equal to 14.<br />\r\n&rArr; (k - 1) = 14<br />\r\n&rArr; k = 15</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि निम्नलिखित आँकड़ों का बहुलक 14 है, तो k का मान क्या है?<br />\r\n11, k, 8, 9, (k-1), 11, 12, 12, 15, (k - 1), 14&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>13</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात् <strong>15</strong>&nbsp;है।</p>\r\n\r\n<p>आँकड़ों को आरोही क्रम में व्यवस्थित करें:<br />\r\n8, 9, 11, 11, 12, 12, 14, 15, (k - 1), (k - 1), k<br />\r\nबहुलक = 14 (सबसे अधिक बार दोहराया गया)<br />\r\n14 का बहुलक बनने के लिए, (k - 1) 14 के बराबर होना चाहिए।<br />\r\n&rArr; (k - 1) = 14<br />\r\n&rArr; k = 15</p>\r\n"
+  },
+  {
+    "question": "<p>The mean of a set of 120 observations is 80. 10 is subtracted from each observation, and each of the corresponding results is divided by 7. What is the mean of the new set?<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p><span class=\"math-tex\">\\(5\\frac{5}{6}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(7\\frac{1}{12}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>10</strong>.</p>\r\n\r\n<p>Total of 120 observations = 120 &times; 80 = 9600<br />\r\nAfter decreasing new total = 9600 - 10 &times; 120 = 8400<br />\r\nAfter dividing each term by 7<br />\r\nNew total = <span class=\"math-tex\">\\(\\frac{8400}{7}\\)</span>&nbsp;= 1200<br />\r\nNew mean = <span class=\"math-tex\">\\(\\frac{1200}{120}\\)</span>&nbsp;= 10</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>120 प्रेक्षणों के समुच्चय का मध्य 80 है। प्रत्येक प्रेक्षण में से 10 घटाया जाता है और इससे प्राप्त मान को 7 से विभाजित किया जाता हैं नये समुच्चय का माध्य ज्ञात कीजिये?<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p><span class=\"math-tex\">\\(5\\frac{5}{6}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(7\\frac{1}{12}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात् <strong>10</strong>&nbsp;है।</p>\r\n\r\n<p>कुल 120 प्रेक्षण = 120 &times; 80 = 9600<br />\r\nनए योग में कमी के बाद = 9600 - 10 &times; 120 = 8400<br />\r\nप्रत्येक पद को 7 से विभाजित करने के बाद<br />\r\nनया योग = <span class=\"math-tex\">\\(\\frac{8400}{7}\\)</span>&nbsp;=1200<br />\r\nनया माध्य = <span class=\"math-tex\">\\(\\frac{1200}{120}\\)</span>&nbsp;=10</p>\r\n"
+  },
+  {
+    "question": "<p>The numbers 8, 9, 11, 15, 17, 21, and N are arranged in ascending order. The mean of these numbers is equal to the median of the numbers. The value of N is:</p>\r\n",
+    "options": [
+      "<p>24</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong> i.e. <strong>24</strong>.</p>\r\n\r\n<p>Median of the numbers = <span class=\"math-tex\">\\((n + 1)\\over2\\)</span>&nbsp;= 4th term =&nbsp;15<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\((8 + 9 + 11 + 15 + 17 + 21 + N)\\over7\\)</span>&nbsp;= 15<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(81 + N\\over7\\)</span> = 15</p>\r\n\r\n<p>&rArr; 81 + N = 105<br />\r\n&rArr; N = 24</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्याओं 8, 9, 11, 15, 17, 21 और N को आरोही क्रम में व्यवस्थित किया जाता है। इन संख्याओं का माध्य, संख्याओं की माध्यिका के बराबर है। N का मान ज्ञात करें।</p>\r\n",
+    "options_hi": [
+      "<p>24</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong>24</strong>&nbsp;है।</p>\r\n\r\n<p>संख्याओं का माध्यिका = <span class=\"math-tex\">\\((n + 1)\\over2\\)</span>&nbsp;= चौथा पद =&nbsp;15<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\((8 + 9 + 11 + 15 + 17 + 21 + N)\\over7\\)</span>&nbsp;= 15<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(81 + N\\over7\\)</span> = 15</p>\r\n\r\n<p>&rArr; 81 + N = 105<br />\r\n&rArr; N = 24</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the difference between the mode and median of a data set is 38, then the difference between the median and mean is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>19</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e. <strong>19</strong>.</p>\r\n\r\n<p>Mode = 3 median &ndash; 2 mean<br />\r\n&rArr; Mode &ndash; Median = 38<br />\r\n&rArr; 3 Median &ndash; Mode = 2 mean<br />\r\n&rArr; 2 Median + (Median &ndash; Mode) = 2 Mean<br />\r\n&rArr; 2 Median &ndash; 38 = 2 Mean<br />\r\n&rArr; Median &ndash; Mean = 19</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि किसी डेटा सेट के बहुलक और माध्यिका के बीच का अंतर 38 है, तो माध्यिका और माध्य के बीच का अंतर है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>19</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात् <strong>19</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>बहुलक = 3 माध्यिका &ndash; 2 माध्य<br />\r\n&rArr; बहुलक &ndash; माध्यिका = 38<br />\r\n&rArr; 3 माध्यिका &ndash; बहुलक = 2 माध्य<br />\r\n&rArr; 2 माध्यिका + (माध्यिका &ndash; बहुलक) = 2 माध्य<br />\r\n&rArr; 2 माध्यिका &ndash; 38 = 2 माध्य<br />\r\n&rArr; माध्यिका &ndash; माध्य = 19</p>\r\n"
+  },
+  {
+    "question": "<p>If a, b, and c are the median, mode, and range, respectively, of the data: 8, 5, 4, 3, 2, 7, 3, 10, 9, 17, 12, 3, 8, 4, then what is the value of (3a - 2b + c)?<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>29</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>27.</strong></p>\r\n\r\n<p>Arrange the data in ascending order: 2, 3, 3, 3, 4, 4, 5, 7, 8, 8, 9, 10, 12, 17<br />\r\nn = 14 (even)<br />\r\na = median = &nbsp;<span class=\"math-tex\">\\(\\frac{\\frac{n^{th}}{2}term+\\left(\\frac{n}{2}+1\\right)^{th}term}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{5+7}{2}\\)</span>&nbsp;= 6<br />\r\nb = mode = 3(Max. Repetition)<br />\r\nc = range = 17 - 2 = 15<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> (3a &ndash; 2b + c) = (3 &times; 6 &ndash; 2 &times; 3 + 15)<br />\r\n&rArr; (18 &ndash; 6 + 15) = 27</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि आँकड़ों 8, 5, 4, 3, 2, 7, 3, 10, 9, 17, 12, 3, 8, 4 की माध्यिका, बहुलक और परास क्रमशः a, b और c हैं, तो (3a - 2b + c) का मान ज्ञात करें।<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>29</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4</strong>&nbsp;अर्थात्&nbsp; <strong>27</strong>&nbsp;है।</p>\r\n\r\n<p>डेटा को आरोही क्रम में व्यवस्थित करें: 2, 3, 3, 3, 4, 4, 5, 7, 8, 8, 9, 10, 12, 17<br />\r\nn = 14 (सम)<br />\r\na = माध्यिका&nbsp;= &nbsp;<span class=\"math-tex\">\\(\\frac{\\frac{n^{th}}{2}term+\\left(\\frac{n}{2}+1\\right)^{th}term}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{5+7}{2}\\)</span>&nbsp;= 6<br />\r\nb = बहुलक = 3(अधिकतम दोहराव)<br />\r\nc = परास&nbsp;= 17 - 2 = 15<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> (3a &ndash; 2b + c) = (3 &times; 6 &ndash; 2 &times; 3 + 15)<br />\r\n&rArr; (18 &ndash; 6 + 15) = 27</p>\r\n"
+  },
+  {
+    "question": "<p>What is the mean of the range and median of the given data?<br />\r\n9, 8, 7, 5, 11, 10, 13, 16, 15, 23, 19, 7, 9, 11<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>15.25</p>\r\n",
+      "<p>13.5</p>\r\n",
+      "<p>14.25</p>\r\n",
+      "<p>14.5</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<strong>14.25.</strong></p>\r\n\r\n<p>Arrange in ascending order: 5, 7, 7, 8, 9, 9, 10, 11, 11, 13, 15, 16, 19, 23<br />\r\nn = 14 (even)<br />\r\nMedian = <span class=\"math-tex\">\\(\\frac{\\frac{n^{th}}{2}term+\\left(\\frac{n}{2}+1\\right)^{th}term}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{10+11}{2}\\)</span>&nbsp;= 10.5<br />\r\nRange = Largest no-smallest number = 23 &ndash; 5 = 18<br />\r\nMean of range &amp; median&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{18+10.5}{2}\\)</span>&nbsp;= 14.25</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आंकड़ों के परास और माध्यिका क माध्य ज्ञात करें।<br />\r\n9, 8, 7, 5, 11, 10, 13, 16, 15, 23, 19, 7, 9, 11<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>15.25</p>\r\n",
+      "<p>13.5</p>\r\n",
+      "<p>14.25</p>\r\n",
+      "<p>14.5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<strong>14.25</strong>&nbsp;है।</p>\r\n\r\n<p>बढ़ते क्रम में व्यवस्थित करें: 5, 7, 7, 8, 9, 9, 10, 11, 11, 13, 15, 16, 19, 23<br />\r\nn = 14&nbsp;(सम)<br />\r\nमाध्यिका = <span class=\"math-tex\">\\(\\frac{\\frac{n^{th}}{2}term+\\left(\\frac{n}{2}+1\\right)^{th}term}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{10+11}{2}\\)</span>&nbsp;= 10.5<br />\r\nपरास = सबसे बड़ी संख्या &ndash; सबसे छोटी संख्या = 23 &ndash; 5 = 18<br />\r\nपरास&nbsp;और माध्यिका&nbsp;का माध्स =&nbsp;<span class=\"math-tex\">\\( \\frac{18+10.5}{2}\\)</span>&nbsp;= 14.25</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The median of a set of 7 distinct observations is 16.5. If each of the largest 3 observations of the set is increased by 5, then the median of the new set is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>is decreased by 5</p>\r\n",
+      "<p>is increased by 5</p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">is five times of the original number</span></p>\r\n",
+      "<p>remains the same as that of the original set</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>remains the same as that of the original set.</strong></p>\r\n\r\n<p>Remains the same as that of the original set</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>7 अलग-अलग प्रेक्षणों के एक समूह की माध्यिका 16.5 है। यदि समूह के सबसे बड़े 3 प्रेक्षणों में से प्रत्येक में 5 की वृद्धि कर दी जाए, तो नए समूह की माध्यिका होगी:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>5 से कम हो गया है</p>\r\n",
+      "<p>5 की वृद्धि हुई है</p>\r\n",
+      "<p>मूल संख्या का पांच गुना है</p>\r\n",
+      "<p>मूल सेट के समान ही रहता है</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<strong>मूल सेट के समान ही रहता है</strong>&nbsp;है।</p>\r\n\r\n<p>वास्तविक सेट जैसा ही रहता है<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If the mean of the following data is 9, then find the value of K.&nbsp;<br />\r\n11, (k - 2), 7, (k - 1), 11, 16, 12, 15, (k - 1), 13<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>3.</strong></p>\r\n\r\n<p>Mean =&nbsp;<strong><span class=\"math-tex\">\\(\\frac{11+(k–2)+7+(k–1)+11+16+12+15+(k–1)+13}{10 } \\)</span></strong><br />\r\n&rArr; 9 =&nbsp;<strong>&nbsp;<span class=\"math-tex\">\\(\\frac{81+3k}{10}\\)</span>&nbsp;&nbsp;</strong>&nbsp;<br />\r\n&rArr; 90 = 81 + 3k<br />\r\n&rArr; 3k = 9<br />\r\n&rArr; k = 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि निम्न आंकड़ों का माध्य 9 है, तो k का मान ज्ञात करें।<br />\r\n11, (k - 2), 7, (k - 1), 11, 16, 12, 15, (k - 1), 13<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<strong>3</strong>&nbsp;है।</p>\r\n\r\n<p>माध्य =&nbsp;<strong><strong><span class=\"math-tex\">\\(\\frac{11+(k–2)+7+(k–1)+11+16+12+15+(k–1)+13}{10 } \\)</span></strong></strong><br />\r\n&rArr; 9 =&nbsp;<strong>&nbsp;<strong><span class=\"math-tex\">\\(\\frac{81+3k}{10}\\)</span></strong>&nbsp;&nbsp;</strong>&nbsp;<br />\r\n&rArr; 90 = 81 + 3k<br />\r\n&rArr; 3k = 9<br />\r\n&rArr; k = 3</p>\r\n"
+  },
+  {
+    "question": "<p>The median of a set of 11 distinct observations is 17.5. If each of the largest 5 observations of the set is increased by 3, then the median of the new set is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>is three time of the original</p>\r\n",
+      "<p>is decreased by 3</p>\r\n",
+      "<p>is increased by 3</p>\r\n",
+      "<p>remains the same as the of the original set</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>remains the same as the of the original set.</strong></p>\r\n\r\n<p>Median is the 6<sup>th</sup> observation&nbsp;<br />\r\nHence, no effect on it<br />\r\nSo it remains the same.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>11 अलग-अलग प्रेक्षणों के एक समूह की माध्यिका 17.5 है। यदि समूह के सबसे बड़े 5 प्रेक्षणों में से प्रत्येक में 3 की वृद्धि कर दी जाए, तो नए समूह की माध्यिका होगी:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>मूल संख्या की तीन गुनी हो जाएगी</p>\r\n",
+      "<p>3 घट जाएगी</p>\r\n",
+      "<p>3 बढ़ जाएगी</p>\r\n",
+      "<p>मूल समुच्चय के समान रहेगी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;&nbsp;<strong>मूल समुच्चय के समान रहेगी</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>माध्यिका छठा प्रेक्षण है<br />\r\nअतः, इस पर कोई प्रभाव नहीं पड़ता<br />\r\nअतः यह समान रहता है।</p>\r\n"
+  },
+  {
+    "question": "<p>The numbers 25, 34, 46, 48, 2x + 1, 4x + 3, 105, 110, 114, 122 are written in ascending order, and their median is 77. The value of x is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>22</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>28</p>\r\n",
+      "<p>25</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4 </strong>i.e. <strong>25</strong>.</p>\r\n\r\n<p>Number of terms = 10<br />\r\nMedian = <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}=\\frac{2x+1+4x+3}{2} \\)</span>&nbsp;<br />\r\n&rArr; 77 =&nbsp;<span class=\"math-tex\">\\(6x+4\\over2\\)</span><br />\r\n&rArr; 77 = 3x + 2<br />\r\n&rArr; 75 = 3x<br />\r\n&rArr; x = 25</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्याएँ 25, 34, 46, 48, 2x + 1, 4x + 3, 105, 110, 114, 122 आरोही क्रम में लिखी गई हैं, और उनकी माध्यिका 77 है। x का मान है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>22</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>28</p>\r\n",
+      "<p>25</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<strong>25</strong>&nbsp;है।</p>\r\n\r\n<p>पदों की संख्या = 10<br />\r\nमाध्यिका = <span class=\"math-tex\">\\(\\frac{5^{th}+6^{th}}{2}=\\frac{2x+1+4x+3}{2} \\)</span>&nbsp;<br />\r\n&rArr; 77 =&nbsp;<span class=\"math-tex\">\\(6x+4\\over2\\)</span><br />\r\n&rArr; 77 = 3x + 2<br />\r\n&rArr; 75 = 3x<br />\r\n&rArr; x = 25</p>\r\n"
+  },
+  {
+    "question": "<p>Two clocks were synchronised at 11 a.m. on a Sunday. Thereafter, every day, they were respectively found to gain and lose one minute per day. What time, expressed in hours and minutes, will the second clock show when the first clock shows 10 p.m. on the next Friday?<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>&nbsp;9 hours <span class=\"math-tex\">\\(48\\frac{3}{11}\\)</span> minutes p.m.</p>\r\n",
+      "<p>9 hours <span class=\"math-tex\">\\(48\\frac{7}{11}\\)</span> minutes p.m.</p>\r\n",
+      "<p>9 hours <span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span> minutes p.m</p>\r\n",
+      "<p>9 hours <span class=\"math-tex\">\\(49\\frac{9}{11} \\)</span>&nbsp;minutes p.m.</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<strong>9 hours <span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span> minutes p.m.</strong></p>\r\n\r\n<p>Slow clock &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Time&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fast clock<br />\r\n23 hr 59 min. &nbsp; &nbsp; &nbsp;24hr&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;24 hr 1m<br />\r\n1439min. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1440min.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1441min<br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(\\downarrow\\)</span><br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Next Friday<br />\r\nat 10 pm = 5 days + 11 hrs = 131 h<br />\r\n&rArr; 1441 unit = 1439<br />\r\n&rArr; 1 unit = <span class=\"math-tex\">\\(\\frac{1439}{1441}\\)</span><br />\r\n&rArr; 131 unit =&nbsp;<span class=\"math-tex\">\\(\\frac{1439}{1441}\\times131\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{1439}{11}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(130\\frac{9}{11}\\)</span><br />\r\n&rArr; 120 + 10 hr + <span class=\"math-tex\">\\(\\frac{9\\times60}{11}\\)</span><br />\r\n&rArr; 5 days + 10 hr + <span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span><br />\r\n&rArr; Friday = 9 pm <span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span>&nbsp;min&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो घड़ियां किसी रविवार को एक साथ 11 पूर्वाह्न पर चालू की जाती हैं। उसके बाद, वे प्रतिदिन क्रमशः एक मिनट तेज़ और एक मिनट धीमी होती जाती हैं। जब पहली घड़ी अगले शुक्रवार को 10 अपराह्न दिखा रही हो, तो दूसरी घड़ी घंटे और मिनट में क्या समय बता रही होगी?&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>&nbsp;9 घंटे&nbsp;<span class=\"math-tex\">\\(48\\frac{3}{11}\\)</span>&nbsp;मिनट अपराह्न</p>\r\n",
+      "<p>9 घंटे&nbsp;<span class=\"math-tex\">\\(48\\frac{7}{11}\\)</span> मिनट अपराह्न</p>\r\n",
+      "<p>9 घंटे&nbsp;<span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span>&nbsp;मिनट अपराह्न</p>\r\n",
+      "<p>9 घंटे&nbsp;<span class=\"math-tex\">\\(49\\frac{9}{11} \\)</span>&nbsp;मिनट अपराह्न</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्<strong>&nbsp;9 घंटे&nbsp;<span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span> मिनट अपराह्न</strong>&nbsp;है।</p>\r\n\r\n<p>धीमी घड़ी&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; समय&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; तेज घड़ी<br />\r\n23 घंटे 59 मिनट &nbsp; &nbsp; &nbsp;24घंटे &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;24 घंटे 1 मिनट<br />\r\n1439 मिनट &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1440 मिनट &nbsp; &nbsp; &nbsp; &nbsp;1441 मिनट<br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(\\downarrow\\)</span><br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;अगला शुक्रवार<br />\r\n10 बजे = 5 दिन + 11 घंटे = 131 घंटे<br />\r\n&rArr; 1441 इकाई&nbsp;= 1439<br />\r\n&rArr; 1 इकाई&nbsp;= <span class=\"math-tex\">\\(\\frac{1439}{1441}\\)</span><br />\r\n&rArr; 131 इकाई =&nbsp;<span class=\"math-tex\">\\(\\frac{1439}{1441}\\times131\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{1439}{11}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(130\\frac{9}{11}\\)</span><br />\r\n&rArr; 120 + 10 घंटे&nbsp;+ <span class=\"math-tex\">\\(\\frac{9\\times60}{11}\\)</span><br />\r\n&rArr; 5 दिन&nbsp;+ 10 घंटे&nbsp;+ <span class=\"math-tex\">\\(49\\frac{1}{11}\\)</span><br />\r\n&rArr; शुक्रवार = 9 बजे&nbsp;<span class=\"math-tex\">\\( 49\\frac{1}{11}\\)</span> मिनट</p>\r\n"
+  },
+  {
+    "question": "<p>The line graph that can replace a histogram is called a/an:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>frequency polygon</p>\r\n",
+      "<p>ogive</p>\r\n",
+      "<p>cumulative frequency less than type graph</p>\r\n",
+      "<p>cumulative frequency more than type graph</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.<strong>&nbsp;frequency polygon.</strong></p>\r\n\r\n<p>Only the frequency polygon is the right among all&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह रेखा ग्राफ जो हिस्टोग्राम को प्रतिस्थापित कर सकता है उसे&nbsp;कहते हैं:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>आवृति बहुभुज</p>\r\n",
+      "<p>ओगिव</p>\r\n",
+      "<p>से कम प्रकार का संचयी बारंबारता ग्राफ</p>\r\n",
+      "<p>से अधिक प्रकार का संचयी बारंबारता ग्राफ</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong>आवृति बहुभुज</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>सभी में से केवल आवृत्ति बहुभुज ही सही है</p>\r\n"
+  },
+  {
+    "question": "<p>If the ratio of the mode and median of a certain data is 9 : 8, then the ratio of its mean and median is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>15 : 17</p>\r\n",
+      "<p>13 : 15</p>\r\n",
+      "<p>15 : 16</p>\r\n",
+      "<p>11 : 15&nbsp;</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p><span style=\"font-size:11.0pt\">The correct answer is<strong> Option</strong> <strong>3</strong> i.e. <strong>15 : 16.</strong></span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Median &nbsp;: &nbsp;Mode<br />\r\n&nbsp; &nbsp; &nbsp; 8 &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; 9<br />\r\n&rArr; 3 median = mode + 2 mean<br />\r\n&rArr; 3(8) = 9 + 2 mean<br />\r\n&rArr; Mean = <span class=\"math-tex\">\\(\\frac{15}{2}\\)</span></span><br />\r\n<span style=\"font-size:11.0pt\">&rArr; </span><span class=\"math-tex\">\\(\\frac{mean}{median}=\\frac{15}{2\\left(8\\right)}=\\frac{15}{16}  \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि किसी निश्चित डेटा के बहुलक और माध्यिका का अनुपात 9:8 है, तो इसके माध्य और माध्यिका का अनुपात होगा:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>15 : 17</p>\r\n",
+      "<p>13 : 15</p>\r\n",
+      "<p>15:16</p>\r\n",
+      "<p>11 : 15&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात् <strong>15 : 16</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>माध्यिका &nbsp;: &nbsp;बहुलक<br />\r\n&nbsp; &nbsp; &nbsp; 8 &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; 9<br />\r\n<span style=\"font-size:11.0pt\">&rArr; </span>3 माध्यिका = बहुलक + 2 माध्य<br />\r\n<span style=\"font-size:11.0pt\">&rArr; </span>3(8) = 9 + 2 माध्य<br />\r\n<span style=\"font-size:11.0pt\">&rArr; </span>माध्य = <span class=\"math-tex\">\\(\\frac{15}{2}\\)</span><br />\r\n<span style=\"font-size:11.0pt\">&rArr; </span>माध्य/माध्यिका&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{15}{2(8)} =\\frac{15}{16}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>If the mode of the following data is 11, then find the value of k.<br />\r\n11, 8, 9, (2k -1), 11, 12, 12,18, 14, 16<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>6.</strong></p>\r\n\r\n<p>2k &ndash; 1 = 11 (Mostly repeated)</p>\r\n\r\n<p>&rArr;&nbsp;2k = 12 &nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;k = 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि निम्न आंकड़ों का बहुलक 11 है, तो k का मान ज्ञात करें।<br />\r\n11, 8, 9, (2k-1), 11, 12, 12,18, 14, 16&nbsp;<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्<strong> 6</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>2k &ndash; 1 = 11 (अधिकांशतः दोहराया)</p>\r\n\r\n<p>&rArr;&nbsp;2k = 12 &nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;k = 6</p>\r\n"
+  },
+  {
+    "question": "<p>Study the given data and answer the question that follows.</p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none; width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:116px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Marks</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">0-10</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10-20</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">20-30</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30-40</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">40-50</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:116px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No.of Students</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">18</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">7</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">16</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>If x is the lower limit of the median class and y is the upper limit of the modal class, then the value of (3x + 2y) is:</p>\r\n\r\n<p><strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>80</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>70</p>\r\n",
+      "<p>100</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>100</strong>.</p>\r\n\r\n<p>&nbsp; &nbsp;<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/112025_07_11_14_54_35.jpg\" style=\"height:117px; width:222px\" /><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{49}{2}\\)</span>&nbsp;= 24.5&nbsp;<br />\r\n&rArr; x = 20, y = 20<br />\r\n&rArr; 3x + 2y = 60 + 40 = 100</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आंकड़ों का अध्ययन करें और नीचे दिए गए प्रश्न का उत्तर दें।</p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none; width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:116px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">अंक</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">0-10</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10-20</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">20-30</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30-40</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">40-50</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:116px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">छात्रों की संख्या</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">18</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">7</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p style=\"text-align:justify\"><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">16</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>यदि x माध्यिका वर्ग की निचली सीमा है और y बहुलक वर्ग की ऊपरी सीमा है, तो (3x + 2y) का मान है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>80</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>70</p>\r\n",
+      "<p>100</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात् <strong>100</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/11 b2025_07_11_14_55_23.jpg\" style=\"height:132px; width:220px\" /></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{49}{2}\\)</span>&nbsp;= 24.5&nbsp;<br />\r\n&rArr; x = 20, y = 20<br />\r\n&rArr; 3x + 2y = 60 + 40 = 100</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the mean of the distribution is 24.6, then the value of x is:</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>Class</td>\r\n\t\t\t<td>0-10</td>\r\n\t\t\t<td>10-20</td>\r\n\t\t\t<td>20-30</td>\r\n\t\t\t<td>30-40</td>\r\n\t\t\t<td>40-50</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>frequency</td>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>12</td>\r\n\t\t\t<td>15</td>\r\n\t\t\t<td>X</td>\r\n\t\t\t<td>5</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>10</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>12</strong>.</p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CI</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Xi</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fi</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fixi</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">0-10</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">6</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10-20</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">12</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">180</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">20-30</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">25</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">375</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30-40</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">35</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">X</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">35x</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">40-50</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">45</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">225</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><span class=\"math-tex\">\\(\\sum{fixi=810+35x}\\)</span></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{810+35x}{38+x}=\\frac{\\sum f i x i}{\\sum f i}=\\bar{x}\\)</span></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\bar{x}=\\frac{810+35x}{38+x}=24.6\\)</span></p>\r\n\r\n<p>&rArr; x = 12</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि वितरण का माध्य 24.6 है, तो x का मान है:</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">वर्ग</span></span></td>\r\n\t\t\t<td>0-10</td>\r\n\t\t\t<td>10-20</td>\r\n\t\t\t<td>20-30</td>\r\n\t\t\t<td>30-40</td>\r\n\t\t\t<td>40-50</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">आवृत्ति</span></span></td>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>12</td>\r\n\t\t\t<td>15</td>\r\n\t\t\t<td>X</td>\r\n\t\t\t<td>5</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>10</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<strong>12</strong>&nbsp;है।</p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CI</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Xi</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fi</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fixi</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">0-10</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">6</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">10-20</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">12</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">180</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">20-30</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">25</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">375</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">30-40</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">35</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">X</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">35x</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:60px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">40-50</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">45</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:47px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">5</span></span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:57px\">\r\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">225</span></span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><span class=\"math-tex\">\\(\\sum{fixi=810+35x}\\)</span></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{810+35x}{38+x}=\\frac{\\sum f i x i}{\\sum f i}=\\bar{x}\\)</span></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\bar{x}=\\frac{810+35x}{38+x}=24.6\\)</span></p>\r\n\r\n<p>&rArr; x = 12</p>\r\n"
+  },
+  {
+    "question": "<p>The numbers 5, 7, 8, 10, 12, 13, and N are arranged in ascending order. If the mean of the numbers is equal to the median, the value of N is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>16</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>14</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>15.</strong></p>\r\n\r\n<p>Median = (7 + 1)/2 = 4th term = 10</p>\r\n\r\n<p>Mean =&nbsp;<span class=\"math-tex\">\\(5+7+8+10+12+13+N\\over7\\)</span> =&nbsp;<span class=\"math-tex\">\\(\\frac{55+N}{7}\\)</span></p>\r\n\r\n<p>&rArr; 10 =&nbsp;<span class=\"math-tex\">\\(\\frac{55+N}{7}\\)</span></p>\r\n\r\n<p>&rArr; 70 = 55 + N</p>\r\n\r\n<p>&rArr; N = 15</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्याएँ 5, 7, 8, 10, 12, 13 और N आरोही क्रम में व्यवस्थित हैं। यदि संख्याओं का माध्य, माध्यिका के बराबर है, तो N का मान है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>16</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>14</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात् <!--<div contenteditable=\"true\" style=\"position: relative;\">--><strong>15</strong>&nbsp;है।</p>\r\n\r\n<p>माध्यिका = (7 + 1)/2 = चौथा पद = 10</p>\r\n\r\n<p>माध्य =&nbsp;<span class=\"math-tex\">\\(5+7+8+10+12+13+N\\over7\\)</span> =&nbsp;<span class=\"math-tex\">\\(\\frac{55+N}{7}\\)</span></p>\r\n\r\n<p>&rArr; 10 =&nbsp;<span class=\"math-tex\">\\(\\frac{55+N}{7}\\)</span></p>\r\n\r\n<p>&rArr; 70 = 55 + N</p>\r\n\r\n<p>&rArr; N = 15</p>\r\n"
+  },
+  {
+    "question": "<p>The raw data is in ascending order, i.e., 3, 4, 7, x, x + 1, 12, 13, 15. If the median of this data is 9.5, then x is equal to:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>7.5</p>\r\n",
+      "<p>8.5</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e.<strong> 9</strong>.</p>\r\n\r\n<p>Number of observations = 8<br />\r\nSo, the median&nbsp;= (4th term + 5th term)/2 =&nbsp;<span class=\"math-tex\">\\(\\frac{x+x+1}{2} \\)</span><br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{2x+1}{2} \\)</span>&nbsp;= 9.5<br />\r\n&rArr; 2x + 1 = 19<br />\r\n&rArr; x = 9</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कच्चा डेटा आरोही क्रम में है, यानी, 3, 4, 7, x, x + 1, 12, 13, 15. यदि इस डेटा की&nbsp;माध्यिका&nbsp;9.5 है, तो x बराबर है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>7.5</p>\r\n",
+      "<p>8.5</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्<strong> 9</strong>&nbsp;है।</p>\r\n\r\n<p>प्रेक्षणों की संख्या = 8<br />\r\nतो, माध्यिका = (4वाँ पद + 5वाँ पद)/2 =&nbsp;<span class=\"math-tex\">\\(\\frac{x+x+1}{2} \\)</span><br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{2x+1}{2} \\)</span>&nbsp;= 9.5<br />\r\n&rArr; 2x + 1 = 19<br />\r\n&rArr; x = 9</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The values of the mode and median are 7.52 and 9.06, respectively, in a moderately asymmetrical distribution. The mean of the distribution is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>9.83</p>\r\n",
+      "<p>8.67</p>\r\n",
+      "<p>10.23</p>\r\n",
+      "<p>9.5</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 </strong>i.e.&nbsp;<strong>9.83</strong>.</p>\r\n\r\n<p>3 median = mode + 2 mean<br />\r\n&rArr; 3&nbsp;&times; 9.06 = 7.52 +&nbsp;2 mean<br />\r\n&rArr; 27.18 - 7.52 =&nbsp;2 mean<br />\r\n&rArr; 19.66 = 2 mean<br />\r\n&rArr; Mean = 9.83</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मध्यम असममित वितरण में बहुलक और माध्यिका के मान क्रमशः 7.52 और 9.06 हैं। वितरण का माध्य है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>9.83</p>\r\n",
+      "<p>8.67</p>\r\n",
+      "<p>10.23</p>\r\n",
+      "<p>9.5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong>9.83</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>3 माध्यिका = बहुलक + 2 माध्य<br />\r\n&rArr; 3 &times; 9.06 = 7.52 + 2 माध्य<br />\r\n&rArr; 27.18 - 7.52 = 2 माध्य<br />\r\n&rArr; 19.66 = 2 माध्य<br />\r\n&rArr; माध्य = 9.83</p>\r\n"
+  },
+  {
+    "question": "<p>What is the mean of the range and median of the given data?<br />\r\n11, 16, 14, 7, 11, 23, 10, 30, 20, 33, 19, 12, 17, 14<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>20.5</p>\r\n",
+      "<p>25.5</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>19</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option </strong>1 i.e<strong>.&nbsp;<span style=\"font-size:11.0pt\">20.5.</span></strong></p>\r\n\r\n<p>Arrange in ascending order: 7, 10, 11, 11, 12, 14, 14, 16, 17, 19, 20, 23, 30, 33</p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Median&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{7^{th}+8^{th}}{2}\\)</span>=&nbsp;<span class=\"math-tex\">\\( \\frac{14+16}{2}\\)</span>&nbsp;=<span class=\"math-tex\">\\(\\ \\frac{30}{2}\\)</span>= 15</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Range = 33 &ndash; 7 = 26</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Required average =&nbsp;<span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\(\\frac{26+15}{2}\\)</span></span> =&nbsp;<span class=\"math-tex\">\\(\\frac{41}{2}\\)</span>= 20.5</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आँकड़ों के परास और माध्यिका का माध्य क्या है?<br />\r\n11, 16, 14, 7, 11, 23, 10, 30,20, 33, 19, 12, 17, 14<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>20.5</p>\r\n",
+      "<p>25.5</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>19</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong><span style=\"font-size:11.0pt\">20.5</span></strong>&nbsp;है।</p>\r\n\r\n<p>आरोही क्रम में व्यवस्थित करें: 7, 10, 11, 11, 12, 14, 14, 16, 17, 19, 20, 23, 30, 33</p>\r\n\r\n<p><span style=\"font-size:11.0pt\">माध्यिका&nbsp;=&nbsp;<span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\( \\frac{7^{th}+8^{th}}{2}\\)</span></span>=&nbsp;<span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\( \\frac{14+16}{2}\\)</span></span>&nbsp;=<span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\(\\ \\frac{30}{2}\\)</span></span>= 15</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">परास = 33 &ndash; 7 = 26</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">अभीष्ट औसत =&nbsp;<span style=\"font-size:11.0pt\"><span style=\"font-size:11.0pt\"><span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\(\\frac{26+15}{2}\\)</span></span></span></span> =&nbsp;<span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\(\\frac{41}{2}\\)</span></span>= 20.5</span></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the mean of&nbsp;the median, and range of the following data?<br />\r\n3, 8, 7, 12, 4, 3, 16, 20, 23, 10, 9, 15, 2, 7<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>14.5</p>\r\n",
+      "<p>14.75</p>\r\n",
+      "<p>13.75</p>\r\n",
+      "<p>19.5</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.&nbsp;<strong>14.75</strong>.</p>\r\n\r\n<p>Firstly, arrange in ascending order: 2, 3, 3, 4, 7, 7, 8, 9, 10, 12, 15, 16, 20, 23<br />\r\nNumber of terms = 14<br />\r\nMedian =&nbsp;<span class=\"math-tex\">\\( \\frac{x}{2},\\ \\ \\frac{x}{2}+1\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{14}{2},\\ \\ \\frac{14}{2}+1\\)</span>&nbsp;=&nbsp;7th and 8th term<br />\r\nMedian = <span class=\"math-tex\">\\(\\frac{8+9}{2}\\)</span>&nbsp;= 8.5<br />\r\nRange = largest &ndash; smallest<br />\r\n&rArr; 23 &ndash; 2 = 21<br />\r\nMean of median and range =&nbsp;<span class=\"math-tex\">\\( \\frac{8.5+21}{2}\\)</span>&nbsp;= 14.75</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित आँकड़ों की माध्यिका और परास का माध्य क्या है?<br />\r\n3, 8, 7, 12, 4, 3, 16, 20, 23,10, 9, 15, 2,7<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>14.5</p>\r\n",
+      "<p>14.75</p>\r\n",
+      "<p>13.75</p>\r\n",
+      "<p>19.5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<strong>14.75</strong>&nbsp;है।</p>\r\n\r\n<p>सबसे पहले आरोही क्रम में व्यवस्थित करें: 2, 3, 3, 4, 7, 7, 8, 9, 10, 12, 15, 16, 20, 23<br />\r\nपदों की संख्या = 14<br />\r\nमाध्यिका&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{x}{2},\\ \\ \\frac{x}{2}+1\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{14}{2},\\ \\ \\frac{14}{2}+1\\)</span>&nbsp;=&nbsp;7वां और 8वां पद<br />\r\nमाध्यिका&nbsp;= <span class=\"math-tex\">\\(\\frac{8+9}{2}\\)</span>&nbsp;= 8.5<br />\r\nपरास = सबसे बड़ा &ndash; सबसे छोटा<br />\r\n&rArr; 23 &ndash; 2 = 21<br />\r\nमाध्यिका और परास का माध्य = <span class=\"math-tex\">\\( \\frac{8.5+21}{2}\\)</span>&nbsp;= 14.75</p>\r\n"
+  },
+  {
+    "question": "<p>If the mean of x + 1, x + 12, 2x + 3 and 3x + 5 is 21, then the value of x is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>12</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>9</strong>.</p>\r\n\r\n<p>Mean =&nbsp;<span class=\"math-tex\">\\(\\frac{x+1+x+12+2x+3+3x+5}{4}\\)</span>&nbsp;<br />\r\n&rArr; 21 =&nbsp;<span class=\"math-tex\">\\(\\frac{7x+21}{4}\\)</span><br />\r\n&rArr; 84 = 7x + 21<br />\r\n&rArr; 7x = 63<br />\r\n&rArr; x = 9</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + 1, x + 12, 2x + 3 और 3x + 5 का माध्य 21 है, तो x का मान ज्ञात करें।<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>12</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<strong>9</strong>&nbsp;है।</p>\r\n\r\n<p>माध्य =&nbsp;<span class=\"math-tex\">\\(\\frac{x+1+x+12+2x+3+3x+5}{4}\\)</span>&nbsp;<br />\r\n&rArr; 21 =&nbsp;<span class=\"math-tex\">\\(\\frac{7x+21}{4}\\)</span><br />\r\n&rArr; 84 = 7x + 21<br />\r\n&rArr; 7x = 63<br />\r\n&rArr; x = 9</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the mean of the median and the mode of the data?<br />\r\n19, 20, 14, 15, 19, 16, 17, 15, 14, 13, 18, 19, 17, 13<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>17</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>17.75</p>\r\n",
+      "<p>17.25</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong>&nbsp;i.e.&nbsp;<strong>17.75</strong>.</p>\r\n\r\n<p>First, arrange in ascending order: 13, 13, 14, 14, 15, 15, 16, 17, 17, 18, 19, 19, 19, 20<br />\r\nMedian will be the middle value<br />\r\nMid term =&nbsp;<span class=\"math-tex\">\\( \\frac{14+1}{2}\\)</span>&nbsp;= 7.5<br />\r\nMedian will be the average of the 7th &amp; 8th term = <span class=\"math-tex\">\\(\\frac{16+17}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(33\\over2\\)</span> = 16.5<br />\r\nMode will be the term which have the maximum frequency, which is 19<br />\r\nMean of median &amp; mode = <span class=\"math-tex\">\\(\\frac{16.5+19}{2}\\)</span>&nbsp;= 17.75</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>आंकड़ों की माध्यिका और बहुलक का माध्य क्या है?<br />\r\n19, 20, 14, 15, 19, 16, 17, 15, 14, 13, 18, 19, 17, 13<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>17</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>17.75</p>\r\n",
+      "<p>17.25</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<strong>17.75</strong>&nbsp;है।</p>\r\n\r\n<p>सबसे पहले, आरोही क्रम में व्यवस्थित करें: 13, 13, 14, 14, 15, 15, 16, 17, 17, 18, 19, 19, 19, 20<br />\r\nमाध्यिका मध्य मान होगा<br />\r\nमध्यावधि =&nbsp;<span class=\"math-tex\">\\( \\frac{14+1}{2}\\)</span>&nbsp;= 7.5<br />\r\nमाध्यिका 7वें और 8वें पद का औसत होगी&nbsp;= <span class=\"math-tex\">\\(\\frac{16+17}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(33\\over2\\)</span> = 16.5<br />\r\nबहुलक वह पद होगा जिसकी आवृत्ति अधिकतम होगी, जो 19 है<br />\r\nमाध्यिका और बहुलक का माध्य = <span class=\"math-tex\">\\(\\frac{16.5+19}{2}\\)</span>&nbsp;= 17.75</p>\r\n"
+  },
+  {
+    "question": "<p>What is the median of the distribution?<br />\r\n34, 22, 13, 11, 27, 19, 25, 16<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>20.5</p>\r\n",
+      "<p>21.5</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e. <strong>20.5</strong>.</p>\r\n\r\n<p>Firstly series will be arranged in ascending order: 11, 13, 16, 19, 22, 25, 27, 34</p>\r\n\r\n<p>Mid value =&nbsp;<span class=\"math-tex\">\\( \\frac{No.\\ of\\ term+1}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{8+1}{2}\\)</span>&nbsp;= 4.5</p>\r\n\r\n<p>Median is 4th and 5th term</p>\r\n\r\n<p>Median = <span class=\"math-tex\">\\(\\frac{19+22}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(41\\over2\\)</span> = 20.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वितरण का माध्यिका क्या है?<br />\r\n34, 22, 13, 11, 27, 19, 25, 16<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>20.5</p>\r\n",
+      "<p>21.5</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<strong>20.5</strong>&nbsp;है।</p>\r\n\r\n<p>सबसे पहले श्रृंखला को आरोही क्रम में व्यवस्थित किया जाएगा: 11, 13, 16, 19, 22, 25, 27, 34</p>\r\n\r\n<p>मध्य मान = (पदों की संख्या + 1)/2&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{8+1}{2}\\)</span>&nbsp;= 4.5</p>\r\n\r\n<p>माध्यिका चौथा और पाँचवाँ पद है</p>\r\n\r\n<p>माध्यिका = <span class=\"math-tex\">\\(\\frac{19+22}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(41\\over2\\)</span> = 20.5</p>\r\n"
+  },
+  {
+    "question": "<p>What is the range of the distribution of a variable that takes the ten values?<br />\r\n17, 18, 27, 11, 24, 21, 34, 21, 17, 32<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>23</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>14</p>\r\n",
+      "<p>15</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e. <strong>23</strong>.</p>\r\n\r\n<p>Range = Maximum Value &ndash; Minimum Value&nbsp;<br />\r\nRange = 34 &ndash; 11 = 23</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>उस चर के वितरण का परिसर क्या है जो दस मान लेता है?<br />\r\n17, 18, 27, 11, 24, 21, 34, 21, 17, 32<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>23</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>14</p>\r\n",
+      "<p>15</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात् <strong>23</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>परास = अधिकतम मान &ndash; न्यूनतम मान&nbsp;<br />\r\nपरास = 34 &ndash; 11 = 23</p>\r\n"
+  },
+  {
+    "question": "<p>In a week, the prices of a bag of tea were ₹ 350, ₹ 280, ₹ 340, ₹ 270, ₹ 360, ₹ 310, and ₹ 300. The range (in ₹) is:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>100</p>\r\n",
+      "<p>80</p>\r\n",
+      "<p>70</p>\r\n",
+      "<p>90</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>90</strong>.</p>\r\n\r\n<p>Range of a set of numbers = highest value - lowest value<br />\r\nRange = 360 - 270 = 90</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक सप्ताह में, चाय के एक बैग की कीमतें ₹ 350, ₹ 280, ₹ 340, ₹ 270, ₹ 360, ₹ 310 और ₹ 300 थीं। परास (₹ में) है:<br />\r\n<strong>(MTS 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>100</p>\r\n",
+      "<p>80</p>\r\n",
+      "<p>70</p>\r\n",
+      "<p>90</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्<strong>&nbsp;90</strong>&nbsp;है।</p>\r\n\r\n<p>संख्याओं के समूह का परास = उच्चतम मान - निम्नतम मान<br />\r\nपरास = 360 - 270 = 90</p>\r\n"
+  },
+  {
+    "question": "<p>A dice is thrown 150 times, with frequencies for the outcomes 1, 2, 3, 4, 5, and 6 being as given in the following table. How many times is the number appearing on the dice a prime number?<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/5 12025_07_11_13_56_57.jpg\" style=\"height:52px; width:357px\" /><br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>88</p>\r\n",
+      "<p>109</p>\r\n",
+      "<p>86</p>\r\n",
+      "<p>66</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>86</strong>.</p>\r\n\r\n<p>Prime numbers on the faces of dice are: 2, 3, 5<br />\r\nThe number of times the number appearing on the dice is a prime number = 43 + 33 + 10 = 86</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक पासे को 150 बार उछाला गया है, जिसके परिणाम 1, 2, 3, 4, 5 और 6 की आवृत्तियाँ नीचे दी गई तालिका में दी गई हैं। पासे पर आने वाली संख्या कितनी बार अभाज्य संख्या है?<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/5 22025_07_11_13_57_18.jpg\" style=\"height:66px; width:316px\" /><br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>88</p>\r\n",
+      "<p>109</p>\r\n",
+      "<p>86</p>\r\n",
+      "<p>66</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्<strong>&nbsp;86</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>पासे के फलकों पर अभाज्य संख्याएँ हैं: 2, 3, 5<br />\r\nपासे पर आने वाली संख्या जितनी बार अभाज्य संख्या है = 43 + 33 + 10 = 86</p>\r\n"
+  },
+  {
+    "question": "<p>Based on the data given in the following table, find the arithmetic mean of the number of major meals that included a potato-based dish, which the 39 students surveyed had eaten in a week.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/4 2025_07_11_13_48_24.jpg\" style=\"height:422px; width:279px\" /></p>\r\n\r\n<p><strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.<strong> 6</strong>.</p>\r\n\r\n<p>Arithmetic mean =&nbsp;<span class=\"math-tex\">\\(\\frac{No.\\ of\\ major\\ meals\\times f r e q u e n c y}{Total\\ frequency} \\)</span></p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none; width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">No. of Major Meals</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">Frequency</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">No. of Major Meals &times; Frequency</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">1</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">2</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">2</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">4</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">2</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">6</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">4</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">20</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">25</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">6</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">4</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">24</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">7</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">6</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">42</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">8</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">24</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">9</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">45</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">10</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">30</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">11</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">1</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">11</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">Total &rarr;</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">39</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">234</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Arithmetic mean = <span class=\"math-tex\">\\(\\frac{234}{39}\\)</span>&nbsp;= 6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित तालिका में दिए गए आंकड़ों के आधार पर, आलू-आधारित व्यंजन वाले प्रमुख भोजन की संख्या का अंकगणितीय माध्य ज्ञात कीजिए, जिसे सर्वेक्षण किए गए 39 छात्रों ने एक सप्ताह में खाया था।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/4 12025_07_11_13_48_51.jpg\" style=\"height:475px; width:280px\" /></p>\r\n\r\n<p><u><strong>(CHSL 2023 Pre)</strong></u></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्<strong>&nbsp;6</strong>&nbsp;है।</p>\r\n\r\n<p>अंकगणित माध्य = (प्रमुख भोजन की संख्या &times; आवृत्ति)/ कुल आवृत्ति</p>\r\n\r\n<table cellspacing=\"0\" class=\"MsoTableGrid\" style=\"border-collapse:collapse; border:none; width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:192px\">प्रमुख भोजन की संख्या &nbsp;</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:192px\">आवृत्ति &nbsp; &nbsp; &nbsp; &nbsp;</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:top; width:192px\">&nbsp;प्रमुख भोजन की संख्या &times; आवृत्ति</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">1</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">2</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">2</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">4</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">2</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">6</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">4</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">20</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">25</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">6</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">4</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">24</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">7</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">6</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">42</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">8</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">24</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">9</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">5</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">45</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">10</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">3</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">30</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">11</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">1</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">11</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p>कुल&nbsp;<span style=\"font-size:11pt\">&rarr;</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">39</span></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:top; width:192px\">\r\n\t\t\t<p><span style=\"font-size:11pt\">234</span></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><br />\r\nअंकगणितीय माध्य औसत&nbsp;= <span class=\"math-tex\">\\(\\frac{234}{39}\\)</span>&nbsp;= 6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A dice is thrown 1,000 times with the frequencies for the outcomes 1, 2, 3, 4, 5, and 6 as given in the following table. How many times is the number appearing on the dice greater than or equal to 5?<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/3 12025_07_11_13_41_54.jpg\" style=\"height:53px; width:383px\" /><br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>365</p>\r\n",
+      "<p>535</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>356</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e. <strong>365</strong>.</p>\r\n\r\n<p>Greater than or equal to 5&nbsp;<br />\r\n&rArr; 175 + 190 = 365</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक पासे को निम्नलिखित तालिका में दिखाए गए अनुसार 1, 2, 3, 4, 5 और 6 परिणामों की बारंबारता के साथ 1,000 बार फेंका जाता है। पासे पर 5 से बड़ी या उसके बराबर संख्या कितनी बार आएगी?<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/3 22025_07_11_13_42_39.jpg\" style=\"height:65px; width:387px\" /><br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>365</p>\r\n",
+      "<p>535</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>356</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात्<strong>&nbsp;365</strong>&nbsp;है।</p>\r\n\r\n<p>5 से अधिक या बराबर&nbsp;<br />\r\n&rArr; 175 + 190 = 365</p>\r\n"
+  },
+  {
+    "question": "<p>A way of punching data that exhibits the values of the variables and corresponding frequencies is called:<br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>an array</p>\r\n",
+      "<p>frequency of observation</p>\r\n",
+      "<p>&nbsp;raw data</p>\r\n",
+      "<p>frequency of observation</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong>frequency of observation.</strong></p>\r\n\r\n<p>Data showing the values of the variables and corresponding frequencies is called a frequency distribution.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>डेटा पंचिंग का वह तरीका जो चरों के मानों और संगत आवृत्तियों को प्रदर्शित करता है, कहलाता है:<br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>एक सारणी</p>\r\n",
+      "<p>प्रेक्षण की बारंबारता</p>\r\n",
+      "<p>अप्रसंस्कृत आंकड़ा</p>\r\n",
+      "<p>आवृति वितरण</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्<strong>&nbsp;प्रेक्षण की बारंबारता</strong>&nbsp;है।</p>\r\n\r\n<p>चरों के मानों और संगत आवृत्तियों को दर्शाने वाले डेटा को आवृत्ति वितरण कहा जाता है।</p>\r\n"
+  },
+  {
+    "question": "<p>The score in Maths of 50 students of a class is given in the following table. Calculate the mean score.<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/12025_07_11_13_32_34.jpg\" style=\"height:147px; width:203px\" /><br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>28.8</p>\r\n",
+      "<p>22.2</p>\r\n",
+      "<p>24.4</p>\r\n",
+      "<p>26.6</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<strong>24.4.</strong></p>\r\n\r\n<p>Mid-point Frequency<br />\r\n(M) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (F) &nbsp; &nbsp; &nbsp; &nbsp; (M &times; F)<br />\r\n5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10<br />\r\n15 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;165<br />\r\n25 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;28 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;700<br />\r\n35 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;210<br />\r\n45 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;135<br />\r\nSum &nbsp; &nbsp; &nbsp; &nbsp;50 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1220<br />\r\nMean score&nbsp;<span class=\"math-tex\">\\( \\rightarrow\\ \\frac{1220}{50}\\)</span> = 24.4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कक्षा के 50 विद्यार्थियों के गणित के प्राप्तांक निम्न तालिका में दिए गए हैं। माध्य प्राप्तांक की गणना कीजिये।<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/12025_07_11_13_33_40.jpg\" style=\"height:158px; width:195px\" /><br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>28.8</p>\r\n",
+      "<p>22.2</p>\r\n",
+      "<p>24.4</p>\r\n",
+      "<p>26.6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<strong>24.4</strong>&nbsp;है।</p>\r\n\r\n<p>मध्य बिंदु&nbsp;आवृत्ति<br />\r\n(M) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (F) &nbsp; &nbsp; &nbsp; &nbsp; (M &times; F)<br />\r\n5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10<br />\r\n15 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;165<br />\r\n25 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;28 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;700<br />\r\n35 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;210<br />\r\n45 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;135<br />\r\nयोग &nbsp; &nbsp; &nbsp; &nbsp; 50 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1220<br />\r\nमाध्य अंक&nbsp;<span class=\"math-tex\">\\( \\rightarrow\\ \\frac{1220}{50}\\)</span> = 24.4</p>\r\n"
+  }
+]
