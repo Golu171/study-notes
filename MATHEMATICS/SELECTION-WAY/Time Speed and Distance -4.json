@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>Ruksana travelled at 60 km/h while going from point A to point B, and returned via the same route at a different speed. If Ruksana&rsquo;s overall average speed during the two-way journey was 48 km/h, what was her speed while travelling from B to A?</p>\r\n",
+    "options": [
+      "<p>42 km/h</p>\r\n",
+      "<p>40 km/h</p>\r\n",
+      "<p>45 km/h</p>\r\n",
+      "<p>36 km/h</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong>40 km/h.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Speed in journey from A to B = 60 km/h.</p>\r\n\r\n<p>Total average speed = 48 km/hr</p>\r\n\r\n<p><strong>Formula Used:</strong></p>\r\n\r\n<p>Distance = Speed&nbsp;&times; Time</p>\r\n\r\n<p><span class=\"math-tex\">\\(Average \\ speed = {Total\\ Distance \\over Total\\ Time}\\)</span></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the distance between A and B be D km and the speed of Ruksana while travelling from B to A be &#39;x&#39; km/hr.</p>\r\n\r\n<p>Now Total distance = 2D</p>\r\n\r\n<p>Time taken while travelling from A to B =&nbsp;<span class=\"math-tex\">\\({D \\over 60}\\)</span>&nbsp;hr</p>\r\n\r\n<p>Similarly,&nbsp;Time taken while travelling from B to A&nbsp;=&nbsp;<span class=\"math-tex\">\\({D \\over x}\\)</span>&nbsp;hr.</p>\r\n\r\n<p>Now, Total Time =&nbsp;<span class=\"math-tex\">\\(({D \\over 60} + {D \\over x})\\)</span>&nbsp;hr</p>\r\n\r\n<p>So, Average speed,&nbsp;<span class=\"math-tex\">\\(48 = {2D \\over {D \\over 60} + {D \\over x}}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(48({D \\over 60} + {D \\over x}) = 2D\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(24({1 \\over 60} + {1 \\over x}) = 1\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(({1 \\over 60} + {1 \\over x}) = {1 \\over 24}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( {1 \\over x} = {1 \\over 24} - {1 \\over 60}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( {1 \\over x} = {3 \\over 120}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( {1 \\over x} = {1 \\over 40}\\)</span></p>\r\n\r\n<p>&rArr; x = 40</p>\r\n\r\n<p>Hence the speed of Ruksana while travelling from B to A is 40 km/hr.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>रुकसाना ने बिंदु A से बिंदु B तक जाते समय 60 किमी/घंटा की गति से यात्रा की, और एक अलग गति से उसी मार्ग से वापस लौटी। यदि दो-तरफ़ा यात्रा के दौरान रुकसाना की कुल औसत गति 48 किमी/घंटा थी, तो B से A तक यात्रा करते समय उसकी गति क्या थी?</p>\r\n",
+    "options_hi": [
+      "<p>42&nbsp;किमी/घंटा</p>\r\n",
+      "<p>40&nbsp;किमी/घंटा</p>\r\n",
+      "<p>45&nbsp;किमी/घंटा</p>\r\n",
+      "<p>36&nbsp;किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>40 किमी/घंटा</strong> है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>A से B तक यात्रा में गति = 60 किमी/घंटा.</p>\r\n\r\n<p>कुल औसत गति = 48 किमी/घंटा</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>दूरी = गति &times; समय</p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>मान लीजिए कि A और B के बीच की दूरी D किमी है और B से A तक यात्रा करते समय रुकसाना की गति &#39;x&#39; किमी/घंटा है।</p>\r\n\r\n<p>अब कुल दूरी = 2D</p>\r\n\r\n<p>A से B तक यात्रा करने में लगा समय =&nbsp;<span class=\"math-tex\">\\({D \\over 60}\\)</span> घंटा</p>\r\n\r\n<p>इसी प्रकार, B से A तक यात्रा करने में लगने वाला समय =&nbsp;<span class=\"math-tex\">\\({D \\over x}\\)</span> घंटा</p>\r\n\r\n<p>अब, कुल समय =&nbsp; <span class=\"math-tex\">\\(({D \\over 60} + {D \\over x})\\)</span>&nbsp;&nbsp;&nbsp;&nbsp;घंटा</p>\r\n\r\n<p>तो, औसत गति,&nbsp;&nbsp;<span class=\"math-tex\">\\(48 = {2D \\over {D \\over 60} + {D \\over x}}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(48({D \\over 60} + {D \\over x}) = 2D\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(24({1 \\over 60} + {1 \\over x}) = 1\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(({1 \\over 60} + {1 \\over x}) = {1 \\over 24}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( {1 \\over x} = {1 \\over 24} - {1 \\over 60}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( {1 \\over x} = {3 \\over 120}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( {1 \\over x} = {1 \\over 40}\\)</span></p>\r\n\r\n<p>&rArr; x = 40</p>\r\n\r\n<p>अतः B से A तक यात्रा करते समय रुकसाना की गति 40 किमी/घंटा है</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The ratio of the distances Ravina and Suhel had to travel from their respective houses to their workplaces was 4 : 7. If Suhel had to travel 63 km, how much did Ravina have to travel?</p>\r\n",
+    "options": [
+      "<p>40 km</p>\r\n",
+      "<p>32 km</p>\r\n",
+      "<p>39 km</p>\r\n",
+      "<p>36 km</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4</strong>&nbsp;i.e.&nbsp;<strong>36 km.</strong></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the distances of Ravina and Suhel from their houses to their workplaces be 4x and 7x respectively.</p>\r\n\r\n<p>According to the given question,</p>\r\n\r\n<p>Distance travelled by Suhel = 7x = 63</p>\r\n\r\n<p>&rArr; x = 9</p>\r\n\r\n<p>Now, distance travelled by Ravina = 4x = 4&nbsp;&times; 9 = 36km</p>\r\n\r\n<p>Hence the required answer is 36 km.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>रवीना और सुहेल को अपने-अपने घरों से अपने कार्यस्थल तक तय की गई दूरी का अनुपात 4 : 7 था। यदि सुहेल को 63 किमी की यात्रा करनी थी, तो रवीना को कितनी दूरी तय करनी पड़ी?</p>\r\n",
+    "options_hi": [
+      "<p>40&nbsp;किमी</p>\r\n",
+      "<p>32&nbsp;किमी</p>\r\n",
+      "<p>39&nbsp;किमी</p>\r\n",
+      "<p>36&nbsp;किमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 4</strong> अर्थात <strong>36 किमी</strong> है।</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना कि रवीना और सुहेल की उनके घरों से उनके कार्यस्थलों की दूरी क्रमशः 4x और 7x है</p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p>सुहेल द्वारा तय की गई दूरी = 7x = 63</p>\r\n\r\n<p>&rArr; x = 9</p>\r\n\r\n<p>अब, रवीना द्वारा तय की गई दूरी = 4x = 4 &times; 9 = 36 किमी</p>\r\n\r\n<p>अतः अभीष्ट उत्तर 36 किमी है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The distance traveled by a person varies directly with the duration of the journey. If&nbsp;the person travels 378 km in 7 hours, in how many hours will the person cover 918&nbsp;km?</p>\r\n",
+    "options": [
+      "<p>16</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>17</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4 </strong>i.e.&nbsp;<strong>17.</strong></p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Speed = Distance/time&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p>Calculations:</p>\r\n\r\n<p>Speed when the person travels 378 km in 7 hours</p>\r\n\r\n<p>Using equation (1), we get</p>\r\n\r\n<p>&rArr; Speed = 378/7 = 54 km/h</p>\r\n\r\n<p>Required time taken to travel 918 km</p>\r\n\r\n<p>&rArr; Time = 918/54 = 17 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>किसी व्यक्ति द्वारा तय की गई दूरी सीधे यात्रा की अवधि के साथ बदलती है। यदि वह व्यक्ति 7 घंटे में 378 किमी की यात्रा करता है, तो वह कितने घंटे में 918 किमी की दूरी तय करेगा?</p>\r\n",
+    "options_hi": [
+      "<p>16</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>17</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>17</strong> है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>चाल = दूरी/समय&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---- (1)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>चाल,&nbsp;जब व्यक्ति 7 घंटे में 378 किमी की यात्रा करता है</p>\r\n\r\n<p>समीकरण (1) का प्रयोग करने पर, हम प्राप्त करते हैं</p>\r\n\r\n<p>&rArr; चाल = 378/7 = 54 किमी/घंटा</p>\r\n\r\n<p>918 किमी की यात्रा करने के लिए आवश्यक समय</p>\r\n\r\n<p>&rArr; समय = 918/54 = 17 घंटे</p>\r\n"
+  },
+  {
+    "question": "<p>A man travelled by car from city A to city B at a speed of 24 km/h and returned from city B to city A at 16 km/h. Find his average speed over the whole journey.</p>\r\n",
+    "options": [
+      "<p>19.5 km/h</p>\r\n",
+      "<p>20 km/h</p>\r\n",
+      "<p>19 km/h</p>\r\n",
+      "<p>19.2 km/h</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4&nbsp;</strong>i.e.&nbsp;<strong>19.2 km/h.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Speed from A to B, x = 24 km/h</p>\r\n\r\n<p>Speed from B to A, y = 16 km/h</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(Average\\ speed = {2xy \\over(x+y)}\\)</span>&nbsp; &nbsp;...(i)</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>According to the given question,</p>\r\n\r\n<p>Average speed =&nbsp;<span class=\"math-tex\">\\(2 × 24 × 16 \\over (24 + 16)\\)</span>&nbsp; &nbsp; {using equation(i)}</p>\r\n\r\n<p>&rArr; Average Speed =&nbsp;<span class=\"math-tex\">\\(2 × 24 × 16 \\over 40\\)</span></p>\r\n\r\n<p>&rArr; Average speed = 19.2</p>\r\n\r\n<p>Hence the average speed of the whole journey is 19.2 km/h.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक व्यक्ति कार द्वारा शहर A से शहर B तक 24 किमी/घंटा की गति से यात्रा करता है और शहर B से शहर A में 16 किमी/घंटा की गति से वापस आता है। पूरी यात्रा में उसकी औसत गति ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>19.5 किमी/घंटा</p>\r\n",
+      "<p>20 किमी/घंटा</p>\r\n",
+      "<p>19 किमी/घंटा</p>\r\n",
+      "<p>19.2 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्&nbsp;<strong>19.2&nbsp;किमी/घंटा</strong>&nbsp;है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>A से B की गति, x = 24 किमी/घंटा</p>\r\n\r\n<p>B से A की गति, y = 16 किमी/घंटा</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>औसत गति&nbsp;<span class=\"math-tex\">\\( = {2xy \\over(x+y)}\\)</span>&nbsp; &nbsp;...(i)</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p>औसत गति =&nbsp;<span class=\"math-tex\">\\(2 × 24 × 16 \\over (24 + 16)\\)</span>&nbsp; &nbsp; {समीकरण (i) का उपयोग करके}</p>\r\n\r\n<p>&rArr; औसत गति =&nbsp;<span class=\"math-tex\">\\(2 × 24 × 16 \\over 40\\)</span></p>\r\n\r\n<p>&rArr; औसत गति = 19.2</p>\r\n\r\n<p>इसलिए, पूरी यात्रा की औसत गति <strong>19.2 किमी/घंटा </strong>है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Ram is travelling at a speed of 72 km per hour while Shyam is travelling at a speed of 90 km per hour. What is the difference in their speeds (in metres per second)?</p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1&nbsp;</strong>i.e. <strong>5</strong></p>\r\n\r\n<p>According to question,</p>\r\n\r\n<p>Speed of Ram&nbsp; is 72 km/h and speed of Shyam = 90 km/h</p>\r\n\r\n<p>Difference in speed of Ram and Shyam = 90&nbsp;&ndash; 72 = 18 km/h</p>\r\n\r\n<p>&rArr; Change km/h into m/sec by multiplying&nbsp;1000/3600</p>\r\n\r\n<p>&rArr; 18 km/h = 18&nbsp;&times;&nbsp;1000/3600&nbsp;= 5 m/sec</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>राम 72 किमी प्रति घंटा की चाल से यात्रा कर रहा है जबकि श्याम 90 किमी प्रति घंटा की चाल से यात्रा कर रहा है। उनकी चालों (मीटर प्रति सेकंड में) में क्या अंतर है?</p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>5</strong> है</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>राम की चाल 72 किमी/घंटा और श्याम की चाल 90 किमी/घंटा है</p>\r\n\r\n<p>राम और श्याम की चालों में अंतर = 90&nbsp;&ndash; 72 = 18 किमी/घंटा</p>\r\n\r\n<p>&rArr; 1000/3600 से गुणा करके किमी/घंटा को मीटर/सेकंड में बदलें</p>\r\n\r\n<p>&rArr; 18 किमी/घंटा = 18&nbsp;&times;&nbsp;1000/3600&nbsp;= 5 मीटर/सेकंड</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bus goes to Mumbai from Delhi at the speed of 60 km/h for 60% of the journey, and covers the remaining part of its journey at the speed of 70 km/h. What is the average speed of the bus (in km/h) during the entire journey under consideration?</p>\r\n",
+    "options": [
+      "<p>67</p>\r\n",
+      "<p>64</p>\r\n",
+      "<p>66</p>\r\n",
+      "<p>65</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2&nbsp;</strong>i.e. <strong>64.</strong></p>\r\n\r\n<p>Speed = Distance/time</p>\r\n\r\n<p>Let the distance from Delhi to Mumbai be x</p>\r\n\r\n<p>Time is taken for 60% of the journey = (60/100 &times; x)/60</p>\r\n\r\n<p>Time is taken for 60% of the journey =&nbsp;x/100</p>\r\n\r\n<p>Time is taken for the remaining part of the journey which is 40% =&nbsp;(40/100 &times; x)/70</p>\r\n\r\n<p>Time is taken for the remaining part of the journey which is 40% =&nbsp;x/175</p>\r\n\r\n<p>&rArr; Average Speed of bus for complete journey =&nbsp;<span class=\"math-tex\">\\(x/(x/100+x/175)\\)</span></p>\r\n\r\n<p>&rArr; Average Speed of bus for complete journey =&nbsp;<span class=\"math-tex\">\\(x/(175x+100x/17500)\\)</span></p>\r\n\r\n<p>=&nbsp;17500x/275x</p>\r\n\r\n<p>= 63.63 &asymp; 64 64 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बस दिल्ली से मुंबई तक की यात्रा में 60% की यात्रा 60 किमी/घंटा की चाल से करती&nbsp;है, और अपनी यात्रा के शेष भाग को 70 किमी/घंटा की चाल से तय करती है। संपूर्ण विचाराधीन यात्रा के दौरान बस की औसत चाल (किमी/घंटा में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>67</p>\r\n",
+      "<p>64</p>\r\n",
+      "<p>66</p>\r\n",
+      "<p>65</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>64</strong> है।</p>\r\n\r\n<p>गति = दूरी/समय</p>\r\n\r\n<p>माना दिल्ली से मुंबई की दूरी x है</p>\r\n\r\n<p>60% यात्रा में लगने वाला समय = (60/100 &times; x)/60</p>\r\n\r\n<p>60% यात्रा में लगने वाला समय =&nbsp;x/100</p>\r\n\r\n<p>यात्रा के शेष भाग के लिए लिया गया समय = 40% =&nbsp;(40/100 &times; x)/70&nbsp;</p>\r\n\r\n<p>यात्रा के शेष भाग के लिए लिया गया समय = 40% = x/175&nbsp;</p>\r\n\r\n<p>&rArr; संपूर्ण यात्रा के लिए बस की औसत चाल =&nbsp;<span class=\"math-tex\">\\(x/(x/100+x/175)\\)</span></p>\r\n\r\n<p>&rArr; संपूर्ण यात्रा के लिए बस की औसत चाल =&nbsp;<span class=\"math-tex\">\\(x/(175x+100x/17500)\\)</span></p>\r\n\r\n<p>=&nbsp;17500x/275x</p>\r\n\r\n<p>= 63.63 &asymp; 64 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>Ramesh drives from his home at a speed of 40 km/h and reaches his college 25 minutes late. The next day he increases his speed by 10 km/h, yet he is late by 10 minutes. How far is his college from his home?</p>\r\n",
+    "options": [
+      "<p>50 km</p>\r\n",
+      "<p>55 km</p>\r\n",
+      "<p>45 km</p>\r\n",
+      "<p>60 km</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1&nbsp;</strong>i.e. <strong>50 km.</strong></p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Distance = Speed/time&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (1)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Let the distance be D and t be the time, according to the question using equation (1)</p>\r\n\r\n<p>&rArr; D/40 = t + 25&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (2)</p>\r\n\r\n<p>&rArr; D/50 = t + 10&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (3)</p>\r\n\r\n<p>Equating, equation (3) - equation (2), we get</p>\r\n\r\n<p>&rArr; D/40 - D/50 = 15</p>\r\n\r\n<p>&rArr; (5D - 4D)/200 = 15/60</p>\r\n\r\n<p>&rArr; D/200 = 1/4</p>\r\n\r\n<p>&rArr; D = 50 km&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>रमेश अपने घर से 40 किमी/घंटा की चाल से गाड़ी चलाता है और 25 मिनट देरी से अपने कॉलेज पहुंचता है। अगले दिन वह अपनी चाल 10 किमी/घंटा बढ़ा देता है, फिर भी वह 10 मिनट देरी से पहुंचता है। उसका कॉलेज उसके घर से कितनी दूर है?</p>\r\n",
+    "options_hi": [
+      "<p>50 किमी</p>\r\n",
+      "<p>55 किमी</p>\r\n",
+      "<p>45 किमी</p>\r\n",
+      "<p>60 किमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात् <strong>50 किमी </strong>है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>दूरी = चाल/समय ---- (1)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>माना कि दूरी D और समय t है</p>\r\n\r\n<p>समीकरण (1) का प्रयोग करते हुए, प्रश्न के अनुसार</p>\r\n\r\n<p>&rArr; D/40 = t + 25&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (2)</p>\r\n\r\n<p>&rArr; D/50 = t + 10&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (3)</p>\r\n\r\n<p>समीकरण (3) - समीकरण (2) को बराबर करने पर, हम प्राप्त करते हैं</p>\r\n\r\n<p>&rArr; D/40 - D/50 = 15</p>\r\n\r\n<p>&rArr; (5D - 4D)/200 = 15/60</p>\r\n\r\n<p>&rArr; D/200 = 1/4</p>\r\n\r\n<p>&rArr; D = 50 किमी</p>\r\n"
+  },
+  {
+    "question": "<p>Sunila drove her car at an average speed of 45 km/h for the first 75 km of a trip, and then at an average speed of 70 km/h for the remaining 45 km of the trip. If she made no stops during the trip, what was Sunila&#39;s average speed (in km/h) for the entire trip?</p>\r\n",
+    "options": [
+      "<p>52</p>\r\n",
+      "<p>51<span class=\"math-tex\">\\(\\frac{3}{7}\\)</span></p>\r\n",
+      "<p>51</p>\r\n",
+      "<p>51<span class=\"math-tex\">\\(\\frac{93}{97}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.<strong>&nbsp;</strong>51<span class=\"math-tex\">\\(\\frac{93}{97}\\)</span>.</p>\r\n\r\n<p><strong>Formula Used:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(Average\\ speed = {total\\ distance \\over total\\ time}\\)</span></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>According to the given question,</p>\r\n\r\n<p>Time for first 75 km, T1 =&nbsp;<span class=\"math-tex\">\\({75 \\over 45} = {5 \\over 3}\\)</span>&nbsp;hr.</p>\r\n\r\n<p>Time for next 45&nbsp;km, T2 =&nbsp;<span class=\"math-tex\">\\({45 \\over 70} = {9 \\over 14}\\)</span></p>\r\n\r\n<p>Now,&nbsp;<span class=\"math-tex\">\\(Average\\ speed = {(75 + 45) \\over {({5 \\over 3} + { 9 \\over 14})}}\\)</span></p>\r\n\r\n<p>&rArr;<span class=\"math-tex\">\\(Average\\ speed = {(120) \\over {97 \\over 42}}\\)</span></p>\r\n\r\n<p>&rArr;<span class=\"math-tex\">\\(Average\\ speed = {5040 \\over 97}\\)</span></p>\r\n\r\n<p>&rArr; Average speed =&nbsp;<span class=\"math-tex\">\\(51\\frac{93}{97}\\)</span></p>\r\n\r\n<p>Hence the required answer is&nbsp;<span class=\"math-tex\">\\(51\\frac{93}{97}\\)</span>.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>सुनीला ने यात्रा के पहले 75 किमी के लिए 45 किमी/घंटा की औसत गति से अपनी कार चलाई, और फिर यात्रा के शेष 45 किमी के लिए 70 किमी/घंटा की औसत गति से कार चलाई। यदि वह यात्रा के दौरान कही भी&nbsp;नहीं रुकी, तो पूरी यात्रा के लिए सुनीला की औसत गति (किमी/घंटा में) क्या थी?</p>\r\n",
+    "options_hi": [
+      "<p>52</p>\r\n",
+      "<p>51<span class=\"math-tex\">\\(\\frac{3}{7}\\)</span></p>\r\n",
+      "<p>51</p>\r\n",
+      "<p>51<span class=\"math-tex\">\\(\\frac{93}{97}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;51<span class=\"math-tex\">\\(\\frac{93}{97}\\)</span>&nbsp;है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p>पहले 75 किमी के लिए समय, T1 =&nbsp;<span class=\"math-tex\">\\({75 \\over 45} = {5 \\over 3}\\)</span>&nbsp;घंटे&nbsp;</p>\r\n\r\n<p>अगले 45 किमी का समय, T2 =&nbsp;<span class=\"math-tex\">\\({45 \\over 70} = {9 \\over 14}\\)</span></p>\r\n\r\n<p>अब,&nbsp;औसत गति&nbsp;<span class=\"math-tex\">\\( = {(75 + 45) \\over {({5 \\over 3} + { 9 \\over 14})}}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;औसत गति&nbsp;<span class=\"math-tex\">\\(= {(120) \\over {97 \\over 42}}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;औसत गति&nbsp;<span class=\"math-tex\">\\(= {5040 \\over 97}\\)</span></p>\r\n\r\n<p>&rArr; औसत गति&nbsp;=&nbsp;<span class=\"math-tex\">\\(51\\frac{93}{97}\\)</span></p>\r\n\r\n<p>इसलिए, अभीष्ट&nbsp;उत्तर <span class=\"math-tex\">\\(51\\frac{93}{97}\\)</span> है।</p>\r\n"
+  },
+  {
+    "question": "<p>Jehangir had to cover a distance of 90 km in an hour. During the first 25 minutes, he travelled at a speed of 15.2 metres per second. How many metres did Jehangir cover per second during the remaining period to reach his destination just on time?</p>\r\n",
+    "options": [
+      "<p>30.8</p>\r\n",
+      "<p>32.5</p>\r\n",
+      "<p>32</p>\r\n",
+      "<p>31.2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>32.</strong></p>\r\n\r\n<p>Speed = Distance/time</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>In the first 25 minutes, he travelled the distance with a speed of 15.2 m/s = 25&nbsp;&times; 60&nbsp;&times; 15.2 = 22800 meters = 22.8 km</p>\r\n\r\n<p>The remaining distance = 90 km - 22.8 km = 67.2 km</p>\r\n\r\n<p>Hence, this distance covered by him in 35 minutes with a speed of = 67.2/35&nbsp;&times; (1000/60) = 32 meters/second</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जहांगीर को एक घंटे में 90 किलोमीटर की दूरी तय करनी थी। पहले 25 मिनट के दौरान उन्होंने 15.2 मीटर प्रति सेकंड की गति से यात्रा की। जहांगीर ने समय पर अपने गंतव्य तक पहुंचने के लिए शेष समय के दौरान प्रति सेकंड कितने मीटर की दूरी तय की?</p>\r\n",
+    "options_hi": [
+      "<p>30.8</p>\r\n",
+      "<p>32.5</p>\r\n",
+      "<p>32</p>\r\n",
+      "<p>31.2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>32 </strong>है।&nbsp;</p>\r\n\r\n<p>गति = दूरी/समय</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>पहले 25 मिनट में, उसने 15.2 मीटर/सेकंड की गति से दूरी तय की = 25&nbsp;&times; 60&nbsp;&times; 15.2 = 22800 मीटर = 22.8 किमी</p>\r\n\r\n<p>शेष दूरी = 90 किमी - 22.8 किमी = 67.2 किमी</p>\r\n\r\n<p>अतः, उसने 35 मिनट में = 67.2/35&nbsp;&times; (1000/60) = 32 मीटर/सेकंड की गति से यह दूरी तय की</p>\r\n"
+  },
+  {
+    "question": "<p style=\"text-align:justify\">Q completes a journey in 87 hours. She travels first half of the journey at the rate of 84 kmph and second half at the rate of 90 kmph. Find the total distance of the entire journey? (In km)</p>\r\n",
+    "options": [
+      "<p>7660</p>\r\n",
+      "<p>7760</p>\r\n",
+      "<p>7560</p>\r\n",
+      "<p>7460</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>7560.</strong></p>\r\n\r\n<p>Let the distance traveled be x&nbsp;</p>\r\n\r\n<p>Time taken to complete the journey =&nbsp;x/(2&nbsp;&times; 84) + x/(2&nbsp;&times; 90) = 87</p>\r\n\r\n<p>&rArr; x/168 + x/180 = 87</p>\r\n\r\n<p>&rArr; (15x + 14x)/2520 = 87</p>\r\n\r\n<p>&rArr; 29x/2520 = 87</p>\r\n\r\n<p>&rArr; x = 3&nbsp;&times; 2520 = 7560</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>Q, 87 घंटे में एक यात्रा पूरी करता है। वह यात्रा का पहला भाग 84 किमी प्रति घंटे की गति से और दूसरा आधा भाग 90 किमी प्रति घंटे की गति से तय करती है, पूरी यात्रा की कुल दूरी ज्ञात कीजिए? (किमी में)</p>\r\n",
+    "options_hi": [
+      "<p>7660</p>\r\n",
+      "<p>7760</p>\r\n",
+      "<p>7560</p>\r\n",
+      "<p>7460</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 3 </strong>अर्थात <strong>7560 </strong>है।</p>\r\n\r\n<p>माना तय की गई दूरी x है</p>\r\n\r\n<p>यात्रा पूरी करने में लगा समय = x/(2&nbsp;&times; 84) + x/(2&nbsp;&times; 90) = 87</p>\r\n\r\n<p>&rArr; x/168 + x/180 = 87</p>\r\n\r\n<p>&rArr; (15x + 14x)/2520 = 87</p>\r\n\r\n<p>&rArr; 29x/2520 = 87</p>\r\n\r\n<p>&rArr; x = 3&nbsp;&times; 2520 = 7560</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>A person cycles from the hostel to the college at a speed of 20 kmph and reaches 16.5 minutes late. If he cycles at a speed of 24 kmph and arrives early by 16.5 minutes, find the distance between the hostel and the college. (In km)</p>\r\n",
+    "options": [
+      "<p>33</p>\r\n",
+      "<p>55</p>\r\n",
+      "<p>66</p>\r\n",
+      "<p>44</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.<strong> 66</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>Cycle speed from hostel&nbsp;to college (x) = 20 km/h , Time (t) = 16.5 minutes late</p>\r\n\r\n<p>If He&nbsp;cycles at a speed of (y) = 24 km/h, Time (T) = 16.5 minutes early</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Distance from hostel to college (km) = [xy/(y - x)]&nbsp;&times; (T - t)/60 &nbsp;</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>Distance = [(20&nbsp;&times; 24)/(24 -&nbsp;20)]&nbsp;&times; (16.5 - (-16.5))/60 km</p>\r\n\r\n<p>= (480/4)&nbsp;&times; 33/60 = 66 km</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक व्यक्ति हॉस्टल से कॉलेज तक 20 किमी प्रति घंटे की गति से साइकिल चलाता है और 16.5 मिनट देरी से पहुंचता है। यदि वह 24 किमी प्रति घंटे की गति से साइकिल चलाता है और 16.5 मिनट पहले पहुंचता है, तो हॉस्टल और कॉलेज के बीच की दूरी ज्ञात करें। (किमी में)</p>\r\n",
+    "options_hi": [
+      "<p>33</p>\r\n",
+      "<p>55</p>\r\n",
+      "<p>66</p>\r\n",
+      "<p>44</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>66 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>हॉस्टल से कॉलेज तक साइकिल की गति (x) = 20 किमी/घंटा, समय (t) = 16.5 मिनट देर से</p>\r\n\r\n<p>यदि वह (y) = 24 किमी/घंटा की गति से साइकिल चलाता है, तो समय (T) = 16.5 मिनट पहले</p>\r\n\r\n<p>प्रयुक्त सूत्र&nbsp;</p>\r\n\r\n<p>हॉस्टल से कॉलेज की दूरी (किमी) = [xy/(y - x)]&nbsp;&times; (T - t)/60 &nbsp;</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>दूरी = [(20&nbsp;&times; 24)/(24 -&nbsp;20)]&nbsp;&times; (16.5 - (-16.5))/60 किमी</p>\r\n\r\n<p>= (480/4) &times; 33/60 = 66 किमी</p>\r\n"
+  },
+  {
+    "question": "<p>A woman covers a certain distance by car at 75 km/h and immediately returns by the same car to the starting point at 100 km/h. What is the average speed of the car?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(95\\frac{2}{7}\\)</span>&nbsp;km/h</p>\r\n",
+      "<p><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span>&nbsp;km/h</p>\r\n",
+      "<p><span class=\"math-tex\">\\(93\\frac{3}{7}\\)</span>&nbsp;km/h</p>\r\n",
+      "<p><span class=\"math-tex\">\\(86\\frac{3}{7}\\)</span>&nbsp;km/h</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span>&nbsp;km/h.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Average speed = Total distance/Total Time</p>\r\n\r\n<p>Let the distance of one way be D km</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Time taken to cover D km at 75 km/hr = D/75 hours</p>\r\n\r\n<p>Time taken to cover D km at 100 km/hr = D/100&nbsp;hours</p>\r\n\r\n<p>Total distance = 2D</p>\r\n\r\n<p>Total time = D/75 + D/100 hrs</p>\r\n\r\n<p>&rArr; D(1/75 + 1/100)</p>\r\n\r\n<p>&rArr; D(4/300 + 3/300)</p>\r\n\r\n<p>&rArr; D&nbsp;&times; 7/300</p>\r\n\r\n<p>Average speed = 2D/7D/300</p>\r\n\r\n<p>&rArr; (2D&nbsp;&times; 300)/7D</p>\r\n\r\n<p>&rArr; 600/7 km/hr =&nbsp;<strong><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span>&nbsp;</strong>km/hr</p>\r\n\r\n<p>So, the average speed of the car for the entire trip is approximately&nbsp;<strong><strong><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span></strong>&nbsp;</strong>km/hr</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक महिला कार से एक निश्चित दूरी 75 किमी/घंटा की गति से तय करती है और तुरंत उसी कार से 100 किमी/घंटा की गति से &nbsp;प्रारंभिक&nbsp;बिंदु पर लौट आती है। कार की औसत गति कितनी है?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(95\\frac{2}{7}\\)</span>&nbsp;किमी/घंटा</p>\r\n",
+      "<p><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span>&nbsp;किमी/घंटा</p>\r\n",
+      "<p><span class=\"math-tex\">\\(93\\frac{3}{7}\\)</span>&nbsp;किमी/घंटा</p>\r\n",
+      "<p><span class=\"math-tex\">\\(86\\frac{3}{7}\\)</span>&nbsp;किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात् &nbsp;<strong><strong><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span></strong></strong>&nbsp;<strong>किमी/घंटा&nbsp;</strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​हम जानते हैं की,</p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p>माना कि एक रास्ते की दूरी D किमी है</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>75 किमी/घंटा की गति से D किमी तय करने में लगने वाला समय = D/75 घंटे</p>\r\n\r\n<p>100 किमी/घंटा की गति से D किमी तय करने में लगने वाला समय = D/100 घंटे</p>\r\n\r\n<p>कुल दूरी = 2D</p>\r\n\r\n<p>कुल समय = D/75 + D/100 घंटे</p>\r\n\r\n<p>&rArr; D(1/75 + 1/100)</p>\r\n\r\n<p>&rArr; D(4/300 + 3/300)</p>\r\n\r\n<p>&rArr; D&nbsp;&times; 7/300</p>\r\n\r\n<p>औसत गति = 2D/7D/300</p>\r\n\r\n<p>&rArr; (2D &times; 300)/7D</p>\r\n\r\n<p>&rArr; 600/7 किमी/घंटा = किमी/घंटा</p>\r\n\r\n<p>तो, पूरी यात्रा के लिए कार की औसत गति लगभग <strong><strong><span class=\"math-tex\">\\(85\\frac{5}{7}\\)</span></strong></strong>&nbsp;किमी/घंटा है</p>\r\n"
+  },
+  {
+    "question": "<p>In a trip, Kiran travelled 50 miles per hour for 3 hours on bike. Further he travelled by car for 2 hours at 65 miles per hour. He stopped for 2 hours for rest. After rest he travelled on bike for 4 hours at 80 miles per hour to reach his destination. Find Kiran&rsquo;s average speed for the entire journey. (in miles per hour) (Rounded off to two places of decimals)</p>\r\n",
+    "options": [
+      "<p>54.54</p>\r\n",
+      "<p>&nbsp;65.68</p>\r\n",
+      "<p>60.06</p>\r\n",
+      "<p>&nbsp;50.44</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong>&nbsp;i.e.&nbsp;<strong>54.54</strong></p>\r\n\r\n<p>Average speed = Tota distance/Total time</p>\r\n\r\n<p>Distance covered by Kiran on bike = 50&nbsp;&times; 3 = 150 miles</p>\r\n\r\n<p>Distance covered by Kiran by car = 65 &times; 2&nbsp;= 130 miles</p>\r\n\r\n<p>He stopped for 2 hours to rest</p>\r\n\r\n<p>Distance covered by Kiran by car = 80 &times; 4&nbsp;= 320 miles</p>\r\n\r\n<p>Average speed = (150 + 130 + 320)/(3 + 2 + 2 + 4) = 600/11 = 54.54 miles/hour</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक यात्रा में, किरण बाइक पर 3 घंटे के लिए 50 मील प्रति घंटे की यात्रा करता है। इसके अलावा वह 65 मील प्रति घंटे की गति से 2 घंटे के लिए कार से यात्रा करता है। वह आराम के लिए 2 घंटे के लिए रुका। आराम करने के बाद वह अपने गंतव्य तक पहुंचने के लिए 80 मील प्रति घंटे की रफ्तार से 4 घंटे तक बाइक से यात्रा करता है। पूरी यात्रा के लिए किरण की औसत गति ज्ञात कीजिये। (मील प्रति घंटे में) (दशमलव के दो स्थानों तक पूर्णांकित कीजिए&nbsp;)</p>\r\n",
+    "options_hi": [
+      "<p>54.54</p>\r\n",
+      "<p>&nbsp;65.68</p>\r\n",
+      "<p>60.06</p>\r\n",
+      "<p>&nbsp;50.44</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>है अर्थात् <strong>54.54&nbsp;</strong></p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p>किरण द्वारा बाइक पर तय की गई दूरी = 50 &times; 3 = 150 मील</p>\r\n\r\n<p>किरण द्वारा कार द्वारा तय की गई दूरी = 65 &times; 2 = 130 मील</p>\r\n\r\n<p>वह आराम करने के लिए 2 घंटे के लिए रुक गया</p>\r\n\r\n<p>किरण द्वारा कार द्वारा तय की गई दूरी = 80 &times; 4 = 320 मील</p>\r\n\r\n<p>औसत गति = (150 + 130 + 320)/(3 + 2 + 2 + 4) = 600/11 = 54.54 मील/घंटा</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If a man climbs a hill at 6 km/h on the journey from foot to top of the hill and returns at 10 km/h, then find his average speed for the journey (in km/h).</p>\r\n",
+    "options": [
+      "<p>6.5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7.5</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4&nbsp;</strong>i.e.&nbsp;<strong>7.5</strong></p>\r\n\r\n<p>A man climbs up a hill during the journey&nbsp;with a speed of X = 6 km/h</p>\r\n\r\n<p>During the return of journey, his speed of Y = 10 km/h</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The average speed = 2XY/(X + Y)</p>\r\n\r\n<p>The average speed = 2&nbsp;&times; 6&nbsp;&times; 10/(6 + 10) = 120/16&nbsp;= 7.5 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि एक व्यक्ति पहाड़ी&nbsp;से चोटी तक की पैदल यात्रा पर 6 किमी/घंटा की गति से एक पहाड़ी पर चढ़ता है और 10 किमी/घंटा की गति से लौटता है, तो यात्रा के लिए उसकी औसत गति (किमी/घंटा में) ज्ञात कीजिये।</p>\r\n",
+    "options_hi": [
+      "<p>6.5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7.5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>है अर्थात् <strong>7.5</strong></p>\r\n\r\n<p>एक व्यक्ति यात्रा के दौरान X की गति से एक पहाड़ी पर चढ़ता है&nbsp;= 6&nbsp;</p>\r\n\r\n<p>यात्रा की वापसी के दौरान, उसकी&nbsp;गति Y = 10 किमी/घंटा</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>औसत गति&nbsp;= 2XY/(X + Y)</p>\r\n\r\n<p>औसत गति = 2&nbsp;&times; 6&nbsp;&times; 10/(6 + 10) = 120/16&nbsp;= 7.5 km/h</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A girl walks to a park situated 350 m from her house. It took her 3 mins to reach the park and 4 mins to return. What is the average speed of the girl (in km/h)?</p>\r\n",
+    "options": [
+      "<p>4 km/h</p>\r\n",
+      "<p>6.5 km/h</p>\r\n",
+      "<p>6 km/h</p>\r\n",
+      "<p>&nbsp;5 km/h&nbsp;&nbsp;&nbsp;</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong>&nbsp;i.e<strong>. 6 km/h</strong></p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Average speed = Total distance/Total time</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Total distance = 350&nbsp;&times; 2 = 700 m</p>\r\n\r\n<p>Total time = 3 + 4 = 7 min (or 420 seconds)</p>\r\n\r\n<p>Now, according to the question;</p>\r\n\r\n<p>&rArr; Average speed = 700/420&nbsp;&times; (18/5) {converting into km/h}</p>\r\n\r\n<p>&rArr; 6 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक लड़की अपने घर से 350 मीटर दूर स्थित एक पार्क में जाती है। उसे पार्क तक पहुंचने में 3 मिनट और लौटने में 4 मिनट लगे। लड़की की औसत गति (किमी/घंटा में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>4 किमी/घंटा</p>\r\n",
+      "<p>6.5 किमी/घंटा</p>\r\n",
+      "<p>6 किमी/घंटा</p>\r\n",
+      "<p>5 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> है अर्थात् <strong>6 किमी/घंटा&nbsp;</strong></p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>कुल दूरी&nbsp;= 350&nbsp;&times; 2 = 700 m</p>\r\n\r\n<p>कुल समय = 3 + 4 = 7 मिनट (या 420 सेकंड)</p>\r\n\r\n<p>अब, प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr; औसत गति&nbsp;= 700/420&nbsp;&times; (18/5) {किमी/घंटा में परिवर्तित करने पर}</p>\r\n\r\n<p>&rArr; 6 किमी/घंटा</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>A car covers a distance of 1080 km in 240 minutes. What is the speed of the car in m/sec?<br />\r\n&nbsp;</p>\r\n",
+    "options": [
+      "<p>70</p>\r\n",
+      "<p>81</p>\r\n",
+      "<p>55</p>\r\n",
+      "<p>75</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e. <strong>75</strong></p>\r\n\r\n<p>As we know that</p>\r\n\r\n<p>Speed = Distance/Time</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>Distance = 1080 km = 1080000 m</p>\r\n\r\n<p>Time = 240 min = 240 &times; 60 = 14400 sec</p>\r\n\r\n<p>Calculation&nbsp;</p>\r\n\r\n<p>Speed = 1080000/14400 = 75 m/s</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कार 240 मिनट में 1080 किमी की दूरी तय करती है। कार की गति मीटर/सेकंड में कितनी है?</p>\r\n",
+    "options_hi": [
+      "<p>70</p>\r\n",
+      "<p>81</p>\r\n",
+      "<p>55</p>\r\n",
+      "<p>75</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>75 </strong>है।&nbsp;</p>\r\n\r\n<p>जैसा कि हम जानते हैं</p>\r\n\r\n<p>गति = दूरी/समय</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>दूरी = 1080 किमी = 1080000 मीटर</p>\r\n\r\n<p>समय = 240 मिनट = 240 &times; 60 = 14400 सेकंड</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>गति = 1080000/14400 = 75 मीटर/सेकेंड</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Ravish travelled the first 20 km of an entire distance at a speed of 12 km/h; the next 25 km at a speed of 10 km/h and the remaining distance at a speed of 15 km/h. If his overall average speed was 13.5 km/h, what was the distance that Ravish travelled at a speed of 15 km/h?</p>\r\n",
+    "options": [
+      "<p>111.95 km</p>\r\n",
+      "<p>110.95 km</p>\r\n",
+      "<p>112.5 km</p>\r\n",
+      "<p>113.95km</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong> i.e.<strong>&nbsp;112.5 km</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The first 20 km distance covered at a speed of 12 km/h.</p>\r\n\r\n<p>The next 25 km distance was covered at a speed of 10 km/h.</p>\r\n\r\n<p>The remaining distance (D) was covered at a speed of 15 km/h.</p>\r\n\r\n<p>The average speed was 13.5 km/h</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>The average speed = Total distance covered/Total time taken</p>\r\n\r\n<p>Time = Distance/Speed</p>\r\n\r\n<p>Calculations</p>\r\n\r\n<p>&rArr; 13.5 = (20 + 25 + D)/[(20/12) + (25/10) + (D/15)]</p>\r\n\r\n<p>&rArr; 13.5 = (45 + D)/[{(20 &times; 15) + (25 &times; 18) + (D &times; 12)}/180]</p>\r\n\r\n<p>&rArr; 13.5 = [180 &times; (45 + D)]/(300 + 450 + 12D)</p>\r\n\r\n<p>&rArr; 13.5 &times; (750 + 12D) = 8100 + 180D</p>\r\n\r\n<p>&rArr; 10125 + 162D = 8100 + 180D</p>\r\n\r\n<p>&rArr; 180D - 162D = 10125 - 8100</p>\r\n\r\n<p>&rArr; 18D = 2025</p>\r\n\r\n<p>&rArr; D = 112.5 km</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>रवीश ने कुल&nbsp;दूरी का पहली 20 किमी की दूरी 12 किमी/घंटा की गति से, अगली 25 किमी की दूरी 10 किमी/घंटा की गति से और शेष दूरी 15 किमी/घंटा की गति से तय किया। यदि उसकी कुल औसत गति 13.5 किमी/घंटा थी, तो रवीश ने 15 किमी/घंटा की गति से कितनी दूरी तय की?</p>\r\n",
+    "options_hi": [
+      "<p>111.95 किमी</p>\r\n",
+      "<p>110.95 किमी</p>\r\n",
+      "<p>112.5 किमी</p>\r\n",
+      "<p>113.95 किमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>112.5 किमी</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>पहली 20 किमी की दूरी 12 किमी/घंटा की गति से तय की गई।</p>\r\n\r\n<p>अगली 25 किमी की दूरी 10 किमी/घंटा की गति से तय की गई।</p>\r\n\r\n<p>शेष दूरी (D) 15 किमी/घंटा की गति से तय की गई।</p>\r\n\r\n<p>औसत गति 13.5 किमी/घंटा थी</p>\r\n\r\n<p>प्रयुक्त सूत्र&nbsp;</p>\r\n\r\n<p>औसत गति = तय की गई कुल दूरी/लिया गया कुल समय</p>\r\n\r\n<p>समय = दूरी/गति</p>\r\n\r\n<p>गणना&nbsp;</p>\r\n\r\n<p>&rArr; 13.5 = (20 + 25 + D)/[(20/12) + (25/10) + (D/15)]</p>\r\n\r\n<p>&rArr; 13.5 = (45 + D)/[{(20 &times; 15) + (25 &times; 18) + (D &times; 12)}/180]</p>\r\n\r\n<p>&rArr; 13.5 = [180 &times; (45 + D)]/(300 + 450 + 12D)</p>\r\n\r\n<p>&rArr; 13.5 &times; (750 + 12D) = 8100 + 180D</p>\r\n\r\n<p>&rArr; 10125 + 162D = 8100 + 180D</p>\r\n\r\n<p>&rArr; 180D - 162D = 10125 - 8100</p>\r\n\r\n<p>&rArr; 18D = 2025</p>\r\n\r\n<p>&rArr; D = 112.5</p>\r\n\r\n<p>किमी</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Robin travels one-fourth of the distance at 20 km/h, another one-fourth at 10 km/h, and the remaining distance at 80 km/h. Find Robin&#39;s average speed for the entire distance (correct to 2 decimal places).</p>\r\n",
+    "options": [
+      "<p>25 km/h</p>\r\n",
+      "<p>22.86 km/h</p>\r\n",
+      "<p>20 km/h</p>\r\n",
+      "<p>18.2 km/h</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2 i.e.&nbsp;22.86 km/h.</strong></p>\r\n\r\n<p>Average Speed = Total Distance/Total Time</p>\r\n\r\n<p>Let the total distance be 4x.</p>\r\n\r\n<p>According to question,</p>\r\n\r\n<p>1/4th of distance = 4x/4 = x</p>\r\n\r\n<p>Hence x km distance at 20km/hr and another x km distance at 10km/hr.</p>\r\n\r\n<p>Remaining distance = 4x - x - x = 2x</p>\r\n\r\n<p>2x km distance at 80km/h</p>\r\n\r\n<p>Average speed = 4x/(x/20 + x/10 + 2x/80) = 4x(80)/14x = 22.86 km/hr</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>रॉबिन एक-चौथाई दूरी 20 किमी/घंटा की गति से, एक-चौथाई दूरी 10 किमी/घंटा की गति से और शेष दूरी 80 किमी/घंटा की गति से तय करता है। पूरी दूरी के लिए रॉबिन की औसत गति ज्ञात करें (2 दशमलव स्थानों तक सही)।</p>\r\n",
+    "options_hi": [
+      "<p>25&nbsp;किमी/घंटा</p>\r\n",
+      "<p>22.86&nbsp;किमी/घंटा</p>\r\n",
+      "<p>20&nbsp;किमी/घंटा</p>\r\n",
+      "<p>18.2&nbsp;किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>22.86 किमी/घंटा </strong>है।</p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p>माना कि कुल दूरी 4x है।</p>\r\n\r\n<p>प्रश्न&nbsp;के अनुसार,</p>\r\n\r\n<p>दूरी का 1/4 भाग = 4x/4 = x</p>\r\n\r\n<p>इसलिए x किमी की दूरी 20 किमी/घंटा पर और दूसरी x किमी की दूरी 10 किमी/घंटा पर</p>\r\n\r\n<p>शेष दूरी = 4x - x - x = 2x</p>\r\n\r\n<p>80 किमी/घंटा पर 2x किमी की दूरी</p>\r\n\r\n<p>औसत गति = 4x/(x/20 + x/10 + 2x/80) = 4x(80)/14x = 22.86 किमी/घंटा</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A person travels in a car for 600 km at an average speed of 50 km/h and 100 km at 100 km/h, and finally reaches his destination by travelling 50 km at a speed of 25 km/h. Determine the average speed during the whole journey</p>\r\n",
+    "options": [
+      "<p>50 km/h</p>\r\n",
+      "<p>75 km/h</p>\r\n",
+      "<p>58.33 km/h</p>\r\n",
+      "<p>25 km/h</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1 i.e.&nbsp;50 km/h</strong></p>\r\n\r\n<p>Time = Distance/Speed</p>\r\n\r\n<p>First part of the journey -</p>\r\n\r\n<p>Distance = 600 km, Speed = 50 km/h</p>\r\n\r\n<p>Time = 600/50 = 12 hr</p>\r\n\r\n<p>Second part of the journey -</p>\r\n\r\n<p>Distance = 100 km, Speed = 100 km/h</p>\r\n\r\n<p>Time = 100/100 = 1hr</p>\r\n\r\n<p>Third part of the journey -</p>\r\n\r\n<p>Distance = 50 km, Speed = 25 km/h</p>\r\n\r\n<p>Time = 50/25 = 2 hr</p>\r\n\r\n<p>Total distance = 600 km + 100 km + 50 km = 750 km</p>\r\n\r\n<p>Total time = 12 hours + 1 hour + 2 hours = 15 hours</p>\r\n\r\n<p>Average speed = Total distance/Total time = 750/15&nbsp;= 50 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक व्यक्ति एक कार में 50 किमी/घंटा की औसत गति से 600 किमी और 100 किमी/घंटा की गति से 100 किमी की यात्रा करता है, और अंत में 25 किमी/घंटा की गति से 50 किमी की यात्रा करके अपने गंतव्य तक पहुंचता है। पूरी यात्रा के दौरान औसत गति ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>50&nbsp;किमी/घंटा</p>\r\n",
+      "<p>75&nbsp;किमी/घंटा</p>\r\n",
+      "<p>58.33&nbsp;किमी/घंटा</p>\r\n",
+      "<p>25&nbsp;किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>50 किमी/घंटा</strong> है।</p>\r\n\r\n<p>समय = दूरी/गति</p>\r\n\r\n<p>यात्रा का पहला भाग -</p>\r\n\r\n<p>दूरी = 600 किमी, गति = 50 किमी/घंटा</p>\r\n\r\n<p>समय = 600/50 = 12 घंटे</p>\r\n\r\n<p>यात्रा का दूसरा भाग -</p>\r\n\r\n<p>दूरी = 100 किमी, गति = 100 किमी/घंटा</p>\r\n\r\n<p>समय = 100/100 = 1 घंटा</p>\r\n\r\n<p>यात्रा का तीसरा भाग -</p>\r\n\r\n<p>दूरी = 50 किमी, गति = 25 किमी/घंटा</p>\r\n\r\n<p>समय = 50/25 = 2 घंटा</p>\r\n\r\n<p>कुल दूरी = 600 किमी + 100 किमी + 50 किमी = 750 किमी</p>\r\n\r\n<p>कुल समय = 12 घंटे + 1 घंटा + 2 घंटे = 15 घंटे</p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय = 750/15 = 50 किमी/घंटा</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A tractor covers a distance of 240 kms in 6 hours on the first day, 360 kms in 8 hours on the second day and 450 kms in 6 hours on the third day. Find the average distance per hour covered by him in 3 days.</p>\r\n",
+    "options": [
+      "<p>52.5 kms</p>\r\n",
+      "<p>50.5 kms</p>\r\n",
+      "<p>51 kms</p>\r\n",
+      "<p>48 kms</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1 </strong>i.e.<strong>&nbsp;52.5 kms</strong></p>\r\n\r\n<p>Distance covered on the first day = 240 km</p>\r\n\r\n<p>Time taken on the first day = 6 hours</p>\r\n\r\n<p>Distance covered on the second day = 360 km</p>\r\n\r\n<p>Time taken on the second day = 8 hours</p>\r\n\r\n<p>Distance covered on the third day = 450 km</p>\r\n\r\n<p>Time taken on the third day = 6 hours</p>\r\n\r\n<p>Average speed = Total distance/Total time</p>\r\n\r\n<p>Total distance covered = 240 km + 360 km + 450 km = 1050 km</p>\r\n\r\n<p>Total time taken = 6 hours + 8 hours + 6 hours = 20 hours</p>\r\n\r\n<p>Average distance per hour = Total distance covered/Total time taken = 1050/20 = 52.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक ट्रैक्टर पहले दिन 6 घंटे में 240 किलोमीटर, दूसरे दिन 8 घंटे में 360 किलोमीटर और तीसरे दिन 6 घंटे में 450 किलोमीटर की दूरी तय करता है। उसके द्वारा 3 दिनों में प्रति घंटे तय की गई औसत दूरी ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>52.5&nbsp;किलोमीटर</p>\r\n",
+      "<p>50.5&nbsp;किलोमीटर</p>\r\n",
+      "<p>51&nbsp;किलोमीटर</p>\r\n",
+      "<p>48&nbsp;किलोमीटर</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>52.5 किलोमीटर</strong> है।</p>\r\n\r\n<p>पहले दिन तय की गई दूरी = 240 किमी</p>\r\n\r\n<p>पहले दिन लगा समय = 6 घंटे</p>\r\n\r\n<p>दूसरे दिन तय की गई दूरी = 360 किमी</p>\r\n\r\n<p>दूसरे दिन लिया गया समय = 8 घंटे</p>\r\n\r\n<p>तीसरे दिन तय की गई दूरी = 450 किमी</p>\r\n\r\n<p>तीसरे दिन लिया गया समय = 6 घंटे</p>\r\n\r\n<p>औसत गति = कुल दूरी/कुल समय</p>\r\n\r\n<p>तय की गई कुल दूरी = 240 किमी + 360 किमी + 450 किमी = 1050 किमी</p>\r\n\r\n<p>कुल लिया गया समय = 6 घंटे + 8 घंटे + 6 घंटे = 20 घंटे</p>\r\n\r\n<p>प्रति घंटा औसत दूरी = तय की गई कुल दूरी/कुल लिया गया समय = 1050/20 = 52.5</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Josna takes 4 hrs 30 minutes in walking a distance and riding back to same place where she started. She could walk both ways in 5 hr&nbsp;40 minutes. The time taken by her to ride back both ways is.</p>\r\n",
+    "options": [
+      "<p>3 hr 20 min</p>\r\n",
+      "<p>3 hr 35&nbsp;min</p>\r\n",
+      "<p>3 hr 45&nbsp;min</p>\r\n",
+      "<p>3 hr 15&nbsp;min</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e.&nbsp;<strong>3 hr&nbsp;20 min</strong></p>\r\n\r\n<p>Considering time taken,</p>\r\n\r\n<p>Walk + Ride = (4 &times; 60) min + 30 min&nbsp;= 270 min&nbsp;</p>\r\n\r\n<p>Walk + Walk =&nbsp;(5&nbsp;&times; 60) min + 40 min&nbsp;= 340&nbsp;min</p>\r\n\r\n<p>So,&nbsp;Walk = 340/2 = 170&nbsp;min</p>\r\n\r\n<p>Now,&nbsp;Ride = (270&nbsp;min) - (170) = 100 min</p>\r\n\r\n<p>So, Ride + Ride = (100 + 100) min = 200 min = (200/60) hr = 3 hr&nbsp;20 min</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जोसना को एक दूरी पैदल चलने और उसी स्थान पर वापस कार चलाने में 4 घंटे 30 मिनट लगते हैं जहाँ से उसने यात्रा शुरू की थी। वह दोनों तरफ़ 5 घंटे 40 मिनट में पैदल चल सकती है। दोनों तरफ़ कार चलाने में उसे कितना समय लगा?</p>\r\n",
+    "options_hi": [
+      "<p>3 घंटा 20 मिनट</p>\r\n",
+      "<p>3 घंटा 35 मिनट</p>\r\n",
+      "<p>3 घंटा 45 मिनट</p>\r\n",
+      "<p>3 घंटा 15 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>है यानी <strong>3 घंटा 20 मिनट</strong></p>\r\n\r\n<p>लगने वाले समय को देखते हुए,</p>\r\n\r\n<p>चल कर&nbsp;+ गाड़ी चलाकर = (4 &times; 60) मिनट + 30 मिनट = 270 मिनट</p>\r\n\r\n<p>चल कर + चल कर =&nbsp;(5&nbsp;&times; 60) मिनट + 40 मिनट&nbsp;= 340&nbsp;मिनट</p>\r\n\r\n<p>तो, चल कर = 340/2 = 170&nbsp;मिनट</p>\r\n\r\n<p>अब,&nbsp;गाड़ी चलाकर = (270&nbsp;मिनट) - (170) = 100 मिनट</p>\r\n\r\n<p>इसलिए, गाड़ी चलाकर + गाड़ी चलाकर = (100 + 100) मिनट = 200 मिनट = (200/60) घंटा&nbsp;= 3 घंटा 20 मिनट</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A man travelled at 40 kmph. Had he increased his speed by 16 kmph, he would have covered 80 km more in the same time. Find the actual distance travelled.</p>\r\n",
+    "options": [
+      "<p>400 km</p>\r\n",
+      "<p>200 km</p>\r\n",
+      "<p>300 km</p>\r\n",
+      "<p>480 km</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e. <strong>20 km</strong></p>\r\n\r\n<p>Given:</p>\r\n\r\n<p>Speed = 40 kmph</p>\r\n\r\n<p>Suppose,&nbsp;Actual distance = D</p>\r\n\r\n<p>According to question:</p>\r\n\r\n<p>D/40 = (D + 80)/56</p>\r\n\r\n<p>&rArr; 56D = 40D + 3200</p>\r\n\r\n<p>&rArr; 16D = 3200</p>\r\n\r\n<p>&rArr; D = 200 km</p>\r\n\r\n<p>Hence, Actual distance travelled = 200 km</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक व्यक्ति 40 किमी प्रति घंटे की गति से यात्रा कर रहा था। यदि उसने अपनी गति 16 किमी प्रति घंटे बढ़ा दी होती, तो वह उसी समय में 80 किमी अधिक दूरी तय कर लेता। तय की गई वास्तविक दूरी ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>400 किमी</p>\r\n",
+      "<p>200 किमी</p>\r\n",
+      "<p>300 किमी</p>\r\n",
+      "<p>480 किमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>है अर्थात् <strong>20 किमी</strong></p>\r\n\r\n<p>दिया हुआ:</p>\r\n\r\n<p>गति = 40 किमी प्रति घंटा</p>\r\n\r\n<p>मान लीजिए,&nbsp;वास्तविक दूरी = D</p>\r\n\r\n<p>प्रश्न के अनुसार:</p>\r\n\r\n<p>D/40 = (D + 80)/56</p>\r\n\r\n<p>&rArr; 56D = 40D + 3200</p>\r\n\r\n<p>&rArr; 16D = 3200</p>\r\n\r\n<p>&rArr; D = 200&nbsp;किमी</p>\r\n\r\n<p>इसलिये,&nbsp;वास्तविक तय की गई&nbsp;दूरी &nbsp;= 200 किमी</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The speed of car B is half the speed of car A. If car A covers a distance of 120 km in&nbsp;1.5 hours, what is the speed of car B?</p>\r\n",
+    "options": [
+      "<p>40 kmph</p>\r\n",
+      "<p>60 kmph</p>\r\n",
+      "<p>30 kmph</p>\r\n",
+      "<p>50 kmph</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The&nbsp;correct answer is <strong>option 1 </strong>i.e. <strong>40 kmph</strong></p>\r\n\r\n<p>Car A covers a distance of 120 km in 1.5 hours</p>\r\n\r\n<p>Hence,&nbsp;Speed of Car A = 120/1.5 = 80 km/hr</p>\r\n\r\n<p>Speed of car B is half the speed of car A.</p>\r\n\r\n<p>So, Speed of car B = 80/2 = 40 km/hr</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>कार B की गति कार A गति की आधी है। यदि कार A 1.5 घंटे में 120 किमी की दूरी तय करती है, तो कार B की गति क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>40 किमी प्रति घंटा</p>\r\n",
+      "<p>60 किमी प्रति घंटा</p>\r\n",
+      "<p>30 किमी प्रति घंटा</p>\r\n",
+      "<p>50 किमी प्रति घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong> है अर्थात् <strong>40 किमी प्रति घंटा</strong></p>\r\n\r\n<p>कार A 1.5 घंटे में 120 किमी की दूरी तय करती है</p>\r\n\r\n<p>इसलिए, कार A की गति = 120/1.5 = 80 किमी/घंटा</p>\r\n\r\n<p>कार B की गति कार A की गति से आधी है।</p>\r\n\r\n<p>इसलिए,&nbsp;कार B की गति = 80/2 = 40 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>A man walks at a speed of 3 kmph. He doubles his speed after reaching exactly half way. He walks for 5 hours in all. What is the total distance travelled by him?</p>\r\n",
+    "options": [
+      "<p>18 km</p>\r\n",
+      "<p>20 km</p>\r\n",
+      "<p>10 km</p>\r\n",
+      "<p>9 km</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e. <strong>20 km</strong></p>\r\n\r\n<p>Speed = 3 kmph</p>\r\n\r\n<p>Suppose distance = 2d</p>\r\n\r\n<p>So, Time to cover half distance = d/3</p>\r\n\r\n<p>Speed is doubled after half way.</p>\r\n\r\n<p>Speed after halfway = 6 kmph</p>\r\n\r\n<p>So, Time to cover other half distance = d/6</p>\r\n\r\n<p>Total time is 5 hrs.</p>\r\n\r\n<p>So, d/3 + d/6 = 5</p>\r\n\r\n<p>&rArr; d = 10</p>\r\n\r\n<p>Hence,&nbsp;Total distance = 20 km</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आदमी 3 किमी प्रति घंटे की गति से चलता है। वह आधे रास्ते तक पहुंचने के बाद अपनी गति को दोगुना कर देता है। वह पूरा 5 घंटे तक चलता है। उसके द्वारा तय की गई कुल दूरी कितनी है?</p>\r\n",
+    "options_hi": [
+      "<p>18 किमी</p>\r\n",
+      "<p>20 किमी</p>\r\n",
+      "<p>10 किमी</p>\r\n",
+      "<p>9 किमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2 </strong>है अर्थात् <strong>20 किमी</strong></p>\r\n\r\n<p>गति = 3 किमी प्रति घंटा</p>\r\n\r\n<p>मान लीजिए दूरी = 2d</p>\r\n\r\n<p>तो, आधी दूरी तय करने में लगा समय = d/3</p>\r\n\r\n<p>आधे रास्ते के बाद गति दोगुनी हो जाती है।</p>\r\n\r\n<p>आधे रास्ते के बाद गति = 6 किमी प्रति घंटा</p>\r\n\r\n<p>तो, बाकी आधी दूरी तय करने में लगा समय = d/6</p>\r\n\r\n<p>कुल समय 5 घंटे है।</p>\r\n\r\n<p>तो, d/3 + d/6 = 5</p>\r\n\r\n<p>&rArr; d = 10</p>\r\n\r\n<p>इसलिए, कुल दूरी = 20 किमी</p>\r\n"
+  },
+  {
+    "question": "<p>Car B is moving twice as fast as car A. If car A covers a distance of 90 km in 1.5 hrs, what is the speed of car B?</p>\r\n",
+    "options": [
+      "<p>60 kmph</p>\r\n",
+      "<p>90 kmph</p>\r\n",
+      "<p>100 kmph</p>\r\n",
+      "<p>120 kmph</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e. <strong>120 kmph</strong></p>\r\n\r\n<p>Car A covers a distance of 90 km in 3/2 hrs.</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>Speed of Car A</p>\r\n\r\n<p>&rArr; 90/(3/2)</p>\r\n\r\n<p>&rArr; 60 kmph</p>\r\n\r\n<p>Car B is running twice as fast as car A.</p>\r\n\r\n<p>So,&nbsp;Speed of Car B</p>\r\n\r\n<p>&rArr; 60 &times; 2</p>\r\n\r\n<p>&rArr; 120 kmph</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>कार B, कार A से दोगुनी गति से चल रही है। यदि कार A 1.5 घंटे में 90 किमी की दूरी तय करती है, तो कार B की गति क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>60 किमी/घंटा</p>\r\n",
+      "<p>90 किमी/घंटा</p>\r\n",
+      "<p>100 किमी/घंटा</p>\r\n",
+      "<p>120 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4</strong> है यानी <strong>120 किमी प्रति घंटा</strong>।</p>\r\n\r\n<p>कार A 3/2 घंटे में 90 किमी की दूरी तय करती है।</p>\r\n\r\n<p>तो,</p>\r\n\r\n<p>कार A की गति</p>\r\n\r\n<p>&rArr; 90/(3/2)</p>\r\n\r\n<p>&rArr; 60 किमी प्रति घंटा</p>\r\n\r\n<p>कार B, कार A से दोगुनी गति से चल रही है।</p>\r\n\r\n<p>तो, कार B की गति</p>\r\n\r\n<p>&rArr; 60 &times; 2</p>\r\n\r\n<p>&rArr; 120 किमी प्रति घंटा</p>\r\n"
+  }
+]
