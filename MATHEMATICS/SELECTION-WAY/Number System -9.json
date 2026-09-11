@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>Find the greatest number of three digits that is divisible by 3,12, 24, and 36.</p>\r\n",
+    "options": [
+      "<p>900</p>\r\n",
+      "<p>936</p>\r\n",
+      "<p>984</p>\r\n",
+      "<p>924</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>936.</strong></p>\r\n\r\n<p>To find the divisible number, we have to find the L.C.M</p>\r\n\r\n<p>L.C.M(3, 12, 24, and 36) = 72</p>\r\n\r\n<p>The greatest 3-digit number divisible by 72</p>\r\n\r\n<p>&rArr; 999/72 then, the remainder will be 63</p>\r\n\r\n<p>So, required number = 999 - 63&nbsp;= 936</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>तीन अंकों की सबसे बड़ी संख्या ज्ञात कीजिए जो 3,12, 24 और 36 से विभाज्य हो।</p>\r\n",
+    "options_hi": [
+      "<p>900</p>\r\n",
+      "<p>936</p>\r\n",
+      "<p>984</p>\r\n",
+      "<p>924</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात <strong>936 </strong>है।</p>\r\n\r\n<p>विभाज्य संख्या ज्ञात करने के लिए हमें&nbsp;लघुत्तम समापवर्त्य ज्ञात करना होगा</p>\r\n\r\n<p>लघुत्तम समापवर्त्य (3, 12, 24, और 36) = 72</p>\r\n\r\n<p>72 से विभाज्य तीन अंकों की सबसे बड़ी संख्या</p>\r\n\r\n<p>&rArr; 999/72 तो, शेष 63 होगा</p>\r\n\r\n<p>तो, आवश्यक संख्या = 999 - 63 = 936</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>On dividing a number by 42, we get 120 as the quotient and 0 as the remainder. On dividing the same number by 41, what will be the remainder?</p>\r\n",
+    "options": [
+      "<p>38</p>\r\n",
+      "<p>39</p>\r\n",
+      "<p>37</p>\r\n",
+      "<p>40</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong> i.e.<strong>38.</strong></p>\r\n\r\n<p>As&nbsp;we know,</p>\r\n\r\n<p>Dividend = Divisor &times; Quotient + Remainder</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>A number (N) is divided by 42</p>\r\n\r\n<p>Quotient = 120 and Remainder = 0</p>\r\n\r\n<p>&rArr; N = 42 &times; 120 + 0 = 5040</p>\r\n\r\n<p>Now, the same number (N = 5040) is dividing by 41 then&nbsp;</p>\r\n\r\n<p>&rArr; 5040 = 41 &times; 122 + 38</p>\r\n\r\n<p>Hence, the remainder will be 38</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>किसी संख्या को 42 से विभाजित करने पर, भागफल 120 तथा शेषफल 0 प्राप्त होता है। उसी संख्या को 41 से विभाजित करने पर शेषफल क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>38</p>\r\n",
+      "<p>39</p>\r\n",
+      "<p>37</p>\r\n",
+      "<p>40</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>38</strong> है&nbsp;।</p>\r\n\r\n<p>जैसा कि हम जानते हैं,</p>\r\n\r\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>एक संख्या (N), 42 से विभाजित की जाती है</p>\r\n\r\n<p>भागफल = 120 और शेषफल = 0</p>\r\n\r\n<p>&rArr; N = 42 &times; 120 + 0 = 5040</p>\r\n\r\n<p>अब, वही संख्या (N = 5040) 41 से विभाजित की जाती है</p>\r\n\r\n<p>&rArr; 5040 = 41 &times; 122 + 38</p>\r\n\r\n<p>अत: शेषफल 38 होगा।</p>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is NOT divisible by 16?</p>\r\n",
+    "options": [
+      "<p>16826</p>\r\n",
+      "<p>17776</p>\r\n",
+      "<p>5168</p>\r\n",
+      "<p>18016</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<strong>16826</strong>.</p>\r\n\r\n<p><strong>The divisibility rule of 16:</strong>&nbsp;Any number with 4 or greater than 4 digits is divisible by 16 if and only if the last 4 digits of the number are divisible by 16.</p>\r\n\r\n<p>We will check whether it is divisible by 4 or not, if it is divisible by 4 then, it must be divisible by 16</p>\r\n\r\n<p>&rArr; Option 1 = 16826</p>\r\n\r\n<p>Last 4 digits = 826/4 = 206.5</p>\r\n\r\n<p>&rArr; Option 2 = 17776</p>\r\n\r\n<p>Last 4 digits = 776/4 = 194</p>\r\n\r\n<p>&rArr; Option 3 = 5168</p>\r\n\r\n<p>Last 4 digits = 168/4 = 42</p>\r\n\r\n<p>&rArr; Option 4 = 18016</p>\r\n\r\n<p>Last 4 digits = 016/4 = 04</p>\r\n\r\n<p>Hence, only 16826 is not divisible by 16</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन सी संख्या 16 से विभाज्य नहीं है?</p>\r\n",
+    "options_hi": [
+      "<p>16826</p>\r\n",
+      "<p>17776</p>\r\n",
+      "<p>5168</p>\r\n",
+      "<p>18016</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>यानी <strong>16826</strong> है।</p>\r\n\r\n<p><strong>16 का विभाज्यता नियम: </strong>कोई भी संख्या जिसमें 4 या 4 से अधिक अंक हों, वह 16 से विभाज्य होती है यदि और केवल तभी जब संख्या के अंतिम 4 अंक 16 से विभाज्य हों |</p>\r\n\r\n<p>हम जाँचेंगे कि यह 4 से विभाज्य है या नहीं, यदि यह 4 से विभाज्य है, तो यह 16 से विभाज्य होगा।</p>\r\n\r\n<p>&rArr; विकल्प 1 = 16826</p>\r\n\r\n<p>अंतिम 4 अंक = 826/4 = 206.5</p>\r\n\r\n<p>&rArr; विकल्प 2 = 17776</p>\r\n\r\n<p>अंतिम 4 अंक = 776/4 = 194</p>\r\n\r\n<p>&rArr; विकल्प 3 = 5168</p>\r\n\r\n<p>अंतिम 4 अंक = 168/4 = 42</p>\r\n\r\n<p>&rArr; विकल्प 4 = 18016</p>\r\n\r\n<p>अंतिम 4 अंक = 016/4 = 04</p>\r\n\r\n<p>अतः, केवल 16826, 16 से विभाज्य नहीं है</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the remainder when the smallest 6-digit number divisible by 12, 15, and 25 is divided by 9.</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 </strong>i.e <strong>3.</strong></p>\r\n\r\n<p>Let the smallest&nbsp;6-digit number = 100000</p>\r\n\r\n<p>The LCM of (12, 15, 25) = 300</p>\r\n\r\n<p>The smallest 6-digit number which is divisible by (12, 15, 25) = 100200</p>\r\n\r\n<p>When this number 100200 is divided by 9&nbsp;then, the remainder will be = 3</p>\r\n\r\n<p>Hence, the required remainder is 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब 12, 15 और 25 से विभाज्य सबसे छोटी 6 अंकों की संख्या को 9 से विभाजित किया जाता है, तो शेषफल ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात् <strong>3</strong> है।&nbsp;</p>\r\n\r\n<p>माना सबसे छोटी 6 अंकों की संख्या = 100000</p>\r\n\r\n<p>(12, 15, 25) का &lrm;लघुत्तम समापवर्त्य&nbsp;= 300</p>\r\n\r\n<p>सबसे छोटी 6 अंकों की संख्या जो (12, 15, 25) से विभाज्य = 100200</p>\r\n\r\n<p>जब यह संख्या 100200 को 9 से विभाजित किया जाता है तो, शेषफल होगा = 3</p>\r\n\r\n<p>अतः, अभीष्ट शेषफल<strong> </strong>3 है।&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>What is the HCF of&nbsp;<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>,&nbsp;<span class=\"math-tex\">\\(\\frac{5}{12}\\)</span>&nbsp;and&nbsp;<span class=\"math-tex\">\\(\\frac{15}{16}\\)</span>&nbsp;?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{24}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{48}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{48}\\)</span>.</p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The HCF of&nbsp;<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>,&nbsp;<span class=\"math-tex\">\\(\\frac{5}{12}\\)</span>&nbsp;and&nbsp;<span class=\"math-tex\">\\(\\frac{15}{16}\\)</span>&nbsp;</p>\r\n\r\n<p>The HCF of the fraction = The HCF of the numerator/The LCM of the denominator</p>\r\n\r\n<p>The HCF of (3, 5, 15) = 1</p>\r\n\r\n<p>The LCM of (8, 12, 16) = 48</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>The HCF of the given&nbsp;fractions = 1/48</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>,&nbsp;<span class=\"math-tex\">\\(\\frac{5}{12}\\)</span>&nbsp;और&nbsp;<span class=\"math-tex\">\\(\\frac{15}{16}\\)</span>&nbsp;का &lrm;महत्तम समापवर्तक क्या है?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{24}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{48}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात्&nbsp;<strong><strong><span class=\"math-tex\">\\(\\frac{1}{48}\\)</span></strong></strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि,&nbsp;</p>\r\n\r\n<p>&nbsp;<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>,&nbsp;<span class=\"math-tex\">\\(\\frac{5}{12}\\)</span>&nbsp;और&nbsp;<span class=\"math-tex\">\\(\\frac{15}{16}\\)</span>&nbsp;का &lrm;महत्तम समापवर्तक</p>\r\n\r\n<p>भिन्न का महत्तम समापवर्तक = अंश&nbsp;का महत्तम समापवर्तक/हर का लघुत्तम समापवर्त्य</p>\r\n\r\n<p>(3, 5, 15) का &lrm;महत्तम समापवर्तक = 1</p>\r\n\r\n<p>(8, 12, 16) &lrm;का लघुत्तम समापवर्त्य&nbsp;= 48</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>दिए गए भिन्नों का महत्तम समापवर्तक = 1/48&nbsp;&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Express <span class=\"math-tex\">\\(0.45\\overline{235}\\)</span>&nbsp;as a fraction.&nbsp;</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\( {{1419} \\over 99900}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{14190} \\over 9990}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{1491} \\over 9990}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{4519} \\over 9990}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\({{4519} \\over 9990}\\)</span>.</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p><span class=\"math-tex\">\\(0.ab\\overline{cde} = \\frac{abcde-ab}{99900}\\)</span></p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(0.45\\overline{235}\\)</span>&nbsp;= (45235 - 45)/99900</p>\r\n\r\n<p>&rArr; 45190/99900 =&nbsp;<span class=\"math-tex\">\\({{4519} \\over 9990}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\(0.45\\overline{235}\\)</span>&nbsp; को भिन्न के रूप में व्यक्त करें।</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\( {{1419} \\over 99900}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{14190} \\over 9990}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{1491} \\over 9990}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{4519} \\over 9990}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात <span class=\"math-tex\">\\({{4519} \\over 9990}\\)</span>&nbsp;है।</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p><span class=\"math-tex\">\\(0.ab\\overline{cde} = \\frac{abcde-ab}{99900}\\)</span></p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(0.45\\overline{235}\\)</span>&nbsp;= (45235 - 45)/99900</p>\r\n\r\n<p>&rArr; 45190/99900 =&nbsp;<span class=\"math-tex\">\\({{4519} \\over 9990}\\)</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the sum of the digits of the smallest 6-digit number divisible by 18, 24, and 25.</p>\r\n",
+    "options": [
+      "<p>12</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e<strong>.&nbsp;9.</strong></p>\r\n\r\n<p>L.C.M(18, 24, and 25) = 1800</p>\r\n\r\n<p>Now, the smallest 6-digit number is 100000</p>\r\n\r\n<p>&rArr; 100000/1800 = 55.55</p>\r\n\r\n<p>&rArr; 56&nbsp;&times; 1800 = 100800</p>\r\n\r\n<p>Hence, the&nbsp;smallest 6-digit number divisible by 18, 24, and 25 is 100800</p>\r\n\r\n<p>Now, the sum of digits od 100800 = 1 + 0 + 0 + 8 + 0 + 0 = 9</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>18, 24 और 25 से विभाज्य सबसे छोटी 6 अंकों की संख्या के अंकों का योग ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>12</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> यानी <strong>9</strong> है।</p>\r\n\r\n<p>(18, 24, और 25) का &lrm;लघुत्तम समापवर्त्य&nbsp;= 1800</p>\r\n\r\n<p>अब, 6 अंकों की सबसे छोटी संख्या 100000 है</p>\r\n\r\n<p>&rArr; 100000/1800 = 55.55</p>\r\n\r\n<p>&rArr; 56 &times; 1800 = 100800</p>\r\n\r\n<p>अतः, 18, 24 और 25 से विभाज्य सबसे छोटी 6 अंकों की संख्या 100800 है</p>\r\n\r\n<p>अब, 100800 के अंकों का योग = 1 + 0 + 0 + 8 + 0 + 0 = 9</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p style=\"text-align:justify\">Find the greatest possible length that can be used to measure exactly the lengths 8 m&nbsp;&nbsp;75 cm, 1.75 m, and 12 m&nbsp;20 cm.</p>\r\n",
+    "options": [
+      "<p>10 cm</p>\r\n",
+      "<p>15 cm</p>\r\n",
+      "<p>5 cm</p>\r\n",
+      "<p>20 cm</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<strong>5 cm.</strong></p>\r\n\r\n<p>&rArr; 8 m = 800 cm</p>\r\n\r\n<p>&rArr; 75 cm</p>\r\n\r\n<p>&rArr; 1.75 m = 175 cm</p>\r\n\r\n<p>&rArr; 12 m = 1200 cm</p>\r\n\r\n<p>&rArr; 20 cm</p>\r\n\r\n<p>HCF of (800, 75, 175, 1200, 20) = 5</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>The greatest possible length which can be used to measure exactly the lengths 8 m, 75 cm, 1.75 m, and 12 m, 20 cm = 5 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>अधिकतम संभव लंबाई ज्ञात करें जिसका उपयोग बिल्कुल 8 मीटर 75 सेमी, 1.75 मीटर और 12 मीटर 20 सेमी लंबाई मापने के लिए किया जा सकता है।</p>\r\n",
+    "options_hi": [
+      "<p>10 सेमी</p>\r\n",
+      "<p>15 सेमी</p>\r\n",
+      "<p>5 सेमी</p>\r\n",
+      "<p>20 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात <strong>5 सेमी</strong> है।</p>\r\n\r\n<p>&rArr; 8 मीटर = 800 सेमी</p>\r\n\r\n<p>&rArr; 75 सेमी</p>\r\n\r\n<p>&rArr; 1.75 मीटर = 175 सेमी</p>\r\n\r\n<p>&rArr; 12 मीटर = 1200 सेमी</p>\r\n\r\n<p>&rArr; 20 सेमी</p>\r\n\r\n<p>(800, 75, 175, 1200, 20)&nbsp;का महत्तम समापवर्तक = 5</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>अधिकतम संभव लंबाई जिसका उपयोग सटीक लंबाई 8 मीटर, 75 सेमी, 1.75 मीटर और 12 मीटर, 20 सेमी मापने के लिए किया जा सकता है&nbsp;= 5 सेमी</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The greatest number that&nbsp;can divide 286, 1001, and 2420 is X. What is the value of X/2?</p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>4.5</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>5.5</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>5.5.</strong></p>\r\n\r\n<p>The greatest number that can divide 286, 1001, and 2420 is X&nbsp;= H.C.F. of&nbsp;286, 1001, and 2420</p>\r\n\r\n<p>Prime factorization of</p>\r\n\r\n<p>&rArr; 286 = 2&nbsp;&times; 13&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 1001 = 7&nbsp;&times; 13&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 2420 = 2&nbsp;&times; 2&nbsp;&times; 5&nbsp;&times; 11&nbsp;&times; 11</p>\r\n\r\n<p>H.C.F of 286, 1001, and 2420 = 11</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>Required number = X/2 = 11/2 = 5.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>286, 1001 और 2420 को विभाजित करने वाली सबसे बड़ी संख्या X है। X/2 का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>4.5</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>5.5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात <strong>5.5</strong> है।</p>\r\n\r\n<p>(286, 1001 और 2420) को विभाजित करने वाली सबसे बड़ी संख्या X&nbsp;है = (286, 1001, और 2420) महत्तम समापवर्तक</p>\r\n\r\n<p>का प्रधान गुणनखंडन</p>\r\n\r\n<p>&rArr; 286 = 2&nbsp;&times; 13&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 1001 = 7&nbsp;&times; 13&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 2420 = 2&nbsp;&times; 2&nbsp;&times; 5&nbsp;&times; 11&nbsp;&times; 11</p>\r\n\r\n<p>286, 1001 और 2420 का महत्तम समापवर्तक = 11</p>\r\n\r\n<p>इस तरह,</p>\r\n\r\n<p>आवश्यक संख्या = X/2 = 11/2 = 5.5</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the number which when increased by 20 is exactly divisible by 18, 56, and 42?</p>\r\n",
+    "options": [
+      "<p>504</p>\r\n",
+      "<p>484</p>\r\n",
+      "<p>514</p>\r\n",
+      "<p>524</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>484.</strong></p>\r\n\r\n<p>Factors of 18, 56&nbsp;and 42,</p>\r\n\r\n<p>&rArr; 18&nbsp;= 2 &times;&nbsp;3&nbsp;&times;&nbsp;3</p>\r\n\r\n<p>&rArr; 56 = 2 &times;&nbsp;2&nbsp;&times;&nbsp;2&nbsp;&times; 7</p>\r\n\r\n<p>&rArr; 42 = 2 &times;&nbsp;3 &times;&nbsp;7</p>\r\n\r\n<p>L.C.M. of 18, 56&nbsp;and 42&nbsp;= 504</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>The required number = 504&nbsp;-&nbsp;20&nbsp;= 484</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह संख्या क्या है जो 20 से बढ़ाने पर 18, 56 और 42 से पूर्णतः विभाज्य हो जाती है?</p>\r\n",
+    "options_hi": [
+      "<p>504</p>\r\n",
+      "<p>484</p>\r\n",
+      "<p>514</p>\r\n",
+      "<p>524</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>484 </strong>है।</p>\r\n\r\n<p>18, 56 और 42 के गुणनखंड -</p>\r\n\r\n<p>&rArr; 18&nbsp;= 2 &times;&nbsp;3&nbsp;&times;&nbsp;3</p>\r\n\r\n<p>&rArr; 56 = 2 &times;&nbsp;2&nbsp;&times;&nbsp;2&nbsp;&times; 7</p>\r\n\r\n<p>&rArr; 42 = 2 &times;&nbsp;3 &times;&nbsp;7</p>\r\n\r\n<p>18, 56 और 42 का&nbsp;लघुत्तम समापवर्त्य = 504</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>आवश्यक संख्या = 504 - 20 = 484</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The HCF of 1020, 850 and 1156 is:</p>\r\n",
+    "options": [
+      "<p>28</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>34</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>34.</strong></p>\r\n\r\n<p>HCF of 1020, 850 and 1156</p>\r\n\r\n<p>&rArr;&nbsp;1020 = 2&nbsp;&times; 2&nbsp;&times; 3&nbsp;&times; 5&nbsp;&times; 17</p>\r\n\r\n<p>&rArr;&nbsp;850 = 2&nbsp;&times; 5&nbsp;&times; 5&nbsp;&times; 17</p>\r\n\r\n<p>&rArr;&nbsp;1156 = 2&nbsp;&times; 2&nbsp;&times; 17&nbsp;&times; 17</p>\r\n\r\n<p>Common factors = 17&nbsp;&times; 2 = 34</p>\r\n\r\n<p>Hence, the H.C.F = 34</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>1020, 850 और 1156 का महत्तम समापवर्तक है:</p>\r\n",
+    "options_hi": [
+      "<p>28</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>34</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी <strong>34 </strong>है।</p>\r\n\r\n<p>1020, 850 और 1156 का महत्तम समापवर्तक</p>\r\n\r\n<p>&rArr;&nbsp;1020 = 2&nbsp;&times; 2&nbsp;&times; 3&nbsp;&times; 5&nbsp;&times; 17</p>\r\n\r\n<p>&rArr;&nbsp;850 = 2&nbsp;&times; 5&nbsp;&times; 5&nbsp;&times; 17</p>\r\n\r\n<p>&rArr;&nbsp;1156 = 2&nbsp;&times; 2&nbsp;&times; 17&nbsp;&times; 17</p>\r\n\r\n<p>उभयनिष्ठ&nbsp;गुणनखंड = 17&nbsp;&times; 2 = 34</p>\r\n\r\n<p>इसलिए,&nbsp;महत्तम समापवर्तक&nbsp;= 34</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Munaf and Surya start simultaneously at the same point on a circular track and run&nbsp;along the track in the same direction. The point on the track at which they meet for the&nbsp;31<sup>st</sup> time is the same as that at which they meet for the 43<sup>rd</sup> time. If the ratio of the&nbsp;speed of the faster boy to that of the slower one is n : 1, where &lsquo;n&rsquo; is a natural number, which of the following is NOT a possible value of &lsquo;n.</p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>6</strong>.</p>\r\n\r\n<p>The time at which they meet is the L.C.M of the difference between their meeting points.</p>\r\n\r\n<p>And, when they meet they cover the equal distance</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>As they meet at the same point in 31<sup>st</sup>&nbsp;time and 43<sup>rd</sup>&nbsp;time we get the L.C.M of their meeting point as</p>\r\n\r\n<p>L.C.M = 43 - 31 = 12</p>\r\n\r\n<p>Now, for the values of n</p>\r\n\r\n<p><strong>For n = 5</strong></p>\r\n\r\n<p>The difference between the speed of the faster boy to the slower one, if the speed of the faster boy is 5x and that of the slower boy is x&nbsp;</p>\r\n\r\n<p>&rArr; 5x - x = 4x</p>\r\n\r\n<p>As 4 is the factor of 12, n = 5 is the possible value</p>\r\n\r\n<p><strong>For n = 3</strong></p>\r\n\r\n<p>The difference between the speed of the faster boy to the slower one, if the speed of the faster boy is 3x and that of the slower boy is x&nbsp;</p>\r\n\r\n<p>&rArr; 3x - x = 2x</p>\r\n\r\n<p>As 2 is the factor of 12, n = 3 is the possible value</p>\r\n\r\n<p><strong>For n = 4</strong></p>\r\n\r\n<p>The difference between the speed of the faster boy to the slower one, if the speed of the faster boy is 4x and that of the slower boy is x&nbsp;</p>\r\n\r\n<p>&rArr; 4x - x = 3x</p>\r\n\r\n<p>As 3 is the factor of 12, n = 4 is&nbsp;the possible value</p>\r\n\r\n<p><strong>For n = 6</strong></p>\r\n\r\n<p>The difference between the speed of the faster boy to the slower one, if the speed of the faster boy is 6x and that of the slower boy is x&nbsp;</p>\r\n\r\n<p>&rArr; 6x - x = 5x</p>\r\n\r\n<p>As 5 is the factor of 12, n = 6 is not the possible value</p>\r\n\r\n<p>So, n = 6&nbsp;is not the possible value of n</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मुनाफ और सूर्या एक गोलाकार ट्रैक पर एक ही बिंदु से एक साथ चलना शुरू करते हैं और एक ही दिशा में ट्रैक के साथ दौड़ते हैं। ट्रैक पर वह बिंदु जिस पर वे 31वीं बार मिलते हैं, वह वही है जिस पर वे 43वीं बार मिलते हैं। यदि तेज़ लड़के की गति का धीमे लड़के की गति से अनुपात n : 1 है, जहाँ &#39;n&#39; एक प्राकृतिक संख्या है, निम्नलिखित में से कौन सा &#39;n&#39; का संभावित मान नहीं है।</p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> यानी <strong>6</strong> है।</p>\r\n\r\n<p>जिस समय वे मिलते हैं वह उनके मिलन बिंदुओं के बीच के अंतर का लघुत्तम समापवर्त्य&nbsp;है।</p>\r\n\r\n<p>और, जब वे मिलते हैं तो समान दूरी तय करते हैं</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>चूँकि वे 31वीं बार और 43वीं बार एक ही बिंदु पर मिलते हैं, हमें उनके मिलन बिंदु का लघुत्तम समापवर्त्य इस प्रकार मिलता है</p>\r\n\r\n<p>लघुत्तम समापवर्त्य = 43 - 31 = 12</p>\r\n\r\n<p>अब, n के मानों के लिए</p>\r\n\r\n<p><strong>n = 5 के लिए</strong></p>\r\n\r\n<p>तेज़ लड़के की गति और धीमे लड़के की गति के बीच का अंतर, यदि तेज़ लड़के की गति 5x है और धीमे लड़के की गति x है</p>\r\n\r\n<p>&rArr; 5x - x = 4x</p>\r\n\r\n<p>चूँकि 12 का गुणनखंड 4 है, n = 5 संभावित मान है</p>\r\n\r\n<p><strong>n = 3 के लिए</strong></p>\r\n\r\n<p>तेज़ लड़के की गति और धीमे लड़के की गति के बीच का अंतर, यदि तेज़ लड़के की गति 3x है और धीमे लड़के की गति x है</p>\r\n\r\n<p>&rArr; 3x - x = 2x</p>\r\n\r\n<p>चूँकि 12 का गुणनखंड 2 है, n = 3 संभावित मान है</p>\r\n\r\n<p><strong>n = 4 के लिए</strong></p>\r\n\r\n<p>तेज़ लड़के की गति और धीमे लड़के की गति के बीच का अंतर, यदि तेज़ लड़के की गति 4x है और धीमे लड़के की गति x है</p>\r\n\r\n<p>&rArr; 4x - x = 3x</p>\r\n\r\n<p>चूंकि 3, 12 का गुणनखंड है, n = 4 संभावित मान है</p>\r\n\r\n<p><strong>n = 6 के लिए</strong></p>\r\n\r\n<p>तेज़ लड़के की गति और धीमे लड़के की गति के बीच का अंतर, यदि तेज़ लड़के की गति 6x है और धीमे लड़के की गति x है</p>\r\n\r\n<p>&rArr; 6x - x = 5x</p>\r\n\r\n<p>चूँकि 5, 12 का गुणनखंड है, n = 6 संभावित मान नहीं है</p>\r\n\r\n<p>तो, n = 6, n का संभावित मान नहीं है।&nbsp;</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the HCF of&nbsp;<span class=\"math-tex\">\\(4\\over5\\)</span>,&nbsp;<span class=\"math-tex\">\\(8\\over15\\)</span>,&nbsp;<span class=\"math-tex\">\\(2\\over35\\)</span>?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(2\\over525\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(2\\over105\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\over105\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(2\\over75\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong>​​</strong><span class=\"math-tex\">\\(2\\over105\\)</span>.</p>\r\n\r\n<p>H.C.F of fraction values = H.C.F of numerator/L.C.M of denominator</p>\r\n\r\n<p>&rArr; H.C.F of 4, 8, and 2 = 2</p>\r\n\r\n<p>&rArr; L.C.M of 5, 15, and 35 = 105</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>&rArr; H.C.F of&nbsp;<span class=\"math-tex\">\\(4\\over5\\)</span>,&nbsp;<span class=\"math-tex\">\\(8\\over15\\)</span>,&nbsp;<span class=\"math-tex\">\\(2\\over35\\)</span>&nbsp;= <span class=\"math-tex\">\\(2\\over105\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\(4\\over5\\)</span>,&nbsp;<span class=\"math-tex\">\\(8\\over15\\)</span>,&nbsp;<span class=\"math-tex\">\\(2\\over35\\)</span>का &lrm;महत्तम समापवर्तक क्या है?&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(2\\over525\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(2\\over105\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\over105\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(2\\over75\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>यानी&nbsp;<span class=\"math-tex\">\\(2\\over105\\)</span>&nbsp;है।</p>\r\n\r\n<p>भिन्न मानों का महत्तम समापवर्तक = अंश का महत्तम समापवर्तक/हर का लघुत्तम समापवर्त्य</p>\r\n\r\n<p>4, 8, और 2 का&nbsp;महत्तम समापवर्तक = 2</p>\r\n\r\n<p>5, 15, और 35&nbsp;लघुत्तम समापवर्त्य = 105</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(4\\over5\\)</span>,&nbsp;<span class=\"math-tex\">\\(8\\over15\\)</span>,&nbsp;<span class=\"math-tex\">\\(2\\over35\\)</span>का&nbsp;महत्तम समापवर्तक =&nbsp;<span class=\"math-tex\">\\(2\\over105\\)</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A five-digit number 32054 is divisible by 11. If the digits are rearranged in increasing&nbsp;order, then the new number which is formed will be divisible by:</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<strong>5</strong>.</p>\r\n\r\n<p>A five-digit number 32054 is divisible by 11</p>\r\n\r\n<p>If the digits are rearranged in increasing&nbsp;order then, the digit will be formed will be 02345&nbsp;</p>\r\n\r\n<p>Hence, it is clear that it is divisible by 5 because it ends with 5&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पांच अंकों की संख्या 32054, 11 से विभाज्य है। यदि अंकों को बढ़ते क्रम में पुनर्व्यवस्थित किया जाता है, तो जो नई संख्या बनती है वह निम्न मे&nbsp;से किससे&nbsp;विभाज्य होगी:</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी <strong>5</strong> है।</p>\r\n\r\n<p>पांच अंकों की संख्या 32054, 11 से विभाज्य है</p>\r\n\r\n<p>यदि अंकों को बढ़ते हुए क्रम में व्यवस्थित किया जाए तो अंक 02345&nbsp;बनेगा</p>\r\n\r\n<p>अतः, यह स्पष्ट है कि यह 5 से विभाज्य है क्योंकि यह 5 पर समाप्त होती है।&nbsp;</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the weighted arithmetic mean of the first &lsquo;n&rsquo; natural numbers, the weights being the corresponding numbers.</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(n(n+1)(2n+1)\\over6\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(n(n+1) \\over2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span></p>\r\n",
+      "<p><span style=\"font-size:16px\">n</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> Option 3.</strong> i.e.&nbsp;<span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span><span style=\"font-size:20px\">.</span></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The sum of squares of the first &#39;n&#39; natural numbers =&nbsp;<span class=\"math-tex\">\\({n(n + 1)(2n + 1)}\\over 6\\)</span></p>\r\n\r\n<p>The sum of the first &#39;n&#39; natural numbers =&nbsp;<span class=\"math-tex\">\\({n(n + 1)}\\over 2\\)</span></p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>First &#39;n&#39; natural numbers = 1, 2, 3, ......,n</p>\r\n\r\n<p>Their corresponding weights = 1, 2, 3, ......,n</p>\r\n\r\n<p>Now, weighted arithmetic mean =&nbsp;<span class=\"math-tex\">\\({(1 \\times 1 + 2 \\times 2 + 3 \\times 3 + .....+ n \\times n)} \\over {(1 + 2+ 3+ ....+ n)}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1 ^2 + 2^2 + 3^2 + ....+ n^2} \\over 1 + 2 +3+....+ n\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({{n(n + 1)(2n + 1)}\\over 6} \\over {{n(n+1)}\\over 2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span></p>\r\n\r\n<p>Hence, the&nbsp;weighted arithmetic mean of the first &lsquo;n&rsquo; natural numbers is&nbsp;<span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span>&nbsp;.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>प्रथम &#39;n&#39; प्राकृतिक संख्याओं का भारित अंकगणितीय माध्य ज्ञात कीजिए, भार संगत संख्याएँ हैं।</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(n(n+1)(2n+1)\\over6\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(n(n+1) \\over2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span></p>\r\n",
+      "<p><span style=\"font-size:16px\">n</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 3 </strong>यानी&nbsp;<span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span>&nbsp;है।&nbsp;</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>प्रथम &#39;n&#39; प्राकृत संख्याओं के वर्गों का योग =&nbsp;<span class=\"math-tex\">\\({n(n + 1)(2n + 1)}\\over 6\\)</span></p>\r\n\r\n<p>प्रथम &#39;n&#39; प्राकृत संख्याओं का योग=&nbsp;<span class=\"math-tex\">\\({n(n + 1)}\\over 2\\)</span></p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>पहली &#39;n&#39; प्राकृतिक संख्या = 1, 2, 3, ......, और</p>\r\n\r\n<p>उनका संगत भार = 1, 2, 3, ......,n</p>\r\n\r\n<p>अब, भारित अंकगणितीय माध्य&nbsp;=&nbsp;<span class=\"math-tex\">\\({(1 \\times 1 + 2 \\times 2 + 3 \\times 3 + .....+ n \\times n)} \\over {(1 + 2+ 3+ ....+ n)}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1 ^2 + 2^2 + 3^2 + ....+ n^2} \\over 1 + 2 +3+....+ n\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({{n(n + 1)(2n + 1)}\\over 6} \\over {{n(n+1)}\\over 2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span></p>\r\n\r\n<p>अतः, प्रथम &#39;n&#39; प्राकृतिक संख्याओं का भारित अंकगणितीय माध्य <span class=\"math-tex\">\\({2n + 1} \\over 3\\)</span>&nbsp;है।</p>\r\n"
+  },
+  {
+    "question": "<p>Which of the following is divisible by 24?</p>\r\n",
+    "options": [
+      "<p>2940</p>\r\n",
+      "<p>2856</p>\r\n",
+      "<p>1258</p>\r\n",
+      "<p>1860</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2&nbsp;</strong>i.e.&nbsp;<strong>2856.</strong></p>\r\n\r\n<p><strong>The divisibility rule of 24:</strong>&nbsp;A number is divisible by 24 if it is divisible by 3 and 8.</p>\r\n\r\n<p><strong>The divisibility rule of 3:&nbsp;</strong>if the sum of digits of a number is a multiple of 3, the number will be completely divisible by 3.</p>\r\n\r\n<p><strong>The divisibility rule of 8:</strong>&nbsp;if the last three numbers are zero or divisible by 8, the whole number is divisible by 8.</p>\r\n\r\n<p>&rArr; Option 1 = 2940</p>\r\n\r\n<p>The sum of digits = 2 + 9 + 4 + 0 = 15 [So, divisible by 3]</p>\r\n\r\n<p>The last 3 digits = 940/8 = 117.5 [Not divisible by 8]</p>\r\n\r\n<p>So, 2940 is not divisible by 24</p>\r\n\r\n<p>&rArr; Option 2 = 2856</p>\r\n\r\n<p>The sum of digits = 2 + 8 + 5 + 6 = 21 [So, divisible by 3]</p>\r\n\r\n<p>The last 3 digits = 856/8 = 107&nbsp;[ divisible by 8]</p>\r\n\r\n<p>So, 2940 is&nbsp;divisible by 24</p>\r\n\r\n<p>&rArr; Option 3 = 1258</p>\r\n\r\n<p>The sum of digits = 1 + 2 + 5 + 8 = 16 [So, not divisible by 3]</p>\r\n\r\n<p>The last 3 digits = 258/8 = 32.25 [Not divisible by 8]</p>\r\n\r\n<p>So, 2940 is not divisible by 24</p>\r\n\r\n<p>&rArr; Option 4 = 1860</p>\r\n\r\n<p>The sum of digits = 1 + 8 + 6 + 0 = 15 [So, divisible by 3]</p>\r\n\r\n<p>The last 3 digits = 860/8 = 107.5 [Not divisible by 8]</p>\r\n\r\n<p>So, 2940 is not divisible by 24</p>\r\n\r\n<p>Hence, only 2856 is&nbsp;divisible by 24</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन सा 24 से विभाज्य है?</p>\r\n",
+    "options_hi": [
+      "<p>2940</p>\r\n",
+      "<p>2856</p>\r\n",
+      "<p>1258</p>\r\n",
+      "<p>1860</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>यानी <strong>2856</strong> है।</p>\r\n\r\n<p><strong>24 का विभाज्यता नियम:</strong> एक संख्या 24 से विभाज्य होती है यदि वह 3 और 8 दोनों से विभाज्य हो।</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम:</strong> यदि किसी संख्या के अंकों का योग 3 का गुणज है, तो वह संख्या 3 से पूर्णतः विभाज्य होगी।</p>\r\n\r\n<p><strong>8 की विभाज्यता नियम:</strong> यदि अंतिम तीन संख्याएँ शून्य हैं या 8 से विभाज्य हैं, तो पूरी संख्या 8 से विभाज्य है।</p>\r\n\r\n<p>&rArr; विकल्प 1 = 2940</p>\r\n\r\n<p>अंकों का योग = 2 + 9 + 4 + 0 = 15 [अतः, 3 से विभाज्य]</p>\r\n\r\n<p>अंतिम 3 अंक = 940/8 = 117.5 [8 से विभाज्य नहीं]</p>\r\n\r\n<p>अतः, 2940, 24 से विभाज्य नहीं है</p>\r\n\r\n<p>&rArr; विकल्प 2 = 2856</p>\r\n\r\n<p>अंकों का योग = 2 + 8 + 5 + 6 = 21 [अतः, 3 से विभाज्य]</p>\r\n\r\n<p>अंतिम 3 अंक = 856/8 = 107 [8 से विभाज्य]</p>\r\n\r\n<p>तो, 2940, 24 से विभाज्य है</p>\r\n\r\n<p>&rArr; विकल्प 3 = 1258</p>\r\n\r\n<p>अंकों का योग = 1 + 2 + 5 + 8 = 16 [अतः, 3 से विभाज्य नहीं]</p>\r\n\r\n<p>अंतिम 3 अंक = 258/8 = 32.25 [8 से विभाज्य नहीं]</p>\r\n\r\n<p>अतः, 2940, 24 से विभाज्य नहीं है</p>\r\n\r\n<p>&rArr; विकल्प 4 = 1860</p>\r\n\r\n<p>अंकों का योग = 1 + 8 + 6 + 0 = 15 [अतः, 3 से विभाज्य]</p>\r\n\r\n<p>अंतिम 3 अंक = 860/8 = 107.5 [8 से विभाज्य नहीं]</p>\r\n\r\n<p>अतः, 2940, 24 से विभाज्य नहीं है</p>\r\n\r\n<p>अतः, केवल 2856 ही 24 से विभाज्य है</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the value of k in the number 3426k if the number is divisible by 6 but NOT divisible by 5.</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.<strong> 6</strong></p>\r\n\r\n<p>A number is divisible by 6 when it is divisible by both 2 and 3. Therefore, the last digit of the number must be even and the sum of its digits must be divisible by 3.</p>\r\n\r\n<p>3426k divisible by 6 which means divisible by 2 and 3</p>\r\n\r\n<p>From the options, only 4 and 6 can be the value of k.</p>\r\n\r\n<p>&rArr; When k = 4 = 3 + 4 + 2 + 6 + 4 = 19 which is not divisible by 3</p>\r\n\r\n<p>&rArr; When k = 6 =&nbsp;3 + 4 + 2 + 6 + 6 = 21 which is divisible by 3</p>\r\n\r\n<p>Hence, the value of k is 6.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्या 3426k में k का मान ज्ञात कीजिये यदि संख्या 6 से विभाज्य है लेकिन 5 से विभाज्य नहीं है।</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> यानी 6<strong> है</strong>।</p>\r\n\r\n<p>एक संख्या 6 से विभाज्य होती है जब वह 2 और 3 दोनों से विभाज्य होती है। इसलिए, संख्या का अंतिम अंक सम होना चाहिए और उसके अंकों का योग 3 से विभाज्य होना चाहिए।</p>\r\n\r\n<p>3426k, 6 से विभाज्य है जिसका अर्थ है 2 और 3 से विभाज्य</p>\r\n\r\n<p>विकल्पों में से केवल 4 और 6, k का मान हो सकता है।</p>\r\n\r\n<p>&rArr; जब k = 4 = 3 + 4 + 2 + 6 + 4 = 19 जो 3 से विभाज्य नहीं है</p>\r\n\r\n<p>&rArr; जब k = 6 =&nbsp;3 + 4 + 2 + 6 + 6 = 21 जो 3 से विभाज्य नहीं है</p>\r\n\r\n<p>अतः, k का मान 6 है।</p>\r\n"
+  },
+  {
+    "question": "<p>Find the lowest positive value of (c &ndash; b) such that the 7-digit number 1738b9c is divisible by 12.</p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong>&nbsp;i.e. <strong>2.</strong></p>\r\n\r\n<p>For a number to be divisible by 12, it must be divisible by both 3 and 4</p>\r\n\r\n<p><strong>Divisibility rule of 3:-</strong>&nbsp;For a number to be divisible by 3, the sum of its digits must be divisible by 3</p>\r\n\r\n<p><strong>Divisibility rule of 4:-</strong> For a number to be divisible by 4, the last 2 digits must be divisible by 4</p>\r\n\r\n<p>Sum of digits of the given number = 28 + b + c</p>\r\n\r\n<p>value of c&nbsp;= 2 or 6</p>\r\n\r\n<p>Now this sum&nbsp;needs to be divisible by 3&nbsp;</p>\r\n\r\n<p>This&nbsp;can happen&nbsp;when b = 0 and c = 2</p>\r\n\r\n<p>Hence, the lowest possible value of c - b = 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>(c &ndash; b) का न्यूनतम धनात्मक मान ज्ञात कीजिए जिससे कि 7 अंकों की संख्या 1738b9c, 12 से विभाज्य हो।</p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>2</strong> है।</p>\r\n\r\n<p>किसी संख्या को 12 से विभाज्य होने के लिए, उसे 3 और 4 दोनों से विभाज्य होना चाहिए</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम:-</strong> किसी संख्या को 3 से विभाज्य होने के लिए, उसके अंकों का योग 3 से विभाज्य होना चाहिए</p>\r\n\r\n<p><strong>4 का विभाज्यता नियम:- </strong>किसी संख्या को 4 से विभाज्य होने के लिए, अंतिम 2 अंक 4 से विभाज्य होने चाहिए</p>\r\n\r\n<p>दी गई संख्या के अंकों का&nbsp;योग = 28 + b + c</p>\r\n\r\n<p>c मान = 2 या 6 हो सकता है</p>\r\n\r\n<p>अब इस योग को 3 से विभाजित करने की आवश्यकता है&nbsp;</p>\r\n\r\n<p>ऐसा तब हो सकता है जब b = 0 और c = 2 हो</p>\r\n\r\n<p>अतः, (c &ndash; b) का न्यूनतम धनात्मक मान = 2</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>M varies inversely as (N<sup>2&nbsp;</sup>+ 3). If M = 3 when N = 3, then what will be the value of M when N<sup>2&nbsp;</sup>= 69?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p>1</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt{69}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span><strong>.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>&rArr; M&nbsp;&prop; 1/(N<sup>2&nbsp;</sup>+ 3)</p>\r\n\r\n<p>Let M = k/(N<sup>2&nbsp;</sup>+ 3)</p>\r\n\r\n<p>Given,</p>\r\n\r\n<p>M&nbsp;= 3</p>\r\n\r\n<p>N = 3</p>\r\n\r\n<p>M = k/(N<sup>2&nbsp;</sup>+ 3)</p>\r\n\r\n<p>3 =&nbsp;k/(9<sup>&nbsp;</sup>+ 3)</p>\r\n\r\n<p>Hence, the value of k = 36</p>\r\n\r\n<p>Now, if the value of N<sup>2</sup>&nbsp;= 69&nbsp;</p>\r\n\r\n<p>&rArr; M =&nbsp;<span class=\"math-tex\">\\(\\frac{36}{69 + 3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>&nbsp;</p>\r\n\r\n<p>Hence, the value of M =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>M, (N<sup>2&nbsp;</sup>+ 3) के व्युत्क्रमानुपाती रूप से बदलता है। यदि N = 3 और&nbsp;M = 3 है, तो N<sup>2</sup>&nbsp;= 69 होने पर M का मान क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p>1</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt{69}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>​सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>&nbsp;है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि,&nbsp;</p>\r\n\r\n<p>&rArr; M&nbsp;&prop; 1/(N<sup>2&nbsp;</sup>+ 3)</p>\r\n\r\n<p>माना&nbsp;M = k/(N<sup>2&nbsp;</sup>+ 3)</p>\r\n\r\n<p>दिया गया है,</p>\r\n\r\n<p>M&nbsp;= 3</p>\r\n\r\n<p>N = 3</p>\r\n\r\n<p>M = k/(N<sup>2&nbsp;</sup>+ 3)</p>\r\n\r\n<p>3 =&nbsp;k/(9<sup>&nbsp;</sup>+ 3)</p>\r\n\r\n<p>अतः, k का मान = 36</p>\r\n\r\n<p>अब, यदि N<sup>2</sup>&nbsp;का मान = 69</p>\r\n\r\n<p>&rArr; M =&nbsp;<span class=\"math-tex\">\\(\\frac{36}{69 + 3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>&nbsp;</p>\r\n\r\n<p>अतः, M का मान&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The difference between two numbers is 48. The ratio of these two numbers is 7 : 3. What is the sum of the two numbers?</p>\r\n",
+    "options": [
+      "<p>110</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>120</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e.<strong>&nbsp;120.</strong></p>\r\n\r\n<p>Let the 2 numbers be = x and y</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>&rArr; x - y = 48 and,&nbsp;<span class=\"math-tex\">\\(\\frac{x}{y}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{7}{3}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr; x =&nbsp;<span class=\"math-tex\">\\(\\frac{7}{3}\\)</span>y&nbsp;</p>\r\n\r\n<p>Substituting &nbsp;x =&nbsp;<span class=\"math-tex\">\\(\\frac{7}{3}\\)</span>y&nbsp;we get</p>\r\n\r\n<p>7y - 3y = 144</p>\r\n\r\n<p>&rArr; y = 36</p>\r\n\r\n<p>&rArr; x = 84</p>\r\n\r\n<p>The value of x + y = 120</p>\r\n\r\n<p>Hence, the sum of the two numbers is 120</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो संख्याओं के बीच का अंतर 48 है। इन दोनों संख्याओं का अनुपात 7 : 3 है। दोनों संख्याओं का योग क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>110</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>120</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>120 </strong>है।</p>\r\n\r\n<p>माना&nbsp;2 संख्याएँ = x और y हैं</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>&rArr; x - y = 48 और,&nbsp;<span class=\"math-tex\">\\(\\frac{x}{y}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{7}{3}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr; x =&nbsp;<span class=\"math-tex\">\\(\\frac{7}{3}\\)</span>y&nbsp;</p>\r\n\r\n<p>&nbsp;x =&nbsp;<span class=\"math-tex\">\\(\\frac{7}{3}\\)</span>y&nbsp;प्रतिस्थापित करने पर, हमें प्राप्त होता है</p>\r\n\r\n<p>7y - 3y = 144</p>\r\n\r\n<p>&rArr; y = 36</p>\r\n\r\n<p>&rArr; x = 84</p>\r\n\r\n<p>x + y का मान = 120</p>\r\n\r\n<p>अतः, दोनों संख्याओं का योग 120 है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If 1234567y is divisible by 11, then what is the value of y?</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong>&nbsp;i.e.&nbsp;<strong>4.</strong></p>\r\n\r\n<p><strong>Divisibility rule of 11:-</strong> A number is divisible by 11 if the difference between the sum of its digits in odd positions and the sum of its digits in even positions is either 0 or a multiple of 11.</p>\r\n\r\n<p>The number is 1234567y</p>\r\n\r\n<p>The sum of Odd positions = 1 +&nbsp; 3 + 5 + 7 = 16</p>\r\n\r\n<p>The sum of Even positions =&nbsp; 2 + 4 + 6 + y = 12 + y</p>\r\n\r\n<p>The difference between the sum of the digits in odd positions and the sum of the digits in even positions should be 0 or a multiple of 11</p>\r\n\r\n<p>Difference/11= ((16 - (12 + y))/11 = (16 - 12 - y)/11</p>\r\n\r\n<p>&rArr; (16 - 12 - y)/11 = (4 - y)/11</p>\r\n\r\n<p>if we put y = 4;</p>\r\n\r\n<p>&rArr; (4 - 4)/11 = 0/11 = 0</p>\r\n\r\n<p>Thus, the value of y is 4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 1234567, 11 से विभाज्य है, तो y का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>4 </strong>है।</p>\r\n\r\n<p><strong>11 का विभाज्यता नियम:-</strong> कोई संख्या 11 से विभाज्य होती है यदि विषम स्थिति में उसके अंकों के योग और सम स्थिति में उसके अंकों के योग के बीच का अंतर या तो 0 है या 11 का गुणज है।</p>\r\n\r\n<p>संख्या 1234567y है</p>\r\n\r\n<p>विषम पदों का योग = 1 + 3 + 5 + 7 = 16</p>\r\n\r\n<p>सम पदों का योग = 2 + 4 + 6 + y = 12 + y</p>\r\n\r\n<p>विषम पदों के अंकों के योग और सम पदों के अंकों के योग के बीच का अंतर 0 या 11 का गुणक होना चाहिए।</p>\r\n\r\n<p>अंतर/11= ((16 - (12 + y))/11 = (16 - 12 - y)/11</p>\r\n\r\n<p>&rArr; (16 - 12 - y)/11 = (4 - y)/11</p>\r\n\r\n<p>यदि हम y = 4 रखते हैं;</p>\r\n\r\n<p>&rArr; (4 - 4)/11 = 0/11 = 0</p>\r\n\r\n<p>अतः, y का मान 4 है&nbsp;</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the number when successively divided 3, 5, and 7 leaving the remainder 2, 1, and 3, respectively, and the last quotient is 3.</p>\r\n",
+    "options": [
+      "<p>360</p>\r\n",
+      "<p>362</p>\r\n",
+      "<p>365</p>\r\n",
+      "<p>367</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3&nbsp;</strong>i.e.&nbsp;<strong>365.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The number when successively divided 3, 5, and 7 leaves the remainder 2, 1, and 3, respectively, and the last quotient is 3</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>(Divisor &times; Quotient) +&nbsp;Remainder = Dividend</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>&rArr; (7&nbsp;&times; 3) + 3&nbsp;= Dividend</p>\r\n\r\n<p>&rArr; Dividend = 21 +&nbsp; 3 = 24</p>\r\n\r\n<p>Now, Second dividend = 24&nbsp;&times; 5 + 1 = 120 + 1 = 121</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>The required number = 121&nbsp;&times; 3 + 2 = 363 + 2 = 365</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह संख्या ज्ञात कीजिए जब 3, 5 और 7 को क्रमिक रूप से विभाजित करने पर शेषफल क्रमशः 2, 1 और 3 बचते हैं तथा, अंतिम भागफल 3 है।</p>\r\n",
+    "options_hi": [
+      "<p>360</p>\r\n",
+      "<p>362</p>\r\n",
+      "<p>365</p>\r\n",
+      "<p>367</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी <strong>365&nbsp;</strong>है।</p>\r\n\r\n<p>दिया गया है कि,</p>\r\n\r\n<p>संख्या को क्रमिक रूप से 3, 5 और 7 से विभाजित करने पर क्रमशः 2, 1 और 3 शेष बचते हैं, और अंतिम भागफल 3 है</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>(भाजक &times; भागफल) + शेष = भाज्य</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>&rArr; (7 &times; 3) + 3 = भाज्य</p>\r\n\r\n<p>&rArr; भाज्य = 21 + 3 = 24</p>\r\n\r\n<p>अब, दूसरा भाज्य = 24 &times; 5 + 1 = 120 + 1 = 121</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>अभीष्ट संख्या = 121 &times; 3 + 2 = 363 + 2 = 365</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>What is the number of digits required for numbering a book with 428 pages?</p>\r\n",
+    "options": [
+      "<p>1500</p>\r\n",
+      "<p>1176</p>\r\n",
+      "<p>2000</p>\r\n",
+      "<p>988</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>1176.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>Number of pages = 428</p>\r\n\r\n<p>Total numbers from 1 to 9 = 9</p>\r\n\r\n<p>Number of digits from 1 to 9 = 9&nbsp;&times; 1 = 9</p>\r\n\r\n<p>Total numbers from 10 to 99 = 90</p>\r\n\r\n<p>Number of digits from 10 to 99 = 90&nbsp;&times; 2 = 180</p>\r\n\r\n<p>Total numbers from 100 to 428 = 329</p>\r\n\r\n<p>Number of digits from 100 to 428 = 329&nbsp;&times; 3 = 987</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>The total number of digits = 9 + 180 + 987 = 1176</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>428 पृष्ठों वाली एक पुस्तक को क्रमांकित करने के लिए आवश्यक अंकों की संख्या क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>1500</p>\r\n",
+      "<p>1176</p>\r\n",
+      "<p>2000</p>\r\n",
+      "<p>988</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात् <strong>1176 </strong>है।</p>\r\n\r\n<p>दिया गया है कि,</p>\r\n\r\n<p>पृष्ठों की संख्या = 428</p>\r\n\r\n<p>1 से 9 तक कुल संख्याएँ = 9</p>\r\n\r\n<p>1 से 9 तक अंकों की संख्या = 9&nbsp;&times; 1 = 9</p>\r\n\r\n<p>10 से 99 तक कुल संख्याएँ = 90</p>\r\n\r\n<p>10 से 99 तक अंकों की संख्या = 90&nbsp;&times; 2 = 180</p>\r\n\r\n<p>100 से 428 तक कुल संख्याएँ = 329</p>\r\n\r\n<p>100 से 428 तक अंकों की संख्या = 329&nbsp;&times; 3 = 987</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>अंकों की कुल संख्या = 9 + 180 + 987 = 1176</p>\r\n"
+  },
+  {
+    "question": "<p>What will be the least value of x so that the 5-digit number 627x5 becomes divisible by 9?</p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1&nbsp;</strong>i.e<strong>. 7.</strong></p>\r\n\r\n<p><strong>Divisibility rule of 9:- </strong>A number is divisible by 9 if the sum of its digits is divisible by 9.</p>\r\n\r\n<p>The sum of the digits of the number 627x5:</p>\r\n\r\n<p>&rArr; 6 + 2 + 7 + x + 5 = 20 + x</p>\r\n\r\n<p>For the number to be divisible by 9, 20 + x must be divisible by 9.</p>\r\n\r\n<p>So, x = 7, because 7 is the smallest number,</p>\r\n\r\n<p>&rArr; 20 + 7 = 27 is divisible by 9</p>\r\n\r\n<p>Therefore, the least value of x that makes 627x5 divisible by 9 is x = 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>X का वह न्यूनतम मान क्या होगा जिससे 5 अंकों वाली संख्या 627x5, 9 से विभाज्य हो जाए?</p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात् <strong>7</strong> है।</p>\r\n\r\n<p><strong>9 का विभाज्यता नियम:- </strong>कोई संख्या 9 से विभाज्य होती है यदि उसके अंकों का योग 9 से विभाज्य हो।</p>\r\n\r\n<p>संख्या 627x5 के अंकों का योग ज्ञात करें:</p>\r\n\r\n<p>&rArr; 6 + 2 + 7 + x + 5 = 20 + x</p>\r\n\r\n<p>किसी संख्या को 9 से विभाज्य होने के लिए, 20 + x को 9 से विभाज्य होना चाहिए।</p>\r\n\r\n<p>तो, x = 7, क्योंकि 7 सबसे छोटी संख्या है,</p>\r\n\r\n<p>&rArr; 20 + 7 = 27, 9 से विभाज्य है</p>\r\n\r\n<p>इसलिए, x का न्यूनतम मान जो 627x5 को 9 से विभाज्य बनाता है x = 7 है</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>What is the smallest number that is a multiple of 13, 15, 4, 21 and 2?</p>\r\n",
+    "options": [
+      "<p>2378</p>\r\n",
+      "<p>3340</p>\r\n",
+      "<p>1580</p>\r\n",
+      "<p>5460</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e. <strong>5460.</strong></p>\r\n\r\n<p>L.C.M by prime factorization method</p>\r\n\r\n<p>&rArr; 13 = 13&nbsp;&times; 1</p>\r\n\r\n<p>&rArr; 15 = 3&nbsp;&times; 5</p>\r\n\r\n<p>&rArr; 4 = 2&nbsp;&times; 2</p>\r\n\r\n<p>&rArr; 21 = 7&nbsp;&times; 3</p>\r\n\r\n<p>&rArr; 2 = 2&nbsp;&times; 1</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>L.C.M = 2&nbsp;&times; 2&nbsp;&times; 3&nbsp;&times; 5&nbsp;&times; 7&nbsp;&times; 13 = 5460</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह सबसे छोटी संख्या कौन-सी है जो, 13, 15, 4, 21 और 2 का गुणज है?</p>\r\n",
+    "options_hi": [
+      "<p>2378</p>\r\n",
+      "<p>3340</p>\r\n",
+      "<p>1580</p>\r\n",
+      "<p>5460</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात् <strong>5460&nbsp;</strong>है।</p>\r\n\r\n<p>अभाज्य गुणनखंड विधि द्वारा &lrm;लघुत्तम समापवर्त्य</p>\r\n\r\n<p>&rArr; 13 = 13&nbsp;&times; 1</p>\r\n\r\n<p>&rArr; 15 = 3&nbsp;&times; 5</p>\r\n\r\n<p>&rArr; 4 = 2&nbsp;&times; 2</p>\r\n\r\n<p>&rArr; 21 = 7&nbsp;&times; 3</p>\r\n\r\n<p>&rArr; 2 = 2&nbsp;&times; 1</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>&lrm;लघुत्तम समापवर्त्य&nbsp;= 2&nbsp;&times; 2&nbsp;&times; 3&nbsp;&times; 5&nbsp;&times; 7&nbsp;&times; 13 = 5460</p>\r\n"
+  }
+]
