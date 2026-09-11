@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>A shopkeeper usually makes one big besan laddoo (spherical in shape) with a radius of 9 cm. With the same laddoo, how many besan laddoos of radius 3 cm can be made? (Use a = <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>)</p>\r\n",
+    "options": [
+      "<p>9</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 4</strong>&nbsp;i.e. <strong>27.</strong></p>\r\n\r\n<p>Let, the number of small besan laddoo be n</p>\r\n\r\n<p>Volume of sphere = 4/3&nbsp;&pi;r<sup>3</sup></p>\r\n\r\n<p>here, r<sub>1</sub> = radius = 9 [big besan laddoo]</p>\r\n\r\n<p>Volume<sub>1</sub> = 4/3&nbsp;&times; 22/7&nbsp;&times; 9&nbsp;&times; 9&nbsp;&times; 9 = 3054.85 cm<sup>3</sup></p>\r\n\r\n<p>The volume of small besan laddoo for r<sub>2</sub> = 3</p>\r\n\r\n<p>Volume<sub>2</sub> = 4/3&nbsp;&times; 22/7&nbsp;&times; 3&nbsp;&times; 3&nbsp;&times; 3 = 113.14 cm<sup>3</sup></p>\r\n\r\n<p>&rArr; n&nbsp;= Volume<sub>1</sub>/Volume<sub>2</sub></p>\r\n\r\n<p>&rArr; n = 3054.85/113.14</p>\r\n\r\n<p>&rArr; n = 27</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक दुकानदार आमतौर पर 9 सेमी त्रिज्या वाला एक बड़ा बेसन का लड्डू (गोलाकार आकार का) बनाता है। उसी लड्डू से 3 सेमी त्रिज्या वाले कितने बेसन के लड्डू बनाए जा सकते हैं? (a = <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>&nbsp;का प्रयोग करें)</p>\r\n",
+    "options_hi": [
+      "<p>9</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>27 </strong>है।</p>\r\n\r\n<p>माना, छोटे बेसन के लड्डुओं की संख्या n है</p>\r\n\r\n<p>गोले का आयतन = 4/3&nbsp;&pi;r<sup>3</sup></p>\r\n\r\n<p>यहाँ, r<sub>1</sub> = त्रिज्या = 9 [बड़े बेसन के लड्डू]</p>\r\n\r\n<p>आयतन<sub>1</sub> = 4/3&nbsp;&times; 22/7&nbsp;&times; 9&nbsp;&times; 9&nbsp;&times; 9 = 3054.85 घन सेमी</p>\r\n\r\n<p>r<sub>2&nbsp;</sub>के लिए छोटे बेसन के लड्डू का आयतन = 3</p>\r\n\r\n<p>आयतन<sub>2</sub> = 4/3&nbsp;&times; 22/7&nbsp;&times; 3&nbsp;&times; 3&nbsp;&times; 3 = 113.14 घन सेमी</p>\r\n\r\n<p>&rArr; n&nbsp;= आयतन<sub>1</sub>/आयतन<sub>2</sub></p>\r\n\r\n<p>&rArr; n = 3054.85/113.14</p>\r\n\r\n<p>&rArr; n = 27</p>\r\n"
+  },
+  {
+    "question": "<p>The sides of the three cubes of metal are 15 cm, 18 cm, and 25 cm, respectively. Find the side (in cm) of the new cube formed by melting these cubes together.</p>\r\n",
+    "options": [
+      "<p>9<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+      "<p>6<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+      "<p>7<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+      "<p>4<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong>&nbsp;i.e.&nbsp;&nbsp;4<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span>.</p>\r\n\r\n<p>Area of Cube = a<sup>3</sup></p>\r\n\r\n<p>The sum of the area of three small cubes = the Area of the big cube</p>\r\n\r\n<p>&rArr; 15<sup>3 </sup>+18<sup>3&nbsp;</sup>+ 25<sup>3</sup>&nbsp;=&nbsp;Area of the big cube</p>\r\n\r\n<p>&rArr; 3375<sup>&nbsp;</sup>+ 5832<sup>&nbsp;</sup>+ 15625&nbsp;=&nbsp;Area of the big cube</p>\r\n\r\n<p>The area of the big cube =&nbsp;24,832 cm<sup>3</sup></p>\r\n\r\n<p>So, the side of the big cube =&nbsp;<span class=\"math-tex\">\\(\\sqrt [3]{ 24832}\\)</span>&nbsp;=&nbsp;4<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>धातु के तीन घनों की भुजाएँ क्रमशः 15 सेमी, 18 सेमी और 25 सेमी हैं। इन घनों को एक साथ पिघलाने से बने नए घन की भुजा (सेमी में) ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>9<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+      "<p>6<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+      "<p>7<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n",
+      "<p>4<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4 </strong>यानी <strong>4</strong><span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span> है।</p>\r\n\r\n<p>घन का क्षेत्रफल = a<sup>3</sup></p>\r\n\r\n<p>तीन छोटे घनों के क्षेत्रफल का योग = बड़े घन का क्षेत्रफल</p>\r\n\r\n<p>&rArr; 15<sup>3 </sup>+18<sup>3&nbsp;</sup>+ 25<sup>3</sup>&nbsp;=&nbsp;बड़े घन का क्षेत्रफल</p>\r\n\r\n<p>&rArr; 3375<sup>&nbsp;</sup>+ 5832<sup>&nbsp;</sup>+ 15625&nbsp;=&nbsp;बड़े घन का क्षेत्रफल</p>\r\n\r\n<p>बड़े घन का क्षेत्रफल = 24,832 सेमी<sup>3</sup></p>\r\n\r\n<p>तो, बड़े घन की भुजा &nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt [3]{ 24832}\\)</span>&nbsp;=&nbsp;4<span class=\"math-tex\">\\(\\sqrt [3]{ 388}\\)</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If a map of a city was drawn on a scale of 0.2 cm to a km, what area would represent a country if it has an area of 22500 km&sup2;?</p>\r\n",
+    "options": [
+      "<p>2500 cm<sup>2</sup></p>\r\n",
+      "<p>2250 cm<sup>2</sup></p>\r\n",
+      "<p>5625 cm<sup>2</sup></p>\r\n",
+      "<p>900 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong>&nbsp;i.e.<strong>&nbsp;900km<sup>2</sup>.</strong></p>\r\n\r\n<p>A map of a city was drawn on a scale of 0.2 cm to a km</p>\r\n\r\n<p>0.2 cm = 1 km</p>\r\n\r\n<p>Area of the city&nbsp;= 22500 km<sup>2</sup></p>\r\n\r\n<p>So, the area of the city in cm</p>\r\n\r\n<p>=&nbsp;22500&nbsp;&times; (0.2 cm)<sup>2</sup></p>\r\n\r\n<p>= 900 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि किसी शहर का मानचित्र 0.2 सेमी. से 1 किमी. के पैमाने पर बनाया गया हो, तो 22500 वर्ग किमी. क्षेत्रफल वाले देश का क्षेत्रफल क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>2500 cm<sup>2</sup></p>\r\n",
+      "<p>2250 cm<sup>2</sup></p>\r\n",
+      "<p>5625 cm<sup>2</sup></p>\r\n",
+      "<p>900 cm<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> यानी <strong>900 cm<sup>2</sup></strong> है।</p>\r\n\r\n<p>एक शहर का नक्शा 0.2 सेमी से एक किमी के पैमाने पर बनाया गया था</p>\r\n\r\n<p>0.2 सेमी = 1 किमी</p>\r\n\r\n<p>शहर का क्षेत्रफल = 22500 किमी<sup>2</sup></p>\r\n\r\n<p>तो, शहर का क्षेत्रफल सेमी में</p>\r\n\r\n<p>= 22500 &times; (0.2 सेमी)<sup>2</sup></p>\r\n\r\n<p>= 900 सेमी<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If the length and breadth of a cuboid are increased by 7% and 6%, respectively, then the percentage increase in its volume is:</p>\r\n",
+    "options": [
+      "<p>11.20%</p>\r\n",
+      "<p>13.42%</p>\r\n",
+      "<p>18.12%</p>\r\n",
+      "<p>15.25%</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 2</strong>&nbsp;i.e <strong>13.42%</strong>.</p>\r\n\r\n<p>We can find the change in percentage using the net effect = x + y + xy/100</p>\r\n\r\n<p>here, x = 7 and y = 6</p>\r\n\r\n<p>Net change = 6 + 7 + (6&nbsp;&times; 7)/100</p>\r\n\r\n<p>&rArr; 13 + 42/100</p>\r\n\r\n<p>&rArr; 13 + 0.42 = 13.42%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि किसी घनाभ की लंबाई और चौड़ाई में क्रमशः 7% और 6% की वृद्धि की जाती हैं, तो इसके आयतन में कितनी प्रतिशत वृद्धि होगी?</p>\r\n",
+    "options_hi": [
+      "<p>11.20%</p>\r\n",
+      "<p>13.42%</p>\r\n",
+      "<p>18.12%</p>\r\n",
+      "<p>15.25%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>13.42%</strong> है।</p>\r\n\r\n<p>हम शुद्ध प्रभाव का उपयोग करके प्रतिशत में परिवर्तन ज्ञात कर&nbsp;सकते हैं = x + y + xy/100</p>\r\n\r\n<p>यहाँ, x = 7 और y = 6</p>\r\n\r\n<p>शुद्ध परिवर्तन = 6 + 7 + (6&nbsp;&times; 7)/100</p>\r\n\r\n<p>&rArr; 13 + 42/100</p>\r\n\r\n<p>&rArr; 13 + 0.42 = 13.42%</p>\r\n"
+  },
+  {
+    "question": "<p>The diameter of a hemispherical bowl is 21 cm. The volume of the bowl is equal to: (use &pi; = <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>)</p>\r\n",
+    "options": [
+      "<p>2,624.5 cm<sup>3</sup></p>\r\n",
+      "<p>2,524.5&nbsp;cm<sup>3</sup></p>\r\n",
+      "<p>2,725.5 cm<sup>3</sup></p>\r\n",
+      "<p>2,425.5 cm<sup>3</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>. i.e.&nbsp;<strong>2,425.5 cm<sup>3</sup>.</strong></p>\r\n\r\n<p>The diameter of a hemispherical bowl (d) = 21 cm</p>\r\n\r\n<p>r = d/2 = 21/2</p>\r\n\r\n<p>Volume of a hemisphere&nbsp;V = (2/3)&pi;r<sup>3</sup>&nbsp;=&nbsp;&pi;d<sup>3</sup>/12</p>\r\n\r\n<p>Volume = 2/3&nbsp;&times; (22/7) &times; (21/2)<sup>3</sup> = 2425.5 cm<sup>3</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक अर्धगोलाकार कटोरे का व्यास 21 सेमी है। कटोरे का आयतन बराबर है:&nbsp;(प्रयोग &pi; = <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>)</p>\r\n",
+    "options_hi": [
+      "<p>2,624.5 सेमी<sup>3</sup></p>\r\n",
+      "<p>2,524.5&nbsp;सेमी<sup>3</sup></p>\r\n",
+      "<p>2,725.5 सेमी<sup>3</sup></p>\r\n",
+      "<p>2,425.5 सेमी<sup>3</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>2,425.5 सेमी<sup>3</sup> </strong>है।</p>\r\n\r\n<p>एक अर्धगोल कटोरे का व्यास (d) = 21 cm</p>\r\n\r\n<p>r = d/2 = 21/2</p>\r\n\r\n<p>एक गोलार्द्ध V का आयतन = (2/3)&pi;r<sup>3</sup>&nbsp;</p>\r\n\r\n<p>आयतन = 2/3&nbsp;&times; (22/7) &times; (21/2)<sup>3</sup> = 2425.5 सेमी<sup>3</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The radius and height of a right circular cone is increased by 25%. Find the increase in percentage of the volume of the cone (rounded off to 2 decimal places).</p>\r\n",
+    "options": [
+      "<p>95.31%</p>\r\n",
+      "<p>94.51%</p>\r\n",
+      "<p>93.51%</p>\r\n",
+      "<p>94.31%</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>. i.e.&nbsp;<strong>95.31%.</strong></p>\r\n\r\n<p>The radius and height of a right circular cone is increased by 25%</p>\r\n\r\n<p>Let the initial volume of a cone be V</p>\r\n\r\n<p>Volume of a cone =&nbsp;⅓ 𝜋r<sup>2</sup>h cubic units</p>\r\n\r\n<p>The volume is increased by a successively increased percentage of 25%, 25%, and 25%</p>\r\n\r\n<p>So, The increased value of volume = V&nbsp;&times; (5/4)&nbsp;&times; (5/4)&nbsp;&times; (5/4) = 125V/64</p>\r\n\r\n<p>Hence, the volume increased by = [(125V/64 - V)/V]&nbsp;&times; 100 = 6100/64 = 95.31%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक लम्ब वृत्तीय शंकु की त्रिज्या और ऊंचाई 25% बढ़ जाती है। शंकु के आयतन के प्रतिशत में वृद्धि ज्ञात कीजिए (दशमलव के 2 स्थानों तक पूर्णांकित)।</p>\r\n",
+    "options_hi": [
+      "<p>95.31%</p>\r\n",
+      "<p>94.51%</p>\r\n",
+      "<p>93.51%</p>\r\n",
+      "<p>94.31%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>95.31%</strong> है।</p>\r\n\r\n<p>एक लंब वृत्तीय शंकु की त्रिज्या और ऊंचाई में 25% की वृद्धि होती है</p>\r\n\r\n<p>माना शंकु का प्रारंभिक आयतन V है</p>\r\n\r\n<p>एक शंकु का आयतन = ⅓ 𝜋r<sup>2</sup>h घन इकाइयों</p>\r\n\r\n<p>आयतन&nbsp;में क्रमिक रूप से 25%, 25% और 25% की वृद्धि हुई है</p>\r\n\r\n<p>इसलिए, आयतन का बढ़ा हुआ मान = V &times; (5/4) &times; (5/4) &times; (5/4) = 125V/64</p>\r\n\r\n<p>अतः, आयतन में वृद्धि = [(125V/64 - V)/V] &times; 100 = 6100/64 = 95.31%</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>A right rectangular box&rsquo;s measurement are 1.6 m long, 90 cm wide, 60 cm in height. Soap cakes of measurement 6 cm &times; 5 cm &times; 40 mm are to be packed in the box, so that no space is left. How many cakes can be packed in the box?</p>\r\n",
+    "options": [
+      "<p>6000</p>\r\n",
+      "<p>5600</p>\r\n",
+      "<p>6500</p>\r\n",
+      "<p>7200</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>7200.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The length of a rectangular box = 1.6 m = 160 cm</p>\r\n\r\n<p>The breadth&nbsp;of the rectangular box&nbsp;= 90 cm</p>\r\n\r\n<p>The height&nbsp;of the&nbsp;rectangular box =&nbsp;60 cm</p>\r\n\r\n<p>Soap cakes of measurement 6 cm &times; 5 cm &times; 40 mm are to be packed in the box</p>\r\n\r\n<p>Let the number of cakes can be packed be N</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Volume of a cuboid or a rectangular box = Length&nbsp;&times; Breadth&nbsp;&times; Height</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; Volume of a rectangular box = N &times; Volume of a soap cakes</p>\r\n\r\n<p>&rArr; 160&nbsp;&times; 90&nbsp;&times; 60 = N&nbsp;&times; 6&nbsp;&times; 5&nbsp;&times; 4</p>\r\n\r\n<p>&rArr; N = 7200</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समकोण आयताकार बक्से की माप 1.6 मीटर लंबी, 90 सेमी चौड़ी, 60 सेमी ऊंचाई है। 6 सेमी &times; 5 सेमी &times; 40 मिमी माप के साबुन केक को बॉक्स में पैक करना है, ताकि कोई जगह न बचे। बॉक्स में कितने केक पैक किये जा सकते हैं?</p>\r\n",
+    "options_hi": [
+      "<p>6000</p>\r\n",
+      "<p>5600</p>\r\n",
+      "<p>6500</p>\r\n",
+      "<p>7200</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>7200 </strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;&nbsp;</p>\r\n\r\n<p>एक आयताकार बॉक्स की लंबाई = 1.6 मीटर = 160 सेमी</p>\r\n\r\n<p>आयताकार बॉक्स की चौड़ाई = 90 सेमी</p>\r\n\r\n<p>आयताकार बॉक्स की ऊंचाई = 60 सेमी</p>\r\n\r\n<p>6 सेमी &times; 5 सेमी &times; 40 मिमी माप के साबुन केक को बॉक्स में पैक किया जाना है</p>\r\n\r\n<p>माना पैक किए जा सकने वाले केक की संख्या N है</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>एक घनाभ या एक आयताकार बॉक्स का आयतन = लंबाई &times; चौड़ाई &times; ऊंचाई</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>&rArr; एक आयताकार बॉक्स का आयतन = N &times; साबुन केक का आयतन</p>\r\n\r\n<p>&rArr; 160&nbsp;&times; 90&nbsp;&times; 60 = N&nbsp;&times; 6&nbsp;&times; 5&nbsp;&times; 4</p>\r\n\r\n<p>&rArr; N = 7200</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The base of a right prism is an equilateral triangle with each side measuring 4 cm. If the lateral surface area is 120 cm<sup>2</sup>, find the volume (in cm<sup>3</sup>) of the prism.</p>\r\n",
+    "options": [
+      "<p>30&radic;3</p>\r\n",
+      "<p>40&radic;3</p>\r\n",
+      "<p>10&radic;3</p>\r\n",
+      "<p>20&radic;3</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> option 2</strong> i.e. <strong>40&radic;3</strong>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The side of an equilateral triangular base of a prism = 4 cm</p>\r\n\r\n<p>The lateral surface area of the prism =&nbsp; 120 cm<sup>2</sup></p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>The lateral area of a prism&nbsp;LSA&nbsp;= Perimeter of base &times; height of prism</p>\r\n\r\n<p>Volume of a prism = Area of&nbsp;Base &times; height of the prism</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; 120 = 3&nbsp;&times; 4&nbsp;&times; height</p>\r\n\r\n<p>height = 120/12 = 10 cm</p>\r\n\r\n<p>Hence, Volume of a prism =&nbsp;<strong>&radic;</strong>3/4&nbsp;&times; 4<sup>2</sup><strong>&nbsp;</strong>&times; 10 = 40<strong>&radic;</strong>3 cm<sup>3</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समकोण प्रिज्म का आधार एक समबाहु त्रिभुज है जिसकी प्रत्येक भुजा 4 सेमी मापी गई है। यदि पार्श्व पृष्ठ क्षेत्रफल 120 सेमी<sup>2</sup> है, तो प्रिज्म का आयतन (सेमी<sup>3 </sup>में) ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>30&radic;3</p>\r\n",
+      "<p>40&radic;3</p>\r\n",
+      "<p>10&radic;3</p>\r\n",
+      "<p>20&radic;3</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>40&radic;3&nbsp;</strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;&nbsp;</p>\r\n\r\n<p>प्रिज्म के समबाहु त्रिभुजाकार आधार की भुजा = 4 सेमी</p>\r\n\r\n<p>प्रिज्म का पार्श्व पृष्ठीय क्षेत्रफल =&nbsp; 120 सेमी<sup>2</sup></p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>प्रिज्म का पार्श्व क्षेत्र LSA = आधार का परिमाप &times; प्रिज्म की ऊंचाई</p>\r\n\r\n<p>प्रिज्म का आयतन = आधार का क्षेत्रफल &times; प्रिज्म की ऊंचाई</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>&rArr; 120 = 3 &times; 4 &times; ऊंचाई</p>\r\n\r\n<p>ऊंचाई = 120/12 = 10 सेमी</p>\r\n\r\n<p>इसलिए, एक प्रिज्म का आयतन&nbsp; =&nbsp;<strong>&radic;</strong>3/4&nbsp;&times; 4<sup>2</sup><strong>&nbsp;</strong>&times; 10 = 40<strong>&radic;</strong>3 cm<sup>3</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>A hollow cube is made of paper and has a volume of 512 cubic units. How much paper in square units will be required to make the cube?</p>\r\n",
+    "options": [
+      "<p>328</p>\r\n",
+      "<p>348</p>\r\n",
+      "<p>288</p>\r\n",
+      "<p>384</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>384.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>A hollow cube is made of paper to have a volume of 512 cubic units.</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Volume of a cube = side<sup>3</sup></p>\r\n\r\n<p>The total surface area of a cube = 6&nbsp;&times; side<sup>2</sup></p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; Side<sup>3</sup>&nbsp;= 512</p>\r\n\r\n<p>&rArr; side = 8 cm</p>\r\n\r\n<p>Total surface area = 6&nbsp;&times; 8<sup>2</sup>&nbsp;= 6&nbsp;&times; 64 = 384 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक खोखला घन कागज से बना है और इसका आयतन 512 घन इकाई है। घन बनाने के लिए वर्ग इकाइयों में कितने कागज की आवश्यकता होगी?</p>\r\n",
+    "options_hi": [
+      "<p>328</p>\r\n",
+      "<p>348</p>\r\n",
+      "<p>288</p>\r\n",
+      "<p>384</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>384</strong> है।</p>\r\n\r\n<p>दिया गया है&nbsp;</p>\r\n\r\n<p>एक खोखले घन कागज से बना होता है जिसका आयतन 512 घन इकाई होता है।</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>एक घन का आयतन = भुजा<sup>3</sup></p>\r\n\r\n<p>एक घन का कुल पृष्ठीय क्षेत्रफल = 6&nbsp;&times; भुजा<sup>2</sup></p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>&rArr; भुजा<sup>3</sup>&nbsp;= 512</p>\r\n\r\n<p>&rArr; भुजा= 8 सेमी</p>\r\n\r\n<p>कुल पृष्ठीय क्षेत्रफल = 6 &times; 8<sup>2</sup> = 6 &times; 64 = 384 सेमी<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>In an isosceles triangle, if the unequal side is 8&nbsp;cm and equal side is 5 cm. then the area of the triangle is:</p>\r\n",
+    "options": [
+      "<p>12 cm<sup>2</sup></p>\r\n",
+      "<p>25 cm<sup>2</sup></p>\r\n",
+      "<p>6 cm<sup>2</sup></p>\r\n",
+      "<p>11 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e <strong>12 cm<sup>2</sup></strong>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>In an isosceles triangle. if the unequal side is 8&nbsp;cm and equal side is 5 cm,</p>\r\n\r\n<p>In a triangle ABC, Equal sides AB = AC = 5 cm , unequal side BC = 8 cm</p>\r\n\r\n<p>Let The height of the triangle be h&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/Mensuration_13_2024_D12024_08_13_08_10_13.PNG\" style=\"height:180px; width:200px\" /></p>\r\n\r\n<p>By pythagorus theroem</p>\r\n\r\n<p>h =&nbsp;&radic;((5)<sup>2</sup>&nbsp;-&nbsp;(8/2)<sup>2</sup>) =&nbsp;&radic;(25 -&nbsp;16) =&nbsp;&radic;9 = 3 cm</p>\r\n\r\n<p>Hence, the area of the isosceles triangle =&nbsp;&frac12;&nbsp;&times;&nbsp;Base&nbsp;&times; Height =&nbsp;&frac12;&nbsp;&times; BC&nbsp;&times; h =&nbsp;&frac12;&nbsp;&times; 8&nbsp;&times; 3 = 12 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समद्विबाहु त्रिभुज में, यदि असमान भुजा 8 सेमी है और बराबर भुजा 5 सेमी है, तो त्रिभुज का क्षेत्रफल है:</p>\r\n",
+    "options_hi": [
+      "<p>12 सेमी<sup>2</sup></p>\r\n",
+      "<p>25 सेमी<sup>2</sup></p>\r\n",
+      "<p>6 सेमी<sup>2</sup></p>\r\n",
+      "<p>11 सेमी<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>12 सेमी<sup>2</sup></strong> है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>एक समद्विबाहु त्रिभुज में। यदि असमान भुजा 8 सेमी है और बराबर भुजा 5 सेमी है,</p>\r\n\r\n<p>एक त्रिभुज ABC में, बराबर भुजाएँ AB = AC = 5 सेमी, असमान भुजा BC = 8 सेमी</p>\r\n\r\n<p>माना त्रिभुज की ऊँचाई h है&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/Mensuration_13_2024_D12024_08_13_08_10_13.PNG\" style=\"height:180px; width:200px\" /></p>\r\n\r\n<p>पाइथागोरस प्रमेय द्वारा</p>\r\n\r\n<p>h =&nbsp;&radic;((5)<sup>2</sup>&nbsp;-&nbsp;(8/2)<sup>2</sup>) =&nbsp;&radic;(25 -&nbsp;16) =&nbsp;&radic;9 = 3 सेमी</p>\r\n\r\n<p>अतः, समद्विबाहु त्रिभुज का क्षेत्रफल = 1/2 &times; आधार &times; ऊँचाई&nbsp;=&nbsp;&frac12;&nbsp;&times; BC&nbsp;&times; h =&nbsp;&frac12;&nbsp;&times; 8&nbsp;&times; 3 = 12 सेमी<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the volume of the largest possible sphere circumscribed by a cube with an edge of 7 cm.</p>\r\n",
+    "options": [
+      "<p>179.67 cm<sup>3</sup></p>\r\n",
+      "<p>169.67 cm<sup>3</sup></p>\r\n",
+      "<p>189.67 cm<sup>3</sup></p>\r\n",
+      "<p>199.67 cm<sup>3</sup></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> option 1</strong> i.e.&nbsp;<strong>179.67 cm<sup>3</sup>.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>A cube with an edge of 7 cm</p>\r\n\r\n<p>The volume of the largest possible sphere circumscribed by a cube V = 4/3 &pi; r&sup3;</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The radius of sphere = 7/2 = 3.5 cm</p>\r\n\r\n<p>Volume of the largest possible area = 4/3 &times; (22/7)&nbsp;&times;&nbsp;3.5<sup>3</sup>&nbsp;= 179.67 cm<sup>3</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>7 सेमी किनारे वाले घन द्वारा परिबद्ध सबसे बड़े सम्भावित गोले का आयतन ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>179.67 घन सेमी&nbsp;</p>\r\n",
+      "<p>169.67 घन सेमी&nbsp;</p>\r\n",
+      "<p>189.67 घन सेमी&nbsp;</p>\r\n",
+      "<p>199.67 घन सेमी&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>179.67 घन सेमी&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>7 सेमी किनारे वाला एक घन</p>\r\n\r\n<p>घन V द्वारा परिबद्ध&nbsp;सबसे बड़े संभावित गोले का आयतन = 4/3 &pi; r&sup3;</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>गोले की त्रिज्या = 7/2 = 3.5 सेमी</p>\r\n\r\n<p>सबसे बड़े&nbsp;संभावित क्षेत्रफल का आयतन = 4/3 &times; (22/7)&nbsp;&times;&nbsp;3.5<sup>3</sup>&nbsp;= 179.67&nbsp;घन सेमी</p>\r\n"
+  },
+  {
+    "question": "<p>The difference between the total surface area and the lateral surface area of a cube of side 12 cm is:</p>\r\n",
+    "options": [
+      "<p>235 cm<sup>2</sup></p>\r\n",
+      "<p>290&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>288&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>286 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3&nbsp;</strong>i.e.&nbsp;<strong>288&nbsp;cm<sup>2</sup>.</strong></p>\r\n\r\n<p>The total surface area of the cube =&nbsp;6a<sup>2</sup></p>\r\n\r\n<p>The lateral surface area of the&nbsp;cube = 4a<sup>2</sup></p>\r\n\r\n<p>Side of the cube a = 12 cm</p>\r\n\r\n<p>Difference =&nbsp;6a<sup>2</sup>- 4a<sup>2&nbsp;</sup>= 2a<sup>2</sup></p>\r\n\r\n<p>= 2 &times; 12<sup>2</sup></p>\r\n\r\n<p>= 288 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>12 सेमी भुजा वाले घन के कुल पृष्ठीय क्षेत्रफल और पार्श्व पृष्ठीय क्षेत्रफल के बीच का अंतर है:</p>\r\n",
+    "options_hi": [
+      "<p>235 सेमी<sup>2</sup></p>\r\n",
+      "<p>290 सेमी<sup>2</sup></p>\r\n",
+      "<p>288&nbsp;सेमी<sup>2</sup></p>\r\n",
+      "<p>286 सेमी<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>288 सेमी<sup>2</sup> </strong>है।</p>\r\n\r\n<p>घन का कुल पृष्ठीय क्षेत्रफल = 6a<sup>2</sup></p>\r\n\r\n<p>घन का पार्श्व पृष्ठीय क्षेत्रफल = 4a<sup>2</sup></p>\r\n\r\n<p>घन की भुजा a = 12 सेमी</p>\r\n\r\n<p>अंतर = 6a<sup>2</sup>- 4a<sup>2</sup> = 2a<sup>2</sup></p>\r\n\r\n<p>= 2 &times; 12<sup>2</sup></p>\r\n\r\n<p>= 288 सेमी<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The length, breadth, and height of a room are 7 m, 5 m, and 3m, respectively. Find the cost of whitewashing the walls of the room and the ceiling at the rate of Rs. 16 per m<sup>2</sup></p>\r\n",
+    "options": [
+      "<p>Rs.1,712</p>\r\n",
+      "<p>Rs.1,742</p>\r\n",
+      "<p>Rs.1,698</p>\r\n",
+      "<p>Rs.1,684</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1&nbsp;</strong>i.e.<strong>&nbsp;Rs. 1,712.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The length, breadth, and height of a room are 7 m, 5 m and 3m,&nbsp;respectively</p>\r\n\r\n<p>The ceiling at the rate of Rs. 16 per m<sup>2</sup></p>\r\n\r\n<p>Area of walls&nbsp;of the room = 2(l + b)&nbsp;&times; h</p>\r\n\r\n<p>where, l = length of room, b = breadth of room, h = height of room</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>Area of walls of the room = 2 (7&nbsp;+ 5)&nbsp;&times; 3&nbsp;=&nbsp; 72 cm<sup>2</sup></p>\r\n\r\n<p>Area of the roof =&nbsp;7&nbsp;&times;&nbsp;5 = 35 cm<sup>2</sup></p>\r\n\r\n<p>Hence, the required cost of whitewashing of walls = (72 + 35) &times; 16 = Rs. 1712&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कमरे की लंबाई, चौड़ाई और ऊँचाई&nbsp;क्रमशः 7 मीटर, 5 मीटर और 3 मीटर है। 16 रुपये प्रति वर्ग मीटर की दर से कमरे की दीवारों और छत पर सफेद वाश&nbsp;कराने की लागत ज्ञात कीजिए।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>1,712 रुपये&nbsp;</p>\r\n",
+      "<p>1,742 रुपये&nbsp;</p>\r\n",
+      "<p>1,698 रुपये&nbsp;</p>\r\n",
+      "<p>1,684 रुपये&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>1,712 रुपये </strong>है।<strong>&nbsp;&nbsp;</strong>&nbsp;&nbsp;</p>\r\n\r\n<p>दिया गया है&nbsp;</p>\r\n\r\n<p>एक कमरे की लंबाई, चौड़ाई और ऊँचाई&nbsp;क्रमशः 7 मीटर, 5 मीटर और 3 मीटर है</p>\r\n\r\n<p>छत&nbsp;16 रूपये प्रति वर्ग मीटर की दर से</p>\r\n\r\n<p>कमरे की दीवारों का क्षेत्रफल =&nbsp;2(l + b)&nbsp;&times; h</p>\r\n\r\n<p>जहाँ, l = कमरे की लंबाई, b = कमरे की चौड़ाई, h = कमरे की ऊँचाई</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>छत का क्षेत्रफल = 7 &times; 5 = 35 सेमी<sup>2</sup></p>\r\n\r\n<p>अतः, दीवारों की सफेद वाश&nbsp;कराने की अभीष्ट लागत = (72 + 35) &times; 16 =&nbsp;1712 रुपये&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>The perimeter of a parallelogram is 48 cm. If the height of the parallelogram is 6 cm and the length of the adjacent side is 8 cm. find its area.</p>\r\n",
+    "options": [
+      "<p>90 cm<sup>2</sup></p>\r\n",
+      "<p>80 cm<sup>2</sup></p>\r\n",
+      "<p>84 cm<sup>2</sup></p>\r\n",
+      "<p>96 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e.&nbsp;<strong>96 cm<sup>2</sup></strong>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The perimeter of a parallelogram is 48 cm.</p>\r\n\r\n<p>The height of the parallelogram is 6 cm and the length of the adjacent side is 8 cm</p>\r\n\r\n<p>Area of a parallelogram = Base&nbsp;&times; Height&nbsp;</p>\r\n\r\n<p>Perimeter of a parallelogram = 2 (adjacent side + base)</p>\r\n\r\n<p>Perimeter = 2 (8 + Base) = 48</p>\r\n\r\n<p>Base = 24 - 8 = 16 cm</p>\r\n\r\n<p>Hence, Area of the parallelogram = 16&nbsp;&times; 6 = 96 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समांतर चतुर्भुज की परिधि 48 सेमी है। यदि समांतर चतुर्भुज की ऊंचाई 6 सेमी है और आसन्न भुजा की लंबाई 8 सेमी है, तो इसका क्षेत्रफल ज्ञात कीजिये।</p>\r\n",
+    "options_hi": [
+      "<p>90 सेमी<sup>2</sup></p>\r\n",
+      "<p>80 सेमी<sup>2</sup></p>\r\n",
+      "<p>84 सेमी<sup>2</sup></p>\r\n",
+      "<p>96 सेमी<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>96 सेमी<sup>2</sup> </strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>एक समांतर चतुर्भुज की परिधि 48 सेमी है।</p>\r\n\r\n<p>समांतर चतुर्भुज की ऊंचाई 6 सेमी है और आसन्न भुजा की लंबाई 8 सेमी है</p>\r\n\r\n<p>एक समांतर चतुर्भुज का क्षेत्रफल = आधार &times; ऊँचाई&nbsp;</p>\r\n\r\n<p>एक समांतर चतुर्भुज का परिमाप = 2 (आसन्न भुजा + आधार)</p>\r\n\r\n<p>परिधि = 2 (8 + आधार) = 48</p>\r\n\r\n<p>आधार = 24 - 8 = 16 सेमी</p>\r\n\r\n<p>अतः, समांतर चतुर्भुज का क्षेत्रफल = 16 &times; 6 = 96 सेमी<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The length of each side of an equilateral triangle is 22 cm. Find the area (in cm<sup>2</sup>) of this triangle.</p>\r\n",
+    "options": [
+      "<p>121</p>\r\n",
+      "<p>242<span class=\"math-tex\">\\(\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(121\\sqrt3\\)</span></p>\r\n",
+      "<p>242</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3&nbsp;</strong>i.e.&nbsp;<span class=\"math-tex\">\\(121\\sqrt3\\)</span>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The length of each side of an equilateral triangle is 22 cm</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Area of an equilateral triangle =&nbsp;<span class=\"math-tex\">\\(\\sqrt3\\)</span>/4&nbsp;&times; (side)<sup>2</sup></p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>Area =&nbsp;<span class=\"math-tex\">\\(\\sqrt3\\)</span>/4&nbsp;&times; (22)<sup>2</sup>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt3\\)</span>/4&nbsp;&times; 484 =&nbsp;&nbsp;<span class=\"math-tex\">\\(121\\sqrt3\\)</span>&nbsp;cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समबाहु त्रिभुज की प्रत्येक भुजा की लंबाई 22 सेमी है। इस त्रिभुज का क्षेत्रफल (सेमी<sup>2</sup> में) ज्ञात कीजिये।</p>\r\n",
+    "options_hi": [
+      "<p>121</p>\r\n",
+      "<p>242<span class=\"math-tex\">\\(\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(121\\sqrt3\\)</span></p>\r\n",
+      "<p>242</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात्&nbsp;<span class=\"math-tex\">\\(121\\sqrt3\\)</span>&nbsp;&nbsp;है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>एक समबाहु त्रिभुज की प्रत्येक भुजा की लंबाई 22 सेमी है</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>एक समबाहु त्रिभुज का क्षेत्रफल =&nbsp;<span class=\"math-tex\">\\(\\sqrt3\\)</span>/4&nbsp;&times; (side)<sup>2</sup></p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>क्षेत्रफल =&nbsp;<span class=\"math-tex\">\\(\\sqrt3\\)</span>/4&nbsp;&times; (22)<sup>2</sup>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt3\\)</span>/4&nbsp;&times; 484 =&nbsp;&nbsp;<span class=\"math-tex\">\\(121\\sqrt3\\)</span>&nbsp;सेमी<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The sum of the radius of the base and the height of a cylinder is 42 m. If the total surface area of the cylinder is 6336 mm<sup>2</sup>, find the curved surface area of the cylinder, (correct to two places of decimals) (use&nbsp;&pi; =<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>).</p>\r\n",
+    "options": [
+      "<p>2157.43 m<sup>2</sup></p>\r\n",
+      "<p>2571.43 m<sup>2</sup></p>\r\n",
+      "<p>2715.43 m<sup>2</sup></p>\r\n",
+      "<p>2517.43 m<sup>2</sup></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>2715.43 m<sup>2</sup>.</strong></p>\r\n\r\n<p>Given that.</p>\r\n\r\n<p>Radius (r) + Height (h) = 42 m</p>\r\n\r\n<p>The total surface area of the cylinder is 6336 m<sup>2</sup>,</p>\r\n\r\n<p>Total surface area of cylinder = 2&pi;r(r + h)</p>\r\n\r\n<p>Curved surface area (CSA) of cylinder = 2&pi;rh sq.&nbsp;units</p>\r\n\r\n<p>&rArr; 2&pi;r(r + h) = 6336</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>&nbsp;&times; r&nbsp;&times; 42 = 6336</p>\r\n\r\n<p>&rArr; r = 24 m</p>\r\n\r\n<p>So, h = 42 - 24 = 18 m</p>\r\n\r\n<p>Hence,&nbsp;CSA&nbsp;of cylinder = 2&nbsp;&times; <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>&nbsp;&times; 24&nbsp;&times; 18 =&nbsp;2715.43 m<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बेलन के आधार की त्रिज्या और ऊंचाई का योग 42 मीटर है। यदि बेलन का कुल पृष्ठीय क्षेत्रफल 6336 मिमी<sup>2 </sup>है, तो दशमलव के दो स्थानों तक सही, बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए (प्रयोग&nbsp;&pi; =&nbsp;<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>)।</p>\r\n",
+    "options_hi": [
+      "<p>2157.43 मी<sup>2</sup></p>\r\n",
+      "<p>2571.43 मी<sup>2</sup></p>\r\n",
+      "<p>2715.43 मी<sup>2</sup></p>\r\n",
+      "<p>2517.43 मी<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>2715.43 मी</strong><sup><strong>2</strong>&nbsp;</sup>है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>त्रिज्या (r) + ऊँचाई (h) = 42 m</p>\r\n\r\n<p>बेलनका कुल पृष्ठीय क्षेत्रफल 6336 मिमी<sup> 2</sup> है,</p>\r\n\r\n<p>बेलन का कुल पृष्ठीय क्षेत्रफल = 2&pi;r(r + h)</p>\r\n\r\n<p>बेलन का वक्र पृष्ठीय क्षेत्रफल (CSA) = 2&pi;rh वर्ग इकाई</p>\r\n\r\n<p>&rArr; 2&pi;r(r + h) = 6336</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>&nbsp;&times; r&nbsp;&times; 42 = 6336</p>\r\n\r\n<p>&rArr; r = 24 m</p>\r\n\r\n<p>इसलिए, h = 42 - 24 = 18 m</p>\r\n\r\n<p>अतः बेलन का वक्र पृष्ठीय क्षेत्रफल= 2&nbsp;&times; <span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>&nbsp;&times; 24&nbsp;&times; 18 =&nbsp;2715.43 मी<sup>2</sup></p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>if the height and slant height of a cone are 21 cm and 29 cm, respectively. Find its volume.&nbsp;<span class=\"math-tex\">\\((π= \\frac{22}{7})\\)</span></p>\r\n",
+    "options": [
+      "<p>8800 cm<sup>3</sup></p>\r\n",
+      "<p>8708 cm<sup>3</sup></p>\r\n",
+      "<p>8440 cm<sup>3</sup></p>\r\n",
+      "<p>8080 cm<sup>3</sup></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1&nbsp;</strong>i.e.<strong> 8800 cm<sup>3</sup>.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The height (h) and slant height (l) of a cone are 21 cm and 29 cm, respectively.</p>\r\n\r\n<p>Slant height (l) = &radic;(h<sup>2</sup>+ r<sup>2</sup>)</p>\r\n\r\n<p>The volume of a cone is&nbsp;<strong>⅓ </strong>𝜋r<sup>2</sup>h cubic units</p>\r\n\r\n<p>where r is the radius of a cone</p>\r\n\r\n<p>&rArr; 29 = &radic;(21<sup>2</sup>+ r<sup>2</sup>)</p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>= 29<sup>2</sup>&nbsp;- 21<sup>2</sup>&nbsp;= 841 - 441 = 400</p>\r\n\r\n<p>&rArr; r = 20 cm</p>\r\n\r\n<p>Hence, Volume of a cone =&nbsp;⅓ &times;&nbsp;(22/7) &times; 20<sup>2&nbsp;</sup>&times; 21 = 8800 cm<sup>3</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि शंकु की ऊंचाई और तिर्यक ऊंचाई क्रमशः 21 सेमी और 29 सेमी है। इसका आयतन ज्ञात कीजिए।<span class=\"math-tex\">\\((π= \\frac{22}{7})\\)</span></p>\r\n",
+    "options_hi": [
+      "<p>8800 सेमी <sup>3</sup></p>\r\n",
+      "<p>8708 सेमी<sup>3</sup></p>\r\n",
+      "<p>8440 सेमी<sup>3</sup></p>\r\n",
+      "<p>8080 सेमी<sup>3</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात्<strong> 8800 सेमी<sup>3 </sup></strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>एक शंकु की ऊंचाई (h) और तिर्यक ऊंचाई (l) क्रमशः 21 सेमी और 29 सेमी है।</p>\r\n\r\n<p>तिर्यक ऊंचाई (l) = &radic;(h<sup>2</sup>+ r<sup>2</sup>)</p>\r\n\r\n<p>एक शंकु का आयतन <strong>⅓ </strong>𝜋r<sup>2</sup>h घन इकाई है</p>\r\n\r\n<p>जहाँ, r एक शंकु की त्रिज्या है</p>\r\n\r\n<p>&rArr; 29 = &radic;(21<sup>2</sup>+ r<sup>2</sup>)</p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>= 29<sup>2</sup>&nbsp;- 21<sup>2</sup>&nbsp;= 841 - 441 = 400</p>\r\n\r\n<p>&rArr; r = 20 सेमी</p>\r\n\r\n<p>इसलिए, एक शंकु का आयतन =&nbsp;⅓ &times;&nbsp;(22/7) &times; 20<sup>2&nbsp;</sup>&times; 21 = 8800 सेमी<sup>3</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If a right circular cone of height 24 cm has the circumference of its base 42&pi; cm, then the volume of the cone is<br />\r\n(use&nbsp;<strong>&pi; =&nbsp;<span class=\"math-tex\">\\(\\frac{22}{7}\\)</span>)</strong></p>\r\n",
+    "options": [
+      "<p>15211 cm&sup3;</p>\r\n",
+      "<p>11088 cm&sup3;</p>\r\n",
+      "<p>12034 cm&sup3;</p>\r\n",
+      "<p>21011 cm&sup3;</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2 i.e.&nbsp;11088 cm&sup3;.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If a right circular cone of height 24 cm has the circumference of its base 42&pi; cm</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Volume of a cone =&nbsp;<strong>⅓</strong> 𝜋r<sup>2</sup>h cubic units</p>\r\n\r\n<p>The circumference of its base =&nbsp;2&pi;r</p>\r\n\r\n<p>where, r is radius and h is height of the cone</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>2&pi;r = 42&pi;</p>\r\n\r\n<p>r = 21 cm</p>\r\n\r\n<p>Volume of a cone =&nbsp;<strong>⅓</strong> 𝜋r<sup>2</sup>h = (1/3)&nbsp;&times; (22/7)&nbsp;&times; 441&nbsp;&times; 24 = 11088&nbsp;cm&sup3;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 24 सेमी ऊंचाई वाले एक लंब वृत्तीय शंकु के आधार की परिधि 42&pi; सेमी है, तो शंकु का आयतन क्या है?<br />\r\n(&nbsp;<strong>&pi; =&nbsp;<strong><span class=\"math-tex\">\\(\\frac{22}{7}\\)</span></strong></strong>लें<strong>)</strong></p>\r\n",
+    "options_hi": [
+      "<p>15211 सेमी&sup3;</p>\r\n",
+      "<p>11088 सेमी&sup3;</p>\r\n",
+      "<p>12034 सेमी&sup3;</p>\r\n",
+      "<p>21011 सेमी&sup3;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात्<strong> 11088 सेमी&sup3;</strong> है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>यदि 24 सेमी ऊंचाई वाले एक लंब वृत्तीय शंकु के आधार की परिधि 42&pi; सेमी है</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>शंकु का आयतन&nbsp; = <strong>⅓</strong> 𝜋r<sup>2</sup>h घन इकाइयों</p>\r\n\r\n<p>इसके आधार की परिधि = 2&pi;r</p>\r\n\r\n<p>जहाँ, R त्रिज्या है और h शंकु की ऊंचाई है</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>2&pi;r = 42&pi;</p>\r\n\r\n<p>r = 21 c</p>\r\n\r\n<p>शंकु का आयतन =&nbsp;<strong>⅓</strong> 𝜋r<sup>2</sup>h = (1/3)&nbsp;&times; (22/7)&nbsp;&times; 441&nbsp;&times; 24 = 11088&nbsp;सेमी&sup3;</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->"
+  },
+  {
+    "question": "<p>Aman wants to get his spherical overhead water tank having a diameter of 7 m, painted. If the cost of painting is Rs 13 per square meter, find the cost of painting Aman&#39;s spherical overhead water tank. (Use&nbsp;&pi; = 22/7)</p>\r\n",
+    "options": [
+      "<p>Rs 1872</p>\r\n",
+      "<p>Rs 1984</p>\r\n",
+      "<p>Rs 2002</p>\r\n",
+      "<p>Rs 1926</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3 </strong>i.e.<strong> Rs 2002</strong></p>\r\n\r\n<p>Diameter = 7 cm</p>\r\n\r\n<p>The cost of painting is Rs 13 per square meter</p>\r\n\r\n<p>The total surface of a sphere = 4&pi;r<sup>2</sup></p>\r\n\r\n<p>Where, r = radius</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr; TSA = 4&nbsp;&times; 22/7&nbsp;&times; (7/2)<sup>2</sup></p>\r\n\r\n<p>&rArr; 154 cm<sup>2</sup></p>\r\n\r\n<p>Required cost of painting = 154&nbsp;&times; 13 = Rs 2002</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>अमन अपने 7 मीटर व्यास वाले गोलाकार ओवरहेड पानी के टंकी को पेंट करवाना चाहता है। यदि पेंटिंग की लागत 13 रुपये प्रति वर्ग मीटर है, तो अमन के गोलाकार ओवरहेड पानी के टंकी की पेंटिंग की लागत ज्ञात करें। (&pi; = 22/7<strong> </strong>का प्रयोग करें)</p>\r\n",
+    "options_hi": [
+      "<p>1872 रुपये&nbsp;</p>\r\n",
+      "<p>1984 रुपये&nbsp;</p>\r\n",
+      "<p>2002 रुपये&nbsp;</p>\r\n",
+      "<p>1926 रुपये&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>2002 रुपये</strong> है।</p>\r\n\r\n<p>व्यास = 7 सेमी</p>\r\n\r\n<p>पेंटिंग की लागत 13 रुपये प्रति वर्ग मीटर है</p>\r\n\r\n<p>गोले की पृष्ठीय क्षेत्रफल&nbsp;= 4&pi;r<sup>2</sup></p>\r\n\r\n<p>जहाँ, r = त्रिज्या</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr; गोले की पृष्ठीय क्षेत्रफल&nbsp;= 4&nbsp;&times; 22/7&nbsp;&times; (7/2)<sup>2</sup></p>\r\n\r\n<p>&rArr; 154 वर्ग सेमी&nbsp;</p>\r\n\r\n<p>पेंटिंग की अभीष्ट लागत = 154 &times; 13 = 2002 रुपये</p>\r\n"
+  },
+  {
+    "question": "<p>A cube of side 5 cm, has been assembled using 125 cubes each of 1 cm edge. One cube is removed from the middle of each of the faces of the cube. What is the surface area (in cm<sup>2</sup>) of the remaining solid?</p>\r\n",
+    "options": [
+      "<p>155</p>\r\n",
+      "<p>144</p>\r\n",
+      "<p>150</p>\r\n",
+      "<p>174</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4</strong> i.e. <strong>174.</strong></p>\r\n\r\n<p>Side of the big cube = 5 cm</p>\r\n\r\n<p>side of the small cube = 1 cm</p>\r\n\r\n<p>The surface area of a cube = 6a<sup>2</sup>&nbsp;= 6(5)<sup>2</sup>&nbsp;= 6(24) = 150 cm<sup>2</sup></p>\r\n\r\n<p>Increased surface area when one cube is removed = 5(side of the small cube) - 1(side of the small cube)</p>\r\n\r\n<p>&nbsp;= 5 - 1 = 4 cm<sup>2</sup></p>\r\n\r\n<p>So, the total increase in surface area when One cube is removed from the middle of each of the faces of the cube = 6&nbsp;&times; 4 = 24 cm<sup>2</sup></p>\r\n\r\n<p>The surface area&nbsp;&nbsp;of the remaining solid = 150 + 24 = 174 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>5 सेमी भुजा वाले एक घन को 1 सेमी भुजा वाले 125 घनों का उपयोग करके जोड़ा गया है। घन के प्रत्येक फलक के मध्य से एक घन हटा दिया जाता है। शेष ठोस का पृष्ठीय क्षेत्रफल (सेमी<sup>2</sup> में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>155</p>\r\n",
+      "<p>144</p>\r\n",
+      "<p>150</p>\r\n",
+      "<p>174</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>174 </strong>है।</p>\r\n\r\n<p>बड़े घन की भुजा = 5 सेमी</p>\r\n\r\n<p>छोटे घन की भुजा = 1 सेमी</p>\r\n\r\n<p>घन का पृष्ठीय क्षेत्रफल = 6a<sup>2</sup>&nbsp;= 6(5)<sup>2</sup>&nbsp;= 6(24) = 150 सेमी<sup>2</sup></p>\r\n\r\n<p>जब एक घन हटाया जाता है तो पृष्ठीय क्षेत्रफल में वृद्धि = 5(छोटे घन की भुजा) - 1(छोटे घन की भुजा)</p>\r\n\r\n<p>= 5 - 1 = 4 सेमी<sup>2</sup></p>\r\n\r\n<p>इसलिए, जब घन के प्रत्येक फलक के मध्य से एक घन हटाया जाता है तो पृष्ठीय क्षेत्रफल में कुल वृद्धि = 6&nbsp;&times; 4 = 24 सेमी<sup>2</sup></p>\r\n\r\n<p>शेष ठोस का पृष्ठीय क्षेत्रफल = 150 + 24 = 174 सेमी<sup>2</sup></p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The length of a rectangular plot is thrice its breadth. If the area of the rectangular plot is 2700 m<sup>2</sup>, then what is the breadth of the rectangular plot?</p>\r\n",
+    "options": [
+      "<p>20 m</p>\r\n",
+      "<p>12 m</p>\r\n",
+      "<p>30 m</p>\r\n",
+      "<p>28 m</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong> i.e. <strong>30m.</strong></p>\r\n\r\n<p>Let the breadth of the rectangular plot be x.</p>\r\n\r\n<p>Length of the plot = 3(Breadth) = 3x</p>\r\n\r\n<p>Area of the rectangular plot = length(Breadth) = 2700 m<sup>2</sup></p>\r\n\r\n<p>&rArr; x(3x) = 2700</p>\r\n\r\n<p>&rArr; 3x<sup>2</sup>= 2700</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>= 900</p>\r\n\r\n<p>x = 30 m</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आयताकार भूखंड की लंबाई उसकी चौड़ाई की तीन गुनी है। यदि आयताकार भूखंड का क्षेत्रफल 2700 वर्ग मीटर है, तो आयताकार भूखंड की चौड़ाई क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>20 मी</p>\r\n",
+      "<p>12&nbsp;मी</p>\r\n",
+      "<p>30&nbsp;मी</p>\r\n",
+      "<p>28&nbsp;मी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>30 मी</strong> है।</p>\r\n\r\n<p>माना आयताकार भूखंड की चौड़ाई x है</p>\r\n\r\n<p>भूखंड&nbsp;की लंबाई = 3(चौड़ाई) = 3x</p>\r\n\r\n<p>आयताकार भूखंड का क्षेत्रफल = लंबाई (चौड़ाई) = 2700&nbsp;वर्ग मीटर</p>\r\n\r\n<p>&rArr; x(3x) = 2700</p>\r\n\r\n<p>&rArr; 3x<sup>2</sup>= 2700</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>= 900</p>\r\n\r\n<p>x = 30 मी</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The radii of two cylinders are in the ratio 2 : 1 and their heights are in the ratio 5 : 2. The ratio of their volumes is:</p>\r\n",
+    "options": [
+      "<p>20 : 1</p>\r\n",
+      "<p>15 : 1</p>\r\n",
+      "<p>10 : 1</p>\r\n",
+      "<p>5 : 1</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong> i.e. <strong>10 : 1.</strong></p>\r\n\r\n<p>The ratio of radius = 2 : 1</p>\r\n\r\n<p>The ratio of heights = 5&nbsp;: 2</p>\r\n\r\n<p>The volume of the cylinder&nbsp;= &pi;r<sup>2</sup>h (Where r and h represent the radius and height of the cylinder)</p>\r\n\r\n<p>Volume of 1st cylinder/Volume of 2nd cylinder = &pi;R<sup>2</sup>H/&pi;r<sup>2</sup>h</p>\r\n\r\n<p>= &pi;(2)<sup>2</sup>5/&pi;(1)<sup>2</sup>2</p>\r\n\r\n<p>= 20&nbsp;: 2</p>\r\n\r\n<p>= 10 : 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो सिलेंडरों की त्रिज्याएँ 2 : 1 के अनुपात में हैं और उनकी ऊँचाइयाँ 5 : 2 के अनुपात में हैं। उनके आयतन का अनुपात है:</p>\r\n",
+    "options_hi": [
+      "<p>20 : 1</p>\r\n",
+      "<p>15 : 1</p>\r\n",
+      "<p>10 : 1</p>\r\n",
+      "<p>5 : 1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात <strong>10 : 1</strong> है।</p>\r\n\r\n<p>त्रिज्या का अनुपात = 2 : 1</p>\r\n\r\n<p>ऊंचाई का अनुपात = 5 : 2</p>\r\n\r\n<p>सिलेंडर का आयतन = &pi;r<sup>2</sup>h (जहां r और h सिलेंडर की त्रिज्या और ऊंचाई को दर्शाते हैं)</p>\r\n\r\n<p>पहले सिलेंडर का आयतन/दूसरे सिलेंडर का आयतन =&nbsp;&pi;R<sup>2</sup>H/&pi;r<sup>2</sup>h</p>\r\n\r\n<p>= &pi;(2)<sup>2</sup>5/&pi;(1)<sup>2</sup>2</p>\r\n\r\n<p>= 20&nbsp;: 2</p>\r\n\r\n<p>= 10 : 1</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The height and the radius of the base of a right circular cone are in the ratio of 12 : 5. If&nbsp;its volume is 314 cm<sup>3</sup>, then what is the slant height of the cone? (Use &pi; = 3.14)</p>\r\n",
+    "options": [
+      "<p>12 cm</p>\r\n",
+      "<p>11&nbsp;cm</p>\r\n",
+      "<p>13&nbsp;cm</p>\r\n",
+      "<p>14&nbsp;cm</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3 </strong>i.e. <strong>13 cm.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The ratio of radius and height of a circular cone = 5&nbsp;: 12</p>\r\n\r\n<p>Its volume is 314 cm<sup>3</sup>,</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Volume of a cone =&nbsp;&nbsp;⅓ 𝜋r<sup>2</sup>h cubic units</p>\r\n\r\n<p>Slant height (l) =&nbsp;&radic;(r<sup>2&nbsp;</sup>+ h<sup>2</sup>)</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; ⅓ 𝜋r<sup>2</sup>h = 314</p>\r\n\r\n<p>&rArr; ⅓ &times; 3.14 &times; 25x<sup>2&nbsp;</sup>&nbsp;&times; 12x&nbsp;= 314</p>\r\n\r\n<p>&rArr; 100x<sup>3</sup>&nbsp;= 100</p>\r\n\r\n<p>&rArr; x<sup>3&nbsp;</sup>= 1</p>\r\n\r\n<p>&rArr; x = 1&nbsp;</p>\r\n\r\n<p>The radius (r) = 5 cm and height (h) = 12 cm</p>\r\n\r\n<p>Hence,&nbsp;Slant height (l) =&nbsp;&radic;(5<sup>2&nbsp;</sup>+ 12<sup>2</sup>) =&nbsp;&radic;(25 + 144) =&nbsp;&radic;169 = 13 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक लंब वृत्तीय शंकु के आधार की ऊंचाई और त्रिज्या का अनुपात 12 : 5 है। यदि इसका आयतन 314 सेमी<sup>3</sup> है, तो शंकु की तिर्यक ऊंचाई क्या है? (&pi; = 3.14 का प्रयोग करें)</p>\r\n",
+    "options_hi": [
+      "<p>12 सेमी</p>\r\n",
+      "<p>11 सेमी</p>\r\n",
+      "<p>13 सेमी</p>\r\n",
+      "<p>14 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>13 सेमी </strong>है।</p>\r\n\r\n<p>दिया गया है&nbsp;</p>\r\n\r\n<p>वृत्तीय शंकु की त्रिज्या और ऊंचाई का अनुपात = 5 : 12</p>\r\n\r\n<p>इसका आयतन 314 सेमी<sup>3</sup> है,</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>शंकु की आयतन = ⅓ 𝜋r<sup>2</sup>h घन इकाइयों</p>\r\n\r\n<p>तिर्यक ऊंचाई (l) =&nbsp;&radic;(r<sup>2&nbsp;</sup>+ h<sup>2</sup>)</p>\r\n\r\n<p>गणना&nbsp;</p>\r\n\r\n<p>&rArr; ⅓ 𝜋r<sup>2</sup>h = 314</p>\r\n\r\n<p>&rArr; ⅓ &times; 3.14 &times; 25x<sup>2&nbsp;</sup>&nbsp;&times; 12x&nbsp;= 314</p>\r\n\r\n<p>&rArr; 100x<sup>3</sup>&nbsp;= 100</p>\r\n\r\n<p>&rArr; x<sup>3&nbsp;</sup>= 1</p>\r\n\r\n<p>&rArr; x = 1&nbsp;</p>\r\n\r\n<p>त्रिज्या (r) = 5 सेमी और ऊंचाई (h) = 12 सेमी</p>\r\n\r\n<p>अतः, तिर्यक ऊंचाई (l) =&nbsp;&radic;(5<sup>2&nbsp;</sup>+ 12<sup>2</sup>) =&nbsp;&radic;(25 + 144) =&nbsp;&radic;169 = 13 सेमी</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->"
+  },
+  {
+    "question": "<p>If the radius of a sphere is doubled, then its surface area will be increased by:</p>\r\n",
+    "options": [
+      "<p>100%</p>\r\n",
+      "<p>200%</p>\r\n",
+      "<p>300%</p>\r\n",
+      "<p>400%</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e. <strong>300%.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If the radius of a sphere is doubled,</p>\r\n\r\n<p>So, the radius is increasing by 100%</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>The surface area increased by = r + r + r<sup>2</sup>/100</p>\r\n\r\n<p>Where r is the increased radius % of a sphere</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>The surface area increased by = 100&nbsp;+ 100&nbsp;+ 100<sup>2</sup> /100 = 100 + 100 + 100 = 300%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि एक गोले की त्रिज्या दोगुनी कर दी जाती है, तो इसके पृष्ठीय क्षेत्रफल में कितनी वृद्धि होगी?</p>\r\n",
+    "options_hi": [
+      "<p>100%</p>\r\n",
+      "<p>200%</p>\r\n",
+      "<p>300%</p>\r\n",
+      "<p>400%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>300%</strong> है।</p>\r\n\r\n<p>दिया गया है</p>\r\n\r\n<p>यदि एक गोले की त्रिज्या दोगुनी कर दी जाती है,</p>\r\n\r\n<p>तो, त्रिज्या 100% बढ़ रही है</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>पृष्ठीय क्षेत्रफल में वृद्धि = r + r + r<sup>2</sup>/100</p>\r\n\r\n<p>जहाँ are एक गोले की बढ़ी हुई त्रिज्या% है</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>पृष्ठीय क्षेत्रफल में वृद्धि = 100 + 100 + 1002 /100 = 100 + 100 + 100 = 300%</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The curved surface area (CSA) and the total surface area (TSA) of a hemisphere whose radius is 7 cm are:</p>\r\n",
+    "options": [
+      "<p>CSA &ndash; 350 cm<sup>2</sup> ; TSA &ndash; 500 cm<sup>2</sup></p>\r\n",
+      "<p>CSA &ndash; 320 cm<sup>2</sup> ; TSA &ndash; 480 cm<sup>2</sup></p>\r\n",
+      "<p>CSA &ndash; 412 cm<sup>2</sup> ; TSA &ndash; 544 cm<sup>2</sup></p>\r\n",
+      "<p>CSA &ndash; 308 cm<sup>2</sup> ; TSA &ndash; 462 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4</strong> i.e.<strong>&nbsp;CSA &ndash; 308 cm<sup>2</sup> ; TSA &ndash; 462 cm<sup>2</sup>.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The radius of a hemisphere (r) = 7 cm</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>The total surface area (TSA) of a hemisphere&nbsp;= 3&pi;r<sup>2</sup>&nbsp;square units.</p>\r\n\r\n<p>The curved surface area (CSA) of a hemisphere =&nbsp;2&pi;r<sup>2</sup>&nbsp;square units.</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>TSA = 3&nbsp;&times; (22/7)&nbsp;&times; 49 = 462 cm<sup>2</sup></p>\r\n\r\n<p>CSA = 2 &times; (22/7)&nbsp;&times; 49 = 308&nbsp;cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक अर्धगोले जिसकी त्रिज्या 7 सेमी है, का वक्र पृष्ठीय क्षेत्रफल और कुल पृष्ठीय क्षेत्रफल&nbsp;क्रमशः हैं:</p>\r\n",
+    "options_hi": [
+      "<p>वक्र पृष्ठीय क्षेत्रफल &ndash; 350 सेमी<sup>2</sup> ; TSA &ndash; 500 सेमी<sup>2</sup></p>\r\n",
+      "<p>वक्र पृष्ठीय क्षेत्रफल&ndash; 320सेमी<sup>2</sup> ; TSA &ndash; 480 सेमी<sup>2</sup></p>\r\n",
+      "<p>वक्र पृष्ठीय क्षेत्रफल &ndash; 412 सेमी<sup>2</sup> ; कुल पृष्ठीय क्षेत्रफल &ndash; 544 सेमी<sup>2</sup></p>\r\n",
+      "<p>वक्र पृष्ठीय क्षेत्रफल&nbsp;&ndash; 308 सेमी<sup>2</sup> ; कुल पृष्ठीय क्षेत्रफल &ndash; 462 सेमी<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>वक्र पृष्ठीय क्षेत्रफल&nbsp;&ndash; 308 सेमी<sup>2</sup> ; कुल पृष्ठीय क्षेत्रफल &ndash; 462 सेमी<sup>2</sup></strong> है।</p>\r\n\r\n<p>दिया गया है</p>\r\n\r\n<p>एक गोलार्द्ध की त्रिज्या (r) = 7 cm</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>एक गोलार्ध का कुल पृष्ठीय क्षेत्रफल (TSA) = 3&pi;r<sup>2</sup>&nbsp;वर्ग इकाइयाँ।</p>\r\n\r\n<p>एक गोलार्ध का वक्र पृष्ठीय क्षेत्रफल (CSA) =&nbsp;2&pi;r<sup>2</sup>&nbsp;वर्ग इकाइयाँ।</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>कुल पृष्ठीय क्षेत्रफल = 3&nbsp;&times; (22/7)&nbsp;&times; 49 = 462 cm<sup>2</sup></p>\r\n\r\n<p>वक्र पृष्ठीय क्षेत्रफल = 2 &times; (22/7)&nbsp;&times; 49 = 308&nbsp;cm<sup>2</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  }
+]
