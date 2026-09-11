@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>A number divided by 17 leaves 6 as a remainder. What is the remainder when the square of the same number is divided by 17?</p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.<strong>&nbsp;2.</strong></p>\r\n\r\n<p>Let a number be N</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Dividend = Divisor &times; Quotient + Remainder</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>N = 17k + 6, where k is a constant value</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>&rArr; N<sup>2</sup>&nbsp;= (17k + 6)<sup>2</sup>&nbsp;</p>\r\n\r\n<p>&rArr; N<sup>2</sup>&nbsp;= 289k<sup>2</sup>&nbsp;+ 36 + 2&nbsp;&times; 17k&nbsp;&times; 6</p>\r\n\r\n<p>&rArr; N<sup>2</sup>&nbsp;= 17(17k<sup>2</sup>&nbsp;+ 2 + 6k) + 2</p>\r\n\r\n<p>Hence, when we divide N<sup>2</sup>&nbsp;by 17 the remainder will be 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक संख्या को 17 से विभाजित करने पर 6 शेषफल बचता है। जब समान संख्या के वर्ग को 17 से विभाजित किया जाता है तो, शेषफल क्या होता है?</p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>2&nbsp;</strong>है।</p>\r\n\r\n<p>माना एक संख्या N है</p>\r\n\r\n<p>हम जानते&nbsp;है की,</p>\r\n\r\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>N = 17k + 6, जहां k एक स्थिर मान है</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>&rArr; N<sup>2</sup>&nbsp;= (17k + 6)<sup>2</sup>&nbsp;</p>\r\n\r\n<p>&rArr; N<sup>2</sup>&nbsp;= 289k<sup>2</sup>&nbsp;+ 36 + 2&nbsp;&times; 17k&nbsp;&times; 6</p>\r\n\r\n<p>&rArr; N<sup>2</sup>&nbsp;= 17(17k<sup>2</sup>&nbsp;+ 2 + 6k) + 2</p>\r\n\r\n<p>अतः, जब हम N<sup>2</sup> को 17 से भाग करते हैं तो शेषफल 2 होगा</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>How many numbers up to 880 are divisible by both, 3 and 5?</p>\r\n",
+    "options": [
+      "<p>42</p>\r\n",
+      "<p>56</p>\r\n",
+      "<p>52</p>\r\n",
+      "<p>58</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>58.</strong></p>\r\n\r\n<p>LCM (3 and 5) = 15</p>\r\n\r\n<p>Now, we divide the number 880 by 15, to find the numbers which are divisible by 15&nbsp;= 880/15 = 58.666</p>\r\n\r\n<p>We get the exact number = 58</p>\r\n\r\n<p>Hence, 58 numbers up to 880 are divisible by both, 3 and 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>880 तक कितनी संख्याएं 3 और 5 दोनों से विभाज्य हैं?</p>\r\n",
+    "options_hi": [
+      "<p>42</p>\r\n",
+      "<p>56</p>\r\n",
+      "<p>52</p>\r\n",
+      "<p>58</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>58</strong> है।</p>\r\n\r\n<p>(3 और 5) का लघुत्तम समापवर्त्य = 15</p>\r\n\r\n<p>अब, हम संख्या 880 को 15 से भाग करते हैं उन संख्याओं को ज्ञात करना जो 15 से विभाज्य हैं&nbsp;= 880/15 = 58.666</p>\r\n\r\n<p>हमें सटीक संख्या मिलती है = 58</p>\r\n\r\n<p>अतः, 880 तक 58 संख्याएं हैं जो 3 और 5 दोनों से विभाज्य हैं</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>When a positive number N is divided by 9 leave the remainder 2, then find the remainder when 13N is divided by the same divisor.</p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> Option 4</strong>&nbsp;i.e. <strong>8.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Dividend = Divisor &times; Quotient + Remainder</p>\r\n\r\n<p>Now, according to the question</p>\r\n\r\n<p>N = 9k + 2, where k is a constant value</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>13N&nbsp;= 117k + 26</p>\r\n\r\n<p>Hence, when we divide 13N&nbsp;by 9&nbsp;then the remainder will be 8</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब एक धनात्मक संख्या N को 9 से विभाजित करने पर शेषफल 2 बचता है, तब 13N को उसी भाजक से विभाजित करने पर शेषफल ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4</strong> अर्थात् <strong>8 </strong>है।&nbsp;</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>अब, प्रश्न के अनुसार&nbsp;</p>\r\n\r\n<p>N = 9k + 2, जहां k एक स्थिर मान है</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>13N&nbsp;= 117k + 26</p>\r\n\r\n<p>इसलिए, जब हम 13N को 9 से विभाजित करते हैं तो, शेषफल 8 होगा।&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Find the highest length that can be used to measure exactly the lengths 44 m, 66 m, 88 m, and 110 m.</p>\r\n",
+    "options": [
+      "<p>28</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e. <strong>22.</strong></p>\r\n\r\n<p>The highest length means the HCF of these lengths</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>HCF of (44, 66, 88, 110)</p>\r\n\r\n<p>&rArr; 44 = 2&nbsp;&times; 2&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 66 = 2&nbsp;&times; 3&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 88 = 2&nbsp;&times; 2&nbsp;&times; 2&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 110 = 2&nbsp;&times; 5&nbsp;&times; 11</p>\r\n\r\n<p>The common factor = 2&nbsp;&times; 11 = 22</p>\r\n\r\n<p>Hence, the highest length is 22 m</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह उच्चतम लंबाई ज्ञात कीजिए जिसका उपयोग सटीक लंबाई 44 मीटर, 66 मीटर, 88 मीटर और 110 मीटर मापने के लिए किया जा सकता है।</p>\r\n",
+    "options_hi": [
+      "<p>28</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>22</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>22 </strong>है।&nbsp;</p>\r\n\r\n<p>उच्चतम लंबाई का मतलब इन लंबाई का &lrm;महत्तम समापवर्तक है</p>\r\n\r\n<p>प्रश्न के अनुसार,&nbsp;</p>\r\n\r\n<p>(44, 66, 88, 110) का&nbsp;&lrm;महत्तम समापवर्तक</p>\r\n\r\n<p>&rArr; 44 = 2&nbsp;&times; 2&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 66 = 2&nbsp;&times; 3&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 88 = 2&nbsp;&times; 2&nbsp;&times; 2&nbsp;&times; 11</p>\r\n\r\n<p>&rArr; 110 = 2&nbsp;&times; 5&nbsp;&times; 11</p>\r\n\r\n<p>सामान्य गुणनखंड = 2 &times; 11 = 22</p>\r\n\r\n<p>अतः, उच्चतम लंबाई 22 मीटर है</p>\r\n"
+  },
+  {
+    "question": "<p>Find the sum of 5 terms in a GP, given that the first term is 14 and the common ratio is 5.</p>\r\n",
+    "options": [
+      "<p>13934</p>\r\n",
+      "<p>11934</p>\r\n",
+      "<p>12934</p>\r\n",
+      "<p>10934</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4&nbsp;</strong>i.e.<strong> 10934.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The first term (a) =&nbsp;14 and the common ratio (r) =&nbsp;5</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The sum of n terms S<sub>n</sub>&nbsp;= a(r<sup>n</sup>&nbsp;- 1)/(r - 1)</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>The sum of 5 terms S<sub>5</sub>&nbsp;= 14(5<sup>5</sup>&nbsp;- 1)/(5 - 1)</p>\r\n\r\n<p>&rArr; 14&nbsp;&times; 3124/4 = 10934</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक गुणोत्तर श्रेणी में 5 पदों का योग ज्ञात कीजिए, यह देखते हुए कि पहला पद 14 है और सार्व अनुपात 5 है।</p>\r\n",
+    "options_hi": [
+      "<p>13934</p>\r\n",
+      "<p>11934</p>\r\n",
+      "<p>12934</p>\r\n",
+      "<p>10934</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>10934 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि,</p>\r\n\r\n<p>पहला पद (a) = 14 और सार्व अनुपात (r) = 5</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>n पदों का योग S<sub>n</sub>&nbsp;= a(r<sup>n</sup>&nbsp;- 1)/(r - 1)</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>5 पदों का योग S<sub>5</sub>&nbsp;= 14(5<sup>5</sup>&nbsp;- 1)/(5 - 1)</p>\r\n\r\n<p>&rArr; 14&nbsp;&times; 3124/4 = 10934</p>\r\n"
+  },
+  {
+    "question": "<p>In a division sum, the divisor is 11 times the quotient and 22 times the remainder. If the remainder is 9 then find the dividend.</p>\r\n",
+    "options": [
+      "<p>3473</p>\r\n",
+      "<p>3673</p>\r\n",
+      "<p>3873</p>\r\n",
+      "<p>3573</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e. <strong>3573.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>&rArr; Divisor&nbsp;= 11&nbsp;&times;&nbsp;quotient = 22 &times; remainder</p>\r\n\r\n<p>If the remainder is 9, then Divisor = 22 &times; 9 = 198 and,</p>\r\n\r\n<p>&rArr; Divisor = 11&nbsp;&times; Quotient</p>\r\n\r\n<p>&rArr; 198 = 11&nbsp;&times; Quotient</p>\r\n\r\n<p>&rArr; Quotient = 18</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>&rArr; Dividend = Divisor&nbsp;&times; Quotient + Remainder</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>&rArr; Dividend = 198&nbsp;&times; 18 +&nbsp;9 = 3573</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक भाग के योग में, भाजक, भागफल का 11 गुना और शेषफल का 22 गुना होता है। यदि शेषफल 9 हो तो भाज्य ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>3473</p>\r\n",
+      "<p>3673</p>\r\n",
+      "<p>3873</p>\r\n",
+      "<p>3573</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>3573 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि,&nbsp;</p>\r\n\r\n<p>भाजक = 11 &times; भागफल = 22 &times; शेषफल</p>\r\n\r\n<p>यदि शेषफल 9 है, तो भागफल = 2 &times; 9 = 18 और</p>\r\n\r\n<p>&rArr; भाजक = 11 &times; भागफल</p>\r\n\r\n<p>&rArr; 198 = 11&nbsp;&times; भागफल</p>\r\n\r\n<p>&rArr; भागफल = 18</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>&rArr; भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>&rArr; भाज्य = 198 &times; 18 + 9 = 3573</p>\r\n"
+  },
+  {
+    "question": "<p>Find the fraction of 0.538888&hellip;</p>\r\n",
+    "options": [
+      "<p>487/900</p>\r\n",
+      "<p>485/900</p>\r\n",
+      "<p>481/900</p>\r\n",
+      "<p>483/900</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>485/900.</strong></p>\r\n\r\n<p>The fraction of 0.538888...</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Let x =&nbsp;0.538888..</p>\r\n\r\n<p>&rArr; 100x = 53.8888...&nbsp; ...(1)</p>\r\n\r\n<p>&rArr; 1000x = 538.888..&nbsp; &nbsp; (2)</p>\r\n\r\n<p>From Equation (2) - Equation (1)</p>\r\n\r\n<p>&rArr; 900x = 485</p>\r\n\r\n<p>&rArr; x = 485/900</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>0.538888&hellip; का भिन्न ज्ञात कीजिए।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>487/900</p>\r\n",
+      "<p>485/900</p>\r\n",
+      "<p>481/900</p>\r\n",
+      "<p>483/900</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>485/900</strong> है।&nbsp;</p>\r\n\r\n<p>0.538888... का भिन्न&nbsp;</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>माना x =&nbsp;0.538888..</p>\r\n\r\n<p>&rArr; 100x = 53.8888...&nbsp; ...(1)</p>\r\n\r\n<p>&rArr; 1000x = 538.888..&nbsp; &nbsp; (2)</p>\r\n\r\n<p>समीकरण (2) - समीकरण (1) से</p>\r\n\r\n<p>&rArr; 900x = 485</p>\r\n\r\n<p>&rArr; x = 485/900</p>\r\n"
+  },
+  {
+    "question": "<p>Find the sum up to 155 terms of the sequence 255, 264, 273, &hellip;</p>\r\n",
+    "options": [
+      "<p>126940</p>\r\n",
+      "<p>146940</p>\r\n",
+      "<p>116940</p>\r\n",
+      "<p>136940</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>146940.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The sum up to 155 terms of the sequence 255, 264, 273, &hellip;</p>\r\n\r\n<p>First term (a) = 255</p>\r\n\r\n<p>The common difference&nbsp;(d) = 264 - 255 = 9</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Sum of n terms for A.P. series = (n/2)[2a + (n - 1)d]</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Sum = (155/2) [2&nbsp;&times; 255 + (155&nbsp;- 1)9]</p>\r\n\r\n<p>&rArr; (155/2) [510&nbsp;+ 1386] = 146940</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>अनुक्रम 255, 264, 273, ... के 155वें पद तक का योग ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>126940</p>\r\n",
+      "<p>146940</p>\r\n",
+      "<p>116940</p>\r\n",
+      "<p>136940</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>146940&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि,&nbsp;</p>\r\n\r\n<p>अनुक्रम 255, 264, 273, के 155वें पद तक का योग...</p>\r\n\r\n<p>प्रथम पद (a) = 255</p>\r\n\r\n<p>सार्व&nbsp;अंतर (d) = 264 - 255 = 9</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>समांतर श्रेणी श्रृंखला के लिए n पदों का योग = (n/2)[2a + (n - 1)d]</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>योग = (155/2) [2&nbsp;&times; 255 + (155&nbsp;- 1)9]</p>\r\n\r\n<p>&rArr; (155/2) [510&nbsp;+ 1386] = 146940</p>\r\n"
+  },
+  {
+    "question": "<p>A shopkeeper has 3 different qualities of Oil, 713 litters of 1st quality, 759 litters of 2nd quality, and 782 litters of 3rd quality. Find the least possible number of bottles of equal size in which different Oils of different qualities can be filled without mixing.</p>\r\n",
+    "options": [
+      "<p>81</p>\r\n",
+      "<p>98</p>\r\n",
+      "<p>86</p>\r\n",
+      "<p>65</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 2</strong>&nbsp;i.e. <strong>98.</strong></p>\r\n\r\n<p>We&nbsp;know that,</p>\r\n\r\n<p>The least possible number of bottles of equal size = HCF of (713, 759, 782)</p>\r\n\r\n<p>Prime factors of</p>\r\n\r\n<p>&rArr; 713 = 23 &times; 31</p>\r\n\r\n<p>&rArr; 759 = 3 &times; 11 &times; 23</p>\r\n\r\n<p>&rArr; 782 = 2 &times; 17 &times; 23</p>\r\n\r\n<p>HCF = 23</p>\r\n\r\n<p>So, the number of bottles required = (713/23 + 759/23 + 782/23)</p>\r\n\r\n<p>&rArr; 31 + 33 + 34 = 98</p>\r\n\r\n<p>Hence, The least possible number of bottle = 98</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक दुकानदार के पास 3 अलग-अलग गुणवत्ता का तेल है, 713 लीटर पहली गुणवत्ता का, 759 लीटर दूसरी गुणवत्ता का, और 782 लीटर तीसरी गुणवत्ता का। समान आकार की बोतलों की न्यूनतम संभव संख्या ज्ञात कीजिए जिनमें विभिन्न गुणों के विभिन्न तेल बिना मिलाए भरे जा सकते हैं।</p>\r\n",
+    "options_hi": [
+      "<p>81</p>\r\n",
+      "<p>98</p>\r\n",
+      "<p>86</p>\r\n",
+      "<p>65</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>98&nbsp;</strong>है।</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>समान आकार की बोतलों की न्यूनतम संभव संख्या = (713, 759, 782) का महत्तम समापवर्तक कार्य&nbsp;</p>\r\n\r\n<p>अभाज्य गुणनखंड</p>\r\n\r\n<p>&rArr; 713 = 23 &times; 31</p>\r\n\r\n<p>&rArr; 759 = 3 &times; 11 &times; 23</p>\r\n\r\n<p>&rArr; 782 = 2 &times; 17 &times; 23</p>\r\n\r\n<p>महत्तम समापवर्तक कार्य&nbsp; = 23</p>\r\n\r\n<p>तो, अभीष्ट बोतलों की संख्या = (713/23 + 759/23 + 782/23)</p>\r\n\r\n<p>&rArr; 31 + 33 + 34 = 98</p>\r\n\r\n<p>अत:, बोतल की न्यूनतम संभव संख्या = 98</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>When a positive number n is divided by 15 leaves the remainder 13, when 5n is divided by the same number, then find the remainder.</p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 1</strong>&nbsp;i.e. <strong>5.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>A number n is divided by 15 leaves the remainder 13</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Dividend = Divisor &times; Quotient + Remainder</p>\r\n\r\n<p>So, we can write</p>\r\n\r\n<p>&rArr; n =&nbsp;15k + 13</p>\r\n\r\n<p>Where, k is a constant</p>\r\n\r\n<p>&rArr; 5n = 75k + 65</p>\r\n\r\n<p>When divided by 15</p>\r\n\r\n<p>&rArr; 5n = 15(5k + 4) + 5</p>\r\n\r\n<p>Now, When 5n is divided by 15 leaves the remainder 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब एक धनात्मक संख्या n को 15 से भाग किया जाता है तो, शेषफल 13 प्राप्त होता है, जब 5n को उसी संख्या से भाग&nbsp;किया जाता है, तो शेषफल ज्ञात कीजिये।</p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>5&nbsp;</strong>है।</p>\r\n\r\n<p>दिया गया है की,</p>\r\n\r\n<p>एक संख्या n को 15 से भाग करने पर शेष 13 प्राप्त होता है</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>तो, हम लिख सकते हैं</p>\r\n\r\n<p>&rArr; n = 15k + 13</p>\r\n\r\n<p>जहाँ, k एक स्थिरांक है</p>\r\n\r\n<p>&rArr; 5n = 75k + 65</p>\r\n\r\n<p>15 से विभाजित करने पर</p>\r\n\r\n<p>&rArr; 5n = 15(5k + 4) + 5</p>\r\n\r\n<p>अब, 5n को 15 से भाग करने पर शेषफल 5 प्राप्त होता है</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the sum of the G.P.:</p>\r\n\r\n<p>5/6, 5/36, 5/216, 5/1296, &hellip; to n terms.</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(1-(\\frac{1}{6})^n\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{5}[1-(\\frac{1}{6})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{4}[1-(\\frac{1}{6})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}[1-(\\frac{1}{6})^n]\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 1</strong>&nbsp;i.e.&nbsp;<span class=\"math-tex\">\\(1-(\\frac{1}{6})^n\\)</span><strong>.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>A G.P series of 5/6, 5/36, 5/216, 5/1296.....n terms</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The sum of nth term = a(1 - r<sup>n</sup>)/(1 - r); r < 1</p>\r\n\r\n<p>Where, a = first term of series, r = proportion ratio</p>\r\n\r\n<p>So, a = 5/6 and, r = (5/36)/(5/6) = 1/6</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>The sum of nth term <span class=\"math-tex\">\\(=\\frac{\\frac{5}{6}\\left(1-\\left(1/6\\right)^n\\right)}{1-(1/6)}=\\frac{\\frac{5}{6}\\left(1-\\left(1/6\\right)^n\\right)}{5/6}=1-\\left(1/6\\right)^n\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>गुणोत्तर श्रेणी का योग ज्ञात कीजिये:</p>\r\n\r\n<p>5/6, 5/36, 5/216, 5/1296, &hellip; से n पद तक।</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(1-(\\frac{1}{6})^n\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{5}[1-(\\frac{1}{6})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{4}[1-(\\frac{1}{6})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}[1-(\\frac{1}{6})^n]\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <span class=\"math-tex\">\\(1-(\\frac{1}{6})^n\\)</span><strong>&nbsp;</strong>है।</p>\r\n\r\n<p>दिया गया है की,</p>\r\n\r\n<p>5/6, 5/36, 5/216, 5/1296.....n पदों की एक गुणोत्तर श्रेणी श्रृंखला</p>\r\n\r\n<p>हम&nbsp;जानते है की,</p>\r\n\r\n<p>nवें पद का योग = a(1 - r<sup>n</sup>)/(1 - r); r < 1</p>\r\n\r\n<p>जहां, a = श्रृंखला का पहला पद, r = समानुपात अनुपात</p>\r\n\r\n<p>इसलिए, a = 5/6 और, r = (5/36)/(5/6) = 1/6</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>nवें पद का योग&nbsp;<span class=\"math-tex\">\\(=\\frac{\\frac{5}{6}\\left(1-\\left(1/6\\right)^n\\right)}{1-(1/6)}=\\frac{\\frac{5}{6}\\left(1-\\left(1/6\\right)^n\\right)}{5/6}=1-\\left(1/6\\right)^n\\)</span></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the sum of the first 14 terms of an A.P. whose 10th and 6th terms are 27.25 and 23.25 respectively?</p>\r\n",
+    "options": [
+      "<p>398.5</p>\r\n",
+      "<p>246.5</p>\r\n",
+      "<p>346.5</p>\r\n",
+      "<p>356.5</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 3</strong>&nbsp;i.e.&nbsp;<strong>346.5.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The nth term = a + (n - 1)d and,</p>\r\n\r\n<p>The sum of nth terms = (n/2) [2a + (n - 1)d]</p>\r\n\r\n<p>where, a = first term, d = common difference</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>The&nbsp;10th&nbsp;term = a + 9d = 27.25 ....(1)</p>\r\n\r\n<p>The 6th term = a + 5d = 23.25 ....(2)</p>\r\n\r\n<p>Equation (1) - Equation (2)</p>\r\n\r\n<p>&rArr; 4d = 4</p>\r\n\r\n<p>&rArr; d = 1</p>\r\n\r\n<p>Now, this value is put in equation (1)</p>\r\n\r\n<p>&rArr; a + 9 = 27.25</p>\r\n\r\n<p>&rArr; a = 27.25 - 9 = 18.25</p>\r\n\r\n<p>The sum of 14th terms = (14/2) [2&nbsp;&times; 18.25&nbsp;+ (14&nbsp;- 1) &times; 1]</p>\r\n\r\n<p>&rArr; 7&nbsp;[36.5 + 13] = 346.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समांतर श्रेणी के पहले 14 पदों का योग क्या है जिसका 10वां और 6वां पद क्रमशः 27.25 और 23.25 है?</p>\r\n",
+    "options_hi": [
+      "<p>398.5</p>\r\n",
+      "<p>246.5</p>\r\n",
+      "<p>346.5</p>\r\n",
+      "<p>356.5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>346.5</strong>&nbsp;है&nbsp;।</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>nवें&nbsp;पद = a + (n - 1)d और,</p>\r\n\r\n<p>nवें पदों का योग = (n/2) [2a + (n - 1)d]</p>\r\n\r\n<p>जहां, a = पहला पद, d = सामान्य अंतर</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>10 वां पद = a + 9d = 27.25 ....(1)</p>\r\n\r\n<p>छठा पद= a + 5d = 23.25 ....(2)</p>\r\n\r\n<p>समीकरण (1) - समीकरण (2)</p>\r\n\r\n<p>&rArr; 4d = 4</p>\r\n\r\n<p>&rArr; d = 1</p>\r\n\r\n<p>अब, इस मान को समीकरण (1) में रखें</p>\r\n\r\n<p>&rArr; a + 9 = 27.25</p>\r\n\r\n<p>&rArr; a = 27.25 - 9 = 18.25</p>\r\n\r\n<p>14 वें पदों का योग&nbsp;= (14/2) [2&nbsp;&times; 18.25&nbsp;+ (14&nbsp;- 1) &times; 1]</p>\r\n\r\n<p>&rArr; 7&nbsp;[36.5 + 13] = 346.5</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>When a number is divided by 7991, the remainder is 89. What will be the remainder when the same number is divided by 61?</p>\r\n",
+    "options": [
+      "<p>24</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>28</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 4</strong>&nbsp;i.e. <strong>28.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>When a number is divided by 7991, the remainder is 89</p>\r\n\r\n<p>As we know,</p>\r\n\r\n<p>Dividend&nbsp; = Divisor &times; Quotient + Remainder</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>&rArr; Number = 7991Q + 89</p>\r\n\r\n<p>On dividing the number by 61</p>\r\n\r\n<p>&rArr; Number = 61(131Q + 1) + 28</p>\r\n\r\n<p>Hence, the remainder is 28</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब एक संख्या को 7991 से भाग किया जाता है, तो शेषफल 89 प्राप्त होता&nbsp;है। उसी संख्या को 61 से भाग करने पर शेषफल क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>24</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>28</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>28</strong> है।</p>\r\n\r\n<p>दिया गया है की,</p>\r\n\r\n<p>जब एक संख्या को 7991 से भाग किया जाता है, तो शेषफल 89 प्राप्त होता&nbsp;है</p>\r\n\r\n<p>जैसा कि हम जानते हैं</p>\r\n\r\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>&rArr; संख्या = 7991 &times; भागफल + 89</p>\r\n\r\n<p>इस संख्या को 61 से भाग किए जाने पर&nbsp;</p>\r\n\r\n<p>&rArr; संख्या = 61(131&nbsp;&times; भागफल&nbsp;+ 1) + 28</p>\r\n\r\n<p>अतः, शेषफल&nbsp;= 28 है</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the sum of the G.P. :</p>\r\n\r\n<p>9/10, 9/100, 9/1000, 9/10000,..... to n terms.</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}[1-(\\frac{1}{10})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{9}[1-(\\frac{1}{10})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{9}[1-(\\frac{1}{10})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\([1-(\\frac{1}{10})^n]\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\([1-(\\frac{1}{10})^n]\\)</span><strong>.</strong></p>\r\n\r\n<p>Given, 9/10, 9/100, 9/1000, 9/10000,..... to n terms</p>\r\n\r\n<p>S<sub>n</sub>&nbsp;= Sum of n<sup>th</sup>&nbsp;terms&nbsp;= a&nbsp;&times; (1 - r<sup>n</sup>)/(1 - r)</p>\r\n\r\n<p>a = first term, r = common ratio</p>\r\n\r\n<p>&rArr; a = 9/10 and,&nbsp;r = (9/100)/(9/10) = 1/10</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>S<sub>n</sub>&nbsp;=&nbsp;a&nbsp;&times; (1 - r<sup>n</sup>)/(1 - r)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 9/10 &times; (1 - (1/10)<sup>n</sup>)/(1 - 1/10)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 9/10 &times; (1 - (1/10)<sup>n</sup>)/(9/10)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;=&nbsp;9/10 &times; (1 - (1/10)<sup>n</sup>) &times; (10/9)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;=&nbsp;1 - (1/10)<sup>n</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>गुणोत्तर श्रेणी का योग ज्ञात कीजिए&nbsp;:</p>\r\n\r\n<p>9/10, 9/100, 9/1000, 9/10000,... से n पद तक</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}[1-(\\frac{1}{10})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{9}[1-(\\frac{1}{10})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{9}[1-(\\frac{1}{10})^n]\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\([1-(\\frac{1}{10})^n]\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात&nbsp;<span class=\"math-tex\">\\([1-(\\frac{1}{10})^n]\\)</span>&nbsp;है।</p>\r\n\r\n<p>दिया गया है, 9/10, 9/100, 9/1000, 9/10000,... से n पद तक</p>\r\n\r\n<p>Sn = n&nbsp;पदों का योग =&nbsp;a&nbsp;&times; (1 - r<sup>n</sup>)/(1 - r)</p>\r\n\r\n<p>a = प्रथम पद, r = सामान्य अनुपात</p>\r\n\r\n<p>&rArr; a = 9/10 और,&nbsp;r = (9/100)/(9/10) = 1/10</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>S<sub>n</sub>&nbsp;=&nbsp;a&nbsp;&times; (1 - r<sup>n</sup>)/(1 - r)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 9/10 &times; (1 - (1/10)<sup>n</sup>)/(1 - 1/10)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 9/10 &times; (1 - (1/10)<sup>n</sup>)/(9/10)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;=&nbsp;9/10 &times; (1 - (1/10)<sup>n</sup>) &times; (10/9)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;=&nbsp;1 - (1/10)<sup>n</sup></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the number of factors in 1540.</p>\r\n",
+    "options": [
+      "<p>26</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>24.</strong></p>\r\n\r\n<p>If, N = x<sup>a</sup>&nbsp;&times; y<sup>b</sup>&nbsp;&times; z<sup>c</sup></p>\r\n\r\n<p>Then, number of factors = (a + 1)(b + 1)(c + 1)</p>\r\n\r\n<p>Factors of 1540 = 11&nbsp;&times; 7&nbsp;&times; 2<sup>2</sup>&nbsp;&times; 5</p>\r\n\r\n<p>Number of factors = (1 + 1)&nbsp;&times; (1 + 1)&nbsp;&times; (2 + 1)&nbsp;&times; (1 + 1)</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; 2&nbsp;&times; 3&nbsp;&times; 2 = 24</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>1540 में गुणनखंडों की संख्या ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>26</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>24</strong> है।</p>\r\n\r\n<p>यदि, N =&nbsp;x<sup>a</sup>&nbsp;&times; y<sup>b</sup>&nbsp;&times; z<sup>c</sup></p>\r\n\r\n<p>तब, कारकों की संख्या = (a + 1)(b + 1)(c + 1)</p>\r\n\r\n<p>1540 के गुणनखंड =&nbsp;11&nbsp;&times; 7&nbsp;&times; 2<sup>2</sup>&nbsp;&times; 5</p>\r\n\r\n<p>कारकों की संख्या = (1 + 1) &times; (1 + 1) &times; (2 + 1) &times; (1 + 1)</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; 2&nbsp;&times; 3&nbsp;&times; 2 = 24</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p style=\"text-align:justify\">Find the sum of all 3 digit numbers that leave a remainder of 3 when divided by 8.</p>\r\n",
+    "options": [
+      "<p>65124</p>\r\n",
+      "<p>61712</p>\r\n",
+      "<p>68956</p>\r\n",
+      "<p>54326</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.<strong> 61712.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>a<sub>n</sub>&nbsp;= a + (n - 1)d&nbsp;and, S<sub>n</sub>&nbsp;= n/2&nbsp;&times; (a + l)</p>\r\n\r\n<p>a = first term, n = number of terms, l = last term, and d = difference</p>\r\n\r\n<p>The largest 3-digit number that leaves the remainder 3 when divided by 8 = 995</p>\r\n\r\n<p>The smallest 3-digit number that leaves the remainder 3 when divided by 8 = 107</p>\r\n\r\n<p>&rArr; a<sub>n</sub>&nbsp;= a + (n - 1)d</p>\r\n\r\n<p>&rArr; 995 = 107 + (n - 1) &times; 8</p>\r\n\r\n<p>&rArr; (n - 1) &times; 8 = 995 - 107</p>\r\n\r\n<p>&rArr; (n - 1) &times; 8 = 888</p>\r\n\r\n<p>&rArr; n - 1 = 111</p>\r\n\r\n<p>&rArr; n = 112</p>\r\n\r\n<p>And,</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= n/2&nbsp;&times; (a + l)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 112/2&nbsp;&times; (995 + 107)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 56&nbsp;&times; 1102</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 61712</p>\r\n\r\n<p>Hence, the required sum if 61712</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>उन सभी 3 अंकों की संख्याओं का योग ज्ञात कीजिए जिन्हें 8 से विभाजित करने पर 3 शेष बचता है।</p>\r\n",
+    "options_hi": [
+      "<p>65124</p>\r\n",
+      "<p>61712</p>\r\n",
+      "<p>68956</p>\r\n",
+      "<p>54326</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>61712</strong> है।</p>\r\n\r\n<p>हम जानते&nbsp;है की,</p>\r\n\r\n<p>a<sub>n</sub>&nbsp;= a + (n - 1)d, और&nbsp;S<sub>n</sub>&nbsp;= n/2&nbsp;&times; (a + l)</p>\r\n\r\n<p>a = पहला पद, n = पदों की संख्या, l = अंतिम पद, और d = अंतर</p>\r\n\r\n<p>3 अंकों की सबसे बड़ी संख्या जिसे 8 से विभाजित करने पर शेषफल 3 बचता है = 995</p>\r\n\r\n<p>3 अंकों की सबसे छोटी संख्या जिसे 8 से विभाजित करने पर शेषफल 3 बचता है = 107</p>\r\n\r\n<p>&rArr; a<sub>n</sub>&nbsp;= a + (n - 1)d</p>\r\n\r\n<p>&rArr; 995 = 107 + (n - 1) &times; 8</p>\r\n\r\n<p>&rArr; (n - 1) &times; 8 = 995 - 107</p>\r\n\r\n<p>&rArr; (n - 1) &times; 8 = 888</p>\r\n\r\n<p>&rArr; n - 1 = 111</p>\r\n\r\n<p>&rArr; n = 112</p>\r\n\r\n<p>और,</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= n/2&nbsp;&times; (a + l)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 112/2&nbsp;&times; (995 + 107)</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 56&nbsp;&times; 1102</p>\r\n\r\n<p>&rArr; S<sub>n</sub>&nbsp;= 61712</p>\r\n\r\n<p>अतः, आवश्यक योग यदि 61712 है</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the number of trailing zeros in 15245! .</p>\r\n",
+    "options": [
+      "<p>3807</p>\r\n",
+      "<p>3607</p>\r\n",
+      "<p>3707</p>\r\n",
+      "<p>3507</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong> i.e. <strong>3807.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Number of trailing zeros in n! = Number of times n! is divisible by 10 = Highest power of 10 which divides n! = Highest power if 5 in n!</p>\r\n\r\n<p>&rArr; 15245/5 = 3049</p>\r\n\r\n<p>&rArr; 3049/5 = 609</p>\r\n\r\n<p>&rArr; 609/5 = 121</p>\r\n\r\n<p>&rArr; 121/5 = 24</p>\r\n\r\n<p>&rArr; 24/5 = 4 (4 < 5)</p>\r\n\r\n<p>The total number of zeros = 3049 + 609 + 121 + 24 + 4 = 3807</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>15245! में पीछे आने वाले शून्यों की संख्या ज्ञात कीजिए |</p>\r\n",
+    "options_hi": [
+      "<p>3807</p>\r\n",
+      "<p>3607</p>\r\n",
+      "<p>3707</p>\r\n",
+      "<p>3507</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात <strong>3807</strong> है।</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>n! में अनुगामी शून्यों की संख्या&nbsp;= बार की संख्या n! 10 से विभाज्य है = 10 की उच्चतम घात जो n को विभाजित करती है! = यदि n में 5 है तो उच्चतम शक्ति!</p>\r\n\r\n<p>&rArr; 15245/5 = 3049</p>\r\n\r\n<p>&rArr; 3049/5 = 609</p>\r\n\r\n<p>&rArr; 609/5 = 121</p>\r\n\r\n<p>&rArr; 121/5 = 24</p>\r\n\r\n<p>&rArr; 24/5 = 4 (4 < 5)</p>\r\n\r\n<p>शून्य की कुल संख्या = 3049 + 609 + 121 + 24 + 4 = 3807</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The 17th and 1st terms of an AP are 315 and 251 respectively. Find the sum upto 24 terms.</p>\r\n",
+    "options": [
+      "<p>7428</p>\r\n",
+      "<p>7228</p>\r\n",
+      "<p>7328</p>\r\n",
+      "<p>7128</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong>&nbsp;Option 4</strong>&nbsp;i.e.<strong> 7128.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The 17th and 1st terms of an AP are 315 and 251 respectively</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The nth term = a + (n - 1) d</p>\r\n\r\n<p>Sum of nth term = (n/2) (2a + (n - 1)d)</p>\r\n\r\n<p>where, a = first term, d is a common difference</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>The 17th term = 251 + (17 - 1)d</p>\r\n\r\n<p>&rArr; 315 = 251 + 16d</p>\r\n\r\n<p>&rArr; 16d = 64</p>\r\n\r\n<p>&rArr; d = 4</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Sum upto 24 terms = (24/2) (2&nbsp;&times; 251 + (24 - 1)&nbsp;&times; 4)</p>\r\n\r\n<p>&rArr; 12&nbsp;&times; (502 + 92) = 7128</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>किसी समांतर श्रेणी&nbsp;का 17वाँ और पहला पद क्रमशः 315 और 251 हैं। 24 पदों तक का योग ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>7428</p>\r\n",
+      "<p>7228</p>\r\n",
+      "<p>7328</p>\r\n",
+      "<p>7128</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>7128</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि,&nbsp;</p>\r\n\r\n<p>किसी समांतर श्रेणी&nbsp;का 17वाँ और पहला पद क्रमशः 315 और 251 हैं</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>nवाँ पद = a + (n - 1) d</p>\r\n\r\n<p>nवें पद का योग = (n/2) (2a + (n - 1)d)</p>\r\n\r\n<p>जहाँ, a = पहला पद, d एक सार्व&nbsp;अंतर है</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>17वाँ&nbsp;पद = 251 + (17 - 1)d</p>\r\n\r\n<p>&rArr; 315 = 251 + 16d</p>\r\n\r\n<p>&rArr; 16d = 64</p>\r\n\r\n<p>&rArr; d = 4</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>24 पदों तक का योग = (24/2) (2&nbsp;&times; 251 + (24 - 1)&nbsp;&times; 4)</p>\r\n\r\n<p>&rArr; 12&nbsp;&times; (502 + 92) = 7128</p>\r\n"
+  },
+  {
+    "question": "<p>Find the units digit in (257)<sup>45</sup> &times; (248)<sup>73</sup>.</p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e. <strong>6.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The units digit in (257)<sup>45</sup> &times; (248)<sup>73</sup></p>\r\n\r\n<p>For calculating the unit digits, we check the power&nbsp;dividing by 4 remainder value is the power of the unit digits of the numbers</p>\r\n\r\n<p>As we know,&nbsp;</p>\r\n\r\n<p>The unit digits 7<sup>1</sup>&nbsp;= 7, 7<sup>2&nbsp;</sup>= 9, 7<sup>3</sup>&nbsp;= 3, 7<sup>4</sup>&nbsp;= 1</p>\r\n\r\n<p>The unit digits 8<sup>1</sup>&nbsp;= 8, 8<sup>2&nbsp;</sup>= 4, 8<sup>3</sup>&nbsp;= 2, 8<sup>4</sup>&nbsp;= 6</p>\r\n\r\n<p>&rArr; (257)<sup>45</sup> &times; (248)<sup>73</sup></p>\r\n\r\n<p>&rArr; (257)<sup>4(11)&nbsp;</sup>&times;&nbsp;(257)<sup>1</sup>&nbsp;&times; (248)<sup>4(18)&nbsp;</sup>&times; (248)<sup>1</sup></p>\r\n\r\n<p>&rArr; 1&nbsp;&times; 7&nbsp;&times; 6&nbsp;&times; 8</p>\r\n\r\n<p>&rArr; 7&nbsp;&times; 48 = 7 &times; 8 = 56&nbsp;</p>\r\n\r\n<p>Hence, the unit digit is 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>(257)<sup>45</sup> &times; (248)<sup>73</sup> में इकाई अंक ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्<strong>&nbsp;6&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि,&nbsp;</p>\r\n\r\n<p>(257)<sup>45</sup> &times; (248)<sup>73&nbsp;</sup>में इकाई अंक</p>\r\n\r\n<p>इकाई अंकों की गणना के लिए, हम जांच करते हैं कि घात को 4 से विभाजित करने पर शेषफल&nbsp;मान संख्याओं के इकाई अंकों की घात है</p>\r\n\r\n<p>जैसा कि हम जानते हैं,&nbsp;</p>\r\n\r\n<p>7<sup>1</sup>&nbsp;का इकाई अंक = 7, 7<sup>2&nbsp;</sup>= 9, 7<sup>3</sup>&nbsp;= 3, 7<sup>4</sup>&nbsp;= 1</p>\r\n\r\n<p>8<sup>1</sup>&nbsp;का इकाई अंक = 8, 8<sup>2&nbsp;</sup>= 4, 8<sup>3</sup>&nbsp;= 2, 8<sup>4</sup>&nbsp;= 6</p>\r\n\r\n<p>&rArr; (257)<sup>45</sup> &times; (248)<sup>73</sup></p>\r\n\r\n<p>&rArr; (257)<sup>4(11)&nbsp;</sup>&times;&nbsp;(257)<sup>1</sup>&nbsp;&times; (248)<sup>4(18)&nbsp;</sup>&times; (248)<sup>1</sup></p>\r\n\r\n<p>&rArr; 1&nbsp;&times; 7&nbsp;&times; 6&nbsp;&times; 8</p>\r\n\r\n<p>&rArr; 7&nbsp;&times; 48 = 7 &times; 8 = 56&nbsp;</p>\r\n\r\n<p>इसलिए, इकाई अंक 6 है</p>\r\n"
+  },
+  {
+    "question": "<p>Two alarm clocks ring their alarms at intervals of 60 seconds and 88 seconds. If they first beep together at 6:00 pm, at what time will they beep together again for the next time?</p>\r\n",
+    "options": [
+      "<p>6:22 PM</p>\r\n",
+      "<p>5:22 AM</p>\r\n",
+      "<p>5:22 PM</p>\r\n",
+      "<p>6:22 AM</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e.<strong> 6:22 PM.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>Two alarm clocks ring their alarms at regular intervals of 60 seconds and 88 seconds</p>\r\n\r\n<p>They will ring together at their least common multiple of time interval</p>\r\n\r\n<p>LCM (60,&nbsp;88) = 1320 seconds = 1320/60 = 22 minutes</p>\r\n\r\n<p>Hence, they will ring again after 22 minutes = 6:00&nbsp;+ 22 = 6:22 PM</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो अलार्म घड़ियाँ 60 सेकंड और 88 सेकंड के नियमित अंतराल पर अपना अलार्म बजाती हैं। यदि वे पहली बार अपराह्न 6:00 बजे एक साथ बजती हैं, तो अगली बार वे किस समय फिर से एक साथ बजेंगी?</p>\r\n",
+    "options_hi": [
+      "<p>अपराह्न 6:22 बजे&nbsp;</p>\r\n",
+      "<p>पूर्वाह्न 5:22 बजे&nbsp;</p>\r\n",
+      "<p>अपराह्न 5:22 बजे&nbsp;</p>\r\n",
+      "<p>पूर्वाह्न 6:22 बजे&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>अपराह्न 6:22 बजे</strong>&nbsp;है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि,&nbsp;</p>\r\n\r\n<p>दो अलार्म घड़ियाँ 60 सेकंड और 88 सेकंड के नियमित अंतराल पर अपना अलार्म बजाती हैं</p>\r\n\r\n<p>वे समय अंतराल के अपने न्यूनतम सामान्य गुणज पर एक साथ बजेंगे</p>\r\n\r\n<p>(60, 88) का लघुत्तम समापवर्त्य&nbsp;= 1320 सेकंड = 1320/60 = 22 मिनट</p>\r\n\r\n<p>इसलिए, वे 22 मिनट बाद फिर से बजेंगी = 6:00&nbsp;&nbsp;+ 22 = अपराह्न 6:22 बजे&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the first term is 125 and the common ratio is 2/5, what will be the 4th term of the GP?</p>\r\n",
+    "options": [
+      "<p>8</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e. <strong>8.</strong></p>\r\n\r\n<p>In a series of G.P.</p>\r\n\r\n<p>The first term (a) = 125 and the common ratio (r) =&nbsp;2/5</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The nth term in a G.P. = ar<sup>(</sup><sup>n - 1)</sup></p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>The 4th term = 125&nbsp;&times; (2/5)<sup>(4 - 1)</sup></p>\r\n\r\n<p>&rArr; 125&nbsp;&times; (2/5)<sup>3</sup></p>\r\n\r\n<p>&rArr; 125&nbsp;&times; (8/125) = 8</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि पहला पद 125 है और सार्व अनुपात 2/5 है, तो गुणोत्तर श्रेणी का चौथा पद क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>8</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>8</strong> है।&nbsp;</p>\r\n\r\n<p>गुणोत्तर श्रेणी की श्रृंखला में</p>\r\n\r\n<p>पहला पद (a) = 125 और सार्व अनुपात&nbsp;(r) = 2/5</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>गुणोत्तर श्रेणी&nbsp;में नौवाँ पद = ar<sup>(</sup><sup>n - 1)</sup></p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>The 4th term = 125&nbsp;&times; (2/5)<sup>(4 - 1)</sup></p>\r\n\r\n<p>&rArr; 125&nbsp;&times; (2/5)<sup>3</sup></p>\r\n\r\n<p>&rArr; 125&nbsp;&times; (8/125) = 8</p>\r\n"
+  },
+  {
+    "question": "<p>Find the unit digit in 676 &times; 376 &times; 437 &times; 913 &times; 423 &times; 337 &times; 421.</p>\r\n",
+    "options": [
+      "<p>12</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> Option 3</strong>&nbsp;i.e.<strong> 6.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The units digit in 676 &times; 376 &times; 437 &times; 913 &times; 423 &times; 337 &times; 421</p>\r\n\r\n<p>&rArr;&nbsp;676 &times; 376 &times; 437 &times; 913 &times; 423 &times; 337 &times; 421</p>\r\n\r\n<p>Taking unit digits</p>\r\n\r\n<p>&rArr; 6&nbsp;&times; 6&nbsp;&times; 7&nbsp;&times; 3&nbsp;&times; 3<strong>&nbsp;</strong>&times; 7&nbsp;&times; 1</p>\r\n\r\n<p>&rArr; 36&nbsp;&times; 21&nbsp;&times; 21</p>\r\n\r\n<p>&rArr; 6&nbsp;&times; 1&nbsp;&times; 1 =&nbsp;6</p>\r\n\r\n<p>Hence, the required unit digit is 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>676 &times; 376 &times; 437 &times; 913 &times; 423 &times; 337 &times; 421 में इकाई अंक ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>12</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>6</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि&nbsp;</p>\r\n\r\n<p>676 &times; 376 &times; 437 &times; 913 &times; 423 &times; 337 &times; 421 में इकाई अंक&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;676 &times; 376 &times; 437 &times; 913 &times; 423 &times; 337 &times; 421</p>\r\n\r\n<p>इकाई अंक लेने&nbsp;पर&nbsp;</p>\r\n\r\n<p>&rArr; 6&nbsp;&times; 6&nbsp;&times; 7&nbsp;&times; 3&nbsp;&times; 3<strong>&nbsp;</strong>&times; 7&nbsp;&times; 1</p>\r\n\r\n<p>&rArr; 36&nbsp;&times; 21&nbsp;&times; 21</p>\r\n\r\n<p>&rArr; 6&nbsp;&times; 1&nbsp;&times; 1 =&nbsp;6</p>\r\n\r\n<p>इसलिए, अभीष्ट&nbsp;इकाई अंक 6 है</p>\r\n"
+  },
+  {
+    "question": "<p>Find the sum up to 159 terms of the sequence 267, 272, 277, &hellip;</p>\r\n",
+    "options": [
+      "<p>103258</p>\r\n",
+      "<p>102258</p>\r\n",
+      "<p>104258</p>\r\n",
+      "<p>105258</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> Option 4</strong> i.e.&nbsp;<strong>105258.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>A series of&nbsp;267, 272, 277, &hellip;..upto 159 terms</p>\r\n\r\n<p>The common difference (d) = 272 - 267 = 277 - 272 = 5</p>\r\n\r\n<p>Thus, the given series is in arithmetical Progression</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>The sum of an A.P. series of n terms&nbsp;= n/2 (2a + (n - 1)d)</p>\r\n\r\n<p>The first term of the series (a) = 267</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Sum = 159/2&nbsp;&times; (2&nbsp;&times; 267 + (159 - 1)&nbsp;&times; 5)</p>\r\n\r\n<p>&rArr; 159/2&nbsp;&times; (2&nbsp;&times; 267 + 158&nbsp;&times; 5)</p>\r\n\r\n<p>&rArr; 159/2&nbsp;&times; (534 + 790)</p>\r\n\r\n<p>&rArr; 159/2&nbsp;&times; 1324</p>\r\n\r\n<p>&rArr; 159&nbsp;&times; 662 = 105258</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>अनुक्रम 267, 272, 277, ... के 159वें पद तक का योग ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>103258</p>\r\n",
+      "<p>102258</p>\r\n",
+      "<p>104258</p>\r\n",
+      "<p>105258</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात <strong>105258</strong> है।</p>\r\n\r\n<p>दिया गया है की,</p>\r\n\r\n<p>267, 272, 277, ....159 शब्दों तक की श्रृंखला</p>\r\n\r\n<p>सामान्य अंतर (d) = 272 - 267 = 277 - 272 = 5</p>\r\n\r\n<p>इस प्रकार, दी गई श्रृंखला अंकगणितीय प्रगति में है</p>\r\n\r\n<p>हम जानते है की,</p>\r\n\r\n<p>n पदों की A.P. श्रृंखला का योग = n/2 (2a + (n - 1)d)</p>\r\n\r\n<p>श्रृंखला का पहला पद (a ) = 267</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>योग = 159/2&nbsp;&times; (2&nbsp;&times; 267 + (159 - 1)&nbsp;&times; 5)</p>\r\n\r\n<p>&rArr; 159/2&nbsp;&times; (2&nbsp;&times; 267 + 158&nbsp;&times; 5)</p>\r\n\r\n<p>&rArr; 159/2&nbsp;&times; (534 + 790)</p>\r\n\r\n<p>&rArr; 159/2&nbsp;&times; 1324</p>\r\n\r\n<p>&rArr; 159&nbsp;&times; 662 = 105258</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the highest length that can be used to measure exactly the lengths 46 m, 69 m, 92 m, and 115 m.</p>\r\n",
+    "options": [
+      "<p>25</p>\r\n",
+      "<p>23</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>29</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.&nbsp;<strong>23.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>The lengths are 46 m, 69 m, 92 m and 115 m</p>\r\n\r\n<p>HCF of (46, 69, 92, 115)</p>\r\n\r\n<p>&rArr; 46 = 2&nbsp;&times; 23</p>\r\n\r\n<p>&rArr; 69 = 3&nbsp;&times; 23</p>\r\n\r\n<p>&rArr; 92 = 4&nbsp;&times; 23</p>\r\n\r\n<p>&rArr; 115 = 5&nbsp;&times; 23</p>\r\n\r\n<p>HCF of&nbsp;(46, 69, 92, 115) = 23</p>\r\n\r\n<p>Hence,&nbsp;the highest length = 23</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह उच्चतम लंबाई ज्ञात कीजिए जिसका उपयोग सटीक लंबाई 46 मीटर, 69 मीटर, 92 मीटर और 115 मीटर मापने के लिए किया जा सकता है।</p>\r\n",
+    "options_hi": [
+      "<p>25</p>\r\n",
+      "<p>23</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>29</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>23 </strong>है।</p>\r\n\r\n<p>दिया गया है की,</p>\r\n\r\n<p>लंबाई 46 मीटर, 69 मीटर, 92 मीटर और 115 मीटर है</p>\r\n\r\n<p>(46, 69, 92, 115)&nbsp;का महत्तम समापवर्तक</p>\r\n\r\n<p>&rArr; 46 = 2&nbsp;&times; 23</p>\r\n\r\n<p>&rArr; 69 = 3&nbsp;&times; 23</p>\r\n\r\n<p>&rArr; 92 = 4&nbsp;&times; 23</p>\r\n\r\n<p>&rArr; 115 = 5&nbsp;&times; 23</p>\r\n\r\n<p>(46, 69, 92, 115) का&nbsp;महत्तम समापवर्तक = 23 है</p>\r\n\r\n<p>इसलिए, उच्चतम लंबाई = 23</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>A number, when divided by 405, leaves a remainder of 30. What will be the remainder when the same number is divided by 27?</p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 2</strong>&nbsp;i.e. <strong>3.</strong></p>\r\n\r\n<p>Given that,</p>\r\n\r\n<p>Let the number be N divided by 405, which leaves a remainder of 30</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Dividend = Divisor&nbsp;&times; Quotient + Remainder</p>\r\n\r\n<p>As we know, 27 is a multiple of 405&nbsp;</p>\r\n\r\n<p>Now, the number N is divided by 27</p>\r\n\r\n<p>Then, the reminder = 30/27 = 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक संख्या को 405 से विभाजित करने पर 30 शेषफल&nbsp;बचता है। जब उसी संख्या को 27 से विभाजित किया जाता है, तो शेषफल क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>3</strong> है।</p>\r\n\r\n<p>दिया गया हैं कि&nbsp;</p>\r\n\r\n<p>माना संख्या N को 405 से विभाजित करने पर 30 शेषफल&nbsp;बचता है</p>\r\n\r\n<p>हम जानते है की,&nbsp;</p>\r\n\r\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\r\n\r\n<p>जैसा कि हम जानते हैं, 27, 405 का गुणज है</p>\r\n\r\n<p>अब, संख्या N को 27 से विभाजित किया गया है।</p>\r\n\r\n<p>तो,&nbsp;शेषफल = 30/27 = 3</p>\r\n"
+  }
+]
