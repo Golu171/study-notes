@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>A boat&#39;s speed in still water is 9 km/h, while stream&rsquo;s speed is 1.5 km/h. A man rows to a location 105 km away and then returns to his starting position. The total time taken by him is:</p>\r\n",
+    "options": [
+      "<p>20.5 hours</p>\r\n",
+      "<p>24 hours</p>\r\n",
+      "<p>19 hours</p>\r\n",
+      "<p>22 hours</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.&nbsp;<strong>24 hours.</strong></p>\r\n\r\n<p>Speed of the boat in still water = 9 km/h</p>\r\n\r\n<p>Speed of the stream&nbsp;= 1.5 km/h</p>\r\n\r\n<p>Distance = 105 km</p>\r\n\r\n<p>Speed = Distance/Time</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>Total time taken by the man:</p>\r\n\r\n<p>= {105/(9 + 1.5)} + {105/(9 - 1.5)}</p>\r\n\r\n<p>= 105/10.5 + 105/7.5</p>\r\n\r\n<p>= 10 + 14</p>\r\n\r\n<p>= 24 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>शांत पानी में एक नाव की गति 9 किमी/घंटा है, जबकि धारा की गति 1.5 किमी/घंटा है। एक व्यक्ति नाव चलाकर 105 किमी दूर एक स्थान पर जाता है और फिर अपनी प्रारंभिक स्थिति में लौट आता है। उसके द्वारा लिया गया कुल समय है:</p>\r\n",
+    "options_hi": [
+      "<p>20.5 घंटे</p>\r\n",
+      "<p>24 घंटे</p>\r\n",
+      "<p>19 घंटे</p>\r\n",
+      "<p>22 घंटे</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>24 घंटे</strong> है।</p>\r\n\r\n<p>शांत जल में नाव की गति = 9 किमी/घंटा</p>\r\n\r\n<p>धारा की गति = 1.5 किमी/घंटा</p>\r\n\r\n<p>दूरी = 105 किमी</p>\r\n\r\n<p>गति = दूरी/समय</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>आदमी द्वारा लिया गया कुल समय:</p>\r\n\r\n<p>= {105/(9 + 1.5)} + {105/(9 - 1.5)}</p>\r\n\r\n<p>= 105/10.5 + 105/7.5</p>\r\n\r\n<p>= 10 + 14</p>\r\n\r\n<p>= 24 घंटे</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A boat racer can row&nbsp;<span style=\"font-size:18px\"><span class=\"math-tex\">\\(21{{3} \\over 2}\\)</span></span> km/h in still water. If the speed of river is 12.5 km/hr, it takes him 40 minutes to row to a place and back, how far off is the place (consider up to two decimals)?</p>\r\n",
+    "options": [
+      "<p><span style=\"font-size:18px\"><span class=\"math-tex\">\\(5{{5} \\over 27}km\\)</span></span></p>\r\n",
+      "<p><span style=\"font-size:18px\"><span class=\"math-tex\">\\(5{{2} \\over 5}km\\)</span></span></p>\r\n",
+      "<p><span style=\"font-size:18px\"><span class=\"math-tex\">\\(4{{5} \\over 27}km\\)</span></span></p>\r\n",
+      "<p><span style=\"font-size:18px\"><span class=\"math-tex\">\\(3{{5} \\over 27}km\\)</span></span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span style=\"font-size:18px\"><span class=\"math-tex\">\\(5{{5} \\over 27}km\\)</span></span></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Speed of boat in still water =&nbsp;<span style=\"font-size:18px\"><span class=\"math-tex\">\\(21{{3} \\over 2}\\)</span>&nbsp;km/hr&nbsp;</span>= 22.5 km/hr</p>\r\n\r\n<p>Speed of stream = 12.5 km/hr</p>\r\n\r\n<p>Time = 40 minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Downstream speed =&nbsp;Speed of boat in still water +&nbsp;Speed of stream</p>\r\n\r\n<p>Upstream speed =&nbsp;Speed of boat in still water -&nbsp;Speed of stream</p>\r\n\r\n<p>Disatance = speed&nbsp;&times;&nbsp; time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the&nbsp;distance of the place be D km.</p>\r\n\r\n<p>Now, according to the given question,</p>\r\n\r\n<p><span class=\"math-tex\">\\({D \\over downstream\\ speed} + {D \\over upstream\\ speed} = {40 \\over 60}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({D \\over (22.5 + 12.5)} + {D \\over (22.5 - 12.5)} = {2 \\over 3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({D \\over 35} + {D \\over 10} = { 2\\over 3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({9D \\over 70} = {2 \\over 3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(D = {140 \\over 27}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(5 \\frac{5}{27}\\)</span>&nbsp;km.</p>\r\n\r\n<p>Hence, the distance is&nbsp;<span class=\"math-tex\">\\(5 \\frac{5}{27}\\)</span>&nbsp;km.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव रेसर स्थिर जल&nbsp; में&nbsp;<span style=\"font-size:18px\"><span style=\"font-size:18px\"><span class=\"math-tex\">\\(21{{3} \\over 2}\\)</span></span></span>&nbsp;किमी/घंटा तैर सकता है यदि नदी की गति 12.5 किमी/घंटा है, तो उसे एक स्थान पर जाने और वापस आने में 40 मिनट लगते हैं, स्थान कितनी दूर है (दो दशमलव तक मान लें)?&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p><span style=\"font-size:18px\">&nbsp;<span style=\"font-size:18px\"><span class=\"math-tex\">\\(5{{5} \\over 27}km\\)</span></span></span></p>\r\n",
+      "<p><span style=\"font-size:18px\"><span class=\"math-tex\">\\(5{{2} \\over 5}km\\)</span></span></p>\r\n",
+      "<p><span style=\"font-size:18px\">&nbsp;<span style=\"font-size:18px\"><span class=\"math-tex\">\\(4{{5} \\over 27}km\\)</span></span></span></p>\r\n",
+      "<p><span style=\"font-size:18px\">&nbsp;<span style=\"font-size:18px\"><span class=\"math-tex\">\\(3{{5} \\over 27}km\\)</span></span></span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 1</strong> अर्थात&nbsp;<span style=\"font-size:18px\"><span style=\"font-size:18px\"><span class=\"math-tex\">\\(5{{5} \\over 27}km\\)</span></span></span>&nbsp;है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>स्थिर जल में नाव की गति =&nbsp;<span style=\"font-size:18px\"><span style=\"font-size:18px\"><span class=\"math-tex\">\\(21{{3} \\over 2}\\)</span></span></span> किमी/घंटा = 22.5 किमी/घंटा</p>\r\n\r\n<p>धारा की गति = 12.5 किमी/घंटा</p>\r\n\r\n<p>समय = 40 मिनट</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>अनुप्रवाह गति = स्थिर जल में नाव की गति + धारा की गति</p>\r\n\r\n<p>उर्ध्वप्रवाह गति = स्थिर जल में नाव की गति - धारा की गति</p>\r\n\r\n<p>दूरी = गति &times; समय</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>माना स्थान की दूरी D किमी है।</p>\r\n\r\n<p>अब दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p><span class=\"math-tex\">\\({D \\over downstream\\ speed} + {D \\over upstream\\ speed} = {40 \\over 60}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({D \\over (22.5 + 12.5)} + {D \\over (22.5 - 12.5)} = {2 \\over 3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({D \\over 35} + {D \\over 10} = { 2\\over 3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({9D \\over 70} = {2 \\over 3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(D = {140 \\over 27}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(5 \\frac{5}{27}\\)</span>&nbsp;कि.मी.</p>\r\n\r\n<p>इसलिए, दूरी&nbsp;&nbsp;<span class=\"math-tex\">\\(5 \\frac{5}{27}\\)</span>&nbsp;कि.मी.है।</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The speed of a boat in still water is&nbsp; 5(1/3) km/h. It is found that the boat takes thrice as much time to row up than it does to row down the same distance in the river stream. Find the speed of the river stream.</p>\r\n",
+    "options": [
+      "<p>23/27 m/sec</p>\r\n",
+      "<p>22/27 m/sec</p>\r\n",
+      "<p>20/27 m/sec</p>\r\n",
+      "<p>19/27 m/sec</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>20/27 m/sec.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Speed of boat in still water, x =&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;km/hr</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Time = Distance/speed</p>\r\n\r\n<p>Downstream speed = speed of boat in still water + speed of stream</p>\r\n\r\n<p>Upstream speed = speed of boat in still water - speed of stream</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the speed of stream be y km/hr and distance travelled be D km.</p>\r\n\r\n<p>So, Downstream speed = x + y =&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;+ y</p>\r\n\r\n<p>And</p>\r\n\r\n<p>Upstream speed = x - y =&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;- y</p>\r\n\r\n<p>Now, according to the given question,&nbsp;</p>\r\n\r\n<p><span class=\"math-tex\">\\({D \\over (x - y)} = 3({D \\over x + y})\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;+ y = 3(&nbsp;&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;- y)</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;+ y = 16 - 3y</p>\r\n\r\n<p>&rArr; 4y = 16 -&nbsp;<span class=\"math-tex\">\\(16 \\over 3 \\)</span></p>\r\n\r\n<p>&rArr; 4y =&nbsp;<span class=\"math-tex\">\\(32 \\over 3 \\)</span></p>\r\n\r\n<p>&rArr; y =&nbsp;<span class=\"math-tex\">\\(8 \\over 3 \\)</span></p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Speed of stream in m/sec =&nbsp;<span class=\"math-tex\">\\({8 \\over 3} \\times {5 \\over 18}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(20 \\over 27\\)</span></p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>The speed of the stream is&nbsp;<span class=\"math-tex\">\\(20 \\over 27\\)</span>&nbsp;m/sec.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>स्थिर जल में नाव की चाल 5(1/3) किमी/घंटा है। यह पाया गया कि नाव को नदी की धारा में समान दूरी को ऊर्ध्वाधर दिशा में तय करने में, अनुप्रवाह दिशा में तय करने की तुलना में तीन गुना अधिक समय लगता है। नदी की धारा की चाल ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>23/27 मीटर/सेकंड</p>\r\n",
+      "<p>22/27&nbsp;मीटर/सेकंड</p>\r\n",
+      "<p>20/27 मीटर/सेकंड</p>\r\n",
+      "<p>19/27 मीटर/सेकंड</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>20/27 मीटर/सेकंड</strong> है।</p>\r\n\r\n<p><strong>दिया गया है:</strong></p>\r\n\r\n<p>स्थिर जल में नाव की चाल, x =&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;km/hr</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>समय = दूरी/चाल</p>\r\n\r\n<p>अनुप्रवाह चाल = शांत जल में नाव की चाल + धारा की चाल</p>\r\n\r\n<p>उर्ध्वप्रवाह चाल = स्थिर जल में नाव की चाल - धारा की चाल</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>माना धारा की चाल y किमी/घंटा है और तय की गई दूरी D किमी है।</p>\r\n\r\n<p>तो, अनुप्रवाह चाल = x + y =&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;+ y</p>\r\n\r\n<p>और</p>\r\n\r\n<p>ऊर्ध्वप्रवाह चाल = x - y =&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;- y</p>\r\n\r\n<p>अब दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p><span class=\"math-tex\">\\({D \\over (x - y)} = 3({D \\over x + y})\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;+ y = 3(&nbsp;&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;- y)</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(16 \\over 3\\)</span>&nbsp;+ y = 16 - 3y</p>\r\n\r\n<p>&rArr; 4y = 16 -&nbsp;<span class=\"math-tex\">\\(16 \\over 3 \\)</span></p>\r\n\r\n<p>&rArr; 4y =&nbsp;<span class=\"math-tex\">\\(32 \\over 3 \\)</span></p>\r\n\r\n<p>&rArr; y =&nbsp;<span class=\"math-tex\">\\(8 \\over 3 \\)</span></p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>धारा की चाल मीटर/सेकेंड में=&nbsp;<span class=\"math-tex\">\\({8 \\over 3} \\times {5 \\over 18}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(20 \\over 27\\)</span></p>\r\n\r\n<p>अत:,</p>\r\n\r\n<p>धारा की चाल&nbsp;<span class=\"math-tex\">\\(20 \\over 27\\)</span>&nbsp;मीटर/सेकंड है</p>\r\n"
+  },
+  {
+    "question": "<p>A man rows a boat a certain distance downstream in 9 hours, while it takes 18 hours to row the same distance upstream. How many hours will it take him to row three-fifth of the same distance in still water?</p>\r\n",
+    "options": [
+      "<p>9.5</p>\r\n",
+      "<p>7.2</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e. <strong>7.2.</strong></p>\r\n\r\n<p>Let the distance, speed of the boat in still water, and speed of the river be D, S, and R respectively.</p>\r\n\r\n<p>According to the concept,</p>\r\n\r\n<p>D/(S - R)=18 ...(1)</p>\r\n\r\n<p>D/(S + R) = 9 ...(2)</p>\r\n\r\n<p>Now, dividing equation (1) and (2),</p>\r\n\r\n<p>(S + R)/(S - R) = 2</p>\r\n\r\n<p>&rArr; (S + R + S - R)/(S + R - S + R) = (2 + 1)/(2 - 1) (Componendo-Dividendo Method)</p>\r\n\r\n<p>&rArr; S/R = 3</p>\r\n\r\n<p>&rArr; S = 3R</p>\r\n\r\n<p>Putting S = 3R in (1),</p>\r\n\r\n<p>&rArr; D = 36R</p>\r\n\r\n<p>Now, time taken to row three-fifth of the same distance in still water</p>\r\n\r\n<p>= (36R &times; 3/5) &divide; 3R</p>\r\n\r\n<p>= 7.2 hours</p>\r\n\r\n<p>Hence, It will take 7.2 hours to row three-fifth of the same distance in still water.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आदमी एक निश्चित दूरी को धारा के अनुकूल 9 घंटे में तय करता है, जबकि समान दूरी को धारा के प्रतिकूल तय करने में उसे 18 घंटे लगते हैं। उसे शांत जल में समान दूरी का तीन-पांचवां भाग कितने घंटे में तैरना होगा?</p>\r\n",
+    "options_hi": [
+      "<p>9.5</p>\r\n",
+      "<p>7.2</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2</strong> है अर्थात <strong>7.2।</strong></p>\r\n\r\n<p>मान लीजिए शांत जल में नाव की गति, दूरी और नदी की गति क्रमशः D, S, और R है।</p>\r\n\r\n<p>अवधारणा के अनुसार,</p>\r\n\r\n<p>D/(S - R)=18 ...(1)</p>\r\n\r\n<p>D/(S + R) = 9 ...(2)</p>\r\n\r\n<p>समीकरण (1) और (2) को भाग देने पर:</p>\r\n\r\n<p>(S + R)/(S - R) = 2</p>\r\n\r\n<p>&rArr; (S + R + S - R)/(S + R - S + R) = (2 + 1)/(2 - 1) (कंपोनेंडो-डिविडेंड विधि)</p>\r\n\r\n<p>&rArr; S/R = 3</p>\r\n\r\n<p>&rArr; S = 3R</p>\r\n\r\n<p>समीकरण (1) में S = 3R रखने पर,</p>\r\n\r\n<p>&rArr; D = 36R</p>\r\n\r\n<p>अब, स्थिर पानी में समान दूरी के तीन-पांचवें हिस्से को पंक्तिबद्ध करने में लगने वाला समय</p>\r\n\r\n<p>= 36R &times; 3/5 &divide; 3R</p>\r\n\r\n<p>= 7.2 घंटे</p>\r\n\r\n<p>अतः, शांत जल में समान दूरी के तीन-पांचवें हिस्से को नाव से चलाने में 7.2 घंटे का समय लगेगा।</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A boat&rsquo;s speed in still water is 22 km/h, while the river is flowing with a speed of 8 km/h and the time taken to cover a certain distance upstream is 4 hours more than the time taken to cover the same distance downstream. Find the distance.</p>\r\n",
+    "options": [
+      "<p>105 km</p>\r\n",
+      "<p>110 km</p>\r\n",
+      "<p>115 km</p>\r\n",
+      "<p>125 km</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> option 1</strong> i.e.&nbsp;<strong>105 km</strong></p>\r\n\r\n<p>Given that:</p>\r\n\r\n<p>Still water speed = 22 km/h</p>\r\n\r\n<p>Stream speed = 8 km/h</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>Speed in upstream = (Still water&#39;s speed - Stream speed) = (22 - 8) = 14 km/h</p>\r\n\r\n<p>Speed in downstream = (Still water speed + Stream speed ) = (22 + 8) = 30 km/h</p>\r\n\r\n<p>According to the question:</p>\r\n\r\n<p>The time taken to cover the upstream distance is 4 hours more than the downstream.</p>\r\n\r\n<p>Let the required distance be x;</p>\r\n\r\n<p>So,&nbsp;</p>\r\n\r\n<p>[{x/(22 - 8)} -&nbsp;{x/(22 + 8)}] = 4</p>\r\n\r\n<p>&rArr; x/14 - x/30 = 4</p>\r\n\r\n<p>&rArr; (30x - 14x)/420 = 4</p>\r\n\r\n<p>&rArr; x = 420(4)/16</p>\r\n\r\n<p>&rArr; x = 105</p>\r\n\r\n<p>Hence,&nbsp;</p>\r\n\r\n<p>Distance = 105 km</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>स्थिर जल&nbsp;में एक नाव की गति 22 किमी/घंटा है, जबकि नदी 8 किमी/घंटा की गति से बह रही है और धारा के प्रतिकूल एक निश्चित दूरी तय करने में लगने वाला समय धारा के अनुकूल समान दूरी तय करने में लगने वाले समय से 4 घंटे अधिक है। दूरी ज्ञात कीजिये?</p>\r\n",
+    "options_hi": [
+      "<p>105&nbsp;किमी</p>\r\n",
+      "<p>110&nbsp;किमी</p>\r\n",
+      "<p>115&nbsp;किमी</p>\r\n",
+      "<p>125&nbsp;किमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>105 किमी</strong> है।</p>\r\n\r\n<p>दिया गया:</p>\r\n\r\n<p>स्थिर जल की गति = 22 किमी/घंटा</p>\r\n\r\n<p>धारा की गति = 8 किमी/घंटा</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>धारा के प्रतिकूल गति = (स्थिर&nbsp;जल की गति - धारा की गति) = (22 - 8) = 14 किमी/घंटा</p>\r\n\r\n<p>धारा के अनुकूल गति = (स्थिर जल की गति + धारा की गति) = (22 + 8) = 30 किमी/घंटा</p>\r\n\r\n<p>प्रश्न के अनुसार:</p>\r\n\r\n<p>धारा के प्रतिकूल दूरी तय करने में लगने वाला समय धारा के अनुकूल दूरी से 4 घंटे अधिक है।</p>\r\n\r\n<p>माना आवश्यक दूरी x है;</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>[{x/(22 - 8)} - {x/(22 + 8)}] = 4</p>\r\n\r\n<p>&rArr; x/14 - x/30 = 4</p>\r\n\r\n<p>&rArr; (30x - 14x)/420 = 4</p>\r\n\r\n<p>&rArr; x = 420(4)/16</p>\r\n\r\n<p>&rArr; x = 105</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>दूरी = 105 किमी</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The speed of a boat is 12 km/h in still water. It goes 18 km&nbsp;downstream and comes back in a&nbsp;total time of&nbsp;<span class=\"math-tex\">\\(6\\dfrac{6}{7}\\)</span>&nbsp;hours. Find the speed of the stream. (In km/h)</p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4</strong> i.e.<strong> 9.</strong></p>\r\n\r\n<p>Let the speed of the stream = x km/h</p>\r\n\r\n<p>According to the given condition, we have:</p>\r\n\r\n<p>18/(12 + x) + 18/(12 - x) = 48/7</p>\r\n\r\n<p>Solving this by putting the options:</p>\r\n\r\n<p>We can see it gets satisfied when we put x = 9:</p>\r\n\r\n<p>&rArr; 18/21 + 18/3 = 6/7 + 6 = 48/7</p>\r\n\r\n<p>Hence,&nbsp;</p>\r\n\r\n<p>Speed of stream = 9 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>स्थिर जल में एक नाव की गति 12 किमी/घंटा है। यह धारा के अनुकूल 18 किमी जाती है और कुल <span class=\"math-tex\">\\(6\\dfrac{6}{7}\\)</span>&nbsp;घंटे में वापस आती है। धारा की गति ज्ञात कीजिए। (किमी/घंटा में)</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>9</strong> है।</p>\r\n\r\n<p>माना धारा की चाल = x किमी/घंटा</p>\r\n\r\n<p>दी गई शर्त के अनुसार, हमारे पास है:</p>\r\n\r\n<p>18/(12 + x) + 18/(12 - x) = 48/7</p>\r\n\r\n<p>विकल्पों को रखकर इसे हल करने पर:</p>\r\n\r\n<p>हम&nbsp;देख सकते हैं कि यह x = 9 से संतुष्ट होती:</p>\r\n\r\n<p>&rArr; 18/21 + 18/3 = 6/7 + 6 = 48/7</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>धारा की चाल = 9 किमी/घंटा</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The speed of a boat in still water is thrice the speed of the stream. If the boat takes&nbsp;15.5 seconds to go to a certain place downstream, then find the additional time required to&nbsp;cover the same distance travelling upstream.</p>\r\n",
+    "options": [
+      "<p>15.5 sec</p>\r\n",
+      "<p>29 sec</p>\r\n",
+      "<p>31 sec</p>\r\n",
+      "<p>35 sec</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>15.5 sec</strong></p>\r\n\r\n<p>Given that the speed of boat in still water is thrice the speed of stream.</p>\r\n\r\n<p>Let, the speed of the boat in still water and the speed of a stream be 3x and x&nbsp;respectively;</p>\r\n\r\n<p>So,&nbsp;</p>\r\n\r\n<p>Downstream speed = 3x + x = 4x</p>\r\n\r\n<p>Upstream speed = 3x - x = 2x</p>\r\n\r\n<p>Given that;</p>\r\n\r\n<p>The boat takes&nbsp;15.5 sec to go to a certain place downstream.&nbsp;</p>\r\n\r\n<p>Let the time taken to cover the same distance travelling upstream be T;</p>\r\n\r\n<p>So,&nbsp;</p>\r\n\r\n<p>Distance:</p>\r\n\r\n<p>Downstream speed&nbsp;&times; time = Upstream&nbsp; speed &times; T</p>\r\n\r\n<p>&rArr; 4x&nbsp;&times; 15.5 = Upstream&nbsp;speed&nbsp;&times; T&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;4x &times; 15.5 = 2x&nbsp;&times; T</p>\r\n\r\n<p>&rArr; T = 15.5&nbsp;&times; 2 = 31</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>Additional time required to cover the same distance = 31 - 15.5 = 15.5 sec</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>स्थिर जल में एक नाव की गति धारा की गति से तीन गुना है। यदि नाव को अनुप्रवाह में&nbsp;एक निश्चित स्थान तक जाने में 15.5 सेकंड का समय लगता है, तो ऊर्ध्वप्रवाह में&nbsp;यात्रा करते समय समान दूरी तय करने के लिए आवश्यक अतिरिक्त समय ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>15.5 सेकंड&nbsp;</p>\r\n",
+      "<p>29 सेकंड&nbsp;</p>\r\n",
+      "<p>31 सेकंड&nbsp;</p>\r\n",
+      "<p>35 सेकंड&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>15.5 सेकंड </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है&nbsp;कि स्थिर जल में नाव की गति धारा की गति से तीन गुना है|</p>\r\n\r\n<p>माना, स्थिर जल में नाव की गति और धारा की गति क्रमशः 3x और x है;</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>अनुप्रवाह&nbsp;गति = 3x + x = 4x</p>\r\n\r\n<p>ऊर्ध्वप्रवाह&nbsp;गति = 3x - x = 2x</p>\r\n\r\n<p>दिया गया है:</p>\r\n\r\n<p>नाव को अनुप्रवाह में&nbsp;एक निश्चित स्थान तक जाने में 15.5 सेकंड का समय लगता है|</p>\r\n\r\n<p>माना ऊर्ध्वप्रवाह में&nbsp;समान दूरी तय करने में लगने वाला समय T है;</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>दूरी:</p>\r\n\r\n<p>अनुप्रवाह&nbsp;गति &times; समय = ऊर्ध्वप्रवाह&nbsp;गति &times; T</p>\r\n\r\n<p>&rArr; 4x&nbsp;&times; 15.5 = ऊर्ध्वप्रवाह&nbsp;गति &times; T&nbsp;</p>\r\n\r\n<p>&rArr; 4x &times; 15.5 = 2x &times; T</p>\r\n\r\n<p>&rArr;&nbsp;T = 15.5&nbsp;&times; 2 = 31</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>समान दूरी तय करने के लिए अभीष्ट अतिरिक्त समय = 31 - 15.5 = 15.5 सेकंड</p>\r\n"
+  },
+  {
+    "question": "<p>A boat goes 10 km upstream and 12 km downstream in 4 hours. It can also go 7.5&nbsp;km upstream and 7 km downstream in 2.75&nbsp;hours. What is the speed (in km/h) of the boat when going upstream?</p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e. <strong>4.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>A boat goes 10 km upstream and 12 km downstream in 4 hours.</p>\r\n\r\n<p>It can also go 7.5&nbsp;km upstream and 7 km downstream in 2.75&nbsp;hours.&nbsp;</p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Time =&nbsp;Distance/Speed&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Let the speed of boat and stream be x and y</p>\r\n\r\n<p>Speed upstream = x - y</p>\r\n\r\n<p>Speed downstream = x + y</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr; 10/(x -&nbsp;y) + 12/(x + y) = 4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (2)</p>\r\n\r\n<p>&rArr; 7.5/(x - y) + 7/(x + y) = 11/4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (3)</p>\r\n\r\n<p>Solving equation (2) and (3):</p>\r\n\r\n<p>&rArr; x + y = 8 and x - y = 4</p>\r\n\r\n<p>Hence, speed of the boat going upstream = 4 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव 4 घंटे में ऊर्ध्वप्रवाह दिशा में 10 किमी और अनुप्रवाह दिशा में 12 किमी जाती है। यह 2.75&nbsp;घंटे में ऊर्ध्वप्रवाह दिशा में 7.5&nbsp;किमी और अनुप्रवाह दिशा में 7 किमी जा सकती है। ऊर्ध्वप्रवाह दिशा में जाने पर नाव की चाल (किमी/घंटा में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>4</strong> है।</p>\r\n\r\n<p><strong>दिया गया है:</strong></p>\r\n\r\n<p>एक नाव 4 घंटे में ऊर्ध्वप्रवाह दिशा में 10 किमी और अनुप्रवाह दिशा में 12 किमी जाती है।</p>\r\n\r\n<p>यह 2.75&nbsp;घंटे में ऊर्ध्वप्रवाह दिशा में 7.5 किमी और अनुप्रवाह दिशा में 7 किमी जा सकती है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>समय = दूरी/चाल---- (1)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>माना नाव और धारा की चाल x और y है</p>\r\n\r\n<p>ऊर्ध्वप्रवाह दिशा में चाल = x - y</p>\r\n\r\n<p>अनुप्रवाह दिशा में चाल = x + y</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr; 10/(x -&nbsp;y) + 12/(x + y) = 4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (2)</p>\r\n\r\n<p>&rArr; 7.5/(x - y) + 7/(x + y) = 11/4&nbsp; &nbsp; &nbsp;---- (3)</p>\r\n\r\n<p>समीकरण (2) और (3) को हल करने पर-</p>\r\n\r\n<p>&rArr; x + y = 8 और x - y = 4</p>\r\n\r\n<p>अत:, ऊर्ध्वप्रवाह दिशा में जाने पर नाव की चाल = 4 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>A boat can travel 104 km downstream in 8 hours. If the speed of the stream is 2 km/h, then find in what time will it be able to cover 13 km upstream?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\rm 2\\frac{2}{3} \\ hours\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ hours\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\rm 2\\frac{1}{2} \\ hours\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\rm 1\\frac{2}{3} \\ hours\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 </strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ hours\\)</span>.</p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Downstream speed = x + y&nbsp;</p>\r\n\r\n<p>where&nbsp;the boat&#39;s speed in still water is x and the speed of the stream is y.</p>\r\n\r\n<p>Now, according to the question:</p>\r\n\r\n<p>104/(x + y) = 8</p>\r\n\r\n<p>&rArr; x + y = 13</p>\r\n\r\n<p>y = 2 (given)</p>\r\n\r\n<p>&rArr; x = 13 - y = 13 - 2&nbsp;</p>\r\n\r\n<p>&rArr; x = 11</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>Upstream speed = x - y = 11 - 2 = 9 km/h</p>\r\n\r\n<p>Distance = Speed &times; Time</p>\r\n\r\n<p>&rArr; 13 = 9 &times; Time</p>\r\n\r\n<p>Time = 13/9 = <span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ hours\\)</span></p>\r\n\r\n<p>Therefore, the time taken to cover 13 km upstream is <span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ hours\\)</span>.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव अनुप्रवाह में 104 किमी की दूरी 8 घंटे में तय कर सकती है। यदि धारा की गति 2 किमी/घंटा है, तो ज्ञात कीजिए कि यह ऊर्ध्वप्रवाह में&nbsp;13 किमी की दूरी कितने समय में तय कर पाएगी?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\rm 2\\frac{2}{3} \\ hours\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ hours\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\rm 2\\frac{1}{2} \\ hours\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\rm 1\\frac{2}{3} \\ hours\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>​सही उत्तर <strong>विकल्प 2 </strong>अर्थात् <span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ \\)</span>घंटे&nbsp;है।</p>\r\n\r\n<p>हम जानते हैं कि,</p>\r\n\r\n<p>अनुप्रवाह गति = x + y&nbsp;</p>\r\n\r\n<p>जहां शांत पानी में नाव की गति x है और धारा पर गति y है।</p>\r\n\r\n<p>&rArr; 104/(x + y) = 8</p>\r\n\r\n<p>&rArr; x + y = 13</p>\r\n\r\n<p>y = 2 (दिया गया)</p>\r\n\r\n<p>&rArr; x = 13 - y = 13 - 2</p>\r\n\r\n<p>&rArr; x = 11</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>ऊर्ध्वप्रवाह गति = x -&nbsp; y = 11 - 2 = 9 किमी/घंटा</p>\r\n\r\n<p>दूरी = गति x समय</p>\r\n\r\n<p>&rArr; 13 = 9 &times; समय</p>\r\n\r\n<p>समय = 13/9 =&nbsp;<span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ \\)</span>घंटे&nbsp;</p>\r\n\r\n<p>इसलिए, ऊर्ध्वप्रवाह में 13 किमी की दूरी तय करने में लगने वाला समय&nbsp;<span class=\"math-tex\">\\(\\rm 1\\frac{4}{9} \\ \\)</span>घंटे&nbsp;है।</p>\r\n"
+  },
+  {
+    "question": "<p>The speed of a boat in still water is thrice the speed of the stream. If the boat takes 15.5 sec to go to a certain place downstream, then find the additional time required to cover the same distance travelling upstream.</p>\r\n",
+    "options": [
+      "<p>15.5 Second</p>\r\n",
+      "<p>29 Second</p>\r\n",
+      "<p>31 Second</p>\r\n",
+      "<p>35 Second</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1 </strong>i.e. <strong>15.5 Second</strong>.</p>\r\n\r\n<p>Let&#39;s assume,</p>\r\n\r\n<p>The speed of a boat in still water = 3x</p>\r\n\r\n<p>Speed of stream = x</p>\r\n\r\n<p>Distance = D</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>D/(x + 3x) = 15.5 Sec</p>\r\n\r\n<p>&rArr; D = 62x</p>\r\n\r\n<p>The total time required to cover the same distance travelling upstream = D/(3x - x)</p>\r\n\r\n<p>= 62x/2x = 31 Sec</p>\r\n\r\n<p>Additional time = 31 - 15.5 = 15.5 Sec</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>शांत पानी में एक नाव की गति धारा की गति से तीन गुना है। यदि नाव को धारा के अनुकूल एक निश्चित स्थान तक जाने में 15.5 सेकंड का समय लगता है, तो धारा के प्रतिकूल यात्रा करते हुए समान दूरी तय करने के लिए आवश्यक अतिरिक्त समय ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>15.5 सेकंड</p>\r\n",
+      "<p>29 सेकंड</p>\r\n",
+      "<p>31 सेकंड</p>\r\n",
+      "<p>35 सेकंड</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 1</strong> अर्थात <strong>15.5 सेकंड</strong> है।</p>\r\n\r\n<p>चलो मान लो,</p>\r\n\r\n<p>शांत जल में नाव की गति = 3x</p>\r\n\r\n<p>धारा की गति = x</p>\r\n\r\n<p>दूरी = D</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>D/(x + 3x) = 15.5 सेकंड</p>\r\n\r\n<p>&rArr; D = 62x</p>\r\n\r\n<p>धारा के प्रतिकूल समान दूरी तय करने में लगने वाला कुल समय = D/(3x - x)</p>\r\n\r\n<p>= 62x/2x = 31 सेकंड</p>\r\n\r\n<p>अतिरिक्त समय = 31 - 15.5 = 15.5 सेकंड</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The speed of a swimmer downstream is 23km/h. If the speed of the swimmer upstream is 14 km/h, then what is the speed of the stream?&nbsp;</p>\r\n",
+    "options": [
+      "<p>5.0 km/h</p>\r\n",
+      "<p>4.0 km/h</p>\r\n",
+      "<p>4.5 km/h</p>\r\n",
+      "<p>5.5&nbsp;km/h</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The Correct answer is <strong>option 3</strong>&nbsp;i.e <strong>4.5 km/h.</strong></p>\r\n\r\n<p>The speed of a swimmer downstream = 23 km/h</p>\r\n\r\n<p>The speed of the swimmer upstream = 14 km/h</p>\r\n\r\n<p>The speed of the stream =&nbsp;</p>\r\n\r\n<p>(The speed of a swimmer downstream -&nbsp;The speed of the swimmer upstream)/2</p>\r\n\r\n<p>= (23 - 14)/2</p>\r\n\r\n<p>= 4.5 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>धारा के अनुकूल एक तैराक की गति 23 किमी/घंटा है। यदि धारा के प्रतिकूल तैराक की गति 14 किमी/घंटा है, तो धारा की गति क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>5.0 किमी/घंटा</p>\r\n",
+      "<p>4.0 किमी/घंटा</p>\r\n",
+      "<p>4.5 किमी/घंटा</p>\r\n",
+      "<p>5.5&nbsp;किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>4.5 किमी/घंटा </strong>है।</p>\r\n\r\n<p>धारा के अनुकूल तैराक की गति = 23 किमी/घंटा</p>\r\n\r\n<p>धारा के प्रतिकूल तैराक की गति = 14 किमी/घंटा</p>\r\n\r\n<p>धारा की गति =</p>\r\n\r\n<p>(धारा के अनुकूल तैराक की गति - धारा के प्रतिकूल तैराक की गति)/2</p>\r\n\r\n<p>= (23 - 14)/2</p>\r\n\r\n<p>= 4.5 किमी/घंटा</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>A man can row upstream at 12 km/h and downstream at 20 km/h. Find the man&rsquo;s rowing speed in still water, and the rate of current.</p>\r\n",
+    "options": [
+      "<p>16 km/h and 4 km/h</p>\r\n",
+      "<p>16 km/h and 8 km/h</p>\r\n",
+      "<p>32 km/h and 4 km/h</p>\r\n",
+      "<p>32 km/h and 8 km/h</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e.&nbsp;<strong>16 km/h and 4 km/h.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Speed upstream = 12 km/hr</p>\r\n\r\n<p>x - y = 12.....(1)</p>\r\n\r\n<p>Speed downstream = 20 km/hr</p>\r\n\r\n<p>x + y = 20 .....(2)</p>\r\n\r\n<p>here, x = speed in still water and y = rate of current</p>\r\n\r\n<p>Solving equation (1) and (2):</p>\r\n\r\n<p>2x = 32</p>\r\n\r\n<p>&rArr; x = 16 km/hr</p>\r\n\r\n<p>And,</p>\r\n\r\n<p>y = 20 - 16 = 4 km/hr</p>\r\n\r\n<p>Hence, rowing speed in still water and rate of current are 16 km/hr and 4 km/hr respectively.&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आदमी ऊर्ध्वप्रवाह में 12 किमी/घंटा की गति से और अनुप्रवाह में&nbsp;20 किमी/घंटा की गति से नाव चला सकता है। स्थिर जल में आदमी की नाव चलाने की गति और धारा की दर ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>16 किमी/घंटा और 4 किमी/घंटा</p>\r\n",
+      "<p>16 किमी/घंटा और 8 किमी/घंटा</p>\r\n",
+      "<p>32 किमी/घंटा और 4 किमी/घंटा</p>\r\n",
+      "<p>32 किमी/घंटा और 8 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात् <strong>16 किमी/घंटा और 4 किमी/घंटा</strong> है।</p>\r\n\r\n<p>हम जानते हैं कि,&nbsp;</p>\r\n\r\n<p>ऊर्ध्वप्रवाह&nbsp;गति = 12 किमी/घंटा</p>\r\n\r\n<p>x - y = 12.....(1)</p>\r\n\r\n<p>अनुप्रवाह&nbsp;गति = 20 किमी/घंटा</p>\r\n\r\n<p>x + y = 20 .....(2)</p>\r\n\r\n<p>यहाँ, x = स्थिर जल में गति और y = धारा की दर</p>\r\n\r\n<p>समीकरण (1) और (2) को हल करने पर:</p>\r\n\r\n<p>2x = 32</p>\r\n\r\n<p>&rArr; x = 16 किमी/घंटा</p>\r\n\r\n<p>और,</p>\r\n\r\n<p>y = 20 - 16 = 4 किमी/घंटा</p>\r\n\r\n<p>इसलिए, शांत पानी में नाव चलाने की गति और धारा की गति क्रमशः 16 किमी/घंटा और 4 किमी/घंटा है।</p>\r\n"
+  },
+  {
+    "question": "<p>A boat can cover a distance of 56 km downstream in 3.5 hours. The ratio of the boat in still water and the speed of stream is 3 : 1. How much time (in hours) will the boat take to cover a distance of 41.6 km downstream?</p>\r\n",
+    "options": [
+      "<p>2.1</p>\r\n",
+      "<p>1.8</p>\r\n",
+      "<p>2.6</p>\r\n",
+      "<p>1.5</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong>&nbsp;i.e. <strong>2.6.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>A boat can cover a distance of 56 km downstream in 3.5 hours;</p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Speed = Distance/time</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Speed of the boat downstream = 56/3.5 = 16 kmph</p>\r\n\r\n<p>To cover the distance of 41.6 km downstream, time taken = 41.6/16 = 2.6 hours</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>Time taken by the boat to cover 41.6 km downstream is 2.6 hours.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव धारा के अनुकूल 56 किमी की दूरी 3.5 किमी में तय कर सकती है। शांत जल में नाव का अनुपात और धारा की गति का अनुपात 3 : 1 है। नाव को धारा के अनुकूल 41.6 किमी की दूरी तय करने में कितना समय (घंटों में) लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>2.1</p>\r\n",
+      "<p>1.8</p>\r\n",
+      "<p>2.6</p>\r\n",
+      "<p>1.5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात <strong>2.6 </strong>है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>एक नाव 3.5 घंटे में धारा के अनुकूल 56 किमी की दूरी तय कर सकती है</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>गति = दूरी/समय</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>धारा के अनुकूल नाव की गति = 56/3.5 = 16 किमी/घंटा</p>\r\n\r\n<p>धारा के अनुकूल 41.6 किमी की दूरी तय करने में लगने वाला समय = 41.6/16 = 2.6 घंटे</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>नाव द्वारा धारा के अनुकूल 41.6 किमी की दूरी तय करने में 2.6 घंटे का समय लगता है|</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Anup can row 33 km downstream and 35 km upstream in 8 hours. He can also row 44 km downstream and 28 km upstream in the same time. How much time (in hours) will he take to row 55 km downstream and 14 km upstream?</p>\r\n",
+    "options": [
+      "<p>9</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.<strong>&nbsp;7,</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Anup can row 33 km downstream and 35 km upstream in 8 hours</p>\r\n\r\n<p>He can also row 44 km downstream and 28 km upstream in 8 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Time = Distance/speed</p>\r\n\r\n<p>Downstream speed = speed of boat + speed of stream</p>\r\n\r\n<p>Upstream speed =&nbsp;speed of boat - speed of stream</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Let the speed of boat and stream be x and yy respectively;</p>\r\n\r\n<p>So,&nbsp;</p>\r\n\r\n<p>Downstream speed = x + y</p>\r\n\r\n<p>Upstream speed = x - y</p>\r\n\r\n<p>According to the question, we get:</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{33}{x + y} +\\dfrac{35}{x + y} = 8\\)</span>&nbsp; &nbsp; &nbsp; &nbsp;----- (1)</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{44}{x + y} + \\dfrac{28}{x - y} = 8\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; ----- (2)</p>\r\n\r\n<p>Subtracting equation (1) from (2):</p>\r\n\r\n<p>&rArr; 11&nbsp;&times; (x - y) = 7&nbsp;&times; (x + y)</p>\r\n\r\n<p>&rArr; 11x - 11y = 7x + 7y</p>\r\n\r\n<p>&rArr; 4x = 18y</p>\r\n\r\n<p>&rArr; x = 9/2y</p>\r\n\r\n<p>Using the value of x in equation (1), we get:</p>\r\n\r\n<p>y = 2 and x = 9</p>\r\n\r\n<p>Time required to travel 55 km downstream and 14 km upstream =&nbsp;<span class=\"math-tex\">\\(\\dfrac{55}{x + y} + \\dfrac{14}{x - y}\\)</span></p>\r\n\r\n<p>&rArr; 55/11 + 14/7</p>\r\n\r\n<p>&rArr; 5 + 2 = 7 hours</p>\r\n\r\n<p>Hence the time taken to row 55 km downstream and 14 km upstream is 7 hours.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>अनूप धारा के अनुकूल 33 किमी और धारा के प्रतिकूल 35 किमी 8 घंटे में तैर सकता है। वह समान समय में धारा के अनुकूल 44 किमी और धारा के प्रतिकूल 28 किमी भी दौड़ सकता है। वह धारा के अनुकूल 55 किमी और धारा के प्रतिकूल 14 किमी की दूरी तय करने में कितना समय (घंटों में) लेगा?</p>\r\n",
+    "options_hi": [
+      "<p>9</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4&nbsp;</strong>अर्थात&nbsp;<strong>7 </strong>है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>अनूप 8 घंटे में धारा के अनुकूल 33 किमी और धारा के प्रतिकूल 35 किमी नाव चला सकता है</p>\r\n\r\n<p>वह 8 घंटे में धारा के अनुकूल 44 किमी और धारा के प्रतिकूल 28 किमी नाव चला सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>समय = दूरी/गति</p>\r\n\r\n<p>अनुप्रवाह गति = नाव की गति + धारा की गति</p>\r\n\r\n<p>ऊर्ध्वप्रवाह गति =&nbsp;नाव की गति - धारा की गति</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>माना नाव और धारा की गति x और y है;</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>धारा के अनुकूल गति = x + y</p>\r\n\r\n<p>धारा के प्रतिकूल गति = x - y</p>\r\n\r\n<p>प्रश्न के अनुसार, हम प्राप्त करते हैं:</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{33}{x + y} +\\dfrac{35}{x + y} = 8\\)</span>&nbsp; &nbsp; &nbsp; &nbsp;----- (1)</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{44}{x + y} + \\dfrac{28}{x - y} = 8\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; ----- (2)</p>\r\n\r\n<p>समीकरण (1) को (2) से घटाने पर</p>\r\n\r\n<p>&rArr; 11&nbsp;&times; (x - y) = 7&nbsp;&times; (x + y)</p>\r\n\r\n<p>&rArr; 11x - 11y = 7x + 7y</p>\r\n\r\n<p>&rArr; 4x = 18y</p>\r\n\r\n<p>&rArr; x = 9/2y</p>\r\n\r\n<p>समीकरण (1) में x के मान का प्रयोग करने पर हमें प्राप्त होता है</p>\r\n\r\n<p>y = 2 और x = 9</p>\r\n\r\n<p>55 किमी धारा के अनुकूल और 14 किमी धारा के प्रतिकूल यात्रा करने के लिए आवश्यक समय =&nbsp;<span class=\"math-tex\">\\(\\dfrac{55}{x + y} + \\dfrac{14}{x - y}\\)</span></p>\r\n\r\n<p>&rArr; 55/11 + 14/7</p>\r\n\r\n<p>&rArr; 5 + 2 = 7 घंटे</p>\r\n\r\n<p>इसलिए वह 7 घंटे में धारा के अनुकूल 55 किमी और धारा के प्रतिकूल 14 किमी नाव चलाता है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A boatman can row a boat in still water at a speed of 9 km/h. He can also row 44 km downstream and 35 km upstream in 9 hours. How much time (in hours) will he take to row 33 km downstream and 28 km upstream ?</p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>7.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Speed of boat in still water = 9 km/h</p>\r\n\r\n<p>A boatman can also row 44 km downstream and 35 km upstream in 9 hours.</p>\r\n\r\n<p><strong>Concept used :</strong></p>\r\n\r\n<p>Distance/speed = time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>The speed of boat in still water = 9 km/h</p>\r\n\r\n<p>Let the speed of current be x km/h.</p>\r\n\r\n<p>Then, speed in downstream = (9 + x) km/h</p>\r\n\r\n<p>And, speed in upstream = (9 - x) km/h</p>\r\n\r\n<p>According to the question ,</p>\r\n\r\n<p>[44/(9 + x)] + [35/(9 - x)] = 9</p>\r\n\r\n<p>&rArr; 44(9 - x) + 35(9 + x) = 9(9<sup>2</sup>&nbsp;- x<sup>2</sup>)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(By taking LCM)</p>\r\n\r\n<p>&rArr; 396 - 44x + 315 + 35x = 729 - 9x<sup>2</sup></p>\r\n\r\n<p>&rArr; 9x<sup>2&nbsp;</sup>-9x -18 = 0</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;-x -2 = 0</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>- 2x + x - 2 = 0</p>\r\n\r\n<p>&rArr; (x - 2)(x + 1) = 0</p>\r\n\r\n<p>&rArr; x = 2</p>\r\n\r\n<p>Hence the speed of the stream = 2 km/h</p>\r\n\r\n<p>Now, required time,</p>\r\n\r\n<p>&rArr; [33/(9 + 2)] + [28/(9 - 2)] = 3 + 4 = 7 hours.</p>\r\n\r\n<p>Hence&nbsp;he will take 7 hours to row 33 km downstream and 28 km upstream.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाविक, शांत जल में 9 किमी/घंटा की गति से नाव चला सकता है। वह 9 घंटे में धारा के अनुकूल 44 किमी और धारा के प्रतिकूल 35 किमी की दूरी तय कर सकता है। वह धारा के अनुकूल 33 किमी और धारा के प्रतिकूल 28 किमी की दूरी तय करने में कितना समय (घंटों में) लेगा?</p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>यानी <strong>7 </strong>है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>शांत जल में नाव की गति = 9 किमी/घंटा</p>\r\n\r\n<p>एक नाविक 9 घंटे में 44 किमी धारा के अनुकूल और 35 किमी धारा के प्रतिकूल नाव चला सकता है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>दूरी/गति = समय</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>शांत जल में नाव की गति = 9 किमी/घंटा</p>\r\n\r\n<p>माना धारा की चाल x किमी/घंटा है।</p>\r\n\r\n<p>फिर, धारा के अनुकूल गति = (9 + x) किमी/घंटा</p>\r\n\r\n<p>और धारा के प्रतिकूल गति = (9 - x) किमी/घंटा</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>[44/(9 + x)] + [35/(9 - x)] = 9</p>\r\n\r\n<p>&rArr; 44(9 - x) + 35(9 + x) = 9(9<sup>2</sup>&nbsp;- x<sup>2</sup>)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(ल.स.म)</p>\r\n\r\n<p>&rArr; 396 - 44x + 315 + 35x = 729 - 9x<sup>2</sup></p>\r\n\r\n<p>&rArr; 9x<sup>2&nbsp;</sup>-9x -18 = 0</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;-x -2 = 0</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>- 2x + x - 2 = 0</p>\r\n\r\n<p>&rArr; (x - 2)(x + 1) =0</p>\r\n\r\n<p>&rArr; x =2</p>\r\n\r\n<p>अतः धारा की गति = 2 किमी/घंटा</p>\r\n\r\n<p>अतः, अभीष्ट हल,</p>\r\n\r\n<p>&rArr; [33/(9 + 2)] + [28/(9 - 2)] = 3 + 4 = 7 घंटे</p>\r\n\r\n<p>इसलिए वह धारा के अनुकूल 33 किमी और धारा के प्रतिकूल 28 किमी नाव चलाने में 7 घंटे का समय लेता है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 39 km upstream?</p>\r\n",
+    "options": [
+      "<p>2 h 50 m</p>\r\n",
+      "<p>3 h 10 m</p>\r\n",
+      "<p>3 h 40 m</p>\r\n",
+      "<p>2 h 40 m</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>3 h 40 m.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Speed of motorboat in still water = 20 km/h</p>\r\n\r\n<p><strong>Concept USed:</strong></p>\r\n\r\n<p>Time = Distance/speed&nbsp;</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the stream of speed be &#39;x&#39;</p>\r\n\r\n<p>&rArr; (1/2) = 24/(20 - x) - 24/(20 + x)</p>\r\n\r\n<p>&rArr; (1/2) = 24(2x/(400 - x<sup>2</sup>))</p>\r\n\r\n<p>&rArr; (1/2) = 48x/(400 - x<sup>2</sup>)</p>\r\n\r\n<p>&rArr; 400 - x<sup>2</sup>&nbsp;= 96x</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;+ 96x - 400 = 0</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;- 4x + 100x - 400 = 0</p>\r\n\r\n<p>&rArr; x(x - 4) + 100(x - 4) = 0</p>\r\n\r\n<p>&rArr; (x - 4)(x + 100) = 0</p>\r\n\r\n<p>&rArr; x = 4</p>\r\n\r\n<p>Now, speed of the boat in still water is increased by 2 kn/hr:</p>\r\n\r\n<p>New upstream speed = 22 - 4 = 18 km/h</p>\r\n\r\n<p>New downstream speed = 22 + 4 = 26 km/h</p>\r\n\r\n<p>Time taken = 39/18 + 39/26</p>\r\n\r\n<p>&rArr; 13/6 + 3/2 = (13 + 9)/6</p>\r\n\r\n<p>&rArr; 22/6 or 11/3 &rArr;&nbsp;3 hours 40 minutes</p>\r\n\r\n<p>Hence, it take 3 h 40 min to go 39 km downstream and 39 km upstream.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक मोटरबोट जिसकी गति शांत जल में 20 किमी/घंटा है, धारा के प्रतिकूल 24 किमी जाने में समान दूरी को धारा के अनुकूल तय करने की तुलना में 30 मिनट अधिक लेती है। यदि शांत जल में नाव की गति में 2 किमी/घंटा की वृद्धि कर दी जाती है, तो उसे धारा के अनुकूल 39 किमी और धारा के प्रतिकूल 39 किमी जाने में कितना समय लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>2 घंटे 50 मिनट</p>\r\n",
+      "<p>3 घंटे 10 मिनट</p>\r\n",
+      "<p>3 घंटे 40 मिनट</p>\r\n",
+      "<p>2 घंटे 40 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;यानी&nbsp;<strong>3 घंटे 40 मिनट </strong>है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>शांत जल में मोटरबोट की गति = 20 किमी/घंटा</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>समय = दूरी/गति</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>माना धारा की गति &#39;x&#39; है।</p>\r\n\r\n<p>&rArr; (1/2) = 24/(20 - x) - 24/(20 + x)</p>\r\n\r\n<p>&rArr; (1/2) = 24(2x/(400 - x<sup>2</sup>))</p>\r\n\r\n<p>&rArr; (1/2) = 48x/(400 - x<sup>2</sup>)</p>\r\n\r\n<p>&rArr; 400 - x<sup>2</sup>&nbsp;= 96x</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;+ 96x - 400 = 0</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;- 4x + 100x - 400 = 0</p>\r\n\r\n<p>&rArr; x(x - 4) + 100(x - 4) = 0</p>\r\n\r\n<p>&rArr; (x - 4)(x + 100) = 0</p>\r\n\r\n<p>&rArr; x = 4</p>\r\n\r\n<p>अब, शांत पानी में नाव की गति 2 किमी/घंटा बढ़ गई है:</p>\r\n\r\n<p>नई धारा के प्रतिकूल गति = 22 - 4 = 18 किमी/घंटा</p>\r\n\r\n<p>नई धारा के अनुकूल गति = 22 + 4 = 26 किमी/घंटा</p>\r\n\r\n<p>लिया गया&nbsp;समय = 39/18 + 39/26</p>\r\n\r\n<p>&rArr; 13/6 + 3/2 = (13 + 9)/6</p>\r\n\r\n<p>&rArr; 22/6 या 11/3 &rArr; 3 घंटे 40 मिनट</p>\r\n\r\n<p>इसलिए, धारा के अनुकूल 39 किमी और धारा के प्रतिकूल 39 किमी जाने में 3 घंटे 40 मिनट लगते हैं।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The speed of a boat downstream is 150% more than its speed upstream. If the time taken by the boat for going 80 km downstream and 50 km upstream is 8.2 hours, then what is the speed (in km/h) of the boat downstream?</p>\r\n",
+    "options": [
+      "<p>25</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>30</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> option 1</strong> i.e. <strong>25.</strong></p>\r\n\r\n<p>Distance/Speed = Time&nbsp;</p>\r\n\r\n<p>Let the speed upstream = 100x&nbsp;</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>Speed of the boat downstream = 100x&nbsp;&times; 250/100 = 250x</p>\r\n\r\n<p>As per the question;&nbsp;</p>\r\n\r\n<p>80/250x + 50/100x = 8.2 hours&nbsp;</p>\r\n\r\n<p>&rArr; 8/25x + 1/2x = 82/10&nbsp;</p>\r\n\r\n<p>&rArr; (16 + 25)/50x = 41/5&nbsp;</p>\r\n\r\n<p>&rArr; 41/50x = 41/5&nbsp;</p>\r\n\r\n<p>&rArr; 1/10x = 1</p>\r\n\r\n<p>&rArr; x = 1/10&nbsp;</p>\r\n\r\n<p>The downstream speed of the boat = 250x</p>\r\n\r\n<p>&rArr; 250x = 250&nbsp;&times; 1/10&nbsp;</p>\r\n\r\n<p>&rArr; 25 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव की अनुप्रवाह&nbsp;गति उसकी ऊर्ध्वप्रवाह&nbsp;गति से 150% अधिक है। यदि नाव को अनुप्रवाह 80 किलोमीटर&nbsp;और ऊर्ध्वप्रवाह&nbsp;50 किलोमीटर जाने में 8.2 घंटे का समय लगता है, तो अनुप्रवाह में&nbsp;नाव की गति (किमी/घंटा में) क्या है?&nbsp; &nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>25</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>30</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1&nbsp;</strong>अर्थात्&nbsp;<strong>25&nbsp;</strong>है।</p>\r\n\r\n<p>दूरी/गति = समय</p>\r\n\r\n<p>माना&nbsp;ऊर्ध्वप्रवाह की गति&nbsp;= 100x&nbsp;</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>अनुप्रवाह में&nbsp;नाव की गति = 100x&nbsp;&times; 250/100 = 250x&nbsp;</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>80/250x + 50/100x = 8.2 घंटा&nbsp;</p>\r\n\r\n<p>&rArr; 8/25x + 1/2x = 82/10&nbsp;</p>\r\n\r\n<p>&rArr; (16 + 25)/50x = 41/5&nbsp;</p>\r\n\r\n<p>&rArr; 41/50x = 41/5&nbsp;</p>\r\n\r\n<p>&rArr; 1/10x = 1</p>\r\n\r\n<p>&rArr; x = 1/10&nbsp;</p>\r\n\r\n<p>अनुप्रवाह में नाव की&nbsp;गति = 250x</p>\r\n\r\n<p>&rArr; 250x = 250&nbsp;&times; 1/10&nbsp;</p>\r\n\r\n<p>&rArr; 25 किमी/घंटा</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Ravi can row a boat in still water at the speed of 14 km/h. If a river is flowing at the speed of 2 km/h and Ravi takes 3 hours to cover a certain distance upstream, then how much time will he take to cover the same distance downstream?</p>\r\n",
+    "options": [
+      "<p>2 h 20 m</p>\r\n",
+      "<p>2 h</p>\r\n",
+      "<p>2 h 15 m</p>\r\n",
+      "<p>2 h 30 m</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 3&nbsp;</strong>i.e.&nbsp;<strong>2 h 15 m</strong>.</p>\r\n\r\n<p>Effective speed during&nbsp;upwards journey = (14 - 2) kmph = 12 kmph</p>\r\n\r\n<p>And Distance covered = 12&nbsp;&times; 3&nbsp;= 36 km</p>\r\n\r\n<p>Effective speed during downwards journey = (14 + 2) kmph = 16 kmph</p>\r\n\r\n<p>So, Time taken by Ravi to cover 36 km downstream</p>\r\n\r\n<p>= 36&nbsp;&divide; 16 = 2.25 hours = 2 hours 15 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>रवि, शांत जल में 14 किमी/घंटा की गति से एक नाव चला सकता है। यदि एक नदी 2 किमी/घंटा की गति से बह रही है और रावी को धारा के प्रतिकूल एक निश्चित दूरी तय करने में 3 घंटे लगते हैं, तो वह धारा के अनुकूल समान दूरी को तय करने में कितना समय लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>2 घंटे 20 मिनट</p>\r\n",
+      "<p>2 घंटे</p>\r\n",
+      "<p>2 घंटे 15 मिनट</p>\r\n",
+      "<p>2 घंटे 30 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 3</strong> यानी <strong>2 घंटे 15 मिनट </strong>है।</p>\r\n\r\n<p>ऊपर की यात्रा के दौरान प्रभावी गति = (14 - 2) किमी/घंटा = 12 किमी/घंटा</p>\r\n\r\n<p>और तय की गई दूरी = 12&nbsp;&times; 3&nbsp;= 36&nbsp;घंटे</p>\r\n\r\n<p>नीचे की यात्रा के दौरान प्रभावी गति = (14 + 2) किमी/घंटा = 16 किमी/घंटा</p>\r\n\r\n<p>अतः, रवि द्वारा धारा के अनुकूल 36 किमी की दूरी तय करने में लिया गया समय</p>\r\n\r\n<p>= 36&nbsp;&divide; 16 = 2.25 घंटे = 2 घंटे 15 मिनट</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A&nbsp;boat&nbsp;goes&nbsp;24 km uptream in one hour more than the time taken to cover the same distance downstream. If the speed of the current of the river is&nbsp;2 km/h, then what is the speed (in&nbsp;km/h) of the boat in upstream travel?</p>\r\n",
+    "options": [
+      "<p>8</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1&nbsp;</strong>i.e. <strong>8.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>A&nbsp;boat&nbsp;goes&nbsp;24 km upstream in one hour more than the time taken to cover the same distance downstream.&nbsp;</p>\r\n\r\n<p>Speed of current = 2 km/h</p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Speed = distance/time&nbsp;</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Let the speed of boat be x;</p>\r\n\r\n<p>Upstream speed = x - 2</p>\r\n\r\n<p>Downstream speed = x + 2</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>&rArr; 24/(x - 2) - 24/(x + 2) = 1</p>\r\n\r\n<p>&rArr; 24(x + 2 - x + 2) = x<sup>2</sup>&nbsp;- 4</p>\r\n\r\n<p>&rArr; 24&nbsp;&times; 4 = x<sup>2</sup>&nbsp;- 4</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;= 96 + 4</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;= 100</p>\r\n\r\n<p>&rArr; x = 10</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>Speed of boat in upstream = x - 2 = 10 - 2 = 8 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव ऊर्ध्वप्रवाह दिशा में 24 किमी की दूरी तय करने में, समान दूरी को अनुप्रवाह दिशा में तय करने में लिए गए समय से एक घंटा अधिक लेती है। यदि नदी की धारा की चाल 2 किमी/घंटा है, तो नाव की&nbsp;ऊर्ध्वप्रवाह चाल&nbsp; (किमी/घंटा में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>8</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>9</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>8</strong> है।</p>\r\n\r\n<p><strong>दिया गया है:</strong></p>\r\n\r\n<p>एक नाव ऊर्ध्वप्रवाह दिशा में 24 किमी की दूरी तय करने में, समान दूरी को अनुप्रवाह दिशा में तय करने में लिए गए समय से एक घंटा अधिक लेती है।</p>\r\n\r\n<p>धारा की चाल = 2 किमी/घंटा</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>चाल = दूरी/समय</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>माना नाव की चाल x है;</p>\r\n\r\n<p>ऊर्ध्वप्रवाह चाल = x - 2</p>\r\n\r\n<p>अनुप्रवाह चाल = x + 2</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>&rArr; 24/(x - 2) - 24/(x + 2) = 1</p>\r\n\r\n<p>&rArr; 24(x + 2 - x + 2) = x<sup>2</sup>&nbsp;- 4</p>\r\n\r\n<p>&rArr; 24&nbsp;&times; 4 = x<sup>2</sup>&nbsp;- 4</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;= 96 + 4</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;= 100</p>\r\n\r\n<p>&rArr; x = 10</p>\r\n\r\n<p>अतः,</p>\r\n\r\n<p>नाव की ऊर्ध्वप्रवाह चाल = x - 2 = 10 - 2 = 8 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>A boat can go 10 km upstream and 11 km downstream in a total time of 52 minutes.&nbsp;If the speed of the stream is 5 km/h, then what is the speed (in km/h) of the boat when&nbsp;going downstream?</p>\r\n",
+    "options": [
+      "<p>30</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>35</p>\r\n",
+      "<p>25</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> option 1</strong> i.e. <strong>30.</strong></p>\r\n\r\n<p>The boat can go 10 km upstream and 11 km downstream in a total time of 52 minutes.</p>\r\n\r\n<p>Speed of the stream = 5 km/h</p>\r\n\r\n<p>Time = Distance/speed</p>\r\n\r\n<p>Upstream speed = u - v (here, u = speed of the object, v = speed of the stream)</p>\r\n\r\n<p>Downstream speed = u + v</p>\r\n\r\n<p>Let the speed of the boat be x km/h;</p>\r\n\r\n<p>According to the question:&rArr;</p>\r\n\r\n<p>[10/(x - 5)] + 11/(x + 5) = 52/60</p>\r\n\r\n<p>&rArr; [(10x + 50 + 11x -&nbsp;5)/(x - 5)(x + 5)] = 13/15</p>\r\n\r\n<p>&rArr; (21x - 5)/(x<sup>2</sup>&nbsp;- 25) = 13/15</p>\r\n\r\n<p>&rArr; 315x - 75 = 13x<sup>2</sup>&nbsp;- 325</p>\r\n\r\n<p>&rArr; 13x<sup>2</sup>&nbsp;- 325 + 75 - 315x = 0</p>\r\n\r\n<p>&rArr; 13x<sup>2</sup>&nbsp;- 315x - 250 = 0</p>\r\n\r\n<p>&rArr; 13x<sup>2</sup>&nbsp;- 325x + 10x - 250 = 0</p>\r\n\r\n<p>&rArr; 13x(x - 25) + 10(x - 25) = 0</p>\r\n\r\n<p>&rArr; (x - 25)(13x + 10) = 0</p>\r\n\r\n<p>&rArr; x = 25 or - (10/13)</p>\r\n\r\n<p>Since speed cannot be negative so x = 25</p>\r\n\r\n<p>Speed of the boat = 25 km/h</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>Downstream speed = 25 + 5 =&nbsp;30 km/h&nbsp;&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव कुल 52 मिनट में धारा के प्रतिकूल 10 किमी और धारा के अनुकूल 11 किमी जा सकती है। यदि धारा की गति 5 किमी/घंटा है, तो धारा के अनुकूल जाते समय नाव की गति (किमी/घंटा में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>30</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>35</p>\r\n",
+      "<p>25</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात <strong>30 </strong>है।</p>\r\n\r\n<p>नाव 52 मिनट के कुल समय में 10 किमी धारा के प्रतिकूल और 11 किमी धारा के अनुकूल जा सकती है।</p>\r\n\r\n<p>धारा की गति = 5 किमी/घंटा</p>\r\n\r\n<p>समय = दूरी/गति</p>\r\n\r\n<p>धारा के प्रतिकूल गति = u - v (यहाँ, u = वस्तु की गति, v = धारा की गति)</p>\r\n\r\n<p>धारा के अनुकूल गति = u + v</p>\r\n\r\n<p>(a<sup>2</sup>&nbsp;- b<sup>2</sup>) = (a + b)(a - b)</p>\r\n\r\n<p>माना नाव की गति x किमी/घंटा है;</p>\r\n\r\n<p>प्रश्न के अनुसार:</p>\r\n\r\n<p>[10/(x - 5)] + 11/(x + 5) = 52/60</p>\r\n\r\n<p>&rArr; [(10x + 50 + 11x -&nbsp;5)/(x - 5)(x + 5)] = 13/15</p>\r\n\r\n<p>&rArr; (21x - 5)/(x<sup>2</sup>&nbsp;- 25) = 13/15</p>\r\n\r\n<p>&rArr; 315x - 75 = 13x<sup>2</sup>&nbsp;- 325</p>\r\n\r\n<p>&rArr; 13x<sup>2</sup>&nbsp;- 325 + 75 - 315x = 0</p>\r\n\r\n<p>&rArr; 13x<sup>2</sup>&nbsp;- 315x - 250 = 0</p>\r\n\r\n<p>&rArr; 13x<sup>2</sup>&nbsp;- 325x + 10x - 250 = 0</p>\r\n\r\n<p>&rArr; 13x(x - 25) + 10(x - 25) = 0</p>\r\n\r\n<p>&rArr; (x - 25)(13x + 10) = 0</p>\r\n\r\n<p>&rArr; x = 25 or - (10/13)</p>\r\n\r\n<p>चूंकि गति ऋणात्मक नहीं हो सकती इसलिए x = 25</p>\r\n\r\n<p>नाव की गति = 25 किमी/घंटा</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>धारा के अनुकूल गति = 25 + 5 =&nbsp;30 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>A man can row 18 km/h in still water. It takes him two times as long to row up as to row down the river. Find the rate of the stream.</p>\r\n",
+    "options": [
+      "<p>12 km/h</p>\r\n",
+      "<p>6 km/h</p>\r\n",
+      "<p>24 km/h</p>\r\n",
+      "<p>9 km/h</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.&nbsp;<strong>6 km/h.</strong></p>\r\n\r\n<p>Speed of the man in still water = 18 km/h</p>\r\n\r\n<p>Speed of the stream = x km/h</p>\r\n\r\n<p>Speed of the man downstream = 18 + x km/h</p>\r\n\r\n<p>Speed of the man upstream = 18 &minus; x km/h</p>\r\n\r\n<p>Time = <span class=\"math-tex\">\\(\\frac{Distance​}{Speed}\\)</span></p>\r\n\r\n<p>According to the question:-</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{Distance​}{18 - x} = 2 × \\frac{Distance​​}{18 + x}\\)</span></p>\r\n\r\n<p>&rArr; 18 + x = 2(18 &minus; x)</p>\r\n\r\n<p>&rArr; 18 + x = 36 &minus; 2x</p>\r\n\r\n<p>&rArr; x + 2x = 36 &minus; 18</p>\r\n\r\n<p>&rArr; 3x = 18</p>\r\n\r\n<p>&rArr; x = <span class=\"math-tex\">\\(\\frac{18}{3}\\)</span>&nbsp;= 6 km/h</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आदमी स्थिर जल में 18 किमी/घंटा की गति से नाव चला सकता है। उसे नदी के विपरीत दिशा में जाने में जितना समय लगता है, उससे दोगुना समय उसे नदी के अनुकूल दिशा में जाने में लगता है। धारा की गति ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>12 किमी/घंटा</p>\r\n",
+      "<p>6 किमी/घंटा</p>\r\n",
+      "<p>24 किमी/घंटा</p>\r\n",
+      "<p>9 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp; अर्थात <strong>6 किमी/घंटा </strong>है।</p>\r\n\r\n<p>स्थिर जल में व्यक्ति की गति = 18 किमी/घंटा</p>\r\n\r\n<p>धारा की गति = x किमी/घंटा</p>\r\n\r\n<p>धारा के अनुकूल व्यक्ति की गति = 18 + x किमी/घंटा</p>\r\n\r\n<p>धारा के प्रतिकूल व्यक्ति की गति = 18 &minus; x किमी/घंटा</p>\r\n\r\n<p>समय = दूरी/गति</p>\r\n\r\n<p>प्रश्न के अनुसार:-</p>\r\n\r\n<p>&rArr; दूरी/(18 - x) =&nbsp; दूरी/(18 + x)</p>\r\n\r\n<p>&rArr; 18 + x = 2(18 &minus; x)</p>\r\n\r\n<p>&rArr; 18 + x = 36 &minus; 2x</p>\r\n\r\n<p>&rArr; x + 2x = 36 &minus; 18</p>\r\n\r\n<p>&rArr; 3x = 18</p>\r\n\r\n<p>&rArr; x =&nbsp;<span class=\"math-tex\">\\(\\frac{18}{3}\\)</span> = 6 किमी/घंटा<br />\r\n&nbsp;</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Ashu can row 7.5 km an hour in still water. He finds that it takes four times as much time to row upstream, as it takes to row downstream. The speed of the stream is:</p>\r\n",
+    "options": [
+      "<p>2.5 km/h</p>\r\n",
+      "<p>4.5 km/h</p>\r\n",
+      "<p>3.5 km/h</p>\r\n",
+      "<p>1.5 km/h</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 i.e. 4.5 km/h</strong></p>\r\n\r\n<p>Speed of Ashu in still water = 7.5 km/h</p>\r\n\r\n<p>Let the speed of stream be x km/h</p>\r\n\r\n<p>Let the time taken to row downstream be t&nbsp;hours.</p>\r\n\r\n<p>Time taken to row upstream = 4t hours</p>\r\n\r\n<p>Downstream speed = (7.5 + x)</p>\r\n\r\n<p>Upstream speed = (7.5 - x)</p>\r\n\r\n<p>Distance = Speed&nbsp;&times; Time</p>\r\n\r\n<p>From Downstream -</p>\r\n\r\n<p>&rArr; Distance = (7.5 + x)t&nbsp; ...(1</p>\r\n\r\n<p>From Upstream -</p>\r\n\r\n<p>&rArr; Distance = (7.5 - x)4t ...(2</p>\r\n\r\n<p>Equating eq(1 and (2 -</p>\r\n\r\n<p>&rArr; (7.5 + x)t = (7.5 - x)4t</p>\r\n\r\n<p>&rArr; 7.5 + x&nbsp;= 30 - 4x</p>\r\n\r\n<p>&rArr; 5x = 30 - 7.5</p>\r\n\r\n<p>x = 22.5/5 = 4.5 km/hr</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>आशु शांत जल में 7.5 किमी प्रति घंटे की गति से नाव चला सकता है। उसने पाया कि ऊर्ध्वप्रवाह&nbsp;दिशा में नाव चलाने में उसे अनुप्रवाह&nbsp;दिशा में नाव चलाने में लगने वाले समय से चार गुना अधिक समय लगता है। धारा की गति क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>2.5 किमी/घंटा</p>\r\n",
+      "<p>4.5 किमी/घंटा</p>\r\n",
+      "<p>3.5 किमी/घंटा</p>\r\n",
+      "<p>1.5 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात् <strong>4.5 किमी/घंटा</strong> है।&nbsp;</p>\r\n\r\n<p>शांत जल में आशु की गति = 7.5 किमी/घंटा</p>\r\n\r\n<p>माना धारा की गति x किमी/घंटा है</p>\r\n\r\n<p>अनुप्रवाह में नाव चलाने में लगा समय t घंटे है।</p>\r\n\r\n<p>ऊर्ध्वप्रवाह में नाव चलाने में लगा समय = 4t घंटे</p>\r\n\r\n<p>अनुप्रवाह&nbsp;गति = (7.5 + x)</p>\r\n\r\n<p>ऊर्ध्वप्रवाह गति = (7.5 - x)</p>\r\n\r\n<p>दूरी = गति &times; समय</p>\r\n\r\n<p>दूरी से -</p>\r\n\r\n<p>&rArr; दूरी = (7.5 + x)t&nbsp; ...(1</p>\r\n\r\n<p>ऊर्ध्वप्रवाह से -</p>\r\n\r\n<p>&rArr; दूरी = (7.5 - x)4t ...(2</p>\r\n\r\n<p>समीकरण (1 और (2&nbsp;को बराबर करने पर</p>\r\n\r\n<p>&rArr; (7.5 + x)t = (7.5 - x)4t</p>\r\n\r\n<p>&rArr; 7.5 + x&nbsp;= 30 - 4x</p>\r\n\r\n<p>&rArr; 5x = 30 - 7.5</p>\r\n\r\n<p>x = 22.5/5 = 4.5 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>The Iceland team, while rowing, covered a distance of 20 km downstream in 2 hours and the same distance upstream in 5 hours. Find the speed of the stream</p>\r\n",
+    "options": [
+      "<p>3 km/h</p>\r\n",
+      "<p>8 km/h</p>\r\n",
+      "<p>7 km/h</p>\r\n",
+      "<p>4 km/h</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>the correct answer is option&nbsp; 1&nbsp;i.e&nbsp;<strong>3 km/h.</strong></p>\r\n\r\n<p>Let&#39;s assume the speed in still water and the speed of the stream are &#39;B&#39; and &#39;C&#39; respectively.</p>\r\n\r\n<p>The Iceland team, while rowing, covered a distance of 20 km downstream in 2 hours and the same distance upstream in 5 hours.</p>\r\n\r\n<p>So speed x time = distance</p>\r\n\r\n<p>&rArr; 2(B + C) =20 Eq.(i)</p>\r\n\r\n<p>&rArr; 5(B - C) =20Eq.(ii)</p>\r\n\r\n<p>So &nbsp;Eq.(i)&nbsp;= Eq.(ii)</p>\r\n\r\n<p>&rArr; 2(B + C) =5(B-C)</p>\r\n\r\n<p>&rArr; 2B + 2C = 5B - 5C</p>\r\n\r\n<p>&rArr; 2C + 5C = 5B - 2B</p>\r\n\r\n<p>&rArr; B/C = 7/3</p>\r\n\r\n<p>&rArr; 3B = 7C</p>\r\n\r\n<p>So let&#39;s assume B = 7y and C = 3y</p>\r\n\r\n<p>Put the values of &#39;B&#39; and &#39;C&#39; in Eq.(i).</p>\r\n\r\n<p>&rArr; 2(7y + 3y) = 20</p>\r\n\r\n<p>&rArr; (7y + 3y) = 10</p>\r\n\r\n<p>&rArr; 10y = 10</p>\r\n\r\n<p>y = 1</p>\r\n\r\n<p>speed of the stream = 3y</p>\r\n\r\n<p>= 3 &times; 1</p>\r\n\r\n<p>= 3 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>आइसलैंड की टीम ने नौकायन करते हुए धारा के अनुकूल 20 किमी की दूरी 2 घंटे में तय की और उतनी ही दूरी धारा के प्रतिकूल 5 घंटे में तय की। धारा की गति ज्ञात कीजिए</p>\r\n",
+    "options_hi": [
+      "<p>3 किमी/घंटा</p>\r\n",
+      "<p>8 किमी/घंटा</p>\r\n",
+      "<p>7 किमी/घंटा</p>\r\n",
+      "<p>4 किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात<strong> 3 किमी/घंटा&nbsp;</strong>है।</p>\r\n\r\n<p>मान लें कि स्थिर जल में गति और धारा की गति क्रमशः &#39;B&#39; और &#39;C&#39; है।</p>\r\n\r\n<p>आइसलैंड की टीम ने नौकायन करते हुए 20 किमी की दूरी धारा के अनुकूल 2 घंटे में और धारा के प्रतिकूल 5 घंटे में तय की।</p>\r\n\r\n<p>तो गति x समय = दूरी</p>\r\n\r\n<p>&rArr; 2(B + C) = 20 समीकरण (i)</p>\r\n\r\n<p>&rArr; 5(B - C) = 20 समीकरण (ii)</p>\r\n\r\n<p>तो समीकरण (i) = समीकरण (ii)</p>\r\n\r\n<p>&rArr; 2(B + C) =5(B - C)</p>\r\n\r\n<p>&rArr; 2B + 2C = 5B - 5C</p>\r\n\r\n<p>&rArr; 2C + 5C = 5B - 2B</p>\r\n\r\n<p>&rArr; B/C = 7/3</p>\r\n\r\n<p>&rArr; 3B = 7C</p>\r\n\r\n<p>तो मान लेते हैं B = 7y और C = 3y</p>\r\n\r\n<p>&#39;B&#39; और &#39;C&#39; के मान समीकरण (i) में रखिए।</p>\r\n\r\n<p>&rArr; 2(7y + 3y) = 20</p>\r\n\r\n<p>&rArr; (7y + 3y) = 10</p>\r\n\r\n<p>&rArr; 10y = 10</p>\r\n\r\n<p>y = 1</p>\r\n\r\n<p>धारा की गति = 3y</p>\r\n\r\n<p>= 3 &times; 1</p>\r\n\r\n<p>= 3 किमी/घंटा</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A boat covers 24 km upstream and 36 km downstream in 10 hours, and 36 km upstream and 24 km downstream in 12 hours. The speed of the current is:</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{33}{13} km/h\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{26}{9} km/h\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{24}{7} km/h\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{8} km/h\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4 i.e.&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{25}{8} km/h\\)</span>.</strong></p>\r\n\r\n<p>Let the speed of the boat be x km/h and the speed of the current be y km/h.</p>\r\n\r\n<p>Speed of the boat in upstream = x - y</p>\r\n\r\n<p>Speed of the boat in downstream = x + y</p>\r\n\r\n<p>Let assume, 1/(x - y) = a, and 1/(x + y) = b&nbsp;</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{24}{x-y}\\)</span>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{36}{x+y}\\)</span>&nbsp;= 10</p>\r\n\r\n<p>&rArr; 12a + 18b = 5.................(1)</p>\r\n\r\n<p>&nbsp;<span class=\"math-tex\">\\(\\frac{36}{x-y}\\)</span>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{24}{x+y}\\)</span>&nbsp;= 12</p>\r\n\r\n<p>&rArr; 9a + 6b = 3..............(2)</p>\r\n\r\n<p>Multiplying eq (2) by 3 -</p>\r\n\r\n<p>&rArr; 27a + 18b = 9 ..............(3)</p>\r\n\r\n<p>Subtracting eq(3) from eq(1) -</p>\r\n\r\n<p>&rArr;&nbsp; 12a - 27a + 18b - 18b = 5 - 9</p>\r\n\r\n<p>&rArr; -15a = -4</p>\r\n\r\n<p>&rArr; a = 4/15</p>\r\n\r\n<p>&rArr; a = 1/(x + y)</p>\r\n\r\n<p>So, (x + y) = 15/4....................4</p>\r\n\r\n<p>put the value of a in equation 2</p>\r\n\r\n<p>&rArr; 9&nbsp;&times;&nbsp;4/15 + 6b = 3</p>\r\n\r\n<p>&rArr; 6b =&nbsp; 3 - 12/5</p>\r\n\r\n<p>b = 1/10</p>\r\n\r\n<p>So, b = 1/(x - y)</p>\r\n\r\n<p>(x - y) = 10..............................5</p>\r\n\r\n<p>From equations 4 and 5 we get</p>\r\n\r\n<p>y = 28/5 km/h</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाव 10 घंटे में 24 किमी धारा के प्रतिकूल और 36 किमी धारा के अनुकूल तथा 12 घंटे में 36 किमी धारा के प्रतिकूल और 24 किमी धारा के अनुकूल चलती है। धारा की गति है:</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{33}{13} \\)</span>&nbsp;किमी/घंटा</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{26}{9}  \\)</span>&nbsp;किमी/घंटा</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{24}{7} \\)</span>&nbsp;किमी/घंटा</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{8} \\)</span>किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<p>​सही उत्तर <strong>विकल्प 4</strong> अर्थात&nbsp;<strong><span class=\"math-tex\">\\(\\frac{25}{8} \\)</span></strong>&nbsp;<strong>किमी/घंटा</strong> है।</p>\r\n\r\n<p>मान लीजिए नाव की गति x किमी/घंटा है और धारा की गति y किमी/घंटा है।</p>\r\n\r\n<p>नाव की धारा के प्रतिकूल गति = x - y</p>\r\n\r\n<p>नाव की धारा के अनुकूल गति = x + y</p>\r\n\r\n<p>मान लीजिए, 1/(x - y) = a, तथा 1/(x + y) = b</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>&nbsp;<span class=\"math-tex\">\\(\\frac{24}{x-y}\\)</span>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{36}{x+y}\\)</span>&nbsp;= 10</p>\r\n\r\n<p>&rArr; 12a + 18b = 5.................(1)</p>\r\n\r\n<p>&nbsp;<span class=\"math-tex\">\\(\\frac{36}{x-y}\\)</span>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{24}{x+y}\\)</span>&nbsp;= 12</p>\r\n\r\n<p>&rArr; 9a + 6b = 3..............(2)</p>\r\n\r\n<p>समीकरण (2) को 3 से गुणा करने पर -</p>\r\n\r\n<p>&rArr; 27a + 18b = 9 ..............(3)</p>\r\n\r\n<p>समीकरण (1) से समीकरण (3) घटाने पर -</p>\r\n\r\n<p>&rArr; 12a - 27a + 18b - 18b = 5 - 9</p>\r\n\r\n<p>&rArr; -15a = -4</p>\r\n\r\n<p>&rArr; a = 4/15</p>\r\n\r\n<p>&rArr; a = 1/(x + y)</p>\r\n\r\n<p>तो, (x + y) = 15/4....................4</p>\r\n\r\n<p>समीकरण 2 में a का मान रखें</p>\r\n\r\n<p>&rArr; 9&nbsp;&times;&nbsp;4/15 + 6b = 3</p>\r\n\r\n<p>&rArr; 6b =&nbsp;&nbsp;3 - 12/5</p>\r\n\r\n<p>b = 1/10</p>\r\n\r\n<p>तो, b = 1/(x - y)</p>\r\n\r\n<p>(x - y) = 10..............................5</p>\r\n\r\n<p>समीकरण 4 और 5 से हमें मिलता है</p>\r\n\r\n<p>y = 28/5 किमी/घंटा</p>\r\n"
+  },
+  {
+    "question": "<p>A boatman rows 2 km in 10 mins, along the stream and 12 km in 2 hours against the stream. What is the speed of the stream?</p>\r\n",
+    "options": [
+      "<p>4 km/h</p>\r\n",
+      "<p>3.5 km/h</p>\r\n",
+      "<p>3 km/h</p>\r\n",
+      "<p>2.5 km/h</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> Option 3 </strong>i.e.<strong> 3&nbsp;km/h.</strong></p>\r\n\r\n<p>A boatman rows 2 km in 10 mins, along the stream and 12 km in 2 hours against the stream.</p>\r\n\r\n<p>Let the speed of the boat be x km/h and the stream be y km/h.</p>\r\n\r\n<p>Speed = Distance/Time&nbsp;</p>\r\n\r\n<p>Along the stream -</p>\r\n\r\n<p>Speed (x + y) = 2/(10/60) = 12&nbsp;</p>\r\n\r\n<p>&rArr; x + y = 12 ...(1</p>\r\n\r\n<p>Against the stream -</p>\r\n\r\n<p>&rArr; x - y = 12/2 = 6</p>\r\n\r\n<p>&rArr; x - y = 6 ...(2</p>\r\n\r\n<p>Subtracting eq(2 from eq(1 -</p>\r\n\r\n<p>&rArr; (x + y) - (x - y) = 12 - 6</p>\r\n\r\n<p>&rArr; 2y = 6</p>\r\n\r\n<p>&rArr; y = 3 km/h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नाविक धारा के अनुकूल 10 मिनट में 2 किमी और धारा के प्रतिकूल 2 घंटे में 12 किमी नाव चलाता है। धारा की गति क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>4&nbsp;किमी/घंटा</p>\r\n",
+      "<p>3.5&nbsp;किमी/घंटा</p>\r\n",
+      "<p>3&nbsp;किमी/घंटा</p>\r\n",
+      "<p>2.5&nbsp;किमी/घंटा</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी <strong>3 किमी/घंटा </strong>है।</p>\r\n\r\n<p>एक नाविक धारा के साथ 10 मिनट में 2 किमी और धारा के विपरीत 2 घंटे में 12 किमी नाव चलाता है।</p>\r\n\r\n<p>माना नाव की गति x किमी/घंटा और धारा y किमी/घंटा है।</p>\r\n\r\n<p>गति = दूरी/समय</p>\r\n\r\n<p>धारा के साथ -</p>\r\n\r\n<p>गति (x + y) = 2/(10/60) = 12</p>\r\n\r\n<p>&rArr; x + y = 12 ...(1</p>\r\n\r\n<p>धारा के विपरीत -</p>\r\n\r\n<p>&rArr; x - y = 12/2 = 6</p>\r\n\r\n<p>&rArr; x - y = 6 ...(2</p>\r\n\r\n<p>समीकरण (1) से समीकरण (2) घटाने पर -</p>\r\n\r\n<p>&rArr; (x + y) - (x - y) = 12 - 6</p>\r\n\r\n<p>&rArr; 2y =6</p>\r\n\r\n<p>&rArr; y = 3 किमी/घंटा</p>\r\n"
+  }
+]
