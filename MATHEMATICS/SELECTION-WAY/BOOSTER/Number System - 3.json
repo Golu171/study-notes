@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "<p>The six-digit number 537xy5 is divisible by 125. How many such six-digit numbers are there?</p>\r\n\r\n<p><strong>(CHSL 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>4</strong>.</p>\r\n\r\n<p><strong>Divisibility rule of 125:</strong> The Last 3 digits must be divisible by 125</p>\r\n\r\n<p><span class=\"math-tex\">\\(xy5\\over125\\)</span> = 125, 375, 625, 875&nbsp;</p>\r\n\r\n<p>4&nbsp;numbers can&nbsp;be replaced by xy.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>छह अंकीय संख्या 537xy5, 125 से विभाज्य है। ऐसे छह अंकों वाली कितनी संख्याएं हैं?</p>\r\n\r\n<p><strong>(CHSL 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात <strong>4</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><strong>125 का विभाज्यता नियम:</strong> अंतिम 3 अंक 125 से विभाज्य होने चाहिए</p>\r\n\r\n<p><span class=\"math-tex\">\\(xy5\\over125\\)</span>&nbsp;= 125, 375, 625, 875</p>\r\n\r\n<p>4 संख्याओं को xy से बदला जा सकता है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the nine-digit number 48x4923y8 is divisible by 88, then the value of (6x + 5y) for the maximum value of y will be:</p>\r\n\r\n<p><strong>(CHSL 2020 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>76</p>\r\n",
+      "<p>72</p>\r\n",
+      "<p>65</p>\r\n",
+      "<p>71</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>72</strong>.</p>\r\n\r\n<p>88 = 11 &times; 8</p>\r\n\r\n<p><strong>Divisibility rule for 8:</strong>&nbsp;the last 3 digits must be divisible by 8.</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{3y8}{8}\\)</span>&nbsp;&rarr; y = 6 (maximum&nbsp;value)</p>\r\n\r\n<p><strong>Divisibility rule for 11:</strong> The difference between the sum of the digits in the odd places and the sum of the digits in the even places must be zero or a multiple of 11.&nbsp;</p>\r\n\r\n<p>(4 + x + 9 + 3 + 8) - (8 + 4 + 2 + 6) = 11<br />\r\n24 + x - 20 = 11<br />\r\n4 + x = 11&nbsp;<br />\r\nx = 7<br />\r\n&rArr; 6x + 5y = 6 &times; 7 + 5 &times; 6 = 42 + 30 = 72</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि नौ अंकों की संख्या 48x4923y8, 88 से विभाज्य है, तो y के अधिकतम मान के लिए (6x + 5y) का मान होगा:</p>\r\n\r\n<p><strong>(CHSL 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>76</p>\r\n",
+      "<p>72</p>\r\n",
+      "<p>65</p>\r\n",
+      "<p>71</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">-->सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>72</strong> है।</p>\r\n\r\n<p>​88 = 11 &times; 8</p>\r\n\r\n<p><strong>8 के लिए विभाज्यता नियम:</strong> अंतिम 3 अंक 8 से विभाज्य होने चाहिए।</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{3y8}{8}\\)</span>&nbsp;&rarr; y = 6 (अधिकतम मान)</p>\r\n\r\n<p><strong>11 के लिए विभाज्यता नियम:</strong> विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग के बीच का अंतर शून्य या 11 का गुणक होना चाहिए।</p>\r\n\r\n<p>(4 + x + 9 + 3 + 8) - (8 + 4 + 2 + 6) = 11<br />\r\n24 + x - 20 = 11<br />\r\n4 + x = 11&nbsp;<br />\r\nx = 7<br />\r\n&rArr; 6x + 5y = 6 &times; 7 + 5 &times; 6 = 42 + 30 = 72</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>From the following numbers, find the number that is exactly divisible by 42.</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>25232</p>\r\n",
+      "<p>25242</p>\r\n",
+      "<p>25244</p>\r\n",
+      "<p>25212</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>25242</strong>.</p>\r\n\r\n<p>42 &rarr; 2 &times; 3 &times; 7&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule of 2:&nbsp;</strong>A number is divisible by 2 if it is an even number.</p>\r\n\r\n<p>All options are divisible by 2</p>\r\n\r\n<p><strong>Divisibility rule of 3:</strong>&nbsp;A number is divisible by 3 if the sum of its digits is divisible by 3.</p>\r\n\r\n<p>Only options 2 and 4 have a&nbsp;digit sum divisible by 3</p>\r\n\r\n<p><strong>Divisibility rule of 7:</strong> Solve by the normal method</p>\r\n\r\n<p>Only 25242 is divisible by 7</p>\r\n\r\n<p>So, 25242 is divisible by 42</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन सी संख्या 42 से पूर्णतः विभाज्य है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>25232</p>\r\n",
+      "<p>25242</p>\r\n",
+      "<p>25244</p>\r\n",
+      "<p>25212</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>25242</strong> है।</p>\r\n\r\n<p>42 &rarr; 2 &times; 3 &times; 7</p>\r\n\r\n<p><strong>2 का विभाज्यता नियम: </strong>यदि कोई संख्या सम संख्या है तो संख्या 2 से विभाज्य होगी।</p>\r\n\r\n<p>सभी विकल्प 2 से विभाज्य हैं</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम: </strong>यदि कोई संख्या के अंकों का योग 3 से विभाज्य है तो संख्या 3 से विभाज्य होगी।</p>\r\n\r\n<p>केवल विकल्प 2 और 4 में अंकों का योग 3 से विभाज्य है</p>\r\n\r\n<p><strong>7 का विभाज्यता नियम: </strong>सामान्य विधि से हल करें</p>\r\n\r\n<p>केवल 25242 ही 7 से विभाज्य है</p>\r\n\r\n<p>इसलिए, 25242, 42 से विभाज्य है</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What will be the smallest natural number to be filled in the blank for the number &#39;23_45678&#39; to be divisible by 22?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>7</strong>.</p>\r\n\r\n<p>22 &rarr; 2 &times; 11&nbsp;<br />\r\nSince the last digit is 8, it is divisible by 2<br />\r\n<strong>Divisibility rule of 11:&nbsp;</strong>if the difference between the sum of its digits in odd positions and even positions is either 0 or a multiple of 11<br />\r\n(2 + x + 5 + 7) - (8 + 6 + 4 + 3)&nbsp;<br />\r\n14 + x - 21 = 0<br />\r\nx = 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्या &#39;23_45678&#39; को 22 से विभाज्य बनाने के लिए रिक्त स्थान में भरी जाने वाली सबसे छोटी प्राकृतिक संख्या क्या होगी?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>7</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>22 &rarr; 2 &times; 11<br />\r\nचूँकि अंतिम अंक 8 है, इसलिए यह 2 से विभाज्य है<br />\r\n<strong>11 का विभाज्यता नियम:</strong> यदि विषम पदों और सम पदों में इसके अंकों के योग के बीच का अंतर 0 या 11 का गुणज है<br />\r\n(2 + x + 5 + 7) - (8 + 6 + 4 + 3)&nbsp;<br />\r\n14 + x - 21 = 0<br />\r\nx = 7</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the 3-digit number 2x3 is divisible by 3, then the value of (x<sup>2</sup>&nbsp;+ x) is (consider the maximum value of x):</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>56</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e. <strong>56</strong>.</p>\r\n\r\n<p><strong>Divisibility rule of 3:&nbsp;</strong>A number is divisible by 3 if the sum of its digits is divisible by 3.&nbsp;</p>\r\n\r\n<p>Digit sum =&nbsp;<span class=\"math-tex\">\\( \\frac{5+x}{3}\\)</span></p>\r\n\r\n<p>max value of x = 7&nbsp;</p>\r\n\r\n<p>&there4; (x<sup>2</sup> + x) = (7<sup>2</sup> + 7) = 56</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 3-अंकीय संख्या 2x3, 3 से विभाज्य है, तो (x<sup>2</sup>&nbsp;+ x) का मान है (x का अधिकतम मान लें):</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>56</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>56</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><strong>​3 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंकों का योग 3 से विभाज्य है तो वह संख्या 3 से विभाज्य होगी।</p>\r\n\r\n<p>अंकों का योग =&nbsp;<span class=\"math-tex\">\\( \\frac{5+x}{3}\\)</span></p>\r\n\r\n<p>x का अधिकतम मान = 7</p>\r\n\r\n<p>&there4; (x<sup>2</sup> + x) = (7<sup>2</sup> + 7) = 56</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the number 732xy is divisible by 70, then find the minimum value of <span class=\"math-tex\">\\(\\frac{x+y}{2}\\)</span>?&nbsp;</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>1</strong>.</p>\r\n\r\n<p>70 &rarr; 10 &times; 7</p>\r\n\r\n<p><strong>Divisible rule of&nbsp;10:</strong>&nbsp;The last digit must be 0&nbsp;<br />\r\n&there4; y = 0</p>\r\n\r\n<p><strong>Divisible rule of 7:</strong>&nbsp;solve it by the normal method</p>\r\n\r\n<p><span class=\"math-tex\">\\( \\frac{732x0}{7} \\)</span>&nbsp;&rarr; x must be 2</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{x+y}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({2+0}\\over2\\)</span>&nbsp;= 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि संख्या 732xy, 70 से विभाज्य है, तो&nbsp;<span class=\"math-tex\">\\(\\frac{x+y}{2}\\)</span> का न्यूनतम मान ज्ञात कीजिए?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>1</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>70 &rarr; 10 &times; 7</p>\r\n\r\n<p><strong>10 का विभाज्य नियम: </strong>अंतिम अंक 0 होना चाहिए</p>\r\n\r\n<p>&there4; y = 0</p>\r\n\r\n<p><strong>7 का विभाज्य नियम:</strong> इसे सामान्य विधि से हल करें</p>\r\n\r\n<p><span class=\"math-tex\">\\( \\frac{732x0}{7} \\)</span>&nbsp;&rarr;&nbsp;x, 2 होना चाहिए</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{x+y}{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({2+0}\\over2\\)</span>&nbsp;= 1</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is divisible by 15?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>1,65,485</p>\r\n",
+      "<p>3,06,045</p>\r\n",
+      "<p>2,12,695</p>\r\n",
+      "<p>2,95,145</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>3,06,045</strong>.</p>\r\n\r\n<p>15 &rarr; 5 &times; 3</p>\r\n\r\n<p><strong>Divisibility rule of 5:</strong>&nbsp;the last digit should be 5 or 0.</p>\r\n\r\n<p>All options have the last digit 5.&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule for 3: </strong>the sum of the digits must be divisible by 3.</p>\r\n\r\n<p>Option 2: 3 + 0 + 6 + 0 + 4 + 5 = 18 [divisible by 3]</p>\r\n\r\n<p>So, 306045 is divisible by 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन-सी संख्या 15 से विभाज्य है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>1,65,485</p>\r\n",
+      "<p>3,06,045</p>\r\n",
+      "<p>2,12,695</p>\r\n",
+      "<p>2,95,145</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>3,06,045</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>15 &rarr; 5 &times; 3</p>\r\n\r\n<p><strong>5 का विभाज्यता नियम: </strong>अंतिम अंक 5 या 0 होना चाहिए।</p>\r\n\r\n<p>सभी विकल्पों का अंतिम अंक 5 है।</p>\r\n\r\n<p><strong>3 के लिए विभाज्यता नियम: </strong>अंकों का योग 3 से विभाज्य होना चाहिए।</p>\r\n\r\n<p>विकल्प 2: 3 + 0 + 6 + 0 + 4 + 5 = 18 [3 से विभाज्य]</p>\r\n\r\n<p>इसलिए, 306045, 3 से विभाज्य है</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which one of the following numbers is divisible by 24?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>569896</p>\r\n",
+      "<p>478656</p>\r\n",
+      "<p>480128</p>\r\n",
+      "<p>543344</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>478656</strong>.</p>\r\n\r\n<p>24 &rarr; 8&nbsp;&times; 3</p>\r\n\r\n<p><strong>Divisibility rule for 8:</strong>&nbsp;The last 3 digits must be divisible by 8.</p>\r\n\r\n<p><strong>Divisibility rule of 3: </strong>A number is divisible by 3 if the sum of its digits is divisible by 3.&nbsp;</p>\r\n\r\n<p>Option 2: 478656</p>\r\n\r\n<p>Last 3-digits:&nbsp;<span class=\"math-tex\">\\(656\\over8\\)</span>&nbsp;= 82 [divisible by 8]</p>\r\n\r\n<p>Sum of digits: 4 + 7 + 8 + 6 + 5 + 6 = 36 [divisible by 3]</p>\r\n\r\n<p>So, 478656 is divisible by 24</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित से कौन-सी संख्या 24 से विभाज्य है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>569896</p>\r\n",
+      "<p>478656</p>\r\n",
+      "<p>480128</p>\r\n",
+      "<p>543344</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात <strong>478656</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>24 &rarr; 8&nbsp;&times; 3</p>\r\n\r\n<p><strong>​8 के लिए विभाज्यता नियम: </strong>अंतिम 3 अंक 8 से विभाज्य होने चाहिए।</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंकों का योग 3 से विभाज्य है, तो वह संख्या 3 से विभाज्य होगी।</p>\r\n\r\n<p>विकल्प 2: 478656</p>\r\n\r\n<p>अंतिम 3 अंक:&nbsp;<span class=\"math-tex\">\\(656\\over8\\)</span>&nbsp;= 82 [8 से विभाज्य]</p>\r\n\r\n<p>अंकों का योग: 4 + 7 + 8 + 6 + 5 + 6 = 36 [3 से विभाज्य]</p>\r\n\r\n<p>इसलिए, 478656, 24 से विभाज्य है</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the 9-digit number 5p42978n6 is divisible by 72, what is the value of (2p - 1), where n is the second largest of all the possible values of n? Given that p and n are natural numbers.</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>17</p>\r\n",
+      "<p>21</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>15</strong>.</p>\r\n\r\n<p>72 &rarr; 8 &times; 9</p>\r\n\r\n<p><strong>Divisibility rule of 8:&nbsp;</strong>A number is divisible by 8 if the number formed by its last three digits is divisible by 8.</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{8n6}{8}\\)</span>&nbsp;&rarr; n must be 5 [second largest]</p>\r\n\r\n<p><strong>Divisibility rule of 9:</strong>&nbsp;A number is divisible by 9 if the sum of its digits is divisible by 9</p>\r\n\r\n<p>Sum of digits: <span class=\"math-tex\">\\({5 + p + 4 + 2 + 9 + 7 + 8 + 5 + 6}\\over9\\)</span> =&nbsp;<span class=\"math-tex\">\\({46+p}\\over9\\)</span>&nbsp;&rarr; p must be 8</p>\r\n\r\n<p>2p - 1 = 2 &times; 8 - 1 = 15</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 9 अंकों की संख्या 5p42978n6, 72 से विभाज्य है, तो (2p - 1) का मान क्या है, जहाँ n, n के सभी संभावित मानों में से दूसरा सबसे बड़ा मान है? दिया गया है कि p और n प्राकृतिक संख्याएँ हैं।</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>17</p>\r\n",
+      "<p>21</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">-->सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>15</strong> है।</p>\r\n\r\n<p>​72 &rarr; 8 &times; 9</p>\r\n\r\n<p><strong>8 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंतिम तीन अंकों से बनी संख्या 8 से विभाज्य है, तो वह संख्या 8 से विभाज्य होगी।</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{8n6}{8}\\)</span>&nbsp;&rarr; n का मान 5 होना चाहिए [दूसरा सबसे बड़ा]</p>\r\n\r\n<p><strong>9 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंकों का योग 9 से विभाज्य है, तो वह संख्या 9 से विभाज्य होगी</p>\r\n\r\n<p>अंकों का योग:&nbsp;<span class=\"math-tex\">\\({5 + p + 4 + 2 + 9 + 7 + 8 + 5 + 6}\\over9\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({46+p}\\over9\\)</span> &rarr; p का मान 8 होना चाहिए</p>\r\n\r\n<p>2p - 1 = 2 &times; 8 - 1 = 15</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is NOT divisible by 36?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>136216</p>\r\n",
+      "<p>124344</p>\r\n",
+      "<p>259884</p>\r\n",
+      "<p>120816</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>136216</strong>.</p>\r\n\r\n<p>36 &rarr; 9 &times; 4<br />\r\n<strong>Divisibility rule of 4: </strong>The last two digits should be divisible by 4.<br />\r\n<strong>Divisibility rule of 9: </strong>The digit sum should be divisible by 9.&nbsp;<br />\r\nOption 1:- 136216&nbsp;<br />\r\nLast two digits: 16 [divisible by 4]<br />\r\nDigit sum = 1 + 3 + 6 + 2 + 1 + 6 =&nbsp;19 [not divisible by 9]<br />\r\n&there4; 136216 will not be divisible by 36.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन-सी संख्या 36 द्वारा विभाज्य नहीं है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>136216</p>\r\n",
+      "<p>124344</p>\r\n",
+      "<p>259884</p>\r\n",
+      "<p>120816</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>136216</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>36 &rarr; 9 &times; 4<br />\r\n<strong>4 का विभाज्यता नियम:</strong> अंतिम दो अंक 4 से विभाज्य होने चाहिए।<br />\r\n<strong>9 का विभाज्यता नियम:</strong> अंकों का योग 9 से विभाज्य होना चाहिए।<br />\r\nविकल्प 1:- 136216<br />\r\nअंतिम दो अंक: 16 [4 से विभाज्य]<br />\r\nअंकों का योग = 1 + 3 + 6 + 2 + 1 + 6 =&nbsp;19 [9 से विभाज्य नहीं]<br />\r\n&there4; 136216, 36 से विभाज्य नहीं होगा।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is divisible by 55?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>178765</p>\r\n",
+      "<p>185625</p>\r\n",
+      "<p>171125</p>\r\n",
+      "<p>164485</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>185625</strong>.</p>\r\n\r\n<p>55 &rarr; 5 &times; 11</p>\r\n\r\n<p><strong>Divisibility rule of 5: </strong>The last digit should be 5 or 0.&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule for 11:</strong> The difference between the sum of the digits in the odd places and the sum of the digits in the even places must be zero or a multiple of 11.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/102025_02_28_11_54_09.png\" style=\"height:42px; width:200px\" /></p>\r\n\r\n<p>(1 + 5 + 2) - (8 + 6 + 5)&nbsp;</p>\r\n\r\n<p>8 - 19 = 11</p>\r\n\r\n<p>Thus, 185625 is divisible by 55</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन-सी संख्या 55 से विभाज्य है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>178765</p>\r\n",
+      "<p>185625</p>\r\n",
+      "<p>171125</p>\r\n",
+      "<p>164485</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>185625 </strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>55 &rarr; 5 &times; 11</p>\r\n\r\n<p><strong>5 का विभाज्यता नियम:</strong> अंतिम अंक 5 या 0 होना चाहिए।</p>\r\n\r\n<p><strong>11 का विभाज्यता नियम:</strong> विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग के बीच का अंतर शून्य या 11 का गुणज होना चाहिए।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/102025_02_28_11_54_09.png\" style=\"height:42px; width:200px\" /></p>\r\n\r\n<p>(1 + 5 + 2) - (8 + 6 + 5)&nbsp;</p>\r\n\r\n<p>8 - 19 = 11</p>\r\n\r\n<p>इस प्रकार, 185625, 55 से विभाज्य है</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is NOT divisible by 150?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>320550</p>\r\n",
+      "<p>333300</p>\r\n",
+      "<p>463750</p>\r\n",
+      "<p>201300</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e. <strong>463750</strong>.</p>\r\n\r\n<p>150 &rarr; 5<sup>2</sup> &times; 2 &times; 3&nbsp;<br />\r\n<strong>Divisibility rule of 5:</strong>&nbsp;A number is divisible by 5 if its last digit is 0 or 5<br />\r\nAll numbers&nbsp;are divisible by 5 and 2<br />\r\n<strong>Divisibility rule of 3:&nbsp;</strong>A number is divisible by 3 if the sum of its digits is divisible by 3.&nbsp;<br />\r\nOption 3: 463750<br />\r\nSum of digits: 4 + 6 + 3 + 7 + 5 + 0 = 25 (Not divisible by 3)&nbsp;<br />\r\nSo, the number&nbsp;463750 is not divisible&nbsp;by 150</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन-सी संख्या 150 से विभाज्य नहीं है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>320550</p>\r\n",
+      "<p>333300</p>\r\n",
+      "<p>463750</p>\r\n",
+      "<p>201300</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>463750</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>150 &rarr; 5<sup>2</sup> &times; 2 &times; 3&nbsp;<br />\r\n<strong>5 का विभाज्यता नियम: </strong>यदि किसी संख्या का अंतिम अंक 0 या 5 है तो वह संख्या 5 से विभाज्य होगी<br />\r\nसभी संख्याएँ 5 और 2 से विभाज्य हैं<br />\r\n<strong>3 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंकों का योग 3 से विभाज्य है तो वह संख्या 3 से विभाज्य होगी।<br />\r\nविकल्प 3: 463750<br />\r\nअंकों का योग: 4 + 6 + 3 + 7 + 5 + 0 = 25 (3 से विभाज्य नहीं)<br />\r\nइसलिए, संख्या 463750, 150 से विभाज्य नहीं है</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is NOT divisible by 75?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>117975</p>\r\n",
+      "<p>275475</p>\r\n",
+      "<p>163750</p>\r\n",
+      "<p>666600</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>163750</strong>.</p>\r\n\r\n<p>75 &rarr; 5<sup>2</sup> &times; 3</p>\r\n\r\n<p><strong>Divisible rule of 5: </strong>A number is divisible by 5 if its last digit is 0 or 5.&nbsp;</p>\r\n\r\n<p>All numbers are divisible by 5</p>\r\n\r\n<p><strong>Divisible rule of 3:</strong>&nbsp;A number is divisible by 3 if the sum of its digits is divisible by 3.&nbsp;</p>\r\n\r\n<p>Option 3: 163750</p>\r\n\r\n<p>Sum of digits: 1 + 6 + 3 + 7 + 5 + 0 = 22</p>\r\n\r\n<p>Hence, the number&nbsp;163750 will not be divisible by 75.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में कौन-सी संख्या 75 द्वारा से विभाज्य नहीं है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>117975</p>\r\n",
+      "<p>275475</p>\r\n",
+      "<p>163750</p>\r\n",
+      "<p>666600</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>163750 </strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>75 &rarr; 5<sup>2</sup> &times; 3</p>\r\n\r\n<p><strong>5 का विभाज्यता&nbsp;नियम:</strong> यदि किसी संख्या का अंतिम अंक 0 या 5 है तो वह संख्या 5 से विभाज्य होगी।</p>\r\n\r\n<p>सभी संख्याएँ 5 से विभाज्य हैं</p>\r\n\r\n<p><strong>3 का विभाज्यता&nbsp;नियम:</strong> यदि किसी संख्या के अंकों का योग 3 से विभाज्य है तो वह संख्या 3 से विभाज्य होगी।</p>\r\n\r\n<p>विकल्प 3: 163750</p>\r\n\r\n<p>अंकों का योग: 1 + 6 + 3 + 7 + 5 + 0 = 22</p>\r\n\r\n<p>अतः, संख्या 163750, 75 से विभाज्य नहीं होगी।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers is divisible by 360?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>171720</p>\r\n",
+      "<p>176600</p>\r\n",
+      "<p>166200</p>\r\n",
+      "<p>171080</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>171720</strong>.</p>\r\n\r\n<p>360 &rarr; 9 &times; 8 &times; 5</p>\r\n\r\n<p>All numbers are divisible by 8 and 5</p>\r\n\r\n<p><strong>Divisibility rule for 9: </strong>the&nbsp;sum of the digits must be divisible by 9.&nbsp;</p>\r\n\r\n<p>Option 1: 171720 = (1 + 7 + 1 + 7 + 2) = 18 divisible by 9</p>\r\n\r\n<p>&there4;171720 is divisible by 360.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन-सी संख्या 360 से विभाज्य है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>171720</p>\r\n",
+      "<p>176600</p>\r\n",
+      "<p>166200</p>\r\n",
+      "<p>171080</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>171720 </strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>360 &rarr; 9 &times; 8 &times; 5</p>\r\n\r\n<p>सभी संख्याएँ 8 और 5 से विभाज्य हैं</p>\r\n\r\n<p><strong>9 के लिए विभाज्यता नियम: </strong>अंकों का योग 9 से विभाज्य होना चाहिए।</p>\r\n\r\n<p>विकल्प 1: 171720 = (1 + 7 + 1 + 7 + 2) = 18, 9 से विभाज्य</p>\r\n\r\n<p>&there4;171720, 360 से विभाज्य है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following options is NOT divisible by 18?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>571032</p>\r\n",
+      "<p>732546</p>\r\n",
+      "<p>245798</p>\r\n",
+      "<p>459018</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>245798</strong>.</p>\r\n\r\n<p>18 &rarr; 2 &times; 9&nbsp;<br />\r\n<strong>Divisibility rule of 9:</strong>&nbsp;the sum of the digits should be divisible by 9.&nbsp;<br />\r\nOption 3: 245798 &rarr; 2 + 4 + 5 + 7 + 9 + 8 = 35, which is not divisible by 9.&nbsp;<br />\r\n&there4; 245798 is not divisible by 18.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन-सा विकल्प 18 से विभाज्य नहीं है?</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>571032</p>\r\n",
+      "<p>732546</p>\r\n",
+      "<p>245798</p>\r\n",
+      "<p>459018</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>245798</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>18 &rarr; 2 &times; 9&nbsp;<br />\r\n<strong>9 का विभाज्यता नियम: </strong>अंकों का योग 9 से विभाज्य होना चाहिए।<br />\r\nविकल्प 3: 245798 &rarr; 2 + 4 + 5 + 7 + 9 + 8 = 35, जो 9 से विभाज्य नहीं है।<br />\r\n&there4; 245798, 18 से विभाज्य नहीं है।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the greatest possible value of (A + B) for which the 8-digit number 143B203A is divisible by 15.</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>15</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>14</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>14</strong>.</p>\r\n\r\n<p>15 = 3&nbsp;&times; 5<br />\r\nA = 5 (Maximum)<br />\r\nSum of digits: 1 + 4 + 3 + B + 2 + 0 + 3 + 5 =&nbsp;<span class=\"math-tex\">\\(\\frac{18+B\\ }{3} \\)</span><br />\r\n&there4; B = 9 (maximum)&nbsp;<br />\r\n&there4; A + B = 5 + 9 = 14</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>(A + B) का वह अधिकतम सम्भावित मान ज्ञात कीजिए जिसके लिए 8-अंकीय संख्या 143B203A, 15 से विभाज्य है।</p>\r\n\r\n<p><strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>15</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>14</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>14</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>15 = 3&nbsp;&times; 5<br />\r\nA = 5 (अधिकतम)<br />\r\nअंकों का योग: 1 + 4 + 3 + B + 2 + 0 + 3 + 5 =&nbsp;<span class=\"math-tex\">\\(\\frac{18+B\\ }{3} \\)</span><br />\r\n&there4; B = 9 (अधिकतम)&nbsp;<br />\r\n&there4; A + B = 5 + 9 = 14</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If 7A425B is divisible by 36, then what is the value of A - B?</p>\r\n\r\n<p><strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>0</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>5</strong>.</p>\r\n\r\n<p>36 = 9 &times; 4</p>\r\n\r\n<p><strong>Divisibility rule for 4:</strong>&nbsp;the last 2 digits must be divisible by 4.&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{5B}{4}\\)</span>&nbsp;&rarr;&nbsp;B = 2&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule for 9:</strong>&nbsp;the sum of the digits must be divisible by 9.&nbsp;</p>\r\n\r\n<p>Sum of digits:&nbsp;<span class=\"math-tex\">\\({7+A+4+2+5+2}\\over9\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({20+A}\\over9\\)</span>&nbsp;&rarr;&nbsp;A must be 7</p>\r\n\r\n<p>A - B = 7 - 2 = 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 7A425B, 36 से विभाज्य है, तो A - B का मान क्या है?&nbsp;</p>\r\n\r\n<p><strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>0</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>5</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​36 = 9 &times; 4</p>\r\n\r\n<p><strong>4 के लिए विभाज्यता नियम: </strong>अंतिम 2 अंक 4 से विभाज्य होने चाहिए।</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{5B}{4}\\)</span>&nbsp;&rarr;&nbsp;B = 2</p>\r\n\r\n<p><strong>9 के लिए विभाज्यता नियम: </strong>अंकों का योग 9 से विभाज्य होना चाहिए।</p>\r\n\r\n<p>अंकों का योग:&nbsp;<span class=\"math-tex\">\\({7+A+4+2+5+2}\\over9\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({20+A}\\over9\\)</span>&nbsp;&rarr;&nbsp;A का मान 7 होना चाहिए</p>\r\n\r\n<p>A - B = 7 - 2 = 5</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the 4-digit number 48ab is divisible by 2, 5, and 7, then what is the value of (10a - b)?</p>\r\n\r\n<p><strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>0</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>30</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>30</strong>.</p>\r\n\r\n<p>LCM of (2, 5, 7) = 70<br />\r\n&there4; b should be zero&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\frac{48a0}{70}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{48a}{7}\\)</span>&nbsp;&rarr; a must be 3<br />\r\n&there4; (10a - b) = 10 &times; 3 - 0&nbsp;= 30</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 4 अंकों की संख्या 48ab, 2, 5 तथा 7 से विभाज्य है, तो (10a - b) का मान क्या है?</p>\r\n\r\n<p><strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>0</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>30</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>30</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>(2, 5, 7) का लघुत्तम समापवर्त्य = 70<br />\r\n&there4; b शून्य होना चाहिए<br />\r\n<span class=\"math-tex\">\\(\\frac{48a0}{70}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{48a}{7}\\)</span>&nbsp;&rarr; a, 3 होना चाहिए<br />\r\n&there4; (10a - b) = 10 &times; 3 - 0&nbsp;= 30</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the value of x in the number 3426x if the number is divisible by 6 but NOT divisible by 5?&nbsp;</p>\r\n\r\n<p><strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>8</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>6</strong>.</p>\r\n\r\n<p>6 &rarr; 2 &times; 3&nbsp;<br />\r\nThe number is not divisible by 5&nbsp;<br />\r\n&there4; x is not equal to zero.<br />\r\n<strong>Divisibility rule of 3:</strong>&nbsp;the sum of the digits must be divisible by 3.&nbsp;<br />\r\nDigit sum of 3426x = 15 + x&nbsp;<br />\r\nAlso, x is an even number&nbsp;<br />\r\n&there4; x = 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्या 3426x में x का मान क्या है यदि संख्या 6 से विभाज्य है लेकिन 5 से विभाज्य नहीं है?</p>\r\n\r\n<p><strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>8</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>6</strong> है।</p>\r\n\r\n<p>6 &rarr; 2 &times; 3&nbsp;<br />\r\nयह संख्या 5 से विभाज्य नहीं है&nbsp;<br />\r\n&there4; x शून्य के बराबर नहीं है।<br />\r\n<strong>3 का विभाज्यता नियम: </strong>अंकों का योग 3 से विभाज्य होना चाहिए।&nbsp;<br />\r\n3426x का अंक योग = 15 + x= 15 + x&nbsp;<br />\r\nसाथ ही, x एक सम संख्या है<br />\r\n&there4; x = 6</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the lowest positive value of (c - b) such that the 7-digit number 1738b9c is divisible by 12.</p>\r\n\r\n<p><strong>(CHSL 2024 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>1</strong>.</p>\r\n\r\n<p>12 &rarr; 4 &times; 3</p>\r\n\r\n<p>To find the lowest positive value, we have to take the&nbsp;highest values</p>\r\n\r\n<p><strong>Divisibility rule of 4:</strong>&nbsp;A number is divisible by 4 if its last two digits are divisible by 4.</p>\r\n\r\n<p>Last 2-digits:&nbsp;<span class=\"math-tex\">\\(9c \\over4\\)</span>&nbsp;&rarr; c may be 2 or 6&nbsp;[highest value = 6]</p>\r\n\r\n<p><strong>Divisibility rule of 3:&nbsp;</strong>A number is divisible by 3 if the sum of its digits is divisible by 3.&nbsp;</p>\r\n\r\n<p>Sum of digits:&nbsp;<span class=\"math-tex\">\\({1 + 7 + 3 + 8 + b + 9 + 6}\\over 3\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({34+b}\\over3\\)</span>&nbsp;&rarr; b must be 5</p>\r\n\r\n<p>The lowest possible value of (c - b) = 6 - 5 = 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>(c - b) का न्यूनतम धनात्मक मान ज्ञात कीजिए जिससे कि 7 अंकों की संख्या 1738b9c, 12 से विभाज्य हो।</p>\r\n\r\n<p><strong>(CHSL 2024 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>1</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​12 &rarr; 4 &times; 3</p>\r\n\r\n<p>सबसे कम धनात्मक मान ज्ञात करने के लिए, हमें सबसे अधिक मान लेने होंगे</p>\r\n\r\n<p><strong>4 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंतिम दो अंक 4 से विभाज्य हैं, तो वह संख्या 4 से विभाज्य है।</p>\r\n\r\n<p>अंतिम 2-अंक:&nbsp;&nbsp;&rarr; c, 2 या 6 हो सकता है&nbsp;[उच्चतम मान = 6]</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम:</strong> यदि किसी संख्या के अंकों का योग 3 से विभाज्य है, तो वह संख्या 3 से विभाज्य है।</p>\r\n\r\n<p>अंकों का योग:&nbsp;<span class=\"math-tex\">\\({1 + 7 + 3 + 8 + b + 9 + 6}\\over 3\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({34+b}\\over3\\)</span>&nbsp;&rarr; b 5 होना चाहिए</p>\r\n\r\n<p>(c - b) का सबसे कम संभव मान = 6 - 5 = 1</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Write the smallest digit in the blank space of a number 7_7624, so that the number formed is divisible by 3.</p>\r\n\r\n<p><strong>(CHSL 2024 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>1</strong>.</p>\r\n\r\n<p><strong>Divisibility rule of 3:&nbsp;</strong>A number is divisible by 3 if the sum of its digits is divisible by 3.</p>\r\n\r\n<p>Sum of digits: <span class=\"math-tex\">\\({7 + x + 7 + 6 + 2 + 4}\\over3\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(26+x \\over 3\\)</span>&nbsp;&rarr; x = 1 [smallest value]</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>किसी संख्या 7_7624 के रिक्त स्थान में सबसे छोटा अंक लिखिए, ताकि बनने वाली संख्या 3 से विभाज्य हो।</p>\r\n\r\n<p><strong>(CHSL 2024 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>1</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><strong>​3 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंकों का योग 3 से विभाज्य है तो वह संख्या 3 से विभाज्य होगी।</p>\r\n\r\n<p>अंकों का योग: <span class=\"math-tex\">\\({7 + x + 7 + 6 + 2 + 4}\\over3\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(26+x \\over 3\\)</span>&nbsp;&rarr; x = 1 [सबसे छोटा मान]</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The 10-digit number 90457416xy is divisible by 9, and x - y = 3. What is the value of (5x + 3y)?</p>\r\n\r\n<p><strong>(SP Phase-8)</strong></p>\r\n",
+    "options": [
+      "<p>48</p>\r\n",
+      "<p>39</p>\r\n",
+      "<p>33</p>\r\n",
+      "<p>29</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>39</strong>.</p>\r\n\r\n<p><strong>Divisibility for 9:</strong> the sum of the digits must be divisible by 9.&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\frac{9\\ +\\ 0\\ +\\ 4\\ +\\ 5\\ +\\ 7\\ +\\ 4\\ +\\ 1\\ +\\ 6\\ +\\ x\\ +\\ y}{9}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{36\\ +\\ x\\ +\\ y}{9}\\)</span><br />\r\n(x + y) must be 9<br />\r\nx + y = 9.....(1)<br />\r\nx - y = 3......(2)<br />\r\nFrom equations 1 and 2&nbsp;<br />\r\n2x = 12<br />\r\nx = 6<br />\r\nthen, y = 3<br />\r\nValue of (5x + 3y) = 5&nbsp;&times; 6 + 3&nbsp;&times; 3 = 30 + 9 = 39</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>10 अंकों की संख्या 90457416xy, 9 से विभाज्य है, और x - y = 3 है। (5x + 3y) का मान क्या है?</p>\r\n\r\n<p><strong>(SP Phase-8)</strong></p>\r\n",
+    "options_hi": [
+      "<p>48</p>\r\n",
+      "<p>39</p>\r\n",
+      "<p>33</p>\r\n",
+      "<p>29</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>39</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><strong>9 की विभाज्यता नियम:</strong> अंकों का योग 9 से विभाज्य होना चाहिए।<br />\r\n<span class=\"math-tex\">\\(\\frac{9\\ +\\ 0\\ +\\ 4\\ +\\ 5\\ +\\ 7\\ +\\ 4\\ +\\ 1\\ +\\ 6\\ +\\ x\\ +\\ y}{9}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{36\\ +\\ x\\ +\\ y}{9}\\)</span><br />\r\n(x + y), 9 होना चाहिए<br />\r\nx + y = 9.....(1)<br />\r\nx - y = 3......(2)<br />\r\nसमीकरण 1 और 2 से<br />\r\n2x = 12<br />\r\nx = 6<br />\r\nतो, y = 3<br />\r\n(5x + 3y) का मान = 5&nbsp;&times; 6 + 3&nbsp;&times; 3 = 30 + 9 = 39</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the number nearest to 51462 that is divisible by 8.</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>51464</p>\r\n",
+      "<p>51468</p>\r\n",
+      "<p>51456</p>\r\n",
+      "<p>51480</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>51464</strong>.</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{51462}{8}\\)</span> ⟹ Remainder&nbsp;= +6</p>\r\n\r\n<p>Nearest number = 51462 + (8 - 6) = 51464</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>51462 के निकटतम वह अंक ज्ञात कीजिए जो 8 से विभाज्य हो।</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>51464</p>\r\n",
+      "<p>51468</p>\r\n",
+      "<p>51456</p>\r\n",
+      "<p>51480</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>51464 </strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{51462}{8}\\)</span>&nbsp;⟹ शेष&nbsp;= +6</p>\r\n\r\n<p>निकटतम संख्या = 51462 + (8 - 6) = 51464</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the sum of the greatest and the smallest number that may replace k in the number 8130k36 so that the number is divisible by 8.</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>10</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>10</strong>.</p>\r\n\r\n<p><strong>Divisibility rule for 8:</strong>&nbsp;The last 3 digits must be divisible by 8.</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{k36}{8}\\)</span>&nbsp;&rarr;&nbsp;k = 1(min), 9(max)</p>\r\n\r\n<p>Sum = 1 + 9 = 10&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>संख्या 8130k36 में k के स्थान पर आने वाली सबसे बड़ी और सबसे छोटी संख्या का योग ज्ञात कीजिए ताकि संख्या 8 से विभाज्य हो।</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>10</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>10</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><strong>​8 के लिए विभाज्यता नियम:</strong> अंतिम 3 अंक 8 से विभाज्य होने चाहिए।</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{k36}{8}\\)</span>&nbsp;&rarr; k = 1(न्यूनतम), 9(अधिकतम)</p>\r\n\r\n<p>योग = 1 + 9 = 10</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A six-digit number of the form ababab is always divisible by:</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>11111</p>\r\n",
+      "<p>10001</p>\r\n",
+      "<p>11001</p>\r\n",
+      "<p>10101</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>10101</strong>.</p>\r\n\r\n<p>A 6-digit number in the form of ababab is always divisible by 10101</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>ababab के रूप की छह अंकों की संख्या हमेशा से विभाज्य होती है।</p>\r\n\r\n<p><strong>(SP Phase-9)</strong>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>11111</p>\r\n",
+      "<p>10001</p>\r\n",
+      "<p>11001</p>\r\n",
+      "<p>10101</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>10101</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>ababab के रूप में एक 6-अंकीय संख्या हमेशा 10101 से विभाज्य होती है</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the five-digit number 570xy is divisible by 231, then what is the value of (2x - y)?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>3</strong>.</p>\r\n\r\n<p>The biggest possible number in terms of 570xy is 57099</p>\r\n\r\n<p>57099&nbsp;&divide; 231 = 247 [approx]</p>\r\n\r\n<p>Original number = 231&nbsp;&times; 247 = 57057</p>\r\n\r\n<p>so, x = 5, and y = 7</p>\r\n\r\n<p>value of (2x - y) = 10 - 7 = 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि पाँच अंकों वाली संख्या 570xy, 231 से विभाज्य है, तो (2x - y) का मान क्या है?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>3</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>570xy के संदर्भ में सबसे बड़ी संभावित संख्या 57099 है</p>\r\n\r\n<p>57099&nbsp;&divide; 231 = 247 [लगभग]</p>\r\n\r\n<p>मूल संख्या = 231&nbsp;&times; 247 = 57057</p>\r\n\r\n<p>इसलिए, x = 5, और y = 7</p>\r\n\r\n<p>(2x - y) का मान = 10 - 7 = 3</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a number N is divisible by 3, then which of the following is true?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>(N + 6) is divisible by 6</p>\r\n",
+      "<p>(N + 2) is divisible by 3</p>\r\n",
+      "<p>N<sup>2</sup> is divisible by 6</p>\r\n",
+      "<p>(N + 12) is divisible by 3</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>(N + 12) is divisible by 3</strong>.</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{N\\ +\\ 12}{3}\\)</span> = N &amp; 12 both are divisible by 3.</p>\r\n\r\n<p>So,&nbsp;N + 12 clearly divisible by 3.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि कोई संख्या N, 3 से विभाज्य है, तो निम्नलिखित में से कौन सा सत्य है?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>(N + 6), 6 से विभाज्य है</p>\r\n",
+      "<p>(N + 2), 3 से विभाज्य है</p>\r\n",
+      "<p>N<sup>2</sup>, 6 से विभाज्य है</p>\r\n",
+      "<p>(N + 12), 3 से विभाज्य है</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>(N + 12), 3 से विभाज्य है</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{N\\ +\\ 12}{3}\\)</span>&nbsp;= N और 12 दोनों 3 से विभाज्य हैं।</p>\r\n\r\n<p>अतः N + 12 स्पष्ट रूप से 3 से विभाज्य है।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the 9-digit number 957x5y6z3 is divisible by 33, then what is the maximum value of (x + y + z)?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>24</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>26</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>25</strong>.</p>\r\n\r\n<p>33 = 3 &times; 11</p>\r\n\r\n<p><strong>Divisibility rule for 3: </strong>the<strong>&nbsp;</strong>sum of the digits must be divisible by 3.&nbsp;</p>\r\n\r\n<p>Sum of digits:&nbsp;<span class=\"math-tex\">\\(\\frac{9\\ +\\ 5\\ +\\ 7\\ +\\ 5\\ +\\ 6\\ +\\ 3\\ +\\ x\\ +\\ y\\ +\\ z}{3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{35\\ +\\ \\left(x\\ +\\ y\\ +\\ z\\right)}{3}\\)</span>&nbsp;&rarr; (x + y + z) must be 25 (maximum value)</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 9 अंकों की संख्या 957x5y6z3, 33 से विभाज्य है तो (x + y + z) का अधिकतम मान क्या होगा ?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>24</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>26</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>25</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​33 = 3 &times; 11</p>\r\n\r\n<p><strong>3 के लिए विभाज्यता नियम: </strong>अंकों का योग 3 से विभाज्य होना चाहिए।</p>\r\n\r\n<p>अंकों का योग:&nbsp;<span class=\"math-tex\">\\(\\frac{9\\ +\\ 5\\ +\\ 7\\ +\\ 5\\ +\\ 6\\ +\\ 3\\ +\\ x\\ +\\ y\\ +\\ z}{3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{35\\ +\\ \\left(x\\ +\\ y\\ +\\ z\\right)}{3}\\)</span>&nbsp;&rarr; (x + y + z), 25 (अधिकतम मान) होना चाहिए</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The sum of 3-digit numbers abc, bca, and cab is always divisible by:</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>35</p>\r\n",
+      "<p>41</p>\r\n",
+      "<p>37</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>37.</strong></p>\r\n\r\n<p>The sum of the 3-digit numbers abc, bca &amp; cab is always divisible by 37</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>3 अंकीय संख्याओं abc, bca और cab का योग सदैव&nbsp;विभाज्य होगा।</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>35</p>\r\n",
+      "<p>41</p>\r\n",
+      "<p>37</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>37</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>3-अंकीय संख्याओं abc, bca और cab का योग हमेशा 37 से विभाज्य होता है</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a 9-digit number 609a5b9c9 is divisible by 99, then (a + b + c) is equal to:</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>16</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>25</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>16</strong>.</p>\r\n\r\n<p>99 = 9 &times; 11</p>\r\n\r\n<p><strong>Divisibility rule for 9: </strong>the sum of the digits must be divisible by 9.&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{6\\ +\\ 9\\ +\\ a\\ +\\ 5\\ +\\ b\\ +\\ 9\\ +\\ c\\ +\\ 9}{9}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{38\\ +\\ \\left(a\\ +\\ b\\ +\\ c\\right)}{9}\\)</span>&hellip;&hellip;&hellip; (i)&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule for 11:</strong> the difference between the sum of the digits in the odd places and the sum of the digits in the even places must be zero or a multiple of 11.</p>\r\n\r\n<p>(6 + 9 + 5 + 9 + 9) - (a + b + c) = 0 or 11</p>\r\n\r\n<p>38 - (a + b + c) = 0 or 11 ......(ii)</p>\r\n\r\n<p>From equations 1 and 2</p>\r\n\r\n<p>a + b + c = 16</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 9-अंकीय संख्या 609a5b9c9, 99 से विभाज्य है, तो (a + b + c) बराबर है:</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>16</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>25</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>16</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​99 = 9 &times; 11</p>\r\n\r\n<p><strong>9 के लिए विभाज्यता नियम: </strong>अंकों का योग 9 से विभाज्य होना चाहिए।</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{6\\ +\\ 9\\ +\\ a\\ +\\ 5\\ +\\ b\\ +\\ 9\\ +\\ c\\ +\\ 9}{9}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{38\\ +\\ \\left(a\\ +\\ b\\ +\\ c\\right)}{9}\\)</span>&nbsp;&hellip;&hellip;&hellip; (i)</p>\r\n\r\n<p><strong>11 के लिए विभाज्यता नियम:</strong> विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग के बीच का अंतर शून्य या 11 का गुणक होना चाहिए।</p>\r\n\r\n<p>(6 + 9 + 5 + 9 + 9) - (a + b + c) = 0 या 11</p>\r\n\r\n<p>38 - (a + b + c) = 0 या 11 ......(ii)</p>\r\n\r\n<p>समीकरण 1 और 2 से</p>\r\n\r\n<p>a + b + c = 16</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A 4-digit number x92x is divisible by 36, and a 7-digit number y569z04 is divisible by 11. For the maximum value of (y + z), what is the value of (2x + y + z)?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>31</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>33</p>\r\n",
+      "<p>26</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>31</strong>.</p>\r\n\r\n<p>36 = 9 &times; 4</p>\r\n\r\n<p><strong>Divisibility rule for 4: the&nbsp;</strong>last 2 digits must be divisible by 4.</p>\r\n\r\n<p>2x/4 &rArr; x = 0, 4, 8</p>\r\n\r\n<p><strong>Divisibility rule for 11:</strong> The difference between the sum of the digits in the odd places and the sum of the digits in the even places must be zero or a multiple of 11.</p>\r\n\r\n<p>(5 + 9 + 0) - (6 + 4 + y + z) = 0 or 11&nbsp;</p>\r\n\r\n<p>14 - (10 + y + z) = 0 or 11&nbsp;</p>\r\n\r\n<p>y + z = 15 (max)&nbsp;</p>\r\n\r\n<p>2x + y + z = 2(8) + 15 = 31</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक 4-अंकीय संख्या x92x, 36 से विभाज्य है और एक 7-अंकीय संख्या y569z04, 11 से विभाज्य है। (y + z) के अधिकतम मान के लिए (2x + y + z) का मान क्या है?</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>31</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>33</p>\r\n",
+      "<p>26</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>31</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>36 = 9 &times; 4</p>\r\n\r\n<p><strong>4 के लिए विभाज्यता नियम: </strong>अंतिम 2 अंक 4 से विभाज्य होने चाहिए।</p>\r\n\r\n<p>2x/4 &rArr; x = 0, 4, 8</p>\r\n\r\n<p><strong>11 के लिए विभाज्यता नियम:</strong> विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग के बीच का अंतर शून्य या 11 का गुणक होना चाहिए।</p>\r\n\r\n<p>(5 + 9 + 0) - (6 + 4 + y + z) = 0 या 11</p>\r\n\r\n<p>14 - (10 + y + z) = 0 या 11</p>\r\n\r\n<p>y + z = 15 (अधिकतम)</p>\r\n\r\n<p>2x + y + z = 2(8) + 15 = 31</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the 7-digit number 612x97y is divisible by 72, and the 6-digit number 34z178 is divisible by 11, then the value of (x - 2y + 3z) is:</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>2</strong>.</p>\r\n\r\n<p>For the number 612x97y</p>\r\n\r\n<p>72 = 8 &times; 9</p>\r\n\r\n<p><strong>Divisibility rule for 8:</strong>&nbsp;the last 3 digits must be divisible by 8.&nbsp;</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{97y}{8}\\)</span>&nbsp;&rarr; y must be 6</p>\r\n\r\n<p><strong>Divisibility rule for 9:</strong> the<strong>&nbsp;</strong>sum of the digits must be divisible by 9.</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{6\\ +\\ 1\\ +\\ 2\\ +\\ x\\ +\\ 9\\ +\\ 7\\ +\\ 6}{6} = \\frac{31\\ +\\ x}{9}\\)</span>&nbsp;&rarr; x must be 5</p>\r\n\r\n<p>For the number 34z178</p>\r\n\r\n<p><strong>Divisibility rule for 11: </strong>The difference between the sum of the digits in the odd places and the sum of the digits in the even places must be zero or a multiple of 11.</p>\r\n\r\n<p>(4 + 1 + 8) - (3 + z + 7) = 0 or 11<br />\r\n13 - (10 + z) = 0 or 11<br />\r\nz = 3</p>\r\n\r\n<p>x - 2y + 3z = 5 - 2(6) + 3(3) = 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 7-अंकीय संख्या 612x97y, 72 से विभाज्य है, और 6-अंकीय संख्या 34z178, 11 से विभाज्य है, तो (x - 2y + 3z) का मान है:</p>\r\n\r\n<p><strong>(SP Phase-9)</strong></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>2</strong>&nbsp;है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​संख्या 612x97y के लिए</p>\r\n\r\n<p>72 = 8 &times; 9</p>\r\n\r\n<p><strong>8 के लिए विभाज्यता नियम: </strong>अंतिम 3 अंक 8 से विभाज्य होने चाहिए।</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{97y}{8}\\)</span>&nbsp;&rarr; y का मान 6 होना चाहिए</p>\r\n\r\n<p><strong>9 के लिए विभाज्यता नियम: अं</strong>कों का योग 9 से विभाज्य होना चाहिए।</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{6\\ +\\ 1\\ +\\ 2\\ +\\ x\\ +\\ 9\\ +\\ 7\\ +\\ 6}{6} = \\frac{31\\ +\\ x}{9}\\)</span>&nbsp;&rarr; x का मान 5 होना चाहिए</p>\r\n\r\n<p>संख्या 34z178 के लिए</p>\r\n\r\n<p><strong>11 के लिए विभाज्यता नियम:</strong> विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग के बीच का अंतर शून्य या 11 का गुणज होना चाहिए।</p>\r\n\r\n<p>(4 + 1 + 8) - (3 + z + 7) = 0 या 11<br />\r\n13 - (10 + z) = 0 या 11<br />\r\nz = 3</p>\r\n\r\n<p>x - 2y + 3z = 5 - 2(6) + 3(3) = 2</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Which of the following numbers will completely divide (6<sup>61</sup> + 6<sup>62</sup> + 6<sup>63</sup> + 6<sup>64</sup>)?</p>\r\n\r\n<p><strong>SP 2023 Phase-11 Graduation L.</strong></p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>13</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>7</strong>.</p>\r\n\r\n<p>(6<sup>61</sup> + 6<sup>62</sup> + 6<sup>63</sup> + 6<sup>64</sup>)</p>\r\n\r\n<p>6<sup>61</sup> (1 + 6<sup>1</sup> + 6<sup>2</sup> + 6<sup>3</sup>)&nbsp;</p>\r\n\r\n<p>6<sup>61</sup> (1 + 6 + 36 + 216)&nbsp;</p>\r\n\r\n<p>6<sup>61</sup> &times; 259&nbsp;</p>\r\n\r\n<p>6<sup>61</sup> &times; 37 &times; 7</p>\r\n\r\n<p>&there4; It will be divisible by 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से कौन सी संख्या (6<sup>61</sup> + 6<sup>62</sup> + 6<sup>63</sup> + 6<sup>64</sup>) को पूर्णतः विभाजित करेगी?</p>\r\n\r\n<p><strong>SP 2023 Phase-11 Graduation L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>13</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>7</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>(6<sup>61</sup> + 6<sup>62</sup> + 6<sup>63</sup> + 6<sup>64</sup>)</p>\r\n\r\n<p>6<sup>61</sup> (1 + 6<sup>1</sup> + 6<sup>2</sup> + 6<sup>3</sup>)&nbsp;</p>\r\n\r\n<p>6<sup>61</sup> (1 + 6 + 36 + 216)&nbsp;</p>\r\n\r\n<p>6<sup>61</sup> &times; 259&nbsp;</p>\r\n\r\n<p>6<sup>61</sup> &times; 37 &times; 7</p>\r\n\r\n<p>&there4; यह 7 से विभाज्य होगा</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The six-digit number 7x1yyx is a multiple of 33 for non-zero digits x and y. Which of the following could be a possible value of (x + y)?</p>\r\n\r\n<p><strong>SP 2023 Phase-11 Matric. L.</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>5</strong>.</p>\r\n\r\n<p>33 &rarr; 11 &times; 3&nbsp;<br />\r\n<strong>Divisibility rule for 11: </strong>The difference between the sum of the digits in the odd places and the sum of the digits in the even places must be zero or a multiple of 11.&nbsp;<br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{\\left(7+1+y\\right)-\\left(x+y+x\\right)}{11}\\)</span>&nbsp;<br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{8-2x}{11}\\)</span> &rArr; x must be 4&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule for 3:</strong>&nbsp;the sum of the digits must be divisible by 3.&nbsp;<br />\r\nSum of digits: <span class=\"math-tex\">\\({7 + 4 + 1 + y + y + 4}\\over3\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({16+2y}\\over3\\)</span> &rArr; y must be&nbsp;1<br />\r\n&there4; x + y = 4 + 1 = 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>छह अंकों की संख्या 7x1yyx गैर-शून्य अंक x और y के लिए 33 का गुणक है। निम्नलिखित में से कौन सा (x + y) का संभावित मान हो सकता है?</p>\r\n\r\n<p><strong>SP 2023 Phase-11 Matric. L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>5</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>33 &rarr; 11 &times; 3&nbsp;<br />\r\n<strong>11 के लिए विभाज्यता नियम: </strong>विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग के बीच का अंतर शून्य या 11 का गुणज होना चाहिए।<br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{\\left(7+1+y\\right)-\\left(x+y+x\\right)}{11}\\)</span>&nbsp;<br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{8-2x}{11}\\)</span> &rArr;&nbsp;x, 4 होना चाहिए</p>\r\n\r\n<p><strong>3 के लिए विभाज्यता नियम: </strong>अंकों का योग 3 से विभाज्य होना चाहिए।<br />\r\nअंकों का योग: <span class=\"math-tex\">\\({7 + 4 + 1 + y + y + 4}\\over3\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({16+2y}\\over3\\)</span> &rArr; y, 1 होना चाहिए<br />\r\n&there4; x + y = 4 + 1 = 5</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If the product 6352 &times; 7A1 is divisible by 12, then the value of A is:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Graduation L.</strong></p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e. <strong>4</strong>.</p>\r\n\r\n<p>12 = 4 &times; 3</p>\r\n\r\n<p><strong>Divisibility rule of 4:&nbsp;</strong>A number is divisible by 4 if its last two digits form a number that is divisible by 4.</p>\r\n\r\n<p><span class=\"math-tex\">\\(6352 \\over4\\)</span>&nbsp;= 1588</p>\r\n\r\n<p><strong>Divisibility rule of 3:&nbsp;</strong>A number is divisible by 3 if the sum of its digits is divisible by 3.</p>\r\n\r\n<p>Sum of digits:&nbsp;<span class=\"math-tex\">\\(\\frac{7\\ +\\ 1\\ +\\ A}{3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{8+A}{3}\\)</span>&nbsp;&rarr;&nbsp;A may be 1, 4, or 7</p>\r\n\r\n<p>As per the given options, A must be 4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि गुणनफल 6352 &times; 7A1, 12 से विभाज्य है, तो A का मान है:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Graduation L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>4</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​12 = 4 &times; 3</p>\r\n\r\n<p><strong>4 का विभाज्यता नियम: </strong>यदि किसी संख्या के अंतिम दो अंक मिलकर 4 से विभाज्य हों तो वह संख्या 4 से विभाज्य होगी।</p>\r\n\r\n<p><span class=\"math-tex\">\\(6352 \\over4\\)</span>&nbsp;= 1588</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम:</strong> यदि किसी संख्या के अंकों का योग 3 से विभाज्य हो तो वह संख्या 3 से विभाज्य होगी।</p>\r\n\r\n<p>अंकों का योग:&nbsp;<span class=\"math-tex\">\\(\\frac{7\\ +\\ 1\\ +\\ A}{3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{8+A}{3}\\)</span>&nbsp;&rarr;&nbsp;A 1, 4 या 7 हो सकता है</p>\r\n\r\n<p>दिए गए विकल्पों के अनुसार, A का मान 4 होना चाहिए</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The five-digit number 58828 is divisible by 77. If we add 5 more than twice of 11 to the number, then the resultant number will be divisible by:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>33</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>5</strong>.</p>\r\n\r\n<p>58828 + 2 &times; 11 + 5&nbsp;= 58828 + 27&nbsp;= 58855&nbsp;</p>\r\n\r\n<p>Since the unit digit of this number is 5.</p>\r\n\r\n<p>&there4; It is divisible by 5.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाँच अंकों की संख्या 58828, 77 से विभाज्य है। यदि हम संख्या में 11 के दुगुने से 5 अधिक जोड़ें, तो परिणामी संख्या किससे विभाज्य होगी:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>33</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>5</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>58828 + 2 &times; 11 + 5&nbsp;= 58828 + 27&nbsp;= 58855&nbsp;</p>\r\n\r\n<p>चूँकि इस संख्या का इकाई अंक 5 है।</p>\r\n\r\n<p>&there4; यह 5 से विभाज्य है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A seven-digit number 5702718, is divisible by 147. If we rearrange the digits of the number in descending order and subtract 4 more than three times of 17 from the new number that is formed, then the resultant number will be divisible by:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options": [
+      "<p>17</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>5</strong>.</p>\r\n\r\n<p>According to the question:-<br />\r\n8775210 - 3 &times; 17 - 4&nbsp;= 8775210 - 51 - 4 = 8775155&nbsp;<br />\r\n&there4; It is divisible by 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक सात अंकों की संख्या 5702718, 147 से विभाज्य है। यदि हम संख्या के अंकों को अवरोही क्रम में पुनर्व्यवस्थित करते हैं और बनी नई संख्या में से 17 के तीन गुना से 4 अधिक घटाते हैं, तो परिणामी संख्या निम्न से विभाज्य होगी:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>17</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>5</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>प्रश्न के अनुसार:-<br />\r\n8775210 - 3 &times; 17 - 4&nbsp;= 8775210 - 51 - 4 = 8775155&nbsp;<br />\r\n&there4; यह 5 से विभाज्य है</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A number is the square of 167. When the digits of the number are rearranged in descending order, then the new number that is formed will be divisible by:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options": [
+      "<p>17</p>\r\n",
+      "<p>13</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>17</strong>.</p>\r\n\r\n<p>(167)<sup>2</sup> = 27889&nbsp;<br />\r\nAfter rearranging the digits in descending order&nbsp;= 98872&nbsp;<br />\r\nGo through the options:<br />\r\nIt is divisible by 17.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक संख्या 167 का वर्ग है। जब संख्या के अंकों को अवरोही क्रम में पुनर्व्यवस्थित किया जाता है, तो बनने वाली नई संख्या&nbsp;विभाज्य होगी:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>17</p>\r\n",
+      "<p>13</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>17</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>(167)<sup>2</sup> = 27889&nbsp;<br />\r\nअंकों को अवरोही क्रम में पुनर्व्यवस्थित करने के बाद = 98872<br />\r\nविकल्पों पर जाएँ:<br />\r\nयह 17 से विभाज्य है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A number is a cube of 53. When 7 times 57 is subtracted from the number, the resultant number that is formed will be divisible by:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options": [
+      "<p>12</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>13</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>11</strong>.</p>\r\n\r\n<p>(53)<sup>3</sup> = 148877&nbsp;</p>\r\n\r\n<p>&there4; 148877 - 7 &times; 57 = 148877 - 399 = 148478&nbsp;</p>\r\n\r\n<p><strong>Divisibility rule of 11:</strong>&nbsp;a number is divisible by 11 if the difference between the sum of its digits at odd places and the sum of its digits at even places is either 0 or a multiple of 11</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{(1 + 8 + 7) - (4 + 4 + 8)}{11}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{16-16}{11}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(0\\over11\\)</span></p>\r\n\r\n<p>&there4; The resulting number will be divisible by 11</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक संख्या 53 का घन है। जब संख्या में से&nbsp;57 का 7 गुना घटाया जाता है, तो बनने वाली परिणामी संख्या&nbsp;विभाज्य होगी:</p>\r\n\r\n<p><strong>SP 2022 Phase-10 Matric. L.</strong></p>\r\n",
+    "options_hi": [
+      "<p>12</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>13</p>\r\n",
+      "<p>11</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>11</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>​(53)<sup>3</sup> = 148877</p>\r\n\r\n<p>&there4; 148877 - 7 &times; 57 = 148877 - 399 = 148478</p>\r\n\r\n<p><strong>11 का विभाज्यता नियम:</strong> कोई संख्या 11 से विभाज्य होती है यदि विषम स्थानों पर उसके अंकों के योग और सम स्थानों पर उसके अंकों के योग के बीच का अंतर 0 या 11 का गुणज हो</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\frac{(1 + 8 + 7) - (4 + 4 + 8)}{11}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{16-16}{11}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(0\\over11\\)</span></p>\r\n\r\n<p>&there4; परिणामी संख्या 11 से विभाज्य होगी</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>5<sup>71&nbsp;</sup>+ 5<sup>72&nbsp;</sup>+ 5<sup>73&nbsp;</sup>+ 5<sup>74&nbsp;</sup>+ 5<sup>75</sup> is divisible by which of the following numbers?</p>\r\n\r\n<p><strong>(CGL MAINS 2019)</strong></p>\r\n",
+    "options": [
+      "<p>71</p>\r\n",
+      "<p>69</p>\r\n",
+      "<p>89</p>\r\n",
+      "<p>73</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>71</strong>.</p>\r\n\r\n<p>5<sup>71&nbsp;</sup>+ 5<sup>72&nbsp;</sup>+ 5<sup>73&nbsp;</sup>+ 5<sup>74&nbsp;</sup>+ 5<sup>75</sup><br />\r\n5<sup>71</sup>&times; [1 + 5<sup>1</sup>+ 5<sup>2</sup> + 5<sup>3</sup> + 5<sup>4</sup>]&nbsp;<br />\r\n5<sup>71</sup>&times; [1 + 5 + 25 + 125 + 625]&nbsp;<br />\r\n5<sup>71</sup> &times; 781&nbsp;<br />\r\n5<sup>71</sup> &times; 71 &times; 11<br />\r\n781 is divisible by 71</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>5<sup>71&nbsp;</sup>+ 5<sup>72&nbsp;</sup>+ 5<sup>73&nbsp;</sup>+ 5<sup>74&nbsp;</sup>+ 5<sup>75</sup> निम्नलिखित में से किस संख्या से विभाज्य है?</p>\r\n\r\n<p><strong>(CGL MAINS 2019)</strong></p>\r\n",
+    "options_hi": [
+      "<p>71</p>\r\n",
+      "<p>69</p>\r\n",
+      "<p>89</p>\r\n",
+      "<p>73</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>71</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>5<sup>71&nbsp;</sup>+ 5<sup>72&nbsp;</sup>+ 5<sup>73&nbsp;</sup>+ 5<sup>74&nbsp;</sup>+ 5<sup>75</sup><br />\r\n5<sup>71</sup>&times; [1 + 5<sup>1</sup>+ 5<sup>2</sup> + 5<sup>3</sup> + 5<sup>4</sup>]&nbsp;<br />\r\n5<sup>71</sup>&times; [1 + 5 + 25 + 125 + 625]&nbsp;<br />\r\n5<sup>71</sup> &times; 781<br />\r\n5<sup>71</sup> &times; 71 &times; 11&nbsp;<br />\r\n781, 71 से विभाज्य है</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A number is divisible by 3 only when:</p>\r\n\r\n<p><strong>(CHSL 2022 Mains)</strong></p>\r\n",
+    "options": [
+      "<p>the difference of the sum of the odd and the even digits is divisible by 3</p>\r\n",
+      "<p>the sum of its digits is divisible by 3</p>\r\n",
+      "<p>the last digit is either 0 or an even number</p>\r\n",
+      "<p>the last two digits are divisible by 3</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>the sum of its digits is divisible by 3</strong>.</p>\r\n\r\n<p>According to the divisibility rule of 3:</p>\r\n\r\n<p><strong>Divisibility rule of 3:&nbsp;</strong>A number is divisible by 3 if the sum of its digits is divisible by 3.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>कोई संख्या केवल 3 से विभाज्य होती है जब:</p>\r\n\r\n<p><strong>(CHSL 2022 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p>विषम और सम अंकों के योग का अंतर 3 से विभाज्य है</p>\r\n",
+      "<p>इसके अंकों का योग 3 से विभाज्य है</p>\r\n",
+      "<p>अंतिम अंक या तो 0 या कोई सम संख्या है</p>\r\n",
+      "<p>अंतिम दो अंक 3 से विभाज्य हैं</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>इसके अंकों का योग 3 से विभाज्य है</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>3 के विभाज्यता नियम के अनुसार:</p>\r\n\r\n<p><strong>3 का विभाज्यता नियम: </strong>कोई संख्या 3 से विभाज्य होती है यदि उसके अंकों का योग 3 से विभाज्य हो।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>222<sup>333</sup> + 333<sup>222</sup> is divisible by which of the following numbers?</p>\r\n\r\n<p><strong>(UPSC CSAT 2024)</strong></p>\r\n",
+    "options": [
+      "<p>2 and 3 but not by 37</p>\r\n",
+      "<p>3 and 37 but not 2</p>\r\n",
+      "<p>2 and 37 but not 3</p>\r\n",
+      "<p>2, 3 and 37</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>3 and 37, but not 2</strong>.</p>\r\n\r\n<p>111 = 37 &times; 3&nbsp;</p>\r\n\r\n<p>The number of the form&nbsp;&#39;aaa&#39; is always divisible by 3 and 37.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>222<sup>333</sup> + 333<sup>222</sup> निम्नलिखित में से किस संख्या से विभाज्य है?</p>\r\n\r\n<p><strong>(UPSC CSAT 2024)</strong></p>\r\n",
+    "options_hi": [
+      "<p>2 और 3 से परंतु 37 से नहीं</p>\r\n",
+      "<p>3 और 37 परंतु 2 नहीं</p>\r\n",
+      "<p>2 और 37 परंतु 3 नहीं</p>\r\n",
+      "<p>2, 3 और 37</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>3 और 37 परंतु 2 नहीं</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>111 = 37 &times; 3</p>\r\n\r\n<p>&#39;aaa&#39; के रूप की संख्या हमेशा 3 और 37 से विभाज्य होती है।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the greatest number that divides 108, 124, and 156, leaving the same remainder.</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>18</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>16</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>16</strong>.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/132025_02_28_13_02_25.png\" style=\"height:112px; width:200px\" /></p>\r\n\r\n<p>&there4; Required greatest number = 16</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह सबसे बड़ी संख्या ज्ञात कीजिए जो 108, 124 और 156 को विभाजित करने पर समान शेषफल प्रदान करे।</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>18</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>16</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>16</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/142025_02_28_13_03_19.png\" style=\"height:154px; width:200px\" /></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the greatest number by which, when 156, 181, and 331 are divided, the remainder is 6 in each case?</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>26</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>25</strong>.</p>\r\n\r\n<p>156 - 6 = 150&nbsp;<br />\r\n181 - 6 = 175&nbsp;<br />\r\n331 - 6 = 325&nbsp;<br />\r\nTo find the greatest number, we find the HCF</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/152025_02_28_13_04_46.png\" style=\"height:95px; width:200px\" /></p>\r\n\r\n<p>So, the required number is 25</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वह सबसे बड़ी संख्या क्या है जिससे 156, 181 और 331 को विभाजित करने पर प्रत्येक स्थिति में शेष 6 बचे?</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>26</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>25</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>156 - 6 = 150&nbsp;<br />\r\n181 - 6 = 175&nbsp;<br />\r\n331 - 6 = 325&nbsp;<br />\r\nसबसे बड़ी संख्या ज्ञात करने के लिए, हम महत्तम समापवर्तक ज्ञात करते हैं</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/152025_02_28_13_04_46.png\" style=\"height:95px; width:200px\" /></p>\r\n\r\n<p>अतः अभीष्ट संख्या 25 है</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the least 5-digit number that, when decreased by 7, is divisible by 15, 24, 28, and 32?</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>10097</p>\r\n",
+      "<p>10087</p>\r\n",
+      "<p>10067</p>\r\n",
+      "<p>10077</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>10087</strong>.</p>\r\n\r\n<p>LCM of 15, 24, 28, 32&nbsp;<br />\r\n15 = 3<sup>1</sup> &times; 5<sup>1</sup>&nbsp;<br />\r\n24 = 2<sup>3</sup> &times; 3<sup>1</sup>&nbsp;<br />\r\n28 = 2<sup>2</sup> &times; 7<sup>1</sup>&nbsp;<br />\r\n32 = 2<sup>5</sup>&nbsp;<br />\r\nLCM = 2<sup>5&nbsp;</sup>&times; 3<sup>1</sup> &times; 5<sup>1&nbsp;</sup>&times; 7<sup>1</sup> = 3360&nbsp;<br />\r\n&there4; 3360 &times; 3 +7 = 10087</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>5 अंकों की वह सबसे छोटी संख्या कौन सी है, जो 7 घटाने पर 15, 24, 28 और 32 से विभाज्य हो जाती है?</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>10097</p>\r\n",
+      "<p>10087</p>\r\n",
+      "<p>10067</p>\r\n",
+      "<p>10077</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>10087</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>15, 24, 28, 32 का&nbsp;लघुत्तम समापवर्त्य<br />\r\n15 = 3<sup>1</sup> &times; 5<sup>1</sup>&nbsp;<br />\r\n24 = 2<sup>3</sup> &times; 3<sup>1</sup>&nbsp;<br />\r\n28 = 2<sup>2</sup> &times; 7<sup>1</sup>&nbsp;<br />\r\n32 = 2<sup>5</sup>&nbsp;<br />\r\nलघुत्तम समापवर्त्य = 2<sup>5&nbsp;</sup>&times; 3<sup>1</sup> &times; 5<sup>1&nbsp;</sup>&times; 7<sup>1</sup> = 3360&nbsp;<br />\r\n&there4; 3360 &times; 3 +7 = 10087</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the greatest 3-digit number which, when divided by 3, 4, 5, and 8, leaves a remainder of 2 in each case.</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>962</p>\r\n",
+      "<p>122</p>\r\n",
+      "<p>958</p>\r\n",
+      "<p>482</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>962</strong>.</p>\r\n\r\n<p>Greatest 3-digit number = 999</p>\r\n\r\n<p>LCM of 3, 4, 5, 8 = 120</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/162025_02_28_13_09_26.png\" style=\"height:47px; width:80px\" /></p>\r\n\r\n<p>&there4; Greatest 3-digit number divisible by 120 = 999 - 39 = 960&nbsp;</p>\r\n\r\n<p>&there4; Required number = 960 + 2 = 962</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>तीन अंकों की सबसे बड़ी संख्या ज्ञात कीजिए जिसे 3, 4, 5 और 8 से विभाजित करने पर प्रत्येक स्थिति में शेष 2 बचता है।</p>\r\n\r\n<p><strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>962</p>\r\n",
+      "<p>122</p>\r\n",
+      "<p>958</p>\r\n",
+      "<p>482</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>962</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>सबसे बड़ी 3-अंकीय संख्या = 999</p>\r\n\r\n<p>3, 4, 5, 8 का लघुत्तम समापवर्त्य = 120</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/162025_02_28_13_09_26.png\" style=\"height:47px; width:80px\" /></p>\r\n\r\n<p>&there4; 120 से विभाज्य सबसे बड़ी 3-अंकीय संख्या = 999 - 39 = 960</p>\r\n\r\n<p>&there4; अपेक्षित संख्या = 960 + 2 = 962</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The largest five-digit number which, when divided by 7, 9, and 11, leaves the same remainder as 3 in each case, is:</p>\r\n\r\n<p><strong>(CGL 2022 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>95840</p>\r\n",
+      "<p>98685</p>\r\n",
+      "<p>96720</p>\r\n",
+      "<p>99795</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>99795</strong>.</p>\r\n\r\n<p>LCM of (7, 9, 11) = 693</p>\r\n\r\n<p><img alt=\"\" src=\"https://www.testranking.in/admin/assets/uploads/ckeditor/Untitleddsfg.png\" style=\"height:144px; width:163px\" /></p>\r\n\r\n<p>Largest 5-digit number divided by (7, 9, 11) =&nbsp;99999 - 207&nbsp;= 99792</p>\r\n\r\n<p>Required number = 99792 + 3 =&nbsp;99795</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाँच अंकों की सबसे बड़ी संख्या कौन सी है जिसे 7, 9 और 11 से विभाजित करने पर प्रत्येक स्थिति में 3 ही शेष बचता है?</p>\r\n\r\n<p><strong>(CGL 2022 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>95840</p>\r\n",
+      "<p>98685</p>\r\n",
+      "<p>96720</p>\r\n",
+      "<p>99795</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात <strong>99795 </strong>है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>(7, 9, 11) का लघुत्तम समापवर्त्य = 693</p>\r\n\r\n<p><img alt=\"\" src=\"https://www.testranking.in/admin/assets/uploads/ckeditor/Untitleddsfg.png\" style=\"height:144px; width:163px\" /></p>\r\n\r\n<p>(7, 9, 11) से विभाजित सबसे बड़ी 5-अंकीय संख्या = 99999 - 207 = 99792</p>\r\n\r\n<p>आवश्यक संख्या = 99792 + 3 = 99795</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Let x be the least 4-digit number that, when divided by 2, 3, 4, 5, 6, and 7, leaves a remainder of 1 in each case. If x lies between 2800 and 3000, what is the sum of the digits of x?</p>\r\n\r\n<p><strong>(CPO 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>15</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>16</strong>.</p>\r\n\r\n<p>LCM of 2, 3, 4, 5, 6, 7 = 420<br />\r\nNumber = 420 &times; k + 1<br />\r\nThe value of k must be like that the number must be between 2800 and 3000.&nbsp;<br />\r\nLet k = 7&nbsp;<br />\r\n420 &times; 7 + 1 = 2940 + 1 = 2941<br />\r\nDigit sum = 2 + 9 + 4 + 1 = 16</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मान लीजिए x 4 अंकों की सबसे छोटी संख्या है, जिसे 2, 3, 4, 5, 6 और 7 से विभाजित करने पर प्रत्येक स्थिति में 1 शेष बचता है। यदि x, 2800 और 3000 के बीच है, तो x के अंकों का योग क्या है?</p>\r\n\r\n<p><strong>(CPO 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>15</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">-->सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात <strong>16</strong> है।</p>\r\n\r\n<p>2, 3, 4, 5, 6, 7 का लघुत्तम समापवर्त्य = 420<br />\r\nसंख्या = 420 &times; k + 1<br />\r\nk का मान इस प्रकार होना चाहिए कि संख्या 2800 और 3000 के बीच हो।<br />\r\nमान लीजिए k = 7<br />\r\n420 &times; 7 + 1 = 2940 + 1 = 2941<br />\r\nअंकों का योग = 2 + 9 + 4 + 1 = 16</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Let x be the least number of 4 digits that when divided by 2, 3, 4, 5, 6, and 7 leaves a remainder of 1 in each case. If x lies between 2000 and 2500, then what is the sum of the digits of x?</p>\r\n\r\n<p><strong><span style=\"font-size:11.0pt\">(CPO 2019 Pre)</span></strong></p>\r\n",
+    "options": [
+      "<p>9</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>4</strong>.</p>\r\n\r\n<p>LCM of 2, 3, 4, 5, 6, and 7 = 420<br />\r\nNumber = 420 &times; k + 1&nbsp;<br />\r\nThis number lies between 2000 and 2500<br />\r\n&there4; k must be 5<br />\r\n420 &times; 5 + 1 = 2101<br />\r\nThe sum of the digits of the number&nbsp;= 2 + 1 + 0 + 1 = 4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>माना x, 4 अंकों की सबसे छोटी संख्या है जिसे 2, 3, 4, 5, 6 और 7 से विभाजित करने पर प्रत्येक स्थिति में 1 शेष बचता है। यदि x, 2000 और 2500 के बीच है, तो x के अंकों का योग क्या है?</p>\r\n\r\n<p><strong><span style=\"font-size:11.0pt\">(CPO 2019 Pre)</span></strong></p>\r\n",
+    "options_hi": [
+      "<p>9</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात <strong>4</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>2, 3, 4, 5, 6, और 7 का लघुत्तम समापवर्त्य = 420<br />\r\nसंख्या = 420 &times; k + 1<br />\r\nयह संख्या 2000 से 2500 के बीच है<br />\r\n&there4; k का मान 5 होना चाहिए<br />\r\n420 &times; 5 + 1 = 2101<br />\r\nसंख्या के अंकों का योग = 2 + 1 + 0 + 1 = 4</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Let x be the least number divisible by 13, such that when x is divided by 4, 5, 6, 7, 8, and 12, the remainder in each case is 2. The sum of the digits of x is:</p>\r\n\r\n<p><strong>(CPO 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p>11</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>11</strong>.</p>\r\n\r\n<p>LCM (4, 5, 6, 7, 8, and 12) = 420<br />\r\nThe number must be 420 &times; K + 2, which is divisible by 13&nbsp;<br />\r\nUse the remainder theorem&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{420\\times K\\ +\\ 2}{13}\\)</span>&nbsp;(K must be 6)&nbsp;<br />\r\n&rArr; 420 &times; 6 + 2 = 2522&nbsp;<br />\r\nSum = 2 + 5 + 2 + 2 =&nbsp;11</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मान लीजिए x, 13 से विभाज्य सबसे छोटी संख्या है, जिससे कि जब x को 4, 5, 6, 7, 8 और 12 से विभाजित किया जाता है, तो प्रत्येक स्थिति में शेषफल 2 होता है। x के अंकों का योग है:</p>\r\n\r\n<p><strong>(CPO 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>11</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात <strong>11</strong> है।<!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n\r\n<p>लघुत्तम समापवर्त्य(4, 5, 6, 7, 8, और 12) = 420<br />\r\nसंख्या 420 &times; K + 2 होनी चाहिए,&nbsp;जो 13 से विभाज्य है<br />\r\nशेष प्रमेय का उपयोग करें<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{420\\times K\\ +\\ 2}{13}\\)</span>&nbsp;(K, 6 होना चाहिए)&nbsp;<br />\r\n&rArr; 420 &times; 6 + 2 = 2522&nbsp;<br />\r\nयोग = 2 + 5 + 2 + 2 =&nbsp;11</p>\r\n</div>\r\n</div>\r\n"
+  }
+]
