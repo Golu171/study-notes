@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>A person can hit a target 5 times out of 8 shots. If he fires 10 shots, what is the probability that he will hit the target twice?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1135 × 3^8}{8^{10}}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1165 × 3^8}{8^{10}}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{1175 × 3^8}{8^{10}}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1125 × 3^8}{8^{10}}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1125 × 3^8}{8^{10}}\\)</span><strong>.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>A person can hit a target 5 times out of 8 shots.</p>\r\n\r\n<p>then the probability of hitting a target = 5/8</p>\r\n\r\n<p>and the probability of not to hit a target = (8- 5)/8 = 3/8</p>\r\n\r\n<p>If he fires 10 shots, then&nbsp;</p>\r\n\r\n<p>The probability that he will hit the target twice = <sup>10</sup>C<sub>2</sub>&nbsp;&times; (5/8)<sup>2</sup>&nbsp;&times; (3/8)<sup>(10 - 2)</sup></p>\r\n\r\n<p>=&nbsp;<sup>10</sup>C<sub>2</sub>&nbsp;&times; (5/8)<sup>2</sup>&nbsp;&times; (3/8)<sup>8</sup>&nbsp;</p>\r\n\r\n<p>= [10!/(2! &times; 8!)] &times; 25 &times; 3<sup>8</sup>/8<sup>10</sup></p>\r\n\r\n<p>= [(10 &times; 9)/2] &times; 25 &times;&nbsp;3<sup>8</sup>/8<sup>10</sup></p>\r\n\r\n<p>= 45 &times;&nbsp;25 &times;&nbsp;3<sup>8</sup>&nbsp;/8<sup>10</sup>&nbsp;=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{1125 × 3^8}{8^{10}}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक व्यक्ति 8 में से 5 बार किसी लक्ष्य पर निशाना साध सकता है। यदि वह 10 गोलियाँ चलाता है, तो इसकी क्या प्रायिकता है कि वह लक्ष्य पर दो बार वार करेगा?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1135 × 3^8}{8^{10}}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1165 × 3^8}{8^{10}}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{1175 × 3^8}{8^{10}}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1125 × 3^8}{8^{10}}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> यानी&nbsp;<span class=\"math-tex\">\\(\\frac{1125 × 3^8}{8^{10}}\\)</span>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>एक व्यक्ति 8 में से 5 बार किसी लक्ष्य पर निशाना साध सकता है।</p>\r\n\r\n<p>तो लक्ष्य पर वार करने की प्रायिकता = 5/8</p>\r\n\r\n<p>और लक्ष्य पर न लगने की प्रायिकता = (8-5)/8 = 3/8</p>\r\n\r\n<p>यदि वह 10 गोलियाँ चलाता है, तो</p>\r\n\r\n<p>लक्ष्य पर दो बार करने की&nbsp;प्रायिकता = <sup>10</sup>C<sub>2</sub>&nbsp;&times; (5/8)<sup>2</sup>&nbsp;&times; (3/8)<sup>(10 - 2)</sup></p>\r\n\r\n<p>=&nbsp;<sup>10</sup>C<sub>2</sub>&nbsp;&times; (5/8)<sup>2</sup>&nbsp;&times; (3/8)<sup>8</sup>&nbsp;</p>\r\n\r\n<p>= [10!/(2! &times; 8!)] &times; 25 &times; 3<sup>8</sup>/8<sup>10</sup></p>\r\n\r\n<p>= [(10 &times; 9)/2] &times; 25 &times;&nbsp;3<sup>8</sup>/8<sup>10</sup></p>\r\n\r\n<p>= 45 &times; 25 &times;&nbsp;3<sup>8</sup>&nbsp;/8<sup>10</sup>&nbsp;=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{1125 × 3^8}{8^{10}}\\)</span></p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The probabilities of solving a problem by three students A, B, and C are 3/7, 5/9, and 1/5 respectively. The probability that the problem will be solved is:&nbsp;</p>\r\n",
+    "options": [
+      "<p>155/315</p>\r\n",
+      "<p>64/315</p>\r\n",
+      "<p>251/315</p>\r\n",
+      "<p>32/315</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The correct answer is <strong>Option 3</strong> i.e.&nbsp;</span></span><strong>251/315.</strong></p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The probability that the problem will be solved&nbsp; = Total -&nbsp;The probability that the problem will not be solved</p>\r\n\r\n<p>= 1 - (4/7) &times; (4/9) &times; (4/5)&nbsp;</p>\r\n\r\n<p>= 1 - (64/315)</p>\r\n\r\n<p>= 251/315</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>तीन छात्रों A, B और C द्वारा एक समस्या को हल करने की संभावनाएँ क्रमशः 3/7, 5/9 और 1/5 हैं। समस्या के हल हो जाने की&nbsp;प्रायिकता&nbsp;है:</p>\r\n",
+    "options_hi": [
+      "<p>155/315</p>\r\n",
+      "<p>64/315</p>\r\n",
+      "<p>251/315</p>\r\n",
+      "<p>32/315</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात <strong>251/315&nbsp;</strong>है।</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>समस्या के हल हो जाने की&nbsp;प्रायिकता&nbsp;= कुल - समस्या के हल न होने की&nbsp;प्रायिकता&nbsp;</p>\r\n\r\n<p>= 1 - (4/7) &times; (4/9) &times; (4/5)</p>\r\n\r\n<p>= 1 - (64/315)</p>\r\n\r\n<p>= 251/315</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A speaks the truth 5 out of 7 times and B speaks the truth 8 out of 9 times. What is the&nbsp;probability that they contradict each other in stating the same fact?</p>\r\n",
+    "options": [
+      "<p>1/7</p>\r\n",
+      "<p>1/8</p>\r\n",
+      "<p>1/4</p>\r\n",
+      "<p>1/3</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4 i.e. 1/3.</strong></p>\r\n\r\n<p>The probability that&nbsp;A speaks the truth is 5/7</p>\r\n\r\n<p>The probability that&nbsp;A does not speak the truth = 2/7</p>\r\n\r\n<p>The probability that B&nbsp;speaks the truth is 8/9</p>\r\n\r\n<p>The probability that&nbsp;B does not speak the truth = 1/9</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>They contradict each other in stating the same fact</p>\r\n\r\n<p>then the probability = 5/7 &times;&nbsp;1/9 + 2/7 &times;&nbsp;8/9</p>\r\n\r\n<p>= 5/63 + 16/63 = 21/63 = 1/3&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>A 7 में से 5 बार&nbsp;सच बोलता है और B 9 में से 8 बार&nbsp;सच बोलता है ,संभावना है कि वे एक ही तथ्य बताते हुए एक-दूसरे का खंडन करते हैं?</p>\r\n",
+    "options_hi": [
+      "<p>1/7</p>\r\n",
+      "<p>1/8</p>\r\n",
+      "<p>1/4</p>\r\n",
+      "<p>1/3</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 4</strong> अर्थात <strong>1/3</strong> है।</p>\r\n\r\n<p>A के सच बोलने की&nbsp;प्रायिकता 5/7 है</p>\r\n\r\n<p>A के सच न बोलने की&nbsp;प्रायिकता = 2/7</p>\r\n\r\n<p>B के सच बोलने की&nbsp;प्रायिकता 8/9 है</p>\r\n\r\n<p>B के सच न बोलने की&nbsp;प्रायिकता = 1/9</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>वे एक ही तथ्य को बताते हुए एक-दूसरे का खंडन करते हैं</p>\r\n\r\n<p>तो&nbsp;संभावना = 5/7 &times;&nbsp;1/9 + 2/7 &times;&nbsp;8/9</p>\r\n\r\n<p>= 5/63 + 16/63 = 21/63 = 1/3</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A glass jar contains 6 white, 8 black, 4 red, and 3 blue marbles. If a single marble is chosen at random from the jar, what is the probability that it is black or blue?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{7}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{11}{21}\\)</span>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>A glass jar contains 6 white, 8 black, 4 red, and 3 blue marbles</p>\r\n\r\n<p>Total marbles = 6 + 8+ 4 + 3 = 21</p>\r\n\r\n<p>the probability that it is black or blue = (8/21) + (3/21) = 11/21</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कांच के जार में 6 सफेद, 8 काले, 4 लाल और 3 नीले कंचे हैं यदि जार में से यादृच्छिक रूप से एक कंचा चुना जाता है, तो इसकी क्या&nbsp;संभावना है कि वह काला या नीला है?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{21}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{11}{21}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{5}{21}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{1}{7}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2</strong> यानी&nbsp;<span class=\"math-tex\">\\(\\frac{11}{21}\\)</span> &nbsp;है।</p>\r\n\r\n<p>मान लें कि</p>\r\n\r\n<p>एक कांच के जार में 6 सफेद, 8 काले, 4 लाल और 3 नीले&nbsp;कंचे हैं</p>\r\n\r\n<p>कुल कंचे = 6 + 8+ 4 + 3 = 21</p>\r\n\r\n<p>संभावना है कि यह काला या नीला है = (8/21) + (3/21) = 11/21</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If A and B events with P(A) = <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>, P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span> and P(A &cap; B) = <span class=\"math-tex\">\\(\\frac{1}{4}\\)</span>. Find P(A̅ &cap; B̅).</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{8}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{8}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 4&nbsp;</strong>i.e. <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span><strong>.</strong></p>\r\n\r\n<p>Given&nbsp;that,&nbsp;P(A) = <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n\r\n<p>P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>&nbsp;</p>\r\n\r\n<p>P(A &cap; B) =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n\r\n<p>According to the given question,</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(\\overline{A} \\cap \\overline{B}) = 1 - P(A \\cup B)\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = {3 \\over 8} + { 1 \\over 2} - {1 \\over 4}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = {5 \\over 8}\\)</span></p>\r\n\r\n<p>&rArr;<span class=\"math-tex\">\\(P(\\overline{A} \\cap \\overline{B}) = 1 - P(A \\cup B)\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(\\overline{A} \\cap \\overline{B}) = 1 - {5 \\over 8} = {3 \\over 8}\\)</span>&nbsp;</p>\r\n\r\n<p>Hence the required answer is&nbsp;<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि A और B P(A) = <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>के साथ स्पर्धाएं करते हैं, तो P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span> और P(A &cap; B) = <span class=\"math-tex\">\\(\\frac{1}{4}\\)</span> है।&nbsp;P(A̅ &cap; B̅) ज्ञात कीजिए।</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{1}{8}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{7}{8}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{5}{8}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प</strong>&nbsp;<strong>4</strong>&nbsp;अर्थात <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>&nbsp;है।<br />\r\nमान लें कि,&nbsp;P(A) = <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n\r\n<p>P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>&nbsp;</p>\r\n\r\n<p>P(A &cap; B) =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(\\overline{A} \\cap \\overline{B}) = 1 - P(A \\cup B)\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = {3 \\over 8} + { 1 \\over 2} - {1 \\over 4}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = {5 \\over 8}\\)</span></p>\r\n\r\n<p>&rArr;<span class=\"math-tex\">\\(P(\\overline{A} \\cap \\overline{B}) = 1 - P(A \\cup B)\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(P(\\overline{A} \\cap \\overline{B}) = 1 - {5 \\over 8} = {3 \\over 8}\\)</span>&nbsp;</p>\r\n\r\n<p>​इसलिए आवश्यक उत्तर&nbsp;<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span> है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Sudarsan and Abraham appear for an interview for two vacancies. The probability of Sudarsan&#39;s selection is&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;and that of Abraham&#39;s selection is&nbsp;<span class=\"math-tex\">\\(\\frac{1}{5}.\\)</span>&nbsp;Find the the probability that none of them will be selected.</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{14}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{22}{15}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e. <span class=\"math-tex\">\\(\\frac{8}{15}\\)</span>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The probability of Sudarsan&#39;s selection =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;</p>\r\n\r\n<p>The probability of Abraham&#39;s selection =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{5}\\)</span></p>\r\n\r\n<p>&nbsp;According to the question</p>\r\n\r\n<p>The probability of Sudarsan not&nbsp;to get&nbsp;selected&nbsp;=&nbsp;1 - 1/3 = 2/3</p>\r\n\r\n<p>The probability of Abraham not&nbsp;to get&nbsp;selected&nbsp;=&nbsp;1 - 1/5&nbsp;= 4/5</p>\r\n\r\n<p>Hence,&nbsp;the probability that none of them will be selected = 2/3&nbsp;&times; 4/5 =&nbsp;<span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>सुदर्शन और अब्राहम दो रिक्तियों के लिए साक्षात्कार देते हैं। सुदर्शन के चयन की प्रायिकता&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>है और अब्राहम के चयन की प्रायिकता <span class=\"math-tex\">\\(\\frac{1}{5}\\)</span>&nbsp;है। प्रायिकता ज्ञात कीजिए कि उनमें से कोई भी चयनित नहीं होगा।</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{14}{15}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{22}{15}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{8}{15}\\)</span>&nbsp;है।</p>\r\n\r\n<p>दिया गया है &nbsp;&nbsp;</p>\r\n\r\n<p>सुदर्शन के चयन की प्रायिकता&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;</p>\r\n\r\n<p>अब्राहम के चुने जाने की प्रायिकता =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{5}\\)</span></p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>सुदर्शन के चयनित न होने की प्रायिकता = 1 - 1/3 = 2/3</p>\r\n\r\n<p>इब्राहीम के चयनित न होने की प्रायिकता = 1 - 1/5 = 4/5</p>\r\n\r\n<p>इसलिए, संभावना है कि उनमें से किसी का भी चयन नहीं किया जाएगा&nbsp;= 2/3&nbsp;&times; 4/5 =&nbsp;<span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Two dice are thrown randomly. Find the probability of getting the sum is 4.</p>\r\n",
+    "options": [
+      "<p>1/12</p>\r\n",
+      "<p>1/2</p>\r\n",
+      "<p>1/9</p>\r\n",
+      "<p>1/18</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>1/12.</strong></p>\r\n\r\n<p>P(E) = (number of trials in which event happened)/(total number of trials)</p>\r\n\r\n<p>Total number of trials when two dice are thrown&nbsp;= 6&nbsp;&times; 6 = 36</p>\r\n\r\n<p>The number of getting the sum is 4</p>\r\n\r\n<p>= 3 i.e (1, 3), (2, 2), and (1, 3)</p>\r\n\r\n<p>P(E) = 3/36 = 1/12</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पासे यादृच्छिक रूप से फेंके गए। योगफल 4 आने की प्रायिकता ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>1/12</p>\r\n",
+      "<p>1/2</p>\r\n",
+      "<p>1/9</p>\r\n",
+      "<p>1/18</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1</strong> यानी <strong>1/12</strong> है।</p>\r\n\r\n<p>P(E) = (परीक्षणों की संख्या जिसमें घटना हुई)/(परीक्षणों की कुल संख्या)</p>\r\n\r\n<p>दो पासा फेंके जाने पर परीक्षणों की कुल संख्या = 6&nbsp;&times; 6 = 36</p>\r\n\r\n<p>योग 4 होने कि संख्या है</p>\r\n\r\n<p>= 3 यानि (1, 3), (2, 2) और (1, 3)</p>\r\n\r\n<p>P(E) = 3/36 = 1/12</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Three cards are drawn one after another with replacements from a pack of cards. What is the probability of getting first card a Jack, second card a black card, and third card an even-numbered card?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{338}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{20}{338}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{26}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{169}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e. <span class=\"math-tex\">\\(\\frac{5}{338}\\)</span>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>3 cards are drawn with replacement</p>\r\n\r\n<p>Total number of cards in a deck = 52</p>\r\n\r\n<p>Total jacks = 4</p>\r\n\r\n<p>Total black cards = 26</p>\r\n\r\n<p>Total even numbered cards = 5&nbsp;&times; 4 = 20</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>Probability = (desired outcomes) / (total number of outcomes)&nbsp;</p>\r\n\r\n<p>P(drawing a jack) =&nbsp;<span class=\"math-tex\">\\(\\frac{4}{52}\\)</span></p>\r\n\r\n<p>P(drawing a black card) =&nbsp;<span class=\"math-tex\">\\(\\frac{26}{52}\\)</span></p>\r\n\r\n<p>P(drawing an even-numbered card) =&nbsp;<span class=\"math-tex\">\\(\\frac{20}{52}\\)</span></p>\r\n\r\n<p>Hence required probability =&nbsp;<span class=\"math-tex\">\\(\\frac{4}{52}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(\\frac{26}{52}\\)</span>&times;&nbsp;<span class=\"math-tex\">\\(\\frac{20}{52}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{5}{338}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>ताश के पत्तों के एक पैकेट से प्रतिस्थापन के साथ एक के बाद एक तीन कार्ड निकाले जाते हैं। पहला कार्ड जैक, दूसरा कार्ड काला और तीसरा कार्ड सम संख्या वाला कार्ड मिलने की क्या प्रायिकता&nbsp;है?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{338}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{20}{338}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{26}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{169}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>​सही उत्तर <strong>विकल्प 1 </strong>अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{5}{338}\\)</span>&nbsp;है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>3 कार्ड प्रतिस्थापन के साथ निकाले गए हैं</p>\r\n\r\n<p>डेक में कुल कार्डों की संख्या = 52</p>\r\n\r\n<p>कुल जैक = 4</p>\r\n\r\n<p>कुल काले कार्ड = 26</p>\r\n\r\n<p>कुल सम संख्या वाले कार्ड = 5&nbsp;&times; 4 = 20</p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p>प्रायिकता&nbsp;= (वांछित परिणाम) / (परिणामों की कुल संख्या)</p>\r\n\r\n<p>P(निकाले गए जैक कार्ड)&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{4}{52}\\)</span></p>\r\n\r\n<p>P(निकाले&nbsp;गए काला कार्ड)&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{26}{52}\\)</span></p>\r\n\r\n<p>P(निकाले गए सम संख्या वाला कार्ड) &nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{20}{52}\\)</span></p>\r\n\r\n<p>अतः, अभीष्ट प्रायिकता =&nbsp;<span class=\"math-tex\">\\(\\frac{4}{52}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(\\frac{26}{52}\\)</span>&times;&nbsp;<span class=\"math-tex\">\\(\\frac{20}{52}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{5}{338}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = \\frac{5}{9}, P(\\bar{A}\\cup \\bar{B})=\\frac{13}{27}, P(A) = \\frac{11}{18}\\)</span>, then the odds against event B are:</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{38}{17}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{57}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{29}{25}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{47}{7}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong><span class=\"math-tex\">\\(\\frac{29}{25}\\)</span>.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p><span class=\"math-tex\">\\(P(A \\cup B) = \\frac{5}{9}, P(\\bar{A}\\cup \\bar{B})=\\frac{13}{27}, P(A) = \\frac{11}{18}\\)</span></p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p><span class=\"math-tex\">\\(P(\\bar{A}\\cup \\bar{B})\\)</span>&nbsp;= 1 -&nbsp;<span class=\"math-tex\">\\(P({A}∩{B})\\)</span></p>\r\n\r\n<p><span class=\"math-tex\">\\(P(A \\cup B) = P(A) + P(B) - P(A ∩ B)\\)</span></p>\r\n\r\n<p>Substituting the values we get</p>\r\n\r\n<p><span class=\"math-tex\">\\(P({A}∩{B})\\)</span>&nbsp;=&nbsp;1 - <span class=\"math-tex\">\\(\\frac{13}{27}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{14}{27}\\)</span>&nbsp;</p>\r\n\r\n<p>Hence, P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{5}{9} - \\frac{11}{18} + \\frac{14}{27}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{25}{54}\\)</span></p>\r\n\r\n<p>Hence,&nbsp;<span class=\"math-tex\">\\(P(\\bar{B})\\)</span>&nbsp;= 1 -&nbsp;<span class=\"math-tex\">\\(\\frac{25}{54}\\)</span>&nbsp;=<span class=\"math-tex\">\\(\\frac{29}{54}\\)</span></p>\r\n\r\n<p>Hence, the odds against event B =&nbsp;<span class=\"math-tex\">\\(P(\\bar{B})\\)</span>&nbsp;/&nbsp;P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{29}{25}\\)</span>.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;<span class=\"math-tex\">\\(P(A \\cup B) = \\frac{5}{9}, P(\\bar{A}\\cup \\bar{B})=\\frac{13}{27}, P(A) = \\frac{11}{18}\\)</span>&nbsp;है, तो&nbsp;घटना B के न होने का अवसर&nbsp;हैं:</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{38}{17}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{57}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{29}{25}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{47}{7}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong><span class=\"math-tex\">\\(\\frac{29}{25}\\)</span>&nbsp;</strong>है।</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p><span class=\"math-tex\">\\(P(A \\cup B) = \\frac{5}{9}, P(\\bar{A}\\cup \\bar{B})=\\frac{13}{27}, P(A) = \\frac{11}{18}\\)</span></p>\r\n\r\n<p>प्रयुक्त सूत्र</p>\r\n\r\n<p><span class=\"math-tex\">\\(P(\\bar{A}\\cup \\bar{B})\\)</span>&nbsp;= 1 -&nbsp;<span class=\"math-tex\">\\(P({A}∩{B})\\)</span></p>\r\n\r\n<p><span class=\"math-tex\">\\(P(A \\cup B) = P(A) + P(B) - P(A ∩ B)\\)</span></p>\r\n\r\n<p>मान प्रतिस्थापित करने पर हमें प्राप्त होता है</p>\r\n\r\n<p><span class=\"math-tex\">\\(P({A}∩{B})\\)</span>&nbsp;=&nbsp;1 - <span class=\"math-tex\">\\(\\frac{13}{27}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{14}{27}\\)</span>&nbsp;</p>\r\n\r\n<p>इसलिए, P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{5}{9} - \\frac{11}{18} + \\frac{14}{27}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{25}{54}\\)</span></p>\r\n\r\n<p>इसलिए,&nbsp;<span class=\"math-tex\">\\(P(\\bar{B})\\)</span>&nbsp;= 1 -&nbsp;<span class=\"math-tex\">\\(\\frac{25}{54}\\)</span>&nbsp;=<span class=\"math-tex\">\\(\\frac{29}{54}\\)</span></p>\r\n\r\n<p>अतः, घटना B के न होने का अवसर =&nbsp;<span class=\"math-tex\">\\(P(\\bar{B})\\)</span>&nbsp;/&nbsp;P(B) =&nbsp;<span class=\"math-tex\">\\(\\frac{29}{25}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>Two cards are drawn from the pack of 52 cards. What is the probability of getting either an ace&nbsp;of diamond&nbsp;or a queen&nbsp;of spade?</p>\r\n",
+    "options": [
+      "<p>1/26</p>\r\n",
+      "<p>1/13</p>\r\n",
+      "<p>1/18</p>\r\n",
+      "<p>1/23</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 1&nbsp;</strong>i.e.&nbsp;<strong>1/26.</strong></p>\r\n\r\n<p>Two cards are drawn from the pack of 52 cards</p>\r\n\r\n<p>Probability = Number of favorble outcome/Total number of outcome&nbsp;</p>\r\n\r\n<p>An ace of diamond = 1</p>\r\n\r\n<p>A queen of spade = 1</p>\r\n\r\n<p>Number of favourable outcome = 1 + 1 = 2</p>\r\n\r\n<p>Probability = 2/52 = 1/26</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>52 ताश के पत्तों के पैक से दो पत्ते निकाले जाते हैं। या तो ईंट का इक्का या हुकुम की रानी मिलने की प्रायिकता क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>1/26</p>\r\n",
+      "<p>1/13</p>\r\n",
+      "<p>1/18</p>\r\n",
+      "<p>1/23</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1</strong> यानी <strong>1/26</strong> है।</p>\r\n\r\n<div style=\"position:relative\">\r\n<p>52 ताश के पत्तों की गड्डी से दो पत्ते निकाले जाते हैं</p>\r\n\r\n<p>प्रायिकता = अनुकूल परिणामों की संख्या/परिणामों की कुल संख्या</p>\r\n\r\n<p>ईंट का&nbsp;इक्का = 1</p>\r\n\r\n<p>हुकुम की रानी = 1</p>\r\n\r\n<p>अनुकूल परिणामों की संख्या = 1 + 1 = 2</p>\r\n\r\n<p>प्रायिकता = 2/52 = 1/26</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The mode of the following data is __________.</p>\r\n\r\n<p>13, 15, 31, 12, 27, 13, 27, 30, 27, 28 and16</p>\r\n",
+    "options": [
+      "<p>28</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 </strong>i.e. <strong>27.</strong></p>\r\n\r\n<p>Mode is a more frequent value&nbsp;in the following numbers</p>\r\n\r\n<p>&nbsp;13,15,31,12,27,13,27,30,27,28 and16</p>\r\n\r\n<p>Mode = 27</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित आकड़े&nbsp;का बहुलक __________ है।</p>\r\n\r\n<p>13, 15, 31, 12, 27, 13, 27, 30, 27, 28 और 16</p>\r\n",
+    "options_hi": [
+      "<p>28</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात <strong>27</strong> है।</p>\r\n\r\n<p>निम्नलिखित संख्याओं में बहुलक अधिक बार आने वाला मान है</p>\r\n\r\n<p>13,15,31,12,27,13,27,30,27,28 और 16</p>\r\n\r\n<p>बहुलक = 27</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>For a sample data, mean = 60 and median = 48. For this distribution, the mode is:</p>\r\n",
+    "options": [
+      "<p>18</p>\r\n",
+      "<p>48</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The correct answer is <strong>Option 4</strong> i.e.&nbsp;</span></span><strong>24.</strong></p>\r\n\r\n<p>Mode = 3 Median - 2 Mean</p>\r\n\r\n<p>Mode = 3 &times; 48 - 2 &times; 60 = 24</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नमूना डेटा के लिए, माध्य = 60 और माध्यिका = 48, इस वितरण के लिए, बहुलक है:</p>\r\n",
+    "options_hi": [
+      "<p>18</p>\r\n",
+      "<p>48</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 4</strong> अर्थात <strong>24</strong> है।</p>\r\n\r\n<p>बहुलक = 3&nbsp;माध्यिका - 2 माध्य</p>\r\n\r\n<p>बहुलक = 3 &times; 48 - 2 &times; 60 = 24</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the mode of the given data?</p>\r\n\r\n<p>5, 7, 9, 7, 3, 7, 5, 7, 8, 6, 7</p>\r\n",
+    "options": [
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e.&nbsp;<strong>7.</strong></p>\r\n\r\n<p>Given that&nbsp;</p>\r\n\r\n<p>5, 7, 9, 7, 3, 7, 5, 7, 8, 6, 7</p>\r\n\r\n<p>Mode is the most repeated value i.e.&nbsp; 7&nbsp;</p>\r\n\r\n<p>Hence,&nbsp;mode = 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए आंकड़ों का बहुलक क्या है?</p>\r\n\r\n<p>5, 7, 9, 7, 3, 7, 5, 7, 8, 6, 7</p>\r\n",
+    "options_hi": [
+      "<p>7</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर <strong>विकल्प 1 </strong>यानी <strong>7</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया है&nbsp;कि</p>\r\n\r\n<p>5, 7, 9, 7, 3, 7, 5, 7, 8, 6, 7</p>\r\n\r\n<p>बहुलक सबसे अधिक दोहराया जाने वाला मान यानी 7&nbsp;है।&nbsp;</p>\r\n\r\n<p>इसलिए, बहुलक = 7</p>\r\n"
+  },
+  {
+    "question": "<p>The median of a set of 11 distinct observations is 73.2. If each of the largest five&nbsp;observations of the set is increased by 3, then the median of the new set:<br />\r\n&nbsp;</p>\r\n",
+    "options": [
+      "<p>is 3 times that of the original set&nbsp;</p>\r\n",
+      "<p>is increased by 3</p>\r\n",
+      "<p>remains the same as that of the original set&nbsp;</p>\r\n",
+      "<p>is decreased by 3&nbsp;</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. remains<strong>&nbsp;the same as that of the original set</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The median of a set of 11 distinct observations is 73.2</p>\r\n\r\n<p>The observation is 11 (odd number)</p>\r\n\r\n<p>it means that the median in the 6th observation is&nbsp; 73.2</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>If each of the largest five&nbsp;observations of the set is increased by 3.</p>\r\n\r\n<p>Then, the median will not change because the observation is still 11 then the median is still the 6th observation i.e. 73.2</p>\r\n\r\n<p>Thus, the median&nbsp;remains the same as that of the original set.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>11 अलग-अलग प्रेक्षणों के एक सेट की माध्यिका 73.2 है। यदि सेट के सबसे बड़े पाँच प्रेक्षणों में से प्रत्येक में 3 की वृद्धि की जाए, तो नए सेट की माध्यिका होगी:</p>\r\n",
+    "options_hi": [
+      "<p>मूल सेट से 3 गुना अधिक है</p>\r\n",
+      "<p>3 से बढ़ जाता&nbsp;है</p>\r\n",
+      "<p>मूल सेट के समान ही है</p>\r\n",
+      "<p>3 से कम हो जाता है</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी&nbsp;<strong>मूल सेट के समान ही है।&nbsp;</strong></p>\r\n\r\n<p>दिया गया है&nbsp;कि</p>\r\n\r\n<p>11 अलग-अलग प्रेक्षणों&nbsp;के सेट का माध्य 73.2 है</p>\r\n\r\n<p>प्रेक्षण&nbsp;11 (विषम संख्या) है</p>\r\n\r\n<p>इसका मतलब है कि छठे प्रेक्षण में माध्यिका 73.2 है</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>यदि सेट के सबसे बड़े पांच प्रेक्षणों&nbsp;में से प्रत्येक में 3 की वृद्धि की जाती है।</p>\r\n\r\n<p>फिर, माध्यिका नहीं बदलेगी क्योंकि प्रेक्षण अभी भी 11 है तो माध्यिका अभी भी 6वां प्रेक्षण यानी 73.2&nbsp;है</p>\r\n\r\n<p>इस प्रकार, माध्यिका मूल सेट के समान ही रहती है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The median of the following data will be _________.<br />\r\n&nbsp;32, 25, 33, 27, 35, 29 and 30</p>\r\n",
+    "options": [
+      "<p>32</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>29</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p><span style=\"font-size:11pt\">The correct answer is <strong>Option 3&nbsp;</strong>i.e.<strong> 30.</strong></span></p>\r\n\r\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Given that</span></span></p>\r\n\r\n<p>&nbsp;32, 25, 33, 27, 35, 29 and 30</p>\r\n\r\n<p>First of all, we arrange the numbers in ascending order</p>\r\n\r\n<p>25, 27, 29, 30, 32, 33, 35</p>\r\n\r\n<p>The median of the following series = the middle term of the numbers = 30</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित&nbsp;श्रृंखला की माध्यिका _________ होगी।<br />\r\n32, 25, 33, 27, 35, 29 और 30</p>\r\n",
+    "options_hi": [
+      "<p>32</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>29</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी <strong>30</strong> है।</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>32, 25, 33, 27, 35, 29 और 30</p>\r\n\r\n<p>सबसे पहले, हम संख्याओं को आरोही क्रम में व्यवस्थित करते हैं</p>\r\n\r\n<p>25, 27, 29, 30, 32, 33, 35</p>\r\n\r\n<p>निम्नलिखित श्रृंखला की माध्यिका = संख्याओं का मध्य पद = 30</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the standard deviation of the following data (rounded off to two decimal places).<br />\r\n&nbsp;5, 3, 4, 7</p>\r\n",
+    "options": [
+      "<p>1.48</p>\r\n",
+      "<p>2.18</p>\r\n",
+      "<p>5.12</p>\r\n",
+      "<p>4.12</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e.<strong>&nbsp;1.48.</strong></p>\r\n\r\n<p>Given 5, 3, 4, 7</p>\r\n\r\n<p>mean = (5 + 3 + 4 + 7)/4 = 19/4 = 4.75</p>\r\n\r\n<p>standard deviation =&nbsp;<strong>&radic;</strong>[{(5 - 4.75)<sup>2</sup> + (3 - 4.75)<sup>2</sup> + (4 - 4.75)<sup>2</sup> + (7- 4.75)<sup>2</sup>}/4]</p>\r\n\r\n<p>=&nbsp;&radic;[{0.0625 + 3.0625 + 0.5625 + 5.0625}/4]</p>\r\n\r\n<p>=&nbsp;&radic;(8.75/4) =&nbsp; 1.48</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित&nbsp;आंकड़े का मानक विचलन ज्ञात करें (दो दशमलव स्थानों तक पूर्णांकित)।<br />\r\n5, 3, 4, 7</p>\r\n",
+    "options_hi": [
+      "<p>1.48</p>\r\n",
+      "<p>2.18</p>\r\n",
+      "<p>5.12</p>\r\n",
+      "<p>4.12</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1&nbsp;</strong>अर्थात<strong>&nbsp;1.48</strong>&nbsp;है।</p>\r\n\r\n<p>5, 3, 4, 7 दिया गया है</p>\r\n\r\n<p>माध्य = (5+ 3 + 4 + 7)/4 = 19/4 = 4.75</p>\r\n\r\n<p>मानक विचलन =&nbsp;<strong>&radic;</strong>[{(5 - 4.75)<sup>2</sup> + (3 - 4.75)<sup>2</sup> + (4 - 4.75)<sup>2</sup> + (7- 4.75)<sup>2</sup>}/4]</p>\r\n\r\n<p>= &radic;[{0.0625 + 3.0625 + 0.5625 + 5.0625}/4]</p>\r\n\r\n<p>=&nbsp;&radic;(8.75/4) =&nbsp; 1.48</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The arithmetic mean of the following data is _________.</p>\r\n\r\n<p>23, 17, 20,19, 21</p>\r\n",
+    "options": [
+      "<p>20</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>23</p>\r\n",
+      "<p>21</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>20</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>23, 17, 20, 19, 21&nbsp;</p>\r\n\r\n<p>Arithmetic Mean = Sum of the numbers/Total number of observations</p>\r\n\r\n<p>= (23 + 17 + 20 + 19 + 21)/5 = 100/5 = 20&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित डेटा का अंकगणितीय माध्य _________ है।</p>\r\n\r\n<p>23, 17, 20,19, 21</p>\r\n",
+    "options_hi": [
+      "<p>20</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>23</p>\r\n",
+      "<p>21</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 1 </strong>अर्थात <strong>20 </strong>है।</p>\r\n\r\n<p>मान लें कि</p>\r\n\r\n<p>23, 17, 20, 19, 21</p>\r\n\r\n<p>अंकगणितीय माध्य = संख्याओं का योग/अवलोकनों की कुल संख्या</p>\r\n\r\n<p>= (23 + 17 + 20 + 19 + 21)/5 = 100/5 = 20</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the mode for the given distribution (rounded off to two decimal places).</p>\r\n\r\n<table cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">Class</td>\r\n\t\t\t<td style=\"text-align:center\">05 -10</td>\r\n\t\t\t<td style=\"text-align:center\">10 -15</td>\r\n\t\t\t<td style=\"text-align:center\">15 - 20</td>\r\n\t\t\t<td style=\"text-align:center\">20 - 25</td>\r\n\t\t\t<td style=\"text-align:center\">25 - 30</td>\r\n\t\t\t<td style=\"text-align:center\">30 - 35</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">Interval&nbsp; Frequency</td>\r\n\t\t\t<td style=\"text-align:center\">8</td>\r\n\t\t\t<td style=\"text-align:center\">7</td>\r\n\t\t\t<td style=\"text-align:center\">6</td>\r\n\t\t\t<td style=\"text-align:center\">9</td>\r\n\t\t\t<td style=\"text-align:center\">11</td>\r\n\t\t\t<td style=\"text-align:center\">10</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options": [
+      "<p><span style=\"font-size:11.0pt\">35.25</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">40.25</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">30.33</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">28.33</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.&nbsp;<strong><span style=\"font-size:11.0pt\">28.33</span></strong></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Mode for class interval = l + [(f<sub>1&nbsp;</sub>- f<sub>0</sub>)/(2f<sub>1</sub>&nbsp;- f<sub>0&nbsp;</sub>- f<sub>2</sub>)] &times; h</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Where, l = lower limit&nbsp;</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">f<sub>1</sub>&nbsp;= model frequency</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">f<sub>0</sub>= preceding frequency&nbsp;</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">f<sub>2</sub>= succeeding frequency</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">h = class interval</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">l = 25, f<sub>1</sub> = 11, f<sub>0</sub> = 9, f<sub>2</sub> = 10, h = 5</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Mode = 25 + [(11 - 9)/(2&times;11 - 9 - 10)] &times; 5</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 25 + 10/3</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 25 + 3.33</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 28.33</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए वितरण के लिए बहुलक ज्ञात कीजिए (दशमलव के दो स्थानों तक पूर्णांकित करें)।</p>\r\n\r\n<table cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">कक्षा</td>\r\n\t\t\t<td style=\"text-align:center\">05 -10</td>\r\n\t\t\t<td style=\"text-align:center\">10 -15</td>\r\n\t\t\t<td style=\"text-align:center\">15 - 20</td>\r\n\t\t\t<td style=\"text-align:center\">20 - 25</td>\r\n\t\t\t<td style=\"text-align:center\">25 - 30</td>\r\n\t\t\t<td style=\"text-align:center\">30 - 35</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">अंतराल आवृत्ति</td>\r\n\t\t\t<td style=\"text-align:center\">8</td>\r\n\t\t\t<td style=\"text-align:center\">7</td>\r\n\t\t\t<td style=\"text-align:center\">6</td>\r\n\t\t\t<td style=\"text-align:center\">9</td>\r\n\t\t\t<td style=\"text-align:center\">11</td>\r\n\t\t\t<td style=\"text-align:center\">10</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options_hi": [
+      "<p><span style=\"font-size:11.0pt\">35.25</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">40.25</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">30.33</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\">28.33</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>यानी <strong>28.33</strong> है।</p>\r\n\r\n<p>वर्ग अंतराल के लिए बहुलक =&nbsp;<span style=\"font-size:11.0pt\">l + [(f<sub>1&nbsp;</sub>- f<sub>0</sub>)/(2f<sub>1</sub>&nbsp;- f<sub>0&nbsp;</sub>- f<sub>2</sub>)] &times; h</span></p>\r\n\r\n<p>जहां,&nbsp;</p>\r\n\r\n<p><span style=\"font-size:11.0pt\">l = निचली सीमा</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">f<sub>1</sub>&nbsp;= मॉडल आवृत्ति</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">f<sub>0 </sub>= पिछली आवृत्ति</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">f<sub>2</sub> = अगली आवृत्ति</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">h = वर्ग अंतराल</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">l = 25, f<sub>1</sub> = 11, f<sub>0</sub> = 9, f<sub>2</sub> = 10, h = 5</span></p>\r\n\r\n<p>बहुलक = 25 + [(11 - 9)/(2&times;11 - 9 - 10)] &times; 5</p>\r\n\r\n<p>= 25 + 10/3</p>\r\n\r\n<p>= 25 + 3.33</p>\r\n\r\n<p>= 28.33</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Calculate the mode from the following data.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>Days of confinement</td>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>8</td>\r\n\t\t\t<td>9</td>\r\n\t\t\t<td>10</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Number of patients</td>\r\n\t\t\t<td>4</td>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>5</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options": [
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1.</strong> i.e. <strong>8.</strong></p>\r\n\r\n<p>Concept used</p>\r\n\r\n<p>The mode is the number that appears most frequently in your data.</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The number of patients is the frequency of patients&nbsp;</p>\r\n\r\n<p>So, the higher frequency is 7&nbsp;</p>\r\n\r\n<p>now, the days of confinement corresponding with the higher frequency = 8</p>\r\n\r\n<p>Hence, the mode of the given data is 8</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित आँकड़ों से बहुलक परिकलित कीजिए।</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>प्रसवावस्था के दिन</td>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>8</td>\r\n\t\t\t<td>9</td>\r\n\t\t\t<td>10</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>मरीजों की संख्या</td>\r\n\t\t\t<td>4</td>\r\n\t\t\t<td>6</td>\r\n\t\t\t<td>7</td>\r\n\t\t\t<td>5</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+    "options_hi": [
+      "<p>8</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1 </strong>अर्थात् <strong>8</strong> है।</p>\r\n\r\n<p>प्रयुक्त अवधारणा</p>\r\n\r\n<p>बहुलक वह&nbsp;संख्या है जो आपके डेटा में सर्वाधिक&nbsp;दिखाई देती है।</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>रोगियों की संख्या रोगियों की आवृत्ति है&nbsp;</p>\r\n\r\n<p>इसलिए, उच्च आवृत्ति 7 है&nbsp;</p>\r\n\r\n<p>अब, उच्च आवृत्ति के अनुरूप प्रसवावस्था के दिन = 8</p>\r\n\r\n<p>अतः दी गयी जानकारी का बहुलक 8 है</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Find the mode of the given data.</p>\r\n\r\n<p>21, 15, 16, 48, 6, 15, 44, 16, 6, 5, 15, 16, 21, 6, 15 and 43</p>\r\n",
+    "options": [
+      "<p>21</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>. i.e.<strong> 15.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The mode of the given data.</p>\r\n\r\n<p>21, 15, 16, 48, 6, 15, 44, 16, 6, 5, 15, 16, 21, 6, 15 and 43</p>\r\n\r\n<p>Concept used&nbsp;</p>\r\n\r\n<p>The mode is the number that appears most frequently in your data.</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>15 is repeated more times</p>\r\n\r\n<p>Hence, the mode is 15</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दी गई जानकारी का बहुलक ज्ञात कीजिए।</p>\r\n\r\n<p>21, 15, 16, 48, 6, 15, 44, 16, 6, 5, 15, 16, 21, 6, 15 और 43</p>\r\n",
+    "options_hi": [
+      "<p>21</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>15 </strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;&nbsp;</p>\r\n\r\n<p>दी गई जानकारी का बहुलक।</p>\r\n\r\n<p>21, 15, 16, 48, 6, 15, 44, 16, 6, 5, 15, 16, 21, 6, 15 और&nbsp;43</p>\r\n\r\n<p>प्रयुक्त अवधारणा&nbsp;</p>\r\n\r\n<p>बहुलक वह संख्या है जो आपके डेटा में सर्वाधिक दिखाई देती है।</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>15 को अधिक बार दोहराया जाता है</p>\r\n\r\n<p>अतः बहुलक 15 है</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The runs scored by 11 players in the cricket match are as follows.</p>\r\n\r\n<p>7, 16, 121, 51, 101, 81, 1, 16, 9, 11, 16</p>\r\n\r\n<p>Calculate the median of the data.</p>\r\n",
+    "options": [
+      "<p>51</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>16</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>16.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The runs scored by 11 players are&nbsp;7, 16, 121, 51, 101, 81, 1, 16, 9, 11, 16</p>\r\n\r\n<p>Concept used</p>\r\n\r\n<p>Step 1 : Arrange the data points from smallest to largest.</p>\r\n\r\n<p>Step 2 : If the number of data points is odd, the median is the middle data point in the list.</p>\r\n\r\n<p>Or If the number of data points is even, the median is the average of the two middle data points in the list.</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>Step 1:-&nbsp;&nbsp;1, 7, 9, 11,16, 16, 16, 51, 81, 101, 121</p>\r\n\r\n<p>The number of data is 11 i.e. odd numbers</p>\r\n\r\n<p>Hence, the median is the middle data i.e.&nbsp;16</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>क्रिकेट मैच में 11 खिलाड़ियों द्वारा बनाए गए रन इस प्रकार हैं।</p>\r\n\r\n<p>7, 16, 121, 51, 101, 81, 1, 16, 9, 11, 16</p>\r\n\r\n<p>आँकड़ों की माध्यिका निकालें।</p>\r\n",
+    "options_hi": [
+      "<p>51</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>22</p>\r\n",
+      "<p>16</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>16</strong> है।</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>11 खिलाड़ियों द्वारा बनाए गए रन&nbsp;7, 16, 121, 51, 101, 81, 1, 16, 9, 11, 16 हैं</p>\r\n\r\n<p>प्रयुक्त अवधारणा</p>\r\n\r\n<p>चरण 1: डेटा बिंदुओं को सबसे छोटे से सबसे बड़े तक व्यवस्थित करें।</p>\r\n\r\n<p>चरण 2: यदि डेटा बिंदुओं की संख्या विषम है, तो माध्यिका सूची में मध्य डेटा बिंदु है।</p>\r\n\r\n<p>या यदि डेटा बिंदुओं की संख्या सम है, तो माध्यिका सूची में दो मध्य डेटा बिंदुओं का औसत है।</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>चरण 1:-&nbsp;&nbsp;1, 7, 9, 11,16, 16, 16, 51, 81, 101, 121</p>\r\n\r\n<p>डेटा की संख्या 11 है यानी विषम संख्याएँ</p>\r\n\r\n<p>इसलिए, माध्यिका मध्य डेटा है यानी 16</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The distribution of 100 workmen employed in a factory according to their monthly salary, showed an average salary of ₹4,500 per month. If the median salary is found to be ₹4,900, find the mode salary.</p>\r\n",
+    "options": [
+      "<p>₹5,600</p>\r\n",
+      "<p>₹5,500</p>\r\n",
+      "<p>₹5,700</p>\r\n",
+      "<p>₹5,800</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3&nbsp;</strong>i.e. <strong>₹5,700.</strong></p>\r\n\r\n<p>The average salary of workers (mean) =&nbsp;₹4,500 per month</p>\r\n\r\n<p>The median salary =&nbsp;₹4,900</p>\r\n\r\n<p>Mode = 3 &times; Median - 2 &times; Mean</p>\r\n\r\n<p>Mode = 3&nbsp;&times; 4900 - 2&nbsp;&times; 4500 = 14700 - 9000 = ₹5700</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कारखाने में कार्यरत 100 कामगारों का वितरण उनके मासिक वेतन के अनुसार, प्रति माह ₹4,500 का औसत वेतन दर्शाता है। यदि माध्य वेतन ₹4,900 पाया जाता है, तो बहुलक वेतन ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>₹5,600</p>\r\n",
+      "<p>₹5,500</p>\r\n",
+      "<p>₹5,700</p>\r\n",
+      "<p>₹5,800</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 3 </strong>अर्थात् <strong>₹5,700</strong> है।&nbsp;</p>\r\n\r\n<p>श्रमिकों का औसत वेतन (माध्य) = ₹4,500 प्रति माह</p>\r\n\r\n<p>औसत वेतन = ₹4,900</p>\r\n\r\n<p>बहुलक = 3 &times; माध्यिका - 2 &times; माध्य</p>\r\n\r\n<p>बहुलक = 3&nbsp;&times; 4900 - 2&nbsp;&times; 4500 = 14700 - 9000 = ₹5700</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->"
+  },
+  {
+    "question": "<p>What is the median of the following distribution?</p>\r\n\r\n<p>25, 87, 39, 07, 94, 31, 85, 46, 11, 29</p>\r\n",
+    "options": [
+      "<p>39</p>\r\n",
+      "<p>44.5</p>\r\n",
+      "<p>35</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e. <strong>35.</strong></p>\r\n\r\n<p>By arranging the given numbers in ascending order,</p>\r\n\r\n<p>&rArr; 07, 11, 25, 29, 31, 39, 46, 85, 87, 94</p>\r\n\r\n<p>There is a total of 10 entries so the median will be the average of 5th and 6th entries.</p>\r\n\r\n<p>&rArr; (31 + 39)/2</p>\r\n\r\n<p>&rArr; 35</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित वितरण का माध्यिका क्या है?</p>\r\n\r\n<p>25, 87, 39, 07, 94, 31, 85, 46, 11, 29</p>\r\n",
+    "options_hi": [
+      "<p>39</p>\r\n",
+      "<p>44.5</p>\r\n",
+      "<p>35</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>यानी <strong>35</strong>&nbsp;है।</p>\r\n\r\n<p>दी गई संख्याओं को आरोही क्रम में व्यवस्थित करने पर,</p>\r\n\r\n<p>&rArr; 07, 11, 25, 29, 31, 39, 46, 85, 87, 94</p>\r\n\r\n<p>कुल 10 प्रविष्टियाँ हैं इसलिए माध्यिका 5वीं और 6वीं प्रविष्टियों का औसत होगा।</p>\r\n\r\n<p>&rArr; (31 + 39)/2</p>\r\n\r\n<p>&rArr; 35</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the median of the following data. 129.75, 116.6, 12.3, 114.1, 136.6, 118.7, 13.5, 121.3</p>\r\n",
+    "options": [
+      "<p>116.60</p>\r\n",
+      "<p>117.65</p>\r\n",
+      "<p>118.75</p>\r\n",
+      "<p>127.80</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e. <strong>117.65</strong></p>\r\n\r\n<p>129.75, 116.6, 12.3, 114.1, 136.6, 118.7, 13.5, 121.3</p>\r\n\r\n<p>Arrange the observations in ascending order -&nbsp;</p>\r\n\r\n<p>12.3, 13.5, 114.1, 116.6, 118.7, 121.3, 129.75, 136.6</p>\r\n\r\n<p>Total number of observations = 8 (even)</p>\r\n\r\n<p>Median = [(n/2)<sup>th</sup>&nbsp;term + (n/2 + 1)<sup>th</sup>&nbsp;term]/2</p>\r\n\r\n<p>Median =&nbsp; [(8/2)<sup>th</sup>&nbsp;term + (8/2&nbsp;+ 1)<sup>th</sup>&nbsp;term]/2 = [4th term + 5th term]/2 = [116.6 + 118.7]/2 = 117.65&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>129.75, 116.6, 12.3, 114.1, 136.6, 118.7, 13.5, 121.3&nbsp;निम्नलिखित डेटा का माध्यिका ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>116.60</p>\r\n",
+      "<p>117.65</p>\r\n",
+      "<p>118.75</p>\r\n",
+      "<p>127.80</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 2</strong> अर्थात <strong>117.65</strong> है।</p>\r\n\r\n<p>129.75, 116.6, 12.3, 114.1, 136.6, 118.7, 13.5, 121.3</p>\r\n\r\n<p>अवलोकनो&nbsp;को आरोही क्रम में व्यवस्थित करने पर&nbsp; -</p>\r\n\r\n<p>12.3, 13.5, 114.1, 116.6, 118.7, 121.3, 129.75, 136.6</p>\r\n\r\n<p>अवलोकनो&nbsp;की कुल संख्या = 8 (सम)</p>\r\n\r\n<p>माध्यिका = [(n/2)<sup>वाँ</sup> पद + (n/2 + 1)<sup>वाँ</sup> पद]/2</p>\r\n\r\n<p>माध्यिका = [(8/2)<sup>वां</sup> पद + (8/2+ 1)<sup>वां</sup> पद]/2 = [चौथा पद + 5वां पद]/2 = [116.6 + 118.7]/2 = 117.65</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the median of the following data. 15, 30, 20, 10, 25, 35, 18, 21, 28</p>\r\n",
+    "options": [
+      "<p>30</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>21</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The&nbsp; correct&nbsp; answer is <strong>option 4</strong> i.e. <strong>21</strong></p>\r\n\r\n<p>15, 30, 20, 10, 25, 35, 18, 21, 28</p>\r\n\r\n<p>Arrange the following in descending order -</p>\r\n\r\n<p>10, 15, 18, 20, 21, 25, 28, 30, 35</p>\r\n\r\n<p>Number of observations = 9 (odd)</p>\r\n\r\n<p>Median = [[(n + 1)/2 ]th observation = [(9 + 1)/2]th term = 5th term = 21</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>15, 30, 20, 10, 25, 35, 18, 21, 28 निम्नलिखित डेटा का माध्यिका ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>30</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>25</p>\r\n",
+      "<p>21</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 4</strong> यानी <strong>21 </strong>है।</p>\r\n\r\n<p>15, 30, 20, 10, 25, 35, 18, 21, 28</p>\r\n\r\n<p>निम्नलिखित को अवरोही क्रम में व्यवस्थित करें -</p>\r\n\r\n<p>10, 15, 18, 20, 21, 25, 28, 30, 35</p>\r\n\r\n<p>अवलोकन&nbsp;की संख्या = 9 (विषम)</p>\r\n\r\n<p>माध्यिका = [[(n + 1)/2 ]वाँ अवलोकन = [(9 + 1)/2]वाँ पद = 5वाँ पद = 21</p>\r\n</div>\r\n"
+  }
+]
