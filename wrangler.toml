@@ -1,0 +1,11 @@
+name = "study-notes"
+main = "src/index.js"
+compatibility_date = "2026-09-11"
+
+[[queues.producers]]
+binding = "UPLOAD_QUEUE"
+queue = "study-notes-upload"
+
+[[queues.consumers]]
+queue = "study-notes-upload"
+max_concurrency = 1
