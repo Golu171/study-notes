@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>If the sum of the diagonals of a rhombus is L and the perimeter is 4P, find the area of the rhombus?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}(L^2-P^2)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}(L^2-4P^2)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}(L^2-3P^2)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}(L^2-4P^2)\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}(L^2-4P^2)\\)</span></p>\r\n\r\n<p>Sum of the diagonals of the rhombus&nbsp;= L</p>\r\n\r\n<p>Perimeter of the rhombus = 4P</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>The side of the rhombus = P</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Let one diagnol be L<sub>1</sub> and second diagnol be L<sub>2</sub> -&nbsp;</p>\r\n\r\n<p>Therefore,</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\left ( \\frac{L_{1}^{2}}{4} \\right )+\\left ( \\frac{L_2^{2}}{4} \\right )= P^{2} \\)</span></p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(L_{1}^{2}+L_{2}^{2}=4P^{2}\\)</span></p>\r\n\r\n<p>Now,</p>\r\n\r\n<p><span class=\"math-tex\">\\(L=L_{1}+L_{2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(L^{2}=L_{1}^{2}+L_{2}^{2}+2L_{1}L_{2}\\)</span></p>\r\n\r\n<p>So,</p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(L^{2}=4P^{2}+2L_{1}L_{2}\\)</span></p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(L^{2}-4P^{2}=2L_{1}L_{2}\\)</span></p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\left ( L^{2}-4P^{2} \\right )=L_{1}L_{2}\\)</span></p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>Area of the rhombus =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}L_{1}L_{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\times \\frac{1}{2}\\left ( L^{2}-4P^{2} \\right )\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}\\left ( L^{2}-4P^{2} \\right)\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि एक समचतुर्भुज के विकर्णों का योग L है और परिमाप 4P है, तो समचतुर्भुज का क्षेत्रफल ज्ञात कीजिए?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}(L^2-P^2)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}(L^2-4P^2)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}(L^2-3P^2)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}(L^2-4P^2)\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}(L^2-4P^2)\\)</span>&nbsp;है</p>\r\n\r\n<p>समचतुर्भुज के विकर्णों का योग = L</p>\r\n\r\n<p>समचतुर्भुज का परिमाप = 4P</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>समचतुर्भुज की भुजा = P</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>मान लीजिए कि एक विकर्ण L1 है और दूसरा विकर्ण L2 है -</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\left ( \\frac{L_{1}^{2}}{4} \\right )+\\left ( \\frac{L_2^{2}}{4} \\right )= P^{2} \\)</span></p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(L_{1}^{2}+L_{2}^{2}=4P^{2}\\)</span></p>\r\n\r\n<p>अब,</p>\r\n\r\n<p><span class=\"math-tex\">\\(L=L_{1}+L_{2}\\)</span></p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(L^{2}=L_{1}^{2}+L_{2}^{2}+2L_{1}L_{2}\\)</span></p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p><span class=\"math-tex\">\\(L^{2}=4P^{2}+2L_{1}L_{2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(L^{2}-4P^{2}=2L_{1}L_{2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\left ( L^{2}-4P^{2} \\right )=L_{1}L_{2}\\)</span></p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>समचतुर्भुज का क्षेत्रफल =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}L_{1}L_{2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\times \\frac{1}{2}\\left ( L^{2}-4P^{2} \\right )\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}\\left ( L^{2}-4P^{2} \\right)\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>Half of the perimeter of a square is 50 cm. What is the length of each side of the square?</p>\r\n",
+    "options": [
+      "<p>15 cm</p>\r\n",
+      "<p>30 cm</p>\r\n",
+      "<p>25 cm</p>\r\n",
+      "<p>20 cm</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>25 cm.</strong></p>\r\n\r\n<p>Half of the perimeter of the square is 50 cm</p>\r\n\r\n<p>Perimeter of the square = 4&nbsp;&times; side</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr; (4 &times; side)/2 = 50</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; side = 50</p>\r\n\r\n<p>&rArr; side = 25 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वर्ग के परिमाप का आधा 50 सेमी है। वर्ग की प्रत्येक भुजा की लंबाई क्या&nbsp;है?</p>\r\n",
+    "options_hi": [
+      "<p>15 सेमी</p>\r\n",
+      "<p>30 सेमी</p>\r\n",
+      "<p>25 सेमी</p>\r\n",
+      "<p>20 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्<strong> 25 सेमी</strong> है।</p>\r\n\r\n<p>वर्ग के परिमाप का आधा 50 सेमी है</p>\r\n\r\n<p>वर्ग का परिमाप = 4 &times; भुजा</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr; (4 &times; भुजा)/2 = 50</p>\r\n\r\n<p>&rArr; 2 &times; भुजा = 50</p>\r\n\r\n<p>&rArr; भुजा = 25 सेमी</p>\r\n"
+  },
+  {
+    "question": "<p>The area of a trapezium is 100 cm<sup>2</sup>. If the distance between the parallel sides of the trapezium is 10 cm, then what is the sum of the lengths of the two parallel sides?</p>\r\n",
+    "options": [
+      "<p>18 cm</p>\r\n",
+      "<p>20 cm</p>\r\n",
+      "<p>15 cm</p>\r\n",
+      "<p>10 cm</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.<strong>&nbsp;20 cm.</strong></p>\r\n\r\n<p>The area of a trapezium is 100 cm<sup>2</sup>.</p>\r\n\r\n<p>The distance between the parallel sides of the trapezium is 10 cm</p>\r\n\r\n<p>Area of trapezium = (1/2)&nbsp;&times; (Sum of the length of two parallel sides)&nbsp;&times; Distance between parallel sides</p>\r\n\r\n<p>&rArr; 100 = (1/2)&nbsp;&times; (Sum of the length of two parallel sides)&nbsp;&times; 10</p>\r\n\r\n<p>&rArr; 200/10 = Sum of the length of two parallel sides</p>\r\n\r\n<p>&rArr; 20 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समलंब का क्षेत्रफल 100 वर्ग सेमी&nbsp;है। यदि समलंब की समान्तर भुजाओं के बीच की दूरी 10 सेमी है, तो दोनों समान्तर भुजाओं की लंबाइयों का योग क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>18 सेमी</p>\r\n",
+      "<p>20 सेमी</p>\r\n",
+      "<p>15 सेमी</p>\r\n",
+      "<p>10 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>20 सेमी</strong> है</p>\r\n\r\n<p>एक समलंब का क्षेत्रफल 100 वर्ग सेमी&nbsp;है।</p>\r\n\r\n<p>समलंब की समान्तर भुजाओं के बीच की दूरी 10 सेमी है</p>\r\n\r\n<p>समलंब का क्षेत्रफल = (1/2)&nbsp;&times; (दोनों समांतर भुजाओं की लंबाई का योग)&nbsp;&times; समांतर भुजाओं के बीच की दूरी</p>\r\n\r\n<p>&rArr; 100 = (1/2)&nbsp;&times; (दोनों समांतर भुजाओं की लंबाई का योग)&nbsp;&times; 10</p>\r\n\r\n<p>&rArr; 200/10 = दोनों समानांतर भुजाओं की लंबाई का योग</p>\r\n\r\n<p>&rArr; 20 सेमी</p>\r\n"
+  },
+  {
+    "question": "<p>The sum of the radius of the base and the height of a cylinder is 55 cm. If the height of the cylinder mentioned above is 15 cm more than the radius of its base, then what is the curved surface area of this cylinder? [Use <span class=\"math-tex\">\\(\\pi=\\frac{22}{7}\\)</span>]</p>\r\n",
+    "options": [
+      "<p>2200 cm<sup>2</sup></p>\r\n",
+      "<p>3500&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>2800&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>4400&nbsp;cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.&nbsp;<strong>4400&nbsp;cm<sup>2</sup>.</strong></p>\r\n\r\n<p>The sum of the radius of the base and the height of a cylinder is 55 cm</p>\r\n\r\n<p>The height of the cylinder mentioned above is 15 cm more than the radius of its base</p>\r\n\r\n<p>Curved surface area of the cylinder = 2&pi;rh&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p>Where, r = radius and h = height</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>r + h = 55&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (2)</p>\r\n\r\n<p>h = r + 15&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (3)</p>\r\n\r\n<p>Equating equation (3) in (2), we get</p>\r\n\r\n<p>&rArr; r + r + 15 = 55</p>\r\n\r\n<p>&rArr; 2r = 40</p>\r\n\r\n<p>&rArr; r = 20 cm and h = 35 cm</p>\r\n\r\n<p>Using equation (1), we get</p>\r\n\r\n<p>&rArr; Required curved surface area of cylinder = 2&nbsp;&times; (22/7)&nbsp;&times; 20&nbsp;&times; 35 = 4400 cm<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बेलन के आधार की त्रिज्या और ऊंचाई का योग 55 सेमी है। यदि ऊपर बताए गए बेलन की ऊंचाई उसके आधार की त्रिज्या से 15 सेमी अधिक है, तो इस बेलन का वक्र पृष्ठीय क्षेत्रफल क्या है? [&nbsp;<span class=\"math-tex\">\\(\\pi=\\frac{22}{7}\\)</span>&nbsp;का प्रयोग कीजिए]</p>\r\n",
+    "options_hi": [
+      "<p>2200 वर्ग सेमी</p>\r\n",
+      "<p>3500&nbsp;वर्ग सेमी</p>\r\n",
+      "<p>2800&nbsp;वर्ग सेमी</p>\r\n",
+      "<p>4400&nbsp;वर्ग सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>4400 वर्ग सेमी</strong>&nbsp;है।</p>\r\n\r\n<p>एक बेलन के आधार की त्रिज्या और ऊंचाई का योग 55 सेमी है</p>\r\n\r\n<p>ऊपर वर्णित बेलन की ऊंचाई, उसके आधार की त्रिज्या से 15 सेमी अधिक है</p>\r\n\r\n<p>बेलन का वक्र पृष्ठीय क्षेत्रफल = 2&pi;rh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---- (1)</p>\r\n\r\n<p>जहाँ, r = त्रिज्या और h = ऊँचाई</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>r + h = 55&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (2)</p>\r\n\r\n<p>h = r + 15&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---- (3)</p>\r\n\r\n<p>समीकरण (3) को (2) में समीकरण करने पर, हम पाते हैं</p>\r\n\r\n<p>&rArr; r + r + 15 = 55</p>\r\n\r\n<p>&rArr; 2r = 40</p>\r\n\r\n<p>&rArr; r = 20 सेमी और h = 35 सेमी</p>\r\n\r\n<p>समीकरण (1) का प्रयोग करने पर, हम प्राप्त करते हैं</p>\r\n\r\n<p>&rArr; बेलन का अभीष्ट वक्र पृष्ठीय क्षेत्रफल = 2&nbsp;&times; (22/7)&nbsp;&times; 20&nbsp;&times; 35 = 4400 वर्ग सेमी</p>\r\n"
+  },
+  {
+    "question": "<p>What is the radius of a circular field whose area is equal to the sum of the areas of three smaller circular fields of radii 8 m, 9 m and 12 m, respectively?</p>\r\n",
+    "options": [
+      "<p>20 m</p>\r\n",
+      "<p>21 m</p>\r\n",
+      "<p>29 m</p>\r\n",
+      "<p>17 m</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e.&nbsp;<strong>17 m.</strong></p>\r\n\r\n<p>Area of circle =&nbsp;&pi;r<sup>2</sup>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\r\n\r\n<p>Where, r = radius of circle</p>\r\n\r\n<p>Let the radius of the bigger circle be R.</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr;&nbsp;&pi;R<sup>2</sup>&nbsp;=&nbsp;&pi;&nbsp;&times; 8<sup>2</sup>&nbsp;+&nbsp;&pi;&nbsp;&times; 9<sup>2</sup>&nbsp;+&nbsp;&pi; &times; 12<sup>2</sup></p>\r\n\r\n<p>&rArr; R<sup>2</sup>&nbsp;= 64 + 81 + 144</p>\r\n\r\n<p>&rArr; R<sup>2</sup>&nbsp;= 289</p>\r\n\r\n<p>&rArr; R&nbsp;= 17 m</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वृत्ताकार क्षेत्र की त्रिज्या क्या है जिसका क्षेत्रफल क्रमशः 8 मी, 9 मी और 12 मी त्रिज्या वाले तीन छोटे वृत्ताकार क्षेत्रों के क्षेत्रफल के योग के बराबर है?</p>\r\n",
+    "options_hi": [
+      "<p>20&nbsp;मी</p>\r\n",
+      "<p>21&nbsp;मी</p>\r\n",
+      "<p>29&nbsp;मी</p>\r\n",
+      "<p>17&nbsp;मी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> यानी <strong>17 मी</strong> है।</p>\r\n\r\n<p>वृत्त का क्षेत्रफल =&nbsp;&pi;r<sup>2</sup>&nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n\r\n<p>जहाँ, r = वृत्त की त्रिज्या</p>\r\n\r\n<p>माना बड़े वृत्त की त्रिज्या R है।</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr;&nbsp;&pi;R<sup>2</sup>&nbsp;=&nbsp;&pi;&nbsp;&times; 8<sup>2</sup>&nbsp;+&nbsp;&pi;&nbsp;&times; 9<sup>2</sup>&nbsp;+&nbsp;&pi; &times; 12<sup>2</sup></p>\r\n\r\n<p>&rArr; R<sup>2</sup>&nbsp;= 64 + 81 + 144</p>\r\n\r\n<p>&rArr; R<sup>2</sup>&nbsp;= 289</p>\r\n\r\n<p>&rArr; R = 17 मी</p>\r\n"
+  },
+  {
+    "question": "<p>The height of a cylinder is 3 cm more than the radius of its base. If the height is 10 cm, then what is the volume of this cylinder? [Use&nbsp;<span class=\"math-tex\">\\(\\pi=\\frac{22}{7}\\)</span>]</p>\r\n",
+    "options": [
+      "<p>1540 cm<sup>3</sup></p>\r\n",
+      "<p>1860 cm<sup>3</sup></p>\r\n",
+      "<p>2160 cm<sup>3</sup></p>\r\n",
+      "<p>1240 cm<sup>3</sup></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1 </strong>i.e.&nbsp;<strong>1540 cm<sup>3</sup>.</strong></p>\r\n\r\n<p>The height of a cylinder is 3 cm more than the radius of its base. If the height is 10 cm.</p>\r\n\r\n<p>height of a cylinder = 3 cm + radius of its base</p>\r\n\r\n<p>10 cm 3 cm + radius of its base</p>\r\n\r\n<p>the radius of its base = 10 cm - 3 cm</p>\r\n\r\n<p>= 7 cm</p>\r\n\r\n<p>The volume of this cylinder = x radius<sup>2</sup> x height</p>\r\n\r\n<p>= 22/7 &times; 7<sup>2</sup> &times; 10</p>\r\n\r\n<p>= 22 &times; 7&nbsp;&times; 10</p>\r\n\r\n<p>= 1540 cm<sup>3</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बेलन की ऊँचाई उसके आधार की त्रिज्या से 3 सेमी अधिक है। यदि ऊँचाई 10 सेमी है, तो इस बेलन का आयतन क्या है? [उपयोग&nbsp;<span class=\"math-tex\">\\(\\pi=\\frac{22}{7}\\)</span>]</p>\r\n",
+    "options_hi": [
+      "<p>1540&nbsp;सेमी<sup>3</sup></p>\r\n",
+      "<p>1860&nbsp;सेमी<sup>3</sup></p>\r\n",
+      "<p>2160&nbsp;सेमी<sup>3</sup></p>\r\n",
+      "<p>1240&nbsp;सेमी<sup>3</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;यानी <strong>1540 सेमी<sup>3</sup></strong> है।</p>\r\n\r\n<p>एक बेलन की ऊँचाई उसके आधार की त्रिज्या से 3 सेमी अधिक है। यदि ऊँचाई 10 सेमी.</p>\r\n\r\n<p>एक बेलन की ऊँचाई = 3 सेमी + आधार की त्रिज्या</p>\r\n\r\n<p>10 सेमी 3 सेमी + इसके आधार की त्रिज्या</p>\r\n\r\n<p>इसके आधार की त्रिज्या = 10 सेमी - 3 सेमी</p>\r\n\r\n<p>= 7 सेमी</p>\r\n\r\n<p>इस बेलन का आयतन = x त्रिज्या<sup>2 </sup>x ऊँचाई</p>\r\n\r\n<p>= 22/7 &times; 7<sup>2</sup> &times; 10</p>\r\n\r\n<p>= 22 &times; 7 &times; 10</p>\r\n\r\n<p>= 1540 सेमी<sup>3</sup></p>\r\n"
+  },
+  {
+    "question": "<p>Find the length of the diagonal of a closed cube &#39;whose total surface area is 96m<sup>2.</sup></p>\r\n",
+    "options": [
+      "<p>8&radic;3</p>\r\n",
+      "<p>4&radic;3</p>\r\n",
+      "<p>2&radic;3</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> option 2</strong> i.e. <strong>4&radic;3.</strong></p>\r\n\r\n<p>TSA of a cube = 6a<sup>2</sup></p>\r\n\r\n<p>The diagonal of a cube =&nbsp;<span class=\"math-tex\">\\({\\sqrt{3}}a \\)</span></p>\r\n\r\n<p>TSA = 96</p>\r\n\r\n<p>&rArr;&nbsp;6a<sup>2&nbsp;</sup>= 96</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;= 96/6</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;= 16</p>\r\n\r\n<p>&rArr; a = (16)<sup>1/2</sup></p>\r\n\r\n<p>&rArr; a = 4</p>\r\n\r\n<p>Now, the diagonal of the given cube =&nbsp;<span class=\"math-tex\">\\({\\sqrt{3}}a\\)</span>&nbsp;=<span class=\"math-tex\">\\( 4 {\\sqrt{3}}\\)</span></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बंद घन के विकर्ण की लंबाई ज्ञात कीजिए जिसका कुल पृष्ठीय क्षेत्रफल 96m<sup>2</sup> है।</p>\r\n",
+    "options_hi": [
+      "<p>8&radic;3</p>\r\n",
+      "<p>4&radic;3</p>\r\n",
+      "<p>2&radic;3</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 2</strong> यानी <strong>4&radic;3 </strong>है।</p>\r\n\r\n<p>घन का कुल पृष्ठीय क्षेत्रफल = 6a<sup>2</sup></p>\r\n\r\n<p>घन का विकर्ण =&nbsp;<span class=\"math-tex\">\\({\\sqrt{3}}a \\)</span></p>\r\n\r\n<p>घन का कुल पृष्ठीय क्षेत्रफल = 96</p>\r\n\r\n<p>&rArr;&nbsp;6a<sup>2&nbsp;</sup>= 96</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;= 96/6</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;= 16</p>\r\n\r\n<p>&rArr; a = (16)<sup>1/2</sup></p>\r\n\r\n<p>&rArr; a = 4</p>\r\n\r\n<p>अब, दिए गए घन का विकर्ण=&nbsp;<span class=\"math-tex\">\\({\\sqrt{3}}a\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( 4 {\\sqrt{3}}\\)</span></p>\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The length of a rectangle is 5 times of its breadth. If the breadth is 10 cm, then what is the perimeter of the rectangle?</p>\r\n",
+    "options": [
+      "<p>60cm</p>\r\n",
+      "<p>110cm</p>\r\n",
+      "<p>120cm</p>\r\n",
+      "<p>95cm</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong> i.e.&nbsp;<strong>120 cm.</strong></p>\r\n\r\n<p>Perimeter of rectangle = 2(l + b)</p>\r\n\r\n<p>Breadth, b = 10 cm.</p>\r\n\r\n<p>Length&nbsp;is 5 times of breadth.</p>\r\n\r\n<p>l = 5&nbsp;&times; 10 = 50 cm</p>\r\n\r\n<p>Now, perimeter = 2(l + b)</p>\r\n\r\n<p>&rArr; 2(50 + 10) = 2&nbsp;&times; 60 = 120.</p>\r\n\r\n<p>Hence the perimeter of the rectangle is&nbsp;<strong>120 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आयत की लम्बाई उसकी चौड़ाई की 5 गुनी है। यदि चौड़ाई 10 सेंटीमीटर है, तो आयत का परिमाप क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>60 सेंटीमीटर</p>\r\n",
+      "<p>110 सेंटीमीटर</p>\r\n",
+      "<p>120 सेंटीमीटर</p>\r\n",
+      "<p>95 सेंटीमीटर</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>यानी <strong>120 सेंटीमीटर </strong>है।&nbsp;</p>\r\n\r\n<p>आयत का परिमाप= 2(l + b)</p>\r\n\r\n<p>चौड़ाई, b = 10 cm.</p>\r\n\r\n<p>लंबाई, चौड़ाई का 5 गुना है.</p>\r\n\r\n<p>l = 5&nbsp;&times; 10 = 50 cm</p>\r\n\r\n<p>अब, परिमाप= 2(l + b)</p>\r\n\r\n<p>&rArr; 2(50 + 10) = 2&nbsp;&times; 60 = 120.</p>\r\n\r\n<p>इसलिए आयत का परिमाप <strong>120 सेंटीमीटर </strong>है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The perimeter of an equilateral triangle is equal to the circumference of a circle. If each side of this equilateral triangle is 88 cm long, then what will be the length of the diameter of the circle?&nbsp;</p>\r\n",
+    "options": [
+      "<p>21 cm</p>\r\n",
+      "<p>63 cm</p>\r\n",
+      "<p>84 cm</p>\r\n",
+      "<p>42 cm</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong> i.e.&nbsp;<strong>84 cm.</strong></p>\r\n\r\n<p>Perimeter of equilateral triangle = 3a</p>\r\n\r\n<p>Circumference of circle =&nbsp;<span class=\"math-tex\">\\(2\\pi r\\)</span></p>\r\n\r\n<p>Side of equilateral triangle = 88 cm</p>\r\n\r\n<p>The perimeter of an equilateral triangle = Circumference of a circle</p>\r\n\r\n<p>Now, 3&nbsp;&times; 88 = 2&nbsp;&times; 22/7&nbsp;&times; r</p>\r\n\r\n<p>&rArr; r = 84/2&nbsp;</p>\r\n\r\n<p>&rArr; r = 42.</p>\r\n\r\n<p>Now, diameter = 2r = 2&nbsp;&times; 42 = 84</p>\r\n\r\n<p>Hence the diameter of the circle is&nbsp;<strong>84 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समबाहु त्रिभुज का परिमाप एक वृत्त की परिधि के बराबर है। यदि इस समबाहु त्रिभुज की प्रत्येक भुजा 88 सेमी लंबी है, तो&nbsp;वृत्त के व्यास की लंबाई क्या होगी?</p>\r\n",
+    "options_hi": [
+      "<p>21&nbsp;सेंटीमीटर</p>\r\n",
+      "<p>63&nbsp;सेंटीमीटर</p>\r\n",
+      "<p>84&nbsp;सेंटीमीटर</p>\r\n",
+      "<p>42&nbsp;सेंटीमीटर</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>यानी <strong>84 सेंटीमीटर</strong> है।</p>\r\n\r\n<p>समबाहु त्रिभुज का परिमाप = 3a</p>\r\n\r\n<p>वृत्त की परिधि =&nbsp;<span class=\"math-tex\">\\(2\\pi r\\)</span></p>\r\n\r\n<p>समबाहु त्रिभुज की भुजा = 88 सेंटीमीटर</p>\r\n\r\n<p>समबाहु त्रिभुज का परिमाप = वृत्त की परिधि</p>\r\n\r\n<p>अब, 3&nbsp;&times; 88 = 2&nbsp;&times; 22/7&nbsp;&times; r</p>\r\n\r\n<p>&rArr; r = 84/2</p>\r\n\r\n<p>&rArr; r = 42</p>\r\n\r\n<p>अब, व्यास = 2r = 2 &times; 42 = 84</p>\r\n\r\n<p>इसलिए वृत्त का व्यास<strong>&nbsp;84 सेंटीमीटर</strong> है।</p>\r\n"
+  },
+  {
+    "question": "<p>If the adjacent sides of a rectangle, whose perimeter is 66 m, are in the ratio 5 : 6, then what will be the area of the rectangle?</p>\r\n",
+    "options": [
+      "<p>270</p>\r\n",
+      "<p>160</p>\r\n",
+      "<p>230</p>\r\n",
+      "<p>180</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e. <strong>270.</strong></p>\r\n\r\n<p>The ratio of length and breadth = 5 : 6</p>\r\n\r\n<p>Let the length be 5x and breadth = 6x</p>\r\n\r\n<p>Thus, 2 &times; (5x + 6x) = 66</p>\r\n\r\n<p>&rArr; 11x = 66&nbsp;&rArr; x = 3</p>\r\n\r\n<p>Thus, the length of the rectangle = 15&nbsp;m</p>\r\n\r\n<p>and, the breadth of the rectangle = 18&nbsp;m</p>\r\n\r\n<p>Area = 15&nbsp;&times; 18 = 270 m<sup>2</sup></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि एक आयत, जिसका परिमाप 66 मीटर है, की आसन्न भुजाओं का अनुपात 5 : 6 है, तो आयत का क्षेत्रफल क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>270</p>\r\n",
+      "<p>160</p>\r\n",
+      "<p>230</p>\r\n",
+      "<p>180</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>270</strong> है।&nbsp;</p>\r\n\r\n<p>लंबाई और चौड़ाई का अनुपात = 5 : 6</p>\r\n\r\n<p>माना लंबाई 5x और चौड़ाई&nbsp;6x है</p>\r\n\r\n<p>इस प्रकार, 2 &times; (5x + 6x) = 66</p>\r\n\r\n<p>&rArr; 11x = 66&nbsp;&rArr; x = 3</p>\r\n\r\n<p>इस प्रकार, आयत की लंबाई = 15 मीटर</p>\r\n\r\n<p>और, आयत की चौड़ाई = 18&nbsp;मीटर</p>\r\n\r\n<p>क्षेत्रफल = 15 &times; 18 = 270 वर्ग मीटर</p>\r\n"
+  },
+  {
+    "question": "<p>The circumference of a circle is equal to the perimeter of an equilateral triangle. If the radius of the circle is 84 cm, then what will be the length of each side of the equilateral triangle? [Use <span class=\"math-tex\">\\(π = \\frac{22}{ 7} \\)</span>]</p>\r\n",
+    "options": [
+      "<p>192 cm</p>\r\n",
+      "<p>176 cm</p>\r\n",
+      "<p>172 cm</p>\r\n",
+      "<p>184 cm</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.&nbsp;<strong>176 cm.</strong></p>\r\n\r\n<p>The circumference of the circle = The perimeter of the equilateral</p>\r\n\r\n<p>2&nbsp;&times; (22/7)&nbsp;&times; 84 = 3&nbsp;&times; side</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; 22&nbsp;&times; 12 = 3&nbsp;&times; side</p>\r\n\r\n<p>&rArr; 8&nbsp;&times; 22 = side</p>\r\n\r\n<p>Thus, side = 176 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वृत्त की परिधि, एक समबाहु त्रिभुज के परिमाप के बराबर है। यदि वृत्त की त्रिज्या 84 सेमी है, तो समबाहु त्रिभुज की प्रत्येक भुजा की लंबाई क्या होगी? [<span class=\"math-tex\">\\(π = \\frac{22}{ 7} \\)</span>&nbsp;का प्रयोग कीजिए]</p>\r\n",
+    "options_hi": [
+      "<p>192 सेमी</p>\r\n",
+      "<p>176 सेमी</p>\r\n",
+      "<p>172 सेमी</p>\r\n",
+      "<p>184 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>176 सेमी</strong> है।</p>\r\n\r\n<p>वृत्त की परिधि = समबाहु त्रिभुज का परिमाप</p>\r\n\r\n<p>2&nbsp;&times; (22/7)&nbsp;&times; 84 = 3&nbsp;&times; भुजा</p>\r\n\r\n<p>&rArr; 2&nbsp;&times; 22&nbsp;&times; 12 = 3&nbsp;&times; भुजा</p>\r\n\r\n<p>&rArr; 8&nbsp;&times; 22 = भुजा</p>\r\n\r\n<p>इस प्रकार, भुजा = 176 सेमी</p>\r\n"
+  },
+  {
+    "question": "<p>The lengths of the parallel sides of a trapezium are 10 cm and 20 cm. If the distance between these parallel lines is 5 cm, then what is the area of the trapezium?</p>\r\n",
+    "options": [
+      "<p>50&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>60&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>45&nbsp;cm<sup>2</sup></p>\r\n",
+      "<p>75 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4&nbsp;</strong>i.e.&nbsp;<strong>75 cm<sup>2</sup>.</strong></p>\r\n\r\n<p>Area of trapezium = 1/2&nbsp;&times; (a + b)&nbsp;&times; h</p>\r\n\r\n<p>a = 10 cm, b = 20 cm and h = 5 cm</p>\r\n\r\n<p>Now, the area of the given trapezium = 1/2&nbsp;&times; (10 + 20)&nbsp;&times; 5 = 15&nbsp;&times; 5 = 75</p>\r\n\r\n<p>Hence the required area of trapezium is&nbsp;<strong>75 cm<sup>2</sup>.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समलंब की समानांतर भुजाओं की लंबाई 10 सेमी और 20 सेमी है। यदि इन समांतर रेखाओं के बीच की दूरी 5 सेमी है, तो समलंब का क्षेत्रफल क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>50&nbsp;सेमी<sup>2</sup></p>\r\n",
+      "<p>60&nbsp;सेमी<sup>2</sup></p>\r\n",
+      "<p>45&nbsp;सेमी<sup>2</sup></p>\r\n",
+      "<p>75 सेमी<sup>2</sup></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात&nbsp;<strong>75 सेमी<sup>2&nbsp;</sup></strong> है।&nbsp;</p>\r\n\r\n<p>समलंब का क्षेत्रफल = 1/2 &times; (a + b) &times; h</p>\r\n\r\n<p>a = 10 cm, b = 20 cm और h = 5 cm</p>\r\n\r\n<p>अब, दिए गए समलंब का क्षेत्रफल = 1/2&nbsp;&times; (10 + 20)&nbsp;&times; 5 = 15&nbsp;&times; 5 = 75</p>\r\n\r\n<p>इसलिए समलंब का आवश्यक क्षेत्रफल&nbsp;<strong>75 सेमी<sup>2</sup></strong> है।</p>\r\n"
+  },
+  {
+    "question": "<p>The area of a circle is 15400 cm<sup>2</sup> . What is the positive difference between the radius and the circumference of the circle? [Use&nbsp;&pi; = 22/7]</p>\r\n",
+    "options": [
+      "<p>410 cm</p>\r\n",
+      "<p>370 cm</p>\r\n",
+      "<p>330 cm</p>\r\n",
+      "<p>420 cm</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 2&nbsp;</strong>i.e.&nbsp;<strong>370 cm.&nbsp;</strong></p>\r\n\r\n<p>Area of circle =&nbsp;&pi;r<sup>2</sup></p>\r\n\r\n<p>Circumference of the circle = 2&pi;r</p>\r\n\r\n<p>Area of circle =&nbsp;15400 cm<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\pi\\)</span>&nbsp;r<sup>2</sup>&nbsp;=&nbsp;15400</p>\r\n\r\n<p>&rArr;&nbsp; 22/7&nbsp;&times;&nbsp;r<sup>2</sup>&nbsp; = 15400</p>\r\n\r\n<p>&rArr; r<sup>2</sup>&nbsp; = 700&nbsp;&times; 7</p>\r\n\r\n<p>&rArr; r = 70</p>\r\n\r\n<p>Now, circumference = 2&pi;r</p>\r\n\r\n<p>circumference = 2&nbsp;&times; 22/7&nbsp;&times; 70</p>\r\n\r\n<p>circumference = 440 cm</p>\r\n\r\n<p>Now the required difference = 440 - 70 = <strong>370 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वृत्त का क्षेत्रफल 15400 सेमी<sup>2</sup> है।&nbsp;वृत्त की त्रिज्या और परिधि के बीच धनात्मक अंतर कितना है? [&pi; = 22/7 का प्रयोग करें]</p>\r\n",
+    "options_hi": [
+      "<p>410 सेमी</p>\r\n",
+      "<p>370 सेमी</p>\r\n",
+      "<p>330 सेमी</p>\r\n",
+      "<p>420 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> यानी <strong>370 सेमी</strong> है।</p>\r\n\r\n<p>वृत्त का क्षेत्रफल =&nbsp;&pi;r<sup>2</sup></p>\r\n\r\n<p>वृत्त की परिधि= 2&pi;r</p>\r\n\r\n<p>वृत्त का क्षेत्रफल =&nbsp;15400 सेमी<sup>2&nbsp;</sup></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\pi\\)</span>&nbsp;r<sup>2</sup>&nbsp;=&nbsp;15400</p>\r\n\r\n<p>&rArr;&nbsp; 22/7&nbsp;&times;&nbsp;r<sup>2</sup>&nbsp; = 15400</p>\r\n\r\n<p>&rArr; r<sup>2</sup>&nbsp; = 700&nbsp;&times; 7</p>\r\n\r\n<p>&rArr; r = 70</p>\r\n\r\n<p>अब, परिधि = 2&pi;r</p>\r\n\r\n<p>परिधि= 2&nbsp;&times; 22/7&nbsp;&times; 70</p>\r\n\r\n<p>परिधि = 440 सेमी</p>\r\n\r\n<p>अब,&nbsp;अंतर= 440 - 70 = <strong>370 सेमी.</strong></p>\r\n"
+  },
+  {
+    "question": "<p>The volume of a right circular cone is 1848&nbsp;cm<sup>3</sup>.&nbsp;If the area of its base is 154 cm<sup>2</sup> , what is the vertical height of the cone?&nbsp; [Use&nbsp;&pi; = 22/7]</p>\r\n",
+    "options": [
+      "<p>10</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>16</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 2&nbsp;</strong>i.e. <strong>36&nbsp;cm.</strong></p>\r\n\r\n<p>Volume of cone&nbsp;<strong><span class=\"math-tex\">\\( = {1 \\over 3} \\pi r^2 h\\)</span></strong></p>\r\n\r\n<p>Area of circular base = &pi;r<sup>2</sup></p>\r\n\r\n<p>Volume of cone = 1848 cm<sup>3</sup></p>\r\n\r\n<p>Area of base = 154 cm<sup>2</sup></p>\r\n\r\n<p>Now, &pi;r<sup>2</sup>= 154</p>\r\n\r\n<p>&rArr;22/7&nbsp;&times; r<sup>2</sup>&nbsp;= 154</p>\r\n\r\n<p>&rArr; r<sup>2</sup>&nbsp;= 49</p>\r\n\r\n<p>&rArr; r = 7</p>\r\n\r\n<p>Now using the formula for the volume of the cone,</p>\r\n\r\n<p>Volume of cone <span class=\"math-tex\">\\( = {1 \\over 3}\\pi r^2 h\\)</span></p>\r\n\r\n<p>&rArr;1/3&nbsp;&times; 22/7 &times; 7<sup>2</sup>&nbsp;&times; h = 1848</p>\r\n\r\n<p>&rArr; h = (1848 &times; 3)/(22 &times; 7)</p>\r\n\r\n<p>&rArr; h = 36</p>\r\n\r\n<p>Hence the required height of the cone is&nbsp;<strong>36 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक लम्ब वृत्तीय शंकु का आयतन 1848&nbsp;cm<sup>3&nbsp;</sup>है। यदि इसके आधार का क्षेत्रफल 154 cm<sup>2</sup> है, शंकु की ऊर्ध्वाधर ऊँचाई कितनी है? [&pi; = 22/7 का प्रयोग करें]</p>\r\n",
+    "options_hi": [
+      "<p>10</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>24</p>\r\n",
+      "<p>16</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>यानी<strong> 36 सेंटीमीटर </strong>है।</p>\r\n\r\n<p><strong>शंकु का आयतन&nbsp;</strong>=&nbsp;<strong><span class=\"math-tex\">\\({1 \\over 3} \\pi r^2 h\\)</span></strong></p>\r\n\r\n<p>वृत्ताकार आधार का क्षेत्रफल= &pi;r<sup>2</sup></p>\r\n\r\n<p>शंकु का आयतन = 1848 cm<sup>3</sup></p>\r\n\r\n<p>आधार का क्षेत्रफल= 154 cm<sup>2</sup></p>\r\n\r\n<p>अब, &pi;r<sup>2</sup>= 154</p>\r\n\r\n<p>&rArr; 22/7&nbsp;&times; r<sup>2</sup>&nbsp;= 154</p>\r\n\r\n<p>&rArr; r<sup>2</sup>&nbsp;= 49</p>\r\n\r\n<p>&rArr; r = 7</p>\r\n\r\n<p>अब शंकु के आयतन के सूत्र का उपयोग करके,</p>\r\n\r\n<p>&nbsp;<strong>शंकु का आयतन&nbsp;</strong>=&nbsp;<strong><strong><span class=\"math-tex\">\\({1 \\over 3} \\pi r^2 h\\)</span></strong></strong></p>\r\n\r\n<p>&rArr;1/3&nbsp;&times; 22/7 &times; 7<sup>2</sup>&nbsp;&times; h = 1848</p>\r\n\r\n<p>&rArr; h = (1848 &times; 3)/(22 &times; 7)</p>\r\n\r\n<p>&rArr; h = 36</p>\r\n\r\n<p>इसलिए शंकु की ऊंचाई<strong> 36 सेंटीमीटर </strong>है।</p>\r\n"
+  },
+  {
+    "question": "<p>The area ofa trapezium shaped field is 1785 square feet. The distance between the two parallel sides is 35 feet and one of the parallel sides is 42 feet long. What is the length of the other parallel side?</p>\r\n",
+    "options": [
+      "<p>60 feet</p>\r\n",
+      "<p>40 feet</p>\r\n",
+      "<p>35 feet</p>\r\n",
+      "<p>65 feet</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1&nbsp;</strong>i.e.&nbsp;<strong>60 feet.</strong></p>\r\n\r\n<p>Area of trapezium = 1/2&nbsp;&times; h&nbsp;&times; (a + b)</p>\r\n\r\n<p>Area of field = 1785 square&nbsp;feet</p>\r\n\r\n<p>Distance between two parallel sides = 35 feet</p>\r\n\r\n<p>One side = 42 feet</p>\r\n\r\n<p>Let the other side of the field be x feet</p>\r\n\r\n<p>Now using the formula in equation (i)</p>\r\n\r\n<p>Area = 1/2&nbsp;&times; 35&nbsp;&times; (42 + x)</p>\r\n\r\n<p>&rArr; 1785 = 35/2&nbsp;&times; (42 + x)</p>\r\n\r\n<p>&rArr; 42 + x = 51&nbsp;&times; 2&nbsp;</p>\r\n\r\n<p>&rArr; x = 102 - 42</p>\r\n\r\n<p>&rArr; x = 60.</p>\r\n\r\n<p>Hence the required length of the side of the trapezium is&nbsp;<strong>60 feet.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समलंब चतुर्भुज के आकार के मैदान का क्षेत्रफल&nbsp;1785 वर्ग फीट है। दो समानांतर भुजाओं&nbsp;के बीच की दूरी 35 फीट है और समानांतर भुजाओं&nbsp;में से एक 42 फीट लंबी है। अन्य समानांतर भुजा&nbsp;की लंबाई क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>60 फीट</p>\r\n",
+      "<p>40 फीट</p>\r\n",
+      "<p>35 फीट</p>\r\n",
+      "<p>65 फीट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>60 फीट&nbsp;</strong>है।</p>\r\n\r\n<p>समलंब चतुर्भुज का क्षेत्रफल&nbsp;= 1/2&nbsp;&times; h&nbsp;&times; (a + b)</p>\r\n\r\n<p>मैदान का क्षेत्रफल&nbsp;= 1785 वर्ग फुट</p>\r\n\r\n<p>दो समानांतर भुजाओं&nbsp;के बीच की दूरी = 35 फीट</p>\r\n\r\n<p>एक भुजा = 42 फीट</p>\r\n\r\n<p>माना, मैदान की दूसरी&nbsp;भुजा&nbsp;x फीट है&nbsp;&nbsp;</p>\r\n\r\n<p>अब समीकरण (i) में सूत्र का उपयोग करने पर&nbsp;</p>\r\n\r\n<p>क्षेत्रफल&nbsp;= 1/2&nbsp;&times; 35&nbsp;&times; (42 + x)</p>\r\n\r\n<p>&rArr; 1785 = 35/2&nbsp;&times; (42 + x)</p>\r\n\r\n<p>&rArr; 42 + x = 51&nbsp;&times; 2&nbsp;</p>\r\n\r\n<p>&rArr; x = 102 - 42</p>\r\n\r\n<p>&rArr; x = 60</p>\r\n\r\n<p>इसलिए, समलंब चतुर्भुज के भुजा&nbsp;की अभीष्ट&nbsp;लंबाई <strong>60 फीट</strong> है।</p>\r\n"
+  },
+  {
+    "question": "<p>The length of a rectangle is 4 times of its breadth. If the area of the rectangle is 576 cm<sup>2</sup>, then what is the perimeter of this rectangle?</p>\r\n",
+    "options": [
+      "<p>56 cm</p>\r\n",
+      "<p>60 cm</p>\r\n",
+      "<p>120 cm</p>\r\n",
+      "<p>112 cm</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 3&nbsp;</strong>i.e.&nbsp;<strong>120 cm.</strong></p>\r\n\r\n<p>Area of rectangle = l&nbsp;&times; b</p>\r\n\r\n<p>Perimeter of rectangle = 2(l&nbsp;+ b)</p>\r\n\r\n<p>Length = 4&nbsp;&times; breadth</p>\r\n\r\n<p>Area = 576 cm<sup>2</sup></p>\r\n\r\n<p>Let the breadth of the rectangle be x cm.</p>\r\n\r\n<p>So, length = 4x cm</p>\r\n\r\n<p>Area = l&nbsp;&times; b</p>\r\n\r\n<p>&rArr; 576 = x&nbsp;&times; 4x</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>&nbsp;= 144</p>\r\n\r\n<p>&rArr; x = 12&nbsp;</p>\r\n\r\n<p>Breadth = 12 cm and Length = 4&nbsp;&times; 12 = 48 cm</p>\r\n\r\n<p>Now, perimeter = 2(l&nbsp;&times; b) = 2(48 + 12) = 2&nbsp;&times; 60 = 120.</p>\r\n\r\n<p>Hence the perimeter of the rectangle is&nbsp;<strong>120 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आयत की लंबाई&nbsp;उसकी चौड़ाई की 4 गुनी है। यदि आयत का क्षेत्रफल 576 वर्ग सेमी&nbsp;है, तो इस आयत का परिमाप क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>56 सेमी&nbsp;</p>\r\n",
+      "<p>60 सेमी&nbsp;</p>\r\n",
+      "<p>120 सेमी&nbsp;</p>\r\n",
+      "<p>112 सेमी&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात्&nbsp;<strong>120 सेमी&nbsp;</strong>है।</p>\r\n\r\n<p>आयत का क्षेत्रफल = l&nbsp;&times; b</p>\r\n\r\n<p>आयत का परिमाप = 2(l&nbsp;+ b)</p>\r\n\r\n<p>लंबाई = 4&nbsp;&times; चौड़ाई</p>\r\n\r\n<p>क्षेत्रफल = 576 वर्ग सेमी&nbsp;</p>\r\n\r\n<p>माना आयत की चौड़ाई x सेमी है।</p>\r\n\r\n<p>इसलिए, लंबाई&nbsp;= 4x सेमी</p>\r\n\r\n<p>क्षेत्रफल = l&nbsp;&times; b</p>\r\n\r\n<p>&rArr; 576 = x&nbsp;&times; 4x</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>&nbsp;= 144</p>\r\n\r\n<p>&rArr; x = 12</p>\r\n\r\n<p>चौड़ाई = 12 सेमी और लंबाई = 4 &times; 12 = 48 सेमी</p>\r\n\r\n<p>अब, परिमाप = 2(l&nbsp;&times; b) = 2(48 + 12) = 2&nbsp;&times; 60 = 120</p>\r\n\r\n<p>इसलिए, आयत का परिमाप&nbsp;<strong>120 सेमी</strong> है।</p>\r\n"
+  },
+  {
+    "question": "<p>Two cubes, each having a total surface area of 150 cm<sup>2</sup>, are joined together to form a cuboid. Find the total surface area of the resulting cuboid.</p>\r\n",
+    "options": [
+      "<p>300 cm<sup>2</sup></p>\r\n",
+      "<p>225 cm<sup>2</sup></p>\r\n",
+      "<p>250 cm<sup>2</sup></p>\r\n",
+      "<p>275 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 3&nbsp;</strong>i.e.&nbsp;<strong>250 cm<sup>2</sup>.</strong></p>\r\n\r\n<p>Total surface area (TSA) of cube = 6a<sup>2</sup></p>\r\n\r\n<p>Total surface area&nbsp;(TSA) of cuboid = 2(lb&nbsp;+ bh&nbsp;+ hl)</p>\r\n\r\n<p>Given that, TSA of cube = 150&nbsp;<strong>cm<sup>2</sup>&nbsp;</strong></p>\r\n\r\n<p>&rArr; 150 = 6&nbsp;&times; a<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp;a<sup>2&nbsp;</sup>= 25&nbsp;</p>\r\n\r\n<p>&rArr; a = 5&nbsp;</p>\r\n\r\n<p>Now, the side of each cube is 5 cm.</p>\r\n\r\n<p>Both cubes are joined to form a cuboid so,</p>\r\n\r\n<p>Length = 10 cm, breadth = 5 cm and height = 5 cm.</p>\r\n\r\n<p>Therefore TSA of cuboid = 2(lb + bh + hl)</p>\r\n\r\n<p>&rArr; TSA = 2(10&nbsp;&times; 5 + 5&nbsp;&times; 5 + 10&nbsp;&times; 5)</p>\r\n\r\n<p>&rArr; TSA = 2&nbsp;&times; 125&nbsp;</p>\r\n\r\n<p>&rArr; TSA = 250</p>\r\n\r\n<p>Hence the required TSA of the cuboid is&nbsp;<strong>250&nbsp;cm<sup>2</sup>.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो घन, जिनमें से प्रत्येक का कुल पृष्ठीय क्षेत्रफल 150 वर्ग सेमी&nbsp;है, जिसको&nbsp;एक साथ जोड़कर एक घनाभ बनाया जाता है। परिणामी घनाभ का कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>300 वर्ग सेमी</p>\r\n",
+      "<p>225 वर्ग सेमी</p>\r\n",
+      "<p>250 वर्ग सेमी</p>\r\n",
+      "<p>275 वर्ग सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही&nbsp;उत्तर<strong> विकल्प 3&nbsp;</strong>अर्थात्&nbsp;<strong>250 वर्ग सेमी&nbsp;</strong>है।</p>\r\n\r\n<p>घन का कुल पृष्ठीय क्षेत्रफल (TSA) = 6a<sup>2</sup></p>\r\n\r\n<p>घनाभ का कुल पृष्ठीय क्षेत्रफल (TSA) = 2(lb&nbsp;+ bh&nbsp;+ hl)</p>\r\n\r\n<p>दिया गया है, घन का कुल पृष्ठीय क्षेत्रफल = <strong>150 वर्ग सेमी&nbsp;</strong></p>\r\n\r\n<p>&rArr; 150 = 6&nbsp;&times; a<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp;a<sup>2&nbsp;</sup>= 25&nbsp;</p>\r\n\r\n<p>&rArr; a = 5&nbsp;</p>\r\n\r\n<p>अब, प्रत्येक घन की भुजा 5 सेमी है।</p>\r\n\r\n<p>दोनों घनों को एक घनाभ बनाने के लिए जोड़ा जाता है, इसलिए&nbsp;</p>\r\n\r\n<p>लंबाई = 10 सेमी, चौड़ाई = 5 सेमी और ऊँचाई = 5 सेमी&nbsp;</p>\r\n\r\n<p>इसलिए घनाभ का कुल पृष्ठीय क्षेत्रफल = 2(lb + bh + hl)</p>\r\n\r\n<p>&rArr; कुल पृष्ठीय क्षेत्रफल = 2(10&nbsp;&times; 5 + 5&nbsp;&times; 5 + 10&nbsp;&times; 5)</p>\r\n\r\n<p>&rArr; कुल पृष्ठीय क्षेत्रफल = 2 &times; 125</p>\r\n\r\n<p>&rArr; कुल पृष्ठीय क्षेत्रफल = 250</p>\r\n\r\n<p>इसलिए, घनाभ का अभीष्ट&nbsp;कुल पृष्ठीय क्षेत्रफल&nbsp;<strong>250&nbsp;वर्ग सेमी</strong>&nbsp;है।</p>\r\n"
+  },
+  {
+    "question": "<p>The length of each side of a rhombus is 10 cm. If the length of one of its diagonals is 16 cm, then what is the area of the rhombus?</p>\r\n",
+    "options": [
+      "<p>108 cm<sup>2</sup></p>\r\n",
+      "<p>112 cm<sup>2</sup></p>\r\n",
+      "<p>122 cm<sup>2</sup></p>\r\n",
+      "<p>96 cm<sup>2</sup></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 4&nbsp;</strong>i.e.&nbsp;<strong>96 cm<sup>2</sup>.</strong></p>\r\n\r\n<p>Diagonals of a rhombus bisect each other at right angles.</p>\r\n\r\n<p>Let&nbsp;ABCD&nbsp;be the rhombus, Diagonal&nbsp;AC = 16&nbsp;cm, and side&nbsp;AB = 10&nbsp;cm</p>\r\n\r\n<p>In right&nbsp;△AOB,&nbsp;AB = 10&nbsp;cm,&nbsp;AO = 8&nbsp;cm</p>\r\n\r\n<p>By Pythagoras&#39; theorem,&nbsp;AB<sup>2</sup>&nbsp;= AO<sup>2</sup>&nbsp; + BO<sup>2</sup></p>\r\n\r\n<p>&rArr; 10<sup>2</sup>&nbsp;= 8<sup>2</sup> + BO<sup>2</sup></p>\r\n\r\n<p>&rArr; BO<sup>2</sup> = 100 &minus; 64 = 36</p>\r\n\r\n<p>&there4; BO = 6 cm</p>\r\n\r\n<p>Diagonal&nbsp;BD = 2 &times; 6 = 12 cm</p>\r\n\r\n<p>Area of Rhombus = 1/2​ &times; (product of the diagonals)</p>\r\n\r\n<p>= 1/2 ​&times; 16 &times; 12 = 8 &times; 12 = 96 sq.cm</p>\r\n\r\n<p>Hence the Area of the rhombus&nbsp;= 96 sq. cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समचतुर्भुज की प्रत्येक भुजा की लंबाई 10 सेमी है। यदि इसके एक विकर्ण की लंबाई 16 सेमी है, तो समचतुर्भुज का क्षेत्रफल क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>108 वर्ग सेमी</p>\r\n",
+      "<p>112 वर्ग सेमी</p>\r\n",
+      "<p>122 वर्ग सेमी</p>\r\n",
+      "<p>96 वर्ग सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्<strong> 96 वर्ग सेमी</strong>&nbsp;है।</p>\r\n\r\n<p>समचतुर्भुज के विकर्ण परस्पर समकोण पर समद्विभाजित करते हैं।</p>\r\n\r\n<p>माना ABCD समचतुर्भुज है, विकर्ण AC = 16 सेमी और भुजा AB = 10 सेमी</p>\r\n\r\n<p>समकोण △AOB में,&nbsp;AB = 10&nbsp;सेमी,&nbsp;AO = 8&nbsp;सेमी</p>\r\n\r\n<p>पाइथागोरस प्रमेय द्वारा,&nbsp;AB<sup>2</sup>&nbsp;= AO<sup>2</sup>&nbsp; + BO<sup>2</sup></p>\r\n\r\n<p>&rArr; 10<sup>2</sup>&nbsp;= 8<sup>2</sup> + BO<sup>2</sup></p>\r\n\r\n<p>&rArr; BO<sup>2</sup> = 100 &minus; 64 = 36</p>\r\n\r\n<p>&there4; BO = 6 सेमी</p>\r\n\r\n<p>विकर्ण BD = 2 &times; 6 = 12 सेमी</p>\r\n\r\n<p>समचतुर्भुज का क्षेत्रफल = 1/2 &times; (विकर्णों का गुणनफल)</p>\r\n\r\n<p>= 1/2 &times; 16 &times; 12 = 8 &times; 12 = 96 वर्ग सेमी</p>\r\n\r\n<p>समचतुर्भुज का क्षेत्रफल = 96 वर्ग सेमी</p>\r\n"
+  },
+  {
+    "question": "<p>The area of a circle is 2464 cm<sup><span style=\"font-size:10.5px\">2</span></sup>. What is the diameter of this circle?[Use&nbsp;&pi; = 22/7]</p>\r\n",
+    "options": [
+      "<p>56 cm</p>\r\n",
+      "<p>24 cm</p>\r\n",
+      "<p>48 cm</p>\r\n",
+      "<p>28 cm</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1&nbsp;</strong>i.e. <strong>56 cm.</strong></p>\r\n\r\n<p>Area of a circle = &pi;&nbsp;&times; Radius<sup>2</sup></p>\r\n\r\n<p>&rArr; 2464 =&nbsp;{22/7}&nbsp;&times; Radius<sup>2</sup></p>\r\n\r\n<p>&rArr; 784 = Radius<sup>2</sup></p>\r\n\r\n<p>Thus, Radius = 28 cm</p>\r\n\r\n<p>Diameter = 2 &times; 28 = 56 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वृत्त का क्षेत्रफल 2464 वर्ग सेमी&nbsp;है। इस वृत्त का व्यास क्या है? [&pi; = 22/7 का प्रयोग कीजिए]</p>\r\n",
+    "options_hi": [
+      "<p>56 सेमी</p>\r\n",
+      "<p>24 सेमी</p>\r\n",
+      "<p>48 सेमी</p>\r\n",
+      "<p>28 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>56 सेमी</strong> है।</p>\r\n\r\n<p>वृत्त का क्षेत्रफल = &pi;&nbsp;&times; त्रिज्या<sup>2</sup></p>\r\n\r\n<p>&rArr; 2464 =&nbsp;{22/7}&nbsp;&times; त्रिज्या<sup>2</sup></p>\r\n\r\n<p>&rArr; 784 = त्रिज्या<sup>2</sup></p>\r\n\r\n<p>अत: त्रिज्या = 28 सेमी</p>\r\n\r\n<p>व्यास = 2 &times; 28 = 56 सेमी होगा</p>\r\n"
+  },
+  {
+    "question": "<p>Two cylinders have their heights in the ratio 1 : 2 and their radii in the ratio 2 : 1. What is the ratio of their volumes?</p>\r\n",
+    "options": [
+      "<p>3 : 1</p>\r\n",
+      "<p>1 : 3</p>\r\n",
+      "<p>&nbsp;2 : 1</p>\r\n",
+      "<p>1 : 1</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 3&nbsp;</strong>i.e. <strong>2 : 1.</strong></p>\r\n\r\n<p>Volume of a cylinder = {22/7}&nbsp;&times; radius<sup>2</sup>&nbsp;&times; height</p>\r\n\r\n<p>Let the height of the first cylinder = x and the radii to be 2y</p>\r\n\r\n<p>And, the height of the second cylinder = 2x and the radii to be y</p>\r\n\r\n<p>Then ratio of the volume of cylinder 1 and cylinder 2 = {(2y)<sup>2</sup>&nbsp;&times; (x)}/{(y)<sup>2</sup>&nbsp;&times; (2x)}</p>\r\n\r\n<p>&rArr; {4y<sup>2</sup>&nbsp;&times; x}/{y<sup>2</sup>&nbsp;&times; 2x} = 2 : 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो बेलनों की ऊंचाई 1 : 2 के अनुपात में है और उनकी त्रिज्या 2 : 1 के अनुपात में है। उनके आयतन का अनुपात क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>3 : 1</p>\r\n",
+      "<p>1 : 3</p>\r\n",
+      "<p>&nbsp;2 : 1</p>\r\n",
+      "<p>1 : 1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>2 : 1</strong> है।</p>\r\n\r\n<p>एक बेलन का आयतन = {22/7}&nbsp;&times; त्रिज्या<sup>2</sup>&nbsp;&times; ऊँचाई</p>\r\n\r\n<p>माना पहले बेलन की ऊंचाई = x और त्रिज्या 2y है</p>\r\n\r\n<p>तथा, दूसरे बेलन की ऊँचाई = 2x तथा त्रिज्या y होगी</p>\r\n\r\n<p>तो,&nbsp;बेलन 1 और बेलन 2 के आयतन का अनुपात&nbsp;= {(2y)<sup>2</sup>&nbsp;&times; (x)}/{(y)<sup>2</sup>&nbsp;&times; (2x)}</p>\r\n\r\n<p>&rArr; {4y<sup>2</sup>&nbsp;&times; x}/{y<sup>2</sup>&nbsp;&times; 2x} = 2 : 1</p>\r\n"
+  },
+  {
+    "question": "<p>The area of a circle is 1386 cm<sup>3</sup>. What is the radius of the circle? [Use pi = 22/7 ]</p>\r\n",
+    "options": [
+      "<p>21 cm</p>\r\n",
+      "<p>7 cm</p>\r\n",
+      "<p>14 cm</p>\r\n",
+      "<p>18 cm</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong>&nbsp;Option 1&nbsp;</strong>i.e.&nbsp;<strong>21 cm.</strong></p>\r\n\r\n<p>The area of circle = (&pi;)&nbsp;&times; radius<sup>2</sup></p>\r\n\r\n<p>&rArr; 1386 =&nbsp;(22/7)&nbsp;&times; radius<sup>2</sup></p>\r\n\r\n<p>&rArr; (1386&nbsp;&times; 7)/22 = radius<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp; 441 = radius<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp; radius = 21 cm</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वृत्त का क्षेत्रफल 1386 घन&nbsp;सेमी&nbsp;है। वृत्त की त्रिज्या क्या है? [pi = 22/7 का प्रयोग करें]</p>\r\n",
+    "options_hi": [
+      "<p>21 सेमी&nbsp;</p>\r\n",
+      "<p>7 सेमी&nbsp;</p>\r\n",
+      "<p>14 सेमी&nbsp;</p>\r\n",
+      "<p>18 सेमी&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर&nbsp; <strong>विकल्प 1</strong>&nbsp;अर्थात्<strong>&nbsp;21 सेमी</strong> है।</p>\r\n\r\n<p>वृत्त का क्षेत्रफल = (&pi;)&nbsp;&times; त्रिज्या<sup>2</sup></p>\r\n\r\n<p>&rArr; 1386 =&nbsp;(22/7)&nbsp;&times; त्रिज्या<sup>2</sup></p>\r\n\r\n<p>&rArr; (1386&nbsp;&times; 7)/22 = त्रिज्या<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp; 441 = त्रिज्या<sup>2</sup></p>\r\n\r\n<p>&rArr;&nbsp; त्रिज्या = 21 सेमी&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>The surface areas of two spheres are in the ratio of 64 : 81. Find the ratio of their volumes, in the order given.</p>\r\n",
+    "options": [
+      "<p>512 : 729</p>\r\n",
+      "<p>64 : 729</p>\r\n",
+      "<p>8 : 81</p>\r\n",
+      "<p>4 : 9</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 1&nbsp;</strong>i.e.&nbsp;<strong>512 : 729.</strong></p>\r\n\r\n<p>If the ratio of the surface area of the two spheres is 64 : 81, then the ratio of their radii = 8 : 9</p>\r\n\r\n<p>If the ratio of their radii is 8 : 9, then the ratio of their volume = 8<sup>3&nbsp;</sup>: 9<sup>3</sup> = 512 : 729</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो गोलों के पृष्ठीय क्षेत्रफल का अनुपात 64 : 81 है। दिए गए क्रम में उनके आयतनों का अनुपात ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>512 : 729</p>\r\n",
+      "<p>64 : 729</p>\r\n",
+      "<p>8 : 81</p>\r\n",
+      "<p>4 : 9</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर&nbsp; <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>512 : 729</strong> है।</p>\r\n\r\n<p>यदि दोनों गोलों के पृष्ठीय क्षेत्रफल का अनुपात 64 : 81 है, तो उनकी त्रिज्याओं का अनुपात = 8 : 9</p>\r\n\r\n<p>यदि उनकी त्रिज्याओं का अनुपात 8 : 9 है, तो उनके आयतन का अनुपात = 8<sup>3&nbsp;</sup>: 9<sup>3</sup> = 512 : 729</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>The diameter of a circle is 42 cm. What is the difference between the lengths of the circumference and the radius of the circle? [Use &pi; = 22/7]</p>\r\n",
+    "options": [
+      "<p>98</p>\r\n",
+      "<p>94</p>\r\n",
+      "<p>111</p>\r\n",
+      "<p>105</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 3&nbsp;</strong>i.e.&nbsp;<strong>111.</strong></p>\r\n\r\n<p>Circumference of the circle = 2&nbsp;&times; (&pi;)&nbsp;&times; radius</p>\r\n\r\n<p>Radius = Diameter/2 = 42/2 = 21</p>\r\n\r\n<p>thus,&nbsp;Circumference of the circle = 2&nbsp;&times; (22/7)&nbsp;&times; 21 = 132</p>\r\n\r\n<p>Difference between circumference and the radius = 132 - 21 = 11</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक वृत्त का व्यास 42 सेमी है। वृत्त की परिधि और त्रिज्या की लंबाई के बीच क्या अंतर है? [&pi; = 22/7 का प्रयोग करें]</p>\r\n",
+    "options_hi": [
+      "<p>98</p>\r\n",
+      "<p>94</p>\r\n",
+      "<p>111</p>\r\n",
+      "<p>105</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>111</strong> है।</p>\r\n\r\n<p>वृत्त की परिधि = 2&nbsp;&times; (&pi;)&nbsp;&times; त्रिज्या</p>\r\n\r\n<p>त्रिज्या = व्यास/2 = 42/2 = 21</p>\r\n\r\n<p>इस प्रकार, वृत्त की परिधि = 2 &times; (22/7) &times; 21 = 132</p>\r\n\r\n<p>परिधि और त्रिज्या के बीच का अंतर = 132 - 21 = 11</p>\r\n"
+  },
+  {
+    "question": "<p>The length of each side of a cube is 24 cm. The volume of the cube is equal to the volume of a cuboid. If the breadth and the height of the cuboid are 32 cm and 12 cm, respectively, then what will be the length of the cuboid?</p>\r\n",
+    "options": [
+      "<p>36 cm</p>\r\n",
+      "<p>56 cm</p>\r\n",
+      "<p>48 cm</p>\r\n",
+      "<p>42 cm</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1&nbsp;</strong>i.e.&nbsp;<strong>36 cm.</strong></p>\r\n\r\n<p>Volume of cube = (side)<sup>3</sup></p>\r\n\r\n<p>Volume of cuboid = l&nbsp;&times; b&nbsp;&times; h</p>\r\n\r\n<p>Side of cube = 24 cm</p>\r\n\r\n<p>Breadth of cuboid = 32 cm</p>\r\n\r\n<p>Height of cuboid = 12 cm</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>The volume of the cube = Volume of the cuboid&nbsp;</p>\r\n\r\n<p>&rArr; (side)<sup>3</sup>&nbsp;= l&nbsp;&times; b&nbsp;&times; h</p>\r\n\r\n<p>&rArr; (24)<sup>3</sup>&nbsp;= l&nbsp;&times; 32&nbsp;&times; 12</p>\r\n\r\n<p>&rArr; l = (24&nbsp;&times; 24&nbsp;&times; 24)/(32&nbsp;&times; 12)</p>\r\n\r\n<p>l = 36&nbsp;</p>\r\n\r\n<p>Hence the length of the cuboid =<strong> 36 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक घन की प्रत्येक भुजा की लंबाई 24 सेमी है। घन का आयतन एक घनाभ के आयतन के बराबर&nbsp;है। यदि घनाभ की चौड़ाई और ऊंचाई क्रमशः 32 सेमी और 12 सेमी है, तो घनाभ की लंबाई क्या होगी?</p>\r\n",
+    "options_hi": [
+      "<p>36 सेमी</p>\r\n",
+      "<p>56 सेमी</p>\r\n",
+      "<p>48 सेमी</p>\r\n",
+      "<p>42 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>36 सेमी</strong> है।</p>\r\n\r\n<p>घन का आयतन = (भुजा)<sup>3</sup></p>\r\n\r\n<p>घनाभ का आयतन = l&nbsp;&times; b&nbsp;&times; h</p>\r\n\r\n<p>घन की भुजा = 24 सेमी</p>\r\n\r\n<p>घनाभ की चौड़ाई = 32 सेमी</p>\r\n\r\n<p>घनाभ की ऊंचाई = 12 सेमी</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>घन का आयतन = घनाभ का आयतन</p>\r\n\r\n<p>&rArr; (भुजा)<sup>3</sup> = l&nbsp;&times; b&nbsp;&times; h</p>\r\n\r\n<p>&rArr; (24)<sup>3</sup>&nbsp;= l&nbsp;&times; 32&nbsp;&times; 12</p>\r\n\r\n<p>&rArr; l = (24&nbsp;&times; 24&nbsp;&times; 24)/(32&nbsp;&times; 12)</p>\r\n\r\n<p>l = 36&nbsp;</p>\r\n\r\n<p>अत: घनाभ की लंबाई = <strong>36 सेमी</strong></p>\r\n"
+  },
+  {
+    "question": "<p>The surface area of a sphere is 2464 cm<sup>3</sup> . Find the radius of the sphere. [Use &pi; = 22/7 ]</p>\r\n",
+    "options": [
+      "<p>14 cm</p>\r\n",
+      "<p>28 cm</p>\r\n",
+      "<p>42 cm</p>\r\n",
+      "<p>40 cm</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct option is&nbsp;<strong>option 1&nbsp;</strong>i.e.&nbsp;<strong>14 cm.</strong></p>\r\n\r\n<p>The surface area of a sphere = 4&nbsp;&pi; r<sup>2</sup></p>\r\n\r\n<p>Surface Area =&nbsp;4&nbsp;&pi; r<sup>2</sup></p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>= (Surface Area)/4&nbsp;&pi;</p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>&nbsp;= (2464&nbsp;&times; 7)/88</p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>&nbsp;= 28&nbsp;&times; 7</p>\r\n\r\n<p>&rArr; r = 7&nbsp;&times; 2 = 14.</p>\r\n\r\n<p>Hence the radius of the sphere is&nbsp;<strong>14 cm.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक गोले का पृष्ठीय क्षेत्रफल 2464 वर्ग सेमी&nbsp;है। गोले की त्रिज्या ज्ञात कीजिए। [&pi; = 22/7 का प्रयोग कीजिए]</p>\r\n",
+    "options_hi": [
+      "<p>14 सेमी</p>\r\n",
+      "<p>28 सेमी</p>\r\n",
+      "<p>42 सेमी</p>\r\n",
+      "<p>40 सेमी</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>14 सेमी</strong> है।</p>\r\n\r\n<p>गोले का पृष्ठीय क्षेत्रफल = 4 &pi; r<sup>2</sup></p>\r\n\r\n<p>पृष्ठीय क्षेत्रफल =&nbsp;4&nbsp;&pi; r<sup>2</sup></p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>= (पृष्ठीय क्षेत्रफल)/4&nbsp;&pi;</p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>&nbsp;= (2464&nbsp;&times; 7)/88</p>\r\n\r\n<p>&rArr; r<sup>2&nbsp;</sup>&nbsp;= 28&nbsp;&times; 7</p>\r\n\r\n<p>&rArr; r = 7&nbsp;&times; 2 = 14</p>\r\n\r\n<p>अतः गोले की त्रिज्या <strong>14 सेमी</strong> है।</p>\r\n</div>\r\n"
+  }
+]
