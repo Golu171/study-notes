@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>If (x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>) = 5, what is the value of (x<sup>8&nbsp;</sup>+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^8}\\)</span>)?</p>\r\n",
+    "options": [
+      "<p>277727</p>\r\n",
+      "<p>277625</p>\r\n",
+      "<p>277277</p>\r\n",
+      "<p>277222</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 i.e.&nbsp;277727</strong><strong>.</strong></p>\r\n\r\n<p>x + 1/x = 5</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr; (x + 1/x)<sup>2</sup> = 25</p>\r\n\r\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> + 2 = 25</p>\r\n\r\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup>&nbsp;= 25 - 2</p>\r\n\r\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> = 23</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr; (x<sup>2</sup> + 1/x<sup>2</sup>)<sup>2</sup> = 23<sup>2</sup></p>\r\n\r\n<p>&rArr; x<sup>4</sup> + 1/x<sup>4</sup> + 2 = 529</p>\r\n\r\n<p>&rArr; x<sup>4</sup> + 1/x<sup>4</sup> = 527</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr; (x<sup>4 </sup>+ 1/x<sup>4</sup>)<sup>2</sup> = 527<sup>2</sup></p>\r\n\r\n<p>&rArr; x<sup>8</sup> + 1/x<sup>8</sup> + 2 = 277729</p>\r\n\r\n<p>&rArr; x<sup>8</sup> + 1/x<sup>8</sup> = 277727</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>) = 5 है, तो&nbsp;(x<sup>8&nbsp;</sup>+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^8}\\)</span>) का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>277727</p>\r\n",
+      "<p>277625</p>\r\n",
+      "<p>277277</p>\r\n",
+      "<p>277222</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात् <strong>277727</strong> है।&nbsp;</p>\r\n\r\n<p>x + 1/x = 5</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करने पर&nbsp;</p>\r\n\r\n<p>&rArr; (x + 1/x)<sup>2</sup> = 25</p>\r\n\r\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> + 2 = 25</p>\r\n\r\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup>&nbsp;= 25 - 2</p>\r\n\r\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> = 23</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करने पर&nbsp;</p>\r\n\r\n<p>&rArr; (x<sup>2</sup> + 1/x<sup>2</sup>)<sup>2</sup> = 23<sup>2</sup></p>\r\n\r\n<p>&rArr; x<sup>4</sup> + 1/x<sup>4</sup> + 2 = 529</p>\r\n\r\n<p>&rArr; x<sup>4</sup> + 1/x<sup>4</sup> = 527</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करने पर&nbsp;</p>\r\n\r\n<p>&rArr; (x<sup>4 </sup>+ 1/x<sup>4</sup>)<sup>2</sup> = 527<sup>2</sup></p>\r\n\r\n<p>&rArr; x<sup>8</sup> + 1/x<sup>8</sup> + 2 = 277729</p>\r\n\r\n<p>&rArr; x<sup>8</sup> + 1/x<sup>8</sup> = 277727</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If (a + b + c) = 19, and (a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 155, find the value of (a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>.</p>\r\n",
+    "options": [
+      "<p>104</p>\r\n",
+      "<p>108</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>98</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>104.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If (a + b + c) = 19, and (a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 155</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>&nbsp;a<sup>2</sup> + b<sup> 2</sup> + c<sup> 2</sup>&nbsp;=&nbsp;(&nbsp;a + b + c )<sup> 2</sup> - 2 (ab + bc + ca)</p>\r\n\r\n<p>(a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>&nbsp;= 2 (a<sup>2</sup> + b<sup> 2</sup> + c<sup> 2</sup>) - 2&nbsp;(ab + bc + ca)</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; 155 = 19<sup>2</sup>&nbsp;- 2&nbsp;&times;&nbsp;( ab + bc + ca&nbsp;)</p>\r\n\r\n<p>&rArr; 2&nbsp;&times;&nbsp;( ab + bc + ca&nbsp;) = 361 - 155 = 206</p>\r\n\r\n<p>As we know,</p>\r\n\r\n<p>&rArr;&nbsp;(a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>&nbsp;= 2&nbsp;&times;&nbsp;155 - 206 = 310 - 206 = 104</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a + b + c) = 19, और&nbsp;(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 155 है, तो (a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2&nbsp;</sup>का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>104</p>\r\n",
+      "<p>108</p>\r\n",
+      "<p>100</p>\r\n",
+      "<p>98</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात् <strong>104</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं&nbsp;कि</p>\r\n\r\n<p>यदि (a + b + c) = 19, और (a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 155</p>\r\n\r\n<p>प्रयुक्त सूत्र&nbsp;</p>\r\n\r\n<p>&nbsp;a<sup>2</sup> + b<sup> 2</sup> + c<sup> 2</sup>&nbsp;=&nbsp;(&nbsp;a + b + c )<sup> 2</sup> - 2 (ab + bc + ca)</p>\r\n\r\n<p>(a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>&nbsp;= 2 (a<sup>2</sup> + b<sup> 2</sup> + c<sup> 2</sup>) - 2&nbsp;(ab + bc + ca)</p>\r\n\r\n<p>गणना&nbsp;</p>\r\n\r\n<p>&rArr; 155 = 19<sup>2</sup>&nbsp;- 2&nbsp;&times;&nbsp;( ab + bc + ca&nbsp;)</p>\r\n\r\n<p>&rArr; 2&nbsp;&times;&nbsp;( ab + bc + ca&nbsp;) = 361 - 155 = 206</p>\r\n\r\n<p>जैसा कि हम जानते हैं,</p>\r\n\r\n<p>&rArr;&nbsp;(a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>&nbsp;= 2&nbsp;&times;&nbsp;155 - 206 = 310 - 206 = 104</p>\r\n"
+  },
+  {
+    "question": "<p>If x -&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>= - 6, what will be the value of x<sup>5</sup>&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^5}\\)</span>?</p>\r\n",
+    "options": [
+      "<p>- 8898</p>\r\n",
+      "<p>- 8896</p>\r\n",
+      "<p>- 8886</p>\r\n",
+      "<p>- 8892</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3 </strong>i.e. <strong>- 8886.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If x&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>= -&nbsp;6</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;+ 1/x<sup>2</sup>&nbsp;- 2 = 36</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;+ 1/x<sup>2</sup>&nbsp;= 38&nbsp;</p>\r\n\r\n<p>Now,&nbsp;&nbsp;x&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>= -&nbsp;6</p>\r\n\r\n<p>Cube both sides</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>&nbsp;- 3(x - 1/x) = - 216</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>&nbsp;= -216 - 18 = - 234</p>\r\n\r\n<p>As we know,</p>\r\n\r\n<p>&rArr; x<sup>5</sup>&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^5}\\)</span>&nbsp;= (x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>) (x<sup>2</sup>&nbsp;+ 1/x<sup>2</sup>) -&nbsp;(&nbsp;x&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;)</p>\r\n\r\n<p>= - 234&nbsp;&times; 38 -&nbsp;(- 6) = - 8892 +&nbsp;6 = - 8886</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x -&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>= - 6 है, तो&nbsp;x<sup>5</sup>&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^5}\\)</span>&nbsp;का मान क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>- 8898</p>\r\n",
+      "<p>- 8896</p>\r\n",
+      "<p>- 8886</p>\r\n",
+      "<p>- 8892</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात् <strong>- 8886</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं&nbsp;कि</p>\r\n\r\n<p>यदि x&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>= -&nbsp;6</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करने पर&nbsp;</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;+ 1/x<sup>2</sup>&nbsp;- 2 = 36</p>\r\n\r\n<p>&rArr; x<sup>2</sup>&nbsp;+ 1/x<sup>2</sup>&nbsp;= 38&nbsp;</p>\r\n\r\n<p>अब,&nbsp;&nbsp;x&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>= -&nbsp;6</p>\r\n\r\n<p>दोनों पक्षों का घन&nbsp;करने पर</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>&nbsp;- 3(x - 1/x) = - 216</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>&nbsp;= -216 - 18 = - 234</p>\r\n\r\n<p>जैसा कि हम जानते हैं,</p>\r\n\r\n<p>&rArr; x<sup>5</sup>&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^5}\\)</span>&nbsp;= (x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>) (x<sup>2</sup>&nbsp;+ 1/x<sup>2</sup>) -&nbsp;(&nbsp;x&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;)</p>\r\n\r\n<p>= - 234&nbsp;&times; 38 -&nbsp;(- 6) = - 8892 +&nbsp;6 = - 8886</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2 </sup>+ b<sup>2</sup> + c<sup>2&nbsp;</sup>= ab + bc + ac, then the value of&nbsp;<span class=\"math-tex\">\\(\\frac{11 a^4+13 b^4 + 17 c^4}{17 a^2b+9bc^2 + 15 c^2a}\\)</span>&nbsp;is.</p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 i.e. 1.</strong></p>\r\n\r\n<p>Let,&nbsp;</p>\r\n\r\n<p>The value of a = 1, b = 1, and c = 1</p>\r\n\r\n<p>Thus, the value of&nbsp;<span class=\"math-tex\">\\(\\frac{11 a^4+13 b^4 + 17 c^4}{17 a^2b+9bc^2 + 15 c^2a}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{11 (1)^4+13 (1)^4 + 17 (1)^4}{17 (1)^2(1)+9(1)(1)^2 + 15 (1)^2(1)}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{11 +13 + 17}{17 +9+ 15 }\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{41}{41}\\)</span>&nbsp;= 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2 </sup>+ b<sup>2</sup> + c<sup>2&nbsp;</sup> = ab + bc + ac है, तो&nbsp;<span class=\"math-tex\">\\(\\frac{11 a^4+13 b^4 + 17 c^4}{17 a^2b+9bc^2 + 15 c^2a}\\)</span>&nbsp;का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>1 </strong>है।&nbsp;</p>\r\n\r\n<p>माना,&nbsp;</p>\r\n\r\n<p>a = 1, b = 1, और c = 1 का मान&nbsp;</p>\r\n\r\n<p>इस प्रकार, <span class=\"math-tex\">\\(\\frac{11 a^4+13 b^4 + 17 c^4}{17 a^2b+9bc^2 + 15 c^2a}\\)</span>का मान&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{11 (1)^4+13 (1)^4 + 17 (1)^4}{17 (1)^2(1)+9(1)(1)^2 + 15 (1)^2(1)}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{11 +13 + 17}{17 +9+ 15 }\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{41}{41}\\)</span>&nbsp;= 1</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If (a &minus; 2b) = 8 and 2ab = 9, then find the value of (a + 2b).</p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e. <strong>10.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If (a &minus; 2b) = 8 and 2ab = 9,</p>\r\n\r\n<p>As we know,</p>\r\n\r\n<p>(a + 2b)<sup>2</sup>&nbsp;=&nbsp;(a -&nbsp;2b)<sup>2</sup>&nbsp;+ 8ab</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; (a + 2b)<sup>2</sup>&nbsp;=&nbsp;(8)<sup>2</sup>&nbsp;+ 8&nbsp;&times; 9/2</p>\r\n\r\n<p>&rArr; (a + 2b)<sup>2</sup>&nbsp;= 64 + 36 = 100</p>\r\n\r\n<p>&rArr; a + 2b = 10</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a &minus; 2b) = 8 और 2ab = 9 है, तो (a + 2b) का मान ज्ञात कीजिये।</p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>10</strong> है।</p>\r\n\r\n<p>दिया गया है &nbsp;&nbsp;</p>\r\n\r\n<p>यदि (a &minus; 2b) = 8 और 2ab = 9,</p>\r\n\r\n<p>जैसा कि हम जानते हैं,</p>\r\n\r\n<p>(a + 2b)<sup>2</sup>&nbsp;=&nbsp;(a -&nbsp;2b)<sup>2</sup>&nbsp;+ 8ab</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>&rArr; (a + 2b)<sup>2</sup>&nbsp;=&nbsp;(8)<sup>2</sup>&nbsp;+ 8&nbsp;&times; 9/2</p>\r\n\r\n<p>&rArr; (a + 2b)<sup>2</sup>&nbsp;= 64 + 36 = 100</p>\r\n\r\n<p>&rArr; a + 2b = 10</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If 2x + 3y = 9, and xy = 3, what is 8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>?</p>\r\n",
+    "options": [
+      "<p>235</p>\r\n",
+      "<p>244</p>\r\n",
+      "<p>243</p>\r\n",
+      "<p>234</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.&nbsp;<strong>243.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If 2x + 3y = 9, and xy = 3,</p>\r\n\r\n<p>&rArr;&nbsp; 2x + 3y = 9</p>\r\n\r\n<p>&rArr; Cube both sides</p>\r\n\r\n<p>&rArr;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>&nbsp;+ 18xy (2x + 3y) = 729</p>\r\n\r\n<p>&rArr;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>&nbsp;+ 18&nbsp;&times; 3&nbsp;&times; 9 = 729</p>\r\n\r\n<p>&rArr;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>&nbsp;= 729 - 486&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup> = 243</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;2x + 3y = 9, and xy = 3 है, तो&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3&nbsp;</sup>क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>235</p>\r\n",
+      "<p>244</p>\r\n",
+      "<p>243</p>\r\n",
+      "<p>234</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्<strong> 243</strong> है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>यदि&nbsp; 2x + 3y = 9, and xy = 3,</p>\r\n\r\n<p>&rArr;&nbsp; 2x + 3y = 9</p>\r\n\r\n<p>&rArr; दोनों पक्ष घन</p>\r\n\r\n<p>&rArr;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>&nbsp;+ 18xy (2x + 3y) = 729</p>\r\n\r\n<p>&rArr;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>&nbsp;+ 18&nbsp;&times; 3&nbsp;&times; 9 = 729</p>\r\n\r\n<p>&rArr;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup>&nbsp;= 729 - 486&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;&nbsp;8x<sup>3</sup>&nbsp;+ 27y<sup>3</sup> = 243</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If ( z + <span class=\"math-tex\">\\(\\frac{1}{z}\\)</span>&nbsp;) = 4, then what will be the value of&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span> ( z&sup2; + <span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;)&nbsp;?</p>\r\n",
+    "options": [
+      "<p>14</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.<strong> 7.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If ( z + <span class=\"math-tex\">\\(\\frac{1}{z}\\)</span>&nbsp;) = 4</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr;&nbsp;z&sup2; + <span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;+ 2 = 16</p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;z&sup2; + <span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;= 14</p>\r\n\r\n<p>Hence,&nbsp;&frac12;&nbsp;(&nbsp;z&sup2; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;) = 14/2 = 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि ( z + <span class=\"math-tex\">\\(\\frac{1}{z}\\)</span>&nbsp;) = 4 है, तो&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>( z&sup2; + <span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;)का मान क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>14</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>7</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>यदि ( z + <span class=\"math-tex\">\\(\\frac{1}{z}\\)</span>&nbsp;) = 4</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करने पर&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;z&sup2; + <span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;+ 2 = 16</p>\r\n\r\n<p>&nbsp;&rArr;&nbsp;z&sup2; + <span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;= 14</p>\r\n\r\n<p>अतः,&nbsp;&frac12;&nbsp;(&nbsp;z&sup2; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{z^2}\\)</span>&nbsp;) = 14/2 = 7</p>\r\n"
+  },
+  {
+    "question": "<p>If p + q +r = 0, then what is the simplified value of the expression&nbsp;(&nbsp;<span class=\"math-tex\">\\(\\frac{p^2}{p^2 - qr} + \\frac{q^2}{q^2 - pr} + \\frac{r^2}{r^2 - pq}\\)</span>&nbsp;)</p>\r\n",
+    "options": [
+      "<p>0</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>-1</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2 </strong>i.e.<strong> 2.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If p + q + r = 0,&nbsp;</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>Put p = 0, q = 1, r = -1</p>\r\n\r\n<p>&rArr; (<span class=\"math-tex\">\\(\\frac{p^2}{p^2 - qr} + \\frac{q^2}{q^2 - pr} + \\frac{r^2}{r^2 - pq}\\)</span>)</p>\r\n\r\n<p>&rArr; 0 + 1 + 1&nbsp;</p>\r\n\r\n<p>&rArr; 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि p + q + r = 0 है, तो व्यंजक&nbsp;(<span class=\"math-tex\">\\(\\frac{p^2}{p^2 - qr} + \\frac{q^2}{q^2 - pr} + \\frac{r^2}{r^2 - pq}\\)</span>) का सरलीकृत मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>0</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>-1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>2 </strong>है।</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>यदि p + q + r = 0,&nbsp;</p>\r\n\r\n<p>गणना&nbsp;</p>\r\n\r\n<p>p = 0, q = 1, r = -1 रखने पर&nbsp;</p>\r\n\r\n<p>&rArr; (<span class=\"math-tex\">\\(\\frac{p^2}{p^2 - qr} + \\frac{q^2}{q^2 - pr} + \\frac{r^2}{r^2 - pq}\\)</span>)</p>\r\n\r\n<p>&rArr; 0 + 1 + 1&nbsp;</p>\r\n\r\n<p>&rArr; 2</p>\r\n"
+  },
+  {
+    "question": "<p>If 2a + 3b = 14 and 2a - 3b = 10, then find the value of &#39;ab&#39;.</p>\r\n",
+    "options": [
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e. <strong>4.</strong></p>\r\n\r\n<p>2a + 3b = 14......................1</p>\r\n\r\n<p>2a - 3b = 10.....................2</p>\r\n\r\n<p>Add equations 1 and 2</p>\r\n\r\n<p>&rArr; 4a = 24</p>\r\n\r\n<p>&rArr; a = 6</p>\r\n\r\n<p>Now put the value of &#39;a&#39; in equation 1</p>\r\n\r\n<p>&rArr; 12 + 3b = 14</p>\r\n\r\n<p>&rArr; b = 2/3</p>\r\n\r\n<p>So, the value of ab = 6&nbsp;&times; 2/3 = 4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 2a + 3b = 14 और 2a - 3b = 10 है, तो &#39;ab&#39; का मान ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>5</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी<strong> 4</strong> है।</p>\r\n\r\n<p>2a + 3b = 14......................1</p>\r\n\r\n<p>2a - 3b = 10.....................2</p>\r\n\r\n<p>समीकरण 1 और 2 जोड़ें</p>\r\n\r\n<p>&rArr; 4a = 24</p>\r\n\r\n<p>&rArr; a = 6</p>\r\n\r\n<p>अब समीकरण 1 में &#39;a&#39; का मान रखें</p>\r\n\r\n<p>&rArr; 12 + 3b = 14</p>\r\n\r\n<p>&rArr; b = 2/3</p>\r\n\r\n<p>तो, ab का मान = 6 &times; 2/3 = 4</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If x<sup>3</sup> = 270 + y<sup>3</sup> and x = (6 + y), then what is the value of (x + y)? (given that x > 0 and y > 0)</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(2\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\sqrt2\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.&nbsp;<strong><span class=\"math-tex\">\\(4\\sqrt3\\)</span>.</strong></p>\r\n\r\n<p>x<sup>3</sup> = 270 + y<sup>3</sup></p>\r\n\r\n<p>&rArr; x<sup>3</sup> -&nbsp; y<sup>3&nbsp;</sup>= 270...................1</p>\r\n\r\n<p>x = (6 + y)</p>\r\n\r\n<p>&rArr; x - y = 6......................2</p>\r\n\r\n<p>We know that&nbsp;</p>\r\n\r\n<p>(x - y)<sup>3</sup>&nbsp;= x<sup>3</sup>&nbsp;- y<sup>3</sup>&nbsp;- 3xy(x - y)</p>\r\n\r\n<p>So,&nbsp;</p>\r\n\r\n<p>&rArr; 6<sup>3</sup>&nbsp;=&nbsp;&nbsp;270&nbsp;- 3xy(6)</p>\r\n\r\n<p>&rArr; 216 - 270 = -18xy</p>\r\n\r\n<p>&rArr; xy = 54/18 = 3</p>\r\n\r\n<p>(x + y)<sup>2</sup>&nbsp;= (x - y)<sup>2</sup>&nbsp;+ 4xy</p>\r\n\r\n<p>&rArr;&nbsp;(x + y)<sup>2</sup>&nbsp;= (6)<sup>2</sup>&nbsp;+ 4&nbsp;&times; 3</p>\r\n\r\n<p>&rArr;&nbsp;(x + y)<sup>2</sup>&nbsp;= 48</p>\r\n\r\n<p>&rArr;&nbsp;(x + y) =&nbsp;<strong><span class=\"math-tex\">\\(4\\sqrt3\\)</span></strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x<sup>3</sup> = 270 + y<sup>3</sup> और x = (6 + y) है, तो (x + y) का मान क्या है? (यह देखते हुए कि x > 0 और y > 0)</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(2\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\sqrt3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\sqrt2\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात<strong><strong><span class=\"math-tex\">\\(4\\sqrt3\\)</span></strong></strong>&nbsp; है।&nbsp;</p>\r\n\r\n<p>x<sup>3</sup> = 270 + y<sup>3</sup></p>\r\n\r\n<p>&rArr; x<sup>3</sup> -&nbsp; y<sup>3&nbsp;</sup>= 270...................1</p>\r\n\r\n<p>x = (6 + y)</p>\r\n\r\n<p>&rArr; x - y = 6......................2</p>\r\n\r\n<p>हम जानते हैं</p>\r\n\r\n<p>(x - y)<sup>3</sup>&nbsp;= x<sup>3</sup>&nbsp;- y<sup>3</sup>&nbsp;- 3xy(x - y)</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>&rArr; 6<sup>3</sup>&nbsp;=&nbsp;&nbsp;270&nbsp;- 3xy(6)</p>\r\n\r\n<p>&rArr; 216 - 270 = -18xy</p>\r\n\r\n<p>&rArr; xy = 54/18 = 3</p>\r\n\r\n<p>(x + y)<sup>2</sup>&nbsp;= (x - y)<sup>2</sup>&nbsp;+ 4xy</p>\r\n\r\n<p>&rArr;&nbsp;(x + y)<sup>2</sup>&nbsp;= (6)<sup>2</sup>&nbsp;+ 4&nbsp;&times; 3</p>\r\n\r\n<p>&rArr;&nbsp;(x + y)<sup>2</sup>&nbsp;= 48</p>\r\n\r\n<p>&rArr;&nbsp;(x + y) =&nbsp;<strong><strong><span class=\"math-tex\">\\(4\\sqrt3\\)</span></strong></strong></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If (a + b + c)&nbsp;<span style=\"font-size:11.0pt\">&ne; 0, then (a + b + c) (a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca) is equal to:&nbsp;</span></p>\r\n",
+    "options": [
+      "<p>a<sup>3</sup> + b<sup>3</sup> - c<sup>3</sup> - 3abc</p>\r\n",
+      "<p>a<sup>3</sup> - b<sup>3</sup> +c<sup>3</sup> - 3abc</p>\r\n",
+      "<p>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> - 3abc</p>\r\n",
+      "<p>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> + 3abc</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.<strong>&nbsp;a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> - 3abc.</strong></p>\r\n\r\n<p>(a + b + c)&nbsp;<span style=\"font-size:11.0pt\">&ne; 0, </span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">(a + b + c) (a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca).................1</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Let&#39;s assume a = b = c = 1</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Put the value of a, b, and c in Equation 1</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr;&nbsp;(1 + 1 + 1) (1<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup> - 1 &times; 1- 1 &times; 1- 1 &times; 1)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; (3)(3 - 3)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr;&nbsp;</span>&nbsp;<span style=\"font-size:11.0pt\">(3)(0)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 0</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Now option 3</span></p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> - 3abc</p>\r\n\r\n<p>=&nbsp;1<sup>3</sup> + 1<sup>3&nbsp;</sup>+ 1<sup>3</sup> - 3 (<span style=\"font-size:11.0pt\">1 &times; 1 &times; 1)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 3 - 3 = 0</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Only option 3 satisfies</span>​​​​​​​</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a + b + c) &ne; 0, तो (a + b + c) <span style=\"font-size:11.0pt\">(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca)&nbsp;</span>बराबर है:</p>\r\n",
+    "options_hi": [
+      "<p>a<sup>3</sup> + b<sup>3</sup> - c<sup>3</sup> - 3abc</p>\r\n",
+      "<p>a<sup>3</sup> - b<sup>3</sup> +c<sup>3</sup> - 3abc</p>\r\n",
+      "<p>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> - 3abc</p>\r\n",
+      "<p>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> + 3abc</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात <strong>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> - 3abc</strong> है।</p>\r\n\r\n<p>(a + b + c)&nbsp;<span style=\"font-size:11.0pt\">&ne; 0, </span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">(a + b + c) (a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca).................1</span></p>\r\n\r\n<p>आइए मान लें कि a = b = c = 1</p>\r\n\r\n<p>समीकरण 1 में a, b, और c का मान रखें</p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr;&nbsp;(1 + 1 + 1) (1<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup> - 1 &times; 1- 1 &times; 1- 1 &times; 1)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; (3)(3 - 3)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr;&nbsp;</span>&nbsp;<span style=\"font-size:11.0pt\">(3)(0)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 0</span></p>\r\n\r\n<p>अब विकल्प 3</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> - 3abc</p>\r\n\r\n<p>=&nbsp;1<sup>3</sup> + 1<sup>3&nbsp;</sup>+ 1<sup>3</sup> - 3 (<span style=\"font-size:11.0pt\">1 &times; 1 &times; 1)</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">= 3 - 3 = 0</span></p>\r\n\r\n<p>केवल विकल्प 3 संतुष्ट करता है</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;<span class=\"math-tex\">\\((y+\\frac{1}{y}) = 8\\)</span>, find the value of&nbsp;<span class=\"math-tex\">\\((y^2+\\frac{1}{y^2})\\)</span>.</p>\r\n",
+    "options": [
+      "<p>64</p>\r\n",
+      "<p>66</p>\r\n",
+      "<p>62</p>\r\n",
+      "<p>60</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3&nbsp;</strong>i.e.&nbsp;<strong>62.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p><span class=\"math-tex\">\\((y+\\frac{1}{y}) = 8\\)</span></p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\((y^2+\\frac{1}{y^2})\\)</span>&nbsp;+ 2 = 64</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\((y^2+\\frac{1}{y^2})\\)</span>&nbsp;= 64 - 2 = 62</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;<span class=\"math-tex\">\\((y+\\frac{1}{y}) = 8\\)</span>&nbsp;है, तो&nbsp;<span class=\"math-tex\">\\((y^2+\\frac{1}{y^2})\\)</span>&nbsp;का मान ज्ञात कीजिए।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>64</p>\r\n",
+      "<p>66</p>\r\n",
+      "<p>62</p>\r\n",
+      "<p>60</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>62 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p><span class=\"math-tex\">\\((y+\\frac{1}{y}) = 8\\)</span></p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करके&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\((y^2+\\frac{1}{y^2})\\)</span>&nbsp;+ 2 = 64</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\((y^2+\\frac{1}{y^2})\\)</span>&nbsp;= 64 - 2 = 62</p>\r\n"
+  },
+  {
+    "question": "<p>If a + b = 10 and a<sup>2</sup> + b<sup>2</sup> = 58, find the value of ab.</p>\r\n",
+    "options": [
+      "<p>24</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>21</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4&nbsp;</strong>i.e. <strong>21.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If a + b = 10 and a<sup>2</sup> + b<sup>2</sup> = 58</p>\r\n\r\n<p>Formula used</p>\r\n\r\n<p>(a + b)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ 2ab + b<sup>2</sup></p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; 100 = 58 + 2ab</p>\r\n\r\n<p>&rArr; 2ab = 100 - 58 = 42</p>\r\n\r\n<p>&rArr; ab = 21</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b = 10 और a<sup>2</sup> + b<sup>2</sup> = 58 है, तो&nbsp;ab का मान ज्ञात कीजिए।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>24</p>\r\n",
+      "<p>27</p>\r\n",
+      "<p>30</p>\r\n",
+      "<p>21</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात् <strong>21</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया है&nbsp;कि&nbsp;</p>\r\n\r\n<p>यदि a + b = 10 और a<sup>2</sup> + b<sup>2</sup> = 58</p>\r\n\r\n<p>प्रयुक्त सूत्र&nbsp;</p>\r\n\r\n<p>(a + b)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ 2ab + b<sup>2</sup></p>\r\n\r\n<p>गणना&nbsp;</p>\r\n\r\n<p>&rArr; 100 = 58 + 2ab</p>\r\n\r\n<p>&rArr; 2ab = 100 - 58 = 42</p>\r\n\r\n<p>&rArr; ab = 21</p>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;<span class=\"math-tex\">\\({a^2}+\\frac{1}{a^2}=\\frac{7}{3}\\)</span>, then what is the value of&nbsp;<span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{3\\sqrt3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{10}{3\\sqrt3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{3\\sqrt3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{8}{3\\sqrt3}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2&nbsp;</strong>i.e.&nbsp;&nbsp;<strong><span class=\"math-tex\">\\(\\frac{10}{3\\sqrt3}\\)</span></strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If&nbsp;<span class=\"math-tex\">\\({a^2}+\\frac{1}{a^2}=\\frac{7}{3}\\)</span>,</p>\r\n\r\n<p>Calculation</p>\r\n\r\n<p>&rArr; (a -&nbsp;1/a)<sup>2</sup>&nbsp;+&nbsp;2 = 7/3</p>\r\n\r\n<p>&rArr; (a -&nbsp;1/a)<sup>2</sup>&nbsp;= 7/3 -&nbsp;2 = 1/3</p>\r\n\r\n<p>&rArr; a -&nbsp;1/a =&nbsp;&radic;(1/3)</p>\r\n\r\n<p>Cubing both sides</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>&nbsp;-&nbsp;3 (a -&nbsp;1/a) = (1/3)&radic;(1/3)</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>&nbsp;-&nbsp;3&nbsp;&radic;(1/3) =&nbsp; (1/3)&radic;(1/3)</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>&nbsp;=(10/3)&radic;(1/3) =&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{10}{3\\sqrt3}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;<span class=\"math-tex\">\\({a^2}+\\frac{1}{a^2}=\\frac{7}{3}\\)</span>&nbsp;है, तो&nbsp;<span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span> का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{3\\sqrt3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{10}{3\\sqrt3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{3\\sqrt3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{8}{3\\sqrt3}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात्&nbsp;<strong><span class=\"math-tex\">\\(\\frac{10}{3\\sqrt3}\\)</span></strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि&nbsp;</p>\r\n\r\n<p>If&nbsp;<span class=\"math-tex\">\\({a^2}+\\frac{1}{a^2}=\\frac{7}{3}\\)</span>,</p>\r\n\r\n<p>गणना&nbsp;</p>\r\n\r\n<p>&rArr; (a -&nbsp;1/a)<sup>2</sup>&nbsp;+&nbsp;2 = 7/3</p>\r\n\r\n<p>&rArr; (a -&nbsp;1/a)<sup>2</sup>&nbsp;= 7/3 -&nbsp;2 = 1/3</p>\r\n\r\n<p>&rArr; a -&nbsp;1/a =&nbsp;&radic;(1/3)</p>\r\n\r\n<p>दोनों तरफ घन करके&nbsp;</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>&nbsp;-&nbsp;3 (a -&nbsp;1/a) = (1/3)&radic;(1/3)</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>&nbsp;-&nbsp;3&nbsp;&radic;(1/3) =&nbsp; (1/3)&radic;(1/3)</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({a^3}-\\frac{1}{a^3}\\)</span>&nbsp;=(10/3)&radic;(1/3) =&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{10}{3\\sqrt3}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;<span class=\"math-tex\">\\(\\sqrt \\frac a b= \\frac 8 3+ \\sqrt\\frac b a \\)</span>&nbsp; and (a + b) = 30, then what is the value of ab?</p>\r\n",
+    "options": [
+      "<p>64</p>\r\n",
+      "<p>28</p>\r\n",
+      "<p>81</p>\r\n",
+      "<p>36</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.&nbsp;<strong>81</strong>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt \\frac a b= \\frac 8 3+ \\sqrt\\frac b a and (a + b) = 30\\)</span><br />\r\nCalculation</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( \\sqrt \\frac a b- \\sqrt\\frac b a= \\frac 8 3\\)</span></p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\ \\frac a b+ \\frac b a - 2(\\frac a b)(\\frac b a) = \\frac {64} {9}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\ \\frac {a^2+b^2} {ab}\\)</span>&nbsp;= 64/9 + 2 = 82/9</p>\r\n\r\n<p>Now, a + b = 30</p>\r\n\r\n<p>Squaring both sides</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;+ 2ab + b<sup>2&nbsp;</sup>= 900</p>\r\n\r\n<p>&rArr; 82ab/9 + 2ab = 900</p>\r\n\r\n<p>&rArr; 100ab = 8100</p>\r\n\r\n<p>&rArr; ab = 81</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt \\frac a b= \\frac 8 3+ \\sqrt\\frac b a \\)</span>&nbsp; और (a + b) = 30,&nbsp;तो ab का मान क्या है?</p>\r\n\r\n<p>​</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>64</p>\r\n",
+      "<p>28</p>\r\n",
+      "<p>81</p>\r\n",
+      "<p>36</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 3</strong> अर्थात् <strong>81 </strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt \\frac a b= \\frac 8 3+ \\sqrt\\frac b a \\)</span>&nbsp; और (a + b) = 30</p>\r\n\r\n<p>गणना</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( \\sqrt \\frac a b- \\sqrt\\frac b a= \\frac 8 3\\)</span></p>\r\n\r\n<p>दोनों पक्ष वर्ग</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\ \\frac a b+ \\frac b a - 2(\\frac a b)(\\frac b a) = \\frac {64} {9}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\ \\frac {a^2+b^2} {ab}\\)</span>&nbsp;= 64/9 + 2 = 82/9</p>\r\n\r\n<p>अब, a + b = 30</p>\r\n\r\n<p>दोनों पक्ष वर्ग</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;+ 2ab + b<sup>2&nbsp;</sup>= 900</p>\r\n\r\n<p>&rArr; 82ab/9 + 2ab = 900</p>\r\n\r\n<p>&rArr; 100ab = 8100</p>\r\n\r\n<p>&rArr; ab = 81</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Simplify the given expression:&nbsp;<span class=\"math-tex\">\\(\\frac {4[(17)^3-(7)^3]}{(17)^2+(7)^2+119}\\)</span></p>\r\n",
+    "options": [
+      "<p>40</p>\r\n",
+      "<p>50</p>\r\n",
+      "<p>60</p>\r\n",
+      "<p>30</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong>&nbsp;i.e.&nbsp;<strong>40.</strong></p>\r\n\r\n<p>Given&nbsp;that</p>\r\n\r\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac {4[(17)^3-(7)^3]}{(17)^2+(7)^2+119}\\)</span></p>\r\n\r\n<p>As we know,&nbsp;</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;-&nbsp;b<sup>3</sup>&nbsp;= (a -&nbsp;b) (a<sup>2</sup>&nbsp;+&nbsp;ab + b<sup>2</sup>)</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac {4[(17-7)(17)^2+(7)^2+119)]}{(17)^2+(7)^2+119}\\)</span></p>\r\n\r\n<p>&rArr; 4 (17 - 7)</p>\r\n\r\n<p>&rArr; 4&nbsp;&times; 10</p>\r\n\r\n<p>&rArr; 40</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए समीकरण को सरल कीजिये:&nbsp;<span class=\"math-tex\">\\(\\frac {4[(17)^3-(7)^3]}{(17)^2+(7)^2+119}\\)</span></p>\r\n",
+    "options_hi": [
+      "<p>40</p>\r\n",
+      "<p>50</p>\r\n",
+      "<p>60</p>\r\n",
+      "<p>30</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>40</strong> है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac {4[(17)^3-(7)^3]}{(17)^2+(7)^2+119}\\)</span></p>\r\n\r\n<p>जैसा कि हम जानते हैं,</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;-&nbsp;b<sup>3</sup>&nbsp;= (a -&nbsp;b) (a<sup>2</sup>&nbsp;+&nbsp;ab + b<sup>2</sup>)</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac {4[(17-7)(17)^2+(7)^2+119)]}{(17)^2+(7)^2+119}\\)</span></p>\r\n\r\n<p>&rArr; 4 (17 - 7)</p>\r\n\r\n<p>&rArr; 4&nbsp;&times; 10</p>\r\n\r\n<p>&rArr; 40</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the value of the expression&nbsp;&nbsp;<span class=\"math-tex\">\\( \\frac {x^2-1}{x-1} - \\frac {x^2-9}{x-3}\\)</span></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>-2</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>-2.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p><span class=\"math-tex\">\\( \\frac {x^2-1}{x-1} - \\frac {x^2-9}{x-3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( \\frac {x^2-1}{x-1} - \\frac {x^2-9}{x-3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( \\frac {(x +1)(x-1)}{x-1} - \\frac {(x+3)(x-3)}{x-3}\\)</span></p>\r\n\r\n<p>&rArr; x + 1 - x - 3</p>\r\n\r\n<p>&rArr; -2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>समीकरण&nbsp;&nbsp;<span class=\"math-tex\">\\( \\frac {x^2-1}{x-1} - \\frac {x^2-9}{x-3}\\)</span>&nbsp;का मान ज्ञात कीजिए</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>-2</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>-2</strong> है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>&nbsp;&nbsp;<span class=\"math-tex\">\\( \\frac {x^2-1}{x-1} - \\frac {x^2-9}{x-3}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( \\frac {x^2-1}{x-1} - \\frac {x^2-9}{x-3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\( \\frac {(x +1)(x-1)}{x-1} - \\frac {(x+3)(x-3)}{x-3}\\)</span></p>\r\n\r\n<p>&rArr; x + 1 - x - 3</p>\r\n\r\n<p>&rArr; -2</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;<span class=\"math-tex\">\\(x = \\frac{1}{x-5}\\)</span>&nbsp;(x > 0),then the value of&nbsp;<span class=\"math-tex\">\\(x + \\frac1 x\\)</span>&nbsp;is :</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\sqrt 41\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt29\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 23\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 43\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.&nbsp;<span class=\"math-tex\">\\(\\sqrt29\\)</span>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If&nbsp;<span class=\"math-tex\">\\(x = \\frac{1}{x-5}\\)</span>&nbsp;(x > 0),&nbsp;</p>\r\n\r\n<p>&rArr; x - 5 = 1/x</p>\r\n\r\n<p>&rArr; x - 1/x = 5</p>\r\n\r\n<p>Square both side&nbsp;</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>+ 1/x<sup>2</sup>&nbsp;-2 = 25</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>+ 1/x<sup>2&nbsp;</sup>&nbsp;= 25 + 2 = 27</p>\r\n\r\n<p>&rArr; (x + 1/x)<sup>2</sup>&nbsp;- 2 = 27</p>\r\n\r\n<p>&rArr; (x + 1/x)<sup>2&nbsp;</sup>= 29</p>\r\n\r\n<p>&rArr; x + 1/x =&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt29\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;<span class=\"math-tex\">\\(x = \\frac{1}{x-5}\\)</span>&nbsp;(x > 0) है तो,&nbsp;&nbsp;<span class=\"math-tex\">\\(x + \\frac1 x\\)</span>&nbsp;का मान क्या है?​</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\sqrt 41\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt29\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 23\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 43\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात्&nbsp;<span class=\"math-tex\">\\(\\sqrt29\\)</span>&nbsp; है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>If&nbsp;<span class=\"math-tex\">\\(x = \\frac{1}{x-5}\\)</span>&nbsp;(x > 0),&nbsp;</p>\r\n\r\n<p>&rArr; x - 5 = 1/x</p>\r\n\r\n<p>&rArr; x - 1/x = 5</p>\r\n\r\n<p>दोनों पक्ष वर्ग</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>+ 1/x<sup>2</sup>&nbsp;-2 = 25</p>\r\n\r\n<p>&rArr; x<sup>2&nbsp;</sup>+ 1/x<sup>2&nbsp;</sup>&nbsp;= 25 + 2 = 27</p>\r\n\r\n<p>&rArr; (x + 1/x)<sup>2</sup>&nbsp;- 2 = 27</p>\r\n\r\n<p>&rArr; (x + 1/x)<sup>2&nbsp;</sup>= 29</p>\r\n\r\n<p>&rArr; x + 1/x =&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt29\\)</span></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a-\\sqrt6}\\)</span> (a > 0), then the value of&nbsp;<span class=\"math-tex\">\\((a+\\frac 1 a)\\)</span> is:</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\sqrt 6\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 10\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 15\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 7\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\sqrt 10\\)</span>.</p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If a =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a-\\sqrt6}\\)</span> (a > 0)</p>\r\n\r\n<p>&rArr; a&nbsp;- &radic;6&nbsp;= 1/a</p>\r\n\r\n<p>&rArr; a - 1/a = &radic;6</p>\r\n\r\n<p>Square both side&nbsp;</p>\r\n\r\n<p>&rArr; a<sup>2&nbsp;</sup>+ 1/a<sup>2</sup>&nbsp;- 2 = 6</p>\r\n\r\n<p>&rArr; a<sup>2&nbsp;</sup>+ 1/a<sup>2&nbsp;</sup>&nbsp;= 6 + 2 = 8</p>\r\n\r\n<p>&rArr; (a + 1/a)<sup>2</sup>&nbsp;- 2 = 8</p>\r\n\r\n<p>&rArr; (a + 1/a)<sup>2&nbsp;</sup>= 10</p>\r\n\r\n<p>&rArr; a + 1/a&nbsp;=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt 10\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;a =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a-\\sqrt6}\\)</span> (a > 0), है, तो&nbsp;<span class=\"math-tex\">\\((a+\\frac 1 a)\\)</span>का मान क्या है?</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>​<br />\r\n&nbsp;</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt 6\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt 10\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt 15\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt 7\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2 </strong>अर्थात्<span class=\"math-tex\">\\(\\sqrt 10\\)</span>&nbsp; है।</p>\r\n\r\n<p>दिया गया है</p>\r\n\r\n<p>यदि a =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a-\\sqrt6}\\)</span> (a > 0)</p>\r\n\r\n<p>&rArr; a&nbsp;- &radic;6&nbsp;= 1/a</p>\r\n\r\n<p>&rArr; a - 1/a = &radic;6</p>\r\n\r\n<p>दोनों पक्ष वर्ग</p>\r\n\r\n<p>&rArr; a<sup>2&nbsp;</sup>+ 1/a<sup>2</sup>&nbsp;- 2 = 6</p>\r\n\r\n<p>&rArr; a<sup>2&nbsp;</sup>+ 1/a<sup>2&nbsp;</sup>&nbsp;= 6 + 2 = 8</p>\r\n\r\n<p>&rArr; (a + 1/a)<sup>2</sup>&nbsp;- 2 = 8</p>\r\n\r\n<p>&rArr; (a + 1/a)<sup>2&nbsp;</sup>= 10</p>\r\n\r\n<p>&rArr; a + 1/a&nbsp;=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt 10\\)</span></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>If 5x + 3y = 15 and 2xy = 6 then the value of 5x - 3y is:</p>\r\n",
+    "options": [
+      "<p>3&radic; 3</p>\r\n",
+      "<p>3&radic; 5</p>\r\n",
+      "<p>3&radic; 2</p>\r\n",
+      "<p>3&radic; 4</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2&nbsp;</strong>i.e. <strong>3&radic; 5.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If 5x + 3y = 15 and 2xy = 6</p>\r\n\r\n<p>As we know</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= (5x + 3y)<sup>2</sup>&nbsp;- 60xy</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= (15)<sup>2</sup>&nbsp;- 30 &times; 2xy</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= 225&nbsp;- 30 &times; 6</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= 225 - 180</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= 45</p>\r\n\r\n<p>&rArr; 5x - 3y =&nbsp;&radic;45 =&nbsp;3&radic; 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 5x + 3y = 15 और 2xy = 6 है, तो 5x - 3y का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>3&radic; 3</p>\r\n",
+      "<p>3&radic; 5</p>\r\n",
+      "<p>3&radic; 2</p>\r\n",
+      "<p>3&radic; 4</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>3&radic; 5</strong> है।</p>\r\n\r\n<p>यह दिया गया है &nbsp;</p>\r\n\r\n<p>यदि 5x + 3y = 15 और 2xy = 6</p>\r\n\r\n<p>जैसा कि हम जानते हैं</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= (5x + 3y)<sup>2</sup>&nbsp;- 60xy</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= (15)<sup>2</sup>&nbsp;- 30 &times; 2xy</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= 225&nbsp;- 30 &times; 6</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= 225 - 180</p>\r\n\r\n<p>&rArr; (5x - 3y)<sup>2</sup>&nbsp;= 45</p>\r\n\r\n<p>&rArr; 5x - 3y =&nbsp;&radic;45 =&nbsp;3&radic; 5</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;= 7 , Then the value of x<sup>2</sup>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^2}\\)</span> is :</p>\r\n",
+    "options": [
+      "<p>49</p>\r\n",
+      "<p>51</p>\r\n",
+      "<p>47</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.<strong> 47.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;= 7 ,</p>\r\n\r\n<p>Square both sides</p>\r\n\r\n<p>&rArr; (x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>)<sup>2</sup> = 7<sup>2</sup></p>\r\n\r\n<p>&nbsp;&rArr; x<sup>2</sup>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^2}\\)</span>&nbsp;+ 2 = 49</p>\r\n\r\n<p>&rArr; &nbsp;x<sup>2</sup>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^2}\\)</span>&nbsp;= 49 - 2 = 47</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;= 7 , तो x<sup>2</sup>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^2}\\)</span> का मान क्या है?</p>\r\n\r\n<p>​</p>\r\n",
+    "options_hi": [
+      "<p>49</p>\r\n",
+      "<p>51</p>\r\n",
+      "<p>47</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्<strong> 47 </strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>If x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;= 7 ,</p>\r\n\r\n<p>दोनों पक्षों का वर्ग करें</p>\r\n\r\n<p>&rArr; (x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>)<sup>2</sup> = 7<sup>2</sup></p>\r\n\r\n<p>&nbsp;&rArr; x<sup>2</sup>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^2}\\)</span>&nbsp;+ 2 = 49</p>\r\n\r\n<p>&rArr; &nbsp;x<sup>2</sup>&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^2}\\)</span>&nbsp;= 49 - 2 = 47</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->"
+  },
+  {
+    "question": "<p>If 2x + <span class=\"math-tex\">\\(\\frac{2}{x}\\)</span>&nbsp;= 5, then the value of ( x&sup3;&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 2) will be:</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{81}{11}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{81}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{71}{8}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{81}{8}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4</strong> i.e.&nbsp;<strong><span class=\"math-tex\">\\(\\frac{81}{8}\\)</span>.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If 2x + <span class=\"math-tex\">\\(\\frac{2}{x}\\)</span>&nbsp;= 5,</p>\r\n\r\n<p>&rArr; x + <span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;= 5/2</p>\r\n\r\n<p>Cube on both sides</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 3 (x + <span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>) = 125/8</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 3&nbsp;&times; (5/2) = 125/8</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;= 125/8 - 15/2</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;= (125 - 60)/8 = 65/8</p>\r\n\r\n<p>Hence,&nbsp;x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 2 = 65/8 + 2 =&nbsp;<strong><span class=\"math-tex\">\\(\\frac{81}{8}\\)</span></strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;2x + <span class=\"math-tex\">\\(\\frac{2}{x}\\)</span>&nbsp;= 5 है, तो&nbsp;( x&sup3;&nbsp;+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 2) का मान क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{81}{11}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{81}{7}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{71}{8}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{81}{8}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् &nbsp;<strong><strong><span class=\"math-tex\">\\(\\frac{81}{8}\\)</span>&nbsp;</strong></strong>है।</p>\r\n\r\n<p>दिया गया है &nbsp;</p>\r\n\r\n<p>यदि&nbsp; 2x + <span class=\"math-tex\">\\(\\frac{2}{x}\\)</span>&nbsp;= 5,</p>\r\n\r\n<p>&rArr; x + <span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>&nbsp;= 5/2</p>\r\n\r\n<p>दोनों पक्षों के घन करने पर&nbsp;</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 3 (x + <span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>) = 125/8</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 3&nbsp;&times; (5/2) = 125/8</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;= 125/8 - 15/2</p>\r\n\r\n<p>&rArr; x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;= (125 - 60)/8 = 65/8</p>\r\n\r\n<p>अत,&nbsp;x&sup3; +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^3}\\)</span>&nbsp;+ 2 = 65/8 + 2 =&nbsp;<strong><strong><span class=\"math-tex\">\\(\\frac{81}{8}\\)</span></strong></strong></p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->"
+  },
+  {
+    "question": "<p>If (x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>) = 5<span class=\"math-tex\">\\(\\sqrt2\\)</span>, and x > 1, what is the value of (x<sup>6</sup>&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^6}\\)</span>) ?</p>\r\n",
+    "options": [
+      "<p>22970<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n",
+      "<p>23030<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n",
+      "<p>23060<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n",
+      "<p>22960<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.<strong> 23030</strong><span class=\"math-tex\">\\(\\sqrt23\\)</span>.</p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>x + 1/x = 5&radic;2</p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>If x + 1/x = a then</p>\r\n\r\n<p>&rArr; x - 1/x =&nbsp;&radic;a<sup>2</sup>&nbsp;- 4&nbsp;</p>\r\n\r\n<p>&rArr; (a + b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ 3ab(a + b)</p>\r\n\r\n<p>&rArr; (a - b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;- 3ab(a -&nbsp;b)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>&rArr; x + 1/x = 5&radic;2</p>\r\n\r\n<p>Using equation (1), we get</p>\r\n\r\n<p>&rArr; x - 1/x =&nbsp;&radic;46</p>\r\n\r\n<p>Now using equation (2), we get</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;+ 1/x<sup>3</sup>&nbsp;= 235&radic;2</p>\r\n\r\n<p>Similarly, using equation (3), we get</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>&nbsp;= 49&radic;46</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr; x<sup>6</sup> - 1/x<sup>6</sup> = (x<sup>3</sup> + 1/x<sup>3</sup>)(x<sup>3</sup> - 1/x<sup>3</sup>)</p>\r\n\r\n<p>&rArr; 235&radic;2&nbsp;&times; 49&radic;46</p>\r\n\r\n<p>&rArr; 23030&radic;23</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (x +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x}\\)</span>) = 5<span class=\"math-tex\">\\(\\sqrt2\\)</span>, और x > 1 है, तो&nbsp;(x<sup>6</sup>&nbsp;-&nbsp;<span class=\"math-tex\">\\(\\frac{1}{x^6}\\)</span>) का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>22970<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n",
+      "<p>23030<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n",
+      "<p>23060<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n",
+      "<p>22960<span class=\"math-tex\">\\(\\sqrt23\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात् <strong>23030</strong><span class=\"math-tex\">\\(\\sqrt23\\)</span>&nbsp;है।&nbsp; ​</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>x + 1/x = 5&radic;2</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>यदि x + 1/x = a है, तो&nbsp;</p>\r\n\r\n<p>&rArr; x - 1/x =&nbsp;&radic;a<sup>2</sup>&nbsp;- 4&nbsp;</p>\r\n\r\n<p>&rArr; (a + b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ 3ab(a + b)</p>\r\n\r\n<p>&rArr; (a - b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;- 3ab(a -&nbsp;b)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>&rArr; x + 1/x = 5&radic;2</p>\r\n\r\n<p>समीकरण (1) का प्रयोग करने पर, हमें प्राप्त होता&nbsp;हैं</p>\r\n\r\n<p>&rArr; x - 1/x =&nbsp;&radic;46</p>\r\n\r\n<p>अब समीकरण (2) का प्रयोग करने पर, हमें प्राप्त होता&nbsp;हैं</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;+ 1/x<sup>3</sup>&nbsp;= 235&radic;2</p>\r\n\r\n<p>उसी प्रकार, समीकरण (3) का प्रयोग करने पर, हमें प्राप्त होता&nbsp;हैं</p>\r\n\r\n<p>&rArr; x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>&nbsp;= 49&radic;46</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr; x<sup>6</sup> - 1/x<sup>6</sup> = (x<sup>3</sup> + 1/x<sup>3</sup>)(x<sup>3</sup> - 1/x<sup>3</sup>)</p>\r\n\r\n<p>&rArr; 235&radic;2&nbsp;&times; 49&radic;46</p>\r\n\r\n<p>&rArr; 23030&radic;23</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If ( a +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a}\\)</span>) = 6, then what is the value of&nbsp;<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>(a<sup>2&nbsp;</sup>+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a^2}\\)</span>)?</p>\r\n",
+    "options": [
+      "<p>22.5</p>\r\n",
+      "<p>34</p>\r\n",
+      "<p>25.5</p>\r\n",
+      "<p>36</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.<strong> 25.5.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>&nbsp;(a +&nbsp;1/a) = 6</p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>(a + b)<sup>2</sup>&nbsp;= a<sup>2</sup> + b<sup>2</sup> + 2ab</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr;&nbsp;(a +&nbsp;1/a)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>&nbsp;+ 2</p>\r\n\r\n<p>&rArr; 6<sup>2</sup>&nbsp;=&nbsp;a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>&nbsp;+ 2</p>\r\n\r\n<p>&rArr;&nbsp;a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>&nbsp;= 34</p>\r\n\r\n<p>Now,</p>\r\n\r\n<p>&rArr; 3/4(a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>) = 3/4&nbsp;&times; 34</p>\r\n\r\n<p>&rArr; 51/2 = 25.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि ( a +&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a}\\)</span>) = 6 है, तो&nbsp;<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>(a<sup>2&nbsp;</sup>+&nbsp;<span class=\"math-tex\">\\(\\frac{1}{a^2}\\)</span>) का मान क्या है?&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>22.5</p>\r\n",
+      "<p>34</p>\r\n",
+      "<p>25.5</p>\r\n",
+      "<p>36</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात् <strong>25.5&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>&nbsp;(a +&nbsp;1/a) = 6</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>(a + b)<sup>2</sup>&nbsp;= a<sup>2</sup> + b<sup>2</sup> + 2ab</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr;&nbsp;(a +&nbsp;1/a)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>&nbsp;+ 2</p>\r\n\r\n<p>&rArr; 6<sup>2</sup>&nbsp;=&nbsp;a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>&nbsp;+ 2</p>\r\n\r\n<p>&rArr;&nbsp;a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>&nbsp;= 34</p>\r\n\r\n<p>अब,</p>\r\n\r\n<p>&rArr; 3/4(a<sup>2</sup>&nbsp;+ 1/a<sup>2</sup>) = 3/4&nbsp;&times; 34</p>\r\n\r\n<p>&rArr; 51/2 = 25.5</p>\r\n"
+  },
+  {
+    "question": "<p>If (a - b) = 9, and (a<sup>3&nbsp;</sup>- b<sup>3</sup>) = 4401, find the value of ab.</p>\r\n",
+    "options": [
+      "<p>190</p>\r\n",
+      "<p>112</p>\r\n",
+      "<p>162</p>\r\n",
+      "<p>136</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e.<strong> 136.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>(a - b) = 9&nbsp;</p>\r\n\r\n<p>(a<sup>3&nbsp;</sup>- b<sup>3</sup>) = 4401</p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>(a - b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;- b<sup>3</sup> - 3ab(a - b)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr; (a - b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;- b<sup>3</sup> - 3ab(a - b)</p>\r\n\r\n<p>&rArr; 9<sup>3</sup>&nbsp;= 4401 - 3ab(9)</p>\r\n\r\n<p>&rArr; 729 = 4401 - 27ab</p>\r\n\r\n<p>&rArr; 27ab = 4401 - 729</p>\r\n\r\n<p>&rArr; ab = 136</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a - b) = 9&nbsp;और (a<sup>3&nbsp;</sup>- b<sup>3</sup>) = 4401 है, तो&nbsp;ab का मान ज्ञात करें।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>190</p>\r\n",
+      "<p>112</p>\r\n",
+      "<p>162</p>\r\n",
+      "<p>136</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>136 </strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>(a - b) = 9&nbsp;</p>\r\n\r\n<p>(a<sup>3&nbsp;</sup>- b<sup>3</sup>) = 4401</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>(a - b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;- b<sup>3</sup> - 3ab(a - b)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr; (a - b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;- b<sup>3</sup> - 3ab(a - b)</p>\r\n\r\n<p>&rArr; 9<sup>3</sup>&nbsp;= 4401 - 3ab(9)</p>\r\n\r\n<p>&rArr; 729 = 4401 - 27ab</p>\r\n\r\n<p>&rArr; 27ab = 4401 - 729</p>\r\n\r\n<p>&rArr; ab = 136</p>\r\n"
+  }
+]
