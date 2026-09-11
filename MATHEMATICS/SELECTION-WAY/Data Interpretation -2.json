@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>The given table shows the percentage of marks obtained by five students in five different subjects in a school.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>English</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Science</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Mathematics</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Hindi</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Computer</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>Hitansh</strong></td>\r\n\t\t\t<td style=\"text-align:center\">67</td>\r\n\t\t\t<td style=\"text-align:center\">70</td>\r\n\t\t\t<td style=\"text-align:center\">64</td>\r\n\t\t\t<td style=\"text-align:center\">55</td>\r\n\t\t\t<td style=\"text-align:center\">75</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>Akshara</strong></td>\r\n\t\t\t<td style=\"text-align:center\">75</td>\r\n\t\t\t<td style=\"text-align:center\">88</td>\r\n\t\t\t<td style=\"text-align:center\">95</td>\r\n\t\t\t<td style=\"text-align:center\">60</td>\r\n\t\t\t<td style=\"text-align:center\">75</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>Pihu</strong></td>\r\n\t\t\t<td style=\"text-align:center\">69</td>\r\n\t\t\t<td style=\"text-align:center\">72</td>\r\n\t\t\t<td style=\"text-align:center\">89</td>\r\n\t\t\t<td style=\"text-align:center\">64</td>\r\n\t\t\t<td style=\"text-align:center\">77</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>Shreya</strong></td>\r\n\t\t\t<td style=\"text-align:center\">71</td>\r\n\t\t\t<td style=\"text-align:center\">66</td>\r\n\t\t\t<td style=\"text-align:center\">80</td>\r\n\t\t\t<td style=\"text-align:center\">68</td>\r\n\t\t\t<td style=\"text-align:center\">72</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>Rahul</strong></td>\r\n\t\t\t<td style=\"text-align:center\">59</td>\r\n\t\t\t<td style=\"text-align:center\">64</td>\r\n\t\t\t<td style=\"text-align:center\">59</td>\r\n\t\t\t<td style=\"text-align:center\">67</td>\r\n\t\t\t<td style=\"text-align:center\">90</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>What is Hitansh overall percentage (rounded up to 2 decimal places) in the examination?</p>\r\n",
+    "options": [
+      "<p>66.2%</p>\r\n",
+      "<p>64.89%</p>\r\n",
+      "<p>65.31%</p>\r\n",
+      "<p>75.11%</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 i.e.&nbsp;66.2%.</strong></p>\r\n\r\n<p>Percentage = Total marks obtained/Maximum marks</p>\r\n\r\n<p>Hitansh marks in English = 67</p>\r\n\r\n<p>Hitansh marks in Science = 70</p>\r\n\r\n<p>Hitansh marks in Mathematics = 64</p>\r\n\r\n<p>Hitansh marks in Hindi = 55</p>\r\n\r\n<p>Hitansh marks in Computer = 75</p>\r\n\r\n<p>Total obtained marks = 67 + 70 + 64 + 55 + 75 = 331</p>\r\n\r\n<p>Maximum marks = 500</p>\r\n\r\n<p>Percentage = 331/500 &times; 100 = 66.2%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दी गई तालिका एक स्कूल में पांच अलग-अलग विषयों में पांच छात्रों द्वारा प्राप्त अंकों का प्रतिशत दर्शाती है।</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">&nbsp;</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>अंग्रेजी</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>विज्ञान</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>गणित</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>हिंदी</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>कंप्यूटर</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>(100)</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>हितांश&nbsp;</strong></td>\r\n\t\t\t<td style=\"text-align:center\">67</td>\r\n\t\t\t<td style=\"text-align:center\">70</td>\r\n\t\t\t<td style=\"text-align:center\">64</td>\r\n\t\t\t<td style=\"text-align:center\">55</td>\r\n\t\t\t<td style=\"text-align:center\">75</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>अक्षरा&nbsp;</strong></td>\r\n\t\t\t<td style=\"text-align:center\">75</td>\r\n\t\t\t<td style=\"text-align:center\">88</td>\r\n\t\t\t<td style=\"text-align:center\">95</td>\r\n\t\t\t<td style=\"text-align:center\">60</td>\r\n\t\t\t<td style=\"text-align:center\">75</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>पीहू&nbsp;</strong></td>\r\n\t\t\t<td style=\"text-align:center\">69</td>\r\n\t\t\t<td style=\"text-align:center\">72</td>\r\n\t\t\t<td style=\"text-align:center\">89</td>\r\n\t\t\t<td style=\"text-align:center\">64</td>\r\n\t\t\t<td style=\"text-align:center\">77</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>श्रेया&nbsp;</strong></td>\r\n\t\t\t<td style=\"text-align:center\">71</td>\r\n\t\t\t<td style=\"text-align:center\">66</td>\r\n\t\t\t<td style=\"text-align:center\">80</td>\r\n\t\t\t<td style=\"text-align:center\">68</td>\r\n\t\t\t<td style=\"text-align:center\">72</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\"><strong>राहुल</strong></td>\r\n\t\t\t<td style=\"text-align:center\">59</td>\r\n\t\t\t<td style=\"text-align:center\">64</td>\r\n\t\t\t<td style=\"text-align:center\">59</td>\r\n\t\t\t<td style=\"text-align:center\">67</td>\r\n\t\t\t<td style=\"text-align:center\">90</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>परीक्षा में हितांश&nbsp;का कुल प्रतिशत (दशमलव 2 स्थानों तक पूर्णांकित) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>66.2%</p>\r\n",
+      "<p>64.89%</p>\r\n",
+      "<p>65.31%</p>\r\n",
+      "<p>75.11%</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात् <strong>66.2%</strong> है।</p>\r\n\r\n<p>प्रतिशत = प्राप्त कुल अंक/अधिकतम अंक</p>\r\n\r\n<p>हितांश&nbsp;के अंग्रेजी में अंक = 67</p>\r\n\r\n<p>हितांश&nbsp;के विज्ञान में&nbsp;अंक = 70</p>\r\n\r\n<p>हितांश&nbsp;के गणित में अंक = 64</p>\r\n\r\n<p>हितांश&nbsp;के हिंदी में अंक = 55</p>\r\n\r\n<p>हितांश&nbsp;के कंप्यूटर में अंक = 75</p>\r\n\r\n<p>कुल प्राप्त अंक = 67 + 70 + 64 + 55 + 75 = 331</p>\r\n\r\n<p>अधिकतम अंक = 500</p>\r\n\r\n<p>प्रतिशत = 331/500 &times; 100 = 66.2%</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A toffee company prepares toffee of two different flavours X and Y. The production of two flavours over a period of 4 years is expressed in the bar graph given below.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D202024_08_13_02_59_51.png\" style=\"height:240px; width:313px\" /></p>\r\n\r\n<p>What is the difference between the average production of flavour X in 2017 and 2018 and the average production of flavour Y in 2019 and 2020.</p>\r\n",
+    "options": [
+      "<p>6000 packs</p>\r\n",
+      "<p>6400 packs</p>\r\n",
+      "<p>7500 packs</p>\r\n",
+      "<p>7000 packs</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 i.e.&nbsp;6000 packs.</strong></p>\r\n\r\n<p>We know that,</p>\r\n\r\n<p>Average = Sum of observations/Number of observations</p>\r\n\r\n<p>Production of flavor X in 2017 and 2018 = 20000 + 20000 = 40000</p>\r\n\r\n<p>Average = 40000/2 = 20000</p>\r\n\r\n<p>Production of flavor Y in 2019 and 2020 = 32000 + 20000 = 52000</p>\r\n\r\n<p>Average = 52000/2 = 26000</p>\r\n\r\n<p>Difference = 26000 - 20000 = 6000 packs</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक टॉफ़ी कंपनी दो अलग-अलग स्वादों X और Y की टॉफ़ी तैयार करती है। 4 वर्षों की अवधि में दो स्वादों का उत्पादन नीचे दिए गए दंड आलेख&nbsp;में दर्शाया&nbsp;गया है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D202024_08_13_02_59_51.png\" style=\"height:240px; width:313px\" /></p>\r\n\r\n<p>2017 और 2018 में फ्लेवर X के औसत उत्पादन तथा 2019 और 2020 में फ्लेवर Y के औसत उत्पादन के बीच क्या अंतर है?</p>\r\n",
+    "options_hi": [
+      "<p>6000 पैक</p>\r\n",
+      "<p>6400 पैक</p>\r\n",
+      "<p>7500 पैक</p>\r\n",
+      "<p>7000 पैक</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>6000 पैक</strong> है।</p>\r\n\r\n<p>हम जानते है&nbsp;कि,</p>\r\n\r\n<p>औसत = प्रेक्षणों का योग/प्रेक्षणों की संख्या</p>\r\n\r\n<p>2017 और 2018 में स्वाद X का उत्पादन = 20000 + 20000 = 40000</p>\r\n\r\n<p>औसत = 40000/2 = 20000</p>\r\n\r\n<p>2019 और 2020 में स्वाद Y का उत्पादन = 32000 + 20000 = 52000</p>\r\n\r\n<p>औसत = 52000/2 = 26000</p>\r\n\r\n<p>अंतर = 26000 - 20000 = 6000 पैक</p>\r\n"
+  },
+  {
+    "question": "<p>Study the following bar chart and answer the question.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D442024_08_13_04_14_06.PNG\" style=\"height:217px; width:300px\" /></p>\r\n\r\n<p>Find the percentage increase of sales of XYZ phones from 2019 to 2020? (Rounded up to 2 decimal places)</p>\r\n",
+    "options": [
+      "<p>122.22 Percent</p>\r\n",
+      "<p>110.11 Percent</p>\r\n",
+      "<p>119.19 Percent</p>\r\n",
+      "<p>121.89 Percent</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e.<strong>&nbsp;122.22 Percent.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The sales of XYZ phones in&nbsp;2019 = 18</p>\r\n\r\n<p>The sales of XYZ phones in 2020&nbsp;= 40</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The required percentage = [(40 - 18)/18]&nbsp;&times; 100 = 122.22 %</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित दंड आलेख&nbsp;का अध्ययन करें और प्रश्न का उत्तर दें।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D442024_08_13_04_14_06.PNG\" style=\"height:217px; width:300px\" /></p>\r\n\r\n<p>2019 से 2020 तक XYZ फोन की बिक्री में प्रतिशत वृद्धि ज्ञात कीजिए? (दशमलव 2 स्थानों तक पूर्णांकित)</p>\r\n",
+    "options_hi": [
+      "<p>122.22 प्रतिशत</p>\r\n",
+      "<p>110.11 प्रतिशत</p>\r\n",
+      "<p>119.19 प्रतिशत</p>\r\n",
+      "<p>121.89 प्रतिशत</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong> अर्थात् <strong>122.22 प्रतिशत </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>2019 में XYZ फोन की बिक्री = 18</p>\r\n\r\n<p>2020 में XYZ फोन की बिक्री = 40</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>अभीष्ट&nbsp;प्रतिशत = [(40 - 18)/18]&nbsp;&times; 100 = 122.22%</p>\r\n"
+  },
+  {
+    "question": "<p>The following pie chart shows the sectors representing the shares of the number of lights manufactured in a given year by each of six different factories in terms of the central angles (in degrees) with respect to the total number of lights manufactured in that year by all the six factories taken together.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D82024_08_12_23_50_31.png\" style=\"height:320px; width:318px\" /></p>\r\n\r\n<p>If the total number of lights manufactured in that year by the 6 factories taken together is 1840, then what is the difference between the numbers of lights manufactured by F5 and F1?</p>\r\n",
+    "options": [
+      "<p>96</p>\r\n",
+      "<p>94</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>92</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e.&nbsp;<strong>92.</strong></p>\r\n\r\n<p>Difference between the numbers of lights manufactured by F5 and F1 = 45 - 27 = 18&deg;</p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>Required difference = (1840/360)&nbsp;&times; 18 = 92</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्न पाई चार्ट&nbsp;सभी छह अलग-अलग कारखानों द्वारा दिए गए वर्ष में निर्मित लाइट की संख्या के भागों का प्रतिनिधित्व करने वाले क्षेत्रों को केंद्रीय कोणों (डिग्री में) के संदर्भ में उस वर्ष में सभी छह कारखानों द्वारा एक साथ निर्मित लाइट की कुल संख्या के सापेक्ष दर्शाता है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D82024_08_12_23_50_31.png\" style=\"height:320px; width:318px\" /></p>\r\n\r\n<p>यदि 6 कारखानों द्वारा एक साथ उस वर्ष निर्मित लाइट&nbsp;की कुल संख्या 1840 है, तो F5 और F1 द्वारा निर्मित लाइट&nbsp;की संख्या के बीच क्या अंतर है?</p>\r\n",
+    "options_hi": [
+      "<p>96</p>\r\n",
+      "<p>94</p>\r\n",
+      "<p>90</p>\r\n",
+      "<p>92</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्<strong>&nbsp;92</strong> है।&nbsp;</p>\r\n\r\n<p>F5 और F1 द्वारा निर्मित लाइट&nbsp;की संख्या के बीच&nbsp;अंतर = 45 - 27 = 18&deg;</p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>अभीष्ट अंतर = (1840/360) &times; 18 = 92</p>\r\n"
+  },
+  {
+    "question": "<p style=\"text-align:justify\">The number of sport bicycles sold by a shopkeeper in five years is shown in the following bar graph.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D452024_08_13_04_14_47.PNG\" style=\"height:198px; width:300px\" /></p>\r\n\r\n<p style=\"text-align:justify\">What is the percentage of decrease in the sale of sport bicycles in the year 2021 over that in the previous year?</p>\r\n",
+    "options": [
+      "<p>27.0%</p>\r\n",
+      "<p>26.5%</p>\r\n",
+      "<p>26.0%</p>\r\n",
+      "<p>27.5%</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>27.5%.</strong></p>\r\n\r\n<p>Sale of bicycles in 2021 = 145</p>\r\n\r\n<p>Sale of bicycles in 2020 = 200</p>\r\n\r\n<p>Percentage decrease = (200 - 145)/200&nbsp;&times; 100 = 55/2 = 27.5%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p style=\"text-align:justify\">एक दुकानदार द्वारा पांच वर्षों में बेची गई स्पोर्ट साइकिलों की संख्या निम्नलिखित दंड आलेख&nbsp;में दिखाई गई है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D452024_08_13_04_14_47.PNG\" style=\"height:198px; width:300px\" /></p>\r\n\r\n<p style=\"text-align:justify\">वर्ष 2021 में स्पोर्ट साइकिल की बिक्री में पिछले वर्ष की तुलना में कितने प्रतिशत की कमी आई है?</p>\r\n",
+    "options_hi": [
+      "<p>27.0%</p>\r\n",
+      "<p>26.5%</p>\r\n",
+      "<p>26.0%</p>\r\n",
+      "<p>27.5%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>27.5%</strong> है।</p>\r\n\r\n<p>2021 में साइकिल की बिक्री = 145</p>\r\n\r\n<p>2020 में साइकिल की बिक्री = 200</p>\r\n\r\n<p>प्रतिशत में कमी = (200 - 145)/200 &times; 100 = 55/2 = 27.5%</p>\r\n"
+  },
+  {
+    "question": "<p>Study the following table and answer the question below.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>School name</td>\r\n\t\t\t<td>Total number of students enrolled</td>\r\n\t\t\t<td>Percentage of enrolled students who opted for Biology</td>\r\n\t\t\t<td>Ratio of male to female students who opted for Biology</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>A</td>\r\n\t\t\t<td>900</td>\r\n\t\t\t<td>30%</td>\r\n\t\t\t<td>7 : 8</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>B</td>\r\n\t\t\t<td>400</td>\r\n\t\t\t<td>38%</td>\r\n\t\t\t<td>9 : 10</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>C</td>\r\n\t\t\t<td>1000</td>\r\n\t\t\t<td>24%</td>\r\n\t\t\t<td>5 : 19</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>D</td>\r\n\t\t\t<td>800</td>\r\n\t\t\t<td>18%</td>\r\n\t\t\t<td>5 : 7</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>What is the ratio of the total number of male students to that of female students who opted for Biology in schools A and D together?</p>\r\n",
+    "options": [
+      "<p>38 : 31</p>\r\n",
+      "<p>21 : 38</p>\r\n",
+      "<p>31 : 28</p>\r\n",
+      "<p>31 : 38</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>31 : 38</strong>.</p>\r\n\r\n<p>In school A,</p>\r\n\r\n<p>Total number of students = 900</p>\r\n\r\n<p>Number of students opted biology = 30% of 900 = 270</p>\r\n\r\n<p>Number of males = 7/15&nbsp;&times; 270 = 126</p>\r\n\r\n<p>Number of females = 270 - 126 = 144</p>\r\n\r\n<p>In school D,</p>\r\n\r\n<p>Total number of students = 800</p>\r\n\r\n<p>Number of students opted biology = 18% of 800 = 144</p>\r\n\r\n<p>Number of males = 5/12&nbsp;&times; 144 = 60</p>\r\n\r\n<p>Number of females = 144 - 60 = 84</p>\r\n\r\n<p>Tota males = 126 + 60 = 186</p>\r\n\r\n<p>Total females = 144 + 84 = 228</p>\r\n\r\n<p>Required ratio = 186 : 228 = 31 : 38</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित तालिका का अध्ययन करें और नीचे दिए गए प्रश्न का उत्तर दें।</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>स्कूल के नाम</td>\r\n\t\t\t<td>नामांकित छात्रों की कुल संख्या</td>\r\n\t\t\t<td>नामांकित छात्रों का प्रतिशत जिन्होंने जीव विज्ञान को चुना</td>\r\n\t\t\t<td>जीव विज्ञान चुनने वाले पुरुष और महिला छात्रों का अनुपात</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>A</td>\r\n\t\t\t<td>900</td>\r\n\t\t\t<td>30%</td>\r\n\t\t\t<td>7 : 8</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>B</td>\r\n\t\t\t<td>400</td>\r\n\t\t\t<td>38%</td>\r\n\t\t\t<td>9 : 10</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>C</td>\r\n\t\t\t<td>1000</td>\r\n\t\t\t<td>24%</td>\r\n\t\t\t<td>5 : 19</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>D</td>\r\n\t\t\t<td>800</td>\r\n\t\t\t<td>18%</td>\r\n\t\t\t<td>5 : 7</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>स्कूल A और D में जीव विज्ञान चुनने वाले पुरुष छात्रों की कुल संख्या का महिला छात्रों की कुल संख्या से अनुपात क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>38 : 31</p>\r\n",
+      "<p>21 : 38</p>\r\n",
+      "<p>31 : 28</p>\r\n",
+      "<p>31 : 38</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>31 : 38</strong> है।</p>\r\n\r\n<p>स्कूल A में,</p>\r\n\r\n<p>छात्रों की कुल संख्या = 900</p>\r\n\r\n<p>जीव विज्ञान चुनने वाले छात्रों की संख्या = 900 का&nbsp;30% = 270</p>\r\n\r\n<p>पुरुषों की संख्या = 7/15&times; 270 = 126</p>\r\n\r\n<p>महिलाओं की संख्या = 270 - 126 = 144</p>\r\n\r\n<p>स्कूल D में,</p>\r\n\r\n<p>छात्रों की कुल संख्या = 800</p>\r\n\r\n<p>जीव विज्ञान चुनने वाले छात्रों की संख्या = 800 का 18% = 144</p>\r\n\r\n<p>पुरुषों की संख्या = 5/12 &times; 144 = 60</p>\r\n\r\n<p>महिलाओं की संख्या = 144 - 60 = 84</p>\r\n\r\n<p>कुल पुरुष = 126 + 60 = 186</p>\r\n\r\n<p>कुल महिलाएँ = 144 + 84 = 228</p>\r\n\r\n<p>अभीष्ट&nbsp;अनुपात = 186 : 228 = 31 : 38</p>\r\n"
+  },
+  {
+    "question": "<p>The following table shows the number of sweets manufactured by six factories.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">&nbsp;</td>\r\n\t\t\t<td colspan=\"6\" rowspan=\"1\" style=\"text-align:center\">Factory</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">Year</td>\r\n\t\t\t<td>P</td>\r\n\t\t\t<td>Q</td>\r\n\t\t\t<td>R</td>\r\n\t\t\t<td>S</td>\r\n\t\t\t<td>T</td>\r\n\t\t\t<td>U</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1996</td>\r\n\t\t\t<td>196</td>\r\n\t\t\t<td>145</td>\r\n\t\t\t<td>254</td>\r\n\t\t\t<td>169</td>\r\n\t\t\t<td>291</td>\r\n\t\t\t<td>220</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1997</td>\r\n\t\t\t<td>172</td>\r\n\t\t\t<td>233</td>\r\n\t\t\t<td>141</td>\r\n\t\t\t<td>125</td>\r\n\t\t\t<td>167</td>\r\n\t\t\t<td>189</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1998</td>\r\n\t\t\t<td>178</td>\r\n\t\t\t<td>240</td>\r\n\t\t\t<td>150</td>\r\n\t\t\t<td>130</td>\r\n\t\t\t<td>177</td>\r\n\t\t\t<td>192</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1999</td>\r\n\t\t\t<td>180</td>\r\n\t\t\t<td>260</td>\r\n\t\t\t<td>160</td>\r\n\t\t\t<td>140</td>\r\n\t\t\t<td>188</td>\r\n\t\t\t<td>195</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>What is the respective ratio of sweets manufactured by factories P,&nbsp;Q and R together in the year 1998, to the sweets manufactured by factories S, T and U together in the same year?</p>\r\n",
+    "options": [
+      "<p>568 : 499</p>\r\n",
+      "<p>61 : 72</p>\r\n",
+      "<p>61 : 42</p>\r\n",
+      "<p>40 : 51</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1</strong> i.e.&nbsp;<strong>568 : 499.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The sweets manufactured by factories P. Q and R together in the year 1998 = 178 + 240 + 150 = 568</p>\r\n\r\n<p>The sweets manufactured by factories S.T and U together in the same year 1998 = 130 + 177 + 192 = 499</p>\r\n\r\n<p>Hence, the required ratio is 568 : 499</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित तालिका छह कारखानों द्वारा निर्मित मिठाइयों की संख्या दर्शाती है।</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">\r\n\t\t\t<p style=\"text-align:center\">&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td colspan=\"6\" rowspan=\"1\" style=\"text-align:center\">कारखाना&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">वर्ष</td>\r\n\t\t\t<td>P</td>\r\n\t\t\t<td>Q</td>\r\n\t\t\t<td>R</td>\r\n\t\t\t<td>S</td>\r\n\t\t\t<td>T</td>\r\n\t\t\t<td>U</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1996</td>\r\n\t\t\t<td>196</td>\r\n\t\t\t<td>145</td>\r\n\t\t\t<td>254</td>\r\n\t\t\t<td>169</td>\r\n\t\t\t<td>291</td>\r\n\t\t\t<td>220</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1997</td>\r\n\t\t\t<td>172</td>\r\n\t\t\t<td>233</td>\r\n\t\t\t<td>141</td>\r\n\t\t\t<td>125</td>\r\n\t\t\t<td>167</td>\r\n\t\t\t<td>189</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1998</td>\r\n\t\t\t<td>178</td>\r\n\t\t\t<td>240</td>\r\n\t\t\t<td>150</td>\r\n\t\t\t<td>130</td>\r\n\t\t\t<td>177</td>\r\n\t\t\t<td>192</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>1999</td>\r\n\t\t\t<td>180</td>\r\n\t\t\t<td>260</td>\r\n\t\t\t<td>160</td>\r\n\t\t\t<td>140</td>\r\n\t\t\t<td>188</td>\r\n\t\t\t<td>195</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>वर्ष 1998 में कारखानों P, Q और R द्वारा एक साथ निर्मित मिठाइयों का उसी वर्ष में कारखानों S, T और U द्वारा एक साथ निर्मित मिठाइयों से संबंधित अनुपात क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>568 : 499</p>\r\n",
+      "<p>61 : 72</p>\r\n",
+      "<p>61 : 42</p>\r\n",
+      "<p>40 : 51</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात्<strong> 568 : 499</strong> है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि&nbsp;</p>\r\n\r\n<p>वर्ष 1998 में कारखानों P, Q और R द्वारा एक साथ निर्मित मिठाइयाँ = 178 + 240 + 150 = 568</p>\r\n\r\n<p>समान वर्ष 1998 में कारखानों S, T और U द्वारा निर्मित मिठाइयाँ = 130 + 177 + 192 = 499</p>\r\n\r\n<p>इसलिए, अभीष्ट अनुपात 568 : 499 है।&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Study the given bar-graph and answer the question that follows.<br />\r\nThe bar graph shows the sales of cycles (in 1000 numbers) from four different companies during 2018.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/Shraddha_QA_082024_08_10_14_58_23.08\" style=\"height:265px; width:263px\" /></p>\r\n\r\n<p>What is the average sales of all the companies (in 1000 numbers) for the year 2018?</p>\r\n",
+    "options": [
+      "<p>45,000</p>\r\n",
+      "<p>34,000</p>\r\n",
+      "<p>54,000</p>\r\n",
+      "<p>24,000</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1</strong> i.e. <strong>45,000</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The sales of cycles of company A = 25000</p>\r\n\r\n<p>The sales of cycles of Company B = 30000</p>\r\n\r\n<p>The sales of cycles of Company C = 55000</p>\r\n\r\n<p>The sales of cycles of Company D = 70000</p>\r\n\r\n<p>The total sales of cycles of all companies = 25000 + 30000 + 55000 + 70000 = 180000</p>\r\n\r\n<p>Total number of companies = 4</p>\r\n\r\n<p>Hence, the average of sales = 180000/4 = 45000</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए दंड आलेख का अध्ययन करें और निम्नलिखित प्रश्न का उत्तर दें।<br />\r\nदंड आलेख&nbsp;2018 के दौरान चार अलग-अलग कंपनियों की साइकिलों की बिक्री (1000 संख्या में) दर्शाता है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/Shraddha_QA_082024_08_10_14_58_23.08\" style=\"height:265px; width:263px\" /></p>\r\n\r\n<p>वर्ष 2018 के लिए सभी कंपनियों की औसत बिक्री (1000 संख्या में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>45,000</p>\r\n",
+      "<p>34,000</p>\r\n",
+      "<p>54,000</p>\r\n",
+      "<p>24,000</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>45,000 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है&nbsp;कि</p>\r\n\r\n<p>कंपनी A की साइकिलों की बिक्री = 25000</p>\r\n\r\n<p>कंपनी B की साइकिलों की बिक्री = 30000</p>\r\n\r\n<p>कंपनी C की साइकिलों की बिक्री = 55000</p>\r\n\r\n<p>कंपनी D की साइकिलों की बिक्री = 70000</p>\r\n\r\n<p>सभी कंपनियों की साइकिलों की कुल बिक्री = 25000 + 30000 + 55000 + 70000 = 180000</p>\r\n\r\n<p>कंपनियों की कुल संख्या = 4</p>\r\n\r\n<p>इसलिए, बिक्री का औसत = 180000/4 = 45000</p>\r\n"
+  },
+  {
+    "question": "<p>&nbsp;Study the given pie-chart and answer the question that follows.The pie-chart shows the expenditure incurred in the preparation of a book by a publisher, under various heads.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D192024_08_13_03_00_11.png\" style=\"height:253px; width:350px\" /></p>\r\n\r\n<p>What is the difference between the angle of the pie chart showing the expenditure incurred on binding and printing?</p>\r\n",
+    "options": [
+      "<p>15&deg;</p>\r\n",
+      "<p>20&deg;</p>\r\n",
+      "<p>18&deg;</p>\r\n",
+      "<p>22&deg;</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The correct answer is <strong>Option 3</strong>&nbsp;i.e.&nbsp;</span></span><strong>18&deg;.</strong></p>\r\n\r\n<p>The expenditure incurred on binding and printing is 30% and 25%,&nbsp;respectively</p>\r\n\r\n<p>As we know,</p>\r\n\r\n<p>In pie chart, 100% = 360&deg;</p>\r\n\r\n<p>So, 30% = (360/100)&nbsp;&times; 30 = 108&deg;</p>\r\n\r\n<p>25% =&nbsp;(360/100)&nbsp;&times; 25&nbsp;= 90&deg;</p>\r\n\r\n<p>Hence, the required difference is 108&deg; - 90&deg; = 18&deg;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए वृत्त-आलेख&nbsp;का अध्ययन करें और निम्नलिखित प्रश्न का उत्तर दें।&nbsp;वृत्त-आलेख एक प्रकाशक द्वारा विभिन्न मदों के तहत एक पुस्तक की तैयारी में किए गए व्यय को दर्शाता है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D192024_08_13_03_00_11.png\" style=\"height:253px; width:350px\" /></p>\r\n\r\n<p>बाइंडिंग और प्रिंटिंग पर किए गए व्यय को दर्शाने वाले वृत्त-आलेख के कोण के बीच क्या अंतर है?</p>\r\n",
+    "options_hi": [
+      "<p>15&deg;</p>\r\n",
+      "<p>20&deg;</p>\r\n",
+      "<p>18&deg;</p>\r\n",
+      "<p>22&deg;</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्&nbsp;<strong>18&deg;</strong> है।</p>\r\n\r\n<p>बाइंडिंग और प्रिंटिंग पर होने वाला व्यय क्रमशः 30% और 25% है</p>\r\n\r\n<p>जैसा कि हम जानते हैं,</p>\r\n\r\n<p>वृत्त-आलेख में, 100% = 360&deg;</p>\r\n\r\n<p>इसलिए, 30% = (360/100)&nbsp;&times; 30 = 108&deg;</p>\r\n\r\n<p>25% =&nbsp;(360/100)&nbsp;&times; 25&nbsp;= 90&deg;</p>\r\n\r\n<p>इसलिए, अभीष्ट अंतर 108&deg; - 90&deg; = 18&deg; है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Study the given pie chart and answer the question that follows.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D182024_08_13_02_26_10.png\" style=\"height:276px; width:350px\" /></p>\r\n\r\n<p>The total population of these six villages is 100%. The population of Village D in 2020 was 10,500. What was the population of village A in 2020?</p>\r\n",
+    "options": [
+      "<p>15,570</p>\r\n",
+      "<p>15,750</p>\r\n",
+      "<p>17,500</p>\r\n",
+      "<p>7,875</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The correct answer is <strong>Option 2</strong>&nbsp;i.e.&nbsp;</span></span><strong>15,750.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The population of Village D in 2020 was 10,500</p>\r\n\r\n<p>The total population of these six villages is 100%.</p>\r\n\r\n<p>The percentage of the population of Village D in 2020 = 8%</p>\r\n\r\n<p>The percentage of the population of Village A in 2020 = 12%</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>&rArr; 8% = 10500</p>\r\n\r\n<p>&rArr; 1% = 10500/8</p>\r\n\r\n<p>&rArr; 12% = 10500&nbsp;&times; 12/8 = 15750</p>\r\n\r\n<p>Hence, the population of Village A in 2020 was 15,750.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए वृत्त आलेख&nbsp;का अध्ययन करें और निम्नलिखित प्रश्न का उत्तर दें।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D182024_08_13_02_26_10.png\" style=\"height:276px; width:350px\" /></p>\r\n\r\n<p>इन छह ग्रामों की कुल जनसंख्या 100% है।&nbsp;2020 में ग्राम D की जनसंख्या 10,500 थी। 2020 में ग्राम A की जनसंख्या कितनी थी?</p>\r\n",
+    "options_hi": [
+      "<p>15,570</p>\r\n",
+      "<p>15,750</p>\r\n",
+      "<p>17,500</p>\r\n",
+      "<p>7,875</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात् <strong>15,750 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया हैं कि&nbsp;</p>\r\n\r\n<p>2020 में ग्राम D की जनसंख्या 10,500 थी।&nbsp;</p>\r\n\r\n<p>इन छह ग्रामों की कुल जनसंख्या 100%&nbsp;है।&nbsp;</p>\r\n\r\n<p>2020 में ग्राम D की जनसंख्या का प्रतिशत = 8%</p>\r\n\r\n<p>2020 में ग्राम A की जनसंख्या का प्रतिशत = 12%</p>\r\n\r\n<p>प्रश्नानुसार</p>\r\n\r\n<p>&rArr; 8% = 10500</p>\r\n\r\n<p>&rArr; 1% = 10500/8</p>\r\n\r\n<p>&rArr; 12% = 10500&nbsp;&times; 12/8 = 15750</p>\r\n\r\n<p>इसलिए, 2020 में ग्राम A की जनसंख्या 15,750 थी।</p>\r\n"
+  },
+  {
+    "question": "<p>Study the given table and answer the question that follows.<br />\r\nThe table shows the number of candidates who appeared (App), qualified (Qual), and were selected (Sel) in a competitive examination from four states: Delhi, Goa, Karnataka, and Maharastra, over the years 2012 to 2016.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D462024_08_13_04_15_49.PNG\" style=\"height:92px; width:350px\" /></p>\r\n\r\n<p>The number of candidates selected from Maharashtra during the period under review is approximately what percentage of the number selected from Delhi during this period?</p>\r\n",
+    "options": [
+      "<p>96.79%</p>\r\n",
+      "<p>92.79%</p>\r\n",
+      "<p>93.39%</p>\r\n",
+      "<p>94.79%</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4 </strong>i.e.<strong>&nbsp;94.79%.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>Total selected candidates from Delhi = 94 + 48 + 90 + 70 + 82 = 384</p>\r\n\r\n<p>Total selected candidates from Maharastra = 85 + 70 + 84 + 60 + 65 = 364</p>\r\n\r\n<p>Hence, the required percentage = (364 &times; 100)/384 = 94.79%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दी गई तालिका का अध्ययन कीजिये और नीचे दिए गए प्रश्नों के उत्तर दीजिये।</p>\r\n\r\n<p>तालिका वर्ष 2012 से 2016 के दौरान चार राज्यों: दिल्ली, गोवा, कर्नाटक और महाराष्ट्र से एक प्रतियोगी परीक्षा में उपस्थित (App), योग्य (Qual), और चयनित (Sel) उम्मीदवारों की संख्या दर्शाती है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D462024_08_13_04_15_49.PNG\" style=\"height:92px; width:350px\" /></p>\r\n\r\n<p>समीक्षाधीन अवधि के दौरान महाराष्ट्र से चयनित उम्मीदवारों की संख्या, इस अवधि के दौरान दिल्ली से चयनित उम्मीदवारों की संख्या का लगभग कितना प्रतिशत है?</p>\r\n",
+    "options_hi": [
+      "<p>96.79%</p>\r\n",
+      "<p>92.79%</p>\r\n",
+      "<p>93.39%</p>\r\n",
+      "<p>94.79%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>94.79%&nbsp;</strong>है।</p>\r\n\r\n<p>दिया गया है</p>\r\n\r\n<p>दिल्ली से कुल चयनित उम्मीदवार&nbsp;= 94 + 48 + 90 + 70 + 82 = 384</p>\r\n\r\n<p>महाराष्ट्र से कुल चयनित उम्मीदवार&nbsp;= 85 + 70 + 84 + 60 + 65 = 364</p>\r\n\r\n<p>अतः, अभीष्ट प्रतिशत = (364 &times; 100)/384 = 94.79%</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The following pie chart shows the monthly sales of laptops by five companies (A, B, C, D, and E) in a store.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D162024_08_13_02_10_56.png\" style=\"height:342px; width:330px\" /></p>\r\n\r\n<p>If 2,500 laptops were sold by the store in a month, then what is the difference between the number of laptops sold by Company A and that of Company C?</p>\r\n",
+    "options": [
+      "<p>750</p>\r\n",
+      "<p>650</p>\r\n",
+      "<p>800</p>\r\n",
+      "<p>700</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.<strong> 800.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>If 2,500 laptops were sold by the store in a month</p>\r\n\r\n<p>The laptops were sold by store A in the month = 40%&nbsp;&times; 2500</p>\r\n\r\n<p>= (40/100)&nbsp;&times; 2500 = 1000</p>\r\n\r\n<p>The laptops were sold by store C in the month = 8%&nbsp;&times; 2500 = 8&nbsp;&times; 2500/100= 200</p>\r\n\r\n<p>Hence, the difference&nbsp;between the number of laptops sold by Company A and that of Company C = 1000 - 200 = 800</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित पाई चार्ट एक स्टोर में पांच कंपनियों (A, B, C, D, और E) द्वारा लैपटॉप की मासिक बिक्री को दर्शाता है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D162024_08_13_02_10_56.png\" style=\"height:342px; width:330px\" /></p>\r\n\r\n<p>यदि स्टोर द्वारा एक महीने में 2,500 लैपटॉप बेचे गए, तो कंपनी A और कंपनी C द्वारा बेचे गए लैपटॉप की संख्या के बीच क्या अंतर है?</p>\r\n",
+    "options_hi": [
+      "<p>750</p>\r\n",
+      "<p>650</p>\r\n",
+      "<p>800</p>\r\n",
+      "<p>700</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात् <strong>800</strong> है।</p>\r\n\r\n<p>दिया गया है</p>\r\n\r\n<p>यदि एक महीने में स्टोर द्वारा 2,500 लैपटॉप बेचे गए</p>\r\n\r\n<p>लैपटॉप स्टोर A द्वारा महीने में बेचे गए थे = 40% &times; 2500</p>\r\n\r\n<p>= (40/100)&nbsp;&times; 2500 = 1000</p>\r\n\r\n<p>लैपटॉप स्टोर C द्वारा महीने में बेचे गए थे= 8%&nbsp;&times; 2500 = 8&nbsp;&times; 2500/100= 200</p>\r\n\r\n<p>अतः, कंपनी A और कंपनी C द्वारा बेचे गए लैपटॉप की संख्या के बीच अंतर = 1000 - 200 = 800</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Study the given table carefully and answer the following question.<br />\r\nThe table shows the percentage of students of four departments - Mechanical, Civil, Computer Science and Applied - with each student being in only one department. The table also shows the number of students of these four departments in five different colleges, with the total number of students being 2080.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">College</td>\r\n\t\t\t<td>Number of Students</td>\r\n\t\t\t<td>Mechanical</td>\r\n\t\t\t<td>Civil</td>\r\n\t\t\t<td>Computer Science</td>\r\n\t\t\t<td>Applied</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT Delhi</td>\r\n\t\t\t<td style=\"text-align:center\">430</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">10%</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT Kanpur</td>\r\n\t\t\t<td style=\"text-align:center\">350</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">25%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT Bombay</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">18%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">32%</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT Madras</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">25%</td>\r\n\t\t\t<td style=\"text-align:center\">18%</td>\r\n\t\t\t<td style=\"text-align:center\">35%</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT Guwahati</td>\r\n\t\t\t<td style=\"text-align:center\">400</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">22%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>If the number of students in IIT Bombay is 20% less than the number of students in IIT Madras, then the number of students in IIT Bombay is:</p>\r\n",
+    "options": [
+      "<p>300</p>\r\n",
+      "<p>500</p>\r\n",
+      "<p>200</p>\r\n",
+      "<p>400</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong> i.e. <strong>400</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The total number of students at five different colleges is 2080.</p>\r\n\r\n<p>the number of students in IIT Delhi = 430</p>\r\n\r\n<p>the number of students in IIT Kanpur = 350</p>\r\n\r\n<p>the number of students in IIT Guwahati = 400</p>\r\n\r\n<p>If the number of students in IIT Bombay is 20% less than the number of students in IIT Madras,</p>\r\n\r\n<p>Let the number of students in IIT Madras be x</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The number of students in IIT bombay +&nbsp;the number of students in IIT Madras = 2080 - (430 + 350 + 400) = 2080 - 1180 = 900</p>\r\n\r\n<p>&rArr;&nbsp; 0.8x + x = 900</p>\r\n\r\n<p>&rArr; 1.8x = 900</p>\r\n\r\n<p>&rArr; x = 500</p>\r\n\r\n<p>Hence, the number of students in IIT Bombay = 0.8x = 0.8&nbsp;&times; 500 = 400</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दी गई तालिका का ध्यानपूर्वक अध्ययन करें और निम्नलिखित प्रश्न का उत्तर दें।<br />\r\nतालिका चार विभागों : मैकेनिकल, सिविल, कंप्यूटर साइंस और एप्लाइड के छात्रों का प्रतिशत दर्शाती है। प्रत्येक छात्र केवल एक विभाग में है। तालिका पांच अलग-अलग कॉलेजों में इन चार विभागों के छात्रों की संख्या भी दर्शाती है, जिसमें कुल छात्रों की संख्या 2080 है।</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">कॉलेज&nbsp;</td>\r\n\t\t\t<td>छात्रों की संख्या</td>\r\n\t\t\t<td>मैकेनिकल&nbsp;</td>\r\n\t\t\t<td>सिविल</td>\r\n\t\t\t<td>कंप्यूटर साइंस</td>\r\n\t\t\t<td>एप्लाइड</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT दिल्ली&nbsp;</td>\r\n\t\t\t<td style=\"text-align:center\">430</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">10%</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT कानपुर&nbsp;</td>\r\n\t\t\t<td style=\"text-align:center\">350</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">25%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT बॉम्बे&nbsp;</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">18%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">32%</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT मद्रास&nbsp;</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">25%</td>\r\n\t\t\t<td style=\"text-align:center\">18%</td>\r\n\t\t\t<td style=\"text-align:center\">35%</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center\">IIT गुवाहाटी&nbsp;</td>\r\n\t\t\t<td style=\"text-align:center\">400</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t\t<td style=\"text-align:center\">22%</td>\r\n\t\t\t<td style=\"text-align:center\">-</td>\r\n\t\t\t<td style=\"text-align:center\">20%</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>यदि IIT बॉम्बे में छात्रों की संख्या, IIT मद्रास में छात्रों की संख्या से 20% कम है, तो IIT बॉम्बे में छात्रों की संख्या कितनी है?</p>\r\n",
+    "options_hi": [
+      "<p>300</p>\r\n",
+      "<p>500</p>\r\n",
+      "<p>200</p>\r\n",
+      "<p>400</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>400 </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>पांच अलग-अलग कॉलेजों में छात्रों की कुल संख्या 2080 है।</p>\r\n\r\n<p>IIT दिल्ली में छात्रों की संख्या = 430</p>\r\n\r\n<p>IIT कानपुर में छात्रों की संख्या = 350</p>\r\n\r\n<p>IIT गुवाहाटी में छात्रों की संख्या = 400</p>\r\n\r\n<p>यदि IIT बॉम्बे में छात्रों की संख्या, IIT मद्रास में छात्रों की संख्या से 20% कम है,</p>\r\n\r\n<p>माना IIT मद्रास में छात्रों की संख्या x है</p>\r\n\r\n<p>प्रश्नानुसार</p>\r\n\r\n<p>IIT बॉम्बे में छात्रों की संख्या + IIT मद्रास में छात्रों की संख्या = 2080 - (430 + 350 + 400) = 2080 - 1180 = 900</p>\r\n\r\n<p>&rArr; 0.8x + x = 900</p>\r\n\r\n<p>&rArr; 1.8x = 900</p>\r\n\r\n<p>&rArr; x = 500</p>\r\n\r\n<p>इसलिए, IIT बॉम्बे में छात्रों की संख्या = 0.8x = 0.8&nbsp;&times; 500 = 400</p>\r\n"
+  },
+  {
+    "question": "<p>What is the central angle corresponding to the sector indicating the expenses incurred on Health?</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D152024_08_13_01_48_10.png\" style=\"height:250px; width:350px\" /></p>\r\n",
+    "options": [
+      "<p>72&deg;</p>\r\n",
+      "<p>54&deg;</p>\r\n",
+      "<p>110&deg;</p>\r\n",
+      "<p>108&deg;</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e.&nbsp;<strong>108&deg;.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The expenses incurred on Health = 15000</p>\r\n\r\n<p>Total expenses on various departments = 5000 + 20000 + 15000 + 8000 + 2000 = 50000</p>\r\n\r\n<p>Total Central angle = 360&deg;</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>&rArr; 50000 = 360&deg;</p>\r\n\r\n<p>&rArr; 15000 = (360/50000)&nbsp;&times; 15000 = 36&nbsp;&times; 3 = 108&deg;</p>\r\n\r\n<p>Hence, the required central angle is&nbsp;108&deg;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>स्वास्थ्य पर किए गए व्यय को दर्शाने वाला त्रिज्यखंड के अनुरूप केंद्रीय कोण क्या है?</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D152024_08_13_01_48_10.png\" style=\"height:250px; width:350px\" /></p>\r\n",
+    "options_hi": [
+      "<p>72&deg;</p>\r\n",
+      "<p>54&deg;</p>\r\n",
+      "<p>110&deg;</p>\r\n",
+      "<p>108&deg;</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात्&nbsp;<strong>108&deg; </strong>है।&nbsp;</p>\r\n\r\n<p>दिया गया है&nbsp;कि</p>\r\n\r\n<p>स्वास्थ्य पर खर्च = 15000</p>\r\n\r\n<p>विभिन्न विभागों पर कुल खर्च = 5000 + 20000 + 15000 + 8000 + 2000 = 50000</p>\r\n\r\n<p>कुल केन्द्रीय कोण = 360&deg;</p>\r\n\r\n<p>प्रश्नानुसार,</p>\r\n\r\n<p>&rArr; 50000 = 360&deg;</p>\r\n\r\n<p>&rArr; 15000 = (360/50000)&nbsp;&times; 15000 = 36&nbsp;&times; 3 = 108&deg;</p>\r\n\r\n<p>इसलिए, अभीष्ट केंद्रीय कोण 108&deg; है।&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Select the correct statement with respect to the below bar graph.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D132024_08_13_01_26_15.png\" style=\"height:229px; width:303px\" /></p>\r\n",
+    "options": [
+      "<p>Rice production by A in 2016 is less than the rice production by C in 2020.</p>\r\n",
+      "<p>B produced more rice than A and C in 2018.</p>\r\n",
+      "<p>The highest production of rice was in the year 2017.</p>\r\n",
+      "<p>Rice production by B in 2017 is equal to the rice production by A in 2020.</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4 </strong>i.e.<strong>&nbsp;Rice production by B in 2017 is equal to the rice production by A in 2020.</strong></p>\r\n\r\n<p>Rice production by B in 2017 = 60 lakh tons</p>\r\n\r\n<p>The rice production by A in 2020 =&nbsp;60 lakh tons</p>\r\n\r\n<p>So,&nbsp;Rice production by B in 2017 is equal to the rice production by A in 2020.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>नीचे दिए गए बार ग्राफ के संबंध में सही कथन का चयन करें।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_12 Aug 2024-D132024_08_13_01_26_15.png\" style=\"height:229px; width:303px\" /></p>\r\n",
+    "options_hi": [
+      "<p>2016 में A द्वारा चावल का उत्पादन 2020 में C द्वारा चावल उत्पादन से कम है।</p>\r\n",
+      "<p>2018 में B ने A और C से अधिक चावल का उत्पादन किया।</p>\r\n",
+      "<p>चावल का सबसे ज्यादा उत्पादन साल 2017 में हुआ था।</p>\r\n",
+      "<p>2017 में B द्वारा चावल का उत्पादन 2020 में A द्वारा चावल उत्पादन के बराबर है।</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात <strong>2017 में B द्वारा चावल का उत्पादन 2020 में A द्वारा चावल उत्पादन के बराबर </strong>है।</p>\r\n\r\n<p>2017 में B द्वारा चावल का उत्पादन = 60 लाख टन</p>\r\n\r\n<p>2020 में A द्वारा चावल का उत्पादन = 60 लाख टन</p>\r\n\r\n<p>इसलिए, 2017 में B द्वारा चावल का उत्पादन 2020 में A द्वारा चावल उत्पादन के बराबर है।</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Industrial growth of different countries (in crores of 2):<br />\r\n<img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D472024_08_13_04_16_29.PNG\" style=\"height:155px; width:300px\" /></p>\r\n\r\n<p>How many countries&#39; industrial growth is more than the average industrial growth?</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.<strong> 2.</strong></p>\r\n\r\n<p>The industrial growth&nbsp;of India = 30</p>\r\n\r\n<p>The industrial growth of Pakistan = 20</p>\r\n\r\n<p>The industrial growth of China = 50</p>\r\n\r\n<p>The industrial growth of England = 40</p>\r\n\r\n<p>The industrial growth of USA = 60</p>\r\n\r\n<p>Average = Sum of the observations/Total observations</p>\r\n\r\n<p>The average industrial growth = (30 + 20 + 50 + 40 + 60)/5 = 40</p>\r\n\r\n<p>So, only China and the USA&#39;s&nbsp;industrial growth is more than the average industrial growth.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>विभिन्न देशों की औद्योगिक वृद्धि (करोड़ 2 में):</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D472024_08_13_04_16_29.PNG\" style=\"height:155px; width:300px\" /><br />\r\nकितने देशों की औद्योगिक वृद्धि औसत औद्योगिक वृद्धि से अधिक है?</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात <strong>2</strong> है।</p>\r\n\r\n<p>भारत की औद्योगिक वृद्धि = 30</p>\r\n\r\n<p>पाकिस्तान की औद्योगिक वृद्धि = 20</p>\r\n\r\n<p>चीन की औद्योगिक वृद्धि = 50</p>\r\n\r\n<p>इंग्लैंड की औद्योगिक वृद्धि = 40</p>\r\n\r\n<p>संयुक्त राज्य अमेरिका की औद्योगिक वृद्धि = 60</p>\r\n\r\n<p>औसत = प्रेक्षणों का योग/कुल प्रेक्षण</p>\r\n\r\n<p>औसत औद्योगिक वृद्धि = (30 + 20 + 50 + 40 + 60)/5 = 40</p>\r\n\r\n<p>इसलिए, केवल चीन और संयुक्त राज्य अमेरिका की औद्योगिक वृद्धि औसत औद्योगिक वृद्धि से अधिक है।</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The following bar chart represents the gross amount (in Rs. Lakhs) and total cost (in Rs. lakhs) of a firm.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D482024_08_13_04_17_38.PNG\" style=\"height:265px; width:350px\" /></p>\r\n\r\n<p>In order to make a profit of 25%, what should the gross amount have been (in Rs. crores) in 2019-2020, if the total cost remained the same?</p>\r\n",
+    "options": [
+      "<p>7800</p>\r\n",
+      "<p>8000</p>\r\n",
+      "<p>8250</p>\r\n",
+      "<p>8125</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e.<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"> </span></span><strong>8125</strong>.</p>\r\n\r\n<p>To earn a profit of 25%</p>\r\n\r\n<p>Profit will be earned on total amount = Rs.6500</p>\r\n\r\n<p>So, the gross amount in years 2019-2020 = 6500&nbsp;&times; 125/100 = 8125</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित दंड आलेख एक फर्म की सकल राशि (लाख रुपये में) और कुल लागत (लाख रुपये में) को दर्शाता है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D482024_08_13_04_17_38.PNG\" style=\"height:265px; width:350px\" /></p>\r\n\r\n<p>25% का लाभ अर्जित करने के लिए, यदि कुल लागत समान रहती है, तो वर्ष 2019-2020 में सकल राशि (करोड़ रुपये में) क्या होनी चाहिए?</p>\r\n",
+    "options_hi": [
+      "<p>7800</p>\r\n",
+      "<p>8000</p>\r\n",
+      "<p>8250</p>\r\n",
+      "<p>8125</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>8125</strong> है।</p>\r\n\r\n<p>25% का लाभ अर्जित करने&nbsp;के लिए</p>\r\n\r\n<p>कुल राशि पर लाभ अर्जित होगा = 6500 रुपये&nbsp;</p>\r\n\r\n<p>इसलिए, वर्ष 2019-2020 में सकल राशि = 6500 &times; 125/100 = 8125</p>\r\n"
+  },
+  {
+    "question": "<p>Study the given table and answer the question that follows.</p>\r\n\r\n<p>The table shows the classification of 100 students based on the marks obtained in History and Geography in an examination.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D492024_08_13_04_18_41.PNG\" style=\"height:82px; width:350px\" /></p>\r\n\r\n<p>Based on the table, what is the number of students scoring less than 20% marks in aggregate?</p>\r\n",
+    "options": [
+      "<p>13</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1&nbsp;</strong>i.e <strong>13</strong>.</p>\r\n\r\n<p>Number of students who score less than 20 = Total number of students - Number of students who scored 10 and above</p>\r\n\r\n<p>Number of students who score less than 20 = 100 - 87 = 13</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दी गई तालिका का अध्ययन करें और निम्नलिखित प्रश्न का उत्तर दें।</p>\r\n\r\n<p>तालिका एक परीक्षा में इतिहास और भूगोल में प्राप्त अंकों के आधार पर 100 छात्रों का वर्गीकरण दर्शाती है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D492024_08_13_04_18_41.PNG\" style=\"height:82px; width:350px\" /></p>\r\n\r\n<p>तालिका के आधार पर, कुल मिलाकर 20% से कम अंक प्राप्त करने वाले छात्रों की संख्या क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>13</p>\r\n",
+      "<p>11</p>\r\n",
+      "<p>10</p>\r\n",
+      "<p>12</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>13 </strong>है।</p>\r\n\r\n<p>20 से कम अंक प्राप्त करने वाले छात्रों की संख्या = छात्रों की कुल संख्या - 10 और उससे अधिक अंक प्राप्त करने वाले छात्रों की संख्या</p>\r\n\r\n<p>20 से कम अंक प्राप्त करने वाले छात्रों की संख्या = 100 - 87 = 13</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The number of students in three different streams in different colleges are given below.</p>\r\n\r\n<table border=\"1\" cellspacing=\"0\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Stream&rarr;</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>College&darr;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Science</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Arts</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>Commerce</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1550</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1900</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2200</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1800</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1700</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2400</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1630</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1850</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2250</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1700</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1250</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">3250</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><br />\r\nThe difference between the average number of students per college in commerce and the average number of students per stream in college 2 (Correct to 2 decimal places) is:</p>\r\n",
+    "options": [
+      "<p>558.33</p>\r\n",
+      "<p>819.67</p>\r\n",
+      "<p>891.67</p>\r\n",
+      "<p>981.67</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1&nbsp;</strong>i.e.<strong>&nbsp;558.33.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The total&nbsp;number of students per college in commerce = 2200 + 2400 + 2250 + 3250 = 10100</p>\r\n\r\n<p>The average number of students per college in commerce = 10100/4 = 2525</p>\r\n\r\n<p>The total&nbsp;number of students per stream in college 2 = 1800 + 1700 + 2400 = 5900</p>\r\n\r\n<p>The average number of students per stream in college 2 = 5900/3 = 1966.66</p>\r\n\r\n<p>Hence, The required difference = 2525 - 1966.66 = 558.34</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>विभिन्न कॉलेजों में तीन अलग-अलग पाठ्यक्रमों&nbsp;में छात्रों की संख्या नीचे दी गई है।</p>\r\n\r\n<table border=\"1\" cellspacing=\"0\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\"><strong>पाठ्यक्रम&nbsp;</strong><strong>&rarr;</strong></p>\r\n\r\n\t\t\t<p style=\"text-align:center\"><strong>&nbsp;कॉलेज &darr;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"text-align:center\"><strong>विज्ञान&nbsp;&nbsp;</strong></td>\r\n\t\t\t<td style=\"text-align:center\"><strong>कला&nbsp;&nbsp;</strong></td>\r\n\t\t\t<td style=\"text-align:center\"><strong>वाणिज्य&nbsp;&nbsp;</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1550</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1900</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2200</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1800</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1700</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2400</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1630</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1850</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">2250</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1700</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">1250</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p style=\"text-align:center\">3250</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><br />\r\nप्रत्येक कॉलेज में वाणिज्य पाठ्यक्रम&nbsp;में छात्रों की औसत संख्या और कॉलेज 2 में प्रत्येक पाठ्यक्रम&nbsp;में छात्रों की औसत संख्या के बीच का अंतर (दशमलव दो स्थानों तक सही) कितना&nbsp;है?</p>\r\n",
+    "options_hi": [
+      "<p>558.33</p>\r\n",
+      "<p>819.67</p>\r\n",
+      "<p>891.67</p>\r\n",
+      "<p>981.67</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>558.33</strong> है।</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>वाणिज्य में प्रति कॉलेज कुल छात्रों की संख्या = 2200 + 2400 + 2250 + 3250 = 10100</p>\r\n\r\n<p>वाणिज्य में प्रति कॉलेज छात्रों की औसत संख्या = 10100/4 = 2525</p>\r\n\r\n<p>कॉलेज 2 में प्रति पाठ्यक्रम&nbsp;छात्रों की कुल संख्या = 1800 + 1700 + 2400 = 5900</p>\r\n\r\n<p>कॉलेज 2 में प्रति पाठ्यक्रम&nbsp;छात्रों की औसत संख्या = 5900/3 = 1966.66</p>\r\n\r\n<p>इसलिए, अभीष्ट अंतर = 2525 - 1966.66 = 558.34</p>\r\n"
+  },
+  {
+    "question": "<p>The pie chart shows the cost of construction of a house in degree.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D412024_08_13_03_56_45.PNG\" style=\"height:290px; width:285px\" /></p>\r\n\r\n<p>What is the average expenditure on timber, super-vision, and&nbsp;cement?</p>\r\n",
+    "options": [
+      "<p>20%</p>\r\n",
+      "<p>21%</p>\r\n",
+      "<p>10%</p>\r\n",
+      "<p>15%</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong>&nbsp;i.e. <strong>15%.</strong></p>\r\n\r\n<p>Given that&nbsp;</p>\r\n\r\n<p>The total expenditure on timber, super-vision and cement = 36&ordm; + 54&ordm; + 72&ordm; = 162&ordm;</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>The average expenditure on timber, super-vision and cement = 162&ordm;/3 = 54&ordm;</p>\r\n\r\n<p>The average expenditure on timber, super-vision and cement in percentage = (54&ordm;/360&ordm;)&nbsp;&times; 100 = 15%</p>\r\n\r\n<p>Hence, the correct answer is&nbsp;<strong>15%.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वृत्त आलेख&nbsp;एक घर के निर्माण की लागत को डिग्री में दर्शाता है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/DI_13-08-2024_D412024_08_13_03_56_45.PNG\" style=\"height:290px; width:285px\" /></p>\r\n\r\n<p>लकड़ी, पर्यवेक्षण और सीमेंट पर औसत व्यय कितना है?</p>\r\n",
+    "options_hi": [
+      "<p>20%</p>\r\n",
+      "<p>21%</p>\r\n",
+      "<p>10%</p>\r\n",
+      "<p>15%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात् <strong>15%</strong> है।</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>लकड़ी, पर्यवेक्षण और सीमेंट पर कुल व्यय = 36&ordm; + 54&ordm; + 72&ordm; = 162&ordm;</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>लकड़ी, पर्यवेक्षण और सीमेंट पर औसत व्यय = 162&ordm;/3 = 54&ordm;</p>\r\n\r\n<p>प्रतिशत में लकड़ी, पर्यवेक्षण और सीमेंट पर औसत व्यय = (54&ordm;/360&ordm;)&nbsp;&times; 100 = 15%</p>\r\n\r\n<p>अतः, सही उत्तर <strong>15%&nbsp;</strong>है।</p>\r\n"
+  },
+  {
+    "question": "<p>The following table gives the number of students who went abroad during 1994-1998.</p>\r\n\r\n<table border=\"1\" cellspacing=\"0\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Year / State</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1994</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1995</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1996</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1997</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1998</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Maharashtra</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>723</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>840</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>900</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>920</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>925</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Kerala</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1035</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>940</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1200</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1400</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1500</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Karnataka</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>750</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>600</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>830</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>575</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>900</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>West Bengal</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>500</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>550</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>450</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>600</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>525</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Delhi</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1500</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1625</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1700</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1475</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1800</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Andhra Pradesh</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>800</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>840</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>875</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>925</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>785</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>Total</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5308</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5395</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5955</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5895</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>6435</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><br />\r\nFrom which state/U.T. did the least number of students go abroad over the years among the given States/U.T.s?</p>\r\n",
+    "options": [
+      "<p>Maharashtra</p>\r\n",
+      "<p>Karnataka</p>\r\n",
+      "<p>Kerala</p>\r\n",
+      "<p>West Bengal</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong>&nbsp;i.e.&nbsp;<strong>West Bengal.</strong></p>\r\n\r\n<p>Given that</p>\r\n\r\n<p>The total number of students go abroad over the years from Maharastra = 723 + 840 +&nbsp;900 + 920 + 925 = 4308</p>\r\n\r\n<p>The total number of students go abroad over the years from Karnataka = 750 + 600 + 830 + 575 + 900 = 3655</p>\r\n\r\n<p>The total number of students go abroad over the years from Kerala = 1035 + 940 + 1200 + 1400 + 1500 = 6075</p>\r\n\r\n<p>The total number of students go abroad over the years from West Bengal = 500 + 550 + 450 + 600 + 525 = 2625</p>\r\n\r\n<p>Hence, the least number of students go abroad from West Bengal&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित तालिका 1994-1998 के दौरान विदेश गए छात्रों की संख्या दर्शाती है।</p>\r\n\r\n<table border=\"1\" cellspacing=\"0\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>वर्ष/ राज्य&nbsp;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1994</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1995</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1996</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1997</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>1998</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>महाराष्ट्र</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>723</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>840</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>900</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>920</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>925</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>केरल</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>1035</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>940</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1200</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1400</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1500</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>कर्नाटक</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>750</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>600</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>830</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>575</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>900</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>पश्चिम बंगाल</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>500</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>550</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>450</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>600</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>525</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>दिल्ली</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>1500</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1625</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1700</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1475</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>1800</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>आंध्र प्रदेश</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>800</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>840</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>875</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>925</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>785</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>कुल&nbsp;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5308</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5395</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5955</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>5895</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>6435</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>दिए गए राज्यों/केंद्र शासित प्रदेशों में से किस राज्य/केंद्र शासित प्रदेश से पिछले वर्षों में सबसे कम संख्या में छात्र विदेश गए?</p>\r\n",
+    "options_hi": [
+      "<p>महाराष्ट्र</p>\r\n",
+      "<p>कर्नाटक</p>\r\n",
+      "<p>केरल</p>\r\n",
+      "<p>पश्चिम बंगाल</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>पश्चिम बंगाल</strong> हैं।</p>\r\n\r\n<p>दिया गया है कि</p>\r\n\r\n<p>महाराष्ट्र से वर्षों में विदेश जाने वाले छात्रों की कुल संख्या = 723 + 840 + 900 + 920 + 925 = 4308</p>\r\n\r\n<p>कर्नाटक से वर्षों में विदेश जाने वाले छात्रों की कुल संख्या = 750 + 600 + 830 + 575 + 900 = 3655</p>\r\n\r\n<p>केरल से वर्षों में विदेश जाने वाले छात्रों की कुल संख्या = 1035 + 940 + 1200 + 1400 + 1500 = 6075</p>\r\n\r\n<p>पश्चिम बंगाल से वर्षों में विदेश जाने वाले छात्रों की कुल संख्या = 500 + 550 + 450 + 600 + 525 = 2625</p>\r\n\r\n<p>इसलिए, पश्चिम बंगाल से विदेश जाने वाले छात्रों की संख्या&nbsp;सबसे कम हैं।</p>\r\n"
+  },
+  {
+    "question": "<p>What is the ratio of the population doing government jobs in state E to the population doing government jobs in state A?</p>\r\n",
+    "options": [
+      "<p>23 : 96</p>\r\n",
+      "<p>13 : 37</p>\r\n",
+      "<p>28 : 57</p>\r\n",
+      "<p>29 : 39</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 3</strong>&nbsp;i.e.&nbsp;<strong>28 : 57.</strong></p>\r\n\r\n<p>From the given chart</p>\r\n\r\n<p>The population doing government jobs in state E = 14&nbsp;&times; 28</p>\r\n\r\n<p>The population doing government jobs in state A = 19&nbsp;&times; 42</p>\r\n\r\n<p>Required ratio = 14&nbsp;&times; 28 : 19&nbsp;&times; 42 = 28&nbsp;: 57</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>राज्य E में सरकारी नौकरी करने वाली जनसंख्या का राज्य A में सरकारी नौकरी करने वाली जनसंख्या से अनुपात क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>23 : 96</p>\r\n",
+      "<p>13 : 37</p>\r\n",
+      "<p>28 : 57</p>\r\n",
+      "<p>29 : 39</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>28 : 57</strong> है।</p>\r\n\r\n<p>दी गई आलेख&nbsp;से</p>\r\n\r\n<p>राज्य E में सरकारी नौकरी करने वाली जनसंख्या = 14 &times; 28</p>\r\n\r\n<p>राज्य A में सरकारी नौकरी करने वाली जनसंख्या = 19 &times; 42</p>\r\n\r\n<p>अभीष्ट&nbsp;अनुपात = 14 &times; 28 : 19 &times; 42 = 28 : 57</p>\r\n"
+  },
+  {
+    "question": "<p>The number of students in the Xth standard is what percent less than the number of students in the VIIth standard? (correct up to two decimal places).</p>\r\n",
+    "options": [
+      "<p>36.84%</p>\r\n",
+      "<p>58.33%</p>\r\n",
+      "<p>28.33%</p>\r\n",
+      "<p>46.84%</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 1</strong>&nbsp;i.e.&nbsp;<strong>36.84%.</strong></p>\r\n\r\n<p>The number of students in the Xth standard = 60</p>\r\n\r\n<p>The number of students in the VIIth standard = 95</p>\r\n\r\n<p>Difference = 95 - 60 = 35</p>\r\n\r\n<p>Required percentage = 35/95&nbsp;&times; 100 = 36.84%</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दसवीं कक्षा में विद्यार्थियों की संख्या, सातवीं कक्षा में विद्यार्थियों की संख्या से कितने प्रतिशत कम है? (दशमलव दो स्थानों तक सही)</p>\r\n",
+    "options_hi": [
+      "<p>36.84%</p>\r\n",
+      "<p>58.33%</p>\r\n",
+      "<p>28.33%</p>\r\n",
+      "<p>46.84%</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>36.84%</strong> है।</p>\r\n\r\n<p>दसवीं कक्षा में छात्रों की संख्या = 60</p>\r\n\r\n<p>सातवीं कक्षा में छात्रों की संख्या = 95</p>\r\n\r\n<p>अंतर = 95 - 60 = 33</p>\r\n\r\n<p>अभीष्ट&nbsp;प्रतिशत = 35/95&nbsp;&times; 100 = 36.84%</p>\r\n"
+  },
+  {
+    "question": "<p>How many cars assembled by machine C were accepted?</p>\r\n",
+    "options": [
+      "<p>5400</p>\r\n",
+      "<p>7560</p>\r\n",
+      "<p>4950</p>\r\n",
+      "<p>5160</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 3</strong>&nbsp;i.e.&nbsp;<strong>4950.</strong></p>\r\n\r\n<p>The number of cars rejected by machine C = 550</p>\r\n\r\n<p>Percentage of cars accepted by machine C = 90%</p>\r\n\r\n<p>It means 10% of cars are rejected by machine C</p>\r\n\r\n<p>So,</p>\r\n\r\n<p>&rArr; 10% = 550</p>\r\n\r\n<p>&rArr; 100% = 550&nbsp;&times; 100/10</p>\r\n\r\n<p>&rArr; 100% = 5500</p>\r\n\r\n<p>Total number of cars in machine C = 5500</p>\r\n\r\n<p>The number of cars accepted by machine C = 5500&nbsp;&times; 90/100 = 55&nbsp;&times; 90 = 4950</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मशीन C द्वारा असेंबल की गई कितनी कारें मंजूर की गईं?</p>\r\n",
+    "options_hi": [
+      "<p>5400</p>\r\n",
+      "<p>7560</p>\r\n",
+      "<p>4950</p>\r\n",
+      "<p>5160</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>4950 </strong>है।</p>\r\n\r\n<p>मशीन C द्वारा खारिज की गई&nbsp;कारों की संख्या = 550</p>\r\n\r\n<p>मशीन C द्वारा मजूर&nbsp;की गई कारों का प्रतिशत = 90%</p>\r\n\r\n<p>इसका अर्थ है कि मशीन C द्वारा 10% कारें खारिज की गई हैं</p>\r\n\r\n<p>इसलिए,</p>\r\n\r\n<p>&rArr; 10% = 550</p>\r\n\r\n<p>&rArr; 100% = 550&nbsp;&times; 100/10</p>\r\n\r\n<p>&rArr; 100% = 5500</p>\r\n\r\n<p>मशीन C में कारों की कुल संख्या = 5500</p>\r\n\r\n<p>मशीन C द्वारा खारिज की गई कारों की संख्या = 5500&nbsp;&times; 90/100 = 55&nbsp;&times; 90 = 4950</p>\r\n"
+  },
+  {
+    "question": "<p>The number of various types of vehicles (in thousands) in three cities is given below.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>City</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>&nbsp;B</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>C</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td><strong>K</strong></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">\r\n\t\t\t<p><strong>Car</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4.5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.0</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.0</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">\r\n\t\t\t<p><strong>Bus</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>2.5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.0</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4.5</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">\r\n\t\t\t<p><strong>Truck</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.5</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\">\r\n\t\t\t<p><strong>Bike</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.4</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Which type of vehicle is the maximum number combining the three cities?</p>\r\n",
+    "options": [
+      "<p>Truck</p>\r\n",
+      "<p>Car</p>\r\n",
+      "<p>Bus</p>\r\n",
+      "<p>Bike</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 2</strong>&nbsp;i.e.&nbsp;<strong>Car.</strong></p>\r\n\r\n<p>&rArr; Car&nbsp;=&nbsp;4.5 + 3.0 + 3.0 = 10.5</p>\r\n\r\n<p>&rArr; Bus =&nbsp;2.5 + 3.0 + 4.5 = 10</p>\r\n\r\n<p>&rArr; Truck = 3.4 + 3.5 + 3.5 = 10.4</p>\r\n\r\n<p>&rArr; Bike = 3.2 + 3.3 + 3.4 = 9.9</p>\r\n\r\n<p>So, the type of vehicle is the maximum number combining the three cities = Car = 10.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>तीन शहरों में विभिन्न प्रकार के वाहनों की संख्या (हजारों में) नीचे दी गई है।</p>\r\n\r\n<table border=\"1\" cellspacing=\"0\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>शहर</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>&nbsp;B</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>&nbsp;C</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><strong>&nbsp;K</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\"><strong>कार</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>4.5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.0</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.0</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\"><strong>बस</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>2.5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.0</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>4.5</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\"><strong>ट्रक</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.4</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.5</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.5</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"1\"><strong>बाइक</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.2</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.3</p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p>3.4</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>तीनों शहरों को मिलाकर किस प्रकार के वाहनों की संख्या सबसे अधिक है?</p>\r\n",
+    "options_hi": [
+      "<p>ट्रक</p>\r\n",
+      "<p>कार</p>\r\n",
+      "<p>बस</p>\r\n",
+      "<p>बाइक</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> यानी <strong>कार </strong>है।</p>\r\n\r\n<p>&rArr; कार = 4.5 + 3.0 + 3.0 = 10.5</p>\r\n\r\n<p>&rArr; बस = 2.5 + 3.0 + 4.5 = 10</p>\r\n\r\n<p>&rArr; ट्रक = 3.4 + 3.5 + 3.5 = 10.4</p>\r\n\r\n<p>&rArr; बाइक = 3.2 + 3.3 + 3.4 = 9.9</p>\r\n\r\n<p>तो, वाहन का प्रकार तीन शहरों को मिलाकर अधिकतम संख्या है = कार = 10.5</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  }
+]
