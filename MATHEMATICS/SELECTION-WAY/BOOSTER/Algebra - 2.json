@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "<p>If x + y + z = 19, xy + yz + zx = 114, then the value&nbsp;of <span class=\"math-tex\">\\(\\sqrt{x^3+y^3-3xyz}\\)</span>&nbsp;is:<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>21</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>19</strong>.</p>\r\n\r\n<p>x + y + z = 19&nbsp;<br />\r\nxy + yz + zx = 114&nbsp;<br />\r\nWhen there are two equations and 3 variables, then we can assume 1 variable is zero&nbsp;<br />\r\nLet, z = 0&nbsp;<br />\r\nx + y = 19&nbsp;<br />\r\nxy = 114&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3-3xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{(x+y)(x^2+y^2-xy})\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{(x+y)[(x+y)^2-3xy]}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{(19)[361-342]}\\)</span> = 19&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + y + z = 19, xy + yz + zx = 114, तो <span class=\"math-tex\">\\(\\sqrt{x^3+y^3-3xyz}\\)</span> का मान है:<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>21</p>\r\n",
+      "<p>17</p>\r\n",
+      "<p>19</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात&nbsp;<strong>19</strong>&nbsp;है।</p>\r\n\r\n<p>x + y + z = 19&nbsp;<br />\r\nxy + yz + zx = 114&nbsp;<br />\r\nजब दो समीकरण और 3 चर हों, तो हम मान सकते हैं कि 1 चर शून्य है<br />\r\nLet, z = 0&nbsp;<br />\r\nx + y = 19&nbsp;<br />\r\nxy = 114&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3-3xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{(x+y)(x^2+y^2-xy})\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{(x+y)[(x+y)^2-3xy]}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{(19)[361-342]}\\)</span> = 19&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If (27x<sup>3</sup> &ndash; 343y<sup>3</sup>) &divide; (3x - 7y) = Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx, then the value of (4A &ndash; B + 5C) is:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>2</strong>.</p>\r\n\r\n<p><span class=\"math-tex\">\\({27x^3– 343y^3}\\over{3x - 7y}\\)</span>&nbsp;=&nbsp;Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx</p>\r\n\r\n<p>(a<sup>3</sup>&nbsp;- b<sup>3</sup>) = (a - b)(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ ab)</p>\r\n\r\n<p><span class=\"math-tex\">\\((3x-7y)(9x^2+49y^2+21xy)\\over{3x - 7y}\\)</span>&nbsp;=&nbsp;Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx</p>\r\n\r\n<p>(9x<sup>2</sup>&nbsp;+ 49y<sup>2</sup>&nbsp;+ 21xy) =&nbsp;Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx</p>\r\n\r\n<p>After comparing both sides</p>\r\n\r\n<p>A = 9, B = 49, C = 3&nbsp;</p>\r\n\r\n<p>&rArr; (4A - B + 5C) =&nbsp;4 &times; 9 &ndash; 49 + 5 &times; 3 = 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (27x<sup>3</sup> &ndash; 343y<sup>3</sup>) &divide; (3x - 7y) = Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx, तो (4A &ndash; B + 5C) का मान है:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात&nbsp;<strong>2</strong>&nbsp;है।</p>\r\n\r\n<p><span class=\"math-tex\">\\({27x^3– 343y^3}\\over{3x - 7y}\\)</span>&nbsp;=&nbsp;Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx</p>\r\n\r\n<p>(a<sup>3</sup>&nbsp;- b<sup>3</sup>) = (a - b)(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ ab)</p>\r\n\r\n<p><span class=\"math-tex\">\\((3x-7y)(9x^2+49y^2+21xy)\\over{3x - 7y}\\)</span>&nbsp;=&nbsp;Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx</p>\r\n\r\n<p>(9x<sup>2</sup>&nbsp;+ 49y<sup>2</sup>&nbsp;+ 21xy) =&nbsp;Ax<sup>2</sup> + By<sup>2</sup> + 7Cyx</p>\r\n\r\n<p>दोनों पक्षों की तुलना करने के बाद</p>\r\n\r\n<p>A = 9, B = 49, C = 3&nbsp;</p>\r\n\r\n<p>&rArr; (4A - B + 5C) =&nbsp;4 &times; 9 &ndash; 49 + 5 &times; 3 = 2</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 27 =&nbsp;6(a + b + c), then what is the value of the root <span class=\"math-tex\">\\(\\sqrt[3]{a^3+b^3-c^3}\\)</span>?&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e. <strong>3</strong>.</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 27 =&nbsp;6(a + b + c)</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 27 =&nbsp;2(3a + 3b + 3c)</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ 9 - 6a + b<sup>2</sup>&nbsp;+ 9 - 6b +&nbsp;c<sup>2</sup>&nbsp;+ 9 - 6c =&nbsp;0</p>\r\n\r\n<p>(a - 3)<sup>2</sup>&nbsp;+ (b - 3)<sup>2</sup>&nbsp;+ (c - 3)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>a = 3, b = 3, c = 3</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt[3]{a^3+b^3-c^3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt[3]{3^3+3^3-3^3}\\)</span>&nbsp;= 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 27 =&nbsp;6(a + b + c), तो मूल <span class=\"math-tex\">\\(\\sqrt[3]{a^3+b^3-c^3}\\)</span> का मान क्या है?&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>6</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात <strong>3</strong>&nbsp;है।</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 27 =&nbsp;6(a + b + c)</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 27 =&nbsp;2(3a + 3b + 3c)</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ 9 - 6a + b<sup>2</sup>&nbsp;+ 9 - 6b +&nbsp;c<sup>2</sup>&nbsp;+ 9 - 6c =&nbsp;0</p>\r\n\r\n<p>(a - 3)<sup>2</sup>&nbsp;+ (b - 3)<sup>2</sup>&nbsp;+ (c - 3)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>a = 3, b = 3, c = 3</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt[3]{a^3+b^3-c^3}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt[3]{3^3+3^3-3^3}\\)</span>&nbsp;= 3</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If (3x - 1)<sup>3</sup> + (4x - 3)<sup>3</sup> + (2x + 1)<sup>3</sup> = 3(3x - 7)(4x - 3)(2x + 1)&nbsp;and x&nbsp;&ne;&nbsp;<span class=\"math-tex\">\\(1\\over3\\)</span>, then x = ?<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>2</strong>.</p>\r\n\r\n<p>(3x - 1)<sup>3</sup> + (4x - 3)<sup>3</sup> + (2x + 1)<sup>3</sup> = 3(3x - 7)(4x - 3)(2x + 1)&nbsp;<br />\r\nAs we know:-<br />\r\nIf a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc, then&nbsp;a + b + c = 0&nbsp;<br />\r\nbut x &ne; 1/3&nbsp;<br />\r\nSo using this&nbsp;<br />\r\n&rArr; 3x - 1 = 4x - 3 = 2x + 1<br />\r\n&rArr; 3x - 1 = 4x - 3<br />\r\n&rArr; 4x - 3x = 3 - 1<br />\r\n&rArr; x = 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (3x - 1)<sup>3</sup> + (4x - 3)<sup>3</sup> + (2x + 1)<sup>3</sup> = 3(3x - 7)(4x - 3)(2x + 1) तथा x &ne; <span class=\"math-tex\">\\(1\\over3\\)</span>, तो x = ?<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात <strong>2</strong>&nbsp;है।</p>\r\n\r\n<p>(3x - 1)<sup>3</sup> + (4x - 3)<sup>3</sup> + (2x + 1)<sup>3</sup> = 3(3x - 7)(4x - 3)(2x + 1)&nbsp;<br />\r\nजैसा कि हम जानते हैं:-<br />\r\nयदि&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc, तो&nbsp;a + b + c = 0&nbsp;<br />\r\nलेकिन&nbsp;x &ne; 1/3&nbsp;<br />\r\nतो इसका उपयोग करते हुए<br />\r\n&rArr; 3x - 1 = 4x - 3 = 2x + 1<br />\r\n&rArr; 3x - 1 = 4x - 3<br />\r\n&rArr; 4x - 3x = 3 - 1<br />\r\n&rArr; x = 2</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c = 6 and ab + bc + ca = 4, a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;- 3abc is equal to:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>148</p>\r\n",
+      "<p>154</p>\r\n",
+      "<p>160</p>\r\n",
+      "<p>144</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4&nbsp;</strong>i.e.&nbsp;<strong>144</strong>.</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= (a + b + c)<sup>2</sup> - 2(ab + bc + ca)&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= 36 - 8 = 28<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc&nbsp;= (a + b + c)(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca)&nbsp;<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = 6(28 - 4)&nbsp;= 144&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 6 और ab + bc + ca = 4, a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;- 3abc बराबर है:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>148</p>\r\n",
+      "<p>154</p>\r\n",
+      "<p>160</p>\r\n",
+      "<p>144</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात <strong>144</strong>&nbsp;है।</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= (a + b + c)<sup>2</sup> - 2(ab + bc + ca)&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= 36 - 8 = 28<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc&nbsp;= (a + b + c)(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca)&nbsp;<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = 6(28 - 4)&nbsp;= 144&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c = 6 and ab + bc + ca = 5, then a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup> - 3abc is equal to: &nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>116</p>\r\n",
+      "<p>126</p>\r\n",
+      "<p>98</p>\r\n",
+      "<p>108</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>126</strong>.</p>\r\n\r\n<p>a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = (a + b + c)<sup>2</sup> &ndash; 2(ab + bc + ca) = 36 &ndash; 10 = 26<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> &ndash; 3abc = (a + b + c)[a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> &ndash; (ab + bc + ca)]<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> &ndash; 3abc = 6(26 &ndash; 5)<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> &ndash; 3abc&nbsp;= 6 &times; 21 = 126</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 6 और ab + bc + ca = 5, तो a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup> - 3abc बराबर है:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>116</p>\r\n",
+      "<p>126</p>\r\n",
+      "<p>98</p>\r\n",
+      "<p>108</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>126</strong>&nbsp;है।</p>\r\n\r\n<p>a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = (a + b + c)<sup>2</sup> &ndash; 2(ab + bc + ca) = 36 &ndash; 10 = 26<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> &ndash; 3abc = (a + b + c)[a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> &ndash; (ab + bc + ca)]<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> &ndash; 3abc = 6(26 &ndash; 5)<br />\r\na<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> &ndash; 3abc&nbsp;= 6 &times; 21 = 126</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If (x &ndash; 5)<sup>3&nbsp;</sup>+ (x - 6)<sup>3</sup> + (x - 7)<sup>3</sup> = 3 (x - 5)(x - 6)(x - 7), then what is&nbsp;the value of x?&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>18</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>6</strong>.</p>\r\n\r\n<p>(x &ndash; 5)<sup>3&nbsp;</sup>+ (x - 6)<sup>3</sup> + (x - 7)<sup>3</sup> = 3 (x - 5)(x - 6)(x - 7)<br />\r\nIf a<sup>3</sup> + b<sup>3 </sup>+ c<sup>3</sup> = 3abc<br />\r\nThen a + b + c&nbsp; = 0<br />\r\nx &ndash; 5 + x &ndash; 6 + x &ndash; 7 = 0<br />\r\n3x = 18<br />\r\nx = 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (x &ndash; 5)<sup>3&nbsp;</sup>+ (x - 6)<sup>3</sup> + (x - 7)<sup>3</sup> = 3 (x - 5)(x - 6)(x - 7), तो x का मान क्या है?&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>18</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>7</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>6</strong>&nbsp;है।</p>\r\n\r\n<p>(x &ndash; 5)<sup>3&nbsp;</sup>+ (x - 6)<sup>3</sup> + (x - 7)<sup>3</sup> = 3 (x - 5)(x - 6)(x - 7)<br />\r\nयदि, a<sup>3</sup> + b<sup>3 </sup>+ c<sup>3</sup> = 3abc<br />\r\nतो,&nbsp;a + b + c&nbsp; = 0<br />\r\nx &ndash; 5 + x &ndash; 6 + x &ndash; 7 = 0<br />\r\n3x = 18<br />\r\nx = 6</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The expression (a + b &ndash; c)<sup>3</sup> + (a &ndash; b + c)<sup>3&nbsp;</sup>&ndash; 8a<sup>3</sup> is equal to:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>6a(a + b &ndash;c) (a &ndash; b+ c)</p>\r\n",
+      "<p>6a(a &ndash; b + c)(c - a - b)</p>\r\n",
+      "<p>3a(a + b &ndash; c) (a &ndash; b + c)</p>\r\n",
+      "<p>3a (a &ndash; b + c) (c &ndash; a &ndash; b)</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>6a(a &ndash; b + c)(c - a - b)</strong>.</p>\r\n\r\n<p>(a + b &ndash;c)<sup>3</sup> + (a &ndash; b + c)<sup>3</sup> + (&ndash;2a)<sup>3</sup><br />\r\nx = (a + b - c), y = (a - b + c),&nbsp;z = - 2a<br />\r\nx + y + z = 0<br />\r\nWhen x + y + z = 0 then&nbsp;x<sup>3</sup> + y + z<sup>3</sup> = 3xyz&nbsp;<br />\r\n3 &times; (a + b - c) &times; (a &ndash; b &times; c) &times; (- 2a)&nbsp;<br />\r\n= - 6a(a + b - c)(a - b + c)&nbsp;<br />\r\n= 6a(c - a - b)(a - b + c)&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>व्यंजक (a + b &ndash; c)<sup>3</sup> + (a &ndash; b + c)<sup>3</sup> &ndash; 8a<sup>3</sup> बराबर है:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>6a(a + b &ndash;c) (a &ndash; b+ c)</p>\r\n",
+      "<p>6a(a &ndash; b + c)(c - a - b)</p>\r\n",
+      "<p>3a(a + b &ndash; c) (a &ndash; b + c)</p>\r\n",
+      "<p>3a (a &ndash; b + c) (c &ndash; a &ndash; b)</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>6a(a &ndash; b + c)(c - a - b)</strong>&nbsp;है।</p>\r\n\r\n<p>(a + b &ndash;c)<sup>3</sup> + (a &ndash; b + c)<sup>3</sup> + (&ndash;2a)<sup>3</sup><br />\r\nx = (a + b - c), y = (a - b + c),&nbsp;z = - 2a<br />\r\nx + y + z = 0<br />\r\nजब,&nbsp;x + y + z = 0 तो&nbsp;x<sup>3</sup> + y + z<sup>3</sup> = 3xyz&nbsp;<br />\r\n3 &times; (a + b - c) &times; (a &ndash; b &times; c) &times; (- 2a)&nbsp;<br />\r\n= - 6a(a + b - c)(a - b + c)&nbsp;<br />\r\n= 6a(c - a - b)(a - b + c)&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If x + y + z = 7, x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 85 and x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 913, then the value of <span class=\"math-tex\">\\(\\sqrt[3]{xyz}\\)</span>&nbsp;is:<br />\r\n<strong>(CGL 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e. <strong>4</strong>.</p>\r\n\r\n<p>(x + y + z)<sup>2</sup>&nbsp;=&nbsp;x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>&nbsp;+ 2(xy + yz + zx)&nbsp;</p>\r\n\r\n<p>49 = 85 + 2(xy + yz + zx)</p>\r\n\r\n<p>xy + yz + zx = - 18&nbsp;</p>\r\n\r\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)[x<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;- (xy + yz + zx)]&nbsp;</p>\r\n\r\n<p>913 - 3xyz = 7[85 - (-18)]&nbsp;</p>\r\n\r\n<p>913 - 3xyz = 721</p>\r\n\r\n<p>- 3xyz = -192&nbsp;</p>\r\n\r\n<p>xyz = 64</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt[3]{xyz}\\)</span>&nbsp;= 4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + y + z = 7, x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 85 और x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 913, तो <span class=\"math-tex\">\\(\\sqrt[3]{xyz}\\)</span> का मान है:<br />\r\n<strong>(CGL 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात <strong>4</strong>&nbsp;है।</p>\r\n\r\n<p>(x + y + z)<sup>2</sup>&nbsp;=&nbsp;x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>&nbsp;+ 2(xy + yz + zx)&nbsp;</p>\r\n\r\n<p>49 = 85 + 2(xy + yz + zx)</p>\r\n\r\n<p>xy + yz + zx = - 18&nbsp;</p>\r\n\r\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)[x<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;- (xy + yz + zx)]&nbsp;</p>\r\n\r\n<p>913 - 3xyz = 7[85 - (-18)]&nbsp;</p>\r\n\r\n<p>913 - 3xyz = 721</p>\r\n\r\n<p>- 3xyz = -192&nbsp;</p>\r\n\r\n<p>xyz = 64</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt[3]{xyz}\\)</span>&nbsp;= 4</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x &ndash; y = 4 and x<sup>3</sup> &ndash; y<sup>3</sup> = 316, y > 0 then the value of x<sup>4</sup> &ndash; y<sup>4</sup> is:<br />\r\n<strong>(CGL 2020 Pre)</strong>&nbsp;</p>\r\n",
+    "options": [
+      "<p>2482</p>\r\n",
+      "<p>2320</p>\r\n",
+      "<p>2500</p>\r\n",
+      "<p>2401</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>2320</strong>.</p>\r\n\r\n<p>x<sup>3</sup> &minus; y<sup>3</sup> = (x&minus;y)[(x&minus;y)<sup>2</sup> + 3xy]<br />\r\n316 = 4[16 + 3xy]<br />\r\n79 = 16 + 3xy<br />\r\nxy = 21<br />\r\n(x &minus; y)<sup>2</sup> = (x + y)<sup>2</sup> &minus; 4xy<br />\r\n16 = (x + y)<sup>2</sup> &minus; 84<br />\r\n(x + y)<sup>2</sup> = 100<br />\r\nx + y = 10<br />\r\n(x + y)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + 2xy<br />\r\n100 = x<sup>2</sup> + y<sup>2</sup> + 42<br />\r\nx<sup>2</sup> + y<sup>2</sup> = 58<br />\r\nx<sup>4</sup> &minus; y<sup>4</sup> = (x + y)(x &minus; y)(x<sup>2</sup> + y<sup>2</sup>)<br />\r\nx<sup>4</sup> &minus; y<sup>4</sup> = 10 &times; 4 &times; 58 = 2320</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x &ndash; y = 4 तथा x<sup>3</sup> &ndash; y<sup>3</sup> = 316, y > 0 तो x<sup>4</sup> &ndash; y<sup>4</sup> का मान है:<br />\r\n<strong>(CGL 2020 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p>2482</p>\r\n",
+      "<p>2320</p>\r\n",
+      "<p>2500</p>\r\n",
+      "<p>2401</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>2320</strong>&nbsp;है।</p>\r\n\r\n<p>x<sup>3</sup> &minus; y<sup>3</sup> = (x&minus;y)[(x&minus;y)<sup>2</sup> + 3xy]<br />\r\n316 = 4[16 + 3xy]<br />\r\n79 = 16 + 3xy<br />\r\nxy = 21<br />\r\n(x &minus; y)<sup>2</sup> = (x + y)<sup>2</sup> &minus; 4xy<br />\r\n16 = (x + y)<sup>2</sup> &minus; 84<br />\r\n(x + y)<sup>2</sup> = 100<br />\r\nx + y = 10<br />\r\n(x + y)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + 2xy<br />\r\n100 = x<sup>2</sup> + y<sup>2</sup> + 42<br />\r\nx<sup>2</sup> + y<sup>2</sup> = 58<br />\r\nx<sup>4</sup> &minus; y<sup>4</sup> = (x + y)(x &minus; y)(x<sup>2</sup> + y<sup>2</sup>)<br />\r\nx<sup>4</sup> &minus; y<sup>4</sup> = 10 &times; 4 &times; 58 = 2320</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x + y + z = 2, x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> &ndash; 3xyz = 74, then (x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>) is equal to:&nbsp;<br />\r\n<strong>(CGL 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>22</p>\r\n",
+      "<p>29</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e. <strong>26.</strong></p>\r\n\r\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> &minus; 3xyz = (x + y + z)[(x + y + z)<sup>2</sup> &minus; 3(xy + yz + zx)]<br />\r\n74 = 2[4 &minus; 3(xy + yz + zx)]<br />\r\nxy + yz + zx = &minus; 11<br />\r\n(x + y + z)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + zx)<br />\r\n(2)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(&minus; 11)<br />\r\nx<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 26</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + y + z = 2, x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> &ndash; 3xyz = 74, तो (x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>) बराबर है:&nbsp;<br />\r\n<strong>(CGL 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>22</p>\r\n",
+      "<p>29</p>\r\n",
+      "<p>26</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात <strong>26</strong>&nbsp;है।</p>\r\n\r\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> &minus; 3xyz = (x + y + z)[(x + y + z)<sup>2</sup> &minus; 3(xy + yz + zx)]<br />\r\n74 = 2[4 &minus; 3(xy + yz + zx)]<br />\r\nxy + yz + zx = &minus; 11<br />\r\n(x + y + z)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + zx)<br />\r\n(2)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(&minus; 11)<br />\r\nx<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 26</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p><span class=\"math-tex\">\\({5(a^6-b^6)^3+5(b^6-c^6)^3+5(c^6-a^6)^3}\\over{2(a^3-b^3)^3+2(b^3-c^3)^3+2(c^3-a^3)^3}\\)</span></p>\r\n\r\n<p><strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3+c^3)(c^3+a^3)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3-c^3)(c^3-a^3)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3-b^3)(b^3+c^3)(c^3+a^3)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3-b^3)(b^3-c^3)(c^3+a^3)\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3+c^3)(c^3+a^3)\\)</span>.</p>\r\n\r\n<p>If a + b + c = 0, then a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc<br />\r\n<span class=\"math-tex\">\\({5(a^6-b^6)^3+5(b^6-c^6)^3+5(c^6-a^6)^3}\\over{2(a^3-b^3)^3+2(b^3-c^3)^3+2(c^3-a^3)^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({5\\over2}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\({3(a^6-b^6)×(b^6-c^6)×(c^6-a^6)}\\over{3(a^3-b^3)×(b^3-c^3)×(c^3-a^3)}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({5\\over2}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\({(a^3+b^3)(a^3-b^3)×(b^3+c^3)(b^3-c^3)×(c^3+a^3)(c^3-a^3)}\\over{(a^3-b^3)×(b^3-c^3)×(c^3-a^3)}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3+c^3)(c^3+a^3)\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\({5(a^6-b^6)^3+5(b^6-c^6)^3+5(c^6-a^6)^3}\\over{2(a^3-b^3)^3+2(b^3-c^3)^3+2(c^3-a^3)^3}\\)</span></p>\r\n\r\n<p><strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3+c^3)(c^3+a^3)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3-c^3)(c^3-a^3)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3-b^3)(b^3+c^3)(c^3+a^3)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({5\\over2}(a^3-b^3)(b^3-c^3)(c^3+a^3)\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3+c^3)(c^3+a^3)\\)</span>&nbsp;है।</p>\r\n\r\n<p>यदि&nbsp;a + b + c = 0, तो&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc<br />\r\n<span class=\"math-tex\">\\({5(a^6-b^6)^3+5(b^6-c^6)^3+5(c^6-a^6)^3}\\over{2(a^3-b^3)^3+2(b^3-c^3)^3+2(c^3-a^3)^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({5\\over2}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\({3(a^6-b^6)×(b^6-c^6)×(c^6-a^6)}\\over{3(a^3-b^3)×(b^3-c^3)×(c^3-a^3)}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({5\\over2}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\({(a^3+b^3)(a^3-b^3)×(b^3+c^3)(b^3-c^3)×(c^3+a^3)(c^3-a^3)}\\over{(a^3-b^3)×(b^3-c^3)×(c^3-a^3)}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({5\\over2}(a^3+b^3)(b^3+c^3)(c^3+a^3)\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>Simplify the following expression:&nbsp;<br />\r\n<span class=\"math-tex\">\\({(a^2-4b^2)^3+64(b^2-4c^2)^3+(16c^2-a^2)^3}\\over{(a-2b)^3+(2b-4c)^3+(4c-a)^3}\\)</span>&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>- (a+2b)<sup>3</sup> + (b + 2c)<sup>3</sup> + (4c+a)<sup>3</sup></p>\r\n",
+      "<p>2(a + 2b) (b + 2c) (4c + a)&nbsp;</p>\r\n",
+      "<p>(a + 2b)(b + 2c)(4c + a)&nbsp;</p>\r\n",
+      "<p>4(a + 2b)(b + 2c)(4c + a)&nbsp;</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>2(a + 2b) (b + 2c) (4c + a)</strong>.</p>\r\n\r\n<p>Put a =&nbsp;b = 1 &amp; c = 0</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({((1)^2-4(1)^2)^3+64((1)^2-4(0)^2)^3+(16(0)^2-(1)^2)^3}\\over{((1)-2(1))^3+(2(1)-4(0))^3+(4(0)-(1))^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({(1-4)^3+64(1-0)^3+(0-1)^3}\\over{(-1)^3+(2-0)^3+(0-1)^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({-27+64-1}\\over-1+8-1\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(64-28\\over8-2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(36\\over6\\)</span>&nbsp;= 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित व्यंजक को सरल कीजिए:&nbsp;<br />\r\n<span class=\"math-tex\">\\({(a^2-4b^2)^3+64(b^2-4c^2)^3+(16c^2-a^2)^3}\\over{(a-2b)^3+(2b-4c)^3+(4c-a)^3}\\)</span><br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>- (a+2b)<sup>3</sup> + (b + 2c)<sup>3</sup> + (4c+a)<sup>3</sup></p>\r\n",
+      "<p>2(a + 2b) (b + 2c) (4c + a)&nbsp;</p>\r\n",
+      "<p>(a + 2b)(b + 2c)(4c + a)&nbsp;</p>\r\n",
+      "<p>4(a + 2b)(b + 2c)(4c + a)&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>2(a + 2b) (b + 2c) (4c + a)</strong>&nbsp;है।</p>\r\n\r\n<p>a = b = 1 और c = 0 रखें</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({((1)^2-4(1)^2)^3+64((1)^2-4(0)^2)^3+(16(0)^2-(1)^2)^3}\\over{((1)-2(1))^3+(2(1)-4(0))^3+(4(0)-(1))^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({(1-4)^3+64(1-0)^3+(0-1)^3}\\over{(-1)^3+(2-0)^3+(0-1)^3}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({-27+64-1}\\over-1+8-1\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(64-28\\over8-2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(36\\over6\\)</span>&nbsp;= 6</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>Find the value of 70<sup>3</sup> + 20<sup>3</sup> &ndash; 90<sup>3</sup>.<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>1.0</p>\r\n",
+      "<p>378000</p>\r\n",
+      "<p>-378000</p>\r\n",
+      "<p>-300000</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>-378000</strong>.</p>\r\n\r\n<p>If a + b + c = 0, then a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> = 3abc&nbsp;<br />\r\na + b + (- c) = 0&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> - c<sup>3</sup> = -3abc&nbsp;<br />\r\n&rArr; 70<sup>3</sup> + 20<sup>3</sup> - 90<sup>3</sup> = - 3 &times; 70 &times; 20 &times; 90&nbsp;= -378000&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>70<sup>3</sup> + 20<sup>3</sup> &ndash; 90<sup>3</sup> का मान ज्ञात कीजिए।<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>1.0</p>\r\n",
+      "<p>378000</p>\r\n",
+      "<p>-378000</p>\r\n",
+      "<p>-300000</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात&nbsp;<strong>-378000</strong>&nbsp;है।</p>\r\n\r\n<p>यदि&nbsp;a + b + c = 0, तो&nbsp;a<sup>3</sup> + b<sup>3&nbsp;</sup>+ c<sup>3</sup> = 3abc&nbsp;<br />\r\na + b + (- c) = 0&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> - c<sup>3</sup> = -3abc&nbsp;<br />\r\n&rArr; 70<sup>3</sup> + 20<sup>3</sup> - 90<sup>3</sup> = - 3 &times; 70 &times; 20 &times; 90&nbsp;= -378000&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x + y + z = 18, xyz = 81, and xy + yz + zx = 90, then find the value of <span class=\"math-tex\">\\(\\sqrt[4]{x^3+y^3+z^3+xyz}\\)</span>.&nbsp;&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>6</strong>.</p>\r\n\r\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)&nbsp;[(x + y + z)<sup>2</sup> - 3(xy + yz + zx)]&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = 18[(18)<sup>2</sup> - 270]&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = 18 &times; 54 = 972&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3&nbsp;&times; 81&nbsp;= 972<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 1215<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt[4]{x^3+y^3+z^3+xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt[4]{1215+81}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\sqrt[4]{1296}\\)</span>&nbsp;= 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + y + z = 18, xyz = 81, और xy + yz + zx = 90, तो <span class=\"math-tex\">\\(\\sqrt[4]{x^3+y^3+z^3+xyz}\\)</span> का मान ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात <strong>6</strong>&nbsp;है।</p>\r\n\r\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)&nbsp;[(x + y + z)<sup>2</sup> - 3(xy + yz + zx)]&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = 18[(18)<sup>2</sup> - 270]&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = 18 &times; 54 = 972&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3&nbsp;&times; 81&nbsp;= 972<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 1215<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt[4]{x^3+y^3+z^3+xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt[4]{1215+81}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\sqrt[4]{1296}\\)</span>&nbsp;= 6</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c = 6, a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = 32 and a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 189, then the value of 4abc is:&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>12</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>12</strong>.</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= a<sup>2&nbsp;</sup>+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 2(ab + bc + ca)&nbsp;<br />\r\n36 = 32 + 2(ab + bc + ca)&nbsp;<br />\r\nab + bc + ca = <span class=\"math-tex\">\\(4\\over2\\)</span>&nbsp;= 2&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = (a + b + c)&nbsp;[(a + b + c)<sup>2</sup> - 3(ab + bc + ca)]&nbsp;<br />\r\n&rArr; 189 - 3abc = 6[36 &ndash; 3 &times; 2]<br />\r\n&rArr; 189 - 3abc = 180&nbsp;<br />\r\n&rArr; 3abc = 9<br />\r\n&rArr;&nbsp;abc = 3&nbsp;<br />\r\n&rArr;&nbsp;4abc = 4 &times; 3 = 12</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 6, a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = 32 और a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 189, तो 4abc का मान है:&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>12</p>\r\n",
+      "<p>16</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>12</strong>&nbsp;है।</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= a<sup>2&nbsp;</sup>+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 2(ab + bc + ca)&nbsp;<br />\r\n36 = 32 + 2(ab + bc + ca)&nbsp;<br />\r\nab + bc + ca = <span class=\"math-tex\">\\(4\\over2\\)</span>&nbsp;= 2&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = (a + b + c)&nbsp;[(a + b + c)<sup>2</sup> - 3(ab + bc + ca)]&nbsp;<br />\r\n&rArr; 189 - 3abc = 6[36 &ndash; 3 &times; 2]<br />\r\n&rArr; 189 - 3abc = 180&nbsp;<br />\r\n&rArr; 3abc = 9<br />\r\n&rArr;&nbsp;abc = 3&nbsp;<br />\r\n&rArr;&nbsp;4abc = 4 &times; 3 = 12</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>The value of <span class=\"math-tex\">\\({(x-y)^3+(y-z)^3+(z-x)^3}\\over{6(x-y)(y-z)(z-x)}\\)</span>, x &ne; y&nbsp;&ne; z&nbsp;is equal to:<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over9\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>.</p>\r\n\r\n<p>Let (x - y) = a, (y - z) = b, and (z - x)&nbsp;= c&nbsp;<br />\r\n&rArr; a + b + c = 0&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\n<span class=\"math-tex\">\\({(x-y)^3+(y-z)^3+(z-x)^3}\\over{6(x-y)(y-z)(z-x)}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({a^3+b^3+c^3}\\over6abc\\)</span><br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(3abc\\over6abc\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\({(x-y)^3+(y-z)^3+(z-x)^3}\\over{6(x-y)(y-z)(z-x)}\\)</span>, x &ne; y &ne; z का मान बराबर है:<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over9\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>&nbsp;है।</p>\r\n\r\n<p>मान लीजिए (x - y) = a, (y - z) = b, और (z - x) = c&nbsp;<br />\r\n&rArr; a + b + c = 0&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\n<span class=\"math-tex\">\\({(x-y)^3+(y-z)^3+(z-x)^3}\\over{6(x-y)(y-z)(z-x)}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({a^3+b^3+c^3}\\over6abc\\)</span><br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(3abc\\over6abc\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>The value of&nbsp;<span class=\"math-tex\">\\({(p-q)^3+(q-r)^3+(r-p)^3}\\over{12(p-q)(q-r)(r-p)}\\)</span>, where p &ne; q&nbsp;&ne; r, is equal to:&nbsp;<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(1\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over5\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(1\\over4\\)</span>.</p>\r\n\r\n<p>If a + b + c = 0, then&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\n<span class=\"math-tex\">\\({(p-q)^3+(q-r)^3+(r-p)^3}\\over{12(p-q)(q-r)(r-p)}\\)</span>&nbsp;= <span class=\"math-tex\">\\({3(p-q)(q-r)(r-p)}\\over{12(p-q)(q-r)(r-p)}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\({(p-q)^3+(q-r)^3+(r-p)^3}\\over{12(p-q)(q-r)(r-p)}\\)</span>, का मान, जहाँ p &ne; q &ne; r, बराबर है:&nbsp;<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(1\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over5\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over2\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(1\\over4\\)</span>&nbsp;है।</p>\r\n\r\n<p>यदि&nbsp;a + b + c = 0, तब&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\n<span class=\"math-tex\">\\({(p-q)^3+(q-r)^3+(r-p)^3}\\over{12(p-q)(q-r)(r-p)}\\)</span>&nbsp;= <span class=\"math-tex\">\\({3(p-q)(q-r)(r-p)}\\over{12(p-q)(q-r)(r-p)}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup> = 3abc if _____.<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>a = b = c&nbsp;</p>\r\n",
+      "<p>a + b + c = 0&nbsp;</p>\r\n",
+      "<p>a + b + c = 1&nbsp;</p>\r\n",
+      "<p>a + b + c = - 1&nbsp;</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>a + b + c = 0</strong>.</p>\r\n\r\n<p>If a + b + c = 0, then&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = 0&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup> = 3abc यदि _____।<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>a = b = c&nbsp;</p>\r\n",
+      "<p>a + b + c = 0&nbsp;</p>\r\n",
+      "<p>a + b + c = 1&nbsp;</p>\r\n",
+      "<p>a + b + c = - 1&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>a + b + c = 0</strong>&nbsp;है।</p>\r\n\r\n<p>यदि&nbsp;a + b + c = 0 तो, a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = 0&nbsp;<br />\r\n&rArr; a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If p = 8.15 , q = 9.06 and r = - 17.21 , then the value of p<sup>3</sup> + q<sup>3</sup>&nbsp;+ r<sup>3</sup>&nbsp;- 3pqr is:&nbsp;<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>-3.81</p>\r\n",
+      "<p>-5.62</p>\r\n",
+      "<p>4.75</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>0</strong>.</p>\r\n\r\n<p>Here,&nbsp;8.15 + 9.06 - 17.21 = 0</p>\r\n\r\n<p>p + q + r = 0&nbsp;</p>\r\n\r\n<p>Hence, p<sup>3</sup> + q<sup>3</sup>&nbsp;+ r<sup>3</sup>&nbsp;- 3pqr = 0</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि p = 8.15, q = 9.06 और r = - 17.21 है, तो p<sup>3</sup> + q<sup>3</sup>&nbsp;+ r<sup>3</sup>&nbsp;- 3pqr का मान है:&nbsp;<br />\r\n<strong>(CGL 2022 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>-3.81</p>\r\n",
+      "<p>-5.62</p>\r\n",
+      "<p>4.75</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>0</strong>&nbsp;है।</p>\r\n\r\n<p>यहाँ, 8.15 + 9.06 - 17.21 = 0</p>\r\n\r\n<p>p + q + r = 0</p>\r\n\r\n<p>अतः, p<sup>3</sup> + q<sup>3</sup>&nbsp;+ r<sup>3</sup>&nbsp;- 3pqr = 0</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c&nbsp;= 5, a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;= 85 and abc = 25, then find the value of a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> - ab - bc - ca.&nbsp;<br />\r\n<strong>(CGL 2022 Pre) &nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>2</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>2</strong>.</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup>&nbsp;- 3abc = (a + b + c)[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- (ab + bc + ca)]&nbsp;</p>\r\n\r\n<p>&rArr; 85 - 3&nbsp;&times; 25 = 5[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- ab - bc - ca]</p>\r\n\r\n<p>&rArr; 85 - 75 = 5[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- ab - bc - ca]</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- ab - bc - ca = 10/5 = 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 5, a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;= 85 और abc = 25 है, तो a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> - ab - bc - ca का मान ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(CGL 2022 Pre) &nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>2</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>2</strong>&nbsp;है।</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup>&nbsp;- 3abc = (a + b + c)[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- (ab + bc + ca)]&nbsp;</p>\r\n\r\n<p>&rArr; 85 - 3&nbsp;&times; 25 = 5[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- ab - bc - ca]</p>\r\n\r\n<p>&rArr; 85 - 75 = 5[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- ab - bc - ca]</p>\r\n\r\n<p>&rArr; a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;- ab - bc - ca = 10/5 = 2</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If (a + b + c) = 20 and a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 152, find the value of a<sup>3</sup>&nbsp;+&nbsp;b<sup>3</sup>&nbsp;+&nbsp;c<sup>3</sup> - 3abc.&nbsp;<br />\r\n<strong>(CGL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>480</p>\r\n",
+      "<p>720</p>\r\n",
+      "<p>640</p>\r\n",
+      "<p>560</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>560</strong>.</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 2(ab +&nbsp;bc +&nbsp;ca)</p>\r\n\r\n<p>(20)<sup>2</sup>&nbsp;= 152 + 2(ab +&nbsp;bc +&nbsp;ca)</p>\r\n\r\n<p>(ab +&nbsp;bc +&nbsp;ca) = 124</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;+&nbsp;b<sup>3</sup>&nbsp;+ c<sup>3</sup> + 3abc = (a + b - c)&nbsp;[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;-&nbsp;(ab +&nbsp;bc +&nbsp;ca)]&nbsp;</p>\r\n\r\n<p>&rArr; 20&nbsp;&times; [152 - 124]</p>\r\n\r\n<p>&rArr; 20&nbsp;&times; 28 = 560</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a + b - c) = 20 और a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 152, तो a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;- c<sup>3</sup> + 3abc का मान ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(CGL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>480</p>\r\n",
+      "<p>720</p>\r\n",
+      "<p>640</p>\r\n",
+      "<p>560</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात <strong>560</strong>&nbsp;है।</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 2(ab +&nbsp;bc +&nbsp;ca)</p>\r\n\r\n<p>(20)<sup>2</sup>&nbsp;= 152 + 2(ab +&nbsp;bc +&nbsp;ca)</p>\r\n\r\n<p>(ab +&nbsp;bc +&nbsp;ca) = 124</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;+&nbsp;b<sup>3</sup>&nbsp;+ c<sup>3</sup> + 3abc = (a + b - c)&nbsp;[a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;-&nbsp;(ab +&nbsp;bc +&nbsp;ca)]&nbsp;</p>\r\n\r\n<p>&rArr; 20&nbsp;&times; [152 - 124]</p>\r\n\r\n<p>&rArr; 20&nbsp;&times; 28 = 560</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If (a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;- 3abc) = 405 and (a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup> = 54 then, find the value of (a + b + c).&nbsp;<br />\r\n<strong>(CGL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>15</p>\r\n",
+      "<p>45</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>15</strong>.</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3</sup> + c<sup>3&nbsp;</sup>- 3abc = <span class=\"math-tex\">\\(1\\over2\\)</span>(a&nbsp;+ b + c)[(a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>]&nbsp;<br />\r\n&rArr; 405 = <span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[54]&nbsp;<br />\r\n&rArr; (a + b + c) = 405/27 = 15&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;- 3abc) = 405 और (a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup> = 54 है तो, (a + b + c) का मान ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(CGL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>15</p>\r\n",
+      "<p>45</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात <strong>15</strong>&nbsp;है।</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3</sup> + c<sup>3&nbsp;</sup>- 3abc = <span class=\"math-tex\">\\(1\\over2\\)</span>(a&nbsp;+ b + c)[(a - b)<sup>2</sup>&nbsp;+ (b - c)<sup>2</sup>&nbsp;+ (c - a)<sup>2</sup>]&nbsp;<br />\r\n&rArr; 405 = <span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[54]&nbsp;<br />\r\n&rArr; (a + b + c) = 405/27 = 15&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If (a + b + c) = 14 , and (a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc) = 98, find the value of (a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>).<br />\r\n<strong>(CGL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>70</p>\r\n",
+      "<p>64</p>\r\n",
+      "<p>68</p>\r\n",
+      "<p>72</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>70</strong>.</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = <span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - (a + b + c)<sup>2</sup>]&nbsp;<br />\r\n&rArr; 98 =&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>&nbsp;&times; 14 [3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - 14<sup>2</sup>]&nbsp;<br />\r\n&rArr; 98 = 7[3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - 196]&nbsp;<br />\r\n&rArr; 14 =&nbsp;3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - 196&nbsp;<br />\r\n&rArr;&nbsp;3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 210 &nbsp;&nbsp;<br />\r\n&rArr;&nbsp;(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 70</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a + b + c) = 14, तथा (a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc) = 98, तो (a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>) का मान ज्ञात कीजिए।<br />\r\n<strong>(CGL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>70</p>\r\n",
+      "<p>64</p>\r\n",
+      "<p>68</p>\r\n",
+      "<p>72</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>70</strong>&nbsp;है।</p>\r\n\r\n<p>a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = <span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - (a + b + c)<sup>2</sup>]&nbsp;<br />\r\n&rArr; 98 =&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>&nbsp;&times; 14 [3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - 14<sup>2</sup>]&nbsp;<br />\r\n&rArr; 98 = 7[3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - 196]&nbsp;<br />\r\n&rArr; 14 =&nbsp;3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) - 196&nbsp;<br />\r\n&rArr;&nbsp;3(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 210 &nbsp;&nbsp;<br />\r\n&rArr;&nbsp;(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>) = 70</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If (2x + 3)<sup>3</sup> + (x &ndash; 8)<sup>3</sup> + (x + 13)<sup>3</sup> = (2x + 3)(3x - 24)(x + 13), then what is the value of x?&nbsp;<br />\r\n<strong>(CPO 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>-2.5</p>\r\n",
+      "<p>-2</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>-1.5</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>-2</strong>.</p>\r\n\r\n<p>If a + b + c = 0&nbsp;then, a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\n(2x + 3)<sup>3</sup> + (x &ndash; 8)<sup>3</sup> + (x + 13)<sup>3</sup> = (2x + 3)(3x - 24)(x + 13)&nbsp;<br />\r\n&rArr; (2x + 3) + (x - 8) + (x + 13) = 0&nbsp;<br />\r\n&rArr; 4x = - 8&nbsp;<br />\r\n&rArr; x = - 2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (2x + 3)<sup>3</sup> + (x &ndash; 8)<sup>3</sup> + (x + 13)<sup>3</sup> = (2x + 3)(3x - 24)(x + 13), तो x का मान क्या है?&nbsp;<br />\r\n<strong>(CPO 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>-2.5</p>\r\n",
+      "<p>-2</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>-1.5</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>-2</strong>&nbsp;है।</p>\r\n\r\n<p>यदि&nbsp;a + b + c = 0&nbsp;तो, a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\n(2x + 3)<sup>3</sup> + (x &ndash; 8)<sup>3</sup> + (x + 13)<sup>3</sup> = (2x + 3)(3x - 24)(x + 13)&nbsp;<br />\r\n&rArr; (2x + 3) + (x - 8) + (x + 13) = 0&nbsp;<br />\r\n&rArr; 4x = - 8&nbsp;<br />\r\n&rArr; x = - 2</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>3</sup> &ndash; b<sup>3</sup> = 208 and a - b = 8 then (a + b)<sup>2</sup>&nbsp;&ndash; ab is equal to:&nbsp;<br />\r\n<strong>(CPO 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>42</p>\r\n",
+      "<p>38</p>\r\n",
+      "<p>52</p>\r\n",
+      "<p>26</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4&nbsp;</strong>i.e.&nbsp;<strong>26</strong>.</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;= (a - b)[(a + b)<sup>2</sup>&nbsp;- ab]</p>\r\n\r\n<p>208 = 8[(a + b)<sup>2</sup>&nbsp;- ab]</p>\r\n\r\n<p>[(a + b)<sup>2</sup> - ab] = 26</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>3</sup> &ndash; b<sup>3</sup> = 208और a - b = 8 तो (a + b)<sup>2</sup> &ndash; ab बराबर है:&nbsp;<br />\r\n<strong>(CPO 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>42</p>\r\n",
+      "<p>38</p>\r\n",
+      "<p>52</p>\r\n",
+      "<p>26</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात <strong>26&nbsp;</strong>है।</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;= (a - b)[(a + b)<sup>2</sup>&nbsp;- ab]</p>\r\n\r\n<p>208 = 8[(a + b)<sup>2</sup>&nbsp;- ab]</p>\r\n\r\n<p>[(a + b)<sup>2</sup> - ab] = 26</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x + y + z = 11, x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 133 and x<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup> = 881 then, the value of <span class=\"math-tex\">\\(\\sqrt[3]xyz\\)</span>&nbsp; is:&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>-8</p>\r\n",
+      "<p>-6</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>-6</strong>.</p>\r\n\r\n<p>x + y + z = 11&nbsp;<br />\r\nSquare both sides&nbsp;<br />\r\n(x + y + z)<sup>2</sup>&nbsp;= x<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;+ 2(xy + yz + zx)&nbsp;<br />\r\n121 = 133 + 2(xy + yz + zx)&nbsp;<br />\r\nxy + yz + zx = - 6&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)[(x<sup>2</sup> + y<sup>2</sup>&nbsp;+ z<sup>2</sup>)&nbsp;- (xy + yz + zx)]<br />\r\n881- 3xyz = 11(133 - (- 6))&nbsp;<br />\r\n881 - 3xyz = 11&times;139&nbsp;<br />\r\nxyz = -216&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\sqrt[3]xyz\\)</span>&nbsp;= - 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + y + z = 11, x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 133 और x<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup> = 881 तो,&nbsp;<span class=\"math-tex\">\\(\\sqrt[3]xyz\\)</span> का मान है:&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>-8</p>\r\n",
+      "<p>-6</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात&nbsp;<strong>-6</strong>&nbsp;है।</p>\r\n\r\n<p>x + y + z = 11&nbsp;<br />\r\nदोनों तरफ वर्ग करे&nbsp;<br />\r\n(x + y + z)<sup>2</sup>&nbsp;= x<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;+ 2(xy + yz + zx)&nbsp;<br />\r\n121 = 133 + 2(xy + yz + zx)&nbsp;<br />\r\nxy + yz + zx = - 6&nbsp;<br />\r\nx<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)[(x<sup>2</sup> + y<sup>2</sup>&nbsp;+ z<sup>2</sup>)&nbsp;- (xy + yz + zx)]<br />\r\n881- 3xyz = 11(133 - (- 6))&nbsp;<br />\r\n881 - 3xyz = 11&times;139&nbsp;<br />\r\nxyz = -216&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\sqrt[3]xyz\\)</span>&nbsp;= - 6</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x + y + z = 2, xy + yz + zx = -11, xyz = -12, then what is the value of <span class=\"math-tex\">\\(\\sqrt{x^3+y^3+z^3-2}\\)</span>?&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>6</strong>.</p>\r\n\r\n<p>x + y + z = 2&nbsp;<br />\r\nSquare both sides -<br />\r\nx<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;+ 2(xy + yz + zx) = 4<br />\r\nx<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;+ 2&nbsp;&times; -11 = 4<br />\r\nx<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;= 26&nbsp;<br />\r\n&rArr;&nbsp;x<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;- 3xyz = (x + y + z)[(x<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>) - (xy + yz + zx)]<br />\r\nx<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;- 3(-12) = 2(26 - (-11))&nbsp;&nbsp;<br />\r\nx<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;+ 36 = 2&nbsp;&times; 37&nbsp;<br />\r\nx<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;= 38&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3+z^3-2}\\)</span>&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{38-2}\\)</span>&nbsp;= 6</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x + y + z = 2, xy + yz + zx = -11, xyz = -12, तो <span class=\"math-tex\">\\(\\sqrt{x^3+y^3+z^3-2}\\)</span> का मान क्या है?&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>12</p>\r\n",
+      "<p>9</p>\r\n",
+      "<p>8</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>6</strong>&nbsp;है।</p>\r\n\r\n<p>x + y + z = 2&nbsp;<br />\r\nदोनों तरफ वर्ग करे&nbsp;<br />\r\nx<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;+ 2(xy + yz + zx) = 4<br />\r\nx<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;+ 2&nbsp;&times; -11 = 4<br />\r\nx<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>&nbsp;= 26&nbsp;<br />\r\n&rArr;&nbsp;x<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;- 3xyz = (x + y + z)[(x<sup>2</sup>&nbsp;+ y<sup>2</sup>&nbsp;+ z<sup>2</sup>) - (xy + yz + zx)]<br />\r\nx<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;- 3(-12) = 2(26 - (-11))&nbsp;&nbsp;<br />\r\nx<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;+ 36 = 2&nbsp;&times; 37&nbsp;<br />\r\nx<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;= 38&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{x^3+y^3+z^3-2}\\)</span>&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{38-2}\\)</span>&nbsp;= 6</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If (5x + 1)<sup>3</sup>&nbsp;+ (x - 3)<sup>3</sup>&nbsp;+ 8(3x - 4)<sup>3</sup>&nbsp;= 6(5x + 1)(x - 3)(3x - 4) then, x is equal to:&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(5\\over6\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(2\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(5\\over6\\)</span>.</p>\r\n\r\n<p>(5x + 1)<sup>3</sup>&nbsp;+ (x - 3)<sup>3</sup>&nbsp;+ 8(3x - 4)<sup>3</sup>&nbsp;= 6(5x + 1)(x - 3)(3x - 4)<br />\r\n(5x + 1)<sup>3</sup>&nbsp;+ (x - 3)<sup>3</sup>&nbsp;+ [2(3x - 4)]<sup>3</sup>&nbsp;= 3(5x + 1)(x - 3)[2(3x - 4)]<br />\r\nIf a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;= 3abc then, a + b + c = 0&nbsp;<br />\r\n(5x + 1) + (x - 3) + 2(3x - 4) = 0<br />\r\n12x = 10<br />\r\nx = <span class=\"math-tex\">\\(5\\over6\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (5x + 1)<sup>3</sup>&nbsp;+ (x - 3)<sup>3</sup>&nbsp;+ 8(3x - 4)<sup>3</sup>&nbsp;= 6(5x + 1)(x - 3)(3x - 4) तो, x बराबर है:&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(5\\over6\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(2\\over3\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(5\\over6\\)</span>&nbsp;है।</p>\r\n\r\n<p>(5x + 1)<sup>3</sup>&nbsp;+ (x - 3)<sup>3</sup>&nbsp;+ 8(3x - 4)<sup>3</sup>&nbsp;= 6(5x + 1)(x - 3)(3x - 4)<br />\r\n(5x + 1)<sup>3</sup>&nbsp;+ (x - 3)<sup>3</sup>&nbsp;+ [2(3x - 4)]<sup>3</sup>&nbsp;= 3(5x + 1)(x - 3)[2(3x - 4)]<br />\r\nयदि, a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;= 3abc तो, a + b + c = 0&nbsp;<br />\r\n(5x + 1) + (x - 3) + 2(3x - 4) = 0<br />\r\n12x = 10<br />\r\nx = <span class=\"math-tex\">\\(5\\over6\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>Given that (5x - 3)<sup>3</sup>&nbsp;+ (2x + 5)<sup>3</sup>&nbsp;+ 27(4 - 3x)<sup>3</sup> = 9(3 - 5x)(2x + 5) (3x -4), then the value of (2x + 1) is:&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>-13</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>-15</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>15</strong>.</p>\r\n\r\n<p>(5x-3)<sup>3&nbsp;</sup>+ (2x+5)<sup>3</sup> + [3(4-3x)]<sup>3</sup>&nbsp;= 9(3 - 5x)(2x + 5)(3x - 4)&nbsp;<br />\r\n(5x - 3)<sup>3</sup> + (2x + 5)<sup>3</sup> + (3(4 - 3x))<sup>3</sup> = 3(3 - 5x)&nbsp;(2x + 5)(9x - 12)&nbsp;<br />\r\nIf, a<sup>3</sup> + b<sup>3</sup> + c<sup>3&nbsp;</sup>- 3abc = 0&nbsp;then, a + b + c = 0&nbsp;<br />\r\n5x - 3 + 2x + 5 + 12 - 9x = 0&nbsp;<br />\r\n2x =14 &rArr;&nbsp;x = 7<br />\r\n(2x +1) = (2 &times; 7 + 1) = 15</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिया गया है कि (5x - 3)<sup>3</sup>&nbsp;+ (2x + 5)<sup>3</sup>&nbsp;+ 27(4 - 3x)<sup>3</sup> = 9(3 - 5x)(2x + 5) (3x -4), तो (2x + 1) का मान है:&nbsp;<br />\r\n<strong>(CGL MAINS 2018)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>-13</p>\r\n",
+      "<p>15</p>\r\n",
+      "<p>-15</p>\r\n",
+      "<p>13</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>15</strong>&nbsp;है।</p>\r\n\r\n<p>(5x-3)<sup>3&nbsp;</sup>+ (2x+5)<sup>3</sup> + [3(4-3x)]<sup>3</sup>&nbsp;= 9(3 - 5x)(2x + 5)(3x - 4)&nbsp;<br />\r\n(5x - 3)<sup>3</sup> + (2x + 5)<sup>3</sup> + (3(4 - 3x))<sup>3</sup> = 3(3 - 5x)&nbsp;(2x + 5)(9x - 12)&nbsp;<br />\r\nयदि, a<sup>3</sup> + b<sup>3</sup> + c<sup>3&nbsp;</sup>- 3abc = 0 तब, a + b + c = 0&nbsp;<br />\r\n5x - 3 + 2x + 5 + 12 - 9x = 0&nbsp;<br />\r\n2x =14 &rArr;&nbsp;x = 7<br />\r\n(2x +1) = (2 &times; 7 + 1) = 15</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c = 1, ab + bc + ca = - 22, and abc = -40, then what is the value of a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;?&nbsp;<br />\r\n<strong>(CGL MAINS 2020)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>67</p>\r\n",
+      "<p>-53</p>\r\n",
+      "<p>-51</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>-53</strong>.</p>\r\n\r\n<p>a + b + c = 1&nbsp;<br />\r\nab + bc + ca = - 22&nbsp;<br />\r\na<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = (a + b + c)<sup>2</sup> &ndash; 2 (ab + bc + ca)<br />\r\n&rArr;&nbsp;a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = 1 &ndash; 2 (-22) = 45<br />\r\n&rArr;&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = (a + b + c)(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> &ndash; ab &ndash;bc - ca)<br />\r\n&rArr;&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3(-40) = (1) (45 + 22)<br />\r\n&rArr;&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3&nbsp;</sup>= - 120 + 67&nbsp;= -53&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 1, ab + bc + ca = - 22, और abc = -40, तो a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup> का मान क्या है?&nbsp;<br />\r\n<strong>(CGL MAINS 2020)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>67</p>\r\n",
+      "<p>-53</p>\r\n",
+      "<p>-51</p>\r\n",
+      "<p>27</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>-53</strong>&nbsp;है।</p>\r\n\r\n<p>a + b + c = 1&nbsp;<br />\r\nab + bc + ca = - 22&nbsp;<br />\r\na<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = (a + b + c)<sup>2</sup> &ndash; 2 (ab + bc + ca)<br />\r\n&rArr;&nbsp;a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = 1 &ndash; 2 (-22) = 45<br />\r\n&rArr;&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = (a + b + c)(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> &ndash; ab &ndash;bc - ca)<br />\r\n&rArr;&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3(-40) = (1) (45 + 22)<br />\r\n&rArr;&nbsp;a<sup>3</sup> + b<sup>3</sup> + c<sup>3&nbsp;</sup>= - 120 + 67&nbsp;= -53&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x = 32.5 y = 34.6 and z = 30.9 then the value of x<sup>3</sup>&nbsp;+ y<sup>3</sup> + z<sup>3</sup> - 3xyz is 0.98k, where k is equal to:&nbsp;<br />\r\n<strong>(CGL MAINS 2020)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>1033</p>\r\n",
+      "<p>933</p>\r\n",
+      "<p>1026</p>\r\n",
+      "<p>921</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>1033</strong>.</p>\r\n\r\n<p>x<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;- 3xyz =&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>(x + y + z)[(x - y)<sup>2</sup>&nbsp;+ (y - z)<sup>2</sup>&nbsp;+ (z - x)<sup>2</sup>]</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>&nbsp;&times; 98[(2.1)<sup>2</sup>&nbsp;+ (3.7)<sup>2</sup>&nbsp;+ (1.6)<sup>2</sup>]</p>\r\n\r\n<p>&rArr; 49[4.41 + 13.69 + 2.56] =&nbsp;<span class=\"math-tex\">\\(98k\\over100\\)</span></p>\r\n\r\n<p>&rArr; 1012.34 =&nbsp;<span class=\"math-tex\">\\(98k\\over100\\)</span></p>\r\n\r\n<p>&rArr; k = 1033</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x = 32.5 y = 34.6 और z = 30.9 है तो x<sup>3</sup>&nbsp;+ y<sup>3</sup> + z<sup>3</sup> - 3xyz का मान 0.98k है, जहाँ k बराबर है:&nbsp;<br />\r\n<strong>(CGL MAINS 2020)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>1033</p>\r\n",
+      "<p>933</p>\r\n",
+      "<p>1026</p>\r\n",
+      "<p>921</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>1033</strong>&nbsp;है।</p>\r\n\r\n<p>x<sup>3</sup>&nbsp;+ y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;- 3xyz =&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>(x + y + z)[(x - y)<sup>2</sup>&nbsp;+ (y - z)<sup>2</sup>&nbsp;+ (z - x)<sup>2</sup>]</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>&nbsp;&times; 98[(2.1)<sup>2</sup>&nbsp;+ (3.7)<sup>2</sup>&nbsp;+ (1.6)<sup>2</sup>]</p>\r\n\r\n<p>&rArr; 49[4.41 + 13.69 + 2.56] =&nbsp;<span class=\"math-tex\">\\(98k\\over100\\)</span></p>\r\n\r\n<p>&rArr; 1012.34 =&nbsp;<span class=\"math-tex\">\\(98k\\over100\\)</span></p>\r\n\r\n<p>&rArr; k = 1033</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x = 7 + <span class=\"math-tex\">\\(7^{2\\over3}\\)</span>+ <span class=\"math-tex\">\\(7^{1\\over3}\\)</span>, then which of the options below is correct?&nbsp;<br />\r\n<strong>(IB ACIO-II)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>x<sup>3</sup>&nbsp;+ 21x<sup>2</sup>&nbsp;- 126x - 262 = 0</p>\r\n",
+      "<p>x<sup>3</sup>&nbsp;+ 21x<sup>2</sup>&nbsp;+ 124x - 252 = 0</p>\r\n",
+      "<p>x<sup>3</sup>&nbsp;- 22x<sup>2</sup>&nbsp;+ 126x - 252 = 0</p>\r\n",
+      "<p>x<sup>3</sup>&nbsp;- 21x<sup>2</sup>&nbsp;+ 126x - 252 = 0</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>x<sup>3</sup>&nbsp;- 21x<sup>2</sup>&nbsp;+ 126x - 252 = 0</strong>.</p>\r\n\r\n<p>x = 7 +&nbsp;<span class=\"math-tex\">\\(7^{2\\over3}\\)</span>+ <span class=\"math-tex\">\\(7^{1\\over3}\\)</span>&nbsp;<br />\r\nx &ndash; 7 = <span class=\"math-tex\">\\(7^{2\\over3}\\)</span> + <span class=\"math-tex\">\\(7^{1\\over3}\\)</span><br />\r\nCube both sides<br />\r\nx<sup>3</sup> &ndash; 343 - 21x(x - 7) = 49 + 7 + 3 &times; 7(x - 7)<br />\r\nx<sup>3</sup> &ndash; 343 - 21x<sup>2</sup> + 147x = 56 + 21x &ndash; 147<br />\r\nx<sup>3</sup> - 21x<sup>2</sup> + 126x &ndash; 252 = 0</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x = 7 + <span class=\"math-tex\">\\(7^{2\\over3}\\)</span>+ <span class=\"math-tex\">\\(7^{1\\over3}\\)</span>, तो नीचे दिए गए विकल्पों में से कौन सा सही है?<br />\r\n<strong>(IB ACIO-II)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>x<sup>3</sup>&nbsp;+ 21x<sup>2</sup>&nbsp;- 126x - 262 = 0</p>\r\n",
+      "<p>x<sup>3</sup>&nbsp;+ 21x<sup>2</sup>&nbsp;+ 124x - 252 = 0</p>\r\n",
+      "<p>x<sup>3</sup>&nbsp;- 22x<sup>2</sup>&nbsp;+ 126x - 252 = 0</p>\r\n",
+      "<p>x<sup>3</sup>&nbsp;- 21x<sup>2</sup>&nbsp;+ 126x - 252 = 0</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>x<sup>3</sup>&nbsp;- 21x<sup>2</sup>&nbsp;+ 126x - 252 = 0</strong>&nbsp;है।</p>\r\n\r\n<p>x = 7 +&nbsp;<span class=\"math-tex\">\\(7^{2\\over3}\\)</span>+ <span class=\"math-tex\">\\(7^{1\\over3}\\)</span>&nbsp;<br />\r\nx &ndash; 7 = <span class=\"math-tex\">\\(7^{2\\over3}\\)</span> + <span class=\"math-tex\">\\(7^{1\\over3}\\)</span><br />\r\nदोनों तरफ घन करे<br />\r\nx<sup>3</sup> &ndash; 343 - 21x(x - 7) = 49 + 7 + 3 &times; 7(x - 7)<br />\r\nx<sup>3</sup> &ndash; 343 - 21x<sup>2</sup> + 147x = 56 + 21x &ndash; 147<br />\r\nx<sup>3</sup> - 21x<sup>2</sup> + 126x &ndash; 252 = 0</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If 16x<sup>2</sup>&nbsp;+ 9y<sup>2</sup>&nbsp;+ 4z<sup>2</sup>&nbsp;= 24(x - y + z)&nbsp;- 61, then the value of (xy + 2z) is:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>5</strong>.</p>\r\n\r\n<p>16x<sup>2</sup>&nbsp;+ 9y<sup>2</sup>&nbsp;+ 4z<sup>2</sup>&nbsp;= 24(x - y + z)&nbsp;- 61</p>\r\n\r\n<p>16x<sup>2</sup>&nbsp;+ 9y<sup>2</sup>&nbsp;+ 4z<sup>2</sup>&nbsp;-24x +&nbsp;24y - 24z&nbsp;+ 61 = 0</p>\r\n\r\n<p>(4x - 3)<sup>2</sup>&nbsp;+ (3y + 4)<sup>2</sup>&nbsp;+ (2z - 6)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>4x - 3 = 0&nbsp;&rArr; x = <span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n\r\n<p>3y + 4 = 0&nbsp;&rArr; y = <span class=\"math-tex\">\\(-4\\over3\\)</span></p>\r\n\r\n<p>2z - 6 = 0&nbsp;&rArr; z = 3</p>\r\n\r\n<p>&rArr; (xy + 2z) = [<span class=\"math-tex\">\\(3\\over4\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(-4\\over3\\)</span>&nbsp;+ 2&nbsp;&times; 3] = 6 - 1 = 5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 16x<sup>2</sup>&nbsp;+ 9y<sup>2</sup>&nbsp;+ 4z<sup>2</sup>&nbsp;= 24(x - y + z)&nbsp;- 61, तो (xy + 2z) का मान है:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>5</strong>&nbsp;है।</p>\r\n\r\n<p>16x<sup>2</sup>&nbsp;+ 9y<sup>2</sup>&nbsp;+ 4z<sup>2</sup>&nbsp;= 24(x - y + z)&nbsp;- 61</p>\r\n\r\n<p>16x<sup>2</sup>&nbsp;+ 9y<sup>2</sup>&nbsp;+ 4z<sup>2</sup>&nbsp;-24x +&nbsp;24y - 24z&nbsp;+ 61 = 0</p>\r\n\r\n<p>(4x - 3)<sup>2</sup>&nbsp;+ (3y + 4)<sup>2</sup>&nbsp;+ (2z - 6)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>4x - 3 = 0&nbsp;&rArr; x = <span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n\r\n<p>3y + 4 = 0&nbsp;&rArr; y = <span class=\"math-tex\">\\(-4\\over3\\)</span></p>\r\n\r\n<p>2z - 6 = 0&nbsp;&rArr; z = 3</p>\r\n\r\n<p>&rArr; (xy + 2z) = [<span class=\"math-tex\">\\(3\\over4\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(-4\\over3\\)</span>&nbsp;+ 2&nbsp;&times; 3] = 6 - 1 = 5</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ 64c<sup>2 </sup>+ 16c + 3 = 2(a + b), then the value of 4a<sup>7</sup>&nbsp;+ b<sup>7</sup>&nbsp;+ 8c<sup>2</sup>&nbsp;is:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(3\\frac{7}8\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\frac{7}8\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\frac{4}8\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(5\\frac{1}8\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(5\\frac{1}8\\)</span>.</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ 64c<sup>2 </sup>+ 16c + 3 = 2(a + b)</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ 64c<sup>2 </sup>-2a - 2b + 3 + 16c = 0</p>\r\n\r\n<p>(a - 1)<sup>2</sup>&nbsp;+ (b - 1)<sup>2</sup>&nbsp;+ (8c + 1)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>a = 1, b = 1, c =&nbsp;<span class=\"math-tex\">\\(-1\\over8\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;4a<sup>7</sup>&nbsp;+ b<sup>7</sup>&nbsp;+ 8c<sup>2</sup>&nbsp;= 4&nbsp;&times; 1&nbsp;+ 1&nbsp;+ 8&nbsp;&times; (<span class=\"math-tex\">\\(-1\\over8\\)</span>)<sup>2</sup>&nbsp;=&nbsp;<span class=\"math-tex\">\\(5\\frac{1}8\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ 64c<sup>2 </sup>+ 16c + 3 = 2(a + b) है, तो 4a<sup>7</sup>&nbsp;+ b<sup>7</sup>&nbsp;+ 8c<sup>2</sup> का मान है:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(3\\frac{7}8\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\frac{7}8\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(4\\frac{4}8\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(5\\frac{1}8\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(5\\frac{1}8\\)</span>&nbsp;है।</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ 64c<sup>2 </sup>+ 16c + 3 = 2(a + b)</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ 64c<sup>2 </sup>-2a - 2b + 3 + 16c = 0</p>\r\n\r\n<p>(a - 1)<sup>2</sup>&nbsp;+ (b - 1)<sup>2</sup>&nbsp;+ (8c + 1)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>a = 1, b = 1, c =&nbsp;<span class=\"math-tex\">\\(-1\\over8\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;4a<sup>7</sup>&nbsp;+ b<sup>7</sup>&nbsp;+ 8c<sup>2</sup>&nbsp;= 4&nbsp;&times; 1&nbsp;+ 1&nbsp;+ 8&nbsp;&times; (<span class=\"math-tex\">\\(-1\\over8\\)</span>)<sup>2</sup>&nbsp;=&nbsp;<span class=\"math-tex\">\\(5\\frac{1}8\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If ab + bc + ca = 8 and a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 20, then a possible value of <span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[(a-b)<sup>2</sup>&nbsp;+ (b-c)<sup>2 </sup>+ (c - a)<sup>2</sup>]&nbsp;is:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>72</p>\r\n",
+      "<p>56</p>\r\n",
+      "<p>84</p>\r\n",
+      "<p>80</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>72</strong>.</p>\r\n\r\n<p>ab + bc + ca = 8&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 20&nbsp;<br />\r\nWhen there are 2 equations and 3 variables, we can assume that 1 variable is zero&nbsp;<br />\r\nlet, c = 0&nbsp;<br />\r\nab = 8, and&nbsp;a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;= 20 &nbsp;&nbsp;<br />\r\nLet a = 4, b = 2<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[(a-b)<sup>2</sup>&nbsp;+ (b-c)<sup>2 </sup>+ (c - a)<sup>2</sup>]&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>(4 + 2 + 0)[(4 - 2)<sup>2</sup>&nbsp;+ (2 - 0)<sup>2 </sup>+ (0 - 4)<sup>2</sup>]&nbsp;<br />\r\n&rArr; 3&nbsp;&times; (4 + 4 + 16) = 72 &nbsp;&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि ab + bc + ca = 8 और a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 20 है, तो <span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[(a-b)<sup>2</sup>&nbsp;+ (b-c)<sup>2 </sup>+ (c - a)<sup>2</sup>] का संभावित मान है:&nbsp;<br />\r\n<strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>72</p>\r\n",
+      "<p>56</p>\r\n",
+      "<p>84</p>\r\n",
+      "<p>80</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>72</strong>&nbsp;है।</p>\r\n\r\n<p>ab + bc + ca = 8&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 20&nbsp;<br />\r\nजब 2 समीकरण और 3 चर हों, तो हम मान सकते हैं कि 1 चर शून्य है<br />\r\nमाना, c = 0&nbsp;<br />\r\nab = 8, and&nbsp;a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;= 20 &nbsp;&nbsp;<br />\r\nमाना&nbsp;,&nbsp;a = 4, b = 2<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>(a + b + c)[(a-b)<sup>2</sup>&nbsp;+ (b-c)<sup>2 </sup>+ (c - a)<sup>2</sup>]&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\(1\\over2\\)</span>(4 + 2 + 0)[(4 - 2)<sup>2</sup>&nbsp;+ (2 - 0)<sup>2 </sup>+ (0 - 4)<sup>2</sup>]&nbsp;<br />\r\n&rArr; 3&nbsp;&times; (4 + 4 + 16) = 72 &nbsp;&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If x<sup>2a</sup>&nbsp;= y<sup>2b</sup>&nbsp;= z<sup>2c</sup>&nbsp;&ne; 0, and x<sup>2</sup>&nbsp;= yz, then the value of <span class=\"math-tex\">\\({ab+bc+ca}\\over bc\\)</span>&nbsp;is:&nbsp;</p>\r\n\r\n<p><strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>3ac</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>3ab</p>\r\n",
+      "<p>3bc</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>3</strong>.</p>\r\n\r\n<p>Let&nbsp;x<sup>2a</sup>&nbsp;= y<sup>2b</sup>&nbsp;= z<sup>2c</sup>&nbsp;= k</p>\r\n\r\n<p>x = k<sup>1/2</sup><sup>a</sup>, y = k<sup>1/2b</sup>, z = k<sup>1/2c</sup></p>\r\n\r\n<p>Now, x<sup>2</sup>&nbsp;= yz</p>\r\n\r\n<p>&rArr; (k<sup>1/2a</sup>)<sup>2</sup>&nbsp;=&nbsp;k<sup>1/2b</sup>&nbsp;&times;&nbsp;k<sup>1/2c</sup>&nbsp;= k<sup>1/2b + 1/2c</sup></p>\r\n\r\n<p>k &ne; 0</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({1\\over a} = {1\\over 2b}+{1\\over2c}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1\\over a} = {c+b\\over 2bc}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp; c + b =&nbsp;<span class=\"math-tex\">\\(2bc\\over a\\)</span></p>\r\n\r\n<p>Multiply both sides by a</p>\r\n\r\n<p>2bc = a(b + c)</p>\r\n\r\n<p>2bc = ab + ac</p>\r\n\r\n<p>Now add bc on both sides:</p>\r\n\r\n<p>2bc + bc = ab + ac + bc</p>\r\n\r\n<p>3bc =&nbsp;ab + bc + ca</p>\r\n\r\n<p>Value of&nbsp;<span class=\"math-tex\">\\({ab+bc+ca}\\over bc\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({3bc}\\over bc\\)</span>&nbsp;= 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x<sup>2a</sup>&nbsp;= y<sup>2b</sup>&nbsp;= z<sup>2c</sup>&nbsp;&ne; 0, तथा x<sup>2</sup>&nbsp;= yz, तो <span class=\"math-tex\">\\({ab+bc+ca}\\over bc\\)</span> का मान है:</p>\r\n\r\n<p><strong>(CGL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>3ac</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>3ab</p>\r\n",
+      "<p>3bc</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>3</strong>&nbsp;है।</p>\r\n\r\n<p>माना, x<sup>2a</sup>&nbsp;= y<sup>2b</sup>&nbsp;= z<sup>2c</sup>&nbsp;= k</p>\r\n\r\n<p>x = k<sup>1/2</sup><sup>a</sup>, y = k<sup>1/2b</sup>, z = k<sup>1/2c</sup></p>\r\n\r\n<p>अब, x<sup>2</sup>&nbsp;= yz</p>\r\n\r\n<p>&rArr; (k<sup>1/2a</sup>)<sup>2</sup>&nbsp;=&nbsp;k<sup>1/2b</sup>&nbsp;&times;&nbsp;k<sup>1/2c</sup>&nbsp;= k<sup>1/2b + 1/2c</sup></p>\r\n\r\n<p>k &ne; 0</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\({1\\over a} = {1\\over 2b}+{1\\over2c}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1\\over a} = {c+b\\over 2bc}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp; c + b =&nbsp;<span class=\"math-tex\">\\(2bc\\over a\\)</span></p>\r\n\r\n<p>दोनों तरफ a से गुण करे&nbsp;</p>\r\n\r\n<p>2bc = a(b + c)</p>\r\n\r\n<p>2bc = ab + ac</p>\r\n\r\n<p>अब, दोनों तरफ bc जोड़े&nbsp;</p>\r\n\r\n<p>2bc + bc = ab + ac + bc</p>\r\n\r\n<p>3bc =&nbsp;ab + bc + ca</p>\r\n\r\n<p><span class=\"math-tex\">\\({ab+bc+ca}\\over bc\\)</span>&nbsp;का मान&nbsp;=&nbsp;<span class=\"math-tex\">\\({3bc}\\over bc\\)</span>&nbsp;= 3</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If x, y, z are three integers such that x + y = 8, y + z = 13 and z + x = 17, then the value of <span class=\"math-tex\">\\(x^2\\over yz\\)</span>&nbsp;is:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(7\\over5\\)</span></p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p><span class=\"math-tex\">\\(18\\over11\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(18\\over11\\)</span>.</p>\r\n\r\n<p>x + y = 8, y + z = 13 ,and z + x = 17</p>\r\n\r\n<p>After adding</p>\r\n\r\n<p>2(x + y + z) = 38</p>\r\n\r\n<p>x + y + z = 19</p>\r\n\r\n<p>x = 6, y = 2, z = 11</p>\r\n\r\n<p><span class=\"math-tex\">\\(x^2\\over yz\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({6\\times6}\\over2 \\times11\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(18\\over11\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x, y, z तीन पूर्णांक हैं जैसे x + y = 8, y + z = 13 और z + x = 17, तो <span class=\"math-tex\">\\(x^2\\over yz\\)</span> का मान है:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(7\\over5\\)</span></p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p><span class=\"math-tex\">\\(18\\over11\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(18\\over11\\)</span>&nbsp;है।</p>\r\n\r\n<p>x + y = 8, y + z = 13 ,and z + x = 17</p>\r\n\r\n<p>जोड़ने के बाद</p>\r\n\r\n<p>2(x + y + z) = 38</p>\r\n\r\n<p>x + y + z = 19</p>\r\n\r\n<p>x = 6, y = 2, z = 11</p>\r\n\r\n<p><span class=\"math-tex\">\\(x^2\\over yz\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({6\\times6}\\over2 \\times11\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(18\\over11\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If the value of (a + b - 2)<sup>2</sup>&nbsp;+ (b + c - 5)<sup>2</sup>&nbsp;+ (c + a - 5)<sup>2</sup>&nbsp;= 0, then the value of <span class=\"math-tex\">\\(\\sqrt{(b+c)^a + (c+a)^b -1}\\)</span>&nbsp;is:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>3</strong>.</p>\r\n\r\n<p>(a + b - 2)<sup>2</sup>&nbsp;+ (b + c - 5)<sup>2</sup>&nbsp;+ (c + a - 5)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>(a + b - 2)<sup>2</sup>&nbsp;= 0, (a + b) = 2....(i)</p>\r\n\r\n<p>(b + c - 5)<sup>2</sup>&nbsp;= 0, (b + c) = 5....(ii)</p>\r\n\r\n<p>(c + a - 5)<sup>2</sup>&nbsp;= 0, (c + a) = 5....(iii)</p>\r\n\r\n<p>Add all three equations</p>\r\n\r\n<p>a + b + c = 6</p>\r\n\r\n<p>a = 1, b = 1, c = 4</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt{(b+c)^a + (c+a)^b -1}\\)</span></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt{(5)^1 + (5)^1 -1}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{9}\\)</span>&nbsp;= 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि (a + b - 2)<sup>2</sup>&nbsp;+ (b + c - 5)<sup>2</sup>&nbsp;+ (c + a - 5)<sup>2</sup>&nbsp;= 0 है, तो <span class=\"math-tex\">\\(\\sqrt{(b+c)^a + (c+a)^b -1}\\)</span> का मान है:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात <strong>3</strong>&nbsp;है।</p>\r\n\r\n<p>(a + b - 2)<sup>2</sup>&nbsp;+ (b + c - 5)<sup>2</sup>&nbsp;+ (c + a - 5)<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>(a + b - 2)<sup>2</sup>&nbsp;= 0, (a + b) = 2....(i)</p>\r\n\r\n<p>(b + c - 5)<sup>2</sup>&nbsp;= 0, (b + c) = 5....(ii)</p>\r\n\r\n<p>(c + a - 5)<sup>2</sup>&nbsp;= 0, (c + a) = 5....(iii)</p>\r\n\r\n<p>तीनों समीकरणों को जोड़ें</p>\r\n\r\n<p>a + b + c = 6</p>\r\n\r\n<p>a = 1, b = 1, c = 4</p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt{(b+c)^a + (c+a)^b -1}\\)</span></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sqrt{(5)^1 + (5)^1 -1}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{9}\\)</span>&nbsp;= 3</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Expand: (4a + 3b + 2c)<sup>2</sup>&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>16a<sup>2</sup>&nbsp;+ 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;+ 24ab + 12bc + 16ca</p>\r\n",
+      "<p>4a<sup>2</sup>&nbsp;+ 3b<sup>2</sup>&nbsp;+ 2c<sup>2</sup>&nbsp;+ 24ab + 12bc + 16ca</p>\r\n",
+      "<p>16a<sup>2</sup>&nbsp;- 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;- 24ab + 12bc - 16ca</p>\r\n",
+      "<p>16a<sup>2</sup>&nbsp;+ 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;- 24ab - 12bc - 16ca</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<strong>16a<sup>2</sup>&nbsp;+ 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;+ 24ab + 12bc + 16ca</strong>.</p>\r\n\r\n<p>(4a + 3b + 2c)<sup>2</sup>&nbsp;<br />\r\nthen a = b = c = 1&nbsp;<br />\r\n(4 + 3 + 2)<sup>2</sup> = 81&nbsp;<br />\r\nNow, go through the options<br />\r\n16a<sup>2</sup> + 9b<sup>2</sup> + 4c<sup>2</sup> + 24ab + 12bc + 16ca&nbsp;<br />\r\n16 + 9 + 4 + 24 + 12 + 16 = 81&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;... (Satisfied value)</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>विस्तार करें: (4a + 3b + 2c)<sup>2</sup>&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>16a<sup>2</sup>&nbsp;+ 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;+ 24ab + 12bc + 16ca</p>\r\n",
+      "<p>4a<sup>2</sup>&nbsp;+ 3b<sup>2</sup>&nbsp;+ 2c<sup>2</sup>&nbsp;+ 24ab + 12bc + 16ca</p>\r\n",
+      "<p>16a<sup>2</sup>&nbsp;- 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;- 24ab + 12bc - 16ca</p>\r\n",
+      "<p>16a<sup>2</sup>&nbsp;+ 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;- 24ab - 12bc - 16ca</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n\r\n<div style=\"position:relative\">सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<strong>16a<sup>2</sup>&nbsp;+ 9b<sup>2</sup>&nbsp;+ 4c<sup>2</sup>&nbsp;+ 24ab + 12bc + 16ca</strong>&nbsp;है।</div>\r\n\r\n<div style=\"position:relative\">(4a + 3b + 2c)<sup>2</sup>&nbsp;<br />\r\nतो, a = b = c = 1&nbsp;<br />\r\n(4 + 3 + 2)<sup>2</sup> = 81&nbsp;<br />\r\nअब, विकल्पों पर जाएं<br />\r\n16a<sup>2</sup> + 9b<sup>2</sup> + 4c<sup>2</sup> + 24ab + 12bc + 16ca&nbsp;<br />\r\n16 + 9 + 4 + 24 + 12 + 16 = 81&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;... (संतुष्ट मान)</div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;- c<sup>2</sup> = 0, then the value of <span class=\"math-tex\">\\({2(a^6+b^6-c^6)\\over3a^2b^2c^2}\\)</span>&nbsp;is:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong><br />\r\n&nbsp;</p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>-2</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>-2</strong>.</p>\r\n\r\n<p>(x + y + z)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + zx)&nbsp;<br />\r\nUse the formula<br />\r\nWhen a + b + c = 0, then a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\nHere a<sup>2</sup> + b<sup>2</sup> - c<sup>2</sup> = 0&nbsp;<br />\r\nThen a<sup>6</sup> + b<sup>6</sup> - c<sup>6</sup> = 3a<sup>2</sup> b<sup>2</sup> (- c<sup>2</sup>)<br />\r\n<span class=\"math-tex\">\\({2(a^6+b^6-c^6)\\over3a^2b^2c^2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({2\\times 3a^2 b^2 (- c^2)\\over3a^2b^2c^2}\\)</span>&nbsp;= -2</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;- c<sup>2</sup> = 0, तो <span class=\"math-tex\">\\({2(a^6+b^6-c^6)\\over3a^2b^2c^2}\\)</span> का मान है:&nbsp;<br />\r\n<strong>(CGL 2019 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>-2</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>-2</strong>&nbsp;है।</p>\r\n\r\n<p>(x + y + z)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + zx)&nbsp;<br />\r\nसूत्र का प्रयोग करें<br />\r\nजब a + b + c = 0, तो a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc&nbsp;<br />\r\nयहाँ, a<sup>2</sup> + b<sup>2</sup> - c<sup>2</sup> = 0&nbsp;<br />\r\nतब, a<sup>6</sup> + b<sup>6</sup> - c<sup>6</sup> = 3a<sup>2</sup> b<sup>2</sup> (- c<sup>2</sup>)<br />\r\n<span class=\"math-tex\">\\({2(a^6+b^6-c^6)\\over3a^2b^2c^2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({2\\times 3a^2 b^2 (- c^2)\\over3a^2b^2c^2}\\)</span>&nbsp;= -2</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c = 0, then what is the value of <span class=\"math-tex\">\\({(b+c)^2\\over bc} + {(c+a)^2\\over ca} + {(a+b)^2\\over ab}\\)</span>?&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>-3</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>3</strong>.</p>\r\n\r\n<p>a + b + c = 0&nbsp;<br />\r\nLet,&nbsp;<br />\r\na = - 1&nbsp;<br />\r\nb = - 1&nbsp;<br />\r\nc = 2&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\({(b+c)^2\\over bc} + {(c+a)^2\\over ca} + {(a+b)^2\\over ab}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({(-1+2)^2\\over -1\\times2} + {(2-1)^2\\over 2\\times-1} + {(-1-1)^2\\over-1\\times-1}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1\\over -2} + {1\\over -2} + {4\\over1}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({-1-1+8}\\over2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(6\\over2\\)</span>&nbsp;= 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 0, तो <span class=\"math-tex\">\\({(b+c)^2\\over bc} + {(c+a)^2\\over ca} + {(a+b)^2\\over ab}\\)</span> का मान क्या है?&nbsp;<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>-3</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>3</strong>&nbsp;है।</p>\r\n\r\n<p>a + b + c = 0&nbsp;<br />\r\nमाना,&nbsp;<br />\r\na = - 1&nbsp;<br />\r\nb = - 1&nbsp;<br />\r\nc = 2&nbsp;<br />\r\n&rArr;&nbsp;<span class=\"math-tex\">\\({(b+c)^2\\over bc} + {(c+a)^2\\over ca} + {(a+b)^2\\over ab}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({(-1+2)^2\\over -1\\times2} + {(2-1)^2\\over 2\\times-1} + {(-1-1)^2\\over-1\\times-1}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1\\over -2} + {1\\over -2} + {4\\over1}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({-1-1+8}\\over2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(6\\over2\\)</span>&nbsp;= 3</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 6.25 and (ab + bc + ca) = 0.52. What is the value of (a + b + c) if (a + b + c) < 0?<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>+2.7</p>\r\n",
+      "<p>-2.7</p>\r\n",
+      "<p>-2.8</p>\r\n",
+      "<p>2.8</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>-2.7</strong>.</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 2(ab + bc + ca)</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= 6.25 + 1.04 = 7.29</p>\r\n\r\n<p>a + b + c = &plusmn;2.7</p>\r\n\r\n<p>but (a + b + c) < 0 &nbsp;&nbsp; &nbsp;(given)&nbsp;</p>\r\n\r\n<p>&rArr; a + b + c = - 2.7&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 6.25 और (ab + bc + ca) = 0.52 है। (a + b + c) का मान क्या है यदि (a + b + c) < 0?<br />\r\n<strong>(CGL 2021 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>+2.7</p>\r\n",
+      "<p>-2.7</p>\r\n",
+      "<p>-2.8</p>\r\n",
+      "<p>2.8</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>-2.7</strong>&nbsp;है।</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 2(ab + bc + ca)</p>\r\n\r\n<p>(a + b + c)<sup>2</sup>&nbsp;= 6.25 + 1.04 = 7.29</p>\r\n\r\n<p>a + b + c = &plusmn;2.7</p>\r\n\r\n<p>लेकिन,&nbsp;(a + b + c) < 0&nbsp; [दिया गया है]</p>\r\n\r\n<p>&rArr; a + b + c = - 2.7&nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If x - y + z = 0, then find the value of <span class=\"math-tex\">\\({y^2\\over 2xz} - {x^2\\over2yz} - {z^2\\over 2xy}\\)</span>.&nbsp;<br />\r\n<strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(3\\over 2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over 2\\)</span></p>\r\n",
+      "<p>-6</p>\r\n",
+      "<p><span class=\"math-tex\">\\(-3\\over 2\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(3\\over 2\\)</span>.</p>\r\n\r\n<p>If x - y + z = 0&nbsp;then x<sup>3</sup>&nbsp;- y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;= - 3xyz</p>\r\n\r\n<p><span class=\"math-tex\">\\({y^2\\over 2xz} - {x^2\\over2yz} - {z^2\\over 2xy}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({y^3-x^3-z^3\\over 2xyz}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({-(-y^2+x^3+z^3)\\over 2xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({-(-3xyz)\\over 2xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(3\\over 2\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि x - y + z = 0, तो <span class=\"math-tex\">\\({y^2\\over 2xz} - {x^2\\over2yz} - {z^2\\over 2xy}\\)</span> का मान ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(CGL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(3\\over 2\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over 2\\)</span></p>\r\n",
+      "<p>-6</p>\r\n",
+      "<p><span class=\"math-tex\">\\(-3\\over 2\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(3\\over 2\\)</span>&nbsp;है।</p>\r\n\r\n<p>यदि x - y + z = 0 तो x<sup>3</sup>&nbsp;- y<sup>3</sup>&nbsp;+ z<sup>3</sup>&nbsp;= - 3xyz</p>\r\n\r\n<p><span class=\"math-tex\">\\({y^2\\over 2xz} - {x^2\\over2yz} - {z^2\\over 2xy}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({y^3-x^3-z^3\\over 2xyz}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({-(-y^2+x^3+z^3)\\over 2xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({-(-3xyz)\\over 2xyz}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(3\\over 2\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> + 84 = 4(a - 2b + 4c), then <span class=\"math-tex\">\\(\\sqrt{ab-bc+ca}\\)</span>&nbsp;is equal to:&nbsp;<br />\r\n<strong>(СРО 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>4<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+      "<p>5<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+      "<p>2<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>2</strong><span class=\"math-tex\">\\(\\sqrt10\\)</span>.</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> + 84 = 4(a - 2b + 4c)&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> + 84 = 2(2a - 4b + 8c)&nbsp;<br />\r\na = 2, b = -4, c = 8</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{ab-bc+ca}\\)</span>&nbsp;&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{-8+32+16}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{40}\\)</span>&nbsp;= 2<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> + 84 = 4(a - 2b + 4c) तो <span class=\"math-tex\">\\(\\sqrt{ab-bc+ca}\\)</span> बराबर है:&nbsp;<br />\r\n<strong>(СРО 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>4<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+      "<p>5<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n",
+      "<p>2<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>2</strong><span class=\"math-tex\">\\(\\sqrt10\\)</span>&nbsp;है।</p>\r\n\r\n<p>a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> + 84 = 4(a - 2b + 4c)&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> + 84 = 2(2a - 4b + 8c)&nbsp;<br />\r\na = 2, b = -4, c = 8</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{ab-bc+ca}\\)</span>&nbsp;&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{-8+32+16}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{40}\\)</span>&nbsp;= 2<span class=\"math-tex\">\\(\\sqrt10\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b + c = 0, then the value of <span class=\"math-tex\">\\({a^2\\over bc} + {b^2\\over ca} + {c^2\\over ab}\\)</span>&nbsp;is:&nbsp;<br />\r\n<strong>(CPO 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>-1</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>3</strong>.</p>\r\n\r\n<p><span class=\"math-tex\">\\({a^2\\over bc} + {b^2\\over ca} + {c^2\\over ab}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({a^3+b^3+c^3\\over abc}\\)</span></p>\r\n\r\n<p>If (a + b + c)&nbsp;= 0, then a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;= 3abc</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(3abc\\over abc\\)</span>&nbsp;= 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b + c = 0, तो <span class=\"math-tex\">\\({a^2\\over bc} + {b^2\\over ca} + {c^2\\over ab}\\)</span> का मान है:&nbsp;<br />\r\n<strong>(CPO 2020 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>-1</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>0</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>3</strong>&nbsp;है।</p>\r\n\r\n<p><span class=\"math-tex\">\\({a^2\\over bc} + {b^2\\over ca} + {c^2\\over ab}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({a^3+b^3+c^3\\over abc}\\)</span></p>\r\n\r\n<p>यदि (a + b + c) = 0, तो a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ c<sup>3</sup>&nbsp;= 3abc</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(3abc\\over abc\\)</span>&nbsp;= 3</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If 9a<sup>2</sup>&nbsp;+ 16b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 25&nbsp;= 24(a + b) then, the value of (3a + 4b + 5c) is:&nbsp;<br />\r\n<strong>(CHSL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>9</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>3</strong> i.e.&nbsp;<strong>7</strong>.</p>\r\n\r\n<p>9a<sup>2</sup>&nbsp;+ 16b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 25&nbsp;= 24(a + b)</p>\r\n\r\n<p>(3a)<sup>2</sup>&nbsp;- 24a + 16 + (4b)<sup>2</sup>&nbsp;- 24b + 9 + c<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>(3a - 4)<sup>2</sup>&nbsp;+ (4b - 3)<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>a = <span class=\"math-tex\">\\(4\\over3\\)</span>, b = <span class=\"math-tex\">\\(3\\over4\\)</span>, c = 0</p>\r\n\r\n<p>&rArr; 3a + 4b + 5c = 3&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(4\\over3\\)</span>&nbsp;+ 4&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(3\\over4\\)</span>&nbsp;+ 5&nbsp;&times; 0 = 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 9a<sup>2</sup>&nbsp;+ 16b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 25&nbsp;= 24(a + b) तो, (3a + 4b + 5c) का मान है:&nbsp;<br />\r\n<strong>(CHSL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>9</p>\r\n",
+      "<p>6</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>10</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong>&nbsp;अर्थात&nbsp;<strong>7</strong>&nbsp;है।</p>\r\n\r\n<p>9a<sup>2</sup>&nbsp;+ 16b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;+ 25&nbsp;= 24(a + b)</p>\r\n\r\n<p>(3a)<sup>2</sup>&nbsp;- 24a + 16 + (4b)<sup>2</sup>&nbsp;- 24b + 9 + c<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>(3a - 4)<sup>2</sup>&nbsp;+ (4b - 3)<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= 0</p>\r\n\r\n<p>a = <span class=\"math-tex\">\\(4\\over3\\)</span>, b = <span class=\"math-tex\">\\(3\\over4\\)</span>, c = 0</p>\r\n\r\n<p>&rArr; 3a + 4b + 5c = 3&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(4\\over3\\)</span>&nbsp;+ 4&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(3\\over4\\)</span>&nbsp;+ 5&nbsp;&times; 0 = 7</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a + b - c = 12 and a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 110, then which among the following relations is true?&nbsp;<br />\r\n(p) ab + bc + ca = 34<br />\r\n(q) ab + bc + ca = 17&nbsp;<br />\r\n(r) ab - bc + ca = 17<br />\r\n(s) ab - bc - ca = 17&nbsp;<br />\r\n<strong>(CHSL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>(r)</p>\r\n",
+      "<p>(q)</p>\r\n",
+      "<p>(p)</p>\r\n",
+      "<p>(s)</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<strong>(s)</strong>.</p>\r\n\r\n<p>a + b - c = 12&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= 110&nbsp;<br />\r\nAssume &rarr;&nbsp;a = 10, b = 3, c = 1&nbsp;<br />\r\noptions (d) = ab - bc - ca = 17&nbsp;<br />\r\n10&nbsp;&times; 3 - 3&nbsp;&times; 1 - 1&nbsp;&times; 10 = 17&nbsp;<br />\r\n17 = 17 (Satisfied)&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a + b - c = 12 और a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = 110 है, तो निम्नलिखित में से कौन सा संबंध सत्य है?&nbsp;<br />\r\n(p) ab + bc + ca = 34<br />\r\n(q) ab + bc + ca = 17&nbsp;<br />\r\n(r) ab - bc + ca = 17<br />\r\n(s) ab - bc - ca = 17<br />\r\n<strong>(CHSL 2018 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>(r)</p>\r\n",
+      "<p>(q)</p>\r\n",
+      "<p>(p)</p>\r\n",
+      "<p>(s)</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>(s)</strong>&nbsp;है।</p>\r\n\r\n<p>a + b - c = 12&nbsp;<br />\r\na<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup>&nbsp;= 110&nbsp;<br />\r\nमान लें &rarr; a = 10, b = 3, c = 1<br />\r\nविकल्प (d) = ab - bc - ca = 17&nbsp;<br />\r\n10&nbsp;&times; 3 - 3&nbsp;&times; 1 - 1&nbsp;&times; 10 = 17&nbsp;<br />\r\n17 = 17 (संतुष्ट)</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>Simplify the following expression.<br />\r\n(a + b + c)<sup>2</sup>&nbsp;- (a - b + c)<sup>2</sup> + 4ac&nbsp;&nbsp;<br />\r\n<strong>(CHSL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p>4(bc + ac)</p>\r\n",
+      "<p>4(ab + bc + ca)</p>\r\n",
+      "<p>2(ab + bc + ca)</p>\r\n",
+      "<p>4(bc + ab)</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>2</strong> i.e.&nbsp;<strong>4(ab + bc + ca)</strong>.</p>\r\n\r\n<p>Put a = 1, b = 1, and c = 2&nbsp;<br />\r\n&rArr; (a + b + c)<sup>2</sup>&nbsp;- (a - b + c)<sup>2</sup>&nbsp;+ 4 ac &nbsp;<br />\r\n&rArr; (1 + 1 + 2)<sup>2</sup>&nbsp;- (1 - 1 + 2)<sup>2</sup>&nbsp;+ 4&nbsp;&times; 1 &times; 2<br />\r\n&rArr; 16 - 4 + 8 = 20&nbsp;<br />\r\nNow go through the&nbsp;options&nbsp;<br />\r\n(a)&nbsp;&rArr; 4(bc + ca) = 4(2 + 2) = 16(&times;)<br />\r\n(b)&nbsp;&rArr; 4(1 + 2 + 2) = 20(✓)&nbsp; &nbsp; &nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित व्यंजक को सरल कीजिए।<br />\r\n(a + b + c)<sup>2</sup>&nbsp;- (a - b + c)<sup>2</sup> + 4ac&nbsp;&nbsp;<br />\r\n<strong>(CHSL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p>4(bc + ac)</p>\r\n",
+      "<p>4(ab + bc + ca)</p>\r\n",
+      "<p>2(ab + bc + ca)</p>\r\n",
+      "<p>4(bc + ab)</p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<strong>4(ab + bc + ca)</strong>&nbsp;है।</p>\r\n\r\n<p>a = 1, b = 1, तथा c = 2 रखें&nbsp;<br />\r\n&rArr; (a + b + c)<sup>2</sup>&nbsp;- (a - b + c)<sup>2</sup>&nbsp;+ 4 ac &nbsp;<br />\r\n&rArr; (1 + 1 + 2)<sup>2</sup>&nbsp;- (1 - 1 + 2)<sup>2</sup>&nbsp;+ 4&nbsp;&times; 1 &times; 2<br />\r\n&rArr; 16 - 4 + 8 = 20&nbsp;<br />\r\nअब विकल्पों पर जाएं<br />\r\n(a)&nbsp;&rArr; 4(bc + ca) = 4(2 + 2) = 16(&times;)<br />\r\n(b)&nbsp;&rArr; 4(1 + 2 + 2) = 20(✓)&nbsp; &nbsp; &nbsp;</p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  },
+  {
+    "question": "<p>If a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = ab + bc + ca, then find the value of <span class=\"math-tex\">\\({11a^4 + 13b^4 + 15c^4}\\over{16a^2b^2 + 19b^2c^2+17c^2a^2}\\)</span>.&nbsp;<br />\r\n<strong>(CHSL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(1\\frac{3}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\frac{2}{3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option</strong>&nbsp;<strong>4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(3\\over4\\)</span>.</p>\r\n\r\n<p>The degrees of the numerator and denominator are the same.&nbsp;<br />\r\nPut a = b = c = 1<br />\r\n<span class=\"math-tex\">\\({11a^4 + 13b^4 + 15c^4}\\over{16a^2b^2 + 19b^2c^2+17c^2a^2}\\)</span><br />\r\n=&nbsp;<span class=\"math-tex\">\\({11+13+15}\\over{16+19+17}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(39\\over52\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;+ c<sup>2</sup> = ab + bc + ca, तो <span class=\"math-tex\">\\({11a^4 + 13b^4 + 15c^4}\\over{16a^2b^2 + 19b^2c^2+17c^2a^2}\\)</span> का मान ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(CHSL 2023 Pre)&nbsp;</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(1\\frac{3}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\over4\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(1\\frac{2}{3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(3\\over4\\)</span>&nbsp;है।</p>\r\n\r\n<p>अंश और हर की डिग्री समान हैं।<br />\r\na = b = c = 1 रखें<br />\r\n<span class=\"math-tex\">\\({11a^4 + 13b^4 + 15c^4}\\over{16a^2b^2 + 19b^2c^2+17c^2a^2}\\)</span><br />\r\n=&nbsp;<span class=\"math-tex\">\\({11+13+15}\\over{16+19+17}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(39\\over52\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(3\\over4\\)</span></p>\r\n\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--></div>\r\n"
+  }
+]
