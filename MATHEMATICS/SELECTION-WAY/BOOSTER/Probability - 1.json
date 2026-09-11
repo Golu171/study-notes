@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "<p>What is the probability of getting all heads when 3 coins are tossed simultaneously?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8} \\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{8} \\)</span>.</p>\r\n\r\n<p>Probability of getting a head when one coin is tossed = <span class=\"math-tex\">\\(\\frac{1}{2} \\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability of getting all heads when 3 coins are tossed =&nbsp;<span class=\"math-tex\">\\( \\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब 3 सिक्के एक साथ उछाले जाएं तो सभी पर चित आने की प्रायिकता क्या है?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4&nbsp;</strong>अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{8} \\)</span>&nbsp;है।</p>\r\n\r\n<p>एक सिक्का उछाले जाने पर चित आने की संभावना&nbsp;= <span class=\"math-tex\">\\(\\frac{1}{2} \\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> 3 सिक्के उछालने पर सभी पर चित आने की प्रायिकता&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>In tossing three coins at a time, the probability of getting at least one head is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{8} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{7}{8} \\)</span>.</p>\r\n\r\n<p>Total out comes = (2)<sup>3</sup> = 8<br />\r\nAt least one head = 7<br />\r\nAt least one head = 8 &ndash; 1 (TTT) = 7<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Probability of getting at least one head = <span class=\"math-tex\">\\(\\frac{7}{8} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक समय में तीन सिक्के उछालने पर, कम से कम एक चित आने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{8} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{7}{8} \\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल परिणाम&nbsp; = (2)<sup>3</sup> = 8<br />\r\nकम से कम एक चित&nbsp;= 7<br />\r\nकम से कम एक चित&nbsp;= 8 &ndash; 1 (TTT) = 7<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;कम से कम एक चित आने की प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{7}{8} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>When a coin is tossed once, what is the probability of getting a head?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span>.</p>\r\n\r\n<p>Total outcomes = 2<br />\r\nNumber of head = 1<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability of getting a head = <span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब एक सिक्का एक बार उछाला जाता है तो चित आने की प्रायिकता क्या है?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>कुल परिणाम = 2<br />\r\nचित की संख्या = 1<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> चित आने की प्रायिकता = <span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>Three cards are drawn one after another with replacement from a pack of cards. What is the probability of getting the first card a Jack, the second card a black card, and the third card an even-numbered card?<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{169} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{338} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{26} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{20}{338} \\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{5}{338} \\)</span>.</p>\r\n\r\n<p>Total jack cards = 4<br />\r\nTotal black cards = 26<br />\r\nTotal even number&nbsp;cards = 5 &times; 4&nbsp;= 20&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>Probability of getting the first card a jack, the second card a black, and the&nbsp;third card an even-numbered card = <span class=\"math-tex\">\\(\\frac{4}{52}\\times\\frac{26}{52}\\times\\frac{20}{52}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{1}{13}\\times\\frac{1}{2}\\times\\frac{5}{13}=\\frac{5}{338}\\)</span>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>ताश के पत्तों की गड्डी से एक के बाद एक तीन कार्ड निकाले जाते हैं। पहला कार्ड जैक, दूसरा कार्ड काला कार्ड और तीसरा कार्ड सम संख्या वाला कार्ड मिलने की क्या प्रायिकता है?<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{169} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{338} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{26} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{20}{338} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{5}{338} \\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल जैक कार्ड = 4<br />\r\nकुल काले कार्ड = 26<br />\r\nकुल सम संख्या कार्ड&nbsp;= 5 &times; 4&nbsp;= 20&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>पहला कार्ड जैक, दूसरा कार्ड काला और तीसरा कार्ड सम संख्या वाला कार्ड मिलने की संभावना&nbsp;= <span class=\"math-tex\">\\(\\frac{4}{52}\\times\\frac{26}{52}\\times\\frac{20}{52}\\)</span>&nbsp;=&nbsp;&nbsp;<span class=\"math-tex\">\\( \\frac{1}{13}\\times\\frac{1}{2}\\times\\frac{5}{13}=\\frac{5}{338}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains cards numbered from 33 to 92. If one card is drawn from the bag, the probability that the number on the drawn card is a perfect square is:<br />\r\n<strong>(CHSL 2024 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{17}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{35}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{8}{37}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{15}\\)</span>.</p>\r\n\r\n<p>Total number from 33 to 92 = 59 + 1 = 60<br />\r\nPerfect square numbers = 36, 49, 64, 81<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability of getting a perfect square number = <span class=\"math-tex\">\\(\\frac{4}{60}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक थैले में 33 से 92 तक क्रमांकित कार्ड हैं। यदि थैले में से एक कार्ड निकाला जाता है, तो निकाले गए कार्ड पर अंकित संख्या के पूर्ण वर्ग होने की प्रायिकता है:<br />\r\n<strong>(CHSL 2024 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{17}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{35}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{8}{37}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{15}\\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल संख्या 33 से 92 तक = 59 + 1 = 60<br />\r\nपूर्ण वर्ग संख्या = 36, 49, 64, 81<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;पूर्ण वर्ग संख्या प्राप्त करने की संभावना = <span class=\"math-tex\">\\(\\frac{4}{60}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{15}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>What is the probability of selecting a black card or a six-number from a deck of 52 cards?<br />\r\n<strong>(CHSL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{52}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{52}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{7}{13}\\)</span>.</p>\r\n\r\n<p>Total black cards = 26</p>\r\n\r\n<p>Total 6 number cards = 4</p>\r\n\r\n<p>Total cards = 52</p>\r\n\r\n<p>Probability of selecting a black card or a six-number =&nbsp;<span class=\"math-tex\">\\( \\frac{26}{52}+\\frac{4}{52}–\\frac{2}{52} \\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{28}{52}=\\frac{7}{13} \\)</span></p>\r\n\r\n<p>(2 black cards are common in six-number cards)</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>52 पत्तों की गड्डी में से एक काला पत्ता या छः अंक वाला पत्ता चुनने की प्रायिकता क्या है?<br />\r\n<strong>(CHSL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{52}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{52}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{7}{13}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>​कुल काले पत्ते = 26</p>\r\n\r\n<p>कुल 6 अंक वाले पत्ते = 4</p>\r\n\r\n<p>कुल पत्ते = 52</p>\r\n\r\n<p>काला पत्ता या छह अंक वाला पत्ता चुनने की प्रायिकता =&nbsp;<span class=\"math-tex\">\\( \\frac{26}{52}+\\frac{4}{52}–\\frac{2}{52} \\)</span> =&nbsp;<span class=\"math-tex\">\\(\\frac{28}{52}=\\frac{7}{13} \\)</span></p>\r\n\r\n<p>(छह अंक वाले पत्तों में 2 काले पत्ते समान होते हैं)</p>\r\n"
+  },
+  {
+    "question": "<p>A card is drawn at random from a pack of playing cards. What is the probability of getting a face card?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{13} \\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{3}{13} \\)</span>.&nbsp;</p>\r\n\r\n<p>Total number of cards = 52<br />\r\nTotal number of face cards = 3 &times; 4 = 12<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability of getting a face card = <span class=\"math-tex\">\\(\\frac{12}{52}=\\frac{3}{13}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>ताश के पत्तों की एक गड्डी से एक कार्ड यादृच्छिक रूप से निकाला जाता है। फेस कार्ड आने की प्रायिकता क्या है?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{13} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{3}{13} \\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>कार्डों की कुल संख्या = 52<br />\r\nफेस कार्ड की कुल संख्या = 3 &times; 4 = 12<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> फेस कार्ड मिलने की प्रायिकता = <span class=\"math-tex\">\\(\\frac{12}{52}=\\frac{3}{13}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Two cards are drawn from a pack of 52 cards. The probability that out of 2 cards, one card is red and one card is black is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{13}{25} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{51} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{26}{51} \\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{26}{51} \\)</span>.</p>\r\n\r\n<p>Required probability = <span class=\"math-tex\">\\(\\frac{{26}_{C_1}\\times{\\ 26}_{C_1}}{{52}_{C_2}}=\\frac{26\\times26}{\\frac{52\\times51}{2}}=\\frac{26}{51}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>52 पत्तों की एक गड्डी में से दो पत्ते निकाले जाते हैं। 2 पत्तों में से एक पत्ता लाल और एक पत्ता काला होने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{13}{25} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{25}{51} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{26}{51} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 4&nbsp;</strong>अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{26}{51} \\)</span>&nbsp;है।</p>\r\n\r\n<p>अभीष्ट प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{{26}_{C_1}\\times{\\ 26}_{C_1}}{{52}_{C_2}}=\\frac{26\\times26}{\\frac{52\\times51}{2}}=\\frac{26}{51}\\)</span>&nbsp;&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Kings and Queens of black color are taken out from a deck of 52 playing cards. A card is drawn from the remaining well-shuffled cards. The probability of getting a spade card is:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{48}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{52}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3 </strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{11}{48}\\)</span>.</p>\r\n\r\n<p>Number of remaining cards = 48<br />\r\nRemaining spade cards = 13 &ndash; 1 &ndash; 1 = 11<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Required probability = <span class=\"math-tex\">\\(\\frac{11}{48}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>52 ताश के पत्तों की गड्डी से काले रंग के राजा और रानी निकाले जाते हैं। शेष अच्छी तरह से फेंटे गए पत्तों से एक पत्ता निकाला जाता है। हुकुम का पत्ता मिलने की प्रायिकता है:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{48}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{52}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{11}{48}\\)</span>&nbsp;है।</p>\r\n\r\n<p>शेष पत्तों की संख्या = 48<br />\r\nशेष हुकुम के पत्ते = 13 &ndash; 1 &ndash; 1 = 11<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;अभीष्ट प्रायिकता = <span class=\"math-tex\">\\(\\frac{11}{48}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A card is drawn from a well-shuffled pack of 52 cards. What is the probability of getting a queen or a club card?<br />\r\n<strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{17}{52}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{15}{52}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{13}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3 </strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{4}{13}\\)</span>.</p>\r\n\r\n<p>Number of Queens = 4</p>\r\n\r\n<p>Number of Club cards = 13</p>\r\n\r\n<p>But Queen of Clubs is counted in both, so we subtract 1</p>\r\n\r\n<p>Probability of getting a queen or a club card = <span class=\"math-tex\">\\(\\frac{4}{52}+\\frac{13}{52}–\\frac{1}{52}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{4+13–1}{52}= \\frac{16}{52} =\\frac{4}{13}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>52 पत्तों की एक अच्छी तरह से फेंटी गई गड्डी में से एक पत्ता निकाला जाता है। रानी या क्लब कार्ड आने की प्रायिकता क्या है?<br />\r\n<strong>(CHSL 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{17}{52}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{15}{52}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{13}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{4}{13}\\)</span>&nbsp;है।</p>\r\n\r\n<p>रानियों की संख्या = 4</p>\r\n\r\n<p>चिड़ी के पत्तों की संख्या = 13</p>\r\n\r\n<p>लेकिन चिड़ी की रानी दोनों में गिनी जाती है, इसलिए हम 1 घटाते हैं</p>\r\n\r\n<p>रानी या चिड़ी का पत्ता मिलने की प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{4}{52}+\\frac{13}{52}–\\frac{1}{52}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{4+13–1}{52}= \\frac{16}{52} =\\frac{4}{13}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>What will be the probability of removing a face card from a deck of cards?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{6}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{12}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{26}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{3}{13}\\)</span>.</p>\r\n\r\n<p>Total cards = 52<br />\r\nTotal face cards = 12<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability of getting a face card = <span class=\"math-tex\">\\(\\frac{12}{52}=\\frac{3}{13} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>ताश के पत्तों की गड्डी से एक फेस कार्ड हटाने की प्रायिकता क्या होगी?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{6}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{12}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{26}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{3}{13}\\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल कार्ड = 52<br />\r\nकुल फेस कार्ड = 12<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>फेस कार्ड मिलने की प्रायिकता = <span class=\"math-tex\">\\(\\frac{12}{52}=\\frac{3}{13} \\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>What is the probability of drawing an Ace from a deck of cards?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{12}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{15}{26}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{13}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{13} \\)</span>.</p>\r\n\r\n<p>Probability of getting an ace = <span class=\"math-tex\">\\(\\frac{4}{52}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{13} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>ताश के पत्तों की गड्डी से इक्का निकालने की प्रायिकता क्या है?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{12}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{15}{26}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{13}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{13}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{13} \\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>इक्का मिलने की प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{4}{52}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{13} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A man is known to speak the truth 5 out of 8 times. He throws a dice and reports that it is a four. Find the probability that it is actually a four.<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{48}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3 </strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}\\)</span>.</p>\r\n\r\n<p>Probability that four occurs = P(E) = <span class=\"math-tex\">\\(\\frac{1}{6} \\)</span><br />\r\nProbability that four does not occur P<span class=\"math-tex\">\\((\\bar{E})\\)</span> = <span class=\"math-tex\">\\(1–\\frac{1}{6}=\\frac{5}{6}\\)</span><br />\r\nProbability that man reports four and it&#39;s actually a four P(N) =&nbsp;<span class=\"math-tex\">\\( \\frac{5}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> P(<span class=\"math-tex\">\\(\\bar{N}\\)</span>) = <span class=\"math-tex\">\\(1–\\frac{5}{8}=\\frac{3}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>The probability that the number obtained is a four =&nbsp;<span class=\"math-tex\">\\(\\frac{P\\left({E}\\right)\\times P\\left(N\\right)}{P\\left(E\\right)\\times P\\left(N\\right)+P\\left(\\bar{E}\\right)P\\left(\\bar{N}\\right)}\\)</span><br />\r\n=&nbsp;<span class=\"math-tex\">\\( \\frac{\\frac{5}{8}\\times\\frac{1}{6}}{\\frac{1}{6}\\times\\frac{5}{8}+\\frac{5}{6}\\times\\frac{3}{8}}=\\ \\frac{\\frac{5}{48}}{\\frac{5}{48}+\\frac{15}{48}}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{\\frac{5}{48}}{\\frac{20}{48}}=\\frac{1}{4}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक आदमी 8 में से 5 बार सच बोलता है। वह एक पासा फेंकता है और रिपोर्ट करता है कि यह चार है। प्रायिकता ज्ञात कीजिए कि यह वास्तव में चार है।<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{48}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{4}\\)</span>&nbsp;है।</p>\r\n\r\n<p>प्रायिकता है कि चार घटित हो&nbsp; = P(E) = <span class=\"math-tex\">\\(\\frac{1}{6} \\)</span><br />\r\nप्रायिकता है कि चार नहीं आएगा&nbsp;P<span class=\"math-tex\">\\((\\bar{P})\\)</span> = <span class=\"math-tex\">\\(1–\\frac{1}{6}=\\frac{5}{6}\\)</span><br />\r\nप्रायिकता है कि आदमी चार की रिपोर्ट करता है और वास्तव में यह चार है&nbsp; P(N) =<span class=\"math-tex\">\\( \\frac{5}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> P(<span class=\"math-tex\">\\(\\bar{N}\\)</span>) = <span class=\"math-tex\">\\(1–\\frac{5}{8}=\\frac{3}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>प्रायिकता है कि प्राप्त संख्या वा&nbsp;स्तव में चार है&nbsp;&nbsp;<br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{P\\left({E}\\right)\\times P\\left(N\\right)}{P\\left(E\\right)\\times P\\left(N\\right)+P\\left(\\bar{E}\\right)P\\left(\\bar{N}\\right)}\\)</span><br />\r\n=<span class=\"math-tex\">\\( \\frac{\\frac{5}{8}\\times\\frac{1}{6}}{\\frac{1}{6}\\times\\frac{5}{8}+\\frac{5}{6}\\times\\frac{3}{8}}=\\ \\frac{\\frac{5}{48}}{\\frac{5}{48}+\\frac{15}{48}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{5}{48}}{\\frac{20}{48}}=\\frac{1}{4}\\)</span>&nbsp;</p>\r\n\r\n<p>A man is known to speak the truth 5 out of 8 times. He throws a dice and reports that it is a four. Find the probability that it is actually a four.<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the probability of getting a sum of 7 when two dice are thrown?<br />\r\n<strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{6}\\)</span>.</p>\r\n\r\n<p>Total number of outcomes = (6)<sup>2</sup>&nbsp;= 36</p>\r\n\r\n<p>Total outcomes = (1, 6) (2, 5) (3, 4) (6, 1) (5, 2) (4, 3) = 6(total)</p>\r\n\r\n<p>Required probability = <span class=\"math-tex\">\\(\\frac{6}{36}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{6}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पासे फेंकने पर योग 7 आने की प्रायिकता क्या है?<br />\r\n<strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{6}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>​परिणामों की कुल संख्या = (6)2&nbsp;= 36</p>\r\n\r\n<p>कुल परिणाम = (1, 6) (2, 5) (3, 4) (6, 1) (5, 2) (4, 3) = 6 (कुल)</p>\r\n\r\n<p>आवश्यक प्रायिकता = <span class=\"math-tex\">\\(\\frac{6}{36}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{1}{6}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>Two dice are tossed. The probability that the total score is a prime number is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{14}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{15}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{5}{12}\\)</span>.</p>\r\n\r\n<p>Total sample space = (6)<sup>2</sup> = 36<br />\r\nTotal outcomes as sum prime number = (1, 1), (1, 2), (2, 1),&nbsp;(1, 4), (2, 3), (3, 2), (4, 1),&nbsp;(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1),&nbsp;(5, 6), (6, 5)&nbsp;= 15 (total)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability = <span class=\"math-tex\">\\(\\frac{15}{36}=\\frac{5}{12}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पासे उछाले गए। कुल अंक अभाज्य संख्या होने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{14}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{15}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{5}{12}\\)</span>&nbsp;है।</p>\r\n\r\n<p>प्रतिदर्श समष्टि&nbsp;= (6)<sup>2</sup> = 36<br />\r\nअभाज्य संख्या के योग के रूप में कुल परिणाम = (1, 1), (1, 2), (2, 1),&nbsp;(1, 4), (2, 3), (3, 2), (4, 1),&nbsp;(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1),&nbsp;(5, 6), (6, 5) = 15 (कुल)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> अभीष्ट प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{15}{36}=\\frac{5}{12}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A dice is thrown twice, and the sum of the appearing numbers is 10. Then the probability that the number 5 has appeared at least once is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 </strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>.</p>\r\n\r\n<p>Total number outcomes = (6)<sup>2</sup> = 36</p>\r\n\r\n<p>Sum 10 = (4, 6),(6, 4),(5, 5)</p>\r\n\r\n<p>5 appeared at least once = (5, 5)</p>\r\n\r\n<p>Required probability = <span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक पासा दो बार फेंका जाता है, और आने वाली संख्याओं का योग 10 है। तो संख्या 5 के कम से कम एक बार आने की प्रायिकता है:&nbsp;<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;है।</p>\r\n\r\n<p>​परिणामों की कुल संख्या = (6)<sup>2 </sup>= 36</p>\r\n\r\n<p>योग 10 = (4, 6),(6, 4),(5, 5)</p>\r\n\r\n<p>5 कम से कम एक बार आया = (5, 5)</p>\r\n\r\n<p>आवश्यक प्रायिकता =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Two dice are thrown simultaneously. Find the probability of getting a sum of 8.<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{9} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{36} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{36} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{5}{36} \\)</span>.</p>\r\n\r\n<p>Total number of outcomes = (6)<sup>2</sup> = 36<br />\r\nSum of 8 = (2, 6), (3, 5), (4, 4), (5, 3), (6, 2)&nbsp;= 5 (total)<br />\r\nRequired probability = <span class=\"math-tex\">\\(\\frac{5}{36} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पासे एक साथ फेंके गए। योग 8 आने की प्रायिकता ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{9} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{36} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{36} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{5}{36} \\)</span>&nbsp;है।</p>\r\n\r\n<p>परिणामों की कुल संख्या = (6)<sup>2</sup> = 36<br />\r\n8 का योग = (2, 6), (3, 5), (4, 4), (5, 3), (6, 2)&nbsp;= 5 (योग)<br />\r\nअभीष्ट प्रायिकता = <span class=\"math-tex\">\\(\\frac{5}{36} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Two dice are thrown simultaneously. What is the probability that the sum of the numbers on the faces is divisible by either 3 or 5?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{19}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{7}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{19}{36}\\)</span>.</p>\r\n\r\n<p>Total outcomes = (6)<sup>2</sup> = 36<br />\r\nNumber of favourable outcomes = (1, 2), (1,4), (1,5), (2,1), (2, 3), (2, 4), (3, 2), (3,3), (3, 6), (4, 1), (4,2), (4,5),(4, 6), (5, 1), (5, 4), (5,4),(6, 3), (6, 4), (6, 6) = 19 (total)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability = <span class=\"math-tex\">\\(\\frac{19}{36}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पासे एक साथ फेंके जाते हैं। फलकों पर संख्याओं का योग 3 या 5 से विभाज्य होने की प्रायिकता क्या है?&nbsp;<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{19}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{7}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{19}{36}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>कुल परिणाम = (6)<sup>2</sup> = 36<br />\r\nअनुकूल परिणामों की संख्या =&nbsp;(1, 2), (1,4), (1,5), (2,1), (2, 3), (2, 4), (3, 2), (3,3), (3, 6), (4, 1), (4,2), (4,5),(4, 6), (5, 1), (5, 4), (5,4),(6, 3), (6, 4), (6, 6) = 19 (कुल)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>अभीष्ट प्रायिकता = <span class=\"math-tex\">\\(\\frac{19}{36}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A dice is cast twice, and the sum of the appearing numbers is 10. What is the probability that the number 5 has appeared at least once?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{3} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4 </strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>.</p>\r\n\r\n<p>Total event when sum is 10: (5, 5), (6, 4), (4, 6)<br />\r\nProbability of getting number 5 at least once = <span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक पासा दो बार उछाला गया, और आने वाली संख्याओं का योग 10 है। क्या प्रायिकता है कि संख्या 5 कम से कम एक बार आने की प्रायिकता क्या है?&nbsp;<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{3} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>कुल घटना जब योग 10 हो: (5, 5), (6, 4), (4, 6)<br />\r\nकम से कम एक बार संख्या 5 आने की संभावना =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Find the probability of getting a sum of at least 8 while throwing 2 dice if neither of the two dice shows a number less than 4.</p>\r\n",
+    "options": [
+      "<p>4/9</p>\r\n",
+      "<p>1/4</p>\r\n",
+      "<p>1/3</p>\r\n",
+      "<p>2/9</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e. <strong>1/4.</strong></p>\r\n\r\n<p>Sample set on throwing two dices = (1, 1) (1, 2)...... (6, 6) = 36</p>\r\n\r\n<p>Favourable cases (sum of 8 or more and no dice shows a number less than 4) = (4, 4) (4, 5) (4, 6)(5, 4) (5, 5) (5, 6)&nbsp;(6, 4) (6, 5) (6, 6) = 9</p>\r\n\r\n<p>Probability = Number of favourable cases/Total cases</p>\r\n\r\n<p>Probability = 9/36 = 1/4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>2 पासों को फेंकने पर कम से कम 8 का योग आने की प्रायिकता ज्ञात कीजिए, यदि दोनों में से किसी भी पासे पर 4 से कम अंक नहीं आता है।</p>\r\n",
+    "options_hi": [
+      "<p>4/9</p>\r\n",
+      "<p>1/4</p>\r\n",
+      "<p>1/3</p>\r\n",
+      "<p>2/9</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>यानी <strong>1/4&nbsp;</strong>है।</p>\r\n\r\n<p>दो पासे फेंकने पर प्रतिदर्श समष्टि = (1, 1) (1, 2) ...... (6, 6) = 36</p>\r\n\r\n<p>अनुकूल मामले (8 या अधिक का योग और कोई भी पासा 4 से कम संख्या नहीं दर्शाता) = (4, 4) (4, 5) (4, 6)(5, 4) (5, 5) (5, 6)&nbsp;(6, 4) (6, 5) (6, 6) = 9</p>\r\n\r\n<p>प्रायिकता&nbsp;= अनुकूल मामलों की संख्या/कुल मामले</p>\r\n\r\n<p>प्रायिकता = 9/36 = 1/4</p>\r\n"
+  },
+  {
+    "question": "<p><span style=\"font-size:11.0pt\">Two dices are rolled simultaneously. What is the probability that both the dices show same number? </span></p>\r\n",
+    "options": [
+      "<p>1/3</p>\r\n",
+      "<p>1/4</p>\r\n",
+      "<p>1/5</p>\r\n",
+      "<p>1/6</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>Correct answer is&nbsp;<strong>Option 4&nbsp;</strong>i.e.&nbsp;<strong>1/6</strong></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Total number of possibilities when two dices are rolled = 6 &times; 6 = 36</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Number of chances for which both the numbers are same = 6 [The number can be 1, 2, 3, 4, 5 and 6]</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Required probability = 6/36 = 1/6</span></span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span style=\"font-size:11.0pt\">दो पासे एक साथ फेंकें जाते हैं। दोनों पासों की समान संख्या आने की प्रायिकता क्या होगी? </span></p>\r\n",
+    "options_hi": [
+      "<p>1/3</p>\r\n",
+      "<p>1/4</p>\r\n",
+      "<p>1/5</p>\r\n",
+      "<p>1/6</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर है <strong>विकल्प 4</strong> अर्थात <strong>1/6</strong></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">दो पासे फेंकने पर प्रायिकताओं की कुल संख्या = 6 &times; 6 = 36</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">दोनों संख्याओं के समान होने के अवसरों की संख्या&nbsp; = 6 [संख्या 1, 2, 3, 4, 5 और 6 हो सकती है]</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">अभीष्ट प्रायिकता = 6/36 = 1/6</span></span></p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the probability of getting a co-prime when two dice are thrown?</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{23}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{36}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3 </strong>i.e. &nbsp;<span class=\"math-tex\">\\(\\frac{23}{36}\\)</span><strong>.</strong></p>\r\n\r\n<p>Here we have two dice, so the total number of outcomes =&nbsp;6 &times; 6 = 36</p>\r\n\r\n<p>Here are the favourable outcomes of getting coprime</p>\r\n\r\n<p>(1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (2,1), (2,3), (2,5), (3,1), (3,2), (3,4), (3,5), (4,1), (4,3), (4,5), (5,1), (5,2), (5,3), (5,4), (5,6), (6,1), (6,5)</p>\r\n\r\n<p>Number of favourable outcomes =&nbsp;23</p>\r\n\r\n<p>&there4; Probability of getting a coprime =&nbsp;23/36</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पासे फेंकने पर सह-अभाज्य आने की प्रायिकता क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\frac{23}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{36}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>यानी&nbsp;<span class=\"math-tex\">\\(\\frac{23}{36}\\)</span> है।</p>\r\n\r\n<p>यहां हमारे पास दो पासे हैं, इसलिए परिणामों की कुल संख्या =&nbsp;6 &times; 6 = 36</p>\r\n\r\n<p>यहाँ सह-अभाज्य प्राप्त करने वाले अनुकूल परिणाम दिए गए हैं</p>\r\n\r\n<p>(1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (2,1), (2,3), (2,5), (3,1), (3,2), (3,4), (3,5), (4,1), (4,3), (4,5), (5,1), (5,2), (5,3), (5,4), (5,6), (6,1), (6,5)</p>\r\n\r\n<p>अनुकूल परिणामों की संख्या =&nbsp;23</p>\r\n\r\n<p>&there4;&nbsp;सह-अभाज्य मिलने की प्रायिकता =&nbsp;23/36</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>When a pair of dice is thrown, what is the probability of the sum of the numbers being odd?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>0.25</p>\r\n",
+      "<p>0.4</p>\r\n",
+      "<p>0.5</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong>&nbsp;i.e.&nbsp;<strong>0.5.</strong></p>\r\n\r\n<p>Total outcomes = (6)<sup>2</sup> = 36<br />\r\nThe sum of the numbers being odd = (1,2), (1,4), (1,6), (2,1), (2, 3), (2, 5), (3, 2), (3,4), (3, 6), (4, 1), (4, 3), (4,5), (5, 2), (5, 4), (5, 6), (6, 1),&nbsp;(6, 3), (6, 5) = 18 (total)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability =&nbsp;<span class=\"math-tex\">\\( \\frac{18}{36} = \\frac{1}{2}\\)</span>&nbsp;= 0.5</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>जब पासा की एक जोड़ी फेंकी जाती है, तो संख्याओं के योग के विषम होने की प्रायिकता क्या है?&nbsp;<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>0.25</p>\r\n",
+      "<p>0.4</p>\r\n",
+      "<p>0.5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<strong>0.5</strong>&nbsp;है।</p>\r\n\r\n<p>कुल परिणाम = (6)<sup>2</sup> = 36<br />\r\nसंख्याओं का योग विषम होना: (1,2), (1,4), (1,6), (2,1), (2, 3), (2, 5), (3, 2), (3,4), (3, 6), (4, 1), (4, 3), (4,5), (5, 2), (5, 4), (5, 6), (6, 1),&nbsp;(6, 3), (6, 5) = 18 (योग)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> अभीष्ट प्रायिकता&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{18}{36} = \\frac{1}{2}\\)</span>&nbsp;= 0.5</p>\r\n"
+  },
+  {
+    "question": "<p>One black, one red, and one green dice are thrown together. What is the probability that the sum of the three numbers is greater than or equal to 17?<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{216} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{216} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{54} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{54} \\)</span>.</p>\r\n\r\n<p>Total outcomes = (6)<sup>3</sup> = 216<br />\r\nSum greater than or equal to 17:&nbsp;(6, 6, 5), (6, 6, 6), (5, 6, 6), (6, 5, 6)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability =&nbsp;<span class=\"math-tex\">\\( \\frac{4}{216} = \\frac{1}{54}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक काला, एक लाल और एक हरा पासा एक साथ फेंका जाता है। तीनों संख्याओं का योग 17 से अधिक या उसके बराबर आने की प्रायिकता क्या है?&nbsp;<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{7}{216} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{216} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{54} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{1}{54} \\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल परिणाम = (6)<sup>3</sup> = 216<br />\r\nयोग 17 से अधिक या बराबर 17: (6, 6, 5), (6, 6, 6), (5, 6, 6), (6, 5, 6)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> अभीष्ट प्रायिकता&nbsp; =<span class=\"math-tex\">\\( \\frac{4}{216} = \\frac{1}{54}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Find the probability that if 2 dice are thrown twice, the sum of the digits is 10.<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{36} \\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{12} \\)</span>.</p>\r\n\r\n<p>Total outcomes = (6)<sup>2</sup> = 36<br />\r\nThe sum of the digits is 10: (4, 6), (5, 5), (6, 4)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>Required probability =&nbsp;<span class=\"math-tex\">\\( \\frac{3}{36} = \\frac{1}{12}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि एक पासे को दो बार उछाला जाए तो अंकों का योग 10 आने की प्रायिकता ज्ञात कीजिए।&nbsp;<br />\r\n<strong>(RRB NTPC)</strong></p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{36}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{36} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{1}{12} \\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल परिणाम&nbsp; = (6)<sup>2</sup> = 36<br />\r\n10 अंकों का योग: (4, 6), (5, 5), (6, 4)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>अभीष्ट प्रायिकता&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{3}{36} = \\frac{1}{12}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A glass jar contains 6 white, 8 black, 4 red, and 3 blue marbles. If a single marble is chosen at random, what is the probability that it is black or blue?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{21} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{21} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{7} \\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{11}{21} \\)</span>.</p>\r\n\r\n<p>Total number of marbles = 21<br />\r\nNumber of Black and Blue marbles = 8 + 3 = 11<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Probability of getting a black or blue marble =&nbsp;<span class=\"math-tex\">\\( \\frac{11}{21}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कांच के जार में 6 सफेद, 8 काले, 4 लाल और 3 नीले मार्बल हैं। यदि एक मार्बल यादृच्छिक रूप से चुना जाता है, तो काला या नीला होने की प्रायिकता क्या है?&nbsp;<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{21} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{21} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{7} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{11}{21} \\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>कुल मार्बल्स की संख्या = 21<br />\r\nकाले और नीले मार्बल की संख्या = 8 + 3 = 11<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> काला या नीला मार्बल मिलने की संभावना =&nbsp;<span class=\"math-tex\">\\( \\frac{11}{21}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>If from each of the three boxes containing 3 white and 1 black, 2 white and 2 black, 1 white and 3 black balls, one ball is drawn at random, then the probability that 2 white and 1 black ball will be drawn is:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{13}{32} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{32} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{16}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>&nbsp;The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{13}{32} \\)</span>.</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>White&nbsp;</td>\r\n\t\t\t<td>Black</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Box 1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>1</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Box 2</td>\r\n\t\t\t<td>2</td>\r\n\t\t\t<td>2</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Box 3</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />\r\n<span class=\"math-tex\">\\(P\\left(W_1\\right)=\\frac{3}{4}      \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(P\\left(W_2\\right)=\\frac{1}{2}      \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(   P\\left(W_3\\right)=\\frac{1}{4}\\)</span><br />\r\n<span class=\"math-tex\">\\(P\\left(B_1\\right)=\\frac{1}{4}  \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"math-tex\">\\(P\\left(B_2\\right)=\\frac{1}{2} \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(P\\left(B_3\\right)=\\frac{3}{4}\\)</span><br />\r\nProbability of getting 2 white and 1 black ball:&nbsp;<br />\r\n<span class=\"math-tex\">\\(W_1+W_2+B_3=\\frac{3}{4}\\times\\frac{1}{2}\\times\\frac{3}{4}=\\frac{9}{32} \\)</span><br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR<br />\r\n<span class=\"math-tex\">\\(W_1+B_2+W_3=\\frac{3}{4}\\times\\frac{1}{2}\\times\\frac{1}{4}=\\frac{3}{32}  \\)</span>&nbsp;<br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR<br />\r\n<span class=\"math-tex\">\\(B_1+W_2+W_3=\\frac{1}{4}\\times\\frac{1}{2}\\times\\frac{1}{4}=\\frac{1}{32} \\)</span><br />\r\nRequired probability =&nbsp;<span class=\"math-tex\">\\( \\frac{9}{32}+\\frac{3}{32}+\\frac{1}{32}=\\frac{13}{32}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि 3 सफेद और 1 काली, 2 सफेद और 2 काली, 1 सफेद और 3 काली गेंदों वाले तीन बक्सों में से प्रत्येक में से एक गेंद यादृच्छिक रूप से निकाली जाती है, तो 2 सफेद और 1 काली गेंद निकलने की प्रायिकता है:&nbsp;<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{13}{32} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{32} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{16}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{13}{32} \\)</span>&nbsp;है।</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>सफेद</td>\r\n\t\t\t<td>काली</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>बक्सा&nbsp;1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>1</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>बक्सा&nbsp;2</td>\r\n\t\t\t<td>2</td>\r\n\t\t\t<td>2</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>बक्सा&nbsp;3</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><span class=\"math-tex\">\\(P\\left(W_1\\right)=\\frac{3}{4}      \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(P\\left(W_2\\right)=\\frac{1}{2}      \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"math-tex\">\\(   P\\left(W_3\\right)=\\frac{1}{4}\\)</span><br />\r\n<span class=\"math-tex\">\\(P\\left(B_1\\right)=\\frac{1}{4}  \\)</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class=\"math-tex\">\\(P\\left(B_2\\right)=\\frac{1}{2} \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\">\\(P\\left(B_3\\right)=\\frac{3}{4}\\)</span><br />\r\n2 सफेद और 1 काली गेंद मिलने की संभावना:<br />\r\n<span class=\"math-tex\">\\(W_1+W_2+B_3=\\frac{3}{4}\\times\\frac{1}{2}\\times\\frac{3}{4}=\\frac{9}{32} \\)</span><br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; या<br />\r\n<span class=\"math-tex\">\\(W_1+B_2+W_3=\\frac{3}{4}\\times\\frac{1}{2}\\times\\frac{1}{4}=\\frac{3}{32}  \\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; या<br />\r\n<span class=\"math-tex\">\\(B_1+W_2+W_3=\\frac{1}{4}\\times\\frac{1}{2}\\times\\frac{1}{4}=\\frac{1}{32} \\)</span><br />\r\nA अभीष्ट प्रायिकता =&nbsp;<span class=\"math-tex\">\\( \\frac{9}{32}+\\frac{3}{32}+\\frac{1}{32}=\\frac{13}{32}\\)</span>&nbsp;&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 4 purple, 1 white, and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{10}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{8}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 </strong>i.e<strong>.</strong>&nbsp;<span class=\"math-tex\">\\(\\frac{10}{21}\\)</span>.</p>\r\n\r\n<p>Number of ways in which none of the balls drawn are Blue = <span class=\"math-tex\">\\(5_{C_2}=\\frac{5\\times4\\times3!}{3!\\times2}\\)</span>&nbsp;= 10<br />\r\nTotal number of ways in which 2 balls can be drawn out of all the 7 balls =&nbsp;<span class=\"math-tex\">\\(7_{C2}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{7\\times6\\times5!}{{5!\\times2!}}\\)</span>&nbsp;= 21<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability that none of the balls is blue =&nbsp;<span class=\"math-tex\">\\( \\frac{10}{21}\\)</span>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 4 बैंगनी, 1 सफेद और 2 नीली गेंदें हैं। दो गेंदें यादृच्छिक रूप से निकाली जाती हैं। क्या प्रायिकता है कि निकाली गई गेंदों में से कोई भी नीली न हो?&nbsp;<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{10}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{8}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{10}{21}\\)</span>&nbsp;है।</p>\r\n\r\n<p>उन तरीकों की संख्या जिसमें नीली गेंद में से कोई भी गेंद नहीं निकाली गई =&nbsp;<span class=\"math-tex\">\\(5_{C_2}=\\frac{5\\times4\\times3!}{3!\\times2}\\)</span>&nbsp;= 10<br />\r\nसभी 7 गेंदों में से 2 गेंदों को निकालने के कुल तरीकों की संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\(7_{C2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{7\\times6\\times5!}{{5!\\times2!}}\\)</span>&nbsp;= 21<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> संभावना है कि कोई भी गेंद नीली नहीं है&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{10}{21}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 3 red and 7 black balls. Two balls are taken out at random, without replacement. If the first ball is red, then what is the probability that the second ball is also red?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{9}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;​​<span class=\"math-tex\">\\(\\frac{2}{9}\\)</span>.</p>\r\n\r\n<p>Probability of drawing one red ball = <span class=\"math-tex\">\\(\\frac{3}{10}\\)</span><br />\r\nProbability of drawing the second red ball without replacement = <span class=\"math-tex\">\\(\\frac{2}{9}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक थैले में 3 लाल और 7 काली गेंदें हैं। दो गेंदों को बिना प्रतिस्थापन के यादृच्छिक रूप से निकाला जाता है। यदि पहली गेंद लाल है, तो क्या प्रायिकता है कि दूसरी गेंद भी लाल हो?&nbsp;<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{9}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{2}{9}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>एक लाल गेंद निकालने की संभावना = <span class=\"math-tex\">\\(\\frac{3}{10}\\)</span><br />\r\nप्रतिस्थापन के बिना दूसरी लाल गेंद निकालने की संभावना = <span class=\"math-tex\">\\(\\frac{2}{9}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>In grade 11 of a school, 40 students opted for Physics, 17 opted for Biology, and 20 opted for Chemistry. If the total number of students in grade 11 was 60, all of these students opted for at least one of the three subjects mentioned here, and exactly five of these students opted for all these three subjects, what is the probability that a randomly selected student of grade 11 of this school would have opted for exactly one of these three subjects?</p>\r\n",
+    "options": [
+      "<p>0.75</p>\r\n",
+      "<p>0.85</p>\r\n",
+      "<p>0.90</p>\r\n",
+      "<p>0.80</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>0.80.</strong></p>\r\n\r\n<p>Total number of students = 60</p>\r\n\r\n<p>Number of students who opted two or more subjects = 40 + 17 + 20 - 60 - 5 = 12</p>\r\n\r\n<p>So, the number of students who opted for exactly one subject = 60 - 12 = 48</p>\r\n\r\n<p>Required probability = <span class=\"math-tex\">\\(\\frac{48}{60}\\)</span>&nbsp;= 0.80</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक स्कूल के 11वीं कक्षा में 40 छात्रों ने भौतिकी, 17 ने जीवविज्ञान और 20 ने रसायन विज्ञान का चयन किया। यदि 11वीं कक्षा में छात्रों की कुल संख्या 60 थी, तो इन सभी छात्रों ने यहाँ बताए गए तीन विषयों में से कम से कम एक विषय चुना, और इनमें से ठीक पाँच छात्रों ने इन तीनों विषयों को चुना, तो इस बात की क्या संभावना है कि इस स्कूल के 11वीं कक्षा के यादृच्छिक रूप स चुने गए छात्र ने इन तीनों विषयों में से ठीक एक विषय चुना होगा।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>0.75</p>\r\n",
+      "<p>0.85</p>\r\n",
+      "<p>0.90</p>\r\n",
+      "<p>0.80</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>अर्थात&nbsp;<strong>0.80</strong>&nbsp;है।</p>\r\n\r\n<p><strong>​</strong>कुल छात्रों की संख्या = 60</p>\r\n\r\n<p>दो या अधिक विषय चुनने वाले छात्रों की संख्या = 40 + 17 + 20 - 60 - 5 = 12</p>\r\n\r\n<p>अतः, केवल एक विषय चुनने वाले छात्रों की संख्या = 60 - 12 = 48</p>\r\n\r\n<p>आवश्यक प्रायिकता =&nbsp;<span class=\"math-tex\">\\(\\frac{48}{60}\\)</span> = 0.80</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A jar contains 3 red marbles, 7 green marbles, and 10 white marbles. If 2 marbles are drawn from the jar at random, what is the probability that the marbles are white?<br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{9}{38} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{40}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong> i.e.&nbsp;​​<span class=\"math-tex\">\\(\\frac{9}{38} \\)</span>.</p>\r\n\r\n<p>Total ways of choosing two marbles =&nbsp;<span class=\"math-tex\">\\(^{20}C_2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(20\\times19\\over2\\)</span>&nbsp;= 190</p>\r\n\r\n<p>Both marbles are white&nbsp;=&nbsp;<span class=\"math-tex\">\\(^{10}C_2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(10\\times9\\over2\\)</span>&nbsp;=&nbsp;45</p>\r\n\r\n<p>Probability =&nbsp;<span class=\"math-tex\">\\(45\\over190\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{9}{38} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक जार में 3 लाल मार्बल, 7 हरे मार्बल और 10 सफेद मार्बल हैं। यदि जार से यादृच्छिक रूप से 2 मार्बल निकाले जाते हैं, मार्बल सफेद होने की प्रायिकता क्या है?&nbsp;<br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{9}{38} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{40}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1&nbsp;</strong>अर्थात&nbsp;​​<span class=\"math-tex\">\\(\\frac{9}{38} \\)</span>&nbsp;है।</p>\r\n\r\n<p>​दो कंचों को चुनने के कुल तरीके =&nbsp;<span class=\"math-tex\">\\(^{20}C_2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(20\\times19\\over2\\)</span>&nbsp;= 190</p>\r\n\r\n<p>दोनों कंचे सफेद हैं&nbsp;=&nbsp;<span class=\"math-tex\">\\(^{10}C_2\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(10\\times9\\over2\\)</span>&nbsp;=&nbsp;45</p>\r\n\r\n<p>संभावना =&nbsp;<span class=\"math-tex\">\\(45\\over190\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{9}{38} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 4 white and 6 red balls. Three balls are drawn at random. What is the probability that two balls are white and one is red?<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{17} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{17} \\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10} \\)</span>.</p>\r\n\r\n<p>Probability of getting 2 white balls and one red ball =&nbsp;<span class=\"math-tex\">\\( \\frac{4_{C_2\\times}6_{C_1}}{{10}_{C_3}}\\)</span>&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\therefore 4_{C_2}\\)</span> = &nbsp;<span class=\"math-tex\">\\(\\frac{4\\times3\\times2!}{2!\\times2!}=6\\)</span><br />\r\n<span class=\"math-tex\">\\(6_{C_1}\\)</span> = &nbsp;<span class=\"math-tex\">\\(\\frac{6\\times5!}{5!}=6\\)</span><br />\r\n<span class=\"math-tex\">\\({10}_{C_3}\\)</span> = &nbsp;<span class=\"math-tex\">\\(\\frac{10\\times9\\times8\\times7!}{7!\\times3!}=120\\)</span><br />\r\nRequired probability = <span class=\"math-tex\">\\(\\frac{36}{120}=\\frac{3}{10}\\)</span>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 4 सफेद और 6 लाल गेंदें हैं। तीन गेंदें यादृच्छिक रूप से निकाली जाती हैं। क्या प्रायिकता है कि दो गेंदें सफेद और एक लाल हो?&nbsp;<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{17} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{17} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10} \\)</span>&nbsp;है।</p>\r\n\r\n<p>सफेद गेंद और एक लाल गेंद मिलने की संभावना =&nbsp;<span class=\"math-tex\">\\( \\frac{4_{C_2\\times}6_{C_1}}{{10}_{C_3}}\\)</span>&nbsp;<br />\r\n<span class=\"math-tex\">\\(\\therefore 4_{C_2}\\)</span> = &nbsp;<span class=\"math-tex\">\\(\\frac{4\\times3\\times2!}{2!\\times2!}=6\\)</span><br />\r\n<span class=\"math-tex\">\\(6_{C_1}\\)</span> = &nbsp;<span class=\"math-tex\">\\(\\frac{6\\times5!}{5!}=6\\)</span><br />\r\n<span class=\"math-tex\">\\({10}_{C_3}\\)</span> = &nbsp;<span class=\"math-tex\">\\(\\frac{10\\times9\\times8\\times7!}{7!\\times3!}=120\\)</span><br />\r\nअभीष्ट प्रायिकता = <span class=\"math-tex\">\\(\\frac{36}{120}=\\frac{3}{10}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A box contains 10 identical electronic components, of which 4 are defective. If 3 components are selected at random from the box in succession without replacing the units already drawn, what is the probability that two of the selected components are defective?<br />\r\n<strong>(MTS 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{26} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10}\\)</span>.</p>\r\n\r\n<p>Number of ways in which 2 defective components are selected&nbsp;= &nbsp;<span class=\"math-tex\">\\(4_{C_2}=\\frac{4\\times3\\times2!}{2\\times2!}=6\\)</span><br />\r\nNumber of ways in which 1 component is selected that is not defective =&nbsp;<span class=\"math-tex\">\\(6_{C_1}=\\frac{6\\times5!}{5!}=6\\)</span><br />\r\nTotal number of ways in which 3 components are selected out of 10 =&nbsp;<span class=\"math-tex\">\\(10_{C_3}=\\frac{10\\times9\\times8\\times7!}{7!\\times3!}=120\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability =&nbsp;<span class=\"math-tex\">\\( \\frac{6\\times6}{120}=\\frac{3}{10}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बॉक्स में 10 समान इलेक्ट्रॉनिक घटक हैं, जिनमें से 4 दोषपूर्ण हैं। यदि पहले से निकाले गए इकाइयों को बदले बिना क्रमिक रूप से बॉक्स से 3 घटकों को यादृच्छिक रूप से चुना जाता है, तो क्या प्रायिकता है कि चयनित घटकों में से दो घटक दोषपूर्ण हों?&nbsp;<br />\r\n<strong>(MTS 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{26} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10}\\)</span>&nbsp;है।</p>\r\n\r\n<p>2 दोषपूर्ण घटकों के चयन के तरीकों की संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\(4_{C_2}=\\frac{4\\times3\\times2!}{2\\times2!}=6\\)</span><br />\r\nउन तरीकों की संख्या जिनमें 1 घटक का चयन किया जाता है जो दोषपूर्ण नहीं है =&nbsp;<span class=\"math-tex\">\\(6_{C_1}=\\frac{6\\times5!}{5!}=6\\)</span><br />\r\n10 में से 3 घटकों के चयन के तरीकों की कुल संख्या =&nbsp;<span class=\"math-tex\">\\(10_{C_3}=\\frac{10\\times9\\times8\\times7!}{7!\\times3!}=120\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> अभीष्ट प्रायिकता =&nbsp;<span class=\"math-tex\">\\( \\frac{6\\times6}{120}=\\frac{3}{10}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>29 defective pens are accidentally mixed with 319 good ones. It is not possible to just look at a pen and tell whether or not it is defective. One pen is taken out at random from this lot. What is the probability that the pen taken out is a good one?<br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{11}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{13}{15} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{18}{19} \\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{11}{12}\\)</span>.</p>\r\n\r\n<p>Total pens = 29 + 319 = 348<br />\r\nProbability of getting a good pen = <span class=\"math-tex\">\\(\\frac{319}{348}=\\frac{11}{12} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>29 खराब पेन गलती से 319 अच्छे पेन के साथ मिल गए। किसी पेन को देखकर यह बताना संभव नहीं है कि वह खराब है या नहीं। इस लॉट में से एक पेन यादृच्छिक रूप से निकाला जाता है। क्या प्रायिकता है कि निकाला गया पेन अच्छा हो?&nbsp;<br />\r\n<strong>(CHSL 2023 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{11}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{13}{15} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{18}{19} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 2&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{11}{12}\\)</span><!--<div contenteditable=\"true\" style=\"position: relative;\">-->&nbsp;है।</p>\r\n\r\n<p>कुल पेन = 29 + 319 = 348<br />\r\nएक अच्छा पेन मिलने की संभावना =&nbsp;<span class=\"math-tex\">\\( \\frac{319}{348}=\\frac{11}{12} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Tickets numbered 1 to 20 are mixed up, and then a ticket is drawn at random. What is the probability that the ticket drawn has a number that is a multiple of 3 or 5?<br />\r\n<strong>(CHSL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{20}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;​​<span class=\"math-tex\">\\(\\frac{9}{20}\\)</span>.</p>\r\n\r\n<p>Total tickets = 20<br />\r\nMultiple of 3 or 5 = 3, 6, 9, 12, 15, 18, 5, 10, 20 = 9 (Total)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Required probability =&nbsp;<span class=\"math-tex\">\\( \\frac{9}{20} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>1 से 20 तक क्रमांकित टिकटों को मिला दिया जाता है, और फिर यादृच्छिक रूप से एक टिकट निकाला जाता है। क्या प्रायिकता है कि निकाले गए टिकट पर कोई संख्या 3 या 5 का गुणज हो?&nbsp;<br />\r\n<strong>(CHSL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{20}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3&nbsp;</strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{9}{20}\\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल टिकट = 20<br />\r\n3 या 5 का गुणज = 3, 6, 9, 12, 15, 18, 5, 10, 20 = 9 (कुल)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;अभीष्ट प्रायिकता = <span class=\"math-tex\">\\( \\frac{9}{20} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 6 red balls and 4 blue balls. Two balls are drawn at random. Find the probability that they are of the same color.<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{7}{15}\\)</span>.</p>\r\n\r\n<p>Number of ways in which 2 red balls are selected from 6 red balls = &nbsp;<span class=\"math-tex\">\\(6_{C_2}=\\frac{6\\times5\\times4!}{4!\\times2!}=15\\)</span><br />\r\nNumber of ways in which 2 blue balls are selected from 4 blue balls =&nbsp;&nbsp;<span class=\"math-tex\">\\(4_{C_2}=\\frac{4\\times3\\times2!}{2!\\times2!}=6 \\)</span><br />\r\nTotal number of ways in which 2 balls are selected from 10 balls =&nbsp;<span class=\"math-tex\">\\(10_{C_2}=\\frac{10\\times9\\times8!}{8!\\times2!}=45\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability that they are of the same colour =&nbsp;<span class=\"math-tex\">\\( \\frac{15+6}{45}=\\ \\frac{21}{45}=\\frac{7}{15}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 6 लाल गेंदें और 4 नीली गेंदें हैं। दो गेंदें यादृच्छिक रूप से निकाली जाती हैं। क्या प्रायिकता है कि वे एक ही रंग की हों?&nbsp;<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{8}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{7}{15}\\)</span>&nbsp;है।</p>\r\n\r\n<p>6 लाल गेंदों में से 2 लाल गेंदों को चुनने के तरीकों की संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\(6_{C_2}=\\frac{6\\times5\\times4!}{4!\\times2!}=15\\)</span><br />\r\n4 नीली गेंदों में से 2 नीली गेंदों को चुनने के तरीकों की संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\(4_{C_2}=\\frac{4\\times3\\times2!}{2!\\times2!}=6 \\)</span><br />\r\n10 गेंदों में से 2 गेंदों को चुनने के तरीकों की कुल संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\(10_{C_2}=\\frac{10\\times9\\times8!}{8!\\times2!}=45\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> संभावना है कि वे एक ही रंग के हो =&nbsp;<span class=\"math-tex\">\\( \\frac{15+6}{45}=\\ \\frac{21}{45}=\\frac{7}{15}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 4 white balls and 2 black balls. Another bag contains 3 white balls and 5 black balls. If one ball is drawn from each bag, what is the probability that both balls are black?<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{24} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{24} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{24} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{24} \\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{5}{24} \\)</span>.</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/12025_07_22_15_15_00.jpg\" style=\"height:83px; width:222px\" /></p>\r\n\r\n<p>Probability of getting a black ball from bag I = <span class=\"math-tex\">\\(\\frac{2}{6}=\\frac{1}{3}\\)</span><br />\r\nProbability of getting a black ball from bag II = <span class=\"math-tex\">\\(\\frac{5}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Probability of getting both balls is black =&nbsp;<span class=\"math-tex\">\\( \\frac{1}{3}\\times\\frac{5}{8}=\\frac{5}{24}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 4 सफेद गेंदें और 2 काली गेंदें हैं। दूसरे बैग में 3 सफेद गेंदें और 5 काली गेंदें हैं। यदि प्रत्येक बैग से एक गेंद निकाली जाती है, तो क्या प्रायिकता है कि दोनों गेंदें काली हों?&nbsp;<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{24} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{24} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{24} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{9}{24} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{5}{24} \\)</span>&nbsp;है।</p>\r\n\r\n<p><img alt=\"\" src=\"https://hranker.com/admin/assets/uploads/ckeditor/12025_07_22_15_15_00.jpg\" style=\"height:83px; width:222px\" /></p>\r\n\r\n<p>बैग I से काली गेंद मिलने की प्रायिकता&nbsp; = <span class=\"math-tex\">\\(\\frac{2}{6}=\\frac{1}{3}\\)</span><br />\r\nबैग II से काली गेंद मिलने की प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{5}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;दोनों गेंदें काली होने की प्रायिकता&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{1}{3}\\times\\frac{5}{8}=\\frac{5}{24}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains white, black, and red balls only. A ball is drawn at random from the bag. If the probability of getting a white ball is <u><span class=\"math-tex\">\\(\\frac{3}{10}\\)</span></u> and that of a black ball is <span class=\"math-tex\">\\(\\frac{2}{5}\\)</span>, then find the probability of getting a red ball. If the bag contains 20 black balls, then find the total number of balls in the bag.<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{4}{10},\\ 40 \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10},\\ 50\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{5},\\ 60 \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{10},\\ 70\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10},\\ 50\\)</span>.</p>\r\n\r\n<p>Probability of getting a white ball = <span class=\"math-tex\">\\(\\frac{3}{10}\\)</span><br />\r\nProbability of getting a black ball =<span class=\"math-tex\">\\( \\frac{2}{5}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Probability of getting a red ball = 1 &ndash;&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10}\\)</span>&ndash;<span class=\"math-tex\">\\( \\frac{2}{5}\\)</span>= <span class=\"math-tex\">\\(\\frac{50–15–20}{50}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{15}{50}=\\frac{3}{10}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> <span class=\"math-tex\">\\( \\frac{2}{5}\\)</span>&nbsp;of the total number of balls = 20<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;Total number of balls = <span class=\"math-tex\">\\(20\\times\\frac{5}{2}\\)</span>&nbsp;= 50</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में केवल सफेद, काली और लाल गेंदें हैं। बैग से एक गेंद यादृच्छिक रूप से निकाली जाती है। यदि सफेद गेंद मिलने की प्रायिकता &nbsp;<span class=\"math-tex\">\\(\\frac{3}{10}\\)</span> है और काली गेंद मिलने की प्रायिकता <span class=\"math-tex\">\\(\\frac{2}{5}\\)</span> है, तो लाल गेंद मिलने की प्रायिकता ज्ञात कीजिए। यदि बैग में 20 काली गेंदें हैं, तो बैग में गेंदों की कुल संख्या ज्ञात कीजिए।<br />\r\n<strong>(CGL 2023 Mains)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{4}{10},\\ 40 \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10},\\ 50\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{5},\\ 60 \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{10},\\ 70\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{3}{10},\\ 50\\)</span>&nbsp;है।</p>\r\n\r\n<p>सफेद गेंद मिलने की संभावना&nbsp;= <span class=\"math-tex\">\\(\\frac{3}{10}\\)</span><br />\r\nकाली गेंद मिलने की संभावना&nbsp; =<span class=\"math-tex\">\\( \\frac{2}{5}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;काली गेंद मिलने की संभावना&nbsp;= 1&ndash;<span class=\"math-tex\">\\(\\frac{3}{10}\\)</span>&ndash;<span class=\"math-tex\">\\( \\frac{2}{5}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{50–15–20}{50}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{15}{50}=\\frac{3}{10}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> कुल गेंदों की संख्या <span class=\"math-tex\">\\( \\frac{2}{5}\\)</span>&nbsp;= 20<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span>&nbsp;गेंदों की कुल संख्या&nbsp;= <span class=\"math-tex\">\\(20\\times\\frac{5}{2}\\)</span>&nbsp;= 50</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 4 white, 5 red, and 6 blue balls. Three balls are drawn at random from the bag. The probability that all of them are red is:<br />\r\n<strong>(CGL 2022 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{91}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{22} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{77}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{2}{91}\\)</span>.</p>\r\n\r\n<p>Number of ways in which 3 red balls are selected from 5 red balls&nbsp;=&nbsp;<span class=\"math-tex\">\\(5_{C_3}=\\frac{5\\times4\\times3\\times2!}{2!\\times3!}\\)</span>&nbsp;= 5 &times; 2 = 10<br />\r\nTotal number of ways = <span class=\"math-tex\">\\({15}_{C_3}\\)</span>&nbsp;= &nbsp;<span class=\"math-tex\">\\(\\frac{15\\times14\\times13\\times12!}{12!\\times3!}\\)</span>&nbsp;= 5&nbsp;&times; 7&nbsp;&times; 13 = 455<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability = <span class=\"math-tex\">\\(\\frac{10}{455}=\\frac{2}{91} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 4 सफेद, 5 लाल और 6 नीली गेंदें हैं। बैग से यादृच्छिक रूप से तीन गेंदें निकाली जाती हैं। वे सभी के लाल होने की प्रायिकता है:<br />\r\n<strong>(CGL 2022 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{91}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{22} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{77}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{2}{91}\\)</span>&nbsp;है।</p>\r\n\r\n<p>5 लाल गेंदों में से 3 लाल गेंदों को चुनने के तरीकों की संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\(5_{C_3}=\\frac{5\\times4\\times3\\times2!}{2!\\times3!}\\)</span>&nbsp;= 5 &times; 2 = 10<br />\r\nतरीकों की कुल संख्या = <span class=\"math-tex\">\\({15}_{C_3}\\)</span>&nbsp;= &nbsp;<span class=\"math-tex\">\\(\\frac{15\\times14\\times13\\times12!}{12!\\times3!}\\)</span>&nbsp;= 5&nbsp;&times; 7&nbsp;&times; 13 = 455<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> अभीष्ट प्रायिकता = <span class=\"math-tex\">\\(\\frac{10}{455}=\\frac{2}{91} \\)</span>&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Bag A contains 2 white and 4 black balls. Bag B contains 5 white and 3 black balls. A ball is drawn from each bag. Find the probability that both are black.<br />\r\n<strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{52} \\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.​​<span class=\"math-tex\">\\(​​\\frac{1}{4}\\)</span>.</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp;A&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B<br />\r\n&nbsp; &nbsp;W &nbsp; &nbsp;B&nbsp; &nbsp; &nbsp; &nbsp; W &nbsp; &nbsp; &nbsp; B<br />\r\n&nbsp; &nbsp;2&nbsp; &nbsp; &nbsp; 4&nbsp; &nbsp; &nbsp; &nbsp; 5&nbsp; &nbsp; &nbsp; &nbsp; 3<br />\r\nProbability of getting a black ball from bag A = <span class=\"math-tex\">\\(\\frac{4}{6}=\\frac{2}{3}\\)</span><br />\r\nProbability of getting a black ball from bag B = <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Probability of getting both the black balls =&nbsp;<span class=\"math-tex\">\\( \\frac{2}{3}\\times\\frac{3}{8}=\\frac{1}{4}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>बैग A में 2 सफेद और 4 काली गेंदें हैं। बैग B में 5 सफेद और 3 काली गेंदें हैं। प्रत्येक बैग से एक गेंद निकाली जाती है। दोनों के काले होने की प्रायिकता ज्ञात कीजिए।<br />\r\n<strong>(CHSL 2022 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{8} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{13} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{4} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{52} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong>&nbsp;अर्थात<span class=\"math-tex\">\\(​​\\frac{1}{4}\\)</span>&nbsp;है।</p>\r\n\r\n<p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;A&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B<br />\r\n&nbsp; &nbsp;W &nbsp; &nbsp;B&nbsp; &nbsp; &nbsp; &nbsp; W &nbsp; &nbsp; &nbsp; B<br />\r\n&nbsp; &nbsp;2&nbsp; &nbsp; &nbsp; 4&nbsp; &nbsp; &nbsp; &nbsp; 5&nbsp; &nbsp; &nbsp; &nbsp; 3<br />\r\nबैग A से काली गेंद मिलने की प्रायिकता = <span class=\"math-tex\">\\(\\frac{4}{6}=\\frac{2}{3}\\)</span><br />\r\nबैग B से काली गेंद मिलने की प्रायिकता = <span class=\"math-tex\">\\(\\frac{3}{8}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;दोनों काली गेंदें मिलने की प्रायिकता =&nbsp;<span class=\"math-tex\">\\( \\frac{2}{3}\\times\\frac{3}{8}=\\frac{1}{4}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Tickets numbered 1 to 20 are mixed up, and then a ticket is drawn at random. What is the probability that the ticket drawn has a number that is a multiple of 4 or 5?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{20} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{20}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{20}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{2}{5}\\)</span>.</p>\r\n\r\n<p>Total number of tickets = 20<br />\r\nMultiples of 4 or 5: 4, 8, 12, 16, 20, 5, 10, 15 = (total = 8)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> Required probability = <span class=\"math-tex\">\\(\\frac{8}{20}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>1 से 20 तक क्रमांकित टिकटों को मिला दिया जाता है, और फिर यादृच्छिक रूप से एक टिकट निकाला जाता है। क्या प्रायिकता है कि निकाले गए टिकट पर कोई संख्या 4 या 5 का गुणज हो?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{20} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{11}{20}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{20}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात​&nbsp;<span class=\"math-tex\">\\(\\frac{2}{5}\\)</span>&nbsp;है।</p>\r\n\r\n<p>टिकटों की कुल संख्या&nbsp;&nbsp;= 20<br />\r\n4 या 5 का गुण:&nbsp;&nbsp;4, 8, 12, 16, 20, 5, 10, 15 = (कुल = 8)<br />\r\n<span class=\"math-tex\">\\(\\therefore\\)</span> अभीष्ट प्रायिकता&nbsp;= <span class=\"math-tex\">\\(\\frac{8}{20}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n"
+  },
+  {
+    "question": "<p>A basket contains 10 apples and 20 oranges, out of which 3 apples and 5 oranges are defective. If we choose two fruits at random, what is the probability that either both are oranges or both are non-defective?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{316}{435}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{361}{435}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{391}{435}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{319}{435}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{316}{435}\\)</span>.</p>\r\n\r\n<p>Total number of favorable outcomes = &nbsp;<span class=\"math-tex\">\\(30_{C_2}=\\frac{30\\times29\\times28!}{28!\\times2}\\)</span>&nbsp;= 435<br />\r\nBoth are oranges = P(A) = <span class=\"math-tex\">\\(\\frac{{20}_{C_2}}{{30}_{C_2}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{20\\times19\\times18!}{18!\\times2}}{435}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{190}{435}\\)</span>&nbsp;<br />\r\nBoth one non-defective = P(B) =&nbsp;<span class=\"math-tex\">\\( \\frac{{22}_{C_2}}{{30}_{C_2}}\\)</span> = <span class=\"math-tex\">\\(\\frac{22\\times21\\times20!}{20!\\times2\\times435}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{231}{435}\\)</span></p>\r\n\r\n<p><span class=\"math-tex\">\\(P\\left(A\\cap B\\right)=\\frac{15_{C_2}}{30_{C_2}}=\\frac{15\\times14\\times13!}{13!\\times2\\times435}\\)</span>&nbsp;<span class=\"math-tex\">\\(= \\frac{105}{435}\\)</span>&nbsp;<br />\r\n<span class=\"math-tex\">\\(P\\left(A\\cup B\\right)=P\\left(A\\right)+P\\left(B\\right)–A∩B\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{190}{435}+\\frac{231}{435}\\)</span>&nbsp;&ndash;&nbsp;<span class=\"math-tex\">\\( \\frac{105}{435}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{316}{435}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक टोकरी में 10 सेब और 20 संतरे हैं, जिनमें से 3 सेब और 5 संतरे खराब हैं। यदि हम यादृच्छिक रूप से दो फल चुनते हैं, तो क्या प्रायिकता है कि या तो दोनों संतरे हों या दोनों खराब न हों?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{316}{435}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{361}{435}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{391}{435}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{319}{435}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{316}{435}\\)</span>&nbsp;है।</p>\r\n\r\n<p>अनुकूल परिणामों की कुल संख्या = &nbsp;<span class=\"math-tex\">\\(30_{C_2}=\\frac{30\\times29\\times28!}{28!\\times2}\\)</span>&nbsp;= 435<br />\r\nदोनों संतरे हैं = P(A) = <span class=\"math-tex\">\\(\\frac{{20}_{C_2}}{{30}_{C_2}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{20\\times19\\times18!}{18!\\times2}}{435}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{190}{435}\\)</span>&nbsp;<br />\r\nदोनों एक गैर-दोषपूर्ण = P(B) =&nbsp;<span class=\"math-tex\">\\( \\frac{{22}_{C_2}}{{30}_{C_2}}\\)</span> = <span class=\"math-tex\">\\(\\frac{22\\times21\\times20!}{20!\\times2\\times435}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{231}{435}\\)</span></p>\r\n\r\n<p><span class=\"math-tex\">\\(P\\left(A\\cap B\\right)=\\frac{15_{C_2}}{30_{C_2}}=\\frac{15\\times14\\times13!}{13!\\times2\\times435}\\)</span>&nbsp;<span class=\"math-tex\">\\(= \\frac{105}{435}\\)</span>&nbsp;<br />\r\n<span class=\"math-tex\">\\(P\\left(A\\cup B\\right)=P\\left(A\\right)+P\\left(B\\right)–A∩B\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{190}{435}+\\frac{231}{435}\\)</span>&nbsp;&ndash;&nbsp;<span class=\"math-tex\">\\( \\frac{105}{435}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{316}{435}\\)</span></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A bag contains cards numbered between 33 and 92. If one card is drawn from the bag, the probability that the number on the drawn card is a multiple of five is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{59} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{59}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{5} \\)</span>.</p>\r\n\r\n<p>Total cards = 92 - 33 + 1 = 60<br />\r\nMultiple of 5 = 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 = 12 (total)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Required probability =&nbsp;<span class=\"math-tex\">\\( \\frac{12}{60}=\\frac{1}{5}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 33 से 92 के बीच क्रमांकित कार्ड हैं। यदि बैग से एक कार्ड निकाला जाता है, तो निकाले गए कार्ड पर संख्या पाँच का गुणज होने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{59} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{59}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{5} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर<strong> विकल्प 3</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{1}{5} \\)</span>&nbsp;है।</p>\r\n\r\n<p>कुल कार्ड = 92 - 33 + 1 = 60<br />\r\n5 का गुणज = 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 = 12 (कुल)<br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;अभीष्ट प्रायिकता = <span class=\"math-tex\">\\( \\frac{12}{60}=\\frac{1}{5}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>Two letters are selected from the word &#39;TENDULKAR&#39;. The probability that both are vowels is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{9}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{9}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{12}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{12}\\)</span>.</p>\r\n\r\n<p>Total number of letters in the word = 9<br />\r\nNumber of ways to choose 2 letters = <span class=\"math-tex\">\\(9_{C_2}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{9!}{7!\\times2!}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{9\\times8\\times7!}{7!\\times2}=36\\)</span><br />\r\nTotal number of vowels in the given word = 3<br />\r\nNumber of ways to choose 2 vowels =&nbsp;<span class=\"math-tex\">\\(3_{C_2}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{3!}{1!\\times2!}=3\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;Probability that both letters are vowels =&nbsp;<span class=\"math-tex\">\\( \\frac{3}{36}=\\frac{1}{12}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>शब्द &#39;TENDULKAR&#39; से दो अक्षर चुने गए हैं। दोनों के स्वर होने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{9}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{9}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{12}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{1}{12}\\)</span>&nbsp;है।</p>\r\n\r\n<p>शब्द में अक्षरों की कुल संख्या = 9<br />\r\n2 अक्षर चुनने के तरीकों की संख्या = <span class=\"math-tex\">\\(9_{C_2}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{9!}{7!\\times2!}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{9\\times8\\times7!}{7!\\times2}=36\\)</span><br />\r\nदिए गए शब्द में स्वरों की कुल संख्या = 3<br />\r\n2 स्वरों को चुनने के तरीकों की संख्या =&nbsp;<span class=\"math-tex\">\\(3_{C_2}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{3!}{1!\\times2!}=3\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;संभावना है कि दोनों अक्षर स्वर हैं =&nbsp;<span class=\"math-tex\">\\( \\frac{3}{36}=\\frac{1}{12}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A box contains 2 black, 6 green, and 4 yellow balls. If 2 balls are picked up at random, the probability that both are green is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{11}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{5}{22}\\)</span>.</p>\r\n\r\n<p>The probability of getting both green =<span class=\"math-tex\">\\( \\frac{6_{C_2}}{{12}_{C_2}}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{\\frac{6\\times5}{2}}{\\frac{12\\times11}{2}}\\Rightarrow \\frac{6\\times5}{12\\times11}=\\frac{5}{22}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बॉक्स में 2 काली, 6 हरी और 4 पीली गेंदें हैं। यदि 2 गेंदों को यादृच्छिक रूप से उठाया जाता है, तो दोनों के हरे होने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{11}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>&nbsp;सही उत्तर<strong> विकल्प 1</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{5}{22}\\)</span>&nbsp;है।</p>\r\n\r\n<p>दोनों के हरे होने की संभावना&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{6_{C_2}}{{12}_{C_2}}\\)</span><br />\r\n&rArr; <span class=\"math-tex\">\\(\\frac{\\frac{6\\times5}{2}}{\\frac{12\\times11}{2}}\\Rightarrow \\frac{6\\times5}{12\\times11}=\\frac{5}{22}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains 2 red, 3 green, and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{10}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{6}{21} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{10}{14} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{7} \\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> Option 1</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{10}{21}\\)</span>.</p>\r\n\r\n<p>Total number of ways of selecting two balls =&nbsp;<span class=\"math-tex\">\\( 7_{C_2}\\)</span> = <span class=\"math-tex\">\\(\\frac{7\\times6}{2}\\)</span>&nbsp;= 21<br />\r\nNumber of ways of selecting 2 balls without getting a blue ball = <span class=\"math-tex\">\\(5_{C_2}={\\frac{5\\times4}{2}=10}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>Required probability = <span class=\"math-tex\">\\(\\frac{10}{21}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बैग में 2 लाल, 3 हरी और 2 नीली गेंदें हैं। दो गेंदों को यादृच्छिक रूप से निकाला जाता है। क्या प्रायिकता है कि निकाली गई गेंदों में से कोई भी नीली न हो?<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{10}{21}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{6}{21} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{10}{14} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{7} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{10}{21}\\)</span>&nbsp;है।</p>\r\n\r\n<p>दो गेंदों को चुनने के कुल तरीकों की संख्या&nbsp;=&nbsp;<span class=\"math-tex\">\\( 7_{C_2}\\)</span> = <span class=\"math-tex\">\\(\\frac{7\\times6}{2}\\)</span>&nbsp;= 21<br />\r\nनीली गेंद प्राप्त किए बिना 2 गेंदों का चयन करने के तरीकों की संख्या&nbsp;= <span class=\"math-tex\">\\(5_{C_2}={\\frac{5\\times4}{2}=10}\\)</span><br />\r\n<span class=\"math-tex\">\\(\\therefore \\)</span>&nbsp;कुल परिणाम&nbsp; = <span class=\"math-tex\">\\(\\frac{10}{21}\\)</span>&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If we select 3 persons randomly from a group consisting of 4 men, 3 women, and 2 boys, then the probability that 2 men are selected is:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{14} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{14}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{28}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;​​<span class=\"math-tex\">\\(\\frac{5}{14} \\)</span>.</p>\r\n\r\n<p>Probability of selecting 2 men = <span class=\"math-tex\">\\(\\frac{4_{C_2}\\times5_{C_1}}{9_{C_3}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{4\\times3}{2}\\times5}{\\frac{9\\times8\\times7}{3\\times2}}\\)</span><br />\r\n=&nbsp;<span class=\"math-tex\">\\( \\left(2\\times3\\times5\\right)\\times\\frac{\\left(3\\times2\\right)}{\\left(9\\times8\\times7\\right)}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{5}{14} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि हम 4 पुरुषों, 3 महिलाओं और 2 लड़कों के एक समूह से यादृच्छिक रूप से 3 व्यक्तियों का चयन करते हैं, तो 2 पुरुषों के चुने जाने की प्रायिकता है:<br />\r\n<strong>(MTS 2021 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{5}{14} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{7}{12}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{14}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{28}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong>&nbsp;अर्थात&nbsp;​​<span class=\"math-tex\">\\(\\frac{5}{14} \\)</span>&nbsp;है।</p>\r\n\r\n<p>2 पुरुषों के चयन की संभावना&nbsp; = <span class=\"math-tex\">\\(\\frac{4_{C_2}\\times5_{C_1}}{9_{C_3}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{4\\times3}{2}\\times5}{\\frac{9\\times8\\times7}{3\\times2}}\\)</span><br />\r\n=&nbsp;<span class=\"math-tex\">\\( \\left(2\\times3\\times5\\right)\\times\\frac{\\left(3\\times2\\right)}{\\left(9\\times8\\times7\\right)}\\)</span>=&nbsp;<span class=\"math-tex\">\\(\\frac{5}{14} \\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>An urn contains 10 black and 5 white balls. Two balls are drawn from the urn one after the other without replacement. What is the probability that both drawn balls are black?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{7} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{7} \\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{3}{7}\\)</span>.</p>\r\n\r\n<p>Probability that both balls are black =&nbsp;<span class=\"math-tex\">\\( \\frac{{10}_{C_1}}{{15}_{C_1}}\\times\\frac{9_{C_1}}{{14}_{C_1}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{10}{15}\\times\\frac{9}{14}=\\frac{2}{3}\\times\\frac{9}{14}\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{3}{7}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कलश में 10 काली और 5 सफेद गेंदें हैं। कलश से एक के बाद एक दो गेंदें बिना प्रतिस्थापन के निकाली जाती हैं। क्या प्रायिकता है कि निकाली गई दोनों गेंदें काली हों?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{2}{7} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{4}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{5}{7} \\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{3}{7}\\)</span>&nbsp;है।</p>\r\n\r\n<p>संभावना है कि दोनों गेंदें काली हो&nbsp;=&nbsp;<span class=\"math-tex\">\\( \\frac{{10}_{C_1}}{{15}_{C_1}}\\times\\frac{9_{C_1}}{{14}_{C_1}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{10}{15}\\times\\frac{9}{14}=\\frac{2}{3}\\times\\frac{9}{14}\\)</span>= <span class=\"math-tex\">\\(\\frac{3}{7}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A box contains 2 black, 6 green, and 4 yellow balls. If 2 balls are picked up at random, the probability that both are yellow is:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{11}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{11}\\)</span></p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{11}\\)</span>.</p>\r\n\r\n<p>Probability of getting both yellow =&nbsp;<span class=\"math-tex\">\\( \\frac{4_{C_2}}{{12}_{C_2}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{4\\times3}{2}}{\\frac{12\\times11}{2}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{4\\times3}{12\\times11}=\\frac{1}{11}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक बॉक्स में 2 काली, 6 हरी और 4 पीली गेंदें हैं। यदि 2 गेंदों को यादृच्छिक रूप से उठाया जाता है, तो प्रायिकता है कि दोनों पीली हों:<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{22}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{6} \\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{11}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{11}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{1}{11}\\)</span>&nbsp;है।</p>\r\n\r\n<p>दोनों पीले होने की संभावना&nbsp; =<span class=\"math-tex\">\\( \\frac{4_{C_2}}{{12}_{C_2}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{\\frac{4\\times3}{2}}{\\frac{12\\times11}{2}}\\)</span><br />\r\n= <span class=\"math-tex\">\\(\\frac{4\\times3}{12\\times11}=\\frac{1}{11}\\)</span>&nbsp;</p>\r\n"
+  },
+  {
+    "question": "<p>A bag contains balls numbered 1, 2, 3, ..... 30. One ball is drawn from the bag at random. What is the probability that the number on the ball drawn is divisible by 4 or 6 ?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>.</p>\r\n\r\n<p>Number of balls = 30<br />\r\nNumber divisible by 4 or 6:&nbsp;4, 8, 12, 16, 20, 24, 28, 6, 18, 30 = 10 (total) &nbsp;<br />\r\n<span class=\"math-tex\">\\( \\therefore \\)</span> Required probability&nbsp;<span class=\"math-tex\">\\(=\\frac{10}{30}=\\frac{1}{3} \\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक थैले में 1, 2, 3, &hellip;&hellip;&hellip;&hellip;.. 30 क्रमांक वाली गेंदें हैं। थैले में से एक गेंद यादृच्छिक रूप से निकाली जाती है। क्या प्रायिकता है कि निकाली गई गेंद पर अंकित संख्या 4 या 6 से विभाज्य हो?<br />\r\n<strong>(MTS 2019 Pre)</strong></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{1}{15}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{1}{3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{10}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong>&nbsp;अर्थात&nbsp;<span class=\"math-tex\">\\(\\frac{1}{3}\\)</span>&nbsp;है।</p>\r\n\r\n<p>गेंदों की संख्या&nbsp; = 30<br />\r\n4 या 6 से विभाज्य संख्या&nbsp; 4 or 6: 4, 8, 12, 16, 20, 24, 28, 6, 18, 30 = 10 (कुल) &nbsp;<br />\r\n<span class=\"math-tex\">\\( \\therefore \\)</span> अभीष्ट प्रायिकता&nbsp;<span class=\"math-tex\">\\(=\\frac{10}{30}=\\frac{1}{3} \\)</span>&nbsp;</p>\r\n"
+  }
+]
