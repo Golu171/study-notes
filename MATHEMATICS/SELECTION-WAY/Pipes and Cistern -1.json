@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>Two pipes S<sub>1</sub> and S<sub>2</sub> alone can fill an empty tank in 15 hours and 20 hours respectively. Pipe S<sub>3</sub> alone can empty that completely filled tank in 40 hours. Firstly both pipes S<sub>1</sub> and S<sub>2</sub> are opened and after 2 hour pipe S<sub>3</sub> is also opened. In how much time tank will be completely filled after S<sub>3</sub> is opened?</p>\r\n",
+    "options": [
+      "<p>90/17 hours</p>\r\n",
+      "<p>89/12 hours</p>\r\n",
+      "<p>90/13 hours</p>\r\n",
+      "<p>92/11 hours</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong>&nbsp;option 4</strong>&nbsp;i.e.&nbsp;<strong>92/11 hours.</strong></p>\r\n\r\n<p>Let the total capacity of the tank be&nbsp;LCM (15, 20, 40) = 120 units</p>\r\n\r\n<p>The efficiency of pipe S<sub>1</sub> to fill the tank = 120/15 = 8</p>\r\n\r\n<p>The efficiency of pipe S<sub>2</sub>&nbsp;to fill the tank = 120/20 = 6</p>\r\n\r\n<p>The efficiency of pipe S<sub>3</sub>&nbsp;to empty&nbsp;the tank = 120/40 = 3</p>\r\n\r\n<p>The tank are filled in 2 hours by S<sub>1</sub> and S<sub>2&nbsp;</sub>= (8 + 6)&nbsp;&times; 2 = 28 units</p>\r\n\r\n<p>Remaining capacity of the tank = 120 - 28 = 92 units</p>\r\n\r\n<p>Hence, all pipes together filled the remaining tank in = 92/(8 + 6 - 3) = 92/11 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पाइप S<sub>1</sub> और S<sub>2</sub> अकेले एक खाली टैंक को क्रमशः 15 घंटे और 20 घंटे में भर सकते हैं। पाइप S<sub>3</sub> अकेले उस पूरी तरह से भरे टैंक को 40 घंटे में खाली कर सकता है। सबसे पहले दोनों पाइप S<sub>1</sub> और S<sub>2</sub> खोले जाते हैं और 2 घंटे बाद पाइप S<sub>3</sub> भी खोला जाता है। S<sub>3</sub> को खोलने के बाद कितने समय में टैंक पूरी तरह से भर जाएगा?</p>\r\n",
+    "options_hi": [
+      "<p>90/17 घंटे</p>\r\n",
+      "<p>89/12 घंटे</p>\r\n",
+      "<p>90/13 घंटे</p>\r\n",
+      "<p>92/11 घंटे</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्&nbsp;<strong>92/11 घंटे</strong> है।</p>\r\n\r\n<p>माना कि टैंक की कुल क्षमता लघुत्तम समापवर्त्य (15, 20, 40) = 120 इकाई है</p>\r\n\r\n<p>टैंक को भरने के लिए पाइप S<sub>1</sub> की दक्षता = 120/15 = 8</p>\r\n\r\n<p>टैंक को भरने के लिए पाइप S<sub>2</sub> की दक्षता = 120/20 = 6</p>\r\n\r\n<p>टैंक को खाली करने के लिए पाइप S<sub>3</sub> की दक्षता = 120/40 = 3</p>\r\n\r\n<p>S<sub>1</sub> और S<sub>2</sub> द्वारा टैंक 2 घंटे में भर जाता है = (8 + 6) &times; 2 = 28 यूनिट</p>\r\n\r\n<p>टैंक की शेष क्षमता = 120 - 28 = 92 यूनिट</p>\r\n\r\n<p>इसलिए, सभी पाइपों ने मिलकर शेष टैंक को = 92/(8 + 6 - 3) = 92/11 घंटे में भर दिया</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>An inlet pipe can fill an empty tank in&nbsp;<span class=\"math-tex\">\\(4\\frac{1}{2}\\)</span> hours while an outlet pipe drains a completely filled tank in&nbsp;<span class=\"math-tex\">\\(7\\frac{1}{5}\\)</span> hours. The tank is initially empty, and the two pipes are alternately opened for an hour each, till the tank is completely filled, starting with the inlet pipe. In how many hours will the tank be completely filled?</p>\r\n",
+    "options": [
+      "<p>24</p>\r\n",
+      "<p>20<span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p>20<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span></p>\r\n",
+      "<p>22<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong>&nbsp;option 3</strong>&nbsp;i.e.&nbsp;&nbsp;<strong>20</strong><span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>.</p>\r\n\r\n<p>The inlet pipe fills the tank =&nbsp;<span class=\"math-tex\">\\(4\\frac{1}{2} = \\frac{9}{2} \\)</span>&nbsp;hours</p>\r\n\r\n<p>The outlet pipe drains the tank =&nbsp;<span class=\"math-tex\">\\( 7\\frac{1}{5} = \\frac{36}{5} \\)</span>&nbsp;hours</p>\r\n\r\n<p>Let&#39;s assume the capacity of the tank = LCM of (<span class=\"math-tex\">\\(\\frac{9}{2}\\)</span>and <span class=\"math-tex\">\\(\\frac{36}{5}\\)</span>) = 36 unit</p>\r\n\r\n<p>Efficiency of Inlet pipe = 36/(9/2) = 8 unit/h</p>\r\n\r\n<p>Efficiency of outlet pipe = 36/(36/5) = -5 unit/h</p>\r\n\r\n<p>They can fill the tank = 2 hours&nbsp; = 8 - 5 = 3 unit</p>\r\n\r\n<p>20 hours = 30 unit</p>\r\n\r\n<p>Remaining capacity = 36 - 30 = 6 units, which is filled by the inlet pipe&nbsp;</p>\r\n\r\n<p>= 6/8 = 3/4 hours</p>\r\n\r\n<p>Total time = 20 + 3/4 =&nbsp;&nbsp;20<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>&nbsp;hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक इनलेट पाइप एक खाली टैंक को <span class=\"math-tex\">\\(4\\frac{1}{2}\\)</span> घंटों में भर सकता है, जबकि एक आउटलेट पाइप एक पूरी तरह से भरे टैंक को <span class=\"math-tex\">\\(7\\frac{1}{5}\\)</span> घंटों में खाली करता है। टैंक शुरू में खाली होता है, और इनलेट पाइप से शुरू करके, दोनों&nbsp;पाइपों को बारी-बारी से एक-एक घंटे के लिए खोला जाता है, जब तक कि टैंक पूरी तरह से भर न जाए। कितने घंटों में टैंक पूरी तरह से भर जाएगा?</p>\r\n",
+    "options_hi": [
+      "<p>24</p>\r\n",
+      "<p>20<span class=\"math-tex\">\\(\\frac{1}{4}\\)</span></p>\r\n",
+      "<p>20<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span></p>\r\n",
+      "<p>22<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>&nbsp;विकल्प 3</strong>&nbsp;यानी&nbsp;&nbsp;<strong>20</strong><span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>&nbsp;है।&nbsp;</p>\r\n\r\n<p>इनलेट पाइप टैंक को भरता है =&nbsp;<span class=\"math-tex\">\\(4\\frac{1}{2} = \\frac{9}{2} \\)</span>&nbsp;घंटे</p>\r\n\r\n<p>आउटलेट पाइप टैंक को खाली करता है =&nbsp;<span class=\"math-tex\">\\( 7\\frac{1}{5} = \\frac{36}{5} \\)</span>&nbsp;घंटे</p>\r\n\r\n<p>मान लें कि टैंक की क्षमता = (<span class=\"math-tex\">\\(\\frac{9}{2}\\)</span>और <span class=\"math-tex\">\\(\\frac{36}{5}\\)</span>) का लघुत्तम समापवर्त्य = 36 इकाई</p>\r\n\r\n<p>इनलेट पाइप की दक्षता = 36/(9/2) = 8 इकाई/घंटा</p>\r\n\r\n<p>आउटलेट पाइप की दक्षता = 36/(36/5) = -5 इकाई/घंटा</p>\r\n\r\n<p>वे टैंक को भर सकते हैं = 2 घंटे&nbsp; = 8 - 5 = 3 यूनिट</p>\r\n\r\n<p>20 घंटे = 30 यूनिट</p>\r\n\r\n<p>शेष क्षमता = 36 - 30 = 6 यूनिट, जो इनलेट पाइप द्वारा भरी जाती है</p>\r\n\r\n<p>= 6/8 = 3/4 घंटे</p>\r\n\r\n<p>कुल समय = 20 + 3/4 =&nbsp;&nbsp;20<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>&nbsp;घंटे</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can fill a tank in 12 minutes; pipe B can fill it in 18 minutes, and pipe C can empty the full tank in 36 minutes. If all the pipes are opened simultaneously, how much time will it take to fill the empty tank completely?</p>\r\n",
+    "options": [
+      "<p>7 minutes 30 seconds</p>\r\n",
+      "<p>10 minutes</p>\r\n",
+      "<p>9 minutes</p>\r\n",
+      "<p>6 minutes</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>9 minutes.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill a tank in 12 minute</p>\r\n\r\n<p>Pipe B can fill it in 18 minutes</p>\r\n\r\n<p>Pipe C can empty the full tank in 36 minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the capacity of the tank be&nbsp;LCM (12, 18, 36) = 36 units</p>\r\n\r\n<p>The efficiency of pipe A to fill the tank = 36/12 = 3</p>\r\n\r\n<p>The efficiency of pipe B to fill the tank = 36/18 = 2&nbsp;</p>\r\n\r\n<p>The efficiency of pipe C to empty the tank = 36/36 = 1</p>\r\n\r\n<p>The tank is filled by all pipes together&nbsp;in 1 minute = 3 + 2 - 1 = 4 units</p>\r\n\r\n<p>Hence, the tank is completely filled by all pipes together in = 36/4&nbsp;= 9 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टंकी को 12 मिनट में भर सकता है; पाइप B इसे 18 मिनट में भर सकता है, और पाइप C पूरी टंकी को 36 मिनट में खाली कर सकता है। यदि सभी पाइप एक साथ खोल दिए जाएँ, तो खाली टंकी को पूरी तरह भरने में कितना समय लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>7 मिनट 30 सेकंड&nbsp;</p>\r\n",
+      "<p>10 मिनट</p>\r\n",
+      "<p>9 मिनट</p>\r\n",
+      "<p>6 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>9 मिनट</strong> है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A एक टंकी को 12 मिनट में भर सकता है</p>\r\n\r\n<p>पाइप B इसे 18 मिनट में भर सकता है</p>\r\n\r\n<p>पाइप C पूरी टंकी को 36 मिनट में खाली कर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की क्षमता एलसीएम (12, 18, 36) = 36 इकाई है</p>\r\n\r\n<p>टंकी को भरने के लिए पाइप A की क्षमता = 36/12 = 3</p>\r\n\r\n<p>टंकी को भरने के लिए पाइप B की क्षमता = 36/18 = 2</p>\r\n\r\n<p>टंकी को खाली करने के लिए पाइप C की क्षमता = 36/36 = 1</p>\r\n\r\n<p>सभी पाइपों द्वारा मिलकर टंकी 1 मिनट में भर जाता है = 3 + 2 - 1 = 4 इकाई&nbsp;</p>\r\n\r\n<p>अतः, सभी पाइपों द्वारा मिलकर टंकी पूरी तरह से भर जाता है = 36/4 = 9 मिनट में</p>\r\n"
+  },
+  {
+    "question": "<p>Inlet Pipes A and B can together fill an empty tank in 1.5 hours. Outlet Pipe C, when opened alone, can empty the completely filled tank, in 4.5 hours. When only Pipes A and C are opened together, the empty tank is filled in 6 hours. Find the time taken by Pipe B, when opened alone, to fill the empty tank.</p>\r\n",
+    "options": [
+      "<p>3 hours 30 minutes</p>\r\n",
+      "<p>3 hours 36 minutes</p>\r\n",
+      "<p>3 hours 32 minutes</p>\r\n",
+      "<p>3 hours 40 minutes</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong>3 hours 36 minutes.</strong></p>\r\n\r\n<p><strong>Given:</strong>&nbsp;</p>\r\n\r\n<p>Inlet pipes A and B opened to fill the empty tank in = 1.5 hours =&nbsp;<span class=\"math-tex\">\\(3\\over 2\\)</span> h</p>\r\n\r\n<p>Outlet pipe C can empty the filled tank in = 4.5 hours = <span class=\"math-tex\">\\(9\\over 2\\)</span> h</p>\r\n\r\n<p>Only A and C together fill the tank in = 6 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of tank be&nbsp;LCM ((<span class=\"math-tex\">\\(3\\over 2\\)</span>), (<span class=\"math-tex\">\\(9\\over 2\\)</span>), 6) = 18&nbsp;units</p>\r\n\r\n<p>The combined efficiency of inlet pipes A and B to fill the empty tank&nbsp;= 18 &divide; (<span class=\"math-tex\">\\(3\\over 2\\)</span>) = 12</p>\r\n\r\n<p>The efficiency of outlet pipe C to empty the filled tank = 18 &divide; (<span class=\"math-tex\">\\(9\\over 2\\)</span>) = 4</p>\r\n\r\n<p>The combined efficiency of A and C to fill the tank = 18 &divide; 6 = 3</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>&rArr; A + C = 3</p>\r\n\r\n<p>&rArr; A - 4 = 3&nbsp;</p>\r\n\r\n<p>&rArr; A = 7&nbsp;</p>\r\n\r\n<p>So, A + B = 12</p>\r\n\r\n<p>&rArr; 7 + B = 12</p>\r\n\r\n<p>&rArr; B = 12 - 7 = 5</p>\r\n\r\n<p>Hence, the empty tank is filled by B alone in =&nbsp;<span class=\"math-tex\">\\(18 \\over 5\\)</span> = 3 hours 36 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>इनलेट पाइप A और B मिलकर एक खाली टैंक को 1.5 घंटे में भर सकते हैं। आउटलेट पाइप C, जब अकेले खोला जाता है, तो पूरी तरह से भरे हुए टैंक को 4.5 घंटे में खाली कर सकता है। जब केवल पाइप A और C को एक साथ खोला जाता है, तो खाली टैंक 6 घंटे में भर जाता है। पाइप B द्वारा अकेले खोले जाने पर खाली टैंक को भरने में लगा समय ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>3 घंटे 30 मिनट</p>\r\n",
+      "<p>3 घंटे 36 मिनट</p>\r\n",
+      "<p>3 घंटे 32 मिनट</p>\r\n",
+      "<p>3 घंटे 40 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात्<strong> 3 घंटे 36 मिनट </strong>है।</p>\r\n\r\n<p><strong>दिया गया:&nbsp;</strong></p>\r\n\r\n<p>खाली टैंक को भरने के लिए इनलेट पाइप A और B को = 1.5 घंटे = <span class=\"math-tex\">\\(3\\over 2\\)</span> घंटे में खोला गया</p>\r\n\r\n<p>आउटलेट पाइप C भरे हुए टैंक को = 4.5 घंटे = <span class=\"math-tex\">\\(9\\over 2\\)</span> घंटे में खाली कर सकता है</p>\r\n\r\n<p>केवल A और C मिलकर टंकी को = 6 घंटे में भरते हैं</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता एलसीएम ((<span class=\"math-tex\">\\(3\\over 2\\)</span>), (<span class=\"math-tex\">\\(9\\over 2\\)</span>), 6) = 18 इकाई है</p>\r\n\r\n<p>&nbsp;खाली टैंक को भरने के लिए इनलेट पाइप A और B की संयुक्त दक्षता = 18 &divide; (<span class=\"math-tex\">\\(3\\over 2\\)</span>) = 12</p>\r\n\r\n<p>भरे हुए टैंक को खाली करने के लिए आउटलेट पाइप C की दक्षता = 18 &divide; (9/2) = 4</p>\r\n\r\n<p>टैंक को भरने के लिए A और C की संयुक्त दक्षता = 18 &divide; 6 = 3</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>&rArr; A + C = 3</p>\r\n\r\n<p>&rArr; A - 4 = 3&nbsp;</p>\r\n\r\n<p>&rArr; A = 7&nbsp;</p>\r\n\r\n<p>इसलिए,&nbsp; A + B = 12</p>\r\n\r\n<p>&rArr; 7 + B = 12</p>\r\n\r\n<p>&rArr; B = 12 - 7 = 5</p>\r\n\r\n<p>अतः, खाली टंकी अकेले B द्वारा = <span class=\"math-tex\">\\(18 \\over 5\\)</span> = 3 घंटे 36 मिनट में भर जाती है</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>An inlet pipe can fill an empty tank in 120 hours while an outlet pipe drains a completely-filled tank in 54 hours. If 8 inlet pipes and 3 outlet pipes are opened simultaneously, when the tank is empty, then in how many hours will the tank get completely filled?</p>\r\n",
+    "options": [
+      "<p>81</p>\r\n",
+      "<p>96</p>\r\n",
+      "<p>72</p>\r\n",
+      "<p>90</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong>&nbsp;i.e. <strong>90</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>A inlet pipe can fill the empty tank in = 120 hours</p>\r\n\r\n<p>An outlet pipe can emty the completly filled tank in = 54 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of the tank be&nbsp;LCM (120, 54) = 1080</p>\r\n\r\n<p>The efficiency of inlet pipe = 1080/120 = 9</p>\r\n\r\n<p>The efficiency of an outlet pipe = 1080/54 = 20</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>&rArr; (8 inlet + 3 outlet) &times; time = 1080</p>\r\n\r\n<p>&rArr; (8 &times; 9 + 3 &times; -20) &times; time = 1080</p>\r\n\r\n<p>&rArr; (72 - 60) &times; time = 1080</p>\r\n\r\n<p>&rArr; time = 1080/12 = 90 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक अंतर्गम नल&nbsp;एक खाली टंकी&nbsp;को 120 घंटे में भर सकता है जबकि एक निकासी नल एक पूरी तरह से भरे टंकी&nbsp;को 54 घंटे में खाली कर सकता है।&nbsp;यदि 8 अंतर्गम नल और 3 निकासी नल एक साथ खोले जाते हैं, जब टंकी खाली होता है, तो टंकी कितने घंटे में पूरी भर जाएगी?</p>\r\n",
+    "options_hi": [
+      "<p>81</p>\r\n",
+      "<p>96</p>\r\n",
+      "<p>72</p>\r\n",
+      "<p>90</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>90 </strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong> &nbsp;</p>\r\n\r\n<p>एक अंतर्गम नल खाली टंकी को = 120 घंटे में भर सकता है</p>\r\n\r\n<p>एक निकासी नल&nbsp;पूरी तरह से भरे हुए टंकी को = 54 घंटे में खाली कर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता एलसीएम (120, 54) = 1080 है</p>\r\n\r\n<p>टंकी की कुल क्षमता = (120,54) का&nbsp;&lrm;लघुत्तम समापवर्त्य&nbsp;= 1080</p>\r\n\r\n<p>अंतर्गम नल की क्षमता = 1080/120 = 9</p>\r\n\r\n<p>एक निकासी नल की क्षमता = 1080/54 = 20</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>&rArr; (8 अंतर्गम + 3 निकासी) &times; समय = 1080</p>\r\n\r\n<p>&rArr; (8 &times; 9 + 3 &times; -20) &times; समय = 1080</p>\r\n\r\n<p>&rArr; (72 - 60) &times; समय = 1080</p>\r\n\r\n<p>&rArr; समय = 1080/12 = 90 घंटे</p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can fill an empty tank in 18 hours and pipe B can fill the same empty tank in 24 hours. If both pipes are opened simultaneously, how much time (in hours) will they take to fill the empty tank?</p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(11\\frac{3}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(10\\frac{1}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(10\\frac{2}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(11\\frac{2}{7}\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong>&nbsp;i.e.&nbsp;<strong><span class=\"math-tex\">\\(10\\frac{2}{7}\\)</span></strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill an empty tank in 18 hours</p>\r\n\r\n<p>Pipe B can fill the same empty tank in 24 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficincy&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of the tank be&nbsp;LCM (18, 24) = 72</p>\r\n\r\n<p>The efficiency of pipe A to fill the empty tank = 72/18 = 4</p>\r\n\r\n<p>The efficiency of pipe B&nbsp;to fill the empty tank = 72/24&nbsp;= 3</p>\r\n\r\n<p>Hence, Both pipes together fill the empty tank in = 72/(4 + 3) = 72/7 =&nbsp;<strong><span class=\"math-tex\">\\(10\\frac{2}{7}\\)</span></strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक खाली टंकी को 18 घंटे में भर सकता है और पाइप B उसी खाली टंकी को 24 घंटे में भर सकता है। यदि दोनों पाइप एक साथ खोले जाएं, तो खाली टंकी को भरने में उन्हें कितना समय (घंटों में) लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(11\\frac{3}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(10\\frac{1}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(10\\frac{2}{7}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(11\\frac{2}{7}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>​सही उत्तर <strong>विकल्प 3</strong> अर्थात्&nbsp;<strong><span class=\"math-tex\">\\(10\\frac{2}{7}\\)</span></strong>&nbsp;है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A एक खाली टंकी को 18 घंटे में भर सकता है</p>\r\n\r\n<p>पाइप B उसी खाली टंकी को 24 घंटे में भर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता LCM (18, 24) = 72 है</p>\r\n\r\n<p>खाली टंकी&nbsp;को भरने के लिए पाइप A की क्षमता = 72/18 = 4</p>\r\n\r\n<p>खाली टंकी&nbsp;को भरने के लिए पाइप B की क्षमता = 72/24 = 3</p>\r\n\r\n<p>इसलिए, दोनों पाइप द्वारा&nbsp;मिलकर खाली टैंक को भरने में लगा समय&nbsp;= 72/(4 + 3) = 72/7 =&nbsp;<strong><span class=\"math-tex\">\\(10\\frac{2}{7}\\)</span></strong></p>\r\n"
+  },
+  {
+    "question": "<p>An inlet pipe can fill an empty tank in 140 hours while an outlet pipe drains a completely-filled tank in 63 hours. If 8 inlet pipes and y outlet pipes are opened simultaneously, when the tank is empty, then the tank gets completely filled in 105 hours. Find the value of y.</p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong> i.e. <strong>3</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>An inlet pipe can fill an empty tank in 140 hours</p>\r\n\r\n<p>An outlet pipe drains a completely-filled tank in 63 hours</p>\r\n\r\n<p>The tank gets completely filled in 105 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of the tank be LCM (140, 63) = 1260 units</p>\r\n\r\n<p>The efficiency of the inlet pipe to fill the tank (1260/140) = 9</p>\r\n\r\n<p>The efficiency of the outlet pipe to empty the tank (1260/63) = 20</p>\r\n\r\n<p>The tank gets completely filled in 105 hours.</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>&rArr; 8&nbsp;&times; 9 - 20 y = 1260/105</p>\r\n\r\n<p>&rArr; 72&nbsp;- 20 y = 12</p>\r\n\r\n<p>&rArr; 20y = 72 - 12</p>\r\n\r\n<p>&rArr; 20 y = &nbsp;60</p>\r\n\r\n<p>&rArr; y = 60/20</p>\r\n\r\n<p>&rArr;&nbsp;y = 3</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक अन्तर्गम नल एक खाली टंकी&nbsp;को 140 घंटे में भर सकता है जबकि एक निकासी नल एक पूरी तरह से भरी हुई टंकी&nbsp;को 63 घंटे में खाली कर सकता है। यदि 8 अन्तर्गम नल और y निकासी नल एक साथ खोले जाते हैं, जब टंकी खाली होती है, तो टंकी 105 घंटे में पूरी भर जाती है। Y का मान ज्ञात कीजिए।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्<strong>&nbsp;3</strong>&nbsp;है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>एक अन्तर्गम नल एक खाली टंकी को 140 घंटे में भर सकता है</p>\r\n\r\n<p>एक निकासी नल पूरी तरह से भरे हुए टंकी&nbsp;को 63 घंटों में खाली कर देता है</p>\r\n\r\n<p>टंकी 105 घंटे में पूरी भर जाती है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता LCM (140, 63) = 1260 इकाई है</p>\r\n\r\n<p>टंकी को भरने के लिए अन्तर्गम नल की क्षमता (1260/140) = 9</p>\r\n\r\n<p>टंकी को खाली करने के लिए निकासी नल की क्षमता&nbsp; (1260/63) = 20</p>\r\n\r\n<p>टंकी 105 घंटे में पूरी भर जाती है।</p>\r\n\r\n<p>प्रश्नानुसार</p>\r\n\r\n<p>&rArr; 8&nbsp;&times; 9 - 20 y = 1260/105</p>\r\n\r\n<p>&rArr; 72&nbsp;- 20 y = 12</p>\r\n\r\n<p>&rArr; 20y = 72 - 12</p>\r\n\r\n<p>&rArr; 20 y = &nbsp;60</p>\r\n\r\n<p>&rArr; y = 60/20</p>\r\n\r\n<p>&rArr;&nbsp;y = 3</p>\r\n"
+  },
+  {
+    "question": "<p>An inlet pipe can fill an empty tank in 3.6 hours, while an outlet pipe can drain a completely-filled tank in 6.3 hours. If both the pipes are opened simultaneously when the tank is empty, in how many hours will the tank get completely filled?</p>\r\n",
+    "options": [
+      "<p>9.0</p>\r\n",
+      "<p>8.4</p>\r\n",
+      "<p>8.1</p>\r\n",
+      "<p>8.7</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>&nbsp;The correct answer is <strong>option 2</strong> i.e. <strong>8.4.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>An inlet pipe can fill an empty tank in 3.6 hours</p>\r\n\r\n<p>An outlet pipe can drain a completely-filled tank in 6.3 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of the tank be&nbsp;LCM (3.6, 6.3) = 25.2 units</p>\r\n\r\n<p>The efficiency of the inlet pipe = 25.2/3.6 = 7</p>\r\n\r\n<p>The efficiency of the outlet pipe = 25.2/6.3 = 4</p>\r\n\r\n<p>The combined efficiency of both pipes together = 7 - 4 = 3</p>\r\n\r\n<p>Hence,&nbsp;the tank will get completely filled with both pipes together = 25.2/3 = 8.4 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक इनलेट पाइप एक खाली टैंक को 3.6 घंटे में भर सकता है, जबकि एक आउटलेट पाइप एक पूरी तरह से भरे टैंक को 6.3 घंटे में खाली कर सकता है। यदि टैंक खाली होने पर दोनों पाइप एक साथ खोल दिए जाएं तो कितने घंटे में टैंक पूरा भर जाएगा?</p>\r\n",
+    "options_hi": [
+      "<p>9.0</p>\r\n",
+      "<p>8.4</p>\r\n",
+      "<p>8.1</p>\r\n",
+      "<p>8.7</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>8.4</strong> है।</p>\r\n\r\n<p><strong>दिया गया है :&nbsp;</strong></p>\r\n\r\n<p>एक इनलेट पाइप एक खाली टैंक को 3.6 घंटे में भर सकता है</p>\r\n\r\n<p>एक आउटलेट पाइप पूरी तरह से भरे हुए टैंक को 6.3 घंटे में खाली कर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता एलसीएम (3.6, 6.3) = 25.2 इकाई है</p>\r\n\r\n<p>इनलेट पाइप की दक्षता = 25.2/3.6 = 7</p>\r\n\r\n<p>आउटलेट पाइप की दक्षता = 25.2/6.3 = 4</p>\r\n\r\n<p>दोनों पाइपों की संयुक्त दक्षता = 7 - 4 = 3</p>\r\n\r\n<p>अतः, दोनों पाइपों को मिलाकर टैंक पूरी तरह भर जाएगा = 25.2/3 = 8.4 घंटे</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>The speed of a boat in standing water is 6 km/h and the speed of the stream is 2.5 km/h. A man rows to a place at a distance of 59.5 kilometres and comes back to the starting point. The total time taken by him is:</p>\r\n",
+    "options": [
+      "<p>16&nbsp;hours</p>\r\n",
+      "<p>24 hours</p>\r\n",
+      "<p>22&nbsp;hours</p>\r\n",
+      "<p>18&nbsp;hours</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.&nbsp;<strong>24 hours.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>The speed of a boat in standing water x =&nbsp;&nbsp;6 km/h</p>\r\n\r\n<p>The speed of the stream y =&nbsp;2.5 km/h</p>\r\n\r\n<p>A man rows to a place at a distance of 59.5 kilometres and comes back to the starting point</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>Downward speed of the boat = 6 + 2.5 = 8.5 km/h</p>\r\n\r\n<p>Upward speed of the boat = 6 - 2.5 = 3.5 km/h</p>\r\n\r\n<p>Hence,</p>\r\n\r\n<p>Total time taken by him = 59.5/8.5 + 59.5/3.5 = 7 + 17 = 24 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>स्थिर&nbsp;पानी में एक नाव की गति 6 किमी/घंटा है और प्रवाह&nbsp;की गति 2.5 किमी/घंटा है। एक आदमी 59.5 किलोमीटर की दूरी पर एक स्थान तक जाता है और प्रारंभिक बिंदु पर वापस आता है। उसके द्वारा लिया गया कुल समय है:</p>\r\n",
+    "options_hi": [
+      "<p>16 घंटे</p>\r\n",
+      "<p>24 घंटे</p>\r\n",
+      "<p>22 घंटे</p>\r\n",
+      "<p>18 घंटे</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात्<strong> 24 घंटे </strong>है।</p>\r\n\r\n<p><strong>दिया गया है:</strong></p>\r\n\r\n<p>स्थिर जल में नाव की गति x = 6 किमी/घंटा</p>\r\n\r\n<p>प्रवाह&nbsp;की गति y = 2.5 किमी/घंटा</p>\r\n\r\n<p>एक आदमी 59.5 किलोमीटर की दूरी पर एक स्थान तक जाता है और प्रारंभिक बिंदु पर वापस आता है</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>नाव की अधोमुखी गति = 6 + 2.5 = 8.5 किमी/घंटा</p>\r\n\r\n<p>नाव की उर्ध्व गति = 6 - 2.5 = 3.5 किमी/घंटा</p>\r\n\r\n<p>इस तरह,</p>\r\n\r\n<p>उसके द्वारा लिया गया कुल समय = 59.5/8.5 + 59.5/3.5 = 7 + 17 = 24 घंटे</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can fill an empty cistern in 6 hours and pipe B can fill the same empty cistern in 8 hours. Both the pipes are opened simultaneously but after two hours, pipe A is closed. How many hours will B take to fill the remaining part of the cistern?</p>\r\n",
+    "options": [
+      "<p>2</p>\r\n",
+      "<p><span class=\"math-tex\">\\(3{1 \\over 3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(3{2 \\over 3}\\)</span></p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option&nbsp;2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(3{1 \\over 3}\\)</span>.</p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill an empty cistern in 6 hours</p>\r\n\r\n<p>Pipe B can fill the same empty cistern in 8 hours.</p>\r\n\r\n<p>Both the pipes are opened simultaneously but after two hours, pipe A is closed</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Total capacity (LCM of 6 and 8) = 24 units</p>\r\n\r\n<p>Efficiency of A (24/6) = 4 units</p>\r\n\r\n<p>Efficiency of B (24/8) = 3 units</p>\r\n\r\n<p>Total efficiency of A and B = 7 units</p>\r\n\r\n<p>Pipe A and B are opened for 2 hours = 7&nbsp;&times; 2 = 14 units</p>\r\n\r\n<p>Remaining capacity = 24 - 14 = 10 units</p>\r\n\r\n<p>Time taken by B = 10/3 = <span class=\"math-tex\">\\(3{1 \\over 3}\\)</span> hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक खाली टंकी को 6 घंटे में भर सकता है और पाइप B उसी खाली टंकी को 8 घंटे में भर सकता है। दोनों पाइप एक साथ खोले जाते हैं लेकिन दो घंटे बाद पाइप A को बंद कर दिया जाता है। टंकी के शेष भाग को भरने में B को कितने घंटे लगेंगे?</p>\r\n",
+    "options_hi": [
+      "<p>2</p>\r\n",
+      "<p><span class=\"math-tex\">\\(3{1 \\over 3}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(3{2 \\over 3}\\)</span></p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात्&nbsp;&nbsp;<span class=\"math-tex\">\\(3{1 \\over 3}\\)</span>&nbsp;है।</p>\r\n\r\n<p>​<strong>दिया गया है:</strong></p>\r\n\r\n<p>पाइप A एक खाली टंकी को 6 घंटे में भर सकता है</p>\r\n\r\n<p>पाइप B उसी खाली टंकी को 8 घंटे में भर सकता है।</p>\r\n\r\n<p>दोनों पाइप एक साथ खोले जाते हैं लेकिन दो घंटे बाद पाइप A को बंद कर दिया जाता है</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>कुल दक्षता (6 और 8 का लघुत्तम समापवर्त्य) = 24 इकाई</p>\r\n\r\n<p>A की दक्षता = 24/6 = 4 इकाई</p>\r\n\r\n<p>B की दक्षता = 24/8 = 3 इकाई</p>\r\n\r\n<p>A और B की कुल दक्षता = 7 इकाई</p>\r\n\r\n<p>पाइप A और B को 2 घंटे&nbsp;के लिए खोला जाता है = 7 &times; 2 = 14 इकाई</p>\r\n\r\n<p>शेष दक्षता = 24 - 14 = 10 इकाई</p>\r\n\r\n<p>B द्वारा लिया गया समय = 10/3 = <span class=\"math-tex\">\\(3{1 \\over 3}\\)</span> घंटे</p>\r\n"
+  },
+  {
+    "question": "<p>A tap can fill a tank in 20 minutes. if leakage is capable of emptying the tank in 60 minutes, the tank will be filled in how much time?</p>\r\n",
+    "options": [
+      "<p>1 hour</p>\r\n",
+      "<p>45 minutes</p>\r\n",
+      "<p>30 minutes</p>\r\n",
+      "<p>50 minutes</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.<strong> 30 minutes.</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>A = 20 min</p>\r\n\r\n<p>B = 60 min (work as negative)</p>\r\n\r\n<p>Total capacity of tank = LCM of 20 and 60 = 60 liters</p>\r\n\r\n<p>Efficiency of A = 60/20 = 3</p>\r\n\r\n<p>Efficiency of B&nbsp;= 60/60 = 1 (work as negative)</p>\r\n\r\n<p>When work together net efficiency = 3 - 1 = 2</p>\r\n\r\n<p>Time required to fill the empty tank = Total capacity/Net efficiency = 60/2 = 30 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक नल 20 मिनट में एक टंकी को भर सकता है। यदि रिसाव 60 मिनट में टंकी को खाली करने में सक्षम है, तो टंकी&nbsp;कितने समय भर जाएगी?</p>\r\n",
+    "options_hi": [
+      "<p>1 घंटा&nbsp;</p>\r\n",
+      "<p>45 मिनट</p>\r\n",
+      "<p>30 मिनट</p>\r\n",
+      "<p>50 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्<strong> 30 मिनट&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p>A = 20 मिनट</p>\r\n\r\n<p>B = 60 मिनट (ऋणात्मक के रूप में कार्य)</p>\r\n\r\n<p>टंकी की कुल क्षमता = 20 और 60 ल.स. = 60 लीटर</p>\r\n\r\n<p>A की क्षमता = 60/20 = 3&nbsp;&nbsp;</p>\r\n\r\n<p>B की क्षमता&nbsp;= 60/60 = -1&nbsp;(ऋणात्मक के रूप में कार्य)</p>\r\n\r\n<p>जब एक साथ कार्य&nbsp;करते हैं तो शुद्ध क्षमता= 3 - 1 = 2</p>\r\n\r\n<p>खाली&nbsp;टंकी को भरने के लिए लगने वाले समय&nbsp;= कुल क्षमता/शुद्ध क्षमता= 60/2 = 30 मिनट</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can fill a tank in 110 hours, Pipe B can fill the same tank in 132 hours and Pipe C can fill the same tank in 165 hours. If all three pipes are open together for first 22 hours and then pipe B is closed,. In how many hours will the remaining part of the tank be filled by Pipe A and Pipe C?</p>\r\n",
+    "options": [
+      "<p>37</p>\r\n",
+      "<p>33</p>\r\n",
+      "<p>35</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong>&nbsp;option 2</strong>&nbsp;i.e. <strong>33</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill a tank in 110 hours</p>\r\n\r\n<p>Pipe B can fill the same tank in 132 hours</p>\r\n\r\n<p>Pipe C can fill the same tank in 165 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of the tank be&nbsp;LCM (110, 132, 165) = 660</p>\r\n\r\n<p>The efficiency of Pipe A = 660/110 = 6</p>\r\n\r\n<p>The efficiency of Pipe B&nbsp;= 660/132 = 5</p>\r\n\r\n<p>The efficiency of Pipe C&nbsp;= 660/165&nbsp;= 4</p>\r\n\r\n<p>If all three pipes are open together for first 22 hours</p>\r\n\r\n<p>The tank filled in 22 hours = (6 + 5 + 4)&nbsp;&times; 22 = 15&nbsp;&times; 22 = 330&nbsp;</p>\r\n\r\n<p>The remaining capacity of tank (660 - 330 = 330) is filled by Pipe A and Pipe C</p>\r\n\r\n<p>Hence, Time taken to fill the remaining tank by A and C = 330/(6 + 4) = 330/10 = 33 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टंकी को 110 घंटे में भर सकता है, पाइप B उसी टंकी को 132 घंटे में भर सकता है और पाइप C उसी टंकी को 165 घंटे में भर सकता है। यदि सभी तीन पाइप पहले 22 घंटों के लिए एक साथ खुले हैं और फिर पाइप B बंद कर दिया जाता है, तो&nbsp;पाइप A और पाइप C द्वारा टंकी का शेष भाग कितने घंटों में भर जाएगा?</p>\r\n",
+    "options_hi": [
+      "<p>37</p>\r\n",
+      "<p>33</p>\r\n",
+      "<p>35</p>\r\n",
+      "<p>31</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2 </strong>अर्थात्&nbsp;<strong>33 </strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A एक टंकी को 110 घंटे में भर सकता है</p>\r\n\r\n<p>पाइप B उसी टंकी को 132 घंटे में भर सकता है</p>\r\n\r\n<p>पाइप C उसी टंकी को 165 घंटे में भर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता एलसीएम (110, 132, 165) = 660 है</p>\r\n\r\n<p>पाइप A की दक्षता = 660/110 = 6</p>\r\n\r\n<p>पाइप B की दक्षता = 660/132 = 5</p>\r\n\r\n<p>पाइप C की दक्षता = 660/165 = 4</p>\r\n\r\n<p>यदि तीनों पाइप पहले 22 घंटों के लिए एक साथ खुले हैं</p>\r\n\r\n<p>22 घंटे में भारा हुआ&nbsp;टंकी का भाग&nbsp;= (6 + 5 + 4) &times; 22 = 15 &times; 22 = 330</p>\r\n\r\n<p>टंकी की शेष क्षमता (660 - 330 = 330) पाइप A और पाइप C द्वारा भरी जाती है</p>\r\n\r\n<p>अतः, A और C द्वारा शेष टंकी को भरने में लिया गया समय = 330/(6 + 4) = 330/10 = 33 घंटे</p>\r\n"
+  },
+  {
+    "question": "<p>Two pipes can fill a cistern separately in 36 minutes and 45 minutes, respectively. A waste pipe can drain off 40 litres per minute. If all the three pipes are opened, the cistern fills in one hour. The capacity (in litres of the cistern) is:</p>\r\n",
+    "options": [
+      "<p>600</p>\r\n",
+      "<p>1200</p>\r\n",
+      "<p>300</p>\r\n",
+      "<p>400</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e. <strong>1200.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Two pipes can fill a cistern separately in 36 minutes and 45 minutes, respectively</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the capacity be C units</p>\r\n\r\n<p>The rate of first pipe = C/36 units/minute</p>\r\n\r\n<p>The rate of second pipe = C/45 units/minute</p>\r\n\r\n<p>A waste pipe can drain off 40 litres per minute</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>&rArr; C/36 + C/45 - 40&nbsp;= C/60</p>\r\n\r\n<p>&rArr; (5C + 4C - 3C) = 180&nbsp;&times; 40&nbsp;</p>\r\n\r\n<p>&rArr; 6C = 180&nbsp;&times; 40&nbsp;</p>\r\n\r\n<p>&rArr; C = 1200</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पाइप एक टंकी को अलग-अलग क्रमशः 36 मिनट और 45 मिनट में भर सकते हैं। एक अपशिष्ट पाइप प्रति मिनट 40 लीटर निकल सकता है। यदि तीनों पाइप खोल दिए जाते हैं, तो टंकी एक घंटे में भर जाती है। टंकी की क्षमता (लीटर में) क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>600</p>\r\n",
+      "<p>1200</p>\r\n",
+      "<p>300</p>\r\n",
+      "<p>400</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 2 </strong>अर्थात् <strong>1200</strong> है।</p>\r\n\r\n<p><strong>दिया गया है:</strong></p>\r\n\r\n<p>दो पाइप एक टंकी को अलग-अलग क्रमशः 36 मिनट और 45 मिनट में भर सकते हैं</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना क्षमता C इकाई है</p>\r\n\r\n<p>पहले पाइप की दर = C/36 इकाई/मिनट</p>\r\n\r\n<p>दूसरे पाइप की दर = C/45 इकाई/मिनट</p>\r\n\r\n<p>एक अपशिष्ट पाइप प्रति मिनट 40 लीटर निकल सकता है</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>&rArr; C/36 + C/45 - 40&nbsp;= C/60</p>\r\n\r\n<p>&rArr; (5C + 4C - 3C) = 180&nbsp;&times; 40&nbsp;</p>\r\n\r\n<p>&rArr; 6C = 180&nbsp;&times; 40&nbsp;</p>\r\n\r\n<p>&rArr; C = 1200</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can empty a tank in 56 minutes, Pipe B can fill the same tank in 84 minutes and Pipe C can fill the same tank in 112 minutes. If all three pipes work together then how much minutes will it take to fill the empty tank?</p>\r\n",
+    "options": [
+      "<p>346</p>\r\n",
+      "<p>326</p>\r\n",
+      "<p>356</p>\r\n",
+      "<p>336</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is<strong> option 4&nbsp;</strong>i.e. <strong>336</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>A can empty a tank&nbsp;in 56 minutes</p>\r\n\r\n<p>B can fill&nbsp;the same tank&nbsp;in 84 minutes</p>\r\n\r\n<p>C&nbsp; can fill the same tank in&nbsp;112 minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total Work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total work be&nbsp;LCM (56, 84, 112) = 336 minutes</p>\r\n\r\n<p>The efficiency of A to empty the tank = 336/56&nbsp;= 6</p>\r\n\r\n<p>The efficiency of B to fill the tank = 336/84&nbsp;= 4</p>\r\n\r\n<p>The efficiency of C to fill the tank&nbsp;= 336/112 = 3</p>\r\n\r\n<p>Hence, they together fill the tank&nbsp;in = 336/(- 6 + 4 + 3) = 336/1 = 336</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टैंक को 56 मिनट में खाली कर सकता है, पाइप B उसी टैंक को 84 मिनट में भर सकता है और पाइप C उसी टैंक को 112 मिनट में भर सकता है। यदि तीनों पाइप एक साथ कार्य करें तो खाली टैंक को भरने में कितने मिनट लगेंगे?</p>\r\n",
+    "options_hi": [
+      "<p>346</p>\r\n",
+      "<p>326</p>\r\n",
+      "<p>356</p>\r\n",
+      "<p>336</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4 </strong>है अर्थात् <strong>336</strong></p>\r\n\r\n<p><strong>दिया गया:</strong>&nbsp;</p>\r\n\r\n<p>A एक टैंक को 56 मिनट में खाली कर सकता है</p>\r\n\r\n<p>B उसी टैंक को 84 मिनट में भर सकता है</p>\r\n\r\n<p>C उसी टंकी को 112 मिनट में भर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना कि कुल कार्य एलसीएम (56, 84, 112) = 336 मिनट है</p>\r\n\r\n<p>टैंक को खाली करने में A की दक्षता = 336/56 = 6</p>\r\n\r\n<p>टैंक को भरने में B की दक्षता = 336/84 = 4</p>\r\n\r\n<p>टैंक को भरने में C की दक्षता = 336/112 = 3</p>\r\n\r\n<p>इसलिए, वे मिलकर टंकी को भरते हैं = 336/(- 6 + 4 + 3) = 336/1 = 336</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can empty a tank in 54 minutes, Pipe B can fill the same tank in 81 minutes and Pipe C can fill the same tank in 108 minutes. If all three pipes are minutes will it take to fill the empty tank?</p>\r\n",
+    "options": [
+      "<p>344</p>\r\n",
+      "<p>314</p>\r\n",
+      "<p>324</p>\r\n",
+      "<p>334</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.&nbsp;<strong>324</strong></p>\r\n\r\n<p><strong>Given:</strong>&nbsp;</p>\r\n\r\n<p>Pipe A can empty a tank in 54 minutes</p>\r\n\r\n<p>Pipe B can fill the same tank in 81 minutes</p>\r\n\r\n<p>Pipe C can fill the same tank in 108 minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = efficiency&nbsp;&times; time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity be&nbsp;LCM (54, 81, 108) = 324</p>\r\n\r\n<p>The efficiency of pipe A to empty the tank = 324/54 = 6</p>\r\n\r\n<p>The efficiency of pipe B&nbsp;to fill the tank = 324/81&nbsp;= 4</p>\r\n\r\n<p>The efficiency of pipe C&nbsp;to fill the tank = 324/108&nbsp;= 3</p>\r\n\r\n<p>Hence, time taken by all three pipes to fill the tank = 324/(-6 + 4 + 3) = 324/1&nbsp;= 324 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टंकी&nbsp;को 54 मिनट में खाली कर सकता है, पाइप B उसी टंकी&nbsp;को 81 मिनट में भर सकता है और पाइप C उसी टंकी&nbsp; को 108 मिनट में भर सकता है।&nbsp;यदि तीनों पाइप मिनट में हों तो खाली टंकी को भरने में कितना&nbsp;समय लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>344</p>\r\n",
+      "<p>314</p>\r\n",
+      "<p>324</p>\r\n",
+      "<p>334</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>324 </strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong>&nbsp;</p>\r\n\r\n<p>पाइप A एक टंकी को 54 मिनट में खाली कर सकता है</p>\r\n\r\n<p>पाइप B उसी टंकी को 81 मिनट में भर सकता है</p>\r\n\r\n<p>पाइप C उसी टंकी को 108 मिनट में भर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना कुल क्षमता एलसीएम (54, 81, 108) = 324 है</p>\r\n\r\n<p>टैंक को खाली करने के लिए पाइप A की क्षमता = 324/54 = 6</p>\r\n\r\n<p>टैंक को भरने के लिए पाइप B की क्षमता = 324/81 = 4</p>\r\n\r\n<p>टैंक को भरने के लिए पाइप C की क्षमता = 324/108 = 3</p>\r\n\r\n<p>अतः, तीनों पाइपों द्वारा टंकी को भरने में लिया गया समय = 324/(-6 + 4 + 3) = 324/1 = 324 मिनट</p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can empty a tank in 64 minutes, Pipe B can fill the same tank in 96 minutes, and Pipe C can fill the same tank in 128 minutes. If all three pipes are full, how many minutes will it take to fill the empty tank?</p>\r\n",
+    "options": [
+      "<p>364</p>\r\n",
+      "<p>384</p>\r\n",
+      "<p>394</p>\r\n",
+      "<p>374</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> option 2</strong> i.e. <strong>384</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can empty a tank in 64 minutes</p>\r\n\r\n<p>Pipe B can fill the same tank in 96 minutes</p>\r\n\r\n<p>Pipe C can fill the same tank in 128 minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of the tank be&nbsp;LCM (64, 96, 128) = 384</p>\r\n\r\n<p>The efficiency of A to empty the tank (384/64) = 6</p>\r\n\r\n<p>The efficiency of B to fill the tank (384/96) = 4</p>\r\n\r\n<p>The efficiency of C to fill the tank (384/128) = 3</p>\r\n\r\n<p>Hence, Time taken to fill the tank with all the&nbsp;pipes together = 384/(- 6 +4 + 3)</p>\r\n\r\n<p>&rArr;384/ 1 =&nbsp;384 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टंकी को 64 मिनट में खाली कर सकता है, पाइप B उसी टंकी को 96 मिनट में भर सकता है, और पाइप C उसी टंकी को 128 मिनट में भर सकता है। यदि तीनों टंकी भरे हुए हैं, तो खाली टंकी को भरने में कितने मिनट लगेंगे?</p>\r\n",
+    "options_hi": [
+      "<p>364</p>\r\n",
+      "<p>384</p>\r\n",
+      "<p>394</p>\r\n",
+      "<p>374</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात् <strong>384 </strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong>&nbsp;</p>\r\n\r\n<p>पाइप A एक टंकी को 64 मिनट में खाली कर सकता है</p>\r\n\r\n<p>पाइप B उसी टंकी को 96 मिनट में भर सकता है</p>\r\n\r\n<p>पाइप C उसी टंकी को 128 मिनट में भर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता एलसीएम (64, 96, 128) = 384 है</p>\r\n\r\n<p>टंकी खाली करने A की क्षमता&nbsp;(384/64) = 6</p>\r\n\r\n<p>टंकी को भरने में B की क्षमता (384/96) = 4</p>\r\n\r\n<p>टंकी को भरने में C की क्षमता&nbsp; (384/128) = 3</p>\r\n\r\n<p>इसलिए, सभी पाइपों को मिलाकर टंकी को भरने में लगा समय = 384/(- 6 +4 + 3)</p>\r\n\r\n<p>&rArr; 384/1 =&nbsp;384 मिनट</p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can fill a tank in 120 hours, Pipe B can fill the same tank in 144 hours, and Pipe C can fill the same tank in 180 hours. If all three pipes are open together for the first 24 hours, then pipe B is closed. In how many hours will the remaining part of the tank be filled by Pipe A and Pipe C?</p>\r\n",
+    "options": [
+      "<p>40</p>\r\n",
+      "<p>34</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>38</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.&nbsp;<strong>36</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill a tank in 120 hours</p>\r\n\r\n<p>Pipe B can fill the same tank in 144 hours</p>\r\n\r\n<p>Pipe C can fill the same tank in 180 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total work be&nbsp;LCM (120, 144, 180) = 720</p>\r\n\r\n<p>The efficiency of Pipe A (720/120) = 6</p>\r\n\r\n<p>The efficiency of Pipe B (720/144) = 5</p>\r\n\r\n<p>The efficiency of Pipe C (720/180) = 4</p>\r\n\r\n<p>If all three pipes are open together for the first 24 hours, then pipe B is closed.</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>&rArr; The tank filled by all three pipes together = (6 + 5 + 4)&nbsp;&times; 24 = 15&nbsp;&times; 24 = 360</p>\r\n\r\n<p>The remaining capacity of the tank = 720 - 360 = 360</p>\r\n\r\n<p>Hence, This remaining&nbsp;work will be filled by pipe A and C in = 360/(6 + 4)</p>\r\n\r\n<p>&rArr; 360/10 = 36 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टैंक को 120 घंटे में भर सकता है, पाइप B उसी टैंक को 144 घंटे में भर सकता है, और पाइप C उसी टैंक को 180 घंटे में भर सकता है। यदि तीनों पाइप पहले 24 घंटों के लिए एक साथ खुले हैं, तो पाइप B बंद है। पाइप A और पाइप C द्वारा टैंक का शेष भाग कितने घंटों में भर जाएगा?</p>\r\n",
+    "options_hi": [
+      "<p>40</p>\r\n",
+      "<p>34</p>\r\n",
+      "<p>36</p>\r\n",
+      "<p>38</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात् <strong>36</strong> है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A एक टंकी को 120 घंटे में भर सकता है</p>\r\n\r\n<p>पाइप B उसी टंकी को 144 घंटे में भर सकता है</p>\r\n\r\n<p>पाइप C उसी टंकी को 180 घंटे में भर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना कि कुल कार्य एलसीएम (120, 144, 180) = 720 है</p>\r\n\r\n<p>पाइप A की दक्षता (720/120) = 6</p>\r\n\r\n<p>पाइप B की दक्षता (720/144) = 5</p>\r\n\r\n<p>पाइप C की दक्षता (720/180) = 4</p>\r\n\r\n<p>यदि पहले 24 घंटों के लिए सभी तीन पाइप एक साथ खुले हैं, तो पाइप B बंद है।</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>&rArr; टैंक तीनों पाइपों द्वारा एक साथ भरा गया = (6 + 5 + 4)&nbsp;&times; 24 = 15&nbsp;&times; 24 = 360</p>\r\n\r\n<p>टैंक की शेष क्षमता = 720 - 360 = 360</p>\r\n\r\n<p>अत:, यह शेष कार्य पाइप A और C द्वारा भरा जाएगा = 360/(6 + 4)</p>\r\n\r\n<p>&rArr;&nbsp;360/10 = 36 घंटे&nbsp;</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Pipe A can fill a tank in 840 minutes, and Pipe B can empty the same tank in 1050 minutes. If both pipes are opened together, how many hours will it take to fill the empty tank?</p>\r\n",
+    "options": [
+      "<p>70</p>\r\n",
+      "<p>72</p>\r\n",
+      "<p>68</p>\r\n",
+      "<p>74</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1</strong>&nbsp;i.e. <strong>70.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill a tank in 840 minutes</p>\r\n\r\n<p>Pipe B can empty the same tank in 1050 minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total capacity of tank be LCM (840, 1050) = 4200</p>\r\n\r\n<p>The efficiency of pipe A to fill the tank (4200/840) = 5</p>\r\n\r\n<p>The efficiency of pipe B to empty the tank (4200/1050) = 4</p>\r\n\r\n<p>According to the question</p>\r\n\r\n<p>If both pipes are opened together,</p>\r\n\r\n<p>The tank filled in = 4200/(5 - 4)</p>\r\n\r\n<p>&rArr;&nbsp;4200/1 = 4200 minutes</p>\r\n\r\n<p>&rArr;&nbsp;4200/60 = 70 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टैंक को 840 मिनट में भर सकता है, और पाइप B उसी टैंक को 1050 मिनट में खाली कर सकता है। यदि दोनों पाइपों को एक साथ खोल दिया जाए तो खाली टंकी को भरने में कितने घंटे लगेंगे?</p>\r\n",
+    "options_hi": [
+      "<p>70</p>\r\n",
+      "<p>72</p>\r\n",
+      "<p>68</p>\r\n",
+      "<p>74</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> यानी <strong>70</strong> है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A एक टंकी को 840 मिनट में भर सकता है</p>\r\n\r\n<p>पाइप B उसी टैंक को 1050 मिनट में खाली कर सकता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना टैंक की कुल क्षमता LCM (840, 1050) = 4200 है</p>\r\n\r\n<p>टैंक को भरने के लिए पाइप A की दक्षता (4200/840) = 5</p>\r\n\r\n<p>टैंक को खाली करने के लिए पाइप B की दक्षता (4200/1050) = 4</p>\r\n\r\n<p>प्रश्न के अनुसार</p>\r\n\r\n<p>यदि दोनों पाइप एक साथ खोले जाएं,</p>\r\n\r\n<p>टंकी भरी = 4200/(5 - 4)</p>\r\n\r\n<p>&rArr;&nbsp;4200/1 = 4200 मिनट</p>\r\n\r\n<p>&rArr;&nbsp;4200/60 = 70&nbsp;घंटे</p>\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p style=\"text-align:justify\">Pipe A can fill a tank in 155 minutes, Pipe B can fill the same tank in 93 minutes and Pipe C can empty the same tank in 62 minutes. If all three pipes are together, how many minutes will it take to fill the empty tank?</p>\r\n",
+    "options": [
+      "<p>950</p>\r\n",
+      "<p>920</p>\r\n",
+      "<p>930</p>\r\n",
+      "<p>940</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>930.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Time taken by pipe A to fill the tank = 155 minutes</p>\r\n\r\n<p>Time taken by pipe B&nbsp;to fill the tank = 93 minutes</p>\r\n\r\n<p>Time taken by pipe C to fill the tank = 62&nbsp;minutes</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p>Let the tank&#39;s total capacity be L.C.M(155, 93, and 62) = 930.</p>\r\n\r\n<p>The efficiency of Pipe A (930/155) = 6</p>\r\n\r\n<p>The efficiency of Pipe B (930/93) = 10</p>\r\n\r\n<p>The efficiency of Pipe C (930/62) = -15 [empty the tank]</p>\r\n\r\n<p>Time taken by all three = 930/(6 + 10 - 15)</p>\r\n\r\n<p>&rArr;&nbsp;930/1 = 930 minutes</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A एक टैंक को 155 मिनट में भर सकता है, पाइप B उसी टैंक को 93 मिनट में भर सकता है और पाइप C उसी टैंक को 62 मिनट में खाली कर सकता है। यदि तीनों पाइप एक साथ हों तो खाली टंकी को भरने में कितने मिनट लगेंगे?</p>\r\n",
+    "options_hi": [
+      "<p>950</p>\r\n",
+      "<p>920</p>\r\n",
+      "<p>930</p>\r\n",
+      "<p>940</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3 </strong>अर्थात <strong>930</strong> है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A द्वारा टंकी को भरने में लगा समय = 155 मिनट</p>\r\n\r\n<p>पाइप B द्वारा टंकी को भरने में लगा समय = 93 मिनट</p>\r\n\r\n<p>पाइप C द्वारा टंकी को भरने में लगा समय = 62 मिनट</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p>माना कि टैंक की कुल क्षमता लघुत्तम समापवर्त्य(155, 93, और 62) = 930 है।</p>\r\n\r\n<p>पाइप A की दक्षता (930/155) = 6</p>\r\n\r\n<p>पाइप B&nbsp;की दक्षता (930/93) = 10</p>\r\n\r\n<p>पाइप C की दक्षता = 930/62 = -15 [टैंक खाली करने पर ]</p>\r\n\r\n<p>तीनों द्वारा लिया गया समय = 930/(6 + 10 - 15)</p>\r\n\r\n<p>&rArr;&nbsp;930/1 = 930 मिनट</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Three pipes A, B, and C can fill a cistern in 270 hours. After working together for 90 hours, C is closed, and then A and B fill the remaining part in 270 hours number of hours taken by C required to fill the cistern.</p>\r\n",
+    "options": [
+      "<p>800</p>\r\n",
+      "<p>810</p>\r\n",
+      "<p>820</p>\r\n",
+      "<p>790</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.&nbsp;<strong>810.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Time<strong>&nbsp;</strong>taken by pipes A, B and C to fill the cistern = 270 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>A, B, and C can fill the cistern in 270 hrs</p>\r\n\r\n<p>A, B, and C can fill in one hour =&nbsp; 1/270 of the cistern</p>\r\n\r\n<p>According to the question,</p>\r\n\r\n<p>A, B, and C can fill in 90 hours (&nbsp;90/270) = 1/3 of the cistern</p>\r\n\r\n<p>Remaining part = 1 - 1/3 = 2/3</p>\r\n\r\n<p>2/3 of cistern A + B can fill the cistern in (270 &times; 3)/2 = 405 hours</p>\r\n\r\n<p>A + B can fill the cistern in 1 hour = 1/405 hours</p>\r\n\r\n<p>C can fill in 1 hours = (A + B + C) - (A + B)</p>\r\n\r\n<p>&rArr;&nbsp;1/270 - 1/405&nbsp;= 1/810 hours</p>\r\n\r\n<p>C fill the cistern in = 810 hours</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>तीन पाइप A, B और C एक टंकी को 270 घंटे में भर सकते हैं। 90 घंटों तक एक साथ काम करने के बाद, C को बंद कर दिया जाता है और फिर A और B शेष भाग को 270 घंटों में भर देते हैं, C को टंकी भरने में जितने घंटे लगते हैं।</p>\r\n",
+    "options_hi": [
+      "<p>800</p>\r\n",
+      "<p>810</p>\r\n",
+      "<p>820</p>\r\n",
+      "<p>790</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात <strong>810</strong> है।<br />\r\n<strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A, B और C द्वारा टंकी भरने में लिया गया समय = 270 घंटे</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>A, B और C टंकी को 270 घंटे में भर सकते हैं</p>\r\n\r\n<p>A, B, और C टंकी का एक घंटा = 1/270 भाग भर सकते हैं</p>\r\n\r\n<p>प्रश्न के अनुसार,</p>\r\n\r\n<p>A, B, और C टंकी का 90 घंटे (90/270) = 1/3 भाग भर सकते हैं</p>\r\n\r\n<p>शेष भाग = 1 - 1/3 = 2/3</p>\r\n\r\n<p>टंकी A + B का 2/3 भाग टंकी को (270 &times; 3)/2 = 405 घंटे में भर सकता है</p>\r\n\r\n<p>A + B टंकी को 1 घंटे = 1/405 घंटे में भर सकता है</p>\r\n\r\n<p>C 1 घंटे भर सकता है = (A + B + C) - (A + B)</p>\r\n\r\n<p>&rArr;&nbsp;1/270 - 1/405 = 1/810 घंटे</p>\r\n\r\n<p>C टंकी को भरने में = 810 घंटे लगेंगे</p>\r\n<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n\r\n<p><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--></p>\r\n"
+  },
+  {
+    "question": "<p>Two pipes can fill a cistern in 12 hours and 16 hours, respectively. The pipes are opened simultaneously and it is found that due to leakage at the bottom, it takes 90 minutes more to fill the cistern. How much time will the leakage take to empty the completely filled tank?</p>\r\n",
+    "options": [
+      "<p>36<span class=\"math-tex\">\\(\\frac{29}{49}\\)</span>h</p>\r\n",
+      "<p>38<span class=\"math-tex\">\\(\\frac{10}{49}\\)</span>h</p>\r\n",
+      "<p>39<span class=\"math-tex\">\\(\\frac{13}{49}\\)</span>h</p>\r\n",
+      "<p>37<span class=\"math-tex\">\\(\\frac{15}{49}\\)</span>h</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e <strong><span class=\"math-tex\">\\(38\\frac{10}{49}\\)</span>h</strong>.</p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Time taken by first pipe = 12 hours</p>\r\n\r\n<p>Time taken by second pipe = 16 hours</p>\r\n\r\n<p><strong>Concept used:</strong></p>\r\n\r\n<p>Work done = efficiency&nbsp;&times; time</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Total work done (LCM of 12 and 16) = 48 units</p>\r\n\r\n<p>Efficiency of first pipe =&nbsp;<span class=\"math-tex\">\\(48\\over 12\\)</span> = 4</p>\r\n\r\n<p>Efficiency of second pipe =&nbsp;<span class=\"math-tex\">\\(48 \\over 16\\)</span> = 3</p>\r\n\r\n<p>Total efficiency = 7</p>\r\n\r\n<p>Time taken by 1st and 2nd pipe together = <span class=\"math-tex\">\\(48 \\over 7\\)</span> hours</p>\r\n\r\n<p>Time taken due to leakage by both pipes = <span class=\"math-tex\">\\(48 \\over 7\\)</span> +&nbsp;<span class=\"math-tex\">\\(3 \\over 2\\)</span> =&nbsp;<span class=\"math-tex\">\\(117 \\over 14\\)</span> hours</p>\r\n\r\n<p>Required time taken = [<span class=\"math-tex\">\\({48 \\times 14} \\over 117\\)</span>] - 7 =&nbsp;<span class=\"math-tex\">\\(1872 \\over 49\\)</span></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(38\\frac{10}{49}\\)</span> h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दो पाइप एक टंकी को क्रमशः 12 घंटे और 16 घंटे में भर सकते हैं। पाइपों को एक साथ खोला जाता है और पाया जाता है कि तल&nbsp;में रिसाव के कारण टंकी को भरने में 90 मिनट अधिक लगते हैं। रिसाव के कारण पूरी तरह भरे हुए टंकी को खाली होने में कितना समय लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>36<span class=\"math-tex\">\\(\\frac{29}{49}\\)</span> घंटे&nbsp;</p>\r\n",
+      "<p>38<span class=\"math-tex\">\\(\\frac{10}{49}\\)</span>घंटे&nbsp;</p>\r\n",
+      "<p>39<span class=\"math-tex\">\\(\\frac{13}{49}\\)</span>घंटे&nbsp;</p>\r\n",
+      "<p>37<span class=\"math-tex\">\\(\\frac{15}{49}\\)</span>घंटे&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात् <strong><span class=\"math-tex\">\\(38\\frac{10}{49}\\)</span></strong><strong> घंटे </strong>है।&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पहले पाइप द्वारा लिया गया समय = 12 घंटे</p>\r\n\r\n<p>दूसरे पाइप द्वारा लिया गया समय = 16 घंटे</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>किया गया कार्य = क्षमता &times; समय</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>किया गया कुल कार्य (12 और 16 का &lrm;लघुत्तम समापवर्त्य) = 48 इकाई&nbsp;</p>\r\n\r\n<p>पहले पाइप की क्षमता = <span class=\"math-tex\">\\(48\\over 12\\)</span> = 4</p>\r\n\r\n<p>दूसरे पाइप की क्षमता = <span class=\"math-tex\">\\(48 \\over 16\\)</span> = 3</p>\r\n\r\n<p>कुल क्षमता = 7</p>\r\n\r\n<p>पहले और दूसरे पाइप द्वारा लिया गया समय = <span class=\"math-tex\">\\(48 \\over 7\\)</span> घंटे</p>\r\n\r\n<p>दोनों पाइपों द्वारा रिसाव के कारण लगा समय =&nbsp;<span class=\"math-tex\">\\(48 \\over 7\\)</span> +&nbsp;<span class=\"math-tex\">\\(3 \\over 2\\)</span> =&nbsp;<span class=\"math-tex\">\\(117 \\over 14\\)</span> घंटे</p>\r\n\r\n<p>अभीष्ट&nbsp;लिया गया&nbsp;समय =&nbsp;[<span class=\"math-tex\">\\({48 \\times 14} \\over 117\\)</span>] - 7 =&nbsp;<span class=\"math-tex\">\\(1872 \\over 49\\)</span></p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(38\\frac{10}{49}\\)</span> घंटे&nbsp;</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A pipe can fill a tank in 15 hours. Due to leakage in the bottom it is filled in 20 hours. If the tank is full, and the pipe is closed, how much time will the leak take to empty the entire tank?</p>\r\n",
+    "options": [
+      "<p>60 hrs</p>\r\n",
+      "<p>50 hrs</p>\r\n",
+      "<p>40 hrs</p>\r\n",
+      "<p>30 hrs</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e <strong>60 hrs</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can fill the tank in 15 hours</p>\r\n\r\n<p>Due to a leak, it is filled in 20 hours.</p>\r\n\r\n<p><strong>Formula Used:</strong></p>\r\n\r\n<p>Total Work = Efficiency&nbsp;&times; total time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total work be done by pipe A and a leak be LCM (15, 20) = 60 units</p>\r\n\r\n<p>Now, efficiency of pipe A to fill the tank (<span class=\"math-tex\">\\(60 \\over 15\\)</span>) = 4 units/hour</p>\r\n\r\n<p>Efficiency of pipe A and the leak in bottom together (<span class=\"math-tex\">\\(60 \\over 20\\)</span>) = 3 units/hour</p>\r\n\r\n<p>So the efficincy of the leak in the bottom to empty the tank (4 - 3) = 1 unit/hour</p>\r\n\r\n<p>So, the time taken by the leak to empty the tank alone (<span class=\"math-tex\">\\(60 \\over 1\\)</span>) = 60 hours</p>\r\n\r\n<p>Hence the required answer is <strong>60 hours.</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक पाइप एक टंकी को 15 घंटे में भर सकता है। तली में रिसाव के कारण यह 20 घंटे में भर जाता है। यदि टैंक भरा हुआ है, और पाइप बंद है, तो रिसाव को पूरे टैंक को खाली करने में कितना समय लगेगा?</p>\r\n",
+    "options_hi": [
+      "<p>60&nbsp;घंटे</p>\r\n",
+      "<p>50&nbsp;घंटे</p>\r\n",
+      "<p>40&nbsp;घंटे</p>\r\n",
+      "<p>30&nbsp;घंटे</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>अर्थात <strong>60 घंटे </strong>है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A टंकी को 15 घंटे में भर सकता है</p>\r\n\r\n<p>एक रिसाव के कारण यह 20 घंटे में भर जाता है</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; कुल समय</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>माना कि पाइप A द्वारा किया गया कुल कार्य और रिसाव का&nbsp;लघुत्तम समापवर्त्य(15, 20) है = 60 इकाई</p>\r\n\r\n<p>अब, टैंक को भरने के लिए पाइप A की दक्षता (<span class=\"math-tex\">\\(60 \\over 15\\)</span>) = 4 इकाई/घंटा</p>\r\n\r\n<p>पाइप A और तली में रिसाव को मिलाकर दक्षता (<span class=\"math-tex\">\\(60 \\over 20\\)</span>) = 3 इकाई/घंटा</p>\r\n\r\n<p>तो टैंक को खाली करने के लिए तली में रिसाव की क्षमता (4 - 3) = 1 इकाई/घंटा</p>\r\n\r\n<p>तो, रिसाव द्वारा अकेले टैंक को खाली करने में लगा समय (<span class=\"math-tex\">\\(60 \\over 1\\)</span>)= 60 घंटे</p>\r\n\r\n<p>अतः अपेक्षित उत्तर <strong>60 घंटे</strong> है।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Manoj and his wife Swathi fill a tank with water fetched from a well. Manoj fetches 5 litres of water in 4 minutes whereas Swathi fetches 4 litres of water in 5 minutes. Find the time taken by them together to fetch 205 litres of water.</p>\r\n",
+    "options": [
+      "<p>2 hours</p>\r\n",
+      "<p>80 minutes</p>\r\n",
+      "<p>100 minutes</p>\r\n",
+      "<p>1 hour 30 minutes</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is<strong> option 3</strong>&nbsp;i.e.&nbsp;<strong>100 minutes.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Manoj fetches 5 litres of water in 4 minutes whereas Swathi fetches 4 litres of water in 5 minutes.</p>\r\n\r\n<p><strong>Formula Used:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(Efficiency\\ = {work \\over time}\\)</span></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>According to the given question,</p>\r\n\r\n<p>Efficiency of Manoj =&nbsp;<span class=\"math-tex\">\\(5 \\over 4\\)</span>&nbsp;litres/minute</p>\r\n\r\n<p>Efficiency of Manoj&#39;s wife =&nbsp;<span class=\"math-tex\">\\(4 \\over 5\\)</span>&nbsp;litre/minute</p>\r\n\r\n<p>Time taken by Manoj and his wife to complete 205 units of work =&nbsp;<span class=\"math-tex\">\\({205 \\over ({5\\over4} + {4\\over 5})}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({205 \\times 20} \\over 41\\)</span>&nbsp;= 100</p>\r\n\r\n<p>Hence the required answer is <strong>100 minutes</strong>.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>मनोज और उसकी पत्नी स्वाति एक कुएं से लाए गए पानी से एक टैंक भरते हैं। मनोज 4 मिनट में 5 लीटर पानी लाता है जबकि स्वाति 5 मिनट में 4 लीटर पानी लाती है। उनके द्वारा 205 लीटर पानी लाने में लिया गया समय ज्ञात कीजिये।</p>\r\n",
+    "options_hi": [
+      "<p>2 घंटे&nbsp;</p>\r\n",
+      "<p>80 मिनट</p>\r\n",
+      "<p>100 मिनट</p>\r\n",
+      "<p>1 घंटा 30 मिनट</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> यानी <strong>100 मिनट</strong> है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>मनोज 4 मिनट में 5 लीटर पानी लाता है जबकि स्वाति 5 मिनट में 4 लीटर पानी लाती है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>क्षमता&nbsp;=&nbsp;कार्य /&nbsp;समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p>मनोज की दक्षता =&nbsp;<span class=\"math-tex\">\\(5 \\over 4\\)</span>&nbsp;लीटर/मिनट</p>\r\n\r\n<p>मनोज की पत्नी की दक्षता =&nbsp;<span class=\"math-tex\">\\(4 \\over 5\\)</span>&nbsp;लीटर/मिनट</p>\r\n\r\n<p>मनोज और उनकी पत्नी द्वारा 205 इकाई कार्य पूरा करने में लिया गया समय&nbsp;=&nbsp;<span class=\"math-tex\">\\({205 \\over ({5\\over4} + {4\\over 5})}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({205 \\times 20} \\over 41\\)</span>&nbsp;= 100</p>\r\n\r\n<p>अतः अपेक्षित उत्तर <strong>100 मिनट</strong> है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>A container is normally filled in 5 hours. However, it takes 6 hours when there is a leak at the bottom. If the container is full, in what time would the leak empty it, if no water is allowed into the container during that period?</p>\r\n",
+    "options": [
+      "<p>5 h</p>\r\n",
+      "<p>6 h</p>\r\n",
+      "<p>15 h</p>\r\n",
+      "<p>30 h</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4&nbsp;</strong>i.e.<strong>&nbsp;30 h.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Container is normally filled in 5 hours</p>\r\n\r\n<p>When there is a leak, it is filled in 6 hours</p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>Total work = Efficiency&nbsp;&times; Time</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Total work (LCM of 5 and 6) = 30 units</p>\r\n\r\n<p>Efficiency without leak, A (30/5) = 6 units</p>\r\n\r\n<p>Efficiency with leak, A - B (30/6) =&nbsp;5 units</p>\r\n\r\n<p>Hence, the efficiency of leak (6 - 5) = 1 unit</p>\r\n\r\n<p>Total time required by the leak to empty the container = 30/1 = 30 h</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>एक कंटेनर आमतौर पर 5 घंटे में भर जाता है। हालांकि, कंटेनर की तली में रिसाव होने पर इसे भरने में 6 घंटे का समय लगता है। यदि कंटेनर भरा हुआ है और उसमें पानी नहीं भरा जा रहा है, तो रिसाव कितने समय में कंटेनर को खाली कर देगा?&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>5 घंटे&nbsp;</p>\r\n",
+      "<p>6 घंटे&nbsp;</p>\r\n",
+      "<p>15 घंटे&nbsp;</p>\r\n",
+      "<p>30 घंटे&nbsp;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4&nbsp;</strong>यानी <strong>30 घंटे&nbsp;</strong>है।</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>कंटेनर सामान्यतः 5 घंटे में भर जाता है</p>\r\n\r\n<p>रिसाव होने पर 6 घंटे में भर जाता है</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = दक्षता &times; समय</p>\r\n\r\n<p><strong>गणना करने पर:&nbsp;:</strong></p>\r\n\r\n<p>कुल कार्य (5 और&nbsp;6 का लघूत्तम समापवर्त्य ) = 30 इकाई</p>\r\n\r\n<p>रिसाव के बिना कार्यक्षमता &nbsp;A (30/5) = 6 इकाई&nbsp;</p>\r\n\r\n<p>रिसाव के साथ कार्यक्षमता, A - B&nbsp; (30/6) =&nbsp;5 इकाई&nbsp;</p>\r\n\r\n<p>अतः, रिसाव की कार्यक्षमता (6 - 5) = 1 इकाई&nbsp;</p>\r\n\r\n<p>इसलिए, रिसाव को कंटेनर खाली करने में लगा अभीष्ट समय = 30/1 = 30 घंटे&nbsp;</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Pipes A and B can empty a full tank in 36 and 45 minutes, respectively, whereas pipe C alone can fill the tank in 15 minutes. B and C are opened together for 15 minutes, and then both are turned off and A is opened. Pipe A will empty the tank in (in minutes):</p>\r\n",
+    "options": [
+      "<p>30</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4</strong>&nbsp;i.e. <strong>24.</strong></p>\r\n\r\n<p><strong>Given:</strong></p>\r\n\r\n<p>Pipe A can empty the tank in 36 minutes</p>\r\n\r\n<p>Pipe B can empty the tank in 45 minutes</p>\r\n\r\n<p>Pipe C can fill the tank in 15 minutes</p>\r\n\r\n<p><strong>Concept USed:</strong></p>\r\n\r\n<p>Total Work = Efficiency&nbsp;&times; total time</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Let the total work done by A, B and C be LCM(15, 36, 45) = 180 units</p>\r\n\r\n<p>According to the given question,</p>\r\n\r\n<p>Efficiency of pipe A =&nbsp;<span class=\"math-tex\">\\(-{180 \\over 36}\\)</span>&nbsp;= - 5 units/min&nbsp; &nbsp; (negative sign implies that pipe is emptying the tank)</p>\r\n\r\n<p>Efficiency of B =&nbsp;<span class=\"math-tex\">\\(-{180 \\over 45}\\)</span>&nbsp;= -4 units/min</p>\r\n\r\n<p>And, Efficiency of C =&nbsp;<span class=\"math-tex\">\\({180 \\over 15}\\)</span>&nbsp;= 12 units/min</p>\r\n\r\n<p>Since,&nbsp;B and C are opened together for 15 minutes, work done by B and C in 15 minutes = (-4 + 12)&nbsp;&times; 15 &rArr; 8 &times; 15 = 120 units</p>\r\n\r\n<p>Now A can empty the tank in&nbsp;<span class=\"math-tex\">\\({120 \\over 5}\\)</span>&nbsp;= 24 minutes.</p>\r\n\r\n<p>Hence the required answer is <strong>24 minutes</strong>.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>पाइप A और B एक भरे हुए टंकी को क्रमशः 36 और 45 मिनट में खाली कर सकते हैं, जबकि पाइप C अकेले टंकी को 15 मिनट में भर सकता है।&nbsp;B और C को 15 मिनट के लिए एक साथ खोला जाता है, और फिर दोनों को बंद कर दिया जाता है और A को खोल दिया जाता है।&nbsp;पाइप A टंकी को कितने&nbsp;(मिनटों में) खाली कर देगा?</p>\r\n",
+    "options_hi": [
+      "<p>30</p>\r\n",
+      "<p>18</p>\r\n",
+      "<p>20</p>\r\n",
+      "<p>24</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4&nbsp;</strong>है अर्थात्&nbsp;<strong>24।</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>दिया गया:</strong></p>\r\n\r\n<p>पाइप A टंकी को 36 मिनट में खाली कर सकता है</p>\r\n\r\n<p>पाइप B टैंक को 45 मिनट में खाली कर सकता है</p>\r\n\r\n<p>पाइप C टंकी को 15 मिनट में भर सकता है<strong>​</strong></p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>कुल कार्य = क्षमता &times; कुल समय</p>\r\n\r\n<p><strong>स्पष्टीकरण:</strong></p>\r\n\r\n<p>माना A, B और C द्वारा किया गया कुल कार्य (15, 36, 45) का&nbsp;&lrm;लघुत्तम समापवर्त्य&nbsp;= 180 इकाई&nbsp;&nbsp;</p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p>पाइप A की क्षमता &nbsp;=&nbsp;<span class=\"math-tex\">\\(-{180 \\over 36}\\)</span>&nbsp;= - 5इकाई/मिनट (ऋणात्मक&nbsp;संकेत का अर्थ है कि पाइप टंकी को खाली कर रहा है)</p>\r\n\r\n<p>B की क्षमता &nbsp;=&nbsp;<span class=\"math-tex\">\\(-{180 \\over 45}\\)</span>&nbsp;= -4 इकाई/मिनट</p>\r\n\r\n<p>और, C की क्षमता &nbsp;=&nbsp;<span class=\"math-tex\">\\({180 \\over 15}\\)</span>&nbsp;= 12 इकाई/मिनट</p>\r\n\r\n<p>चूँकि, B और C को 15 मिनट के लिए एक साथ खोला जाता है, B और C द्वारा 15 मिनट में किया गया कार्य = (-4 + 12)&nbsp;&times; 15</p>\r\n\r\n<p>&rArr; 8 &times; 15 = 120 इकाई&nbsp;</p>\r\n\r\n<p>अब A टंकी को <span class=\"math-tex\">\\({120 \\over 5}\\)</span>&nbsp;= 24 मिनट में खाली कर सकता है।</p>\r\n\r\n<p>इसलिए, अभीष्ट&nbsp;उत्तर <strong>24 मिनट</strong> है।</p>\r\n"
+  }
+]
