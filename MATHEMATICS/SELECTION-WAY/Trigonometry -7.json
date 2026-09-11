@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>If cot A = 15/8, then what will be the value of tan 2A?</p>\r\n",
+    "options": [
+      "<p>200/161</p>\r\n",
+      "<p>240/161</p>\r\n",
+      "<p>240/173</p>\r\n",
+      "<p>220/171</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.<strong>&nbsp;240/161.</strong></p>\r\n\r\n<p>cot A = 15/8</p>\r\n\r\n<p>tan A = 8/15</p>\r\n\r\n<p>&rArr; tan 2A = 2 tan A/(1 - tan<sup>2</sup>A)</p>\r\n\r\n<p>&rArr; tan 2A =&nbsp;<span class=\"math-tex\">\\(\\frac{2\\times\\frac{8}{15}}{1-(\\frac{8}{15})^2}\\)</span></p>\r\n\r\n<p>&rArr; tan 2A = (16/15)/(161/225)</p>\r\n\r\n<p>= 240/161</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि cot A = 15/8, तो tan 2A का मान क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>200/161</p>\r\n",
+      "<p>240/161</p>\r\n",
+      "<p>240/173</p>\r\n",
+      "<p>220/171</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>240/161 </strong>है।</p>\r\n\r\n<p>cot A = 15/8</p>\r\n\r\n<p>tan A = 8/15</p>\r\n\r\n<p>&rArr; tan 2A = 2 tan A/(1 - tan<sup>2</sup>A)</p>\r\n\r\n<p>&rArr; tan 2A =&nbsp;<span class=\"math-tex\">\\(\\frac{2\\times\\frac{8}{15}}{1-(\\frac{8}{15})^2}\\)</span></p>\r\n\r\n<p>&rArr; tan 2A = (16/15)/(161/225)</p>\r\n\r\n<p>= 240/161</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Simplify the following:<span class=\"math-tex\">\\({\\cos x- \\sqrt{3}\\sin x \\over 2}\\)</span></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\cos(\\frac\\pi3 -x)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sin(\\frac\\pi3 +x)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\cos(\\frac\\pi3 +x)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sin(\\frac\\pi3 -x)\\)</span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e.&nbsp;<span class=\"math-tex\">\\(\\cos(\\frac\\pi3 +x)\\)</span></p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>cos(a + b) = cos a.cos b - sin a.sin b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\cos x- \\sqrt{3}\\sin x \\over 2}\\)</span></p>\r\n\r\n<p>It can be written as</p>\r\n\r\n<p>&rArr; 1/2(cosx) -&nbsp;&radic;3/2(sinx)</p>\r\n\r\n<p>We know that cos &pi;/3 = 1/2 and sin &pi;/3 =&nbsp;&radic;3/2</p>\r\n\r\n<p>&rArr; cos(&pi;/3)cosx - sin(&pi;/3)sinx</p>\r\n\r\n<p>Using equation (1), we get</p>\r\n\r\n<p>&rArr; cos(&pi;/3 + x)</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्न को सरल कीजिये:<span class=\"math-tex\">\\({\\cos x- \\sqrt{3}\\sin x \\over 2}\\)</span></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\cos(\\frac\\pi3 -x)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sin(\\frac\\pi3 +x)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\cos(\\frac\\pi3 +x)\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sin(\\frac\\pi3 -x)\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 3</strong> यानी <span class=\"math-tex\">\\(\\cos(\\frac\\pi3 +x)\\)</span>&nbsp;है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>cos(a + b) = cos a.cos b - sin a.sin b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\cos x- \\sqrt{3}\\sin x \\over 2}\\)</span></p>\r\n\r\n<p>लिखा जा सकता है</p>\r\n\r\n<p>&rArr; 1/2(cosx) -&nbsp;&radic;3/2(sinx)</p>\r\n\r\n<p>हम जानते है कि cos &pi;/3 = 1/2 और sin &pi;/3 =&nbsp;&radic;3/2</p>\r\n\r\n<p>&rArr; cos(&pi;/3)cosx - sin(&pi;/3)sinx</p>\r\n\r\n<p>समीकरण (1) का उपयोग करते हुए, हम प्राप्त करते है</p>\r\n\r\n<p>&rArr; cos(&pi;/3 + x)</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If cot B = 9, then what will be the value of sec<sup>2</sup> B?</p>\r\n",
+    "options": [
+      "<p>98/81</p>\r\n",
+      "<p>92/81</p>\r\n",
+      "<p>42/81</p>\r\n",
+      "<p>82/81</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e. <strong>82/81.</strong></p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Cot B = 9/1</p>\r\n\r\n<p>Base = 9 and perpendicular = 1</p>\r\n\r\n<p>Using Pythagoras theorem, we get</p>\r\n\r\n<p>&rArr; Hypotenuse = 9<sup>2</sup>&nbsp;+ 1<sup>2</sup>&nbsp;=&nbsp;&radic;82</p>\r\n\r\n<p>&rArr; sec B =&nbsp;&radic;82/9</p>\r\n\r\n<p>&rArr; Hence, sec<sup>2</sup>B = 82/81</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि cot B = 9, तो sec<sup>2</sup> B का मान क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>98/81</p>\r\n",
+      "<p>92/81</p>\r\n",
+      "<p>42/81</p>\r\n",
+      "<p>82/81</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 4</strong> यानी&nbsp;<strong>82/81 </strong>है।</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>Cot B = 9/1</p>\r\n\r\n<p>आधार = 9 और लंबवत = 1</p>\r\n\r\n<p>पाइथागोरस प्रमेय का प्रयोग करने पर, हमें प्राप्त होता है</p>\r\n\r\n<p>&rArr; कर्ण = 9<sup>2</sup>&nbsp;+ 1<sup>2</sup>&nbsp;=&nbsp;&radic;82</p>\r\n\r\n<p>&rArr; sec B =&nbsp;&radic;82/9</p>\r\n\r\n<p>&rArr; अतः, sec<sup>2</sup>B = 82/81</p>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;&nbsp;<span class=\"math-tex\">\\({{k-kcot^230°} \\over 1+cot^230°}\\)</span> <span class=\"math-tex\">\\(=sin^260°+4tan^245°-cosec^260°\\)</span>, then the value of k (correct to two decimal places) is:</p>\r\n",
+    "options": [
+      "<p>5.55</p>\r\n",
+      "<p>- 6.83</p>\r\n",
+      "<p>- 5.58</p>\r\n",
+      "<p>6.83</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e. <strong>- 6.83.</strong></p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({{k-kcot^230°} \\over 1+cot^230°}\\)</span> <span class=\"math-tex\">\\(=sin^260°+4tan^245°-cosec^260°\\)</span>,</p>\r\n\r\n<p>&rArr; (k - 3k)/(1 + 3) = 3/4 + 4 - 4/3</p>\r\n\r\n<p>&rArr; -2k/4 = 41/12</p>\r\n\r\n<p>&rArr; -6k = 41</p>\r\n\r\n<p>&rArr; k = - 6.83</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;&nbsp;<span class=\"math-tex\">\\({{k-kcot^230°} \\over 1+cot^230°}\\)</span> <span class=\"math-tex\">\\(=sin^260°+4tan^245°-cosec^260°\\)</span>, तो k (दो दशमलव स्थानों तक सही) का मान है:</p>\r\n",
+    "options_hi": [
+      "<p>5.55</p>\r\n",
+      "<p>- 6.83</p>\r\n",
+      "<p>- 5.58</p>\r\n",
+      "<p>6.83</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <strong>- 6.83&nbsp;</strong>है।</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({{k-kcot^230°} \\over 1+cot^230°}\\)</span> <span class=\"math-tex\">\\(=sin^260°+4tan^245°-cosec^260°\\)</span>,</p>\r\n\r\n<p>&rArr; (k - 3k)/(1 + 3) = 3/4 + 4 - 4/3</p>\r\n\r\n<p>&rArr; -2k/4 = 41/12</p>\r\n\r\n<p>&rArr; -6k = 41</p>\r\n\r\n<p>&rArr; k = - 6.83</p>\r\n"
+  },
+  {
+    "question": "<p>What will be the value of sin 10&deg; &ndash; 4/3 sin<sup>3</sup> 10&deg;?</p>\r\n",
+    "options": [
+      "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span class=\"math-tex\">\\({{1} \\over 3\\sqrt3}\\)</span></span></span></p>\r\n",
+      "<p>1/6</p>\r\n",
+      "<p><span class=\"math-tex\">\\({{1} \\over 2\\sqrt3}\\)</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\({{\\sqrt3} \\over6}\\)</span></span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is<strong> Option 2</strong> i.e.&nbsp;<span class=\"math-tex\">\\(1\\over6\\)</span><strong>.</strong></p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p><strong><span class=\"math-tex\">\\(\\sin 3\\theta = 3\\sin\\theta - 4 \\sin^3\\theta \\)</span></strong></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Accoding to the given question,</p>\r\n\r\n<p><span class=\"math-tex\">\\(sin 10° – {4\\over 3} sin^3 10°\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({3sin 10° – 4 sin^3 10°}\\over 3\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sin 3(10°) \\over 3\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1 \\over 3} \\times \\sin30°\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({1 \\over 3}\\times{1 \\over 2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(1\\over6\\)</span></p>\r\n\r\n<p>Hence the value of&nbsp;<span class=\"math-tex\">\\(sin 10° – {4\\over 3} sin^3 10°\\)</span>&nbsp;is&nbsp;<span class=\"math-tex\">\\(1\\over6\\)</span>&nbsp;.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>sin 10&deg; &ndash; 4/3 sin<sup>3</sup> 10&deg;&nbsp;का मान क्या होगा&nbsp;?&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span class=\"math-tex\">\\({{1} \\over 3\\sqrt3}\\)</span></span></span></p>\r\n",
+      "<p>1/6</p>\r\n",
+      "<p><span class=\"math-tex\">\\({{1} \\over 2\\sqrt3}\\)</span></p>\r\n",
+      "<p><span style=\"font-size:11.0pt\"><span class=\"math-tex\">\\({{\\sqrt3} \\over6}\\)</span></span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>&nbsp;सही उत्तर <strong>विकल्प 2</strong> अर्थात&nbsp;<span class=\"math-tex\">\\(1\\over6\\)</span>&nbsp;है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p><strong><strong><span class=\"math-tex\">\\(\\sin 3\\theta = 3\\sin\\theta - 4 \\sin^3\\theta \\)</span></strong></strong></p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p><span class=\"math-tex\">\\(sin 10° – {4\\over 3} sin^3 10°\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({3sin 10° – 4 sin^3 10°}\\over 3\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sin 3(10°) \\over 3\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({1 \\over 3} \\times \\sin30°\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({1 \\over 3}\\times{1 \\over 2}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(1\\over6\\)</span></p>\r\n\r\n<p>&nbsp;इसलिए का मान &nbsp;<span class=\"math-tex\">\\(sin 10° – {4\\over 3} sin^3 10°\\)</span>&nbsp;is&nbsp;<span class=\"math-tex\">\\(1\\over6\\)</span>&nbsp;&nbsp;है।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{cos20°} \\over sin70°}+{{cos\\theta} \\over sin(90°-\\theta)}=\\)</span></span>________________.</span></span></p>\r\n",
+    "options": [
+      "<p>-2</p>\r\n",
+      "<p><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{1} \\over 2}\\)</span></span></p>\r\n",
+      "<p><span style=\"font-size:20px\"><span class=\"math-tex\">\\(-{{1} \\over 2}\\)</span></span></p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.<strong> 2.</strong></p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\cos(90 - \\theta) = \\sin\\theta\\)</span></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>according to the given question,</p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{cos20°} \\over sin70°}+{{cos\\theta} \\over sin(90°-\\theta)}\\)</span></span></span></span></p>\r\n\r\n<p>&rArr;&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{\\cos(90 - 70)°} \\over \\sin70°}+{{\\cos\\theta} \\over \\cos\\theta}\\)</span></span></span></span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\sin 70 \\over \\sin 70} + 1\\)</span>&nbsp;= 1 + 1 = 2</p>\r\n\r\n<p>Hence the value of&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{cos20°} \\over sin70°}+{{cos\\theta} \\over sin(90°-\\theta)}\\)</span>&nbsp;&nbsp;</span>is 2.</span></span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{cos20°} \\over sin70°}+{{cos\\theta} \\over sin(90°-\\theta)}=\\)</span></span>________________.</span></span></p>\r\n",
+    "options_hi": [
+      "<p>-2</p>\r\n",
+      "<p><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{1} \\over 2}\\)</span></span></p>\r\n",
+      "<p><span style=\"font-size:20px\"><span class=\"math-tex\">\\(-{{1} \\over 2}\\)</span></span></p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>2</strong> है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\cos(90 - \\theta) = \\sin\\theta\\)</span></p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>दिए गए प्रश्न के अनुसार,</p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{cos20°} \\over sin70°}+{{cos\\theta} \\over sin(90°-\\theta)}\\)</span></span></span></span></p>\r\n\r\n<p>&rArr;&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{\\cos(90 - 70)°} \\over \\sin70°}+{{\\cos\\theta} \\over \\cos\\theta}\\)</span></span></span></span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\sin 70 \\over \\sin 70} + 1\\)</span>&nbsp;= 1 + 1 = 2</p>\r\n\r\n<p>अत:&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span style=\"font-size:20px\"><span class=\"math-tex\">\\({{cos20°} \\over sin70°}+{{cos\\theta} \\over sin(90°-\\theta)}\\)</span>&nbsp;&nbsp;</span>का मान 2 है</span></span>।</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If sin&nbsp;&theta;&nbsp;<span class=\"math-tex\">\\(=\\frac{1}{2}\\)</span>, then the value of (3cos&nbsp;&theta; - 4 cos<sup>3</sup> &theta;) is:</p>\r\n",
+    "options": [
+      "<p>0</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>-1</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e. <strong>0.</strong></p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>Cos3&theta; =&nbsp;3cos&nbsp;&theta; - 4 cos<sup>3</sup> &theta;&nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>We know that, sin &theta; = 1/2 when&nbsp;&theta; = 30</p>\r\n\r\n<p>Using equation (1), we get</p>\r\n\r\n<p>&rArr;&nbsp;3cos&nbsp;&theta; - 4 cos<sup>3</sup> &theta; =&nbsp;Cos3&theta;</p>\r\n\r\n<p>&rArr; cos 3(30) = cos 90 = 0</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि &nbsp;sin&nbsp;&theta;&nbsp;<span class=\"math-tex\">\\(=\\frac{1}{2}\\)</span>, तो&nbsp;&nbsp;(3cos&nbsp;&theta; - 4 cos<sup>3</sup> &theta;)&nbsp;का मान है :&nbsp;&nbsp;<br />\r\n&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>0</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>-1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 1</strong> यानी <strong>0</strong> है।</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>Cos3&theta; =&nbsp;3cos&nbsp;&theta; - 4 cos<sup>3</sup> &theta;&nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>हम जानते हैं कि sin &theta; = 1/2 जब &theta; = 30</p>\r\n\r\n<p>समीकरण (1) का प्रयोग करने पर, हम प्राप्त करते हैं</p>\r\n\r\n<p>&rArr;&nbsp;3cos&nbsp;&theta; - 4 cos<sup>3</sup> &theta; =&nbsp;Cos3&theta;</p>\r\n\r\n<p>&rArr; cos 3(30) = cos 90 = 0</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Solve the following to find its value in terms of trigonometric ratios.</p>\r\n\r\n<p>(sin A + cos A)(1 &ndash; sin A cos A)</p>\r\n",
+    "options": [
+      "<p>sin<sup>3</sup> A + cos<sup>3</sup> A</p>\r\n",
+      "<p>sin<sup>2</sup> A - cos<sup>2</sup> A</p>\r\n",
+      "<p>[cosA - sin A] [sin<sup>2</sup> A + cos<sup>2</sup> A]</p>\r\n",
+      "<p>sin<sup>3</sup> A - cos<sup>3</sup>&nbsp;B</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e.&nbsp;<strong>sin<sup>3</sup> A + cos<sup>3</sup> A.</strong></p>\r\n\r\n<p>Sin<sup>2</sup>A + cos<sup>2</sup>A = 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;= (a + b)(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;- ab)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (2)</p>\r\n\r\n<p>&rArr;&nbsp;(sin A + cos A)(1 &ndash; sin A cosA)</p>\r\n\r\n<p>Using equation (1)</p>\r\n\r\n<p>&rArr; (sin A + cos A)(sin<sup>2</sup>A+ cos<sup>2</sup>A&nbsp;&ndash; sin A cosA)</p>\r\n\r\n<p>Using equation (2), we get</p>\r\n\r\n<p>&rArr; sin<sup>3</sup>A + cos<sup>3</sup>A</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित को त्रिकोणमितीय अनुपातों के संदर्भ में&nbsp; मान ज्ञात करने के लिए हल करें।</p>\r\n\r\n<p>(sin A + cos A)(1 &ndash; sin A cos A)</p>\r\n",
+    "options_hi": [
+      "<p>sin<sup>3</sup> A + cos<sup>3</sup> A</p>\r\n",
+      "<p>sin<sup>2</sup> A - cos<sup>2</sup> A</p>\r\n",
+      "<p>[cosA - sin A] [sin<sup>2</sup> A + cos<sup>2</sup> A]</p>\r\n",
+      "<p>sin<sup>3</sup> A - cos<sup>3</sup>&nbsp;B</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 1</strong> यानी&nbsp;<strong>sin<sup>3</sup> A + cos<sup>3</sup> A&nbsp;</strong>है&nbsp;।</p>\r\n\r\n<p>Sin<sup>2</sup>A + cos<sup>2</sup>A = 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;= (a + b)(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;- ab)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (2)</p>\r\n\r\n<p>&rArr;&nbsp;(sin A + cos A)(1 &ndash; sin A cosA)</p>\r\n\r\n<p>समीकरण (1) का उपयोग करके&nbsp;</p>\r\n\r\n<p>&rArr; (sin A + cos A)(sin<sup>2</sup>A + cos<sup>2</sup>A&nbsp;&ndash; sin A cosA)</p>\r\n\r\n<p>समीकरण (2) का प्रयोग करने पर, हम प्राप्त करते हैं</p>\r\n\r\n<p>&rArr; sin<sup>3</sup>A + cos<sup>3</sup>A</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Simplify the following.</p>\r\n\r\n<p>cot13&deg;.cot27&deg;.cot45&deg;.cot63&deg;.cot77&deg; = ?</p>\r\n",
+    "options": [
+      "<p>1</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt{3}\\)</span></p>\r\n",
+      "<p>2</p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\sqrt{2}\\)</span></p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong>&nbsp;i.e. <strong>1.</strong></p>\r\n\r\n<p><strong>Concept used:</strong></p>\r\n\r\n<p>Cot 45 = 1</p>\r\n\r\n<p>We know that, cotA.cotB = 1 when A + B = 90</p>\r\n\r\n<p><strong>Calculations</strong>:</p>\r\n\r\n<p>&rArr;&nbsp;cot13&deg; cot27&deg; cot45&deg; cot63&deg; cot77&deg;</p>\r\n\r\n<p>cot13.cot77 = 1 and cot 27.cot 63 = 1</p>\r\n\r\n<p>&rArr;&nbsp;cot13&deg; cot27&deg; cot45&deg; cot63&deg; cot77&deg; = 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित को सरल कीजिए।</p>\r\n\r\n<p>cot13&deg;.cot27&deg;.cot45&deg;.cot63&deg;.cot77&deg; = ?</p>\r\n",
+    "options_hi": [
+      "<p>1</p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt{3}\\)</span></p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt{2}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर<strong> विकल्प 1</strong> यानी <strong>1</strong> है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>Cot 45 = 1</p>\r\n\r\n<p>हम जानते हैं कि,&nbsp;&nbsp;cotA.cotB = 1 जब&nbsp; A + B = 90</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>&rArr;&nbsp;cot13&deg; cot27&deg; cot45&deg; cot63&deg; cot77&deg;</p>\r\n\r\n<p>cot13.cot77 = 1और&nbsp; cot 27.cot 63 = 1</p>\r\n\r\n<p>&rArr;&nbsp;cot13&deg; cot27&deg; cot45&deg; cot63&deg; cot77&deg; = 1</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What is the value of cos<sup>2</sup>15&deg;?</p>\r\n",
+    "options": [
+      "<p>(2+&radic;3)</p>\r\n",
+      "<p><span class=\"math-tex\">\\({{(2+√3)} \\over 4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{(2+√3)} \\over 2}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{(1+√3)} \\over 2}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.&nbsp;&nbsp;<span class=\"math-tex\">\\({{(2+√3)} \\over 4}\\)</span>.</p>\r\n\r\n<p>Cos 15&deg; =&nbsp;<span class=\"math-tex\">\\(\\frac{\\sqrt3+1}{2\\sqrt2}\\)</span></p>\r\n\r\n<p>So,&nbsp; cos<sup>2</sup>15&deg; =&nbsp;<span class=\"math-tex\">\\(\\frac{\\sqrt3+1}{2\\sqrt2}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(\\frac{\\sqrt3+1}{2\\sqrt2}\\)</span></p>\r\n\r\n<p>=&nbsp;<span class=\"math-tex\">\\({{(2+√3)} \\over 4}\\)</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>Cos<sup>2</sup>15&deg; का मान कितना होता है?</p>\r\n",
+    "options_hi": [
+      "<p>(2+&radic;3)</p>\r\n",
+      "<p><span class=\"math-tex\">\\({{(2+√3)} \\over 4}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{(2+√3)} \\over 2}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\({{(1+√3)} \\over 2}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>अर्थात <span class=\"math-tex\">\\({{(2+√3)} \\over 4}\\)</span>&nbsp;है।</p>\r\n\r\n<p>&nbsp;Cos 15&deg; =&nbsp;<span class=\"math-tex\">\\(\\frac{\\sqrt3+1}{2\\sqrt2}\\)</span></p>\r\n\r\n<p>इसलिए,&nbsp;</p>\r\n\r\n<p>&nbsp;cos<sup>2</sup>15&deg; =&nbsp;<span class=\"math-tex\">\\(\\frac{\\sqrt3+1}{2\\sqrt2}\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(\\frac{\\sqrt3+1}{2\\sqrt2}\\)</span></p>\r\n\r\n<p>=&nbsp;<span class=\"math-tex\">\\({{(2+√3)} \\over 4}\\)</span></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Find the value of tan 3&theta; if sec 3&theta; = cosec (4&theta; - 15˚).</p>\r\n",
+    "options": [
+      "<p>&radic;6</p>\r\n",
+      "<p>&radic;3</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4 </strong>i.e.&nbsp;<strong>1.</strong></p>\r\n\r\n<p>sec 3&theta; = cosec (4&theta; - 15˚)</p>\r\n\r\n<p>In the above equation will be&nbsp;<strong>complementary angles</strong>.</p>\r\n\r\n<p>3&theta; = 4&theta; - 15˚</p>\r\n\r\n<p>&rArr; &theta; = 15˚</p>\r\n\r\n<p>&rArr; So, tan 3&theta; = tan 45˚ = 1</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>tan 3&theta; का मान ज्ञात कीजिए यदि sec 3&theta; = cosec (4&theta; - 15˚).</p>\r\n",
+    "options_hi": [
+      "<p>&radic;6</p>\r\n",
+      "<p>&radic;3</p>\r\n",
+      "<p>-1</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात <strong>1</strong> है।</p>\r\n\r\n<p>सेकंड 3&theta; = cosec (4&theta; - 15˚)</p>\r\n\r\n<p>उपरोक्त समीकरण में पूरक कोण होंगे।</p>\r\n\r\n<p>3&theta; = 4&theta; - 15˚</p>\r\n\r\n<p>&rArr; &theta; = 15˚</p>\r\n\r\n<p>&rArr; इसलिए, tan 3&theta; = tan 45˚ = 1</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If&nbsp;<span class=\"math-tex\">\\(secθ - 2cosθ = {{7} \\over 2}\\)</span>, where&nbsp;&theta; is a positive acute angle, then the value of sec&theta; is:</p>\r\n",
+    "options": [
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>option 4 </strong>i.e.&nbsp;<strong>4.</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(secθ - 2cosθ = {{7} \\over 2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(secθ - 2/secθ = {{7} \\over 2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;2Sec<sup>2</sup>&theta; - 4 = 7sec&theta;</p>\r\n\r\n<p>&rArr;&nbsp;2Sec<sup>2</sup>&theta; - 7sec&theta; + 4 = 0</p>\r\n\r\n<p>&rArr; 2Sec<sup>2</sup>&theta; - 8sec&theta; + sec&theta; + 4 = 0</p>\r\n\r\n<p>&rArr; 2sec&theta;(sec&theta; -&nbsp; 4) + 1(sec&theta; + 4) = 0</p>\r\n\r\n<p>&rArr; sec&theta; = 4,&nbsp; -1/2(Neglected)</p>\r\n\r\n<p>&rArr; sec&theta; = 4</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि<span class=\"math-tex\">\\(secθ - 2cosθ = {{7} \\over 2}\\)</span>, जहां &theta; धनात्मक न्यून कोण है, तो sec&theta; का मान है।</p>\r\n",
+    "options_hi": [
+      "<p>6</p>\r\n",
+      "<p>8</p>\r\n",
+      "<p>5</p>\r\n",
+      "<p>4</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात <strong>4</strong> है।</p>\r\n\r\n<p><strong>&nbsp;</strong><span class=\"math-tex\">\\(secθ - 2cosθ = {{7} \\over 2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(secθ - 2/secθ = {{7} \\over 2}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;2Sec<sup>2</sup>&theta; - 4 = 7sec&theta;</p>\r\n\r\n<p>&rArr;&nbsp;2Sec<sup>2</sup>&theta; - 7sec&theta; + 4 = 0</p>\r\n\r\n<p>&rArr; 2Sec<sup>2</sup>&theta; - 8sec&theta; + sec&theta; + 4 = 0</p>\r\n\r\n<p>&rArr; 2sec&theta;(sec&theta; -&nbsp; 4) + 1(sec&theta; + 4) = 0</p>\r\n\r\n<p>&rArr; sec&theta; = 4,&nbsp; -1/2(Neglected)</p>\r\n\r\n<p>&rArr; sec&theta; = 4</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If 8cot&nbsp;<span class=\"math-tex\">\\(\\theta=6\\)</span>, then the value of&nbsp;<span class=\"math-tex\">\\(\\frac{sin\\theta+cos\\theta}{sin\\theta-cos\\theta}\\)</span> is:</p>\r\n",
+    "options": [
+      "<p>12</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e. <strong>7.</strong></p>\r\n\r\n<p>8cot&nbsp;<span class=\"math-tex\">\\(\\theta=6\\)</span></p>\r\n\r\n<p>&rArr; cot&nbsp;&theta; = 3/4</p>\r\n\r\n<p>&rArr; Cos&theta;/Sin&theta;&nbsp;= 3/4</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{sin\\theta+cos\\theta}{sin\\theta-cos\\theta}\\)</span>&nbsp;= (4&nbsp;+ 3)/(4 - 3) = 7</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;8cot&nbsp;<span class=\"math-tex\">\\(\\theta=6\\)</span>&nbsp;है, तो&nbsp;<span class=\"math-tex\">\\(\\frac{sin\\theta+cos\\theta}{sin\\theta-cos\\theta}\\)</span>&nbsp;का माँ क्या है?</p>\r\n",
+    "options_hi": [
+      "<p>12</p>\r\n",
+      "<p>7</p>\r\n",
+      "<p>2</p>\r\n",
+      "<p>5</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>7&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p>8cot&nbsp;<span class=\"math-tex\">\\(\\theta=6\\)</span></p>\r\n\r\n<p>&rArr; cot&nbsp;&theta; = 3/4</p>\r\n\r\n<p>&rArr; Cos&theta;/Sin&theta;&nbsp;= 3/4</p>\r\n\r\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{sin\\theta+cos\\theta}{sin\\theta-cos\\theta}\\)</span>&nbsp;= (4&nbsp;+ 3)/(4 - 3) = 7</p>\r\n"
+  },
+  {
+    "question": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{1+sinA}{1-sinA}}=\\)</span>___________,</p>\r\n",
+    "options": [
+      "<p>cosecA - cotA</p>\r\n",
+      "<p>secA - tanA</p>\r\n",
+      "<p>secA + tanA</p>\r\n",
+      "<p>secA</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e.&nbsp;<strong>secA + tanA.</strong></p>\r\n\r\n<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt{\\frac{1+sinA}{1-sinA}}\\)</span></p>\r\n\r\n<p>=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt{\\frac{1+sinA}{1-sinA}\\times\\frac{1+sinA}{1+sinA}}\\)</span></p>\r\n\r\n<p>=&nbsp;<span class=\"math-tex\">\\(\\sqrt\\frac{{(1+SinA)^2}}{1-Sin^2A}\\)</span></p>\r\n\r\n<p>=&nbsp;<span class=\"math-tex\">\\(\\sqrt\\frac{{(1+SinA)^2}}{Cos^2A}\\)</span></p>\r\n\r\n<p>= 1/CosA + SinA/CosA</p>\r\n\r\n<p>= <strong>SecA + tanA</strong></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt{\\frac{1+sinA}{1-sinA}}=\\)</span>___________,</p>\r\n",
+    "options_hi": [
+      "<p>cosecA - cotA</p>\r\n",
+      "<p>secA - tanA</p>\r\n",
+      "<p>secA + tanA</p>\r\n",
+      "<p>secA</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात <strong>secA + tanA&nbsp;</strong>है।</p>\r\n\r\n<p>=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt{\\frac{1+sinA}{1-sinA}}\\)</span></p>\r\n\r\n<p>=&nbsp;&nbsp;<span class=\"math-tex\">\\(\\sqrt{\\frac{1+sinA}{1-sinA}\\times\\frac{1+sinA}{1+sinA}}\\)</span></p>\r\n\r\n<p>=&nbsp;<span class=\"math-tex\">\\(\\sqrt\\frac{{(1+SinA)^2}}{1-Sin^2A}\\)</span></p>\r\n\r\n<p>=&nbsp;<span class=\"math-tex\">\\(\\sqrt\\frac{{(1+SinA)^2}}{Cos^2A}\\)</span></p>\r\n\r\n<p>= 1/CosA + SinA/CosA</p>\r\n\r\n<p>= <strong>SecA + tanA</strong></p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>cot<sup>2</sup>A - cos<sup>2</sup>A is equal to:</p>\r\n",
+    "options": [
+      "<p>cos<sup>2</sup>A . sin<sup>2</sup>A</p>\r\n",
+      "<p>cos<sup>2</sup>A. cot<sup>2</sup>A</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2&nbsp;</strong>i.e.&nbsp;<strong>cos<sup>2</sup>A. cot<sup>2</sup>A.</strong></p>\r\n\r\n<p>&rArr;&nbsp;cot<sup>2</sup>A - cos<sup>2</sup>A</p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>A/sin<sup>2</sup>A - cos<sup>2</sup>A</p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>A((1 - cos<sup>2</sup>A)/sin<sup>2</sup>A)<strong>&nbsp;</strong></p>\r\n\r\n<p>&rArr; cos<sup>2</sup>A(cos<sup>2</sup>A/sin<sup>2</sup>A)</p>\r\n\r\n<p>&rArr; cos<sup>2</sup>A.cot<sup>2</sup>A</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>cot<sup>2</sup>A - cos<sup>2</sup>A इसके बराबर है:</p>\r\n",
+    "options_hi": [
+      "<p>cos<sup>2</sup>A . sin<sup>2</sup>A</p>\r\n",
+      "<p>cos<sup>2</sup>A. cot<sup>2</sup>A</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>0</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>यानी <strong>cos<sup>2</sup>A. cot<sup>2</sup>A</strong> है।</p>\r\n\r\n<p>&rArr;&nbsp;cot<sup>2</sup>A - cos<sup>2</sup>A</p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>A/sin<sup>2</sup>A - cos<sup>2</sup>A</p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>A((1 - cos<sup>2</sup>A)/sin<sup>2</sup>A)&nbsp;</p>\r\n\r\n<p>&rArr; cos<sup>2</sup>A(cos<sup>2</sup>A/sin<sup>2</sup>A)</p>\r\n\r\n<p>&rArr; cos<sup>2</sup>A.cot<sup>2</sup>A</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>What will be the value of cos x cosec x &ndash; sin x sec x?</p>\r\n",
+    "options": [
+      "<p>cot 2x/2</p>\r\n",
+      "<p>tan 2x</p>\r\n",
+      "<p>cot 2x</p>\r\n",
+      "<p>2cot 2x</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.<strong>&nbsp;2cot 2x.</strong></p>\r\n\r\n<p><strong>Concept Used:</strong></p>\r\n\r\n<p>cosecx = 1/sinx</p>\r\n\r\n<p>secx = 1/cosx</p>\r\n\r\n<p>tanx = 1/cotx</p>\r\n\r\n<p>sinx/cosx = tanx</p>\r\n\r\n<p>cosx/sinx = cotx</p>\r\n\r\n<p><span class=\"math-tex\">\\(cot2x = {{cot^2x -1} \\over 2cotx}\\)</span></p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>From the given question, we have</p>\r\n\r\n<p>cos x cosec x &ndash; sin x sec x = cosx/sinx - sinx/cosx</p>\r\n\r\n<p>&rArr; cotx - tanx</p>\r\n\r\n<p>&rArr; cotx - 1/cotx</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({cot^2x - 1} \\over cotx \\)</span></p>\r\n\r\n<p>Now, multiplying numerator and dinominator by 2, we get</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(2{cot^2x - 1}\\over 2cotx\\)</span>&nbsp;= 2cot2x.</p>\r\n\r\n<p>Hence the value of&nbsp;cos x cosec x &ndash; sin x sec x is 2cot2x.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>cos x cosec x &ndash; sin x sec x का मान क्या होगा?</p>\r\n",
+    "options_hi": [
+      "<p>cot 2x/2</p>\r\n",
+      "<p>tan 2x</p>\r\n",
+      "<p>cot 2x</p>\r\n",
+      "<p>2cot 2x</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात् <strong>2cot 2x </strong>है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>cosecx = 1/sinx</p>\r\n\r\n<p>secx = 1/cosx</p>\r\n\r\n<p>tanx = 1/cotx</p>\r\n\r\n<p>sinx/cosx = tanx</p>\r\n\r\n<p>cosx/sinx = cotx</p>\r\n\r\n<p><span class=\"math-tex\">\\(cot2x = {{cot^2x -1} \\over 2cotx}\\)</span></p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>दिए गए प्रश्न से, हमारे पास है-</p>\r\n\r\n<p>cos x cosec x &ndash; sin x sec x = cosx/sinx - sinx/cosx</p>\r\n\r\n<p>&rArr; cotx - tanx</p>\r\n\r\n<p>&rArr; cotx - 1/cotx</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({cot^2x - 1} \\over cotx \\)</span></p>\r\n\r\n<p>अब, अंश और हर को 2 से गुणा करने पर, हम प्राप्त करते हैं</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(2{cot^2x - 1}\\over 2cotx\\)</span>&nbsp;= 2cot2x.</p>\r\n\r\n<p>अत: cos x cosec x &ndash; sin x sec x का मान 2cot2x है।</p>\r\n"
+  },
+  {
+    "question": "<p>Find the value of&nbsp;<span class=\"math-tex\">\\(\\sqrt \\frac {1+ \\cos \\theta}{1-\\cos\\theta} + \\sqrt \\frac {1- \\cos \\theta}{1+\\cos\\theta}\\)</span></p>\r\n",
+    "options": [
+      "<p>2 sin&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n",
+      "<p>2 cos&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n",
+      "<p>2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n",
+      "<p>2 sec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>Option 3</strong> i.e. <strong>2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;.</span></span></strong></p>\r\n\r\n<p><strong><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">Concept Used:</span></span></strong></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">sin<sup>2</sup>A = 1 - cos<sup>2</sup>A</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">1/sinA = cosecA</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><strong>Explanation:</strong></span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">From the given question, rationalising both the terms, we get</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span class=\"math-tex\">\\(\\sqrt{(1 +cos\\theta)(1 + cos\\theta) \\over (1 - cos\\theta)(1 + cos\\theta)} + \\sqrt{(1 - cos\\theta)(1 - cos\\theta) \\over (1 + cos\\theta)(1 - cos\\theta)}\\)</span></span></span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{(1+cos\\theta)^2 \\over (1 - cos^2\\theta)} + \\sqrt{(1 - cos\\theta)^2 \\over (1 - cos^2\\theta)}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({(1 + cos\\theta) \\over (sin\\theta)} + {(1 - cos\\theta) \\over (sin\\theta)}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(cosec\\theta + cot\\theta + cosec\\theta - cot\\theta\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">Hence the value of&nbsp;</span></span><span class=\"math-tex\">\\(\\sqrt \\frac {1+ \\cos \\theta}{1-\\cos\\theta} + \\sqrt \\frac {1- \\cos \\theta}{1+\\cos\\theta}\\)</span>&nbsp;is&nbsp;2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;.</span></span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\(\\sqrt \\frac {1+ \\cos \\theta}{1-\\cos\\theta} + \\sqrt \\frac {1- \\cos \\theta}{1+\\cos\\theta}\\)</span>&nbsp;का मान ज्ञात कीजिए:</p>\r\n",
+    "options_hi": [
+      "<p>2 sin&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n",
+      "<p>2 cos&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n",
+      "<p>2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n",
+      "<p>2 sec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>2 cosec&nbsp;&theta;</strong> है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">sin<sup>2</sup>A = 1 - cos<sup>2</sup>A</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">1/sinA = cosecA</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><strong>व्याख्या:</strong></span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">दिए गए प्रश्न से, दोनों पदों का परिमेयकरण करने पर, हम प्राप्त करते हैं</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\"><span class=\"math-tex\">\\(\\sqrt{(1 +cos\\theta)(1 + cos\\theta) \\over (1 - cos\\theta)(1 + cos\\theta)} + \\sqrt{(1 - cos\\theta)(1 - cos\\theta) \\over (1 + cos\\theta)(1 - cos\\theta)}\\)</span></span></span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{(1+cos\\theta)^2 \\over (1 - cos^2\\theta)} + \\sqrt{(1 - cos\\theta)^2 \\over (1 - cos^2\\theta)}\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({(1 + cos\\theta) \\over (sin\\theta)} + {(1 - cos\\theta) \\over (sin\\theta)}\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(cosec\\theta + cot\\theta + cosec\\theta - cot\\theta\\)</span>&nbsp;</p>\r\n\r\n<p>&rArr;&nbsp;2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta;</span></span></p>\r\n\r\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">अत:&nbsp;</span></span><span class=\"math-tex\">\\(\\sqrt \\frac {1+ \\cos \\theta}{1-\\cos\\theta} + \\sqrt \\frac {1- \\cos \\theta}{1+\\cos\\theta}\\)</span>&nbsp;का मान 2 cosec&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,\">&theta; है</span></span></p>\r\n"
+  },
+  {
+    "question": "<p><span class=\"math-tex\">\\(\\cos^235^ \\circ + \\cos55^ \\circ.\\sin 35^\\circ + \\frac {\\tan 34^\\circ}{\\cot 56^\\circ}\\)</span>&nbsp;= _________________</p>\r\n",
+    "options": [
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e. <strong>2.</strong></p>\r\n\r\n<p><strong>Concept Used:</strong>&nbsp;</p>\r\n\r\n<p>sin<sup>2</sup>A + cos<sup>2</sup>A = 1</p>\r\n\r\n<p>cos(90 - A) = sinA</p>\r\n\r\n<p>tan(90 - A) = cot A</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>From the given question,</p>\r\n\r\n<p>cos<sup>2</sup>35&deg; + cos55&deg;sin35&deg; +&nbsp;<span class=\"math-tex\">\\(tan34^0 \\over cot56^0\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>35&deg; + cos(90 - 35&deg;)sin35&deg; +&nbsp;<span class=\"math-tex\">\\(tan(90 - 56) \\over cot56^0\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>35&deg; + sin<sup>2</sup>35&deg; + 1&nbsp;</p>\r\n\r\n<p>&rArr; 1 + 1 = 2</p>\r\n\r\n<p>Hence the value of&nbsp;&nbsp;cos<sup>2</sup>35&deg; + cos55&deg;sin35&deg; +&nbsp;<span class=\"math-tex\">\\(tan34^0 \\over cot56^0\\)</span>&nbsp;is 2.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span class=\"math-tex\">\\(\\cos^235^ \\circ + \\cos55^ \\circ.\\sin 35^\\circ + \\frac {\\tan 34^\\circ}{\\cot 56^\\circ}\\)</span>&nbsp;= _________________</p>\r\n",
+    "options_hi": [
+      "<p>2</p>\r\n",
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>1</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>2</strong> है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p>sin<sup>2</sup>A + cos<sup>2</sup>A = 1</p>\r\n\r\n<p>cos(90 - A) = sinA</p>\r\n\r\n<p>tan(90 - A) = cot A</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p>दिए गए प्रश्न से,</p>\r\n\r\n<p>cos<sup>2</sup>35&deg; + cos55&deg;sin35&deg; +&nbsp;<span class=\"math-tex\">\\(tan34^0 \\over cot56^0\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>35&deg; + cos(90 - 35&deg;)sin35&deg; +&nbsp;<span class=\"math-tex\">\\(tan(90 - 56) \\over cot56^0\\)</span></p>\r\n\r\n<p>&rArr;&nbsp;cos<sup>2</sup>35&deg; + sin<sup>2</sup>35&deg; + 1&nbsp;</p>\r\n\r\n<p>&rArr; 1 + 1 = 2</p>\r\n\r\n<p>अत: cos<sup>2</sup>35&deg; + cos55&deg;sin35&deg; +&nbsp;<span class=\"math-tex\">\\(tan34^0 \\over cot56^0\\)</span>&nbsp;का मान&nbsp;2 है</p>\r\n"
+  },
+  {
+    "question": "<p>If &theta; is an acute angle and tan&theta; + cot&theta; = 2, then the value of tan<sup>2</sup>&theta; + cot<sup>2</sup>&theta; + 2 tan<sup>5</sup>&theta;cot<sup>4</sup>&theta; is:</p>\r\n",
+    "options": [
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2&nbsp;</strong>i.e. <strong>4.</strong></p>\r\n\r\n<p>We know that,&nbsp;tan&theta; + cot&theta; = 2 when&nbsp;&theta; = 45&deg;</p>\r\n\r\n<p>Hence, tan 45 = 1 and cot 45 = 1</p>\r\n\r\n<p>&rArr;&nbsp;tan<sup>2</sup>45 + cot<sup>2</sup>45 + 2 tan<sup>5</sup>45.cot<sup>4</sup>45</p>\r\n\r\n<p>&rArr; 1 + 1 + 2&nbsp;&times; 1&nbsp;&times; 1 = 4</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि &theta; एक&nbsp;न्यून कोण है और tan&theta; + cot&theta; = 2 है, तो tan<sup>2</sup>&theta; + cot<sup>2</sup>&theta; + 2 tan<sup>5</sup>&theta;cot<sup>4</sup>&theta; का मान है:</p>\r\n",
+    "options_hi": [
+      "<p>3</p>\r\n",
+      "<p>4</p>\r\n",
+      "<p>1</p>\r\n",
+      "<p>2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2</strong> यानी <strong>4 </strong>है।</p>\r\n\r\n<p>हम जानते हैं कि, tan&theta; + cot&theta; = 2 जब &theta; = 45&deg;</p>\r\n\r\n<p>इसलिए, tan 45 = 1 और cot 45 = 1</p>\r\n\r\n<p>&rArr; tan<sup>2</sup>45 + cot<sup>2</sup>45 + 2 tan<sup>5</sup>45.cot<sup>4</sup>45</p>\r\n\r\n<p>&rArr; 1 + 1 + 2 &times; 1 &times; 1 = 4</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If tan A =&nbsp;<span class=\"math-tex\">\\(\\frac{2}{3}\\)</span>, then what is the value of the following?</p>\r\n\r\n<p><span class=\"math-tex\">\\((5 sin^2 A - 2 cos^2A) \\div(15sin^2A + 3cos^2A)\\)</span></p>\r\n",
+    "options": [
+      "<p><span class=\"math-tex\">\\(\\frac{21}{47}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{87}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{77}\\)</span></p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2&nbsp;</strong>i.e.&nbsp;<span class=\"math-tex\">\\(\\frac{2}{87}\\)</span>.</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>tan A = 2/3&nbsp;</p>\r\n\r\n<p>sin A/cos A = 2/3</p>\r\n\r\n<p>Using the values of sin A and Cos A, we get</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\((5 sin^2 A - 2 cos^2A) \\div(15sin^2A + 3cos^2A)\\)</span></p>\r\n\r\n<p>&rArr; (5&nbsp;&times; 4 - 2&nbsp;&times; 9)&nbsp;&divide; (60 + 27)</p>\r\n\r\n<p>= 2/87</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि&nbsp;tan A =<span class=\"math-tex\">\\(\\frac{2}{3}\\)</span>,&nbsp;तो निम्नलिखित का मान क्या है?</p>\r\n\r\n<p><span class=\"math-tex\">\\((5 sin^2 A - 2 cos^2A) \\div(15sin^2A + 3cos^2A)\\)</span></p>\r\n",
+    "options_hi": [
+      "<p><span class=\"math-tex\">\\(\\frac{21}{47}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{87}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{2}{5}\\)</span></p>\r\n",
+      "<p><span class=\"math-tex\">\\(\\frac{3}{77}\\)</span></p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p style=\"position:relative\">सही उत्तर <strong>विकल्प 2</strong> अर्थात<span class=\"math-tex\">\\(\\frac{2}{87}\\)</span>&nbsp;है।&nbsp;&nbsp;</p>\r\n\r\n<div style=\"position:relative\">\r\n<p>tan A = 2/3&nbsp;</p>\r\n\r\n<p>tan A = 2/3&nbsp;</p>\r\n\r\n<p>sin A/cos A = 2/3</p>\r\n\r\n<p>sin A और Cos A के मानों का प्रयोग करने पर, हम पाते हैं</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\((5 sin^2 A - 2 cos^2A) \\div(15sin^2A + 3cos^2A)\\)</span></p>\r\n\r\n<p>&rArr; (5&nbsp;&times; 4 - 2&nbsp;&times; 9)&nbsp;&divide; (60 + 27)</p>\r\n\r\n<p>= 2/87</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If sec 2&theta; = cosec (&theta; &ndash; 36&deg;), where 2&theta; is an acute angle, find the value of &theta;.</p>\r\n",
+    "options": [
+      "<p>32&deg;</p>\r\n",
+      "<p>46&deg;</p>\r\n",
+      "<p>20&deg;</p>\r\n",
+      "<p>42&deg;</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is <strong>Option 4</strong> i.e.&nbsp;<strong>42&deg;.</strong></p>\r\n\r\n<p><strong>Formula used:</strong></p>\r\n\r\n<p>If A + B = 90 then</p>\r\n\r\n<p>sec A = cosec B&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>Using equation (1), we get</p>\r\n\r\n<p>A = 2&theta; and B =&nbsp;&theta; - 26</p>\r\n\r\n<p>&rArr; 2&theta; +&nbsp;&theta; - 36 = 90</p>\r\n\r\n<p>&rArr; 3&theta; = 126</p>\r\n\r\n<p>&rArr;&nbsp;&theta; = 42&deg;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि sec 2&theta; = cosec (&theta; &ndash; 36&deg;) है, जहां 2&theta; एक न्यूनकोण है, तो &theta; का मान ज्ञात कीजिये।&nbsp;</p>\r\n",
+    "options_hi": [
+      "<p>32&deg;</p>\r\n",
+      "<p>46&deg;</p>\r\n",
+      "<p>20&deg;</p>\r\n",
+      "<p>42&deg;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प&nbsp;4</strong> यानि <strong>42&deg;</strong>है।&nbsp;</p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:&nbsp;</strong></p>\r\n\r\n<p>यदि A + B = 90, तब&nbsp;</p>\r\n\r\n<p>sec A = cosec B&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---- (1)</p>\r\n\r\n<p><strong>गणना करने पर:&nbsp;</strong></p>\r\n\r\n<p>समीकरण (1) का इस्तेमाल करने पर,&nbsp;</p>\r\n\r\n<p>A = 2&theta; and B =&nbsp;&theta; - 36</p>\r\n\r\n<p>&rArr; 2&theta; +&nbsp;&theta; - 36 = 90</p>\r\n\r\n<p>&rArr; 3&theta; = 126</p>\r\n\r\n<p>&rArr;&nbsp;&theta; = 42&deg;</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>If sin&nbsp;<span style=\"font-size:11.0pt\">&theta; = 8/17, then find the value of tan&theta;.</span></p>\r\n",
+    "options": [
+      "<p>15/17</p>\r\n",
+      "<p>8/15</p>\r\n",
+      "<p>15/8</p>\r\n",
+      "<p>17/15</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong>8/15.</strong></p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>sin&nbsp;<span style=\"font-size:11.0pt\">&theta; = 8/17, where Perpendicular = 8 units and hypotenuse = 17 units</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">Using pythagoras theorem,</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; 17<sup>2</sup>&nbsp;- 8<sup>2</sup>&nbsp;= Base<sup>2</sup></span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; Base<sup>2</sup> = 225</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; Base = 15 units</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">We know tan&nbsp;&theta; = Perpendicular/base</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; 8/15</span></p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>यदि sin&nbsp;<span style=\"font-size:11.0pt\">&theta; = 8/17 है, तो tan&theta; का मान ज्ञात करें।&nbsp;</span></p>\r\n",
+    "options_hi": [
+      "<p>15/17</p>\r\n",
+      "<p>8/15</p>\r\n",
+      "<p>15/8</p>\r\n",
+      "<p>17/15</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 2 </strong>यानि&nbsp;<strong>8/15 </strong>है।&nbsp;</p>\r\n\r\n<p><strong>गणना करने पर:&nbsp;</strong></p>\r\n\r\n<p>sin&nbsp;<span style=\"font-size:11.0pt\">&theta; = 8/17, जहां लंब = 8 इकाई और कर्ण = 17 इकाई&nbsp;</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">पाइथोगोरस प्रमेय का इस्तेमाल करने पर,&nbsp;</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; 17<sup>2</sup>&nbsp;- 8<sup>2</sup>&nbsp;= आधार<sup>2</sup></span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; आधार<sup>2</sup> = 225</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; आधार = 15 इकाई&nbsp;</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">हमें ज्ञात है कि tan&nbsp;&theta; = लंब/आधार&nbsp;</span></p>\r\n\r\n<p><span style=\"font-size:11.0pt\">&rArr; 8/15</span></p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p><span style=\"font-size:11.0pt\">If sin </span><span style=\"font-size:11.0pt\"><span style=\"font-family:Symbol\">q </span></span><span style=\"font-size:11.0pt\">+ cos </span><span style=\"font-size:11pt\"><span style=\"font-family:Symbol\">q </span><span style=\"font-family:Calibri,sans-serif\">&nbsp;= <span class=\"math-tex\">\\(\\frac{(√3-1)}{(2√2)}\\)</span>&nbsp;then what is the value of tan </span></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Symbol\">q </span></span><span style=\"font-size:11.0pt\">+ cot</span><span style=\"font-size:11.0pt\"><span style=\"font-family:Symbol\">q</span></span><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"> ?</span></span></p>\r\n",
+    "options": [
+      "<p>8(&radic;3 - 2)</p>\r\n",
+      "<p>12(&radic;3 - 2)</p>\r\n",
+      "<p>12(&radic;3 + 2)</p>\r\n",
+      "<p>8(&radic;3 + 2)</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<strong>8(&radic;3 - 2).</strong></p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>&rArr; tan&nbsp;&theta;&nbsp;+ cot&nbsp;&theta;&nbsp;= 1/(sin &theta;.cos&theta;)<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>---- (1)</p>\r\n\r\n<p>&rArr; (sin&nbsp;&theta;&nbsp;+ cos&nbsp;&theta;)&nbsp;= ((&radic;3 - 1)/2&radic;2)<strong>&nbsp;</strong></p>\r\n\r\n<p>Squaring on both sides we get</p>\r\n\r\n<p>&rArr; 1 + 2sin&theta;.cos&theta; = (4 - 2&radic;3)/8</p>\r\n\r\n<p>&rArr; sin&theta;.cos&theta; = - (4 + 2&radic;3)/16</p>\r\n\r\n<p>Now using the value of sin&theta;.cos&theta; in equation (1)</p>\r\n\r\n<p>&rArr; (16/-(4 + 2&radic;3))</p>\r\n\r\n<p>Rationalising the denominator, we get</p>\r\n\r\n<p>&rArr; 16(2&radic;3 - 4)/4 =&nbsp;8(&radic;3 - 2)</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p><span style=\"font-size:11.0pt\">यदि sin </span><span style=\"font-size:11.0pt\"><span style=\"font-family:Symbol\">q </span></span><span style=\"font-size:11.0pt\">+ cos </span><span style=\"font-size:11pt\"><span style=\"font-family:Symbol\">q </span><span style=\"font-family:Calibri,sans-serif\">&nbsp;= <span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span class=\"math-tex\">\\(\\frac{(√3-1)}{(2√2)}\\)</span></span></span>&nbsp;है, तो tan </span></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Symbol\">q </span></span><span style=\"font-size:11.0pt\">+ cot</span><span style=\"font-size:11.0pt\"><span style=\"font-family:Symbol\">q</span></span><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;का मान कितना होगा?&nbsp;</span></span></p>\r\n",
+    "options_hi": [
+      "<p>8(&radic;3 - 2)</p>\r\n",
+      "<p>12(&radic;3 - 2)</p>\r\n",
+      "<p>12(&radic;3 + 2)</p>\r\n",
+      "<p>8(&radic;3 + 2)</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<div style=\"position:relative\">\r\n<p>सही उत्तर <strong>विकल्प 1 </strong>यानि <strong>8(&radic;3 - 2)&nbsp;</strong>है।&nbsp;</p>\r\n\r\n<p><strong>गणना करने पर:&nbsp;</strong></p>\r\n\r\n<p>&rArr; tan&nbsp;&theta;&nbsp;+ cot&nbsp;&theta;&nbsp;= 1/(sin &theta;.cos&theta;)<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>---- (1)</p>\r\n\r\n<p>&rArr; (sin&nbsp;&theta;&nbsp;+ cos&nbsp;&theta;)&nbsp;= ((&radic;3 - 1)/2&radic;2)<strong>&nbsp;</strong></p>\r\n\r\n<p>दोनों तरफ वर्ग करने पर,&nbsp;</p>\r\n\r\n<p>&rArr; 1 + 2sin&theta;.cos&theta; = (4 - 2&radic;3)/8</p>\r\n\r\n<p>&rArr; sin&theta;.cos&theta; = - (4 + 2&radic;3)/16</p>\r\n\r\n<p>अब, समीकरण (1) में sin&theta;.cos&theta; का मान रखने पर,&nbsp;</p>\r\n\r\n<p>&rArr; (16/-(4 + 2&radic;3))</p>\r\n\r\n<p>भाजक का परिमेयकरण करने पर,&nbsp;</p>\r\n\r\n<p>&rArr; 16(2&radic;3 - 4)/4 =&nbsp;8(&radic;3 - 2)</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>The value of&nbsp;<span class=\"math-tex\">\\(\\sqrt{{1+cosA} \\over 1-cosA}\\)</span><span style=\"font-size:20px\">&nbsp; &nbsp;</span><span style=\"font-size:16px\">is:</span></p>\r\n",
+    "options": [
+      "<p>sec A - tan A</p>\r\n",
+      "<p>cosec A + cot A</p>\r\n",
+      "<p>cosec A.cot A</p>\r\n",
+      "<p>cosec A - cot A</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2</strong> i.e.&nbsp;<strong>cosec A + cot A.</strong></p>\r\n\r\n<p><strong>Concept USed:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sin^2 A = 1 - \\cos^2A\\)</span></p>\r\n\r\n<p>1/sinA = cosecA</p>\r\n\r\n<p>cosA/sinA = cotA</p>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>Multiplying (1 +&nbsp;cosA) in both numerator and denominator of&nbsp;<span style=\"font-size:20px\"><span class=\"math-tex\">\\(\\sqrt{{1+cosA} \\over 1-cosA}\\)</span>&nbsp;,</span>&nbsp;</p>\r\n\r\n<p>we get</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\sqrt{{(1 + cosA)(1 + cosA) }\\over {(1 - cosA)(1 + cosA)}}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{(1+cosA)^2 \\over {1 - cos^2A}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{(1 + cosA)^2 \\over sin^2A}\\)</span></p>\r\n\r\n<p>Removing square root,&nbsp;<span class=\"math-tex\">\\((1 + cosA)\\over sinA\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({1 \\over sinA} + {cosA \\over sinA}\\)</span>&nbsp;= cosecA + cotA.</p>\r\n\r\n<p>Hence the value of<span style=\"font-size:20px\"><span class=\"math-tex\">\\(\\sqrt{{1+cosA} \\over 1-cosA}\\)</span>&nbsp;</span>= cosecA + cotA.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>&nbsp;<span class=\"math-tex\">\\(\\sqrt{{1+cosA} \\over 1-cosA}\\)</span><span style=\"font-size:20px\">&nbsp;</span><span style=\"font-size:14px\">का मान है:</span></p>\r\n",
+    "options_hi": [
+      "<p>sec A - tan A</p>\r\n",
+      "<p>cosec A + cot A</p>\r\n",
+      "<p>cosec A.cot A</p>\r\n",
+      "<p>cosec A - cot A</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>cosec A + cot A </strong>है।</p>\r\n\r\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\r\n\r\n<p><span class=\"math-tex\">\\(\\sin^2 A = 1 - \\cos^2A\\)</span></p>\r\n\r\n<p>1/sinA = cosecA</p>\r\n\r\n<p>cosA/sinA = cotA</p>\r\n\r\n<p><strong>व्याख्या:</strong></p>\r\n\r\n<p><span style=\"font-size:20px\"><span class=\"math-tex\">\\(\\sqrt{{1+cosA} \\over 1-cosA}\\)</span>&nbsp;</span>के अंश और हर दोनों में (1 + cosA) का गुणा करने पर, हम प्राप्त करते हैं-</p>\r\n\r\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\sqrt{{(1 + cosA)(1 + cosA) }\\over {(1 - cosA)(1 + cosA)}}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{(1+cosA)^2 \\over {1 - cos^2A}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\sqrt{(1 + cosA)^2 \\over sin^2A}\\)</span></p>\r\n\r\n<p>वर्गमूल हटाने पर,&nbsp;<span class=\"math-tex\">\\((1 + cosA)\\over sinA\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\({1 \\over sinA} + {cosA \\over sinA}\\)</span>&nbsp;= cosecA + cotA</p>\r\n\r\n<p>अत:&nbsp;<span style=\"font-size:20px\"><span class=\"math-tex\">\\(\\sqrt{{1+cosA} \\over 1-cosA}\\)</span>&nbsp;</span>=&nbsp; cosecA + cotA&nbsp;</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>tan(&theta; -14&pi;) is equal to:</p>\r\n",
+    "options": [
+      "<p>tan&theta;</p>\r\n",
+      "<p>-cot&theta;</p>\r\n",
+      "<p>cot&theta;</p>\r\n",
+      "<p>-tan&theta;</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1</strong> i.e.&nbsp;<strong>tan&theta;.</strong></p>\r\n\r\n<p><strong>Concept used:</strong></p>\r\n\r\n<p>tan(-&theta;) = - tan&theta;</p>\r\n\r\n<p><strong>Calculations:</strong></p>\r\n\r\n<p>According to the question;</p>\r\n\r\n<p>&rArr;&nbsp;tan(&theta; -14&pi;) = - tan(14&pi; - &theta;)</p>\r\n\r\n<p>where,&nbsp;14&pi; - &theta; lies in the 4th quadrant</p>\r\n\r\n<p>&rArr; - (- tan&theta;) = tan&nbsp;&theta;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>tan(&theta; -14&pi;) किसके बराबर है:</p>\r\n",
+    "options_hi": [
+      "<p>tan&theta;</p>\r\n",
+      "<p>-cot&theta;</p>\r\n",
+      "<p>cot&theta;</p>\r\n",
+      "<p>-tan&theta;</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर&nbsp;<strong>विकल्प 1</strong> यानी&nbsp;<strong>tan&theta; है।</strong></p>\r\n\r\n<p><strong>प्रयुक्त सूत्र:</strong></p>\r\n\r\n<p>tan(-&theta;) = - tan&theta;</p>\r\n\r\n<p><strong>गणना:</strong></p>\r\n\r\n<p>प्रश्न के अनुसार;</p>\r\n\r\n<p>&rArr;&nbsp;tan(&theta; -14&pi;) = - tan(14&pi; - &theta;)</p>\r\n\r\n<p>जहाँ,&nbsp;14&pi; - &theta; चतुर्थ चतुर्थांश में स्थित है</p>\r\n\r\n<p>&rArr; - (- tan&theta;) = tan&nbsp;&theta;</p>\r\n"
+  }
+]
