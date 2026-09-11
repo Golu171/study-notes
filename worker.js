@@ -1,4 +1,4 @@
-hereconst OWNER="Golu171",REPO="study-notes",BRANCH="main";
+const OWNER="Golu171",REPO="study-notes",BRANCH="main";
 const DEFAULT_FOLDER="HARYANA-GK/HARYANA-CURRENT";
 const MAX_FILE_SIZE=20*1024*1024,RETRIES=8;
 const WEBHOOK_SECRET="study-notes-webhook-2026";
