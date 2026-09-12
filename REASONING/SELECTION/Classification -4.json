@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>The first number in the given number pairs is obtained by performing certain mathematical operation(s) on the second number. The same operation(s) is/are followed in all the number pairs except one. Find that odd number pair.</p>\r\n",
+    "options": [
+      "<p>20 : 11</p>\r\n",
+      "<p>6 : 4</p>\r\n",
+      "<p>15 : 9</p>\r\n",
+      "<p>12 : 7</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>15 : 9.</strong></p>\r\n\r\n<p>The logic used here is:&nbsp; 2nd number&nbsp;&times; 2 - 2 = 1st number</p>\r\n\r\n<p><strong>Option 1: 20 : 11</strong>&nbsp;11&nbsp;&times; 2 - 2 = 22 - 2 = 20&nbsp; This follows the logic.</p>\r\n\r\n<p><strong>Option 3: 15 : 9</strong> 9&nbsp;&times; 2 - 2 = 18 - 2 = 16&nbsp; &nbsp; This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए संख्या युग्मों में&nbsp;पहली संख्या, दूसरी संख्या पर कुछ गणितीय संक्रियाएँ निष्पादित करके प्राप्त की जाती है। एक को छोड़कर सभी संख्या युग्मों में समान संक्रियाओं का पालन किया गया है। वह भिन्न संख्या युग्म ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>20 : 11</p>\r\n",
+      "<p>6 : 4</p>\r\n",
+      "<p>15 : 9</p>\r\n",
+      "<p>12 : 7</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>15 : 9</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: दूसरी संख्या &times; 2 - 2 = पहली संख्या</p>\r\n\r\n<p><strong>विकल्प 1: 20 : 11</strong>&nbsp;11 &times; 2 - 2 = 22 - 2 = 20&nbsp; यह तर्क का अनुसरण करता है</p>\r\n\r\n<p><strong>विकल्प 3: 15 : 9</strong>&nbsp;9 &times; 2 - 2 = 18 - 2 = 16&nbsp; यह तर्क का अनुसरण नहीं करता है</p>\r\n"
+  },
+  {
+    "question": "<p>Four letter clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter cluster.</p>\r\n",
+    "options": [
+      "<p>BFJN</p>\r\n",
+      "<p>DHLP</p>\r\n",
+      "<p>HJKP</p>\r\n",
+      "<p>JNRV</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3&nbsp;</strong>i.e.&nbsp;<strong>HJKP.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter + 4 = 2nd letter, 2nd letter + 4 = 3rd letter, 3rd letter + 4 = 4th letter</p>\r\n\r\n<p><strong>Option 1: BFJN</strong>&nbsp;B + 4 = F; F + 4 = J; J + 4 = N&nbsp; This follows the logic</p>\r\n\r\n<p><strong>Option 3: HJKP</strong> H + 4 = L; L + 4 = P; P + 4 = T&nbsp; This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>चार अक्षर समूह दिए गए हैं, जिनमें से तीन किसी प्रकार से समान हैं और एक भिन्न है। भिन्न अक्षर समूह का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>BFJN</p>\r\n",
+      "<p>DHLP</p>\r\n",
+      "<p>HJKP</p>\r\n",
+      "<p>JNRV</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>HJKP</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क है: पहला अक्षर + 4 = दूसरा अक्षर, दूसरा अक्षर + 4 = तीसरा अक्षर, तीसरा अक्षर + 4 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 2: DHLP</strong>&nbsp; D + 4 = H; H + 4 = L; L + 4 = P यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 3: HJKP</strong>&nbsp; H + 4 = L; L + 4 = P; P + 4 = T यह तर्क का अनुसरण नहीं करता है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four triads are alike in a certain way as they are formed by performing the same mathematical operations among themselves and thus form a group. Which triad does NOT belong to that group?</p>\r\n",
+    "options": [
+      "<p>12 : 47 : 60</p>\r\n",
+      "<p>4 : 16 : 20</p>\r\n",
+      "<p>2 : 7 : 10</p>\r\n",
+      "<p>5 : 19 : 25</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.<strong>&nbsp;4 : 16 : 20.</strong></p>\r\n\r\n<p>The logic used here is: 1st number + 2nd number + 1 = 3rd number</p>\r\n\r\n<p><strong>Option 2:</strong> <strong>4 : 16 : 20</strong>: 4 + 16 + 1 = 21, This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार त्रिकों में से तीन एक निश्चित तरीके से एकसमान हैं क्योंकि वे आपस में समान गणितीय संक्रियाओं को निष्पादित करके बनते हैं और इस प्रकार एक समूह बनाते हैं। कौन सा त्रिक&nbsp;उस समूह से संबंधित नहीं है?</p>\r\n",
+    "options_hi": [
+      "<p>12 : 47 : 60</p>\r\n",
+      "<p>4 : 16 : 20</p>\r\n",
+      "<p>2 : 7 : 10</p>\r\n",
+      "<p>5 : 19 : 25</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>4 : 16 : 20</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहली संख्या + दूसरी संख्या + 1 = तीसरी संख्या</p>\r\n\r\n<p><strong>विकल्प 2: 4 : 16 : 20</strong>: 4 + 16 + 1 = 21, यह तर्क का अनुसरण नहीं करता है</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four-letter clusters are alike in a certain way and one is different. Pick the odd one out.</p>\r\n",
+    "options": [
+      "<p>JOTY</p>\r\n",
+      "<p>SXCH</p>\r\n",
+      "<p>GKPS</p>\r\n",
+      "<p>AFKP</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong> i.e. <strong>GKPS.</strong><br />\r\nJOTY: J + 5 = O, O + 5 = T, T + 5 = Y<br />\r\nSXCH: S&nbsp;+ 5 = X, X + 5 =C, C + 5 = H<br />\r\n<strong>GKPS: G + 5 = L, L + 5 = Q, Q + 5 = V,&nbsp;</strong>This does not follow the logic.<br />\r\nAFKP: A + 5 = F, F + 5 = K, K + 5 = P</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न का चुन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>JOTY</p>\r\n",
+      "<p>SXCH</p>\r\n",
+      "<p>GKPS</p>\r\n",
+      "<p>AFKP</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>GKPS</strong> है।</p>\r\n\r\n<p>JOTY: J + 5 = O, O + 5 = T, T + 5 = Y<br />\r\nSXCH: S&nbsp;+ 5 = X, X + 5 =C, C + 5 = H<br />\r\n<strong>GKPS: G + 5 = L, L + 5 = Q, Q + 5 = V,&nbsp;</strong>यह तर्क का अनुसरण नहीं करता है।<br />\r\nAFKP: A + 5 = F, F + 5 = K, K + 5 = P</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four-letter clusters are alike in a certain way and one is different. Pick the odd one out.</p>\r\n",
+    "options": [
+      "<p>JQM</p>\r\n",
+      "<p>DWG</p>\r\n",
+      "<p>BXE</p>\r\n",
+      "<p>AZD</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 3</strong> i.e.&nbsp;<strong>BXE.</strong></p>\r\n\r\n<p>The logic used here is: Opposite of 1st letter = 2nd letter, 1st letter + 3 = 3rd letter</p>\r\n\r\n<p><strong>Option 1: JQM</strong>: Opposite of J = Q, J + 3 = M: This follows the logic.</p>\r\n\r\n<p><strong>Option 3: BXE</strong>: Opposite of B = Y, B + 3 = E: This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार-अक्षर समूहों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>JQM</p>\r\n",
+      "<p>DWG</p>\r\n",
+      "<p>BXE</p>\r\n",
+      "<p>AZD</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\">\r\n<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>BXE</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहले अक्षर का विपरीत = दूसरा अक्षर, पहला अक्षर + 3 = तीसरा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: JQM</strong>: J का विपरीत = Q , J + 3 = M: यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 3: BXE</strong>: B का विपरीत = Y, B + 3 = E: यह तर्क का अनुसरण नहीं करता है।</p>\r\n</div>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four letter clusters are alike in a certain way and one is different.&nbsp;Pick the odd one out.</p>\r\n",
+    "options": [
+      "<p>HMS</p>\r\n",
+      "<p>AFZ</p>\r\n",
+      "<p>KOP</p>\r\n",
+      "<p>DIW</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3 </strong>i.e.<strong> KOP.</strong></p>\r\n\r\n<p>The logic used here is: Opposite of 1st letter = 3rd letter, 1st letter + 5 = 2nd letter</p>\r\n\r\n<p><strong>Option 1: HMS</strong>: Opposite of H&nbsp;= S, H + 5 = M: This follows the logic.</p>\r\n\r\n<p><strong>Option 3: KOP</strong>: Opposite of K&nbsp;= P, K + 5 = P &ne; O:&nbsp;This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार अक्षर समूहों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>HMS</p>\r\n",
+      "<p>AFZ</p>\r\n",
+      "<p>KOP</p>\r\n",
+      "<p>DIW</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>KOP</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहले अक्षर का विपरीत = तीसरा अक्षर, पहला अक्षर + 5 = दूसरा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: HMS</strong>: H का विपरीत = S, H + 5 = M: यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 3: KOP</strong>: K का विपरीत = P, K + 5 = P: यह तर्क का अनुसरण नहीं करता है।</p>\r\n</div>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four triads are alike in a certain way as they are formed by performing the same mathematical operations among themselves and thus form a group. Which triad does NOT belong to that group?</p>\r\n",
+    "options": [
+      "<p>36 : 13 : 7</p>\r\n",
+      "<p>16 : 9 : 5</p>\r\n",
+      "<p>72 : 16 : 8</p>\r\n",
+      "<p>1 : 3 : 2</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>72 : 16 : 8.</strong></p>\r\n\r\n<p>The logic used here is: 1st number + 2nd number = (3rd number)<sup>2</sup>&nbsp;</p>\r\n\r\n<p><strong>Option 1: 36 : 13 : 7</strong>: 36 + 13 = 49 = 7<sup>2</sup>: This follows the logic.</p>\r\n\r\n<p><strong>Option 3: 72 : 16 : 8</strong>: 72 + 16 = 88 is not equal to 8<sup>2</sup>:&nbsp;This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार त्रिकों में से तीन एक निश्चित तरीके से एक समान हैं क्योंकि वे आपस में समान गणितीय संक्रियाओं को निष्पादित करके बनते हैं और इस प्रकार एक समूह बनाते हैं। कौन सा त्रिक उस समूह से संबंधित नहीं है?</p>\r\n",
+    "options_hi": [
+      "<p>36 : 13 : 7</p>\r\n",
+      "<p>16 : 9 : 5</p>\r\n",
+      "<p>72 : 16 : 8</p>\r\n",
+      "<p>1 : 3 : 2</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात् <strong>72 : 16 : 8</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहली संख्या + दूसरी संख्या = (तीसरी संख्या)<sup>2</sup></p>\r\n\r\n<p><strong>विकल्प 1: 36 : 13 : 7</strong>: 36 + 13 = 49 = 7<sup>2</sup>:&nbsp;यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 3: 72 : 16 : 8</strong>: 72 + 16 = 88,&nbsp;8<sup>2</sup>&nbsp;के बराबर नहीं है: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four-letter clusters are alike in a certain way and one is different. Pick the odd one out.</p>\r\n",
+    "options": [
+      "<p>KPH</p>\r\n",
+      "<p>EVC</p>\r\n",
+      "<p>DWA</p>\r\n",
+      "<p>GTD</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong>&nbsp;i.e.&nbsp;<strong>EVC.</strong></p>\r\n\r\n<p>The logic used here is: Opposite of 1st letter = 2nd letter, 1st letter - 3 = 3rd letter</p>\r\n\r\n<p><strong>Option 1:&nbsp;KPH</strong>: Opposite of K = P, K - 3 = H (This follows the logic.)</p>\r\n\r\n<p><strong>Opposite 2:&nbsp;EVC</strong>: Opposite of E = V, E - 3 = B (This does not follow&nbsp;the logic.)</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार-अक्षर समूहों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न को चुनिए।</p>\r\n",
+    "options_hi": [
+      "<p>KPH</p>\r\n",
+      "<p>EVC</p>\r\n",
+      "<p>DWA</p>\r\n",
+      "<p>GTD</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>EVC</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहले अक्षर का विपरीत = दूसरा अक्षर, पहला अक्षर - 3 = तीसरा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: KPH</strong>: K का विपरीत = P, K - 3 = H (यह तर्क का अनुसरण करता है)</p>\r\n\r\n<p><strong>विपरीत 2:</strong> <strong>EVC</strong>: E का विपरीत = V, E - 3 = B (यह तर्क का अनुसरण नहीं करता है)</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four-letter clusters are alike in a certain way and one is different. Pick the odd one out.</p>\r\n",
+    "options": [
+      "<p>HKNQ</p>\r\n",
+      "<p>MQUY</p>\r\n",
+      "<p>GKOS</p>\r\n",
+      "<p>PTXB</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e.&nbsp;<strong>HKNQ.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter + 4 = 2nd letter, 2nd letter + 4 = 3rd letter, 3rd letter + 4 = 4th letter</p>\r\n\r\n<p><strong>Option 1: HKNQ</strong>: H + 4 = L, L + 4 = P, P + 4 = T, T + 4 = X: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार-अक्षर समूहों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न को चुनिए।</p>\r\n",
+    "options_hi": [
+      "<p>HKNQ</p>\r\n",
+      "<p>MQUY</p>\r\n",
+      "<p>GKOS</p>\r\n",
+      "<p>PTXB</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>HKNQ</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर + 4 = दूसरा अक्षर, दूसरा अक्षर + 4 = तीसरा अक्षर, तीसरा अक्षर + 4 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: HKNQ</strong>: H + 4 = L, L + 4 = P, P + 4 = T, T + 4 = X:&nbsp;यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>The second number in the given number pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) are followed in all the number pairs, EXCEPT one. Find that odd number pair.</p>\r\n",
+    "options": [
+      "<p>(15, 240)</p>\r\n",
+      "<p>(13, 180)</p>\r\n",
+      "<p>(11, 132)</p>\r\n",
+      "<p>(16, 272)</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2 </strong>i.e.&nbsp;<strong>(13, 180).</strong></p>\r\n\r\n<p>The logic used here is: (1st number)<sup>2</sup>&nbsp;+ 1st number = 2nd number</p>\r\n\r\n<p><strong>Option 1:&nbsp;(15, 240)</strong>: 15<sup>2</sup>&nbsp;+ 15 = 225 + 15 = 240: this follows the logic.</p>\r\n\r\n<p><strong>Option 2:</strong>&nbsp;<strong>(13, 180)</strong>: 13<sup>2</sup>&nbsp;+ 13 = 169 + 13 = 182: This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए संख्या युग्मों में दूसरी संख्या, पहली संख्या पर कुछ गणितीय संक्रियाएँ निष्पादित करके प्राप्त की जाती है। एक को छोड़कर, सभी संख्या युग्मों में समान संक्रियाएँ अनुसरण की जाती हैं। वह भिन्न संख्या युग्म ज्ञात कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>(15, 240)</p>\r\n",
+      "<p>(13, 180)</p>\r\n",
+      "<p>(11, 132)</p>\r\n",
+      "<p>(16, 272)</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>(13, 180)</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: (पहली संख्या)<sup>2</sup> + पहली&nbsp;संख्या = दूसरी संख्या</p>\r\n\r\n<p><strong>विकल्प 1: (15, 240)</strong>: 15<sup>2</sup>&nbsp;+ 15 = 225 + 15 = 240:&nbsp;यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 2: (13, 180)</strong>: 13<sup>2</sup>&nbsp;+ 13 = 169 + 13 = 182: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs, except one. Find that odd number-pair.<br />\r\n<br />\r\n(<strong>NOTE:</strong> The relation should be found without breaking down the numbers into its constituent digits)</p>\r\n",
+    "options": [
+      "<p>225 : 169</p>\r\n",
+      "<p>361 : 400</p>\r\n",
+      "<p>529 : 576</p>\r\n",
+      "<p>441 : 484</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 1</strong>&nbsp;i.e.&nbsp;<strong>225 : 169.</strong></p>\r\n\r\n<p>The numbers in sets 2, 3, and 4 are squares of consecutive numbers.</p>\r\n\r\n<p>But for set 1, the numbers are squares of 15 and 13, which are not consecutive.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>दिए गए संख्या-युग्मों में दूसरी संख्या, पहली संख्या पर कुछ गणितीय संक्रियाएं निष्पादित करके प्राप्त की जाती है। एक को छोड़कर सभी संख्या-युग्म में समान संक्रियाओं का अनुसरण&nbsp;किया जाता है। वह भिन्न संख्या-युग्म ज्ञात कीजिए।</p>\r\n\r\n<p>(<strong>नोट: </strong>संबंध को संख्याओं को उसके घटक अंकों में विभाजित किए&nbsp;बिना पाया जाना चाहिए)</p>\r\n",
+    "options_hi": [
+      "<p>225 : 169</p>\r\n",
+      "<p>361 : 400</p>\r\n",
+      "<p>529 : 576</p>\r\n",
+      "<p>441 : 484</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>225 : 169</strong> है।</p>\r\n\r\n<p>समूह 2, 3 और 4 की संख्याएँ क्रमागत संख्याओं के वर्ग हैं।</p>\r\n\r\n<p>लेकिन समूह 1 के लिए, संख्याएँ 15 और 13 के वर्ग हैं, जो क्रमागत नहीं हैं।</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four-letter clusters are alike in a certain way and one is different. Pick the odd one out.</p>\r\n",
+    "options": [
+      "<p>KLNP</p>\r\n",
+      "<p>JIGQ</p>\r\n",
+      "<p>SRPH</p>\r\n",
+      "<p>WVTD</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1 </strong>i.e.<strong> KLNP.</strong></p>\r\n\r\n<p>The logic used here is: Opposite of 1st letter = 4th letter , 2nd letter - 2 = 3rd letter</p>\r\n\r\n<p><strong>Option 1: KLNP</strong>: Opposite of K = P, L - 2 = J: This does not follow the logic&nbsp;</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार-अक्षर समूहों में से तीन एक निश्चित तरीके से समान हैं और एक भिन्न है। भिन्न का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>KLNP</p>\r\n",
+      "<p>JIGQ</p>\r\n",
+      "<p>SRPH</p>\r\n",
+      "<p>WVTD</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>KLNP</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क है: पहले अक्षर का विपरीत = चौथा अक्षर, दूसरा अक्षर - 2 = तीसरा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1:</strong> <strong>KLNP</strong>: K का विपरीत = P, L - 2 = J: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Four letter clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter cluster.</p>\r\n",
+    "options": [
+      "<p>KNJZ</p>\r\n",
+      "<p>MJLO</p>\r\n",
+      "<p>FIEU</p>\r\n",
+      "<p>SVRH</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.&nbsp;<strong>MJLO.</strong></p>\r\n\r\n<p><strong>Option 1: KNJZ</strong>: K + 3 = N, N - 4 = J, J + 16 = Z: This follows the logic.</p>\r\n\r\n<p><strong>Option 2: MJLO</strong>: M + 3 = Q, Q - 4 = M, M + 16 = C: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>चार अक्षर समूह दिए गए हैं, जिनमें से तीन किसी प्रकार से समान हैं और एक भिन्न है। भिन्न अक्षर समूह का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>KNJZ</p>\r\n",
+      "<p>MJLO</p>\r\n",
+      "<p>FIEU</p>\r\n",
+      "<p>SVRH</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>MJLO</strong> है।</p>\r\n\r\n<p><strong>विकल्प 1: KNJZ</strong>: K + 3 = N, N - 4 = J, J + 16 = Z: यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 2: MJLO</strong>: M + 3 = Q, Q - 4 = M, M + 16 = C: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following letter-clusters are alike in some manner and one is different. Select the one that is different.</p>\r\n",
+    "options": [
+      "<p>MRVY</p>\r\n",
+      "<p>TGQJ</p>\r\n",
+      "<p>NSWZ</p>\r\n",
+      "<p>GLPS</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2</strong> i.e.&nbsp;<strong>TGQJ.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter + 5 = 2nd letter, 2nd letter + 4 = 3rd letter, 3rd letter + 3 = 4th letter</p>\r\n\r\n<p><strong>Option 1: MRVY</strong>: M + 5 = R, R + 4 = V, V + 3 = Y:&nbsp;This follows&nbsp;the logic.</p>\r\n\r\n<p><strong>Option 2: TGQJ</strong>: T + 5 = Y, Y + 4&nbsp;= C, C + 4 = G&nbsp; &nbsp;This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से तीन अक्षर-समूह कुछ अर्थों में एक समान हैं और एक भिन्न है। भिन्न का चयन कीजिए-</p>\r\n",
+    "options_hi": [
+      "<p>MRVY</p>\r\n",
+      "<p>TGQJ</p>\r\n",
+      "<p>NSWZ</p>\r\n",
+      "<p>GLPS</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>TGQJ&nbsp;</strong>है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर + 5 = दूसरा अक्षर, दूसरा अक्षर + 4 = तीसरा अक्षर, तीसरा अक्षर + 3 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: MRVY</strong>: M + 5 = R, R + 4 = V, V + 3 = Y: यह तर्क का अनुसरण करता है।</p>\r\n\r\n<p><strong>विकल्प 2: TGQJ</strong>: T + 5 = Y, Y + 4&nbsp;= C, C + 4 = G: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Four letter clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter cluster.</p>\r\n",
+    "options": [
+      "<p>WYRS</p>\r\n",
+      "<p>PSJK</p>\r\n",
+      "<p>PRKL</p>\r\n",
+      "<p>FHAB</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>option 2 </strong>i.e.<strong>&nbsp;PSJK.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter - 4 = 4th letter, 2nd letter - 7 = 3rd letter</p>\r\n\r\n<p><strong>Option 1:&nbsp;WYRS</strong>: W - 4 = S, Y - 7 = R: This follows the logic.</p>\r\n\r\n<p><strong>Option 2:&nbsp;PSJK</strong>: P - 4 = L, S - 7 = L: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>चार अक्षर समूह दिए गए हैं, जिनमें से तीन किसी प्रकार से समान हैं और एक भिन्न है। भिन्न अक्षर समूह का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>WYRS</p>\r\n",
+      "<p>PSJK</p>\r\n",
+      "<p>PRKL</p>\r\n",
+      "<p>FHAB</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात् <strong>PSJK</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर - 4 = चौथा अक्षर, दूसरा अक्षर - 7 = तीसरा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1:&nbsp;WYRS</strong>: W - 4 = S, Y - 7 = R: यह तर्क का अनुसरण करता है</p>\r\n\r\n<p><strong>विकल्प 2:&nbsp;PSJK</strong>: P - 4 = L, S - 7 = L: यह तर्क का अनुसरण नहीं करता है</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following four are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?</p>\r\n\r\n<p>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13-Operations on 13 such as adding subtracting multiplying etc. to 13 can be performed. Breaking down&nbsp;13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)</p>\r\n",
+    "options": [
+      "<p>46 - 41 - 12</p>\r\n",
+      "<p>16 - 9 -&nbsp;21</p>\r\n",
+      "<p>23 - 18 - 15</p>\r\n",
+      "<p>34 - 28 - 18</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is&nbsp;<strong>Option 1</strong> i.e.<strong>&nbsp;46 - 41 - 12.</strong></p>\r\n\r\n<p>The logic used here is: (1st number - 2nd number)&nbsp;&times; 3 = 3rd number</p>\r\n\r\n<p><strong>Option 1: 46 - 41 - 12</strong>: 46 - 41 = 5, 5&nbsp;&times; 3 = 15: This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित चार में से तीन किसी प्रकार&nbsp;से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?</p>\r\n\r\n<p>(नोट: संख्याओं को उनके घटक अंकों में विभाजित किए बिना, पूर्ण संख्या पर संक्रियाएं की जानी चाहिए। उदाहरण के लिए 13-13 पर संक्रियाएं जैसे कि 13 में जोड़ना, घटाना, गुणा करना आदि किया जा सकता है। 13 को 1&nbsp;और 3 में विभाजित करना और फिर 1 और 3 पर गणितीय संक्रियाएँ करने की अनुमति नहीं है।)</p>\r\n",
+    "options_hi": [
+      "<p>46 - 41 - 12</p>\r\n",
+      "<p>16 - 9 -&nbsp;21</p>\r\n",
+      "<p>23 - 18 - 15</p>\r\n",
+      "<p>34 - 28 - 18</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>46 - 41 - 12</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: (पहली संख्या - दूसरी संख्या) &times; 3 = तीसरी संख्या</p>\r\n\r\n<p><strong>विकल्प 1: 46 - 41 - 12</strong>: 46 - 41 = 5, 5 &times; 3 = 15: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Four letter clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter cluster.</p>\r\n",
+    "options": [
+      "<p>WNDD</p>\r\n",
+      "<p>VOJG</p>\r\n",
+      "<p>ZSNK</p>\r\n",
+      "<p>TMHE</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is<strong> option 1&nbsp;</strong>i.e. <strong>WNDD.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter - 7 = 2nd letter,&nbsp; 2nd letter - 5 = 3rd letter,&nbsp; 3rd letter - 3 = 4th letter</p>\r\n\r\n<p><strong>Option 1: WNDD</strong>: W - 7 = P, P -&nbsp;5 = K, K&nbsp;-&nbsp;3 = H: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>चार अक्षर समूह दिए गए हैं, जिनमें से तीन किसी प्रकार से समान हैं और एक भिन्न है। भिन्न अक्षर समूह का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>WNDD</p>\r\n",
+      "<p>VOJG</p>\r\n",
+      "<p>ZSNK</p>\r\n",
+      "<p>TMHE</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>WNDD</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर - 7 = दूसरा अक्षर, दूसरा अक्षर - 5 = तीसरा अक्षर, तीसरा अक्षर - 3 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: WNDD</strong>: W - 7 = P, P -&nbsp;5 = K, K&nbsp;-&nbsp;3 = H: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?</p>\r\n",
+    "options": [
+      "<p>MZK</p>\r\n",
+      "<p>DFB</p>\r\n",
+      "<p>WYU</p>\r\n",
+      "<p>TVR</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>Option 1 </strong>i.e.&nbsp;<strong>MZK.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter + 2 = 2nd letter,&nbsp; 2nd letter - 4&nbsp;= 2nd letter</p>\r\n\r\n<p><strong>Option 1: MZK</strong>: M + 2 = O, O - 4 = K: This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>वर्णमाला क्रम के आधार पर, निम्नलिखित चार में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?</p>\r\n",
+    "options_hi": [
+      "<p>MZK</p>\r\n",
+      "<p>DFB</p>\r\n",
+      "<p>WYU</p>\r\n",
+      "<p>TVR</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>MZK</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर + 2 = दूसरा अक्षर, दूसरा अक्षर - 4= दूसरा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: MZK</strong>: M + 2 = O, O - 4 = K: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Four number pairs have been given out of which three are alike in some manner and one is different. Select the one that is different.</p>\r\n\r\n<p>(NOTE: Operations should be performed on the whole number, without breaking down the numbers into their constituent digits. E g. 13-Operations on 13 such as adding (deleting multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)</p>\r\n",
+    "options": [
+      "<p>46-141</p>\r\n",
+      "<p>29-88</p>\r\n",
+      "<p>35-108</p>\r\n",
+      "<p>55-168</p>\r\n"
+    ],
+    "correct": 2,
+    "solution": "<p>The correct answer is <strong>Option 2 </strong>i.e.<strong>&nbsp;29-88.</strong></p>\r\n\r\n<p>The logic used here is: (1st number &times; 3) + 3 = 2nd number</p>\r\n\r\n<p><strong>Option 1: 46-141:</strong>&nbsp;46&nbsp;&times; 3 = 138,&nbsp;138 + 3 = 141: This follows the logic.</p>\r\n\r\n<p><strong>Option 2: 29-88:</strong>&nbsp;29&nbsp;&times; 3 = 87 ,&nbsp; 87 + 3 = 90: This does not follow&nbsp;the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>चार संख्या युग्म दिए गए हैं, जिनमें से तीन किसी प्रकार&nbsp;से समान हैं और एक भिन्न है। भिन्न का चयन कीजिए-</p>\r\n\r\n<p>(नोट: संख्याओं को उनके घटक अंकों में विभाजित किए बिना, पूर्ण संख्या पर संक्रियाएँ की जानी चाहिए। उदाहरण के लिए 13-13 पर संक्रियाएँ जैसे कि 13 में जोड़ना, घटाना, गुणा करना आदि किया जा सकता है। 13 को 1&nbsp;और 3 में विभाजित करना और फिर 1 और 3 पर गणितीय संक्रियाएँ करने की अनुमति नहीं है।)</p>\r\n",
+    "options_hi": [
+      "<p>46-141</p>\r\n",
+      "<p>29-88</p>\r\n",
+      "<p>35-108</p>\r\n",
+      "<p>55-168</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 2</strong> अर्थात्&nbsp;<strong>29-88</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: (पहली संख्या &times; 3) + 3 = दूसरी संख्या</p>\r\n\r\n<p><strong>विकल्प 1: 46-141</strong>: 46 &times; 3 = 138, 138 + 3 = 141: यह तर्क का अनुसरण करता है</p>\r\n\r\n<p><strong>विकल्प 2: 29-88</strong>: 29 &times; 3 = 87, 87 + 3 = 90: यह तर्क का अनुसरण नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<div>Four letter clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter cluster.</div>\r\n",
+    "options": [
+      "<p>NJPM</p>\r\n",
+      "<p>EAFD</p>\r\n",
+      "<p>VRWU</p>\r\n",
+      "<p>LHMK</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e.<strong> NJPM.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter - 4&nbsp;= 2nd letter, 2nd letter + 5 = 3rd letter, 3rd letter - 2&nbsp;= 4th letter</p>\r\n\r\n<p><strong>Option 1: NJPM</strong>: N - 4 = J, J + 5 = O, O - 2 = M: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<div>चार अक्षर समूह दिए गए हैं, जिनमें से तीन किसी प्रकार से समान हैं और एक भिन्न&nbsp;है। भिन्न अक्षर समूह का चयन कीजिए।</div>\r\n",
+    "options_hi": [
+      "<p>NJPM</p>\r\n",
+      "<p>EAFD</p>\r\n",
+      "<p>VRWU</p>\r\n",
+      "<p>LHMK</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>NJPM</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर - 4= दूसरा अक्षर, दूसरा अक्षर + 5 = तीसरा अक्षर, तीसरा अक्षर - 2 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: NJPM</strong>: N - 4 = J, J + 5 = O, O - 2 = M: यह तर्क का अनुसरण नहीं करता है</p>\r\n"
+  },
+  {
+    "question": "<p>Based on the position in the English alphabetical order, three of the following letter-clusters are alike in some manner and one is different. Select the odd letter-cluster.</p>\r\n",
+    "options": [
+      "<p>SWYX</p>\r\n",
+      "<p>PTVU</p>\r\n",
+      "<p>RVXW</p>\r\n",
+      "<p>LOQP</p>\r\n"
+    ],
+    "correct": 4,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 4</strong>&nbsp;i.e.&nbsp;<strong>LOQP.</strong></p>\r\n\r\n<p><strong>Logic: First letter + 4 = Second letter, Second letter + 2 = Third letter, Third Letter - 1 = Fourth letter&nbsp;</strong></p>\r\n\r\n<p>Except for Option 4 does not follow&nbsp;the logic.</p>\r\n\r\n<p>LOQP: L + 4 = P, P + 2 = R, R - 1 = Q</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>अंग्रेजी वर्णमाला क्रम में स्थिति के आधार पर, निम्नलिखित में से तीन अक्षर-समूह किसी तरह से समान हैं और एक भिन्न है। भिन्न अक्षर-समूह का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>SWYX</p>\r\n",
+      "<p>PTVU</p>\r\n",
+      "<p>RVXW</p>\r\n",
+      "<p>LOQP</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 4</strong> अर्थात्&nbsp;<strong>LOQP</strong> है।</p>\r\n\r\n<p><strong>तर्क: पहला अक्षर + 4 = दूसरा अक्षर, दूसरा अक्षर + 2 = तीसरा अक्षर, तीसरा अक्षर - 1 = चौथा अक्षर</strong></p>\r\n\r\n<p>विकल्प 4 को छोड़कर कोई भी तर्क का पालन नहीं करता है।</p>\r\n\r\n<p>LOQP: L + 4 = P, P + 2 = R, R - 1 = Q</p>\r\n"
+  },
+  {
+    "question": "<p>Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter-cluster.</p>\r\n",
+    "options": [
+      "<p>GCKD</p>\r\n",
+      "<p>UQYR</p>\r\n",
+      "<p>XOTP</p>\r\n",
+      "<p>NJRK</p>\r\n"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is&nbsp;<strong>option 3</strong>&nbsp;i.e.&nbsp;<strong>XOTP.</strong></p>\r\n\r\n<p><strong>Logic : First Letter + 4 = Third letter, Second Letter + 1 = Fourth letter</strong></p>\r\n\r\n<p>Except for Option 3, all follow the logic.</p>\r\n\r\n<p>XOTP: X + 4 = B, O + 1 =P</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>चार अक्षर-समूह दिए गए हैं, जिनमें से तीन किसी प्रकार से समान हैं और एक भिन्न है। भिन्न अक्षर-समूह का चयन कीजिए।</p>\r\n",
+    "options_hi": [
+      "<p>GCKD</p>\r\n",
+      "<p>UQYR</p>\r\n",
+      "<p>XOTP</p>\r\n",
+      "<p>NJRK</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 3</strong> अर्थात्&nbsp;<strong>XOTP</strong> है।</p>\r\n\r\n<p><strong>तर्क: पहला अक्षर + 4 = तीसरा अक्षर, दूसरा अक्षर + 1 = चौथा अक्षर</strong></p>\r\n\r\n<p>विकल्प 3 को छोड़कर, सभी तर्क का पालन करते हैं।</p>\r\n\r\n<p>XOTP: X + 4 = B, O + 1 =P</p>\r\n"
+  },
+  {
+    "question": "<div>Three of the following letter-clusters are alike in some manner and one is different. Select the&nbsp;different one.</div>\r\n",
+    "options": [
+      "<p>WDXC</p>\r\n",
+      "<p>DYUR</p>\r\n",
+      "<p>JEAX</p>\r\n",
+      "<p>QLHE</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e. <strong>WDXC.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter - 5 = 2nd letter, 2nd letter - 4 = 3rd letter, 3rd letter - 3 = 4th letter</p>\r\n\r\n<p><strong>Option 1: WDXC:</strong>&nbsp;W - 5 = R, R - 4 = N, N - 3 = K: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<div>निम्नलिखित में से तीन अक्षर-समूह किसी प्रकार से समान हैं और एक भिन्न है। भिन्न का चयन कीजिए-</div>\r\n",
+    "options_hi": [
+      "<p>WDXC</p>\r\n",
+      "<p>DYUR</p>\r\n",
+      "<p>JEAX</p>\r\n",
+      "<p>QLHE</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात् <strong>WDXC</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर - 5 = दूसरा अक्षर, दूसरा अक्षर - 4 = तीसरा अक्षर, तीसरा अक्षर - 3 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: WDXC</strong><strong>:</strong>&nbsp;W - 5 = R, R - 4 = N, N - 3 = K:&nbsp;यह तर्क का अनुसरण&nbsp;नहीं करता है।</p>\r\n"
+  },
+  {
+    "question": "<p>Three of the following letter-clusters are alike in some manner and one is different. Select the one that is different.</p>\r\n",
+    "options": [
+      "<p>PKQJ</p>\r\n",
+      "<p>XZYA</p>\r\n",
+      "<p>QSRT</p>\r\n",
+      "<p>NPOQ</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1 </strong>i.e.&nbsp;<strong>PKQJ.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter + 2&nbsp;= 2nd letter, 2nd letter - 1 = 3rd letter, 3rd letter + 2&nbsp;= 4th letter</p>\r\n\r\n<p><strong>Option 1: PKQJ =&nbsp;</strong>P + 2&nbsp;= R, K - 1&nbsp;= J, Q&nbsp;+&nbsp;2&nbsp;= S: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<p>निम्नलिखित में से तीन अक्षर-समूह किसी प्रकार से एकसमान हैं और एक भिन्न है। भिन्न का चयन कीजिए-</p>\r\n",
+    "options_hi": [
+      "<p>PKQJ</p>\r\n",
+      "<p>XZYA</p>\r\n",
+      "<p>QSRT</p>\r\n",
+      "<p>NPOQ</p>\r\n"
+    ],
+    "solution_hi": "<!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर<strong> विकल्प 1</strong> अर्थात् <strong>PKQJ</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर + 2= दूसरा अक्षर, दूसरा अक्षर - 1 = तीसरा अक्षर, तीसरा अक्षर + 2 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1: PKQJ =&nbsp;</strong>P + 2&nbsp;= R, K - 1&nbsp;= J, Q +&nbsp;2&nbsp;= S: यह तर्क का अनुसरण नहीं करता है</p>\r\n"
+  },
+  {
+    "question": "<div>Three of the following letter-clusters are alike in some manner and one is different. Select the one that is different.</div>\r\n",
+    "options": [
+      "<p>AZBY</p>\r\n",
+      "<p>ZUYV</p>\r\n",
+      "<p>FAEB</p>\r\n",
+      "<p>UPTQ</p>\r\n"
+    ],
+    "correct": 1,
+    "solution": "<p>The correct answer is <strong>option 1</strong> i.e.<strong>&nbsp;AZBY.</strong></p>\r\n\r\n<p>The logic used here is: 1st letter - 5 = 2nd letter, 2nd letter + 4&nbsp;= 3rd letter, 3rd letter - 3 = 4th letter</p>\r\n\r\n<p><strong>Option 1:&nbsp;AZBY</strong>&nbsp;A - 5 = V, V + 4 = Z, Z - 3 = W: This does not follow the logic.</p>\r\n",
+    "marks": "2",
+    "question_hi": "<div>निम्नलिखित में से तीन अक्षर-समूह किसी प्रकार से समान है, और एक भिन्न है। भिन्न का चयन कीजिए-</div>\r\n",
+    "options_hi": [
+      "<p>AZBY</p>\r\n",
+      "<p>ZUYV</p>\r\n",
+      "<p>FAEB</p>\r\n",
+      "<p>UPTQ</p>\r\n"
+    ],
+    "solution_hi": "<div style=\"position:relative\"><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">--><!--<div contenteditable=\"true\" style=\"position: relative;\">-->\r\n<p>सही उत्तर <strong>विकल्प 1</strong> अर्थात्&nbsp;<strong>AZBY</strong> है।</p>\r\n\r\n<p>यहाँ प्रयुक्त तर्क&nbsp;है: पहला अक्षर - 5 = दूसरा अक्षर, दूसरा अक्षर + 4 = तीसरा अक्षर, तीसरा अक्षर - 3 = चौथा अक्षर</p>\r\n\r\n<p><strong>विकल्प 1:&nbsp;AZBY</strong>&nbsp;A - 5 = V, V + 4 = Z, Z - 3 = W: यह तर्क का अनुसरण नहीं करता है।</p>\r\n</div>\r\n"
+  }
+]
