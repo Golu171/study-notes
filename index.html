@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Study Notes</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  padding:12px;
+  background:#f3f6fb;
+  color:#172033;
+  font-family:'Poppins',sans-serif;
+}
+
+.wrap{
+  max-width:900px;
+  margin:auto;
+}
+
+/* =========================
+   TOP HEADER & BAJRANGBALI
+========================= */
+.top{
+  background:linear-gradient(135deg,#1b4e52,#0e3336);
+  color:#fff;
+  border-radius:24px;
+  padding:20px 16px 16px;
+  text-align:center;
+  box-shadow:0 8px 22px rgba(0,0,0,0.22);
+  position:relative;
+  overflow:hidden;
+}
+
+/* Outer Divine Glow Wrapper */
+.hanuman-avatar-wrap{
+  width:105px;
+  height:105px;
+  margin:0 auto 10px;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* Rotating Golden Rays */
+.hanuman-aura{
+  position:absolute;
+  inset:-8px;
+  border-radius:50%;
+  background:conic-gradient(
+    from 0deg,
+    #ff9900,
+    #ffe57f,
+    #ff6f00,
+    #ffe082,
+    #ff9100,
+    #ffd54f,
+    #ff9900
+  );
+  filter:blur(4px);
+  animation:rotateAura 8s linear infinite;
+  opacity:0.9;
+}
+
+@keyframes rotateAura{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+/* Floating Image Card */
+.hanuman-card{
+  position:relative;
+  width:95px;
+  height:95px;
+  border-radius:50%;
+  overflow:hidden;
+  border:3px solid #ffeb3b;
+  box-shadow:0 4px 14px rgba(0,0,0,0.45);
+  animation:floatUpDown 3.2s ease-in-out infinite alternate;
+  z-index:2;
+  background:#1a3d40;
+}
+
+.hanuman-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center;
+  display:block;
+}
+
+@keyframes floatUpDown{
+  0%{
+    transform:translateY(0px) scale(1);
+    box-shadow:0 4px 12px rgba(0,0,0,0.35);
+  }
+  100%{
+    transform:translateY(-8px) scale(1.03);
+    box-shadow:0 12px 22px rgba(255,193,7,0.55);
+  }
+}
+
+.main-title{
+  margin:2px 0 0;
+  font-family:'Baloo 2',sans-serif;
+  font-size:29px;
+  line-height:1.1;
+  font-weight:800;
+  color:#ffffff;
+  text-shadow:0 2px 4px rgba(0,0,0,0.45);
+  position:relative;
+  z-index:2;
+}
+
+.site-name{
+  margin-top:2px;
+  font-family:'Poppins',sans-serif;
+  font-size:26px;
+  line-height:1;
+  font-weight:800;
+  letter-spacing:1.5px;
+  color:#f5c84c;
+  text-shadow:0 2px 4px rgba(0,0,0,0.4);
+  position:relative;
+  z-index:2;
+}
+
+.credit{
+  margin-top:5px;
+  font-size:11px;
+  font-weight:600;
+  color:#dce8e8;
+  position:relative;
+  z-index:2;
+}
+
+.buttons{
+  display:flex;
+  justify-content:flex-end;
+  gap:8px;
+  margin-top:8px;
+  position:relative;
+  z-index:2;
+}
+
+button{
+  border:0;
+  background:#f7f8f8;
+  color:#24474a;
+  width:44px;
+  height:38px;
+  border-radius:12px;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 3px 8px rgba(0,0,0,0.15);
+}
+
+button svg{
+  width:20px;
+  height:20px;
+  fill:currentColor;
+}
+
+button:active{
+  transform:scale(.95);
+}
+
+/* =========================
+   FOLDERS GRID
+========================= */
+.heading{
+  margin:24px 2px 14px;
+  padding-left:14px;
+  position:relative;
+  font-family:'Baloo 2',sans-serif;
+  font-size:25px;
+  line-height:1;
+  font-weight:800;
+  color:#596276;
+}
+
+.heading::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:1px;
+  width:5px;
+  height:24px;
+  border-radius:6px;
+  background:#4c8f92;
+}
+
+#status{
+  display:none;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+
+.folder{
+  position:relative;
+  min-width:0;
+  min-height:146px;
+  padding:18px 14px 14px;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  text-decoration:none;
+  color:#1d2434;
+  border:1.5px solid rgba(93,112,130,.28);
+  box-shadow:0 3px 9px rgba(48,61,80,.07);
+  overflow:hidden;
+  transition:transform .14s ease, box-shadow .14s ease;
+}
+
+.folder:nth-child(6n+1){background:#d9e8e9;}
+.folder:nth-child(6n+2){background:#d9dce8;}
+.folder:nth-child(6n+3){background:#d5e8df;}
+.folder:nth-child(6n+4){background:#ddd9eb;}
+.folder:nth-child(6n+5){background:#dce9d7;}
+.folder:nth-child(6n+6){background:#e0d6e5;}
+
+.folder:active{
+  transform:scale(.975);
+}
+
+/* CSS Icon Container */
+.folder-icon{
+  width:54px;
+  height:54px;
+  min-width:54px;
+  border-radius:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(255,255,255,0.65);
+  border:1px solid rgba(73,110,120,.2);
+  margin-bottom:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* =========================
+   PURE CSS REALISTIC ICONS
+========================= */
+
+/* 1. CSS Book (Spine + Paper Pages + Ribbon) */
+.css-book{
+  width:26px;
+  height:32px;
+  background:#d9383a;
+  border-radius:2px 5px 5px 2px;
+  position:relative;
+  box-shadow:2px 2px 5px rgba(0,0,0,0.22);
+  border-left:4px solid #9e1c1e;
+}
+.css-book::before{
+  content:"";
+  position:absolute;
+  right:0;
+  top:2px;
+  bottom:2px;
+  width:4px;
+  background:#fdfcf0;
+  border-radius:0 2px 2px 0;
+  box-shadow:inset -1px 0 1px #bbb;
+}
+.css-book::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:8px;
+  width:4px;
+  height:12px;
+  background:#ffd54f;
+  border-radius:0 0 2px 2px;
+}
+
+/* 2. CSS Laptop / Computer */
+.css-laptop{
+  width:32px;
+  height:21px;
+  background:#37474f;
+  border:2px solid #263238;
+  border-radius:3px 3px 0 0;
+  position:relative;
+  margin-bottom:4px;
+}
+.css-laptop::before{
+  content:"";
+  position:absolute;
+  inset:2px;
+  background:#00bcd4;
+  border-radius:1px;
+}
+.css-laptop::after{
+  content:"";
+  position:absolute;
+  bottom:-5px;
+  left:-5px;
+  width:38px;
+  height:3px;
+  background:#cfd8dc;
+  border-radius:2px 2px 4px 4px;
+  box-shadow:0 1px 3px rgba(0,0,0,0.25);
+}
+
+/* 3. CSS Paper / PYQ Exam Sheet */
+.css-paper{
+  width:24px;
+  height:32px;
+  background:#ffffff;
+  border-radius:2px 7px 2px 2px;
+  position:relative;
+  box-shadow:1px 2px 5px rgba(0,0,0,0.18);
+  border:1px solid #d0d7de;
+}
+.css-paper::before{
+  content:"";
+  position:absolute;
+  right:-1px;
+  top:-1px;
+  width:0;
+  height:0;
+  border-style:solid;
+  border-width:0 7px 7px 0;
+  border-color:transparent #b0bec5 transparent transparent;
+}
+.css-paper::after{
+  content:"";
+  position:absolute;
+  left:4px;
+  top:7px;
+  width:14px;
+  height:2px;
+  background:#90a4ae;
+  box-shadow:0 4px 0 #90a4ae, 0 8px 0 #90a4ae, 0 12px 0 #90a4ae;
+}
+
+/* 4. CSS Globe / Haryana GK Badge */
+.css-gk{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:radial-gradient(circle at 35% 35%, #4fc3f7, #0288d1);
+  border:2px solid #01579b;
+  position:relative;
+  box-shadow:1px 2px 5px rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+.css-gk::before{
+  content:"";
+  position:absolute;
+  width:14px;
+  height:18px;
+  background:#81c784;
+  border-radius:50% 30% 50% 20%;
+  top:6px;
+  left:4px;
+  opacity:0.9;
+}
+.css-gk::after{
+  content:"";
+  position:absolute;
+  width:12px;
+  height:12px;
+  background:#81c784;
+  border-radius:40% 60% 30% 50%;
+  bottom:3px;
+  right:3px;
+  opacity:0.9;
+}
+
+.folder-name{
+  font-family:'Poppins',sans-serif;
+  font-size:15px;
+  font-weight:700;
+  line-height:1.25;
+  text-transform:uppercase;
+  word-break:break-word;
+}
+
+.folder-stats{
+  margin-top:6px;
+  font-family:'Poppins',sans-serif;
+  font-size:10.5px;
+  font-weight:600;
+  line-height:1.25;
+  color:#667085;
+  word-break:break-word;
+}
+body.dark .folder-stats{color:#aeb9c9;}
+
+/* Dark Mode */
+body.dark{
+  background:#0f172a;
+  color:#f1f5f9;
+}
+body.dark .heading{
+  color:#cbd5e1;
+}
+body.dark .folder{
+  background:#1e293b !important;
+  border-color:#334155;
+  color:#f8fafc;
+}
+body.dark .folder-icon{
+  background:rgba(255,255,255,0.08);
+  border-color:#334155;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <!-- Bajrangbali Ji with Divine Animated Aura -->
+    <div class="hanuman-avatar-wrap">
+      <div class="hanuman-aura"></div>
+      <div class="hanuman-card">
+        <img 
+          src="https://files.catbox.moe/myz60w.jpg" 
+          alt="Jai Bajrangbali"
+          loading="eager"
+        >
+      </div>
+    </div>
+
+    <h1 class="main-title">जय बजरंग बली</h1>
+    <div class="site-name">STUDY NOTES</div>
+
+    <div class="buttons">
+      <button onclick="toggleDark()" title="Dark Mode">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+
+      <button onclick="fullScreen()" title="Full Screen">
+        <svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <h2 class="heading">अभ्यास</h2>
+
+  <div id="status">Folders load हो रहे हैं...</div>
+  <div id="folders" class="grid"></div>
+
+</div>
+
+<script>
+const OWNER = "Golu171";
+const REPO = "study-notes";
+const BRANCH = "main";
+const API = `https://api.github.com/repos/${OWNER}/${REPO}/contents/?ref=${BRANCH}`;
+
+function cleanName(name){
+  return name.replace(/[_-]+/g," ").replace(/\s+/g," ").trim();
+}
+
+function esc(text){
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function sortFolders(a,b){
+  return a.name.localeCompare(b.name, undefined, {numeric:true, sensitivity:"base"});
+}
+
+async function loadFolders(){
+  const box=document.getElementById("folders");
+  box.innerHTML='<div class="empty">Folders लोड हो रहे हैं...</div>';
+  try{
+    // ONE Git Tree request: root folders + nested files together.
+    // This avoids the extra /contents request that can hit GitHub API limits.
+    const url=`https://api.github.com/repos/${OWNER}/${REPO}/git/trees/${encodeURIComponent(BRANCH)}?recursive=1&_=${Date.now()}`;
+    const r=await fetch(url,{cache:"no-store"});
+    if(!r.ok) throw new Error("GitHub API "+r.status);
+    const data=await r.json();
+    if(!Array.isArray(data.tree)) throw new Error("Unexpected GitHub response");
+
+    const rootMap=new Map();
+    for(const x of data.tree){
+      if(!x?.path) continue;
+      const parts=x.path.split("/");
+      if(parts.length<2) continue;
+      const root=parts[0];
+      rootMap.set(root,{type:"dir",name:root,path:root});
+    }
+    renderFolders([...rootMap.values()].sort(sortFolders),data.tree);
+  }catch(e){
+    console.error("Folder listing failed:",e);
+    box.innerHTML='<div class="empty">Folders load नहीं हो पाए। थोड़ी देर बाद refresh करें।</div>';
+  }
+}
+
+function renderFolders(folders,tree){
+  const box=document.getElementById("folders");
+  box.innerHTML="";
+  for(const folder of folders){
+    const a=document.createElement("a");
+    a.className="folder";
+    const basePath=location.hostname.endsWith("github.io") ? "/"+REPO : "";
+    a.href=location.origin+basePath+"/"+folder.path.split("/").map(encodeURIComponent).join("/")+"/";
+
+    // Test count = unique test files from BOTH HTML and JSON.
+    // If the same test has both .html and .json, it is counted only once.
+    // MCQ count is calculated ONLY from JSON files.
+    const testFiles=tree.filter(x=>
+      x.type==="blob" &&
+      x.path.startsWith(folder.path+"/") &&
+      /\.(html?|json)$/i.test(x.path)
+    );
+
+    const jsonFiles=testFiles.filter(x=>/\.json$/i.test(x.path));
+
+    const uniqueTests=new Set(
+      testFiles.map(x=>{
+        const rel=x.path.slice((folder.path+"/").length);
+        return rel.replace(/\.(html?|json)$/i,"").toLowerCase();
+      })
+    );
+
+    a.innerHTML=`
+      <div class="folder-icon" aria-hidden="true">${getCssIcon(folder.name)}</div>
+      <div class="folder-name">${esc(cleanName(folder.name))}</div>
+      <div class="folder-stats">${uniqueTests.size} Tests • Counting MCQs...</div>
+    `;
+    box.appendChild(a);
+    countFolderMcqs(folder.path,jsonFiles,uniqueTests.size,a.querySelector(".folder-stats"));
+  }
+}
+
+/* =========================
+   LIGHT + CACHED JSON MCQ COUNT
+   =========================
+   MCQs = JSON only.
+   Tests = unique HTML/JSON test names.
+   Unchanged JSON files are cached using their Git blob SHA.
+*/
+const RAW_BASE=`https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/`;
+const MCQ_CACHE_KEY="study_notes_mcq_cache_v3";
+const MCQ_CACHE_MAX=4000;
+const MCQ_CONCURRENCY=16;
+
+function readMcqCache(){
+  try{
+    const x=JSON.parse(localStorage.getItem(MCQ_CACHE_KEY)||"{}");
+    return x && typeof x==="object" ? x : {};
+  }catch{return {};}
+}
+function writeMcqCache(cache){
+  try{
+    const keys=Object.keys(cache);
+    if(keys.length>MCQ_CACHE_MAX){
+      keys.sort((a,b)=>(cache[a]?.t||0)-(cache[b]?.t||0));
+      for(let i=0;i<keys.length-MCQ_CACHE_MAX;i++) delete cache[keys[i]];
+    }
+    localStorage.setItem(MCQ_CACHE_KEY,JSON.stringify(cache));
+  }catch{}
+}
+const mcqCache=readMcqCache();
+
+function looksLikeQuestionObject(obj){
+  if(!obj || typeof obj!=="object" || Array.isArray(obj)) return false;
+  const keys=Object.keys(obj).map(k=>k.toLowerCase().replace(/[\s_-]+/g,""));
+  const q=["question","questiontext","ques","prompt","questiontitle","mcq","text"];
+  const opt=["options","option","choices","answers","answeroptions","a","b","c","d","optiona","optionb","optionc","optiond"];
+  return q.some(k=>keys.includes(k)) && opt.some(k=>keys.includes(k));
+}
+
+function countQuestionObjects(value){
+  if(Array.isArray(value)){
+    let n=0;
+    for(const item of value) n += looksLikeQuestionObject(item) ? 1 : countQuestionObjects(item);
+    return n;
+  }
+  if(value && typeof value==="object"){
+    let n=0;
+    for(const [key,child] of Object.entries(value)){
+      const k=key.toLowerCase().replace(/[\s_-]+/g,"");
+      if(["questions","question","data","quiz","mcq","test","items","list","results","questionslist","questionlist"].includes(k)){
+        n+=countQuestionObjects(child);
+      }
+    }
+    if(n>0) return n;
+    for(const child of Object.values(value)){
+      if(child && typeof child==="object") n+=countQuestionObjects(child);
+    }
+    return n;
+  }
+  return 0;
+}
+
+async function fetchJsonMcqs(item){
+  const cacheKey=item.path+"|"+(item.sha||"");
+  if(Object.prototype.hasOwnProperty.call(mcqCache,cacheKey)){
+    return mcqCache[cacheKey].n||0;
+  }
+
+  try{
+    const r=await fetch(
+      RAW_BASE+item.path.split("/").map(encodeURIComponent).join("/"),
+      {cache:"force-cache"}
+    );
+    if(!r.ok) return 0;
+
+    const text=await r.text();
+    let count=0;
+    try{ count=countQuestionObjects(JSON.parse(text)); }catch{}
+
+    mcqCache[cacheKey]={n:count,t:Date.now()};
+    return count;
+  }catch{
+    return 0;
+  }
+}
+
+async function countFolderMcqs(folderPath,jsonFiles,testCount,el){
+  if(!el) return;
+
+  if(!jsonFiles.length){
+    el.textContent=`${testCount} Tests • 0 MCQs`;
+    return;
+  }
+
+  let total=0;
+  const missing=[];
+
+  for(const item of jsonFiles){
+    const key=item.path+"|"+(item.sha||"");
+    if(Object.prototype.hasOwnProperty.call(mcqCache,key)){
+      total+=mcqCache[key].n||0;
+    }else{
+      missing.push(item);
+    }
+  }
+
+  // Instant result when this folder has already been counted.
+  if(!missing.length){
+    el.textContent=`${testCount} Tests • ${total.toLocaleString("en-IN")} MCQs`;
+    return;
+  }
+
+  el.textContent=`${testCount} Tests • Counting MCQs…`;
+
+  let next=0;
+
+  async function worker(){
+    while(true){
+      const i=next++;
+      if(i>=missing.length) return;
+
+      const item=missing[i];
+      total+=await fetchJsonMcqs(item);
+
+      // Update progressively instead of waiting for every JSON.
+      el.textContent=`${testCount} Tests • ${total.toLocaleString("en-IN")} MCQs`;
+    }
+  }
+
+  await Promise.all(
+    Array.from(
+      {length:Math.min(MCQ_CONCURRENCY,missing.length)},
+      worker
+    )
+  );
+
+  writeMcqCache(mcqCache);
+  el.textContent=`${testCount} Tests • ${total.toLocaleString("en-IN")} MCQs`;
+}
+
+/* Category Pure CSS Icons */
+function getCssIcon(name){
+  const n = name.toLowerCase();
+
+  // Computer / IT -> Real CSS Laptop
+  if(n.includes("computer") || n.includes("it") || n.includes("tech")) {
+    return `<div class="css-laptop"></div>`;
+  }
+
+  // Haryana / GK / Awareness -> Real CSS Globe Map
+  if(n.includes("haryana") || n.includes("awareness") || n.includes("gk") || n.includes("general")) {
+    return `<div class="css-gk"></div>`;
+  }
+
+  // PYQ / Paper / Test -> Real CSS Exam Paper
+  if(n.includes("pyq") || n.includes("paper") || n.includes("test") || n.includes("exam")) {
+    return `<div class="css-paper"></div>`;
+  }
+
+  // English / Hindi / Literature / Default -> Real CSS Book with Spine & Ribbon
+  return `<div class="css-book"></div>`;
+}
+
+function toggleDark(){
+  document.body.classList.toggle("dark");
+  localStorage.setItem("darkMode", document.body.classList.contains("dark") ? "1" : "0");
+}
+
+if(localStorage.getItem("darkMode") === "1"){
+  document.body.classList.add("dark");
+}
+
+function fullScreen(){
+  if(!document.fullscreenElement){
+    document.documentElement.requestFullscreen?.().catch(()=>{});
+  }else{
+    document.exitFullscreen?.().catch(()=>{});
+  }
+}
+
+loadFolders();
+</script>
+</body>
+</html>
