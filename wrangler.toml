@@ -1,0 +1,15 @@
+name = "study-notes"
+main = "worker.js"
+compatibility_date = "2026-09-11"
+
+[[kv_namespaces]]
+binding = "BOT_STATE"
+id = "e422fe937d4a4e958c1ec9079b28da84"
+
+[[queues.producers]]
+binding = "UPLOAD_QUEUE"
+queue = "study-notes-upload"
+
+[[queues.consumers]]
+queue = "study-notes-upload"
+max_concurrency = 1
