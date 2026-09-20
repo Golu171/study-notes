@@ -1,0 +1,684 @@
+[
+  {
+    "question": "What is the SI unit of Electric Current?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Coulomb",
+      "Ohm"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Ampere</b><br>Electric current is the rate of flow of electric charge ($I = q/t$) and its SI unit is Ampere (A)."
+  },
+  {
+    "question": "What is the magnitude of charge on a single electron?",
+    "options": [
+      "$1.6 \\times 10^{-19}\\text{ C}$",
+      "$1.6 \\times 10^{-18}\\text{ C}$",
+      "$6.25 \\times 10^{18}\\text{ C}$",
+      "$9.1 \\times 10^{-31}\\text{ C}$"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) $1.6 \\times 10^{-19}\\text{ C}$</b><br>A single electron possesses a charge of $1.6 \\times 10^{-19}\\text{ Coulomb}$."
+  },
+  {
+    "question": "Approximately how many electrons constitute 1 Coulomb (1 C) of charge?",
+    "options": [
+      "$1.6 \\times 10^{19}$",
+      "$6.25 \\times 10^{18}$",
+      "$6.023 \\times 10^{23}$",
+      "$1.6 \\times 10^{-19}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $6.25 \\times 10^{18}$</b><br>Using $n = q/e = 1 / (1.6 \\times 10^{-19}) = 6.25 \\times 10^{18}$ electrons (approx. $6 \\times 10^{18}$)."
+  },
+  {
+    "question": "Which instrument is used to measure electric current in a circuit?",
+    "options": [
+      "Voltmeter",
+      "Ammeter",
+      "Galvanometer",
+      "Ohmmeter"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Ammeter</b><br>An ammeter is connected in series in an electric circuit to measure electric current."
+  },
+  {
+    "question": "Which of the following formulas correctly defines Potential Difference ($V$)?",
+    "options": [
+      "$V = W \\times q$",
+      "$V = W / q$",
+      "$V = q / W$",
+      "$V = I \\times t$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $V = W / q$</b><br>Potential difference is defined as the amount of work done ($W$) in moving a unit positive charge ($q$) from one point to another ($V = W/q$)."
+  },
+  {
+    "question": "1 Volt (1 V) is equivalent to which of the following?",
+    "options": [
+      "$1\\text{ Joule} / 1\\text{ Coulomb}$",
+      "$1\\text{ Coulomb} / 1\\text{ Joule}$",
+      "$1\\text{ Joule} \\times 1\\text{ Coulomb}$",
+      "$1\\text{ Newton} / 1\\text{ Coulomb}$"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) $1\\text{ Joule} / 1\\text{ Coulomb}$</b><br>$1\\text{ V} = 1\\text{ J} / 1\\text{ C}$, i.e., when 1 Joule of work is done in moving 1 Coulomb of charge, the potential difference is 1 Volt."
+  },
+  {
+    "question": "In which year did Georg Simon Ohm formulate the famous 'Ohm\\'s Law'?",
+    "options": [
+      "1800",
+      "1827",
+      "1840",
+      "1887"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) 1827</b><br>Ohm's law was proposed by German physicist Georg Simon Ohm in the year 1827."
+  },
+  {
+    "question": "According to Ohm\\'s law, what does the slope of the Voltage ($V$) versus Current ($I$) graph represent?",
+    "options": [
+      "Capacitance",
+      "Resistance",
+      "Electric Power",
+      "Specific Conductance"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Resistance</b><br>The slope of the $V-I$ graph represents resistance ($R = V/I$). A steeper slope indicates higher resistance."
+  },
+  {
+    "question": "If the length of a conducting wire is doubled (without changing its area), its resistance will become:",
+    "options": [
+      "Half",
+      "Unchanged",
+      "Doubled",
+      "Four times"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) Doubled</b><br>Resistance is directly proportional to length ($R \\propto L$). Therefore, doubling the length doubles the resistance."
+  },
+  {
+    "question": "What happens to the resistance of a conductor when its cross-sectional area is increased?",
+    "options": [
+      "Resistance decreases",
+      "Resistance increases",
+      "Resistance becomes zero",
+      "Remains unchanged"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) Resistance decreases</b><br>Resistance is inversely proportional to cross-sectional area ($R \\propto 1/A$). Hence, a thicker wire offers less resistance."
+  },
+  {
+    "question": "What is the effect of increasing temperature on the resistance of metallic conductors?",
+    "options": [
+      "Resistance decreases",
+      "Resistance increases",
+      "Resistance remains constant",
+      "First decreases then increases"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Resistance increases</b><br>Higher temperature increases atomic vibrations, leading to more frequent collisions for drifting electrons, thereby increasing metallic resistance."
+  },
+  {
+    "question": "What happens to the resistance of semiconductors (e.g., Silicon, Germanium) when temperature is increased?",
+    "options": [
+      "Resistance increases",
+      "Resistance decreases",
+      "Resistance remains unchanged",
+      "Resistance becomes infinite"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Resistance decreases</b><br>In semiconductors, increased temperature releases more free charge carriers, resulting in a decrease in resistance (negative temperature coefficient)."
+  },
+  {
+    "question": "What is the SI unit of Resistivity (Specific Resistance)?",
+    "options": [
+      "$\\Omega / \\text{m}$",
+      "$\\Omega\\cdot\\text{m}$ (Ohm-meter)",
+      "$\\Omega / \\text{m}^2$",
+      "Siemens"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $\\Omega\\cdot\\text{m}$ (Ohm-meter)</b><br>From $\\rho = R \\cdot A / L$, unit $= (\\Omega \\cdot \\text{m}^2) / \\text{m} = \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "What is the SI unit of Conductance ($G$)?",
+    "options": [
+      "Ohm",
+      "Siemens",
+      "Henry",
+      "Farad"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Siemens</b><br>Conductance ($G = 1/R$) is the reciprocal of resistance, and its SI unit is Siemens (S) or $\\Omega^{-1}$ (mho)."
+  },
+  {
+    "question": "Which of the following metals has the lowest electrical resistivity (i.e., best electrical conductor)?",
+    "options": [
+      "Copper",
+      "Silver",
+      "Aluminium",
+      "Tungsten"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Silver</b><br>Silver has the lowest resistivity ($1.60 \\times 10^{-8}\\ \\Omega\\cdot\\text{m}$), making it the best conductor of electricity."
+  },
+  {
+    "question": "How does the electrical resistivity of alloys generally compare to that of their constituent pure metals?",
+    "options": [
+      "Much lower",
+      "Higher",
+      "Exactly equal",
+      "Zero"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Higher</b><br>The resistivity of alloys (e.g., Nichrome, Manganin, Constantan) is generally higher than that of their constituent pure metals."
+  },
+  {
+    "question": "Which elements constitute the alloy Nichrome?",
+    "options": [
+      "$\\text{Cu, Mn, Ni}$",
+      "$\\text{Ni, Cr, Mn, Fe}$",
+      "$\\text{Cu, Zn, Sn}$",
+      "$\\text{Pb, Sn}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $\\text{Ni, Cr, Mn, Fe}$</b><br>Nichrome is an alloy composed of Nickel (Ni), Chromium (Cr), Manganese (Mn), and Iron (Fe)."
+  },
+  {
+    "question": "Constantan is an alloy composed of which metals?",
+    "options": [
+      "Copper and Nickel ($\\text{Cu + Ni}$)",
+      "Copper and Zinc ($\\text{Cu + Zn}$)",
+      "Nickel and Chromium ($\\text{Ni + Cr}$)",
+      "Lead and Tin ($\\text{Pb + Sn}$)"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) Copper and Nickel ($\\text{Cu + Ni}$)</b><br>Constantan is an alloy of Copper and Nickel with a resistivity of $49 \\times 10^{-6}\\ \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "In a series combination of resistors, which physical quantity remains identical across all resistors?",
+    "options": [
+      "Potential difference (Voltage)",
+      "Electric current",
+      "Power",
+      "Energy"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Electric current</b><br>In a series circuit, current ($I$) remains the same through all resistors, whereas voltage divides across each resistor."
+  },
+  {
+    "question": "What remains constant/identical across each resistor in a parallel combination?",
+    "options": [
+      "Current",
+      "Potential difference (Voltage)",
+      "Resistance",
+      "None of these"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Potential difference (Voltage)</b><br>In a parallel circuit, the voltage across each parallel branch remains the same, while current divides among the branches."
+  },
+  {
+    "question": "In domestic electrical wiring, how are appliances usually connected?",
+    "options": [
+      "Series connection",
+      "Parallel connection",
+      "Mixed connection",
+      "Arbitrary connection"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Parallel connection</b><br>Domestic appliances are wired in parallel so that each appliance receives the full supply voltage (220 V) and operates independently."
+  },
+  {
+    "question": "Two resistors of $20\\ \\Omega$ and $4\\ \\Omega$ are connected in series with a $6\\text{ V}$ battery. What is the current flowing in the circuit?",
+    "options": [
+      "$0.5\\text{ A}$",
+      "$0.25\\text{ A}$",
+      "$1.0\\text{ A}$",
+      "$4.0\\text{ A}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $0.25\\text{ A}$</b><br>Total equivalent resistance $R_{eq} = 20 + 4 = 24\\ \\Omega$.<br>Current $I = V / R_{eq} = 6 / 24 = 0.25\\text{ A}$."
+  },
+  {
+    "question": "Three resistors of $5\\ \\Omega$, $10\\ \\Omega$, and $30\\ \\Omega$ are connected in parallel. What is their equivalent resistance ($R_{eq}$)?",
+    "options": [
+      "$45\\ \\Omega$",
+      "$15\\ \\Omega$",
+      "$3\\ \\Omega$",
+      "$1\\ \\Omega$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $3\\ \\Omega$</b><br>$1/R_{eq} = 1/5 + 1/10 + 1/30 = (6 + 3 + 1) / 30 = 10 / 30 = 1/3 \\implies R_{eq} = 3\\ \\Omega$."
+  },
+  {
+    "question": "If three resistors of $5\\ \\Omega, 10\\ \\Omega,$ and $30\\ \\Omega$ connected in parallel are supplied by a $12\\text{ V}$ battery, what is the total circuit current?",
+    "options": [
+      "$2\\text{ A}$",
+      "$3\\text{ A}$",
+      "$4\\text{ A}$",
+      "$6\\text{ A}$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $4\\text{ A}$</b><br>Equivalent resistance $R_{eq} = 3\\ \\Omega$.<br>Total current $I = V / R_{eq} = 12 / 3 = 4\\text{ A}$."
+  },
+  {
+    "question": "According to Joule\\'s Law of Heating, what is the correct formula for generated heat ($H$)?",
+    "options": [
+      "$H = I R t$",
+      "$H = I^2 R t$",
+      "$H = I R^2 t$",
+      "$H = I^2 / (R t)$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $H = I^2 R t$</b><br>According to Joule's law of heating, heat produced is given by $H = I^2 R t = V I t = (V^2 / R) t$."
+  },
+  {
+    "question": "In which year did James Prescott Joule propose the theory of the heating effect of electric current?",
+    "options": [
+      "1827",
+      "1840",
+      "1856",
+      "1890"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) 1840</b><br>The heating effect of electric current was formulated in 1840 by James Prescott Joule."
+  },
+  {
+    "question": "Why is Nichrome wire widely used as a heating element in electric heaters and irons?",
+    "options": [
+      "Low resistance and low melting point",
+      "High resistivity and resistance to oxidation at high temperatures",
+      "Cheap and highly flexible",
+      "Extremely high electrical conductivity"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) High resistivity and resistance to oxidation at high temperatures</b><br>Nichrome has high resistivity and does not oxidize (burn) easily at elevated temperatures."
+  },
+  {
+    "question": "Why is the filament of an incandescent electric bulb made of Tungsten?",
+    "options": [
+      "It has a very low melting point",
+      "It has an extremely high melting point",
+      "It is very inexpensive",
+      "It is transparent"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) It has an extremely high melting point</b><br>Tungsten has an extremely high melting point (approx. $3422^\\circ\\text{C}$), allowing it to glow white-hot without melting."
+  },
+  {
+    "question": "What are the essential characteristics of an electric fuse wire?",
+    "options": [
+      "High melting point and thick wire",
+      "Low melting point and thin wire",
+      "High melting point and low resistance",
+      "Infinite melting point and thick wire"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Low melting point and thin wire</b><br>A fuse wire must have a low melting point and small cross-section (thin wire) to melt quickly during overcurrent or short circuits."
+  },
+  {
+    "question": "What is the SI unit of Electric Power?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Kilowatt-hour (kWh)",
+      "Volt"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Watt</b><br>The SI unit of electric power is Watt (W), where $1\\text{ W} = 1\\text{ Joule per second}$."
+  },
+  {
+    "question": "Which of the following formulas does NOT represent electric power ($P$)?",
+    "options": [
+      "$P = V I$",
+      "$P = I^2 R$",
+      "$P = I R^2$",
+      "$P = V^2 / R$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $P = I R^2$</b><br>Valid formulas for electric power are $P = V I$, $P = I^2 R$, and $P = V^2 / R$. $I R^2$ is incorrect."
+  },
+  {
+    "question": "What is the commercial unit of electrical energy?",
+    "options": [
+      "Watt-second",
+      "Kilowatt-hour (kWh / Unit)",
+      "Joule per second (J/s)",
+      "Volt-Ampere (VA)"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Kilowatt-hour (kWh / Unit)</b><br>The commercial unit of electricity consumption is the kilowatt-hour (kWh), commonly known as a 'unit'."
+  },
+  {
+    "question": "$1\\text{ kWh}$ of electrical energy is equal to how many Joules?",
+    "options": [
+      "$3.6 \\times 10^5\\text{ J}$",
+      "$3.6 \\times 10^6\\text{ J}$",
+      "$1.6 \\times 10^{-19}\\text{ J}$",
+      "$3600\\text{ J}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $3.6 \\times 10^6\\text{ J}$</b><br>$1\\text{ kWh} = 1000\\text{ W} \\times 3600\\text{ s} = 3.6 \\times 10^6\\text{ Joules}$ ($3.6\\text{ MJ}$)."
+  },
+  {
+    "question": "What is the standard domestic AC voltage and frequency supply in India?",
+    "options": [
+      "$110\\text{ V}, 60\\text{ Hz}$",
+      "$220\\text{ V}, 50\\text{ Hz}$",
+      "$440\\text{ V}, 50\\text{ Hz}$",
+      "$220\\text{ V}, 60\\text{ Hz}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $220\\text{ V}, 50\\text{ Hz}$</b><br>In India, standard household alternating current (AC) power is supplied at $220\\text{ V}$ with a frequency of $50\\text{ Hz}$."
+  },
+  {
+    "question": "In domestic wiring colour coding, what colour is generally used for the Live wire?",
+    "options": [
+      "Black / Blue",
+      "Green / Yellow",
+      "Red / Brown",
+      "White"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) Red / Brown</b><br>The live wire (which carries high potential) is colour-coded Red or Brown."
+  },
+  {
+    "question": "What is the colour coding for the Neutral wire in household electrical wiring?",
+    "options": [
+      "Red / Brown",
+      "Black / Blue",
+      "Green / Yellow",
+      "Orange"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Black / Blue</b><br>The neutral wire (at zero potential) is colour-coded Black or Blue."
+  },
+  {
+    "question": "What is the colour coding for the Ground/Earth wire in domestic wiring?",
+    "options": [
+      "Red / Brown",
+      "Black / Blue",
+      "Green / Yellow",
+      "Violet"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) Green / Yellow</b><br>The earth wire is colour-coded Green or Green/Yellow and provides a safety pathway for leakage currents."
+  },
+  {
+    "question": "Why is the Earth wire made thicker than other wires in a plug?",
+    "options": [
+      "To provide low resistance for safely discharging high surge currents",
+      "To maximize electrical resistance",
+      "To increase the supply voltage",
+      "Purely for mechanical strength"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) To provide low resistance for safely discharging high surge currents</b><br>A thicker wire has a larger cross-section and lower resistance, enabling heavy fault currents to safely dissipate into the ground."
+  },
+  {
+    "question": "What is the primary application of a Wheatstone Bridge circuit?",
+    "options": [
+      "Unknown Current",
+      "Unknown Voltage",
+      "Unknown Resistance",
+      "Electric Power"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) Unknown Resistance</b><br>A Wheatstone bridge is an electrical circuit used to measure an unknown electrical resistance accurately."
+  },
+  {
+    "question": "Which condition holds true for a balanced Wheatstone bridge?",
+    "options": [
+      "$P \\cdot Q = R \\cdot S$",
+      "$P / R = Q / S$",
+      "$P + R = Q + S$",
+      "$P - Q = R - S$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $P / R = Q / S$</b><br>In a balanced Wheatstone bridge, no current flows through the galvanometer, and the condition is $P/R = Q/S$ or $P/Q = R/S$."
+  },
+  {
+    "question": "Kirchhoff\\'s First Law (Current Law / KCL / Junction Rule) is based on the conservation of which quantity?",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Charge",
+      "Mass"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) Charge</b><br>Kirchhoff's Current Law (KCL) states that incoming current equals outgoing current at any node, which is a consequence of conservation of electric charge."
+  },
+  {
+    "question": "Kirchhoff\\'s Second Law (Voltage Law / KVL / Loop Rule) is based on the law of conservation of:",
+    "options": [
+      "Charge",
+      "Energy",
+      "Momentum",
+      "Angular Momentum"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Energy</b><br>Kirchhoff's Voltage Law (KVL: $\\Sigma V = 0$) states that the net EMF around any closed loop is zero, based on the conservation of energy."
+  },
+  {
+    "question": "At a junction, a current of $10\\text{ A}$ enters ($I_1$). The exiting branches carry currents $I_2 = 5\\text{ A}$, $I_3 = 3\\text{ A}$, and $I_4$. What is the value of $I_4$?",
+    "options": [
+      "$1\\text{ A}$",
+      "$2\\text{ A}$",
+      "$3\\text{ A}$",
+      "$8\\text{ A}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $2\\text{ A}$</b><br>According to KCL: $\\Sigma I_{\\text{in}} = \\Sigma I_{\\text{out}} \\implies 10 = 5 + 3 + I_4 \\implies I_4 = 2\\text{ A}$."
+  },
+  {
+    "question": "A $1200\\text{ W}$ toaster is operated for $30\\text{ minutes}$ daily. What is the total electrical energy consumed in $30\\text{ days}$?",
+    "options": [
+      "$12\\text{ kWh}$",
+      "$18\\text{ kWh}$",
+      "$36\\text{ kWh}$",
+      "$0.6\\text{ kWh}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $18\\text{ kWh}$</b><br>Daily energy $= 1.2\\text{ kW} \\times 0.5\\text{ h} = 0.6\\text{ kWh}$.<br>Monthly energy (30 days) $= 0.6 \\times 30 = 18\\text{ kWh}$ (18 units)."
+  },
+  {
+    "question": "If electricity costs ₹4 per unit, what is the monthly cost of running a $1200\\text{ W}$ toaster for 30 minutes daily for 30 days?",
+    "options": [
+      "₹36",
+      "₹48",
+      "₹72",
+      "₹144"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) ₹72</b><br>Total monthly units $= 18\\text{ kWh}$.<br>Total cost $= 18 \\times ₹4 = ₹72$."
+  },
+  {
+    "question": "Which of the following materials is an electrical insulator with a resistivity exceeding $10^{12}\\ \\Omega\\cdot\\text{m}$?",
+    "options": [
+      "Manganese",
+      "Copper",
+      "Ebonite",
+      "Chromium"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) Ebonite</b><br>Ebonite is an electrical insulator with high resistivity in the range of $10^{15} - 10^{17}\\ \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "What is the approximate range of electrical resistivity of Diamond?",
+    "options": [
+      "$10^{-8}\\ \\Omega\\cdot\\text{m}$",
+      "$10^{-6}\\ \\Omega\\cdot\\text{m}$",
+      "$10^{12} - 10^{13}\\ \\Omega\\cdot\\text{m}$",
+      "$10^{18} - 10^{20}\\ \\Omega\\cdot\\text{m}$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $10^{12} - 10^{13}\\ \\Omega\\cdot\\text{m}$</b><br>Diamond is a non-conducting insulator with a resistivity of $10^{12} - 10^{13}\\ \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "What is the electrical resistivity of Mercury (Hg)?",
+    "options": [
+      "$1.60 \\times 10^{-8}\\ \\Omega\\cdot\\text{m}$",
+      "$10.0 \\times 10^{-8}\\ \\Omega\\cdot\\text{m}$",
+      "$94.0 \\times 10^{-8}\\ \\Omega\\cdot\\text{m}$",
+      "$100 \\times 10^{-6}\\ \\Omega\\cdot\\text{m}$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $94.0 \\times 10^{-8}\\ \\Omega\\cdot\\text{m}$</b><br>According to the standard data, the resistivity of Mercury is $94.0 \\times 10^{-8}\\ \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "When a switch in an electrical circuit is turned 'ON', what is the circuit termed as?",
+    "options": [
+      "Open Circuit",
+      "Closed Circuit",
+      "Short Circuit",
+      "Overload Circuit"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Closed Circuit</b><br>When the switch is ON, it completes the loop forming a 'Closed Circuit', allowing electric current to flow and illuminate the bulb."
+  },
+  {
+    "question": "Why does no current flow when the switch is in the 'OFF' state?",
+    "options": [
+      "Potential difference drops to zero",
+      "The circuit breaks (becomes an Open Circuit)",
+      "Resistance becomes zero",
+      "Battery gets discharged"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) The circuit breaks (becomes an Open Circuit)</b><br>An OFF switch creates a physical gap/break in the conductive path, forming an open circuit where current cannot flow."
+  },
+  {
+    "question": "What is the equivalent resistance when $n$ identical resistors of resistance $R$ are connected in parallel?",
+    "options": [
+      "$n R$",
+      "$R / n$",
+      "$n^2 R$",
+      "$R / n^2$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $R / n$</b><br>For $n$ identical resistors in parallel, $1/R_{eq} = n/R \\implies R_{eq} = R/n$."
+  },
+  {
+    "question": "What is the equivalent resistance when $n$ identical resistors of resistance $R$ are connected in series?",
+    "options": [
+      "$n R$",
+      "$R / n$",
+      "$R + n$",
+      "$n / R$"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) $n R$</b><br>For $n$ identical resistors in series, equivalent resistance is the simple algebraic sum: $R_{eq} = nR$."
+  },
+  {
+    "question": "What are the main constituent elements of the alloy Manganin?",
+    "options": [
+      "$\\text{Cu, Mn, Ni}$",
+      "$\\text{Ni, Cr, Fe}$",
+      "$\\text{Al, Cu, Mg}$",
+      "$\\text{Zn, Cu, Sn}$"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) $\\text{Cu, Mn, Ni}$</b><br>Manganin is an alloy of Copper (Cu), Manganese (Mn), and Nickel (Ni) with a resistivity of $44 \\times 10^{-6}\\ \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "What is the typical resistivity range of Glass?",
+    "options": [
+      "$10^{-8} - 10^{-6}\\ \\Omega\\cdot\\text{m}$",
+      "$10^{10} - 10^{14}\\ \\Omega\\cdot\\text{m}$",
+      "$10^{1} - 10^{4}\\ \\Omega\\cdot\\text{m}$",
+      "$10^{-12} - 10^{-10}\\ \\Omega\\cdot\\text{m}$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $10^{10} - 10^{14}\\ \\Omega\\cdot\\text{m}$</b><br>Glass is a high-grade insulator with a resistivity range between $10^{10}$ and $10^{14}\\ \\Omega\\cdot\\text{m}$."
+  },
+  {
+    "question": "If a conducting wire is stretched to double its original length keeping volume constant, its new resistance becomes how many times the original?",
+    "options": [
+      "2 times",
+      "4 times",
+      "Half",
+      "8 times"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) 4 times</b><br>When stretched to double length ($L' = 2L$), the area halves ($A' = A/2$) to conserve volume. Thus $R' = \\rho(2L)/(A/2) = 4R$."
+  },
+  {
+    "question": "An electric bulb is rated $220\\text{ V}$ and $100\\text{ W}$. What is the resistance of the bulb?",
+    "options": [
+      "$220\\ \\Omega$",
+      "$484\\ \\Omega$",
+      "$100\\ \\Omega$",
+      "$2.2\\ \\Omega$"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) $484\\ \\Omega$</b><br>Using $P = V^2 / R \\implies R = V^2 / P = (220)^2 / 100 = 48400 / 100 = 484\\ \\Omega$."
+  },
+  {
+    "question": "When two or more resistors are connected in series, the overall equivalent resistance is:",
+    "options": [
+      "Greater than the largest individual resistance",
+      "Less than the smallest individual resistance",
+      "Equal to the average of all resistances",
+      "Always zero"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) Greater than the largest individual resistance</b><br>In a series combination, $R_{eq} = R_1 + R_2 + \\dots$, which is always strictly greater than the highest individual resistance in the chain."
+  },
+  {
+    "question": "When two or more resistors are connected in parallel, the total equivalent resistance is:",
+    "options": [
+      "Greater than the highest resistance",
+      "Smaller than the smallest individual resistance",
+      "Equal to the sum of resistances",
+      "Constant"
+    ],
+    "answer": "1",
+    "solution": "<b>Answer: (B) Smaller than the smallest individual resistance</b><br>In parallel combination, the equivalent resistance is always smaller than the smallest individual branch resistance."
+  },
+  {
+    "question": "A current of $2\\text{ A}$ flows through a circuit for $5\\text{ minutes}$. What is the total electric charge that passes through the circuit?",
+    "options": [
+      "$10\\text{ C}$",
+      "$100\\text{ C}$",
+      "$600\\text{ C}$",
+      "$1200\\text{ C}$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $600\\text{ C}$</b><br>Time $t = 5 \\times 60 = 300\\text{ seconds}$.<br>Charge $q = I \\times t = 2\\text{ A} \\times 300\\text{ s} = 600\\text{ C}$."
+  },
+  {
+    "question": "How much work is done in moving a charge of $2\\text{ C}$ across two points having a potential difference of $12\\text{ V}$?",
+    "options": [
+      "$6\\text{ J}$",
+      "$12\\text{ J}$",
+      "$24\\text{ J}$",
+      "$48\\text{ J}$"
+    ],
+    "answer": "2",
+    "solution": "<b>Answer: (C) $24\\text{ J}$</b><br>Formula $W = V \\times q = 12\\text{ V} \\times 2\\text{ C} = 24\\text{ Joules (J)}$."
+  },
+  {
+    "question": "During a short circuit, the electric current in the circuit:",
+    "options": [
+      "Increases enormously",
+      "Drops to zero",
+      "Remains unchanged",
+      "Continuously decreases"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) Increases enormously</b><br>During a short circuit, resistance approaches zero, causing current to surge dramatically, which can lead to fires and equipment damage."
+  },
+  {
+    "question": "In household circuits, an electric fuse is always connected to which wire and in which combination?",
+    "options": [
+      "In series with the Live wire",
+      "In parallel with the Neutral wire",
+      "In series with the Earth wire",
+      "In series with the Neutral wire"
+    ],
+    "answer": "0",
+    "solution": "<b>Answer: (A) In series with the Live wire</b><br>For safety, fuses are placed strictly in series with the live wire so that melting completely isolates the appliance from high potential."
+  }
+]
