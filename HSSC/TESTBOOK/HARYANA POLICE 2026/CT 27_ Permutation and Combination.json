@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the value of <sup>7</sup>C<sub>3</sub> in terms of combinations?",
+    "question_hi": "संचय&nbsp;के संदर्भ में <sup>7</sup>C<sub>3</sub> का मान क्या है?",
+    "options": [
+      "22",
+      "35",
+      "50",
+      "63",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "22",
+      "35",
+      "50",
+      "63",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>We need the value of <span class=\"math-tex\">\\( ^7C_3 \\)</span></p>\n\n<p><strong>Formula used:</strong></p>\n\n<p><span class=\"math-tex\">\\( ^nC_r = \\dfrac{n!}{r!(n-r)!} \\)</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span class=\"math-tex\">\\( ^7C_3 = \\dfrac{7!}{3! \\times 4!} \\)</span></p>\n\n<p>&rArr; (7 &times; 6 &times; 5 &times; 4!) &divide; (3 &times; 2 &times; 1 &times; 4!)</p>\n\n<p>&rArr; (7 &times; 6 &times; 5) &divide; 6</p>\n\n<p>&rArr; 35</p>\n\n<p><strong>&there4; <span class=\"math-tex\">\\( ^7C_3 = 35 \\)</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>हमें <span class=\"math-tex\">\\( ^7C_3 \\)</span> का मान ज्ञात करना है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span class=\"math-tex\">\\( ^nC_r = \\dfrac{n!}{r!(n-r)!} \\)</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span class=\"math-tex\">\\( ^7C_3 = \\dfrac{7!}{3! \\times 4!} \\)</span></p>\n\n<p>&rArr; (7 &times; 6 &times; 5 &times; 4!) &divide; (3 &times; 2 &times; 1 &times; 4!)</p>\n\n<p>&rArr; (7 &times; 6 &times; 5) &divide; 6</p>\n\n<p>&rArr; 35</p>\n\n<p><strong>&there4; <span class=\"math-tex\">\\( ^7C_3 = 35 \\)</span></strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "How many 3 digit even numbers can be formed using the digits 5, 4, 2 and 7 without repetition?",
+    "question_hi": "अंक 5, 4, 2 और 7 का उपयोग करके बिना दोहराए कितनी 3 अंकों की सम संख्याएँ बनाई जा सकती हैं?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "15",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10",
+      "11",
+      "12",
+      "15",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Digits available: 5, 4, 2, 7</p>\n\n<p>Number of digits in the number: 3</p>\n\n<p>Condition: The number should be even, and repetition of digits is not allowed.</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Total even numbers = (Number of choices for unit place) &times; (Number of choices for tens place) &times; (Number of choices for hundreds place)</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>Step 1: For the unit place (to make the number even), possible digits are 2 and 4 (2 choices).</p>\n\n<p>Step 2: After choosing the unit place, there are 3 remaining digits. Any of these 3 digits can be chosen for the hundreds place (3 choices).</p>\n\n<p>Step 3: For the tens place, the remaining 2 digits can be chosen (2 choices).</p>\n\n<p>&rArr; Total even numbers = (Choices for unit place) &times; (Choices for hundreds place) &times; (Choices for tens place)</p>\n\n<p>&rArr; Total even numbers = 2 &times; 3 &times; 2</p>\n\n<p>&rArr; Total even numbers = 12</p>\n\n<p><strong>&there4; The correct answer is option (3).</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>उपलब्ध अंक: 5, 4, 2, 7</p>\n\n<p>संख्या में अंकों की संख्या: 3</p>\n\n<p>शर्त: संख्या सम होनी चाहिए, और अंकों की पुनरावृत्ति की अनुमति नहीं है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>कुल सम संख्याएँ = (इकाई स्थान के लिए विकल्पों की संख्या) &times; (दहाई स्थान के लिए विकल्पों की संख्या) &times; (सैकड़ा स्थान के लिए विकल्पों की संख्या)</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>चरण 1: इकाई स्थान के लिए (संख्या को सम बनाने के लिए), संभावित अंक 2 और 4 हैं (2 विकल्प)।</p>\n\n<p>चरण 2: इकाई स्थान चुनने के बाद, 3 शेष अंक हैं। इन 3 अंकों में से किसी को भी सैकड़ा स्थान के लिए चुना जा सकता है (3 विकल्प)।</p>\n\n<p>चरण 3: दहाई स्थान के लिए, शेष 2 अंकों को चुना जा सकता है (2 विकल्प)।</p>\n\n<p>&rArr; कुल सम संख्याएँ = (इकाई स्थान के लिए विकल्प) &times; (सैकड़ा स्थान के लिए विकल्प) &times; (दहाई स्थान के लिए विकल्प)</p>\n\n<p>&rArr; कुल सम संख्याएँ = 2 &times; 3 &times; 2</p>\n\n<p>&rArr; कुल सम संख्याएँ = 12</p>\n\n<p><strong>&there4; सही उत्तर विकल्प (3) है।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "In how many distinguishable ways can the letters of the word CHANCE be arranged?",
+    "question_hi": "कितने गोचर तरीकों में शब्द CHANCE के अक्षरों को व्यवस्थित किया जा सकता है?",
+    "options": [
+      "120",
+      "720",
+      "360",
+      "240",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "120",
+      "720",
+      "360",
+      "240",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is 360</p>\n\n<p><u><strong>Explanation:</strong></u></p>\n\n<p>In the word &quot;CHANCE&quot;:</p>\n\n<ul>\n\t<li>There are 6 letters in total.</li>\n\t<li>All letters are unique (C, H, A, N, C, E), except C</li>\n</ul>\n\n<ul>\n\t<li>The number of distinguishable arrangements of these 6 letters is given by:\n\t<p><span class=\"math-tex\">\\(\\frac{n p_r}{2 !}=\\frac{6 p_6}{2 !}=\\frac{6 !}{2 !}=360\\)</span></p>\n\t</li>\n</ul>\n\n<p style=\"color: (33, 37, 41);\"><strong>Therefore, the number of distinguishable ways to arrange the letters of the word &quot;CHANCE&quot; is 360.</strong></p>\n",
+    "solution_hi": "<p>सही उत्तर 360 है।&nbsp;</p>\n\n<p><u><strong>व्याख्या:</strong></u></p>\n\n<p>शब्द &quot;CHANCE&quot; में:</p>\n\n<ul>\n\t<li>कुल 6 अक्षर हैं।</li>\n\t<li><span style=\"color: rgb(33, 37, 41);\">C के अलावा&nbsp;</span>सभी अक्षर (C, H, A, N, C, E)&nbsp;<span style=\"color: rgb(33, 37, 41);\">अद्वितीय हैं&nbsp;</span></li>\n</ul>\n\n<ul>\n\t<li>इन 6 अक्षरों के अलग-अलग क्रमों की संख्या इस प्रकार दी गई है:\n\t<p><span class=\"math-tex\">\\(\\frac{n p_r}{2 !}=\\frac{6 p_6}{2 !}=\\frac{6 !}{2 !}=360\\)</span></p>\n\t</li>\n</ul>\n\n<p style=\"color: (33, 37, 41);\"><strong>इसलिए, शब्द &quot;CHANCE&quot; के अक्षरों को व्यवस्थित करने के अलग-अलग तरीकों की संख्या 360 है।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "In a group of 11 persons, each shakes hand with every other once and only once. What is the total number of such handshakes?",
+    "question_hi": "11 व्यक्तियों के एक समूह में, प्रत्येक व्यक्ति एक-दूसरे से केवल एक बार हाथ मिलाता है। ऐसे हाथ मिलाने की कुल संख्या कितनी है?",
+    "options": [
+      "110",
+      "121",
+      "55",
+      "66",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "110",
+      "121",
+      "55",
+      "66",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p>The correct answer is <strong>55</strong></p>\n\n<p><b>Calculation:</b></p>\n\n<p>In a group of 11 persons, each person shakes hands with every other person exactly once. This is a classic problem of combinations where we need to choose 2 people out of 11 to shake hands.</p>\n\n<p>The formula to calculate the number of handshakes is given by the combination formula:</p>\n\n<p><strong><sup>n</sup>C<sub>2 </sub>= n(n-1)/2</strong></p>\n\n<p>Here, n is the number of persons, which is 11.</p>\n\n<p>So, the number of handshakes is:</p>\n\n<p>= <sup>11</sup>C<sub>2</sub></p>\n\n<p>= 11 x&nbsp;(11 - 1) / 2</p>\n\n<p>= (11 x 10) / 2</p>\n\n<p>= 110 / 2</p>\n\n<p>= 55</p>\n\n<p>Therefore, the correct answer is Option 3.</p>\n",
+    "solution_hi": "<p>सही उत्तर <strong>55</strong> है<span style=\"color: rgb(33, 37, 41);\">।</span></p>\n\n<p><b>गणना:</b></p>\n\n<p>11 व्यक्तियों के एक समूह में, प्रत्येक व्यक्ति दूसरे प्रत्येक व्यक्ति से केवल एक बार हाथ मिलाता है। यह संयोजनों की एक उत्कृष्ट समस्या है जहाँ हमें 11 में से 2 लोगों को हाथ मिलाने के लिए चुनना होगा।</p>\n\n<p>हाथ मिलाने की संख्या की गणना करने का सूत्र संयोजन सूत्र द्वारा दिया गया है:</p>\n\n<p><strong><sup>n</sup>C<sub>2 </sub>= n(n-1)/2</strong></p>\n\n<p>यहाँ, n व्यक्तियों की संख्या है, जो 11 है।</p>\n\n<p>इसलिए, हाथ मिलाने की संख्या है:</p>\n\n<p>= <sup>11</sup>C<sub>2</sub></p>\n\n<p>= 11 <span style=\"color: rgb(77, 81, 86); \">&times;</span> (11 - 1) / 2</p>\n\n<p>= (11 <span style=\"color: rgb(77, 81, 86); \">&times;</span> 10) / 2</p>\n\n<p>= 110 / 2</p>\n\n<p>= 55</p>\n\n<p>इसलिए, सही उत्तर विकल्प 3 है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "Each of the six players participating in a chess competition will play one match with each other player. Tell us how many matches will be played in the entire competition-",
+    "question_hi": "एक शतरंज&nbsp;प्रतियोगिता में भाग ले रहे छः खिलाड़ियों में से प्रत्येक खिलाड़ी प्रत्येक अन्य खिलाड़ी के साथ एक मैच खेलेगा। ज्ञात कीजिए कि पूरी प्रतियोगिता में कितने मैच खेले जाएंगे।",
+    "options": [
+      "30",
+      "36",
+      "15",
+      "12",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "30",
+      "36",
+      "15",
+      "12",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Each of the six players participating in a chess competition will play one match with each other player.</p>\n\n<p><strong>Concept Used:</strong></p>\n\n<p><sup>n</sup>C<sub>r</sub>&nbsp;= n!/r!(n - r)!</p>\n\n<p>Calculations:</p>\n\n<p>Symbolically, this can be represented as C(n, r) where:</p>\n\n<p>n represents the total number of players.<br />\nr represents the number of players in a single match.</p>\n\n<p>In this case, n is 6 (the total number of players) and r is 2 (players in a single match).</p>\n\n<p>So, in the notation of combinations, the number of matches would be represented as C(6,2).</p>\n\n<p>C(6,2) = 6! / [2!(6-2)!] = 30/2 = 15</p>\n\n<p><strong>&there4; There will be 15 matches played in the entire competition.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>शतरंज प्रतियोगिता में भाग लेने वाले छह खिलाड़ियों में से प्रत्येक एक दूसरे खिलाड़ी के साथ एक मैच खेलेगा।</p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">n</span><span style=\"color: rgb(33, 37, 41);\">C</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">r</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;= n!/r!(n - r)!</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>प्रतीकात्मक रूप से, इसे C(n, r) के रूप में दर्शाया जा सकता है जहाँ:</p>\n\n<p>n खिलाड़ियों की कुल संख्या को दर्शाता है।<br />\nr एक मैच में खिलाड़ियों की संख्या को दर्शाता है।</p>\n\n<p>इस स्थिति में, n 6 (खिलाड़ियों की कुल संख्या) है और r 2 (एकल मैच में खिलाड़ी) है।</p>\n\n<p>इसलिए, संचयों के अंकन में, मिलानों की संख्या को C(6,2) के रूप में दर्शाया जाएगा।</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">C(6,2) = 6! / [2!(6-2)!] = 30/2 = 15</span></p>\n\n<p><strong>&there4; पूरी प्रतियोगिता में 15 मैच खेले जायेंगे।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "What is the maximum number of points of intersection of 10 circles?",
+    "question_hi": "10 वृत्तों के प्रतिच्छेद बिंदुओं की अधिकतम संख्या&nbsp;कितनी है?",
+    "options": [
+      "45",
+      "60",
+      "90",
+      "120",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "45",
+      "60",
+      "90",
+      "120",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong> Number of circles = 10</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Two circles can intersect at a maximum of 2 points</p>\n\n<p>Maximum number of points of intersection of 10 circles,</p>\n\n<p><sup>n</sup>C<sub>r</sub> =&nbsp;<span class=\"math-tex\">\\({{n!}\\over {{(n-r)!}r!}} \\)</span></p>\n\n<p>In this case, n = 10 (total circles) and r = 2 (pairs of circles).</p>\n\n<p>So, the number of unique pairs of circles is</p>\n\n<p><sup>10</sup>C<sub>2</sub> =&nbsp;<span class=\"math-tex\">\\({{10!}\\over {{(10-2)!}2!}} \\)</span> = 45.</p>\n\n<p>Since each pair can intersect at most twice, the maximum number of intersection points is 45 &times; 2 = 90.</p>\n\n<p><strong>&there4; Correect answer is option (C).</strong></p>\n",
+    "solution_hi": "<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">दिया गया​ है:&nbsp;</span> वृत्तों की संख्या = 10</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>दो वृत्त अधिकतम 2 बिंदुओं पर प्रतिच्छेद कर सकते हैं।&nbsp;</p>\n\n<p>10 वृत्तों के प्रतिच्छेदन बिंदुओं की अधिकतम संख्या,</p>\n\n<p><sup>n</sup>C<sub>r</sub> =&nbsp;<span class=\"math-tex\">\\({{n!}\\over {{(n-r)!}r!}} \\)</span></p>\n\n<p>इस स्थिति में, n = 10 (कुल वृत्त) और r = 2 (वृत्तों के युग्म)</p>\n\n<p>तो, वृत्तों के अद्वितीय युग्मों की संख्या है,</p>\n\n<p><sup>10</sup>C<sub>2</sub> =&nbsp;<span class=\"math-tex\">\\({{10!}\\over {{(10-2)!}2!}} \\)</span> = 45</p>\n\n<p>चूँकि प्रत्येक युग्म&nbsp;अधिकतम दो बार प्रतिच्छेद कर सकता है, प्रतिच्छेदन बिंदुओं की अधिकतम संख्या 45 &times; 2 = 90 है।</p>\n\n<p><strong>&there4; सही उत्तर विकल्प <span style=\"font-weight: bolder;\">(C)</span> है।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "In how many different ways can the letters of the word &#39;TECHNICAL&#39; be arranged in such a way that the vowels always come together?",
+    "question_hi": "शब्द &#39;TECHNICAL&#39; के अक्षरों को कितने अलग-अलग तरीकों से इस प्रकार व्यवस्थित किया जा सकता है कि स्वर हमेशा एक साथ आएं?",
+    "options": [
+      "15,120",
+      "4320&nbsp;",
+      "26450&nbsp;",
+      "5380",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "30240&nbsp;",
+      "4320&nbsp;",
+      "26450&nbsp;",
+      "5380",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The word <strong>&#39;TECHNICAL&#39;</strong> has 9 letters.</p>\n\n<p>Letters: T, E, C, H, N, I, C, A, L</p>\n\n<p>Vowels are: E, I, A (3 vowels)</p>\n\n<p><strong>Concept Used:</strong></p>\n\n<p>When vowels must always come together, treat them as a single unit.</p>\n\n<p>Adjust for repetition of any letters (C occurs twice).</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Treat vowels EIA as one unit &rarr; We now have: T, C, H, N, C, L, (EIA)</p>\n\n<p>So, we are arranging 7 units in total (6 consonants + 1 vowel group)</p>\n\n<p>Since C appears twice, total arrangements of 7 units = 7! / 2! = 5040 / 2 = 2520</p>\n\n<p>Arrangements of vowels E, I, A within their group = 3! = 6</p>\n\n<p><strong>Required number of arrangements = 2520 &times; 6 = 15,120</strong></p>\n\n<p><strong>&there4; The total number of ways = 15,120</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया:</strong></p>\n\n<p><strong>&#39;TECHNICAL&#39;</strong> शब्द में 9 अक्षर हैं।</p>\n\n<p>अक्षर: <span style=\"color: rgb(33, 37, 41);\">T, E, C, H, N, I, C, A, L</span></p>\n\n<p>स्वर हैं: <span style=\"color: rgb(33, 37, 41);\">E, I, A</span> (3 स्वर)</p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>जब स्वरों को हमेशा एक साथ आना हो तो उन्हें एक इकाई के रूप में मानें।</p>\n\n<p>किसी भी अक्षर की पुनरावृत्ति के लिए समायोजन करें (C दो बार आता है)।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>स्वर EIA को एक इकाई मानें &rarr; अब हमारे पास है: T, C, H, N, C, L, (EIA)</p>\n\n<p>तो, हम कुल 7 इकाइयों (6 व्यंजन + 1 स्वर समूह) की व्यवस्था कर रहे हैं</p>\n\n<p>चूँकि C दो बार आता है, 7 इकाइयों की कुल व्यवस्था = 7! / 2! = 5040 / 2 = 2520</p>\n\n<p>स्वरों E, I, A की उनके समूह में व्यवस्था = 3! = 6</p>\n\n<p><strong>व्यवस्थाओं की आवश्यक संख्या = 2520 &times; 6 = 15,120</strong></p>\n\n<p><strong>&there4; तरीकों की कुल संख्या = 15,120</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "The number of ways in which a cricket team of 11 players can be formed from 16 players always including the captain and always excluding 2 players is:&nbsp;",
+    "question_hi": "16 खिलाड़ियों में से 11 खिलाड़ियों की एक क्रिकेट टीम बनाने तरीकों की संख्या ज्ञात कीजिए जिसमें हमेशा एक कैप्टन शामिल है और हमेशा 2 खिलाड़ियों को टीम से बाहर रख सकते हैं? ",
+    "options": [
+      "284",
+      "640",
+      "448",
+      "286",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "284",
+      "640",
+      "448",
+      "286",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Given</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">Total number of players = 16</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Number of Players to be selected = 11</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Excluding&nbsp; Players&nbsp; = 2&nbsp;</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Including Players = 1</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Calculation:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">The selection must obey two rules:</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">&rArr;</span>Always include the captain<br />\n<span style=\"color: rgb(33, 37, 41);\">&rArr;</span>Always exclude two specific players</p>\n\n<p style=\"color: rgb(33, 37, 41);\">So, we actually only have 13 players available for selection, because one player is the captain, who must be in the team, and two players cannot be selected at all.</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr;(16 total - 1 captain - 2 unwanted players = 13 players).</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&there4; Number of ways of selection</p>\n\n<p style=\"color: rgb(33, 37, 41);\">=&nbsp;<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">13</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">10&nbsp;&nbsp;</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr;286</p>\n",
+    "solution_hi": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">दिया गया है</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">कुल खिलाड़ियों की संख्या = 16</p>\n\n<p style=\"color: rgb(33, 37, 41);\">चयनित किए जाने वाले खिलाड़ियों की संख्या = 11</p>\n\n<p style=\"color: rgb(33, 37, 41);\">बाद किए जाने वाले खिलाड़ी = 2 </p>\n\n<p style=\"color: rgb(33, 37, 41);\">शामिल किए जाने वाले खिलाड़ी = 1</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">गणना:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">चयन को दो नियमों का पालन करना होगा:</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">&rArr;</span>कप्तान को हमेशा शामिल करें<br />\n<span style=\"color: rgb(33, 37, 41);\">&rArr;</span>दो विशिष्ट खिलाड़ियों को हमेशा बाहर रखें</p>\n\n<p style=\"color: rgb(33, 37, 41);\">इसलिए, हमारे पास वास्तव में चयन के लिए केवल 13 खिलाड़ी उपलब्ध हैं, क्योंकि एक खिलाड़ी कप्तान है, जो टीम में अवश्य होना चाहिए, और दो खिलाड़ियों का चयन बिलकुल नहीं किया जा सकता है।</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr;(16 कुल - 1 कप्तान - 2 अवांछित खिलाड़ी = 13 खिलाड़ी).</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&there4; चयन के तरीकों की संख्या</p>\n\n<p style=\"color: rgb(33, 37, 41);\">= <span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">13</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">10  </span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr;286</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<p>There are 5 boys and 4 girls and they are sitting on a circular table. In how many ways they can sit?</p>\n",
+    "question_hi": "<p>यहाँ 5 लड़के और 4 लड़कियाँ हैं और वे एक वृत्ताकार <span style=\"\">मेंज&nbsp;</span>पर बैठे हैं। वे कितने प्रकार से बैठ सकते हैं?</p>\n",
+    "options": [
+      "<span style=\"\">45630</span>",
+      "<span style=\"\">40600</span>",
+      "<span style=\"\">42650</span>",
+      "<span style=\"\">40320</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">45630</span>",
+      "<span style=\"\">40600</span>",
+      "<span style=\"\">42650</span>",
+      "<span style=\"\">40320</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>There are 5 boys and 4 girls and they are sitting on a circular table.</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Number of ways in which n peoples can be arranged on a circular table = (n - 1)!</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>According to the formula, we have</p>\n\n<p>Required number of arrangements = (9 - 1)! = 8! = 8 &times; 7 &times; 6 &times; 5 &times; 4 &times; 3 &times; 2 = 40320</p>\n\n<p><strong>&there4; The required number is 40320.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>यहाँ 5 लड़के और 4 लड़कियाँ हैं और वे एक वृत्ताकार मेज पर बैठे हैं।</p>\n\n<p><strong>प्रयुक्त सूत्र</strong>​<strong>:</strong></p>\n\n<p>एक वृत्ताकार मेंज पर n लोगों को व्यवस्थित करने के तरीकों की संख्या = (n - 1)!</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>सूत्र के अनुसार, हमारे पास है</p>\n\n<p>व्यवस्थाओं की अभीष्ट संख्या = (9 - 1)! = 8! = 8 &times; 7 &times; 6 &times; 5 &times; 4 &times; 3 &times; 2 = 40320</p>\n\n<p><strong>&there4; अभीष्ट&nbsp;संख्या 40320 है।​</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "In how many ways can the letters of the word &#39;TRIANGLE&#39; can be arranged?",
+    "question_hi": "शब्द &#39;TRIANGLE&#39; के अक्षरों को कितने प्रकार से व्यवस्थित किया जा सकता है?",
+    "options": [
+      "25253",
+      "<span style=\"\">40000</span>",
+      "40320",
+      "<span style=\"\">36558</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "25253",
+      "<span style=\"\">40000</span>",
+      "40320",
+      "<span style=\"\">36558</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The given word is TRIANGLE</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>The number of ways in which n letters can be arranged = n!</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Total number of letters in TRIANGLE = 8</p>\n\n<p>So, the required number of combinations = 8! = 8 &times; 7 &times; 6 &times; 5 &times; 4 &times; 3 &times; 2 = 40320</p>\n\n<p><strong>&there4; The required value is 40320.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>दिया गया शब्द TRIANGLE है।</p>\n\n<p><strong>प्रयुक्त अवधारणा</strong><strong>:</strong></p>\n\n<p>n अक्षरों को व्यवस्थित करने के तरीकों की संख्या = n!</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"\">TRIANGLE</span> में अक्षरों की कुल संख्या = 8</p>\n\n<p>इसलिए, संयोजनों की अभीष्ट संख्या = 8! = 8 &times; 7 &times; 6 &times; 5 &times; 4 &times; 3 &times; 2 = 40320</p>\n\n<p><strong>&there4; अभीष्ट&nbsp;मान 40320 है।​</strong></p>\n",
+    "marks": "0.97"
+  }
+]
