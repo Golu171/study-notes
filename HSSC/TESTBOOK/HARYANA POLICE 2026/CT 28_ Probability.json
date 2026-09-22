@@ -1,0 +1,222 @@
+[
+  {
+    "question": "A bag contains 5 red and 3 blue balls. If 3 balls are drawn at random without replacement. The probability of getting exactly one red ball is",
+    "question_hi": "एक&nbsp;बैग में 5 लाल और 3 नीली गेंदें&nbsp;हैं। यदि 3 गेंदों को&nbsp;बिना प्रतिस्थापन के यादृच्छिक रूप से निकाला जाता है, तो वास्तव में एक लाल गेंद होने की संभावना कितनी है?",
+    "options": [
+      "45/196",
+      "135/392",
+      "15/56",
+      "15/29",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "45/196",
+      "135/392",
+      "15/56",
+      "15/29",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p>There are 5 red and 3 blue balls in the bag.</p>\n\n<p>Total balls in the bag = 5 + 3 = 8</p>\n\n<p>Three balls are drawn at random, then probability of getting exactly one red ball = (<sup>5</sup>C<sub>1</sub> &times; <sup>3</sup>C<sub>2</sub>) / <sup>8</sup>C/<sub>3</sub></p>\n\n<p>= (5 &times; 3) / (8 &times; 7)</p>\n= 15/56",
+    "solution_hi": "<p>बैग में 5 लाल और 3 नीली गेंदें&nbsp;हैं।</p>\n\n<p>बैग में गेंदों की कुल संख्या&nbsp;= 5 + 3 = 8</p>\n\n<p>यदि 3 गेंदों को&nbsp;बिना प्रतिस्थापन के यादृच्छिक रूप से निकाला&nbsp;जाता है, तो वास्तव में एक लाल गेंद होने की संभावना&nbsp;= (<sup>5</sup>C<sub>1</sub> &times; <sup>3</sup>C<sub>2</sub>) / <sup>8</sup>C/<sub>3</sub></p>\n\n<p>= (5 &times; 3) / (8 &times; 7)</p>\n= 15/56",
+    "marks": "0.97"
+  },
+  {
+    "question": "Three fair coins are tossed simultaneously. What is the probability of getting at least one head and one tail?",
+    "question_hi": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">तीन अभिनत सिक्कों को एक साथ उछाला जाता है। </font><font style=\"vertical-align: inherit;\">कम से कम एक चित और एक पट आने की प्रायिकता क्या है?</font></font>",
+    "options": [
+      "<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{7}{8}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{5}{8}\\)</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\frac{3}{4}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{3}{8}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{7}{8}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{5}{8}\\)</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><span style=\"font-weight: 700;\">Formula Used:&nbsp;</span></p>\n\n<p>Probability = (Number of successful outcomes/Total number of outcomes)</p>\n\n<p>P(E) = (nE)/(nS), where nE = Number of events and nS = Number of sample space&nbsp;</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>When three&nbsp;coins are tossed, total possible outcomes = 8</p>\n\n<p>S = {HHH, HHT, HTT, THH, TTH, THT, HTH, TTT}</p>\n\n<p>Favourable cases = {HHT,HTT,THH,TTH,THT,HTH}</p>\n\n<p>Here, H = Head, T = Tail</p>\n\n<p>P(getting at least one head, one tail) = 6/8 = 3/4</p>\n\n<p><span style=\"font-weight: 700;\">&there4; The probability is 3/4.</span></p>\n",
+    "solution_hi": "<p><span style=\"font-weight: 700;\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्रयुक्त सूत्र:&nbsp;</font></font></span></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्रायिकता = (सफल परिणामों की संख्या/परिणामों की कुल संख्या)</font></font></p>\n\n<p>P(E) = (nE)/(nS)<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">, जहां nE&nbsp;= घटनाओं की संख्या और nS&nbsp;= प्रतिदर्श समष्टि&nbsp;की संख्या&nbsp;</font></font></p>\n\n<p><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">गणना:</font></font></strong></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">जब तीन सिक्कों को उछाला जाता है, तब&nbsp;कुल संभावित परिणाम = 8</font></font></p>\n\n<p>S = <span style=\"\">{HHH, HHT, HTT, THH, TTH, THT, HTH, TTT}</span></p>\n\n<p>अनुकूल स्थिति&nbsp;= {HHT,HTT,THH,TTH,THT,HTH}</p>\n\n<p>यहाँ, H = चित, T = पट</p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">P(कम से कम एक </font></font><span style=\"\">चित</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">, एक </font></font><span style=\"\">पट&nbsp;</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्राप्त करना है) = 6/8 = 3/4</font></font></p>\n\n<p><span style=\"font-weight: 700;\">&there4;&nbsp;<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्रायिकता 3/4 है।</font></font></span></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "A coin tossed for 4 times. What is the probability of getting head at exact 3 times?",
+    "question_hi": "एक सिक्के को 4 बार उछाला जाता है। तो ठीक 3 बार चित प्राप्त करने की प्रायिकता क्या है?",
+    "options": [
+      "0.75",
+      "0.25",
+      "1",
+      "0.5",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "0.75",
+      "0.25",
+      "1",
+      "0.5",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p><strong><u>Concept:</u></strong></p>\n\n<p>If select r items form total number of n items</p>\n\n<p>P(X = r) =&nbsp;<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size: 10.5px;\">n</span>C<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size: 10.5px;\">r</span>&nbsp;&times; p<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size: 10.5px;\">r</span>&nbsp;&times; q<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size: 10.5px;\">n - r</span></p>\n\n<p><strong><u>Calculation:</u></strong></p>\n\n<p>P (one head in one toss) = <span style=\"font-size:16px;\"><span class=\"math-tex\">\\(\\rm 1\\over2\\)</span></span>= 0.5 (p)</p>\n\n<p>P (one tail in one toss) = 1 - p = 0.5 (q)</p>\n\n<p>P (getting Head at least 3 times) = P(getting Head 3 times) + P(getting head 4 times)</p>\n\n<p>P (X =&nbsp;3)&nbsp;</p>\n\n<p>=&nbsp;<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">4</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">3</span>&nbsp;&times; (0.5)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3&nbsp;</span>&times; (0.5)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">1</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (∵ P(X = r) =&nbsp;<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">n</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">r</span>&nbsp;&times; p<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">r</span>&nbsp;&times; q<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">n - r</span>)</p>\n\n<p>= (4 &times; 3 &times; 2 &times; 1)/(3 &times; 2 &times; 1) &times; 0.0625 &times; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p>= 0.0625 &times; 4</p>\n\n<p>= 0.25</p>\n",
+    "solution_hi": "<p><u><strong>संकल्पना:</strong></u></p>\n\n<p>यदि n वस्तुओं की कुल संख्या से r वस्तुओं का चयन किया जाता है।&nbsp;</p>\n\n<p>P(X = r) =&nbsp;<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size: 10.5px;\">n</span>C<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size: 10.5px;\">r</span>&nbsp;&times; p<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size: 10.5px;\">r</span>&nbsp;&times; q<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size: 10.5px;\">n - r</span></p>\n\n<p><u><strong>गणना:</strong></u></p>\n\n<p>P (एक उछाल में एक चित) = <span style=\"font-size:16px;\"><span class=\"math-tex\">\\(\\rm 1\\over2\\)</span></span>= 0.5 (p)</p>\n\n<p>P (एक उछाल में एक पट) = 1 - p = 0.5 (q)</p>\n\n<p>P (कम से कम 3 बार चित प्राप्त करना) = P(3 बार चित प्राप्त करना&nbsp;) + P(4 बार चित प्राप्त करना)</p>\n\n<p>P (X =&nbsp;3)&nbsp;</p>\n\n<p>=&nbsp;<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">4</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">3</span>&nbsp;&times; (0.5)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3&nbsp;</span>&times; (0.5)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">1</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (∵ P(X = r) =&nbsp;<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">n</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">r</span>&nbsp;&times; p<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">r</span>&nbsp;&times; q<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">n - r</span>)</p>\n\n<p>= (4 &times; 3 &times; 2 &times; 1)/(3 &times; 2 &times; 1) &times; 0.0625 &times; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p>= 0.0625 &times; 4</p>\n\n<p>= 0.25</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "A bag contains 5 black and 6 white balls; two balls are drawn at random. What is the probability that the balls drawn are white?",
+    "question_hi": "एक बैग में 5 काली और 6 सफेद गेंदें हैं; दो गेंदों को बैग से यादृच्छिक निकाला जाता है। क्या प्रायिकता है कि निकाली गई गेंदें सफेद हैं?",
+    "options": [
+      "10/11",
+      "4/11",
+      "6/11",
+      "3/11",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10/11",
+      "4/11",
+      "6/11",
+      "3/11",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given</strong></p>\n\n<p>Number of black balls = 5</p>\n\n<p>Number of white balls = 6</p>\n\n<p><strong>Formula</strong></p>\n\n<p>Probability = Favorable events/Total possible events</p>\n\n<p><strong>Calculation</strong></p>\n\n<p>Favorable event =&nbsp;<sup>6</sup>C<sub>2</sub></p>\n\n<p>Total possible events = <sup>11</sup>C<sub>2</sub></p>\n\n<p>&there4; Probability&nbsp;= <sup>6</sup>C<sub>2</sub>/<sup>11</sup>C<sub>2</sub>&nbsp;= (6&nbsp;&times; 5)/(11&nbsp;&times; 10) = 3/11</p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;</strong></p>\n\n<p>काली गेंदों की संख्या = 5</p>\n\n<p>सफेद गेंदों की संख्या = 6</p>\n\n<p><strong>सूत्र</strong></p>\n\n<p>प्रायिकता = अनुकूल घटनायें/कुल संभावित घटनायें&nbsp;</p>\n\n<p><strong>गणना</strong></p>\n\n<p><span style=\"\">अनुकूल घटना&nbsp;</span>= <span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span></p>\n\n<p>कुल संभावित <span style=\"\">घटनायें&nbsp;</span>= <span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">11</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span></p>\n\n<p>&there4; <span style=\"\">प्रायिकता&nbsp;</span>= <span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>/<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">11</span>C<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>&nbsp;= (6&nbsp;&times; 5)/(11&nbsp;&times; 10) = 3/11</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<span>One card is drawn from a well- shuffled pack of 52 cards. What is the probability of getting a king of black color?</span>",
+    "question_hi": "<span>अच्छी तरह से फेंटी गई 52 ताश के पत्तों की एक गड्डी में से एक पत्ता निकाला जाता है। काले रंग का बादशाह प्राप्त होने की प्रायिकता क्या है?</span>",
+    "options": [
+      "<span><span class='math-tex'>\\( \\frac{2}{51} \\)</span></span>",
+      "<span><span class='math-tex'>\\( \\frac{1}{13} \\)</span></span>",
+      "<span><span class='math-tex'>\\( \\frac{1}{2} \\)</span></span>",
+      "<span><span class='math-tex'>\\( \\frac{1}{26} \\)</span></span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span><span class='math-tex'>\\( \\frac{2}{51} \\)</span></span>",
+      "<span><span class='math-tex'>\\( \\frac{1}{13} \\)</span></span>",
+      "<span><span class='math-tex'>\\( \\frac{1}{2} \\)</span></span>",
+      "<span><span class='math-tex'>\\( \\frac{1}{26} \\)</span></span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Total <strong>cards</strong> in a pack = 52.</p>\n<p>There are two <strong>black suits</strong>: <strong>Spades</strong> and <strong>Clubs</strong>.</p>\n<p>Each suit contains exactly one <strong>King</strong>.</p>\n<p>Total <strong>black kings</strong> = 1 (Spade) + 1 (Club) = 2.</p>\n<p>Probability = <strong>Favorable outcomes</strong> ÷ <strong>Total outcomes</strong> = 2 ÷ 52 = 1/26.</p>\n<p><strong>∴ The correct answer is 1/26.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Total cards in a deck = 52</p>\n<p>Event (E) = Drawing a <strong>king of black color</strong></p>\n<p><strong>Formula Used:</strong></p>\n<p>Probability P(E) = Number of favorable outcomes n(E) ÷ Total number of outcomes n(S)</p>\n<img src=\"https://cdn.testbook.com/tb_solImg_9433a54e.png/1780038488.png\" style=\"max-width: 100%; height: auto;\">\n<p><strong>Calculations:</strong></p>\n<p>⇒ Total possible outcomes, n(S) = 52</p>\n<p>⇒ In a pack, there are 26 <strong>Red cards</strong> and 26 <strong>Black cards</strong>.</p>\n<p>⇒ Black cards consist of 13 <strong>Spades</strong> and 13 <strong>Clubs</strong>.</p>\n<p>⇒ Each suit has one <strong>King</strong>, one <strong>Queen</strong>, and one <strong>Jack</strong>.</p>\n<p>⇒ Number of <strong>black kings</strong>, n(E) = 1 (King of Spades) + 1 (King of Clubs) = 2</p>\n<p>⇒ Required Probability P(E) = n(E) ÷ n(S)</p>\n<p>⇒ P(E) = 2 ÷ 52</p>\n<p>⇒ P(E) = 1/26</p>\n<p><strong>∴ The correct answer is 1/26.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Composition of a Deck</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">A standard deck has <strong>52 cards</strong> divided into 4 suits (Hearts, Diamonds, Spades, Clubs) of 13 cards each. Hearts and Diamonds are <strong>Red</strong>; Spades and Clubs are <strong>Black</strong>.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Face Cards</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">There are 12 <strong>face cards</strong> in total (4 Kings, 4 Queens, 4 Jacks). The probability of drawing any face card is 12 ÷ 52 = 3/13.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Probability Range</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The <strong>probability</strong> of an event always lies between 0 and 1 (0 ≤ P(E) ≤ 1). A probability of 0 means an impossible event, and 1 means a certain event.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Complementary Events</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The sum of the probability of an event happening and it not happening is always 1: P(E) + P(not E) = 1.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>एक गड्डी में कुल <strong>पत्ते</strong> = 52</p>\n<p>यहाँ दो <strong>काले रंग के समूह</strong> होते हैं: <strong>हुकुम (Spades)</strong> और <strong>चिड़ी (Clubs)</strong>।</p>\n<p>प्रत्येक समूह में ठीक एक <strong>बादशाह (King)</strong> होता है।</p>\n<p>कुल <strong>काले बादशाह</strong> = 1 (हुकुम) + 1 (चिड़ी) = 2</p>\n<p>प्रायिकता = <strong>अनुकूल परिणाम</strong> ÷ <strong>कुल परिणाम</strong> = 2 ÷ 52 = 1/26</p>\n<p><strong>∴ सही उत्तर 1/26 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>एक गड्डी में कुल पत्ते = 52</p>\n<p>घटना (E) = <strong>काले रंग का बादशाह</strong> निकालना</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>प्रायिकता P(E) = अनुकूल परिणामों की संख्या n(E) ÷ कुल परिणामों की संख्या n(S)</p>\n<img src=\"https://cdn.testbook.com/tb_solImg_9433a54e.png/1780038488.png\" style=\"max-width: 100%; height: auto;\">\n<p><strong>गणना:</strong></p>\n<p>⇒ कुल संभावित परिणाम, n(S) = 52</p>\n<p>⇒ एक गड्डी में, 26 <strong>लाल पत्ते</strong> और 26 <strong>काले पत्ते</strong> होते हैं।</p>\n<p>⇒ काले पत्तों में 13 <strong>हुकुम</strong> और 13 <strong>चिड़ी</strong> होते हैं।</p>\n<p>⇒ प्रत्येक समूह में एक <strong>बादशाह (King)</strong>, एक <strong>बेगम (Queen)</strong>, और एक <strong>गुलाम (Jack)</strong> होता है।</p>\n<p>⇒ काले बादशाहों की संख्या, n(E) = 1 (हुकुम का बादशाह) + 1 (चिड़ी का बादशाह) = 2</p>\n<p>⇒ आवश्यक प्रायिकता P(E) = n(E) ÷ n(S)</p>\n<p>⇒ P(E) = 2 ÷ 52</p>\n<p>⇒ P(E) = 1/26</p>\n<p><strong>∴ सही उत्तर 1/26 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">ताश की गड्डी की संरचना</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">एक मानक गड्डी में <strong>52 पत्ते</strong> होते हैं जिन्हें 4 समूहों (पान, ईंट, हुकुम, चिड़ी) में विभाजित किया जाता है, जिनमें से प्रत्येक में 13 पत्ते होते हैं। पान और ईंट <strong>लाल</strong> होते हैं; हुकुम और चिड़ी <strong>काले</strong> होते हैं।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">तस्वीर वाले पत्ते (Face Cards)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">कुल 12 <strong>तस्वीर वाले पत्ते</strong> होते हैं (4 बादशाह, 4 बेगम, 4 गुलाम)। किसी भी तस्वीर वाले पत्ते को निकालने की प्रायिकता 12 ÷ 52 = 3/13 है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">प्रायिकता की सीमा</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">किसी घटना की <strong>प्रायिकता</strong> हमेशा 0 और 1 के बीच होती है (0 ≤ P(E) ≤ 1)। 0 की प्रायिकता का अर्थ एक असंभव घटना है, और 1 का अर्थ एक निश्चित घटना है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">पूरक घटनाएँ</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">किसी घटना के घटित होने और उसके घटित न होने की प्रायिकता का योग हमेशा 1 होता है: P(E) + P(not E) = 1.</p>",
+    "marks": "0.97"
+  },
+  {
+    "question": "<div><span style=\"\">What is the probability of getting a 5, given that the number rolled on a die is greater than 3?</span></div>\n",
+    "question_hi": "यदि पासे पर संख्या 3 से अधिक आई है, तो 5 आने की प्रायिकता क्या होगी?",
+    "options": [
+      "1/3",
+      "1/5",
+      "1/4",
+      "1/2",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1/3",
+      "1/5",
+      "1/4",
+      "1/2",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A standard die has numbers 1 to 6. The event is rolling a number greater than 3 and getting a 5.</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Probability = <span class=\"math-tex\">\\(\\dfrac{\\text{Favorable outcomes}}{\\text{Total outcomes}}\\)</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Numbers greater than 3 on a die = {4, 5, 6}</p>\n\n<p>Total outcomes = 3</p>\n\n<p>Favorable outcome (getting a 5) = 1</p>\n\n<p>&rArr; Probability = <span class=\"math-tex\">\\(\\dfrac{1}{3}\\)</span></p>\n\n<p><strong>&there4; The probability is <span class=\"math-tex\">\\(\\dfrac{1}{3}\\)</span>, and the correct answer is option (1).</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>एक मानक पासे पर 1 से 6 तक संख्याएँ होती हैं। घटना 3 से बड़ी संख्या प्राप्त करना और 5 प्राप्त करना है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>प्रायिकता = <span class=\"math-tex\">\\(\\dfrac{\\text{अनुकूल परिणाम}}{\\text{कुल परिणाम}}\\)</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>पासे पर 3 से बड़ी संख्याएँ = {4, 5, 6}</p>\n\n<p>कुल परिणाम = 3</p>\n\n<p>अनुकूल परिणाम (5 प्राप्त करना) = 1</p>\n\n<p>⇒ प्रायिकता = <span class=\"math-tex\">\\(\\dfrac{1}{3}\\)</span></p>\n\n<p><strong>∴ प्रायिकता <span class=\"math-tex\">\\(\\dfrac{1}{3}\\)</span> है, और सही उत्तर विकल्प (1) है।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "A bag contains 5 red balls, 3 pink balls and 2 green balls. If you draw a ball, what is the probability that it is green?",
+    "question_hi": "एक बैग में 5 लाल गेंदें, 3 गुलाबी गेंदें और 2 हरी गेंदें हैं। यदि आप एक गेंद निकालते हैं, तो उसके हरे रंग के होने की क्या प्रायिकता है?",
+    "options": [
+      "1/5",
+      "2/3",
+      "1/3",
+      "1/2",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1/5",
+      "2/3",
+      "1/3",
+      "1/2",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Red = 5, Pink = 3, Green = 2</p>\n\n<p>Total balls = 5 + 3 + 2 = 10</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Probability = Favourable outcomes &divide; Total outcomes</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>&rArr; Favourable (green) = 2</p>\n\n<p>&rArr; Total = 10</p>\n\n<p>&rArr; P(green) = 2 &divide; 10 = 1 &divide; 5&nbsp;= 1/5</p>\n\n<p><strong>&there4; Probability that the ball is green = 1/5&nbsp;</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>लाल = 5, गुलाबी = 3, हरा = 2</p>\n\n<p>कुल गेंदें = 5 + 3 + 2 = 10</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>प्रायिकता = अनुकूल परिणाम &divide; कुल परिणाम</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>&rArr; अनुकूल (हरा) = 2</p>\n\n<p>&rArr; कुल = 10</p>\n\n<p>&rArr; P(हरा) = 2 &divide; 10 = 1 &divide; 5 = 1/5</p>\n\n<p><strong>&there4; गेंद के हरे रंग के होने की प्रायिकता = 1/5</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "If you randomly choose a day of the week, what is the probability that it is a Wednesday?",
+    "question_hi": "यदि आप सप्ताह के किसी दिन को यादृच्छिक रूप से चुनते हैं, तो उसके बुधवार होने की प्रायिकता क्या है?",
+    "options": [
+      "5/7",
+      "1/7",
+      "4/7",
+      "2/7",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "5/7",
+      "1/7",
+      "4/7",
+      "2/7",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Number of days in a week = 7</p>\n\n<p>Day selected = Wednesday</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Probability = (Favorable outcomes) &divide; (Total outcomes)</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>Favorable outcomes = 1 (Wednesday)</p>\n\n<p>Total outcomes = 7</p>\n\n<p>&rArr; Probability = 1/7</p>\n\n<p><strong>&there4; The probability of randomly choosing a Wednesday is 1/7.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>एक सप्ताह में दिनों की संख्या = 7</p>\n\n<p>चुना गया दिन = बुधवार</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>प्रायिकता = (अनुकूल परिणाम) &divide; (कुल परिणाम)</p>\n\n<p><strong>गणनाएँ:</strong></p>\n\n<p>अनुकूल परिणाम = 1 (बुधवार)</p>\n\n<p>कुल परिणाम = 7</p>\n\n<p>&rArr; प्रायिकता = 1/7</p>\n\n<p><strong>&there4; यादृच्छिक रूप से बुधवार चुनने की प्रायिकता 1/7 है।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number greater than 10.",
+    "question_hi": "1 से 20 तक क्रमांकित टिकटों को मिलाकर एक टिकट यादृच्छिक रूप से निकाला जाता है। इस बात की क्या प्रायिकता है कि निकाले गए टिकट का क्रमांक 10 से अधिक है?",
+    "options": [
+      "9/20",
+      "11/20",
+      "3/4",
+      "1/2",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "9/20",
+      "11/20",
+      "3/4",
+      "1/2",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Tickets are numbered from 1 to 20.</p>\n\n<p>We need to find the probability that the ticket drawn has a number greater than 10.</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>Probability = (Number of favorable outcomes) / (Total number of outcomes)</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Numbers greater than 10: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20</p>\n\n<p>Number of favorable outcomes = 10</p>\n\n<p>Total number of outcomes = 20</p>\n\n<p>Probability = 10 / 20</p>\n\n<p>&rArr; Probability = 1 / 2</p>\n\n<p><strong>The probability that the ticket drawn has a number greater than 10 is 1/2.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>टिकट 1 से 20 तक क्रमांकित हैं।</p>\n\n<p>हमें इस बात की प्रायिकता ज्ञात करनी है कि निकाले गए टिकट का क्रमांक 10 से अधिक है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>प्रायिकता = (अनुकूल परिणामों की संख्या) / (कुल परिणामों की संख्या)</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>10 से अधिक संख्याएँ: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20</p>\n\n<p>अनुकूल परिणामों की संख्या = 10</p>\n\n<p>कुल परिणामों की संख्या = 20</p>\n\n<p>प्रायिकता = 10 / 20</p>\n\n<p>&rArr; प्रायिकता = 1 / 2</p>\n\n<p><strong>निकाले गए टिकट के&nbsp;क्रमांक को&nbsp;10 से अधिक होने की प्रायिकता&nbsp;1/2 है।</strong></p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<span>A card is drawn from a standard deck of 52 cards. What is the probability of drawing a red card?</span>",
+    "question_hi": "<span>52 कार्डों की एक मानक ताश की गड्डी से एक कार्ड निकाला जाता है। एक लाल कार्ड निकालने की प्रायिकता क्या होगी?</span>",
+    "options": [
+      "<span>1/2</span>",
+      "<span>2/3</span>",
+      "<span>1/13</span>",
+      "<span>1/26</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span>1/2</span>",
+      "<span>2/3</span>",
+      "<span>1/13</span>",
+      "<span>1/26</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>In a <strong>standard deck</strong> of 52 cards, there are two colors: <strong>Red</strong> and <strong>Black</strong>.</p>\n<p>Exactly <strong>half</strong> the cards are red (<strong>Hearts</strong> and <strong>Diamonds</strong>) and the other half are black (<strong>Spades</strong> and <strong>Clubs</strong>).</p>\n<p>Probability = 1/2.</p>\n<p><strong>∴ The correct answer is 1/2.</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Total number of cards in a standard deck = 52</p>\n<p>Number of suits = 4 (Hearts, Diamonds, Spades, Clubs)</p>\n<p><strong>Formula Used:</strong></p>\n<p>Probability P(E) = (Number of favorable outcomes) ÷ (Total number of outcomes)</p>\n<img src=\"https://cdn.testbook.com/tb_solImg_af3c6e08.png/1781092786.png\" style=\"max-width: 100%; height: auto;\">\n<p><strong>Calculations:</strong></p>\n<p>⇒ Total outcomes n(S) = 52</p>\n<p>⇒ Red cards consist of 13 <strong>Hearts</strong> and 13 <strong>Diamonds</strong>.</p>\n<p>⇒ Favorable outcomes n(E) = 13 + 13 = 26</p>\n<p>⇒ Probability P(Red Card) = n(E) ÷ n(S)</p>\n<p>⇒ P(Red Card) = 26 ÷ 52</p>\n<p>⇒ P(Red Card) = 1/2</p>\n<p><strong>∴ The correct answer is 1/2.</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Standard Deck Composition</p>\n<p style='margin:0 0 8px 0;color:#444444;'>A deck has 4 suits: <strong>Hearts</strong> and <strong>Diamonds</strong> (Red), <strong>Spades</strong> and <strong>Clubs</strong> (Black). Each suit has 13 cards (A, 2-10, J, Q, K).</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Face Cards</p>\n<p style='margin:0 0 8px 0;color:#444444;'>There are 12 <strong>face cards</strong> in a deck (Jack, Queen, King of each suit). Probability of drawing a face card = 12/52 = 3/13.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Complementary Events</p>\n<p style='margin:0 0 8px 0;color:#444444;'>The sum of probabilities of all possible mutually exclusive events is 1. P(Red) + P(Black) = 1/2 + 1/2 = 1.</p>",
+    "solution_hi": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>शॉर्टकट ट्रिक</u></span>\n<p>52 ताशों के एक <strong>मानक डेक</strong> में दो रंग होते हैं: <strong>लाल</strong> और <strong>काला</strong>।</p>\n<p>ठीक <strong>आधे</strong> पत्ते लाल (<strong>हार्ट्स</strong> और <strong>डायमंड्स</strong>) होते हैं और बाकी आधे काले (<strong>स्पेड्स</strong> और <strong>क्लब्स</strong>) होते हैं।</p>\n<p>प्रायिकता = 1/2।</p>\n<p><strong>∴ सही उत्तर 1/2 है।</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>वैकल्पिक विधि</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>एक मानक डेक में ताशों की कुल संख्या = 52</p>\n<p>सूट की संख्या = 4 (हार्ट्स, डायमंड्स, स्पेड्स, क्लब्स)</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>प्रायिकता P(E) = (अनुकूल परिणामों की संख्या) ÷ (कुल परिणामों की संख्या)</p>\n<img src=\"https://cdn.testbook.com/tb_solImg_af3c6e08.png/1781092786.png\" style=\"max-width: 100%; height: auto;\">\n<p><strong>गणना:</strong></p>\n<p>⇒ कुल परिणाम n(S) = 52</p>\n<p>⇒ लाल ताशों में 13 <strong>हार्ट्स</strong> और 13 <strong>डायमंड्स</strong> होते हैं।</p>\n<p>⇒ अनुकूल परिणाम n(E) = 13 + 13 = 26</p>\n<p>⇒ प्रायिकता P(लाल ताश) = n(E) ÷ n(S)</p>\n<p>⇒ P(लाल ताश) = 26 ÷ 52</p>\n<p>⇒ P(लाल ताश) = 1/2</p>\n<p><strong>∴ सही उत्तर 1/2 है।</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>अतिरिक्त जानकारी</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>मानक डेक की संरचना</p>\n<p style='margin:0 0 8px 0;color:#444444;'>एक डेक में 4 सूट होते हैं: <strong>हार्ट्स</strong> और <strong>डायमंड्स</strong> (लाल), <strong>स्पेड्स</strong> और <strong>क्लब्स</strong> (काला)। प्रत्येक सूट में 13 ताश (A, 2-10, J, Q, K) होते हैं।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>फेस कार्ड</p>\n<p style='margin:0 0 8px 0;color:#444444;'>एक डेक में 12 <strong>फेस कार्ड</strong> होते हैं (प्रत्येक सूट का जैक, क्वीन, किंग)। फेस कार्ड निकालने की प्रायिकता = 12/52 = 3/13।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>पूरक घटनाएँ</p>\n<p style='margin:0 0 8px 0;color:#444444;'>सभी संभव परस्पर अनन्य घटनाओं की प्रायिकताओं का योग 1 होता है। P(लाल) + P(काला) = 1/2 + 1/2 = 1।</p>",
+    "marks": "0.97"
+  }
+]
