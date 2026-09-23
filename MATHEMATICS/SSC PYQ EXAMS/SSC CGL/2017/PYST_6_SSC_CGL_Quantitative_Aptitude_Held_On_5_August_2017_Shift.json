@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>What is the value of [12/(&radic;5 + &radic;3)] + [18/(&radic;5 - &radic;3)]?</p>\n",
+    "question_hi": "<p>[12/(&radic;5 + &radic;3)] + [18/(&radic;5 - &radic;3)] का मान क्या है?</p>\n",
+    "options": [
+      "15(&radic;5 - &radic;3)",
+      "3(5&radic;5 + &radic;3)",
+      "15(&radic;5 + &radic;3)",
+      "3(3&radic;5 + &radic;3)"
+    ],
+    "options_hi": [
+      "15(&radic;5 - &radic;3)",
+      "3(5&radic;5 + &radic;3)",
+      "15(&radic;5 + &radic;3)",
+      "3(3&radic;5 + &radic;3)"
+    ],
+    "correct": 2,
+    "solution": "<p>[12/(&radic;5 + &radic;3)] + [18/(&radic;5 - &radic;3)]</p>\n\n<p>&rArr;(12&radic;5 - 12&radic;3 + 18&radic;5 + 18&radic;3)/(&radic;5 + &radic;3)(&radic;5 - &radic;3)</p>\n\n<p>&rArr; (30&radic;5 + 6&radic;3)/(5 - 3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [∵ (a + b)(a - b) = a<sup>2</sup> - b<sup>2</sup>)</p>\n\n<p>&rArr; 6(5&radic;5 + v3)/2</p>\n\n<p>&rArr; 3(5&radic;5 + &radic;3)</p>\n",
+    "solution_hi": "<p>[12/(&radic;5 + &radic;3)] + [18/(&radic;5 - &radic;3)]</p>\n\n<p>&rArr; (12&radic;5 - 12&radic;3 + 18&radic;5 + 18&radic;3)/(&radic;5 + &radic;3)(&radic;5 - &radic;3)</p>\n\n<p>&rArr; (30&radic;5 + 6&radic;3)/(5 - 3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [∵ (a + b)(a - b) = a<sup>2</sup> - b<sup>2</sup>)</p>\n\n<p>&rArr; 6(5&radic;5 + v3)/2</p>\n\n<p>&rArr; 3(5&radic;5 + &radic;3)</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>S, T and U can complete a work in 40, 48 and 60 days respectively. They received Rs 10800 to complete the work. They begin the work together but T left 2 days before the completion of the work and U left 5 days before the completion of the work. S has completed the remaining work alone. What is the share of S(in Rs) from total money?</p>\n",
+    "question_hi": "<p>S, T और U किसी कार्य को क्रमश: 40, 48 और 60 दिनों में पूरा कर सकते हैं। उन्हें कार्य पूरा करने के लिए 10800 रुपये का भुगतान किया गया। वे एक साथ कार्य शुरू करते हैं लेकिन T ने कार्य पूरा होने से 2 दिन पहले कार्य छोड़ दिया और U ने कार्य पूरा होने से 5 दिन पहले छोड़ दिया। S ने अकेले शेष कार्य को पूरा किया है। कुल प्राप्त राशि में से S (रुपये में) का हिस्सा कितना&nbsp;है?</p>\n",
+    "options": [
+      "4000",
+      "4320",
+      "4500",
+      "4860"
+    ],
+    "options_hi": [
+      "4000",
+      "4320",
+      "4500",
+      "4860"
+    ],
+    "correct": 4,
+    "solution": "<p>S&rsquo;s 1 day work = 1/40</p>\n\n<p>T&rsquo;s 1 day work = 1/48</p>\n\n<p>U&rsquo;s 1 day work = 1/60</p>\n\n<p>Let the work be completed in &lsquo;x&rsquo; days, such that S worked for all x days, T worked for (x - 2) days and U for (x - 5) days</p>\n\n<p>&rArr; x/40 + (x - 2)/48 + (x - 5)/60 = 1</p>\n\n<p>&rArr; 6x + 5(x - 2) + 4(x - 5) = 240</p>\n\n<p>&rArr; 6x + 5x - 10 + 4x - 20 = 240</p>\n\n<p>&rArr; 15x = 270</p>\n\n<p>&rArr; x = 270/15 = 18 days</p>\n\n<p>Hence, ratio of their share = (18/40) ∶ (16/48) ∶ (13/60) = 27 ∶ 20 ∶ 13</p>\n\n<p>Sum of ratios = 27 + 20 + 13 = 60</p>\n\n<p>&there4; S&rsquo;s share = (27/60) &times; 10800 = Rs. 4860</p>\n",
+    "solution_hi": "<p>S का 1 दिन का कार्य = 1/40</p>\n\n<p>T का 1 दिन का कार्य = 1/48</p>\n\n<p>U का 1 दिन का कार्य = 1/60</p>\n\n<p>माना कार्य &lsquo;x&rsquo; दिनों में पूरा हुआ, जिसमें S ने पूरे x दिनों तक कार्य किया, T ने (x - 2) दिनों तक और U ने (x - 5) दिनों तक कार्य किया।</p>\n\n<p>&rArr; x/40 + (x - 2)/48 + (x - 5)/60 = 1</p>\n\n<p>&rArr; 6x + 5(x - 2) + 4(x - 5) = 240</p>\n\n<p>&rArr; 6x + 5x - 10 + 4x - 20 = 240</p>\n\n<p>&rArr; 15x = 270</p>\n\n<p>&rArr; x = 270/15 = 18 दिन</p>\n\n<p>अतः उनके हिस्से का अनुपात = (18/40) ∶ (16/48) ∶ (13/60) = 27 ∶ 20 ∶ 13</p>\n\n<p>अनुपात का योग = 27 + 20 + 13 = 60</p>\n\n<p>&there4; S का हिस्सा= (27/60) &times; 10800 = 4860 रु.</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>A farmer&#39;s land is in the shape of a trapezium which has its parallel sides measuring 2.56 yards and 3.44 yards and the distance between the parallelsides in 1.44 yards. The cost of ploughing the land is Rs 1800 per square yard. What amount will (in Rs) have to be spent in order to plough the entire land?</p>\n",
+    "question_hi": "एक किसान की भूमि एक असमांतर चतुर्भुज के आकार में है जिसके समानांतर भुजा का माप 2.56 गज़ और 3.44 गज़ है और समानांतर भुजाओं के बीच की दूरी 1.44 गज़ है। भूमि को जोतने की लागत 1800 रुपये प्रति वर्ग गज़ है। पूरी भूमि की खेती करने के लिए कितनी राशि (रुपये में) खर्च करनी होगी?",
+    "options": [
+      "3672",
+      "6732",
+      "7776",
+      "8214"
+    ],
+    "options_hi": [
+      "3672",
+      "6732",
+      "7776",
+      "8214"
+    ],
+    "correct": 3,
+    "solution": "<p>Area of a trapezium = {(sum of its parallel sides) &times; (distance between parallel sides)}/2</p>\n\n<p>Area of the farmer&rsquo;s land = (2.56 + 3.44) &times; 1.44/2 = 4.32 sq. yards</p>\n\n<p>&there4; Amount spent to plough land = 4.32 &times; 1800 = Rs. 7776</p>\n",
+    "solution_hi": "<p>असमांतर चतुर्भुज का क्षेत्रफल = (इसके सभी समानांतर भुजाओं का योग) &times; (समानांतर भुजाओं के बीच की दूरी)/2</p>\n\n<p>किसान की भूमि का क्षेत्रफल = (2.56 + 3.44) &times; 1.44/2 = 4.32 वर्ग गज़</p>\n\n<p>&there4; भूमि की खेती के लिए राशि = 4.32 &times; 1800 = 7776 रु.</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If after giving a discount of 18%, a book is sold for Rs 1599, then what will be the marked price (in Rs.) of the book?</p>\n",
+    "question_hi": "<p>यदि 18% की छूट देने के बाद, एक पुस्तक 1599 रुपये में बेची जाती है, तो पुस्तक का अंकित मूल्य (रुपये में) क्या होगा?</p>\n",
+    "options": [
+      "1800",
+      "1880",
+      "1950",
+      "2000"
+    ],
+    "options_hi": [
+      "1800",
+      "1880",
+      "1950",
+      "2000"
+    ],
+    "correct": 3,
+    "solution": "<p>Marked price - discount = Selling price</p>\n\n<p>&rArr; MP - 18% of MP = 1599</p>\n\n<p>&rArr; 82% of MP = 1599</p>\n\n<p>&rArr; MP = 1599/0.82 = Rs. 1950</p>\n\n<p>&there4; Marked price of book is Rs. 1950</p>\n",
+    "solution_hi": "<p>अंकित मूल्य - छूट = विक्रय मूल्य</p>\n\n<p>&rArr; अंकित मूल्य - अंकित मूल्य का 18% = 1599</p>\n\n<p>&rArr; अंकित मूल्य का 82% = 1599</p>\n\n<p>&rArr; अंकित मूल्य = 1599/0.82 = 1950 रु.</p>\n\n<p>&there4; पुस्तक का अंकित मूल्य 1950 रु. है।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A man has 3 sons, 2 daughters and a wife. They divided a sum of Rs. 19000 among themselves such that each daughter got 1.5 times the amount received by each son and his wife received 600 less than each son. What is the total amount (in Rs) received by the 3 sons together?",
+    "question_hi": "एक व्यक्ति के 3 बेटे, 2 बेटियां और एक पत्नी है। वे अपने बीच 19000 रुपये का विभाजन इस प्रकार करते हैं, कि प्रत्येक बेटी को प्रत्येक बेटे को प्राप्त राशि का 1.5 गुना मिला और उसकी पत्नी को प्रत्येक बेटे से 600 रुपये कम मिले। 3 बेटों को प्राप्त कुल राशि (रुपये में) कितनी है?",
+    "options": [
+      "2800",
+      "3600",
+      "5600",
+      "8400"
+    ],
+    "options_hi": [
+      "2800",
+      "3600",
+      "5600",
+      "8400"
+    ],
+    "correct": 4,
+    "solution": "<p>Let the amount received by each son be Rs. &lsquo;x&rsquo;</p>\n\n<p>Amount received by each daughter = 1.5x</p>\n\n<p>Amount received by wife = x - 600</p>\n\n<p>Total amount = 19000</p>\n\n<p>&rArr; 3x + 2(1.5x) + x - 600 = 19000</p>\n\n<p>&rArr; 7x = 19600</p>\n\n<p>&rArr; x = 19600/7 = Rs. 2800</p>\n\n<p>&there4; Amount received by the 3 sons together = 3(2800) = Rs. 8400</p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></p>\n\n<p>Let amount received by 3 sons be x</p>\n\n<p>Then amount received by 2 daughters will be 1.5 times the amount received by each son=1.5x</p>\n\n<p>and amount received by wife is 600 less than each son = x - 600</p>\n\n<p>According to the question,</p>\n\n<p>&rArr; x + x + x + 1.5x + 1.5x + x - 600 = 19000</p>\n\n<p>&rArr; 3x + 3x + x - 600 = 19000</p>\n\n<p>&rArr; 7x - 600 = 19000</p>\n\n<p>&rArr; 7x = 19600</p>\n\n<p>&rArr; x = 2800</p>\n\n<p>Amount received by three sons</p>\n\n<p>&rArr; 3x = 3 &times; 2800</p>\n\n<p>&rArr; Rs. 8400.</p>\n\n<p><strong>&there4; The total amount (in Rs) received by the 3 sons together is Rs. 8400.</strong></p>\n",
+    "solution_hi": "<p>माना प्रत्येक बेटे को प्राप्त राशि &lsquo;x&rsquo; रुपये&nbsp;है।</p>\n\n<p>प्रत्येक बेटी को प्राप्त राशि = 1.5x</p>\n\n<p>पत्नी को प्राप्त राशि = x - 600</p>\n\n<p>कुल राशि = 19000</p>\n\n<p>&rArr; 3x + 2(1.5x) + x - 600 = 19000</p>\n\n<p>&rArr; 7x = 19600</p>\n\n<p>&rArr; x = 19600/7 = 2800</p>\n\n<p>&there4; 3 बेटों को एक साथ प्राप्त कुल राशि = 3(2800) = 8400 रुपये&nbsp;</p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></p>\n\n<p>माना 3 बेटों को&nbsp;प्राप्त राशि x है</p>\n\n<p>तब&nbsp;2 बेटियों द्वारा प्राप्त राशि प्रत्येक बेटे&nbsp;को प्राप्त राशि का 1.5 गुना होगी = 1.5x</p>\n\n<p>और पत्नी द्वारा प्राप्त राशि प्रत्येक बेटे&nbsp;से 600 कम है = x - 600</p>\n\n<p>प्रश्नानुसार,</p>\n\n<p>&rArr; x + x + x + 1.5x + 1.5x + x - 600 = 19000</p>\n\n<p>&rArr; 3x + 3x + x - 600 = 19000</p>\n\n<p>&rArr; 7x - 600 = 19000</p>\n\n<p>&rArr; 7x = 19600</p>\n\n<p>&rArr; x = 2800</p>\n\n<p>तीन बेटों&nbsp;को मिली राशि</p>\n\n<p>&rArr; 3x = 3 &times; 2800</p>\n\n<p>&rArr; 8400&nbsp;रुपये&nbsp;</p>\n\n<p><span style=\"font-weight: 700;\">&there4;&nbsp;</span><strong>3 बेटों&nbsp;</strong><strong>को मिलाकर प्राप्त कुल राशि (रुपये&nbsp;</strong><strong>में) 8400&nbsp;</strong><span style=\"font-weight: 700;\">रुपये&nbsp;</span><strong>है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The average of 3 consecutive even numbers is A. If next 5 even numbers are added, then what is the average of these 8 numbers?</p>\n",
+    "question_hi": "<p>3 क्रमागत सम संख्याओं का औसत A है। यदि उसमे अगली 5 सम संख्याएं जोड़ी जाती हैं, तो उन 8 संख्याओं का औसत क्या है?</p>\n",
+    "options": [
+      "A + 3",
+      "A + 4",
+      "A + 5",
+      "A + 7"
+    ],
+    "options_hi": [
+      "A + 3",
+      "A + 4",
+      "A + 5",
+      "A + 7"
+    ],
+    "correct": 3,
+    "solution": "<p>Let the 3 consecutive even numbers be x, (x + 2) and (x + 4)</p>\n\n<p>Average of 3 even numbers = (x + x + 2 + x + 4)/3</p>\n\n<p>&rArr; A = (3x + 6)/3</p>\n\n<p>&rArr; A = x + 2</p>\n\n<p>&rArr; x = A - 2</p>\n\n<p>Average of 8 consecutive even numbers</p>\n\n<p>&rArr; (x + x + 2 + x + 4 + x + 6 + x + 8 + x + 10 + x + 12 + x + 14)/8</p>\n\n<p>&rArr; (8x + 56)/ 8</p>\n\n<p>&rArr; x + 7</p>\n\n<p>Substituting for x,</p>\n\n<p>&rArr; A - 2 + 7</p>\n\n<p>&rArr; A + 5</p>\n\n<p>&there4; Required average = A + 5</p>\n",
+    "solution_hi": "<p>माना 3 क्रमागत सम संख्याएं x, (x + 2) और (x + 4) हैं।</p>\n\n<p>3 सम संख्यायों का औसत = (x + x + 2 + x + 4)/3</p>\n\n<p>&rArr; A = (3x + 6)/3</p>\n\n<p>&rArr; A = x + 2</p>\n\n<p>&rArr; x = A - 2</p>\n\n<p>8 क्रमागत सम संख्यायों का औसत</p>\n\n<p>&rArr; (x + x + 2 + x + 4 + x + 6 + x + 8 + x + 10 + x + 12 + x + 14)/8</p>\n\n<p>&rArr; (8x + 56)/ 8</p>\n\n<p>&rArr; x + 7</p>\n\n<p>X के मान रखने पर,</p>\n\n<p>&rArr; A - 2 + 7</p>\n\n<p>&rArr; A + 5</p>\n\n<p>&there4; अभीष्ट औसत = A + 5</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>While selling an article for Rs. 18450, a person suffered a loss of 50%. At what price he should have sold the article (in Rs) to earn a profit of 50%?</p>\n",
+    "question_hi": "<p>एक वस्तु को 18450 रुपये में बेचने पर, एक व्यक्ति को 50% की हानि हुई। 50% का लाभ अर्जित करने के लिए उसे उस वस्तु को किस मूल्य पर (रुपये में) बेचना चाहिए?</p>\n",
+    "options": [
+      "13837",
+      "52000",
+      "55350",
+      "56775"
+    ],
+    "options_hi": [
+      "13837",
+      "52000",
+      "55350",
+      "56775"
+    ],
+    "correct": 3,
+    "solution": "<p>Selling price = Rs. 18450</p>\n\n<p>∵ Cost price - loss = Selling price</p>\n\n<p>&rArr; CP - 50% of CP = 18450</p>\n\n<p>&rArr; 50% of CP = 18450</p>\n\n<p>&rArr; CP = 18450/0.5 = Rs. 36900</p>\n\n<p>∵ Selling price = Cost price + profit</p>\n\n<p>&there4; To earn a profit of 50%, Selling price = 36900 + 50% of 36900 = Rs. 55350</p>\n",
+    "solution_hi": "<p>विक्रय मूल्य = 18450 रु.</p>\n\n<p>∵ क्रय मूल्य - हानि = विक्रय मूल्य</p>\n\n<p>&rArr; क्र.मू. - क्र.मू. का 50% = 18450</p>\n\n<p>&rArr; क्र.मू. का 50% = 18450</p>\n\n<p>&rArr; क्र.मू. = 18450/0.5 = 36900 रु.</p>\n\n<p>∵ विक्रय मूल्य = क्रय मूल्य + लाभ</p>\n\n<p>&there4; 50% का लाभ अर्जित करने के लिए, विक्रय मूल्य = 36900 + 36900 का 50% = 55350 रु.</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The present population of a town is 26010. It increases annually at the rate of 2%. What was the population of town 2 years ago?</p>\n",
+    "question_hi": "<p>एक शहर की वर्तमान जनसंख्या 26010 है। यह प्रति वर्ष 2% की दर से बढ़ती है। उस शहर की जनसंख्या 2 वर्ष पहले क्या थी?</p>\n",
+    "options": [
+      "25000",
+      "25100",
+      "25200",
+      "25500"
+    ],
+    "options_hi": [
+      "25000",
+      "25100",
+      "25200",
+      "25500"
+    ],
+    "correct": 1,
+    "solution": "<p>When the population increases at a rate of R% per annum and the current population is P, then,</p>\n\n<p>Population n years ago = P/[1 + R/100]<sup>n</sup></p>\n\n<p>When the current population is 26010 and increases at a rate of 2% p.a.,</p>\n\n<p>&there4; Population 2 years ago = 26010/(1 + 2/100)<sup>2</sup> = 26010/1.0404 = 25000</p>\n",
+    "solution_hi": "<p>जब जनसंख्या प्रति वर्ष R% की दर से बढ़ती है और वर्तमान जनसंख्या P है, तब</p>\n\n<p>n वर्ष पहले जनसंख्या = P/[1 + R/100]<sup>n</sup></p>\n\n<p>जब वर्तमान जनसंख्या 26010 है और प्रति वर्ष 2% की दर से बढ़ती है</p>\n\n<p>&there4; 2 वर्ष पहले जनसंख्या = 26010/(1 + 2/100)<sup>2</sup> = 26010/1.0404 = 25000</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A train of length 100 m crosses another train of length 150 m, running on a parallel track in the opposite direction in 9 seconds. If the speed of train having length 150 m is 40 km/hr, then what is the speed (in km/hr) of the other train?",
+    "question_hi": "<p>एक 100 मीटर लम्बी ट्रेन, समानांतर पटरी पर विपरीत दिशा में चल रही 150 मीटर लम्बी एक दूसरी ट्रेन को 9 सेकंड में पार करती है, यदि 150 मीटर की लंबाई वाली ट्रेन की चाल 40 किमी/घंटा है, तो दूसरी ट्रेन की चाल (किमी/घंटा) क्या है?</p>\n",
+    "options": [
+      "30",
+      "48",
+      "50",
+      "60"
+    ],
+    "options_hi": [
+      "30",
+      "48",
+      "50",
+      "60"
+    ],
+    "correct": 4,
+    "solution": "<p>∵ Time taken to cross the train = sum of lengths of trains/their relative speed</p>\n\n<p>Their relative speed = (100 + 150)/9 = 250/9 m/sec. = 250/9 &times; 18/5 = 100 km/hr</p>\n\n<p>When two trains are running in opposite direction, their relative speed is the sum of their individual speeds</p>\n\n<p>&rArr; 100 = 40 + speed of other train</p>\n\n<p>&there4; Speed of other train = 100 - 40 = 60 km/hr.</p>\n",
+    "solution_hi": "<p>∵ ट्रेन को पार करने में लगा समय = ट्रेनों की लम्बाई का योग/उनकी सापेक्ष चाल</p>\n\n<p>उनकी सापेक्ष चाल = (100 + 150)/9 = 250/9 मी/से = 250/9 &times; 18/5 = 100 किमी/घंटा</p>\n\n<p>जब ट्रेनें विपरीत दिशा में चल रही हैं, उनकी सापेक्ष चाल प्रत्येक की चाल का योग होता है</p>\n\n<p>&rArr; 100 = 40 + ट्रेन की चाल</p>\n\n<p>&there4; दूसरी ट्रेन की चाल = 100 - 40 = 60 किमी/घंटा</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the compound interest (in Rs.) for 1 year on a sum of Rs. 20000 at the rate of 40% per annum compounding half yearly?</p>\n",
+    "question_hi": "20000 रुपये पर प्रति वर्ष 40% की दर से अर्द्ध-वार्षिक रूप से समायोजित 1 वर्ष के लिए चक्रवृद्धि ब्याज (रुपये में) क्या है?",
+    "options": [
+      "8000",
+      "8650",
+      "8750",
+      "8800"
+    ],
+    "options_hi": [
+      "8000",
+      "8650",
+      "8750",
+      "8800"
+    ],
+    "correct": 4,
+    "solution": "<p>On a sum of Rs. P at a rate of R% per annum, when the compound interest is compounded half-yearly,</p>\n\n<p>Compound interest after n years = P[(1 + R/200)<sup>2n</sup> - 1]</p>\n\n<p>Given, P = Rs. 20000, R = 40%, n = 1 year</p>\n\n<p>&there4; Compound interest = 20000[(1 + 40/200)<sup>2</sup> - 1] = 20000 &times; 0.44 = Rs. 8800</p>\n",
+    "solution_hi": "<p>P रु. की राशि पर R% वार्षिक ब्याज की दर से, जब चक्रवृद्धि ब्याज अर्द्ध-वार्षिक रूप से समायोजित होता है,</p>\n\n<p>n वर्षों के बाद चक्रवृद्धि ब्याज = P[(1 + R/200)<sup>2n</sup> - 1]</p>\n\n<p>दिया है, P = 20000 रु., R = 40%, n = 1 वर्ष</p>\n\n<p>&there4; चक्रवृद्धि ब्याज = 20000[(1 + 40/200)<sup>2</sup> - 1] = 20000 &times; 0.44 = 8800 रु.</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the difference of the cube and square of the common root of (x<sup>2</sup> - 8x + 15) = 0 and (y<sup>2</sup> + 2y - 35) = 0?</p>\n",
+    "question_hi": "<p>(x<sup>2</sup> - 8x + 15) = 0 और (y<sup>2</sup> + 2y - 35) = 0 के उभयनिष्ठ मूल के घन और वर्ग का अंतर क्या है?</p>\n",
+    "options": [
+      "76",
+      "100",
+      "294",
+      "318"
+    ],
+    "options_hi": [
+      "76",
+      "100",
+      "294",
+      "318"
+    ],
+    "correct": 2,
+    "solution": "<p>I. x<sup>2</sup> - 8x + 15 = 0</p>\n\n<p>&rArr; x<sup>2</sup> - 5x - 3x + 15 = 0</p>\n\n<p>&rArr; x(x - 5) - 3(x - 5) = 0</p>\n\n<p>&rArr; (x - 5)(x - 3) = 0</p>\n\n<p>&rArr; x = 3, 5</p>\n\n<p>II. y<sup>2</sup> + 2y - 35 = 0</p>\n\n<p>&rArr; y<sup>2</sup> + 7y - 5y - 35 = 0</p>\n\n<p>&rArr; y(y + 7) - 5(y + 7) = 0</p>\n\n<p>&rArr; (y + 7)(y - 5) = 0</p>\n\n<p>&rArr; y = - 7, 5</p>\n\n<p>Hence, common root = 5</p>\n\n<p>&there4; Required difference = 5<sup>3</sup> - 5<sup>2</sup> = 125 - 25 = 100</p>\n",
+    "solution_hi": "<p>I. x<sup>2</sup> - 8x + 15 = 0</p>\n\n<p>&rArr; x<sup>2</sup> - 5x - 3x + 15 = 0</p>\n\n<p>&rArr; x(x - 5) - 3(x - 5) = 0</p>\n\n<p>&rArr; (x - 5)(x - 3) = 0</p>\n\n<p>&rArr; x = 3, 5</p>\n\n<p>II. y<sup>2</sup> + 2y - 35 = 0</p>\n\n<p>&rArr; y<sup>2</sup> + 7y - 5y - 35 = 0</p>\n\n<p>&rArr; y(y + 7) - 5(y + 7) = 0</p>\n\n<p>&rArr; (y + 7)(y - 5) = 0</p>\n\n<p>&rArr; y = -7, 5</p>\n\n<p>अतः उभयनिष्ठ मूल = 5</p>\n\n<p>&there4; अभीष्ट अंतर = 5<sup>3</sup> - 5<sup>2</sup> = 125 - 25 = 100</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If (x - 1/3)<sup>2</sup> + (y - 4)<sup>2</sup> = 0, then what is the value of (y + x)/(y - x)?</p>\n",
+    "question_hi": "<p>यदि (x - 1/3)<sup>2</sup> + (y - 4)<sup>2</sup> = 0 है, तो (y + x)/(y - x) का मान क्या है?</p>\n",
+    "options": [
+      "11/13",
+      "13/11",
+      "16/9",
+      "9/16"
+    ],
+    "options_hi": [
+      "11/13",
+      "13/11",
+      "16/9",
+      "9/16"
+    ],
+    "correct": 2,
+    "solution": "<p>Given, (x - 1/3)<sup>2</sup> + (y - 4)<sup>2</sup> = 0</p>\n\n<p>To satisfy the equation, each squared term must be zero,</p>\n\n<p>Hence, we have,</p>\n\n<p>&rArr; x - 1/3 = 0 &rArr; x = 1/3</p>\n\n<p>&rArr; y - 4 = 0 &rArr; y = 4</p>\n\n<p>&there4; (y + x)/(y - x) = (4 + 1/3)/(4 - 1/3) = (13/3)/(11/3) = 13/11</p>\n",
+    "solution_hi": "<p>दिया है, (x - 1/3)<sup>2</sup> + (y - 4)<sup>2</sup> = 0</p>\n\n<p>समीकरण की शर्त को पूरा करने के लिए, प्रत्येक वर्गित पद शून्य होना चाहिए,</p>\n\n<p>अतः हमारे पास है,</p>\n\n<p>&rArr; x - 1/3 = 0 &rArr; x = 1/3</p>\n\n<p>&rArr; y - 4 = 0 &rArr; y = 4</p>\n\n<p>&there4; (y + x)/(y - x) = (4 + 1/3)/(4 - 1/3) = (13/3)/(11/3) = 13/11</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the difference of the factors of the expression x<sup>2</sup> + (1/x<sup>2</sup>) - 6?</p>\n",
+    "question_hi": "<p>व्यंजक x<sup>2</sup> + (1/x<sup>2</sup>) - 6 के गुणनखण्डों का अन्तर क्या है?&nbsp;</p>\n",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "options_hi": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given,</strong></p>\n\n<p>x<sup>2</sup> + (1/x<sup>2</sup>) - 6</p>\n\n<p><strong>Formula used:&nbsp;</strong></p>\n\n<p>a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;- b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;= (a + b)(a - b)</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>= x<sup>2</sup> + (1/x<sup>2</sup>) - 2 - 4</p>\n\n<p>= x<sup>2</sup> + (1/x<sup>2</sup>) - 2(x)(1/x) - 4</p>\n\n<p>= (x - 1/x)<sup>2</sup> - 2<sup>2</sup></p>\n\n<p>= (x - 1/x + 2)(x - 1/x - 2)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/hint-text-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Hint</u></span></strong></span></p>\n\n<p>Till here in the question, we have factorised&nbsp;the given polynomial and got two factors. By subtracting these we will get the difference.</p>\n\n<p>&there4; Difference of factors = x - 1/x + 2 - x + 1/x + 2 = 4</p>\n",
+    "solution_hi": "<p>दिया, x <sup>2</sup> + (1 / x <sup>2</sup> ) - 6</p>\n\n<p>= x <sup>2</sup> + (1 / x <sup>2</sup> ) - 2 - 4</p>\n\n<p>= x <sup>2</sup> + (1 / x <sup>2</sup> ) - 2 (x) (1 / x) - 4</p>\n\n<p>= (x - 1 / x) <sup>2</sup> - 2 <sup>2</sup></p>\n\n<p>= (x - 1 / x + 2) (x - 1 / x - 2) [- a <sup>2</sup> - b <sup>2</sup> = (a + b) (a - b)]</p>\n\n<p><strong style=\"\"><u style=\"\">व्याख्या:</u></strong></p>\n\n<p>यहाँ प्रश्न में, हमने दिए गए बहुपद का गुणन किया है और दो कारक प्राप्त किए हैं। इनको घटाकर हम अंतर पा लेंगे।</p>\n\n<p>&there4; कारकों का अंतर = x - 1 / x + 2 - x + 1 / x + 2 = 4</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If x + (1/x) = &radic;13, then what is the value of x<sup>5</sup> - (1/x<sup>5</sup>)?",
+    "question_hi": "<p>यदि x + (1/x) = &radic;13 है, तो x<sup>5</sup> - (1/x<sup>5</sup>) का मान क्या है?</p>\n",
+    "options": [
+      "169",
+      "169&radic;3",
+      "393",
+      "507"
+    ],
+    "options_hi": [
+      "169",
+      "169&radic;3",
+      "393",
+      "507"
+    ],
+    "correct": 3,
+    "solution": "<p>Given, x + (1/x) = &radic;13</p>\n\n<p>&rArr; (x + 1/x)<sup>2</sup> = 13</p>\n\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> + 2 = 13</p>\n\n<p>&rArr; (x<sup>2</sup> + 1/x<sup>2</sup>) = 11</p>\n\n<p>Also,</p>\n\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> - 2 = 11 - 2</p>\n\n<p>&rArr; (x - 1/x)<sup>2</sup> = 3<sup>2</sup></p>\n\n<p>&rArr; (x - 1/x) = 3</p>\n\n<p>Now,</p>\n\n<p>(x - 1/x) (x<sup>2</sup> + 1/x<sup>2</sup>)(x<sup>2</sup> + 1/x<sup>2</sup>) = 3(11)(11)</p>\n\n<p>&rArr; (x<sup>3</sup> + 1/x - x - 1/x<sup>3</sup>)(x<sup>2</sup> + 1/x<sup>2</sup>) = 363</p>\n\n<p>&rArr; [x<sup>3</sup> - 1/x<sup>3</sup> - (x - 1/x)](x<sup>2</sup> + 1/x<sup>2</sup>) = 363</p>\n\n<p>&rArr; [x<sup>3</sup> - 1/x<sup>3</sup> - 3](x<sup>2</sup> + 1/x<sup>2</sup>) = 363</p>\n\n<p>&rArr; [x<sup>5</sup> + x - 1/x - 1/x<sup>5</sup> - 3(x<sup>2</sup> + 1/x<sup>2</sup>)] = 363</p>\n\n<p>&rArr; [x<sup>5</sup> + 3 - 1/x<sup>5</sup> - 3(11)] = 363</p>\n\n<p>&rArr; (x<sup>5</sup> - 1/x<sup>5</sup>) = 363 - 3 + 33</p>\n\n<p>&there4; (x<sup>5</sup> - 1/x<sup>5</sup>) = 393</p>\n",
+    "solution_hi": "<p>दिया है, x + (1/x) = &radic;13</p>\n\n<p>&rArr; (x + 1/x)<sup>2</sup> = 13</p>\n\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> + 2 = 13</p>\n\n<p>&rArr; (x<sup>2</sup> + 1/x<sup>2</sup>) = 11</p>\n\n<p>साथ ही,</p>\n\n<p>&rArr; x<sup>2</sup> + 1/x<sup>2</sup> - 2 = 11 - 2</p>\n\n<p>&rArr; (x - 1/x)<sup>2</sup> = 3<sup>2</sup></p>\n\n<p>&rArr; (x - 1/x) = 3</p>\n\n<p>अब,</p>\n\n<p>(x - 1/x) (x<sup>2</sup> + 1/x<sup>2</sup>)(x<sup>2</sup> + 1/x<sup>2</sup>) = 3(11)(11)</p>\n\n<p>&rArr; (x<sup>3</sup> + 1/x - x - 1/x<sup>3</sup>)(x<sup>2</sup> + 1/x<sup>2</sup>) = 363</p>\n\n<p>&rArr; [x<sup>3</sup> - 1/x<sup>3</sup> - (x - 1/x)](x<sup>2</sup> + 1/x<sup>2</sup>) = 363</p>\n\n<p>&rArr; [x<sup>3</sup> - 1/x<sup>3</sup> - 3](x<sup>2</sup> + 1/x<sup>2</sup>) = 363</p>\n\n<p>&rArr; [x<sup>5</sup> + x - 1/x - 1/x<sup>5</sup> - 3(x<sup>2</sup> + 1/x<sup>2</sup>)] = 363</p>\n\n<p>&rArr; [x<sup>5</sup> + 3 - 1/x<sup>5</sup> - 3(11)] = 363</p>\n\n<p>&rArr; (x<sup>5</sup> - 1/x<sup>5</sup>) = 363 - 3 + 33</p>\n\n<p>&there4; (x<sup>5</sup> - 1/x<sup>5</sup>) = 393</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If D and E are points on the sides AB and AC respectively of a triangle ABC such that DE||BC. If AD = x cm, DB = (x - 3) cm, AE = (x + 3) cm and EC = (x - 2) cm, then what is the value (in cm) of x?</p>\n",
+    "question_hi": "<p>एक त्रिभुज ABC के भुजा AB और AC पर क्रमशः बिंदु D और E इस प्रकार हैं कि DE||BC है। यदि AD = x सेमी, DB = (x - 3) सेमी, AE = (x + 3) सेमी और EC = (x - 2) सेमी हैं, तो x का मान (सेमी में) क्या है?</p>\n",
+    "options": [
+      "3",
+      "3.5",
+      "4",
+      "4.5"
+    ],
+    "options_hi": [
+      "3",
+      "3.5",
+      "4",
+      "4.5"
+    ],
+    "correct": 4,
+    "solution": "<p>The given triangle is shown below,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0027.JPG\" /></p>\n\n<p>Considering similar triangles ∆ABC and ∆ADE,</p>\n\n<p>&rArr; AB/AD = AC/AE</p>\n\n<p>&rArr; (AD + DB)/AD = (AE + EC)/AE</p>\n\n<p>&rArr; (x + x - 3)/x = (x + 3 + x - 2)/(x + 3)</p>\n\n<p>&rArr; (2x - 3)/x = (2x + 1)/(x + 3)</p>\n\n<p>&rArr; (2x - 3)(x + 3) = x(2x + 1)</p>\n\n<p>&rArr; 2x<sup>2</sup> + 6x - 3x - 9 = 2x<sup>2</sup> + x</p>\n\n<p>&rArr; 2x = 9</p>\n\n<p>&there4; x = 9/2 = 4.5</p>\n",
+    "solution_hi": "<p>दिया गया त्रिभुज नीचे दर्शाया गया है,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0027.JPG\" /></p>\n\n<p>समरूप त्रिभुज ∆ABC और ∆ADE को लेने पर,</p>\n\n<p>&rArr; AB/AD = AC/AE</p>\n\n<p>&rArr; (AD + DB)/AD = (AE + EC)/AE</p>\n\n<p>&rArr; (x + x - 3)/x = (x + 3 + x - 2)/(x + 3)</p>\n\n<p>&rArr; (2x - 3)/x = (2x + 1)/(x + 3)</p>\n\n<p>&rArr; (2x - 3)(x + 3) = x(2x + 1)</p>\n\n<p>&rArr; 2x<sup>2</sup> + 6x - 3x - 9 = 2x<sup>2</sup> + x</p>\n\n<p>&rArr; 2x = 9</p>\n\n<p>&there4; x = 9/2 = 4.5</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If medians of a triangle have lengths 18 cm, 24 cm and 30 cm, then what is the area (in cm<sup>2</sup>) of the triangle?",
+    "question_hi": "यदि एक त्रिभुज की माध्यिकाओं की लम्बाई 18 सेमी, 24 सेमी और 30 सेमी है, तो त्रिभुज का क्षेत्रफल (वर्ग सेमी में) क्या है?",
+    "options": [
+      "24&radic;6",
+      "244",
+      "288",
+      "360"
+    ],
+    "options_hi": [
+      "24&radic;6",
+      "244",
+      "288",
+      "360"
+    ],
+    "correct": 3,
+    "solution": "<p>According to the Heron&rsquo;s formula, if u, v and w are the medians of a triangle, then,</p>\n\n<p>Area of triangle = (4/3) &times; &radic;[s(s - u)(s - v)(s - w)]</p>\n\n<p>where s = (u + v + w)/2</p>\n\n<p>Let, u = 18 cm, v = 24 cm, w = 30 cm</p>\n\n<p>&rArr; s = (18 + 24 + 30)/2 = 36</p>\n\n<p>&there4; Area of triangle = (4/3) &times; &radic;(36 &times; 18 &times; 12 &times; 6) = (4/3) &times; &radic;(46656) = (4/3) &times; 216 = 288 cm<sup>2</sup></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span>&nbsp;As 18 cm, 24 cm and 30 cm are Pythagorian triplets</p>\n\n<p>&rArr; The triangle made by medians is a right angled triangle</p>\n\n<p>&rArr; Area&nbsp;of the triangle made by medians = (1/2)&nbsp;&times; base&nbsp;&times; height = (1/2)&nbsp;&times; 18&nbsp;&times; 24 = 216</p>\n\n<p>&rArr; Area of the original triangle = 4/3 (Area of &Delta; made by medians)</p>\n\n<p>&rArr; (4/3)&nbsp;&times; 216 = 288.</p>\n\n<p><strong>&there4; The correct answer is 288.</strong></p>\n",
+    "solution_hi": "<p>हेरॉन के सूत्र के अनुसार, यदि u, v और w एक त्रिभुज की माध्यिकाएँ हैं, तब</p>\n\n<p>त्रिभुज का क्षेत्रफल = (4/3) &times; &radic;[s(s - u)(s - v)(s - w)]</p>\n\n<p>जहाँ s = (u + v + w)/2</p>\n\n<p>माना, u = 18 सेमी, v = 24 सेमी, w = 30 सेमी</p>\n\n<p>&rArr; s = (18 + 24 + 30)/2 = 36</p>\n\n<p>&there4; त्रिभुज का क्षेत्रफल = (4/3) &times; &radic;(36 &times; 18 &times; 12 &times; 6) = (4/3) &times; &radic;(46656) = (4/3) &times; 216 = 288 वर्ग सेमी</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Two smaller circles touch a large circle internally and pass through the center O of the larger circle. If the diameter of the bigger circle is 28 cm, thenwhat is the area of the bigger circle which is not enclosed by the two smaller circles (in cm<sup>2</sup>)?</p>\n",
+    "question_hi": "<p>दो छोटे वृत्त, एक बड़े वृत्त को आंतरिक रूप से स्पर्श करते हैं और बड़े वृत्त के केंद्र O से होकर गुजरते हैं। यदि बड़े वृत्त का व्यास 28 सेमी है<strong>, </strong>तो बड़े वृत्त का क्षेत्रफल (वर्ग सेमी में) क्या है जो दो छोटे वृत्तों से घिरा हुआ नहीं है?</p>\n",
+    "options": [
+      "154",
+      "256",
+      "308",
+      "616"
+    ],
+    "options_hi": [
+      "154",
+      "256",
+      "308",
+      "616"
+    ],
+    "correct": 3,
+    "solution": "<p>The given figure can be drawn as,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0028.JPG\" style=\"height:198px; width:202px\" /></p>\n\n<p>Radius of bigger circle = 28/2 = 14 cm</p>\n\n<p>Area of bigger circle = (22/7) &times; 14 &times; 14 = 616 cm<sup>2</sup></p>\n\n<p>Diameter of small circle = radius of bigger circle= 14 cm</p>\n\n<p>Radius of small circle = 14/2 = 7 cm</p>\n\n<p>Area of small circle = (22/7) &times; 7 &times; 7 = 154 cm<sup>2</sup></p>\n\n<p>&there4; Area of bigger circle not enclosed by two smaller circles = 616 - 2(154) = 308 cm<sup>2</sup></p>\n",
+    "solution_hi": "<p>आकृति इस प्रकार बनाई जा सकती है,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0028.JPG\" style=\"height:198px; width:202px\" /></p>\n\n<p>बड़े वृत्त की त्रिज्या = 28/2 = 14 सेमी</p>\n\n<p>बड़े वृत्त का क्षेत्रफल = (22/7) &times; 14 &times; 14 = 616 वर्ग सेमी</p>\n\n<p>छोटे वृत्त का व्यास = बड़े वृत्त की त्रिज्या = 14 सेमी</p>\n\n<p>छोटे वृत्त की त्रिज्या = 14/2 = 7 सेमी</p>\n\n<p>छोटे वृत्त का क्षेत्रफल = (22/7) &times; 7 &times; 7 = 154 वर्ग सेमी</p>\n\n<p>&there4; बड़े वृत्त का क्षेत्रफल जो दो छोटे वृत्तों से घिरा हुआ नहीं है = 616 - 2(154) = 308 वर्ग सेमी</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>In the given figure, O is the incenter of the triangle ABC. If AO/OE = 5/4 and CO/OD = 3/2, then what is the value of BO/OF?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0029.JPG\" /></p>\n",
+    "question_hi": "<p>दी गई आकृति में, O त्रिभुज ABC का अंत:केंद्र है। यदि AO/OE = 5/4 और CO/OD = 3/2 हो, तो BO/OF का मान क्या है?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0029.JPG\" /></p>\n",
+    "options": [
+      "19/14",
+      "38/17",
+      "38/7",
+      "19/7"
+    ],
+    "options_hi": [
+      "19/14",
+      "38/17",
+      "38/7",
+      "19/7"
+    ],
+    "correct": 3,
+    "solution": "<p>According to the angle bisector theorem, a line that bisects an angle of a triangle, divides the opposite side into segments that are proportional to the other two sides</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0029.JPG\" style=\"\" /></p>\n\n<p>Let AB = x, BC = y and AC = z</p>\n\n<p>Considering ∆ACD and ∆BCD,</p>\n\n<p>&rArr; CO/OD = AC/AD = BC/DB = 3/2</p>\n\n<p>&rArr; AD = (2/3)AC</p>\n\n<p>&rArr; DB = (2/3)BC</p>\n\n<p>&rArr; AB = AD + DB = (2/3)(AC + BC)</p>\n\n<p>&rArr; x = (2/3)(y + z)</p>\n\n<p>&rArr; 3x = 2y + 2z&nbsp; &nbsp; &nbsp; ----(1)</p>\n\n<p>Similarly, considering ∆ACE and ∆ABE,</p>\n\n<p>&rArr; AO/OE = AC/EC = AB/BE = 5/4</p>\n\n<p>&rArr; EC = (4/5)AC</p>\n\n<p>&rArr; BE = (4/5)AB</p>\n\n<p>&rArr; BC = BE + EC = (4/5)(AB + AC)</p>\n\n<p>&rArr; y = (4/5)(x + z)</p>\n\n<p>&rArr; 5y = 4x + 4z</p>\n\n<p>Substituting for z from (1),</p>\n\n<p>&rArr; 5y = 4x + 2(3x - 2y)</p>\n\n<p>&rArr; 5y = 4x + 6x - 4y</p>\n\n<p>&rArr; 9y = 10x</p>\n\n<p>&rArr; y = (10/9)x&nbsp; &nbsp; &nbsp; ----(2)</p>\n\n<p>Similarly, considering ∆ABF and ∆BCF,</p>\n\n<p>&rArr; BO/OF = AB/AF = BC/FC = s(let)</p>\n\n<p>&rArr; AF = AB/s</p>\n\n<p>&rArr; FC = BC/s</p>\n\n<p>&rArr; AC = AF + FC = (AB + BC)/s</p>\n\n<p>&rArr; z = (x + y)/s</p>\n\n<p>&rArr; sz = x + y</p>\n\n<p>Substituting for z from (1),</p>\n\n<p>&rArr; s(3x - 2y)/2 = x + y</p>\n\n<p>&rArr; 3sx - 2sy = 2x + 2y</p>\n\n<p>&rArr; 3sx - 2x = 2sy + 2y</p>\n\n<p>&rArr; x(3s - 2) = y(2s + 2)</p>\n\n<p>Substituting for y from (2),</p>\n\n<p>&rArr; x(3s - 2) = (10/9)x(2s + 2)</p>\n\n<p>&rArr; 9(3s - 2) = 10(2s + 2)</p>\n\n<p>&rArr; 27s - 18 = 20s + 20</p>\n\n<p>&rArr; 27s - 20s = 18 + 20</p>\n\n<p>&rArr; 7s = 38</p>\n\n<p>&rArr; s = 38/7</p>\n\n<p>&there4; BO/OF = 38/7</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n\n<p><strong>Given:</strong></p>\n\n<p>O is the incenter of the triangle ABC.</p>\n\n<p>AO/OE = 5/4</p>\n\n<p>CO/OD = 3/2</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>&nbsp;<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0029.JPG\" /></p>\n\n<p>If O is incentre of the&nbsp;&Delta;ABC, then&nbsp;</p>\n\n<p>1.) AO/OE = (AB + AC)/BC&nbsp;</p>\n\n<p>2.) BO/OF = (AB + BC)/CA</p>\n\n<p>3.) CO/OD = (AC + BC)/AB</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>O is the incenter of the triangle ABC. If AO/OE = 5/4 and CO/OD = 3/2, then what is the value of BO/OF?</p>\n\n<p>AO/OE = 5/4&nbsp;</p>\n\n<p>&rArr; (AB + AC)/BC = 5/4&nbsp;</p>\n\n<p>&rArr;&nbsp;(AB + AC + BC)/BC = (5 + 4)/4&nbsp;</p>\n\n<p>&rArr;&nbsp;(AB + AC + BC)/BC = 9/4&nbsp; &nbsp; &nbsp;</p>\n\n<p>&rArr; BC/(AB + BC + CA) = 4/9&nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>&rArr; (AC + BC)/AB = 3/2 CO/OD = 3/2</p>\n\n<p>&rArr; (AC + BC&nbsp;+ AB)/AB = (3 + 2)/2&nbsp;</p>\n\n<p>&rArr; (AB + BC + CA)/AB = 5/2&nbsp; &nbsp; ----(2)</p>\n\n<p>From equation (1) and (2)</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:300px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\"><strong>BC</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>AB + BC + CA</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>AB</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">4&nbsp;&times; 5 = 20</td>\n\t\t\t<td style=\"text-align: center;\">9&nbsp;&times; 5 = 45</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">5&nbsp;&times; 9 = 45</td>\n\t\t\t<td style=\"text-align: center;\">2&nbsp;&times; 9 = 18</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>So,BC = 20</p>\n\n<p>AB + BC + CA = 45&nbsp;</p>\n\n<p>AB = 18</p>\n\n<p>Now, CA = (AB + BC + CA) - (AB + BC)</p>\n\n<p>&rArr; CA = 45 - (20 + 18)</p>\n\n<p>&rArr; CA = 7&nbsp;</p>\n\n<p>Now,&nbsp;BO/OF = (AB + BC)/CA</p>\n\n<p>&rArr; BO/OF = (18 + 20)/7</p>\n\n<p>&rArr; BO/OF = 38/7</p>\n\n<p><strong>&there4; The correct answer is 38/7&nbsp;</strong></p>\n",
+    "solution_hi": "<p>कोण द्विभाजक प्रमेय के अनुसार, एक रेखा जो एक त्रिभुज के कोण को द्विविभाजित करती है, वह अन्य दो भुजाओं के समानुपाती विपरीत भुजाओं को खण्डों में विभाजित करती है।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0029.JPG\" style=\"\" /></p>\n\n<p>माना AB = x, BC = y और AC = z</p>\n\n<p>∆ACD और ∆BCD को लेने पर,</p>\n\n<p>&rArr; CO/OD = AC/AD = BC/DB = 3/2</p>\n\n<p>&rArr; AD = (2/3)AC</p>\n\n<p>&rArr; DB = (2/3)BC</p>\n\n<p>&rArr; AB = AD + DB = (2/3)(AC + BC)</p>\n\n<p>&rArr; x = (2/3)(y + z)</p>\n\n<p>&rArr; 3x = 2y + 2z&nbsp; &nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>उसी प्रकार, ∆ACE और ∆ABE को लेने पर,</p>\n\n<p>&rArr; AO/OE = AC/EC = AB/BE = 5/4</p>\n\n<p>&rArr; EC = (4/5)AC</p>\n\n<p>&rArr; BE = (4/5)AB</p>\n\n<p>&rArr; BC = BE + EC = (4/5)(AB + AC)</p>\n\n<p>&rArr; y = (4/5)(x + z)</p>\n\n<p>&rArr; 5y = 4x + 4z</p>\n\n<p>समीकरण (1) में z का मान रखने पर,</p>\n\n<p>&rArr; 5y = 4x + 2(3x - 2y)</p>\n\n<p>&rArr; 5y = 4x + 6x - 4y</p>\n\n<p>&rArr; 9y = 10x</p>\n\n<p>&rArr; y = (10/9)x&nbsp; &nbsp; &nbsp; ----(2)</p>\n\n<p>उसी प्रकार, ∆ABF और ∆BCF को लेने पर,</p>\n\n<p>&rArr; BO/OF = AB/AF = BC/FC = s(let)</p>\n\n<p>&rArr; AF = AB/s</p>\n\n<p>&rArr; FC = BC/s</p>\n\n<p>&rArr; AC = AF + FC = (AB + BC)/s</p>\n\n<p>&rArr; z = (x + y)/s</p>\n\n<p>&rArr; sz = x + y</p>\n\n<p>समीकरण (1) में z का मान रखने पर,</p>\n\n<p>&rArr; s(3x - 2y)/2 = x + y</p>\n\n<p>&rArr; 3sx - 2sy = 2x + 2y</p>\n\n<p>&rArr; 3sx - 2x = 2sy + 2y</p>\n\n<p>&rArr; x(3s - 2) = y(2s + 2)</p>\n\n<p>समीकरण (2) में y का मान रखने पर,</p>\n\n<p>&rArr; x(3s - 2) = (10/9)x(2s + 2)</p>\n\n<p>&rArr; 9(3s - 2) = 10(2s + 2)</p>\n\n<p>&rArr; 27s - 18 = 20s + 20</p>\n\n<p>&rArr; 27s - 20s = 18 + 20</p>\n\n<p>&rArr; 7s = 38</p>\n\n<p>&rArr; s = 38/7</p>\n\n<p>&there4; BO/OF = 38/7</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n\n<p><strong>दिया हुआ है:</strong></p>\n\n<p>O, त्रिभुज ABC का अन्तःकेन्द्र है।</p>\n\n<p>AO/OE = 5/4</p>\n\n<p>CO/OD = 3/2</p>\n\n<p><strong>उपयोग की गई अवधारणा:</strong></p>\n\n<p>&nbsp;<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/07/03.07.0029.JPG\" /></p>\n\n<p>यदि O, त्रिभुज ABC का अन्तःकेन्द्र है, तब</p>\n\n<p>1.) AO/OE = (AB + AC)/BC&nbsp;</p>\n\n<p>2.) BO/OF = (AB + BC)/CA</p>\n\n<p>3.) CO/OD = (AC + BC)/AB</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>O, त्रिभुज ABC का अन्तःकेन्द्र है। यदि AO/OE = 5/4 और CO/OD = 3/2 है, तो BO/OF का क्या मान है?</p>\n\n<p>AO/OE = 5/4&nbsp;</p>\n\n<p>&rArr; (AB + AC)/BC = 5/4&nbsp;</p>\n\n<p>&rArr;&nbsp;(AB + AC + BC)/BC = (5 + 4)/4&nbsp;</p>\n\n<p>&rArr;&nbsp;(AB + AC + BC)/BC = 9/4&nbsp; &nbsp; &nbsp;</p>\n\n<p>&rArr; BC/(AB + BC + CA) = 4/9&nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>&rArr; (AC + BC)/AB = 3/2 CO/OD = 3/2</p>\n\n<p>&rArr; (AC + BC&nbsp;+ AB)/AB = (3 + 2)/2&nbsp;</p>\n\n<p>&rArr; (AB + BC + CA)/AB = 5/2&nbsp; &nbsp; ----(2)</p>\n\n<p>समीकरण (1) और (2) से</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"background-color:rgb(255, 255, 255);width:300px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\"><span style=\"font-weight: 700;\">BC</span></td>\n\t\t\t<td style=\"text-align: center;\"><span style=\"font-weight: 700;\">AB + BC + CA</span></td>\n\t\t\t<td style=\"text-align: center;\"><span style=\"font-weight: 700;\">AB</span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">4&nbsp;&times; 5 = 20</td>\n\t\t\t<td style=\"text-align: center;\">9&nbsp;&times; 5 = 45</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">5&nbsp;&times; 9 = 45</td>\n\t\t\t<td style=\"text-align: center;\">2&nbsp;&times; 9 = 18</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>तो, BC = 20</p>\n\n<p>AB + BC + CA = 45&nbsp;</p>\n\n<p>AB = 18</p>\n\n<p>अब, CA = (AB + BC + CA) - (AB + BC)</p>\n\n<p>&rArr; CA = 45 - (20 + 18)</p>\n\n<p>&rArr; CA = 7&nbsp;</p>\n\n<p>अब,&nbsp;BO/OF = (AB + BC)/CA</p>\n\n<p>&rArr; BO/OF = (18 + 20)/7</p>\n\n<p>&rArr; BO/OF = 38/7</p>\n\n<p><strong><span style=\"font-weight: 700;\">&there4;&nbsp;</span>सही उत्तर 38/7 है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the simplified value of tan (&theta;/2) + cot (&theta;/2)?</p>\n",
+    "question_hi": "<p>tan (&theta;/2) + cot (&theta;/2) का सरलीकृत मान क्या है?</p>\n",
+    "options": [
+      "2 cosec &theta;",
+      "2 sec &theta;",
+      "sin &theta;",
+      "cosec &theta;"
+    ],
+    "options_hi": [
+      "2 cosec &theta;",
+      "2 sec &theta;",
+      "sin &theta;",
+      "cosec &theta;"
+    ],
+    "correct": 1,
+    "solution": "<p>As we know, sin 2x = 2 tan x/(1 + tan<sup>2</sup> x)</p>\n\n<p>Putting x = &theta;/2,</p>\n\n<p>&rArr; sin &theta; = 2 tan (&theta;/2)/[1 + tan<sup>2</sup> (&theta;/2)]</p>\n\n<p>&rArr; (sin &theta;)/2 = tan (&theta;/2)/[1 + tan<sup>2</sup> (&theta;/2)]</p>\n\n<p>Given, tan (&theta;/2) + cot (&theta;/2)</p>\n\n<p>&rArr; tan (&theta;/2) + 1/tan (&theta;/2)</p>\n\n<p>&rArr; [1 + tan<sup>2</sup> (&theta;/2)]/tan (&theta;/2)</p>\n\n<p>&rArr; 2/sin &theta;</p>\n\n<p>&rArr; 2 cosec &theta;</p>\n\n<p><strong>&there4; The correct answer is&nbsp;<span style=\"\">2 cosec &theta;</span></strong></p>\n",
+    "solution_hi": "<p>जैसा कि हम जानते हैं, sin 2x = 2 tan x/(1 + tan<sup>2</sup> x)</p>\n\n<p>x = &theta;/2 रखने पर,</p>\n\n<p>&rArr; sin &theta; = 2 tan (&theta;/2)/[1 + tan<sup>2</sup> (&theta;/2)]</p>\n\n<p>&rArr; (sin &theta;)/2 = tan (&theta;/2)/[1 + tan<sup>2</sup> (&theta;/2)]</p>\n\n<p>दिया है, tan (&theta;/2) + cot (&theta;/2)</p>\n\n<p>&rArr; tan (&theta;/2) + 1/tan (&theta;/2)</p>\n\n<p>&rArr; [1 + tan<sup>2</sup> (&theta;/2)]/tan (&theta;/2)</p>\n\n<p>&rArr; 2/sin &theta;</p>\n\n<p>&rArr; 2 cosec &theta;</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the simplified value of [(sec<sup>3</sup>x - tan<sup>3</sup>x)/(sec x - tan x)] - 2 tan<sup>2</sup>x - sec x tan x?</p>\n",
+    "question_hi": "<p>[(sec<sup>3</sup>x - tan<sup>3</sup>x)/(sec x - tan x)] - 2 tan<sup>2</sup>x - sec x tan x का सरलीकृत मान क्या है?</p>\n",
+    "options": [
+      "0",
+      "2",
+      "-1",
+      "1"
+    ],
+    "options_hi": [
+      "0",
+      "2",
+      "-1",
+      "1"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">[(sec</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span><span style=\"\">x - tan</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span><span style=\"\">x)/(sec x - tan x)] - 2 tan</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">x - sec x tan x&nbsp;</span></p>\n\n<p><strong><span style=\"\">Formula used:</span></strong></p>\n\n<p>&rArr; a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + ab + b<sup>2</sup>)</p>\n\n<p>&rArr;&nbsp;<span style=\"\">sec</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;x - tan</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">x&nbsp;</span>= 1</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>&rArr; (sec<sup>3</sup>x - tan<sup>3</sup>x) = (sec x - tan x)(sec<sup>2</sup> x + sec x tan x + tan<sup>2</sup>x)</p>\n\n<p>&rArr; (sec<sup>3</sup>x - tan<sup>3</sup>x)/(sec x - tan x) = (sec<sup>2</sup> x + sec x tan x + tan<sup>2</sup>x)</p>\n\n<p>Now,</p>\n\n<p>&rArr; [(sec<sup>3</sup>x - tan<sup>3</sup>x)/(sec x - tan x)] - 2 tan<sup>2</sup>x - sec x tan x</p>\n\n<p>&rArr; sec<sup>2</sup> x + sec x tan x + tan<sup>2</sup>x - 2 tan<sup>2</sup>x - sec x tan x</p>\n\n<p>&rArr; sec<sup>2</sup> x - tan<sup>2</sup>x = 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [∵ sec<sup>2</sup> x - tan<sup>2</sup>x = 1]</p>\n\n<p><strong>&there4;&nbsp;The correct answer is 1</strong>.</p>\n",
+    "solution_hi": "<p><strong>दिया है:</strong></p>\n\n<p><span style=\"\">[(sec</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span><span style=\"\">x - tan</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span><span style=\"\">x)/(sec x - tan x)] - 2 tan</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">x - sec x tan x&nbsp;</span></p>\n\n<p><strong><span style=\"\">प्रयुक्त सूत्र:</span></strong></p>\n\n<p>&rArr; a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + ab + b<sup>2</sup>)</p>\n\n<p>&rArr;&nbsp;<span style=\"\">sec</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;x - tan</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">x&nbsp;</span>= 1</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>&rArr; (sec<sup>3</sup>x - tan<sup>3</sup>x) = (sec x - tan x)(sec<sup>2</sup> x + sec x tan x + tan<sup>2</sup>x)</p>\n\n<p>&rArr; (sec<sup>3</sup>x - tan<sup>3</sup>x)/(sec x - tan x) = (sec<sup>2</sup> x + sec x tan x + tan<sup>2</sup>x)</p>\n\n<p>अब,</p>\n\n<p>&rArr; [(sec<sup>3</sup>x - tan<sup>3</sup>x)/(sec x - tan x)] - 2 tan<sup>2</sup>x - sec x tan x</p>\n\n<p>&rArr; sec<sup>2</sup> x + sec x tan x + tan<sup>2</sup>x - 2 tan<sup>2</sup>x - sec x tan x</p>\n\n<p>&rArr; sec<sup>2</sup> x - tan<sup>2</sup>x = 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [∵ sec<sup>2</sup> x - tan<sup>2</sup>x = 1]</p>\n\n<p><strong>&there4;&nbsp;सही उत्तर 1 है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If sin<sup>8</sup> &theta; + cos<sup>8</sup> &theta; - 1 = 0, then what is the value of cos<sup>2</sup> &theta; sin<sup>2</sup> &theta; (If &theta; &ne; 0 or &pi;/2)?</p>\n",
+    "question_hi": "<p>यदि sin<sup>8</sup> θ + cos<sup>8</sup> θ - 1 = 0 है, तो cos<sup>2</sup> θ sin<sup>2</sup> θ का मान क्या है (यदि θ ≠ 0 या π/2)?</p>\n",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "options_hi": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "correct": 4,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Given sin<sup>8</sup> θ + cos<sup>8</sup> θ = 1. Let k = sin<sup>2</sup> θ cos<sup>2</sup> θ.</p>\n<p>Using the identity sin<sup>8</sup> θ + cos<sup>8</sup> θ = (1 − 2k)<sup>2</sup> − 2k<sup>2</sup>:</p>\n<p>⇒ (1 − 2k)<sup>2</sup> − 2k<sup>2</sup> = 1</p>\n<p>⇒ 1 + 4k<sup>2</sup> − 4k − 2k<sup>2</sup> = 1 ⇒ 2k<sup>2</sup> − 4k = 0</p>\n<p>Since θ ≠ 0 or π/2, sin θ and cos θ are non-zero, so k ≠ 0 ⇒ k = 2.</p>\n<p><strong>∴ The correct answer is 2.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong> sin<sup>8</sup> θ + cos<sup>8</sup> θ − 1 = 0 where θ ≠ 0 or π/2</p>\n<p><strong>Formula Used:</strong> sin<sup>2</sup> θ + cos<sup>2</sup> θ = 1; a<sup>2</sup> + b<sup>2</sup> = (a + b)<sup>2</sup> − 2ab</p>\n<svg width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n  <path d=\"M 220 120 L 300 120 A 80 80 0 0 0 276.5 63.5 L 220 120 Z\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\" />\n  <line x1=\"140\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#888888\" stroke-dasharray=\"5,3\" />\n  <line x1=\"220\" y1=\"40\" x2=\"220\" y2=\"200\" stroke=\"#888888\" stroke-dasharray=\"5,3\" />\n  <line x1=\"276.5\" y1=\"120\" x2=\"276.5\" y2=\"63.5\" stroke=\"#007700\" stroke-width=\"2\" />\n  <text x=\"235\" y=\"115\" fill=\"#222222\" font-size=\"13\">θ</text>\n  <text x=\"240\" y=\"135\" fill=\"#2255cc\" font-size=\"12\">cosθ</text>\n  <text x=\"280\" y=\"95\" fill=\"#007700\" font-size=\"12\">sinθ</text>\n  <text x=\"240\" y=\"85\" fill=\"#cc5500\" font-size=\"12\">Radius = 1</text>\n  <text x=\"20\" y=\"30\" fill=\"#222222\" font-weight=\"bold\">Trigonometric Identity Basis</text>\n  <text x=\"20\" y=\"55\" fill=\"#2255cc\" font-size=\"13\">sin²θ + cos²θ = 1</text>\n</svg>\n<p>⇒ sin<sup>8</sup> θ + cos<sup>8</sup> θ = 1</p>\n<p>⇒ (sin<sup>4</sup> θ + cos<sup>4</sup> θ)<sup>2</sup> − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ [(sin<sup>2</sup> θ + cos<sup>2</sup> θ)<sup>2</sup> − 2 sin<sup>2</sup> θ cos<sup>2</sup> θ]<sup>2</sup> − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ (1 − 2 sin<sup>2</sup> θ cos<sup>2</sup> θ)<sup>2</sup> − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ 1 + 4 sin<sup>4</sup> θ cos<sup>4</sup> θ − 4 sin<sup>2</sup> θ cos<sup>2</sup> θ − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ 2 sin<sup>4</sup> θ cos<sup>4</sup> θ − 4 sin<sup>2</sup> θ cos<sup>2</sup> θ = 0</p>\n<p>⇒ 2 sin<sup>2</sup> θ cos<sup>2</sup> θ (sin<sup>2</sup> θ cos<sup>2</sup> θ − 2) = 0</p>\n<p>⇒ sin<sup>2</sup> θ cos<sup>2</sup> θ − 2 = 0 (as sin θ, cos θ ≠ 0)</p>\n<p>⇒ sin<sup>2</sup> θ cos<sup>2</sup> θ = 2</p>\n<p><strong>∴ The correct answer is 2.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Fundamental Pythagorean Identity</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">For any real angle θ, sin<sup>2</sup> θ + cos<sup>2</sup> θ = 1.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Power Reductions</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">sin<sup>4</sup> θ + cos<sup>4</sup> θ = 1 − 2 sin<sup>2</sup> θ cos<sup>2</sup> θ and sin<sup>6</sup> θ + cos<sup>6</sup> θ = 1 − 3 sin<sup>2</sup> θ cos<sup>2</sup> θ.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Range of Product</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The expression sin<sup>2</sup> θ cos<sup>2</sup> θ can be written as (1/4) sin<sup>2</sup>(2θ), which has a maximum real value of 0.25.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>दिया गया है sin<sup>8</sup> θ + cos<sup>8</sup> θ = 1. माना k = sin<sup>2</sup> θ cos<sup>2</sup> θ.</p>\n<p>सर्वसमिका sin<sup>8</sup> θ + cos<sup>8</sup> θ = (1 − 2k)<sup>2</sup> − 2k<sup>2</sup> का उपयोग करने पर:</p>\n<p>⇒ (1 − 2k)<sup>2</sup> − 2k<sup>2</sup> = 1</p>\n<p>⇒ 1 + 4k<sup>2</sup> − 4k − 2k<sup>2</sup> = 1 ⇒ 2k<sup>2</sup> − 4k = 0</p>\n<p>चूँकि θ ≠ 0 या π/2, sin θ और cos θ शून्येतर (non-zero) हैं, इसलिए k ≠ 0 ⇒ k = 2.</p>\n<p><strong>∴ सही उत्तर 2 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong> sin<sup>8</sup> θ + cos<sup>8</sup> θ − 1 = 0 जहाँ θ ≠ 0 या π/2</p>\n<p><strong>प्रयुक्त सूत्र:</strong> sin<sup>2</sup> θ + cos<sup>2</sup> θ = 1; a<sup>2</sup> + b<sup>2</sup> = (a + b)<sup>2</sup> − 2ab</p>\n<svg width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n  <path d=\"M 220 120 L 300 120 A 80 80 0 0 0 276.5 63.5 L 220 120 Z\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\" />\n  <line x1=\"140\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#888888\" stroke-dasharray=\"5,3\" />\n  <line x1=\"220\" y1=\"40\" x2=\"220\" y2=\"200\" stroke=\"#888888\" stroke-dasharray=\"5,3\" />\n  <line x1=\"276.5\" y1=\"120\" x2=\"276.5\" y2=\"63.5\" stroke=\"#007700\" stroke-width=\"2\" />\n  <text x=\"235\" y=\"115\" fill=\"#222222\" font-size=\"13\">θ</text>\n  <text x=\"240\" y=\"135\" fill=\"#2255cc\" font-size=\"12\">cosθ</text>\n  <text x=\"280\" y=\"95\" fill=\"#007700\" font-size=\"12\">sinθ</text>\n  <text x=\"240\" y=\"85\" fill=\"#cc5500\" font-size=\"12\">त्रिज्या = 1</text>\n  <text x=\"20\" y=\"30\" fill=\"#222222\" font-weight=\"bold\">त्रिकोणमितीय सर्वसमिका आधार</text>\n  <text x=\"20\" y=\"55\" fill=\"#2255cc\" font-size=\"13\">sin²θ + cos²θ = 1</text>\n</svg>\n<p>⇒ sin<sup>8</sup> θ + cos<sup>8</sup> θ = 1</p>\n<p>⇒ (sin<sup>4</sup> θ + cos<sup>4</sup> θ)<sup>2</sup> − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ [(sin<sup>2</sup> θ + cos<sup>2</sup> θ)<sup>2</sup> − 2 sin<sup>2</sup> θ cos<sup>2</sup> θ]<sup>2</sup> − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ (1 − 2 sin<sup>2</sup> θ cos<sup>2</sup> θ)<sup>2</sup> − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ 1 + 4 sin<sup>4</sup> θ cos<sup>4</sup> θ − 4 sin<sup>2</sup> θ cos<sup>2</sup> θ − 2 sin<sup>4</sup> θ cos<sup>4</sup> θ = 1</p>\n<p>⇒ 2 sin<sup>4</sup> θ cos<sup>4</sup> θ − 4 sin<sup>2</sup> θ cos<sup>2</sup> θ = 0</p>\n<p>⇒ 2 sin<sup>2</sup> θ cos<sup>2</sup> θ (sin<sup>2</sup> θ cos<sup>2</sup> θ − 2) = 0</p>\n<p>⇒ sin<sup>2</sup> θ cos<sup>2</sup> θ − 2 = 0 (चूँकि sin θ, cos θ ≠ 0)</p>\n<p>⇒ sin<sup>2</sup> θ cos<sup>2</sup> θ = 2</p>\n<p><strong>∴ सही उत्तर 2 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">मूलभूत पाइथागोरस सर्वसमिका</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">किसी भी वास्तविक कोण θ के लिए, sin<sup>2</sup> θ + cos<sup>2</sup> θ = 1.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">घात न्यूनीकरण (Power Reductions)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">sin<sup>4</sup> θ + cos<sup>4</sup> θ = 1 − 2 sin<sup>2</sup> θ cos<sup>2</sup> θ और sin<sup>6</sup> θ + cos<sup>6</sup> θ = 1 − 3 sin<sup>2</sup> θ cos<sup>2</sup> θ.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">गुणनफल का परिसर (Range of Product)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">व्यंजक sin<sup>2</sup> θ cos<sup>2</sup> θ को (1/4) sin<sup>2</sup>(2θ) के रूप में लिखा जा सकता है, जिसका अधिकतम वास्तविक मान 0.25 है।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "In which subject the total marks of all the students is highest?",
+    "question_hi": "किस विषय में सभी छात्रों के कुल अंक अधिकतम हैं?",
+    "options": [
+      "English",
+      "Mathematics",
+      "Science",
+      "Hindi"
+    ],
+    "options_hi": [
+      "अंग्रेजी",
+      "गणित",
+      "विज्ञान",
+      "हिंदी"
+    ],
+    "correct": 2,
+    "solution": "<p>Total marks in English = 87 + 74 + 89 + 62 + 95 = 407</p>\n\n<p>Total marks in Mathematics = 96 + 99 + 99 + 89 + 92 = 475</p>\n\n<p>Total marks in Science = 90 + 94 + 99 + 96 + 92 = 471</p>\n\n<p>Total marks in Hindi = 81 + 89 + 92 + 91 + 86 = 439</p>\n\n<p>∴ Total marks of all students is highest in Mathematics</p>\n",
+    "solution_hi": "<p>अंग्रेजी में कुल अंक = 87 + 74 + 89 + 62 + 95 = 407</p>\n\n<p>गणित में कुल अंक = 96 + 99 + 99 + 89 + 92 = 475</p>\n\n<p>विज्ञान में कुल अंक = 90 + 94 + 99 + 96 + 92 = 471</p>\n\n<p>हिंदी में कुल अंक = 81 + 89 + 92 + 91 + 86 = 439</p>\n\n<p>∴ गणित में सभी छात्रों के कुल अंक अधिकतम हैं।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Which student scored the maximum marks in all the 4 subjects taken together?",
+    "question_hi": "<p>किस छात्र ने सभी 4 विषयों में एक साथ अधिकतम अंक प्राप्त किया है?</p>\n",
+    "options": [
+      "Student 1",
+      "Student 2",
+      "Student 3",
+      "Student 5"
+    ],
+    "options_hi": [
+      "छात्र 1",
+      "छात्र 2",
+      "छात्र 3",
+      "छात्र 5"
+    ],
+    "correct": 3,
+    "solution": "<p>Total marks scored by Student 1 = 87 + 96 + 90 + 81 = 354</p>\n\n<p>Total marks scored by Student 2 = 74 + 99 + 94 + 89 = 356</p>\n\n<p>Total marks scored by Student 3 = 89 + 99 + 99 + 92 = 379</p>\n\n<p>Total marks scored by Student 5 = 95 + 92 + 92 + 86 = 365</p>\n\n<p>∴ Maximum marks were scored by student 3</p>\n",
+    "solution_hi": "<p>छात्र 1 द्वारा प्राप्त कुल अंक = 87 + 96 + 90 + 81 = 354</p>\n\n<p>छात्र 2 द्वारा प्राप्त कुल अंक = 74 + 99 + 94 + 89 = 356</p>\n\n<p>छात्र 3 द्वारा प्राप्त कुल अंक = 89 + 99 + 99 + 92 = 379</p>\n\n<p>छात्र 5 द्वारा प्राप्त कुल अंक = 95 + 92 + 92 + 86 = 365</p>\n\n<p>∴ अधिकतम अंक छात्र 3 द्वारा प्राप्त किया गया।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A new subject is added, in which all the students have scored 100 marks. If total marks are calculated as the sum of the marks of the highest 4 subjects, then who will be at second place in terms of total marks?",
+    "question_hi": "<p>एक नया विषय शामिल किया जाता है जिसमें सभी छात्रों ने 100 अंक प्राप्त किये हैं। यदि कुल अंकों की गणना अधिकतम 4 विषयों के अंकों के योग के रूप में की जाती है, तो कुल अंकों की स्थिति में दूसरे स्थान पर&nbsp;कौन होगा?</p>\n",
+    "options": [
+      "Student 3",
+      "Student 2",
+      "Student 5",
+      "Student 4"
+    ],
+    "options_hi": [
+      "छात्र 3",
+      "छात्र 2",
+      "छात्र 5",
+      "छात्र 4"
+    ],
+    "correct": 2,
+    "solution": "<p>Considering marks of highest 4 subjects,</p>\n\n<p>Student 2 = 100 + 99 + 94 + 89 = 382</p>\n\n<p>Student 3 = 100 + 99 + 99 + 92 = 390</p>\n\n<p>Student 4 = 100 + 89 + 96 + 91 = 376</p>\n\n<p>Student 5 = 100 + 95 + 92 + 92 = 379</p>\n\n<p>&there4; Student 2&nbsp;will be at second place.</p>\n",
+    "solution_hi": "<p>अधिकतम 4 विषयों के अंकों को लेने पर,</p>\n\n<p>छात्र 2 = 100 + 99 + 94 + 89 = 382</p>\n\n<p>छात्र 3 = 100 + 99 + 99 + 92 = 390</p>\n\n<p>छात्र 4 = 100 + 89 + 96 + 91 = 376</p>\n\n<p>छात्र 5 = 100 + 95 + 92 + 92 = 379</p>\n\n<p>&there4; छात्र 2&nbsp;दूसरे स्थान पर&nbsp;होगा</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The average marks per student in English is what percent of the average marks per student in Hindi?",
+    "question_hi": "अंग्रेजी में प्रति छात्र औसत अंक हिंदी में प्रति छात्र औसत अंक के कितने प्रतिशत हैं?",
+    "options": [
+      "91.48",
+      "97.12",
+      "92.71",
+      "98.18"
+    ],
+    "options_hi": [
+      "91.48",
+      "97.12",
+      "92.71",
+      "98.18"
+    ],
+    "correct": 3,
+    "solution": "<p>Total marks in English = 87 + 74 + 89 + 62 + 95 = 407</p>\n\n<p>Average marks per student in English = 407/5 = 81.4</p>\n\n<p>Total marks in Hindi = 81 + 89 + 92 + 91 + 86 = 439</p>\n\n<p>Average marks per student in Hindi = 439/5 = 87.8</p>\n\n<p>∴ Required percentage = (81.4/87.8) × 100 = 92.71%</p>\n",
+    "solution_hi": "<p>अंग्रेजी में कुल अंक = 87 + 74 + 89 + 62 + 95 = 407</p>\n\n<p>अंग्रेजी में प्रति छात्र औसत अंक = 407/5 = 81.4</p>\n\n<p>हिंदी में कुल अंक = 81 + 89 + 92 + 91 + 86 = 439</p>\n\n<p>हिंदी में प्रति छात्र औसत अंक = 439/5 = 87.8</p>\n\n<p>∴ अभीष्ट प्रतिशत = (81.4/87.8) × 100 = 92.71%</p>\n",
+    "marks": "2"
+  }
+]
