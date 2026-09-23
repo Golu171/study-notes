@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What least number must be added to 213, so that the sum is completely divisible by 9?",
+    "question_hi": "213 में वह कौन सी न्यूनतम संख्या जोड़ी जाये<strong>,</strong> जिससे योग 9 से पूरी तरह विभाज्य हो जाए?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "options_hi": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "correct": 1,
+    "solution": "<p>For this to be divisible by 9, sum of numbers at different places must be divisible by 9</p>\n\n<p>&rArr; Sum = 2 + 1 + 3 = 6</p>\n\n<p>instead of 6 there must be 9, so that it will be divisible by 9</p>\n&there4; 3 must be added from the number to make it divisible by 9",
+    "solution_hi": "<p>इसके 9 से विभाजित होने के लिए विभिन्न स्थानों की संख्याओं का योग 9 से विभाजित होना चाहिए</p>\n\n<p>&rArr; योग = 2 + 1 + 3 = 6</p>\n\n<p>6 के स्थान पर यहाँ 9 होना चाहिए, जिससे यह 9 से विभाजित हो सके</p>\n&there4; इसे 9 से विभाज्य बनाने के लिए संख्या में 3 जोड़ा जाना चाहिए।",
+    "marks": "2"
+  },
+  {
+    "question": "A can do a work in 12 days and B in 24 days. If they work on it together for 4 days, then what fraction of work is left?",
+    "question_hi": "A किसी काम 12 दिनों में और B उसे 24 दिनों में पूरा कर सकता है। यदि वे 4 दिनों के लिए एक साथ काम करते हैं, तो काम का कितना हिस्सा शेष रहता है?",
+    "options": [
+      "1/3",
+      "1/2",
+      "1/4",
+      "1/5"
+    ],
+    "options_hi": [
+      "1/3",
+      "1/2",
+      "1/4",
+      "1/5"
+    ],
+    "correct": 2,
+    "solution": "<p>Work done by A in 1 day is 1/12<sup>th</sup> of the total work</p>\n\n<p>Work done by B in 1 day is 1/24<sup>th</sup> of the total work</p>\n\n<p>According to the problem statement, work left can be given as</p>\n\n<p>&rArr; 1 - 4 &times; (1/12 + 1/24)</p>\n\n<p>&rArr; 1 - &frac12; = &frac12;</p>\n\n<p>&there4; The &frac12; of the total work will be left</p>\n",
+    "solution_hi": "<p>1 दिन में A द्वारा कुल कार्य का 1/12वां हिस्सा किया गया</p>\n\n<p>1 दिन में B द्वारा कुल कार्य का 1/24वां हिस्सा किया गया</p>\n\n<p>प्रश्न में दिए गए कथन के अनुसार<strong>, </strong>शेष काम ऐसे दिया जा सकता है</p>\n\n<p>&rArr; 1 - 4 &times; (1/12 + 1/24)</p>\n\n<p>&rArr; 1 - &frac12; = &frac12;</p>\n&there4; कुल कार्य का &frac12; हिस्सा शेष रहेगा।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the area (in sq cm) of an equilateral triangle of side 6 cm?",
+    "question_hi": "6 सेमी भुजा वाले समबाहु त्रिभुज का क्षेत्रफल (वर्ग सेमी में) क्या होगा?",
+    "options": [
+      "36&radic;3",
+      "9",
+      "36",
+      "9&radic;3"
+    ],
+    "options_hi": [
+      "36&radic;3",
+      "9",
+      "36",
+      "9&radic;3"
+    ],
+    "correct": 4,
+    "solution": "<p>Area of equilateral triangle of side 6 cm can be given as,</p>\n\n<p>&rArr; Area of triangle = &radic;3 &times; (6) <sup>2</sup>/4 = 9&radic;3</p>\n&there4; the area of the triangle is 9&radic;3 cm<sup>2</sup>",
+    "solution_hi": "<p>6 सेमी भुजा वाले समबाहु त्रिभुज का क्षेत्रफल दिया जा सकता है,</p>\n\n<p>&rArr; त्रिभुज का क्षेत्रफल = &radic;3 &times; (6) <sup>2</sup>/4 = 9&radic;3</p>\n&there4; त्रिभुज का क्षेत्रफल 9&radic;3 सेमी<sup>2</sup> है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the effective discount on two successive discounts of 20% and 25%?",
+    "question_hi": "20% और 25% की दो क्रमिक छूट पर प्रभावी छूट क्या है?",
+    "options": [
+      "45%",
+      "40%",
+      "50%",
+      "60%"
+    ],
+    "options_hi": [
+      "45%",
+      "40%",
+      "50%",
+      "60%"
+    ],
+    "correct": 2,
+    "solution": "<p><span style=\"font-weight: 700;\">Given:</span></p>\n\n<p>The successive discount are&nbsp;20% and 25%.</p>\n\n<p><span style=\"font-weight: 700;\">Formula used:</span></p>\n\n<p>Successive discount = X + Y - (XY)/100</p>\n\n<p>Where,</p>\n\n<p>X = First discount</p>\n\n<p>Y = Second discount</p>\n\n<p><span style=\"font-weight: 700;\">Calculation:</span></p>\n\n<p>Successive discount =&nbsp;X + Y - (XY)/100</p>\n\n<p>X = 20%, Y = 25%</p>\n\n<p>&rArr; 20&nbsp;+ 25&nbsp;- 500/100</p>\n\n<p>&rArr; 45 - 5 = 40%</p>\n\n<p><span style=\"font-weight: 700;\">&there4; The single equivalent discount is 40%.</span></p>\n\n<p><span style=\"font-weight: 700;\"><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" />&nbsp;</span></p>\n\n<p>Let the Selling price before discount be Rs. 100</p>\n\n<p>Now the effective discount after 2 successive discounts can be given as</p>\n\n<p>&rArr; 100 &times; (1 - 20/100) (1 - 25/100) = 100 &times; 0.8 &times; 0.75</p>\n\n<p>&rArr; final selling price is Rs. 60</p>\n\n<p>&rArr; Discount is 100 - 60 = Rs. 40</p>\n<strong>&there4; the discount percentage is 40%</strong>",
+    "solution_hi": "<p><span style=\"font-weight: 700;\">दिया गया है:</span></p>\n\n<p>क्रमिक छूट 20% और 25% है।</p>\n\n<p><span style=\"font-weight: 700;\">प्रयुक्त सूत्र:</span></p>\n\n<p>क्रमिक छूट = X + Y - (XY)/100</p>\n\n<p>जहाँ,</p>\n\n<p>X = पहली छूट</p>\n\n<p>Y = दूसरी छूट</p>\n\n<p><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p>क्रमिक छूट = X + Y - (XY)/100</p>\n\n<p>X = 20%, Y = 25%</p>\n\n<p>&rArr; 20&nbsp;+ 25&nbsp;- 500/100</p>\n\n<p>&rArr; 45 - 5 = 40%</p>\n\n<p><span style=\"font-weight: 700;\">&there4; एकल समतुल्य छूट 40% है।</span></p>\n\n<p><span style=\"font-weight: 700;\"><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></span></p>\n\n<p>माना छूट से पहले विक्रय मूल्य 100 रुपये है&nbsp;</p>\n\n<p>अब 2 क्रमिक छूटों के बाद प्रभावी छूट इस प्रकार दी जा सकती है</p>\n\n<p>&rArr; 100 &times; (1 - 20/100) (1 - 25/100) = 100 &times; 0.8 &times; 0.75</p>\n\n<p>&rArr; अंतिम विक्रय मूल्य&nbsp;60 रुपये है&nbsp;</p>\n\n<p>&rArr; छूट 100 - 60&nbsp;= 40&nbsp;रुपये है&nbsp;</p>\n<span style=\"font-weight: 700;\">&there4;&nbsp;</span><strong>छूट प्रतिशत 40% है</strong>",
+    "marks": "2"
+  },
+  {
+    "question": "Profit of Rs. 12,400 has to be divided between three partners A, B, and C in the ratio 5 : 7 : 8. How much does B get (in Rs.)?",
+    "question_hi": "12,400 रुपये के लाभ को तीन भागीदारों A, B और C के बीच 5 : 7 : 8 के अनुपात में बांटा जाना है। B को कितना (रुपये में) मिलता है?",
+    "options": [
+      "4340",
+      "3440",
+      "3340",
+      "4430"
+    ],
+    "options_hi": [
+      "4340",
+      "3440",
+      "3340",
+      "4430"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Profit = Rs. 12400</p>\n\n<p>The ratio of A : B : C = 5 : 7 : 8</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>B&rsquo;s share can be given as</p>\n\n<p>&rArr; 7 &times; 12400/(5 + 7 + 8)</p>\n\n<p>&rArr; 7 &times; (12400/20)</p>\n\n<p>&rArr; 4340</p>\n<strong>&there4; The B&rsquo;s share is Rs. 4340.</strong>",
+    "solution_hi": "<p><strong>दिया हुआ:</strong></p>\n\n<p>लाभ = 12400 रु</p>\n\n<p>A: B: C&nbsp;का अनुपात = 5: 7: 8&nbsp;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>B का हिस्सा दिया जा सकता है</p>\n\n<p>&rArr; 7 &times; 12400 / (5 + 7 + 8)</p>\n\n<p>&rArr; 7 &times; (12400/20)</p>\n\n<p>&rArr; 4340</p>\n\n<p><strong>&there4; B का हिस्सा 4340 रुपये है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The average weight of P, Q and R is 47 kg. If the average weight of P and Q be 32.5 kg and that of Q and R be 48.5 kg, then what is the weight of Q (in kgs)?",
+    "question_hi": "P, Q और R का औसत वजन 47 किग्रा है। यदि P और Q का औसत वजन 32.5 किग्रा है और Q और R का औसत वजन 48.5 किग्रा है तो Q का वजन (किग्रा में) क्या होगा?",
+    "options": [
+      "25",
+      "21",
+      "29",
+      "33"
+    ],
+    "options_hi": [
+      "25",
+      "21",
+      "29",
+      "33"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the weight of P, Q and R be p, q and r</p>\n\n<p>According to the problem statement</p>\n\n<p>&rArr; (p + q + r)/3 = 47</p>\n\n<p>&rArr; p + q + r = 141&nbsp;&nbsp; &nbsp;----(i)</p>\n\n<p>Now given that average weight of P and Q is 32.5 kg</p>\n\n<p>&rArr; (p + q) /2 = 32.5</p>\n\n<p>&rArr; p + q = 65 ----(ii)</p>\n\n<p>Now, (i) - (ii)</p>\n\n<p>&rArr; r = 141 - 65 = 76&nbsp;&nbsp; &nbsp;----(iii)</p>\n\n<p>Now given that average weight of Q and R is 48.5 kg</p>\n\n<p>&rArr; (q + r)/2 = 48.5</p>\n\n<p>&rArr; q + r = 97 Using (iii)</p>\n\n<p>&rArr; q = 97 - 76 = 21 kg</p>\n&there4; the weight of q is 21 kg",
+    "solution_hi": "<p>माना P, Q और R का वजन p, q और r है।</p>\n\n<p>प्रश्न में दिए गए कथन के अनुसार,</p>\n\n<p>&rArr; (p + q + r)/3 = 47</p>\n\n<p>&rArr; p + q + r = 141&nbsp;&nbsp; &nbsp;----(i)</p>\n\n<p>अब P और Q का औसत वजन 32.5 किग्रा है,</p>\n\n<p>&rArr; (p + q) /2 = 32.5</p>\n\n<p>&rArr; p + q = 65&nbsp;&nbsp; &nbsp;----(ii)</p>\n\n<p>अब, (i) - (ii)</p>\n\n<p>&rArr; r = 141 - 65 = 76&nbsp;&nbsp; &nbsp;----(iii)</p>\n\n<p>अब दिया है कि Q और R का औसत वजन 48.5 किग्रा है,</p>\n\n<p>&rArr; (q + r)/2 = 48.5</p>\n\n<p>&rArr; q + r = 97 (iii) उपयोग करने पर,</p>\n\n<p>&rArr; q = 97 - 76 = 21 किग्रा</p>\n&there4; q का वजन 21 किग्रा है।",
+    "marks": "2"
+  },
+  {
+    "question": "A shopkeeper by selling 5 items, earns a profit equal to the selling price of 1 item. What is his profit percentage?",
+    "question_hi": "एक दुकानदार 5 वस्तुएं बेचकर 1 वस्तु के विक्रय मूल्य के बराबर लाभ कमाता है। उसका लाभ प्रतिशत क्या है?",
+    "options": [
+      "20%",
+      "25%",
+      "16%",
+      "22.5%"
+    ],
+    "options_hi": [
+      "20%",
+      "25%",
+      "16%",
+      "22.5%"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the selling price be x</p>\n\n<p>Five items sold at Rs. 5x</p>\n\n<p>Now given profit is equal to selling price of 1 article = x</p>\n\n<p>&rArr; CP = SELLING PRICE - PROFIT = 5x - x = 4x</p>\n\n<p>&rArr; Profit percentage can be given as = x &times; 100/4x = 25%</p>\n&there4; profit is 25%",
+    "solution_hi": "<p>माना विक्रय मूल्य x रुपये है।</p>\n\n<p>पांच वस्तुओं को 5x रुपये में बेचा जाता है।</p>\n\n<p>अब दिया है कि लाभ, 1 वस्तु के विक्रय मूल्य के बराबर है = x</p>\n\n<p>&rArr; CP = विक्रय मूल्य - लाभ = 5x - x = 4x</p>\n\n<p>&rArr; लाभ प्रतिशत दिया जा सकता है = x &times; 100/4x = 25%</p>\n&there4; लाभ 25% है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the value of 20% of 500% of 50?",
+    "question_hi": "50 का 500% का 20% का मान क्या है?",
+    "options": [
+      "0.5",
+      "5000",
+      "500",
+      "50"
+    ],
+    "options_hi": [
+      "0.5",
+      "5000",
+      "500",
+      "50"
+    ],
+    "correct": 4,
+    "solution": "<p>It can be given as</p>\n\n<p>&rArr; (20/100) &times; (500/100) &times; 50</p>\n\n<p>&rArr; 50</p>\n&there4; the value of given expression is 50",
+    "solution_hi": "<p>इसे ऐसे दिया जा सकता है</p>\n\n<p>&rArr; (20/100) &times; (500/100) &times; 50</p>\n\n<p>&rArr; 50</p>\n&there4; दिए गए व्यंजक का मान 50 है।",
+    "marks": "2"
+  },
+  {
+    "question": "To cover a distance of 90 km in 2.5 hours what should be the average speed of the car in meters/second?",
+    "question_hi": "2.5 घंटों में 90 किमी की दूरी तय करने के लिए मीटर/सकेंड में कार की औसत गति क्या होनी चाहिए?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "options_hi": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct": 1,
+    "solution": "<p>Average speed can be given as total distance travelled/total time taken</p>\n\n<p>&rArr; average speed = 90/2.5 = 36 km/hr</p>\n\n<p>To convert it into m/s multiply it by 5/18</p>\n\n<p>&rArr; 5 &times; 36/18</p>\n\n<p>&rArr; average speed = 10m/s</p>\n&there4; average speed is 10 m/s",
+    "solution_hi": "<p>औसत गति को (तय की गयी कुल दूरी/लिया गया कुल समय) के रूप में दिया जा सकता है</p>\n\n<p>&rArr; औसत गति = 90/2.5 = 36 किमी/घंटा</p>\n\n<p>इसको मीटर/सेकंड में बदलने के लिए 5/18 से गुणा करना होगा,</p>\n\n<p>&rArr; 5 &times; 36/18</p>\n\n<p>&rArr; औसत गति = 10 मीटर/सेकंड</p>\n&there4; औसत गति 10 मीटर/सेकंड है।",
+    "marks": "2"
+  },
+  {
+    "question": "If in 3 years at simple interest the principal increases by 18%, what will be the compound interest (in Rs) earned on Rs. 25,000 in 3 years at the same rate?",
+    "question_hi": "यदि साधारण ब्याज पर 3 वर्षों में मूलधन 18% बढ़ता है<strong>, </strong>तो समान दर पर 3 वर्षों में 25,000 रुपये पर चक्रवृद्दि ब्याज (रुपये में) क्या होगा?",
+    "options": [
+      "4775.4",
+      "5774.4",
+      "4557.4",
+      "5575.4"
+    ],
+    "options_hi": [
+      "4775.4",
+      "5774.4",
+      "4557.4",
+      "5575.4"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the rate be r% and principle be p</p>\n\n<p>According to the problem statement, since principle increases by 18% means interest is 0.18p</p>\n\n<p>&rArr; 0.18p = (p &times; r &times; 3) /100</p>\n\n<p>&rArr; r = 6%</p>\n\n<p>Now CI can be given as</p>\n\n<p>&rArr; CI = 25000{(1 + 6/100) <sup>3</sup> - 1}</p>\n\n<p>&rArr; CI = 25000 &times; 0.191</p>\n\n<p>&rArr; CI = 4775.4</p>\n&there4; CI is Rs. 4775.4",
+    "solution_hi": "<p>माना दर r% है और मूलधन p है।</p>\n\n<p>प्रश्न में दिए गए कथने के अनुसार, क्योंकि मूलधन 18% बढ़ता है जिसका अर्थ है कि ब्याज 0.18p है।</p>\n\n<p>&rArr; 0.18p = (p &times; r &times; 3) /100</p>\n\n<p>&rArr; r = 6%</p>\n\n<p>अब CI (चक्रवृद्धि ब्याज) इस प्रकार से दिया जा सकता है,</p>\n\n<p>&rArr; CI = 25000{(1 + 6/100) <sup>3</sup> - 1}</p>\n\n<p>&rArr; CI = 25000 &times; 0.191</p>\n\n<p>&rArr; CI = 4775.4</p>\n&there4; चक्रवृद्धि ब्याज, 4775.4 रुपये है।",
+    "marks": "2"
+  },
+  {
+    "question": "If 5x + 6(3 - 2x) = 4, then what is the value of x?",
+    "question_hi": "यदि 5x + 6(3 - 2x) = 4 है, तो x का मान क्या है?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "options_hi": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "correct": 3,
+    "solution": "<p>It can be written as</p>\n\n<p>&rArr; 5x + 18 - 12x = 4</p>\n\n<p>&rArr; 7x = 14</p>\n\n<p>&rArr; x = 2</p>\n\n<p>&there4; x = 2</p>\n",
+    "solution_hi": "<p>इसे निम्न प्रकार से लिखा जा सकता है,</p>\n\n<p>&rArr; 5x + 18 - 12x = 4</p>\n\n<p>&rArr; 7x = 14</p>\n\n<p>&rArr; x = 2</p>\n&there4; x = 2",
+    "marks": "2"
+  },
+  {
+    "question": "If a + b = 1 and ab = -6, then what is the value of a<sup>3</sup> + b<sup>3</sup>?",
+    "question_hi": "यदि a + b = 1 और ab = -6 है, तो a<sup>3</sup> + b<sup>3</sup> का मान क्या होगा?",
+    "options": [
+      "17",
+      "15",
+      "19",
+      "13"
+    ],
+    "options_hi": [
+      "17",
+      "15",
+      "19",
+      "13"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>a + b = 1 &amp; ab&nbsp;= -6</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>(a + b) <sup>3</sup> = a<sup>3</sup> + b<sup>3</sup> + 3ab(a + b)</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>We know that&nbsp;</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">(a + b)&nbsp;</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;= a</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;+ b</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;+ 3ab(a + b)</span></p>\n\n<p>Put all the values given values</p>\n\n<p>&rArr; 1<sup>3</sup> = a<sup>3</sup> + b<sup>3</sup> + 3 &times; 3(- 6)</p>\n\n<p>&rArr; a<sup>3</sup> + b<sup>3</sup> = 19</p>\n<strong>&there4; The value of a<sup>3</sup> + b<sup>3</sup> is 19.</strong>",
+    "solution_hi": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">दिया गया है:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">a + b = 1 और ab&nbsp;= -6</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">प्रयुक्त सूत्र:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">(a + b)&nbsp;<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ 3ab(a + b)</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">गणना:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">हम जानते हैं कि,</p>\n\n<p style=\"color: rgb(33, 37, 41);\">(a + b)&nbsp;<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= a<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ 3ab(a + b)</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"\">सभी&nbsp;दिए गए मान उपरोक्त सूत्र में रखने पर,</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 1<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ 3 &times; 3(- 6)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= 19</p>\n\n<p><span style=\"font-weight: bolder;\">&there4; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">का मान&nbsp;</span><span style=\"font-weight: bolder;\">19 है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The sum of a non - zero number and twenty times its reciprocal is 9. What is the number?",
+    "question_hi": "एक गैर-शून्य संख्या और इसके व्युत्क्रम के बीस गुना का योग 9 है। संख्या क्या है?",
+    "options": [
+      "-5",
+      "3",
+      "-3",
+      "5"
+    ],
+    "options_hi": [
+      "-5",
+      "3",
+      "-3",
+      "5"
+    ],
+    "correct": 4,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Check the options to satisfy the condition: <strong>Number + 20/Number = 9</strong></p>\n<p>Option (4): 5 + 20/5 ⇒ 5 + 4 = 9.</p>\n<p>Condition satisfied.</p>\n<p><strong>∴ The correct answer is 5.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong> Sum of a <strong>non-zero number</strong> and <strong>20 times its reciprocal</strong> is 9.</p>\n<p><strong>Formula Used:</strong> Let the number be x. Equation: x + 20(1/x) = 9</p>\n<p>⇒ x + 20/x = 9</p>\n<p>⇒ (x<sup>2</sup> + 20) / x = 9</p>\n<p>⇒ x<sup>2</sup> + 20 = 9x</p>\n<p>⇒ x<sup>2</sup> − 9x + 20 = 0</p>\n<p>⇒ x<sup>2</sup> − 5x − 4x + 20 = 0</p>\n<p>⇒ x(x − 5) − 4(x − 5) = 0</p>\n<p>⇒ (x − 5)(x − 4) = 0</p>\n<p>⇒ x = 5 or x = 4</p>\n<p>From the given options, 5 is the correct choice.</p>\n<p><strong>∴ The correct answer is 5.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Quadratic Equation Roots</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">For ax<sup>2</sup> + bx + c = 0, the <strong>sum of roots</strong> is −b/a and the <strong>product of roots</strong> is c/a.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Reciprocal Relationship</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">If a number is x, its <strong>multiplicative inverse</strong> or reciprocal is 1/x, where x ≠ 0.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Nature of Roots</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">Discriminant D = b<sup>2</sup> − 4ac helps determine if roots are real, equal, or imaginary.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>स्थिति को संतुष्ट करने के लिए विकल्पों की जाँच करें: <strong>संख्या + 20/संख्या = 9</strong></p>\n<p>विकल्प (4): 5 + 20/5 ⇒ 5 + 4 = 9.</p>\n<p>स्थिति संतुष्ट है।</p>\n<p><strong>∴ सही उत्तर 5 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong> एक <strong>शून्यतर संख्या</strong> और उसके <strong>व्युत्क्रम के 20 गुना</strong> का योग 9 है।</p>\n<p><strong>प्रयुक्त सूत्र:</strong> माना संख्या x है। समीकरण: x + 20(1/x) = 9</p>\n<p>⇒ x + 20/x = 9</p>\n<p>⇒ (x<sup>2</sup> + 20) / x = 9</p>\n<p>⇒ x<sup>2</sup> + 20 = 9x</p>\n<p>⇒ x<sup>2</sup> − 9x + 20 = 0</p>\n<p>⇒ x<sup>2</sup> − 5x − 4x + 20 = 0</p>\n<p>⇒ x(x − 5) − 4(x − 5) = 0</p>\n<p>⇒ (x − 5)(x − 4) = 0</p>\n<p>⇒ x = 5 या x = 4</p>\n<p>दिए गए विकल्पों में से, 5 सही विकल्प है।</p>\n<p><strong>∴ सही उत्तर 5 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">द्विघात समीकरण के मूल (Quadratic Equation Roots)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">ax<sup>2</sup> + bx + c = 0 के लिए, <strong>मूलों का योग</strong> −b/a है और <strong>मूलों का गुणनफल</strong> c/a है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">व्युत्क्रम संबंध (Reciprocal Relationship)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">यदि कोई संख्या x है, तो उसका <strong>गुणात्मक प्रतिलोम</strong> या व्युत्क्रम 1/x होता है, जहाँ x ≠ 0 है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">मूलों की प्रकृति (Nature of Roots)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">विविक्तकर (Discriminant) D = b<sup>2</sup> − 4ac यह निर्धारित करने में मदद करता है कि मूल वास्तविक, समान या काल्पनिक हैं।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "If the 3<sup>rd</sup>&nbsp;and the 5<sup>th</sup>&nbsp;term of an arithmetic progression are 13 and 21, what is the 13<sup>th</sup>&nbsp;term?",
+    "question_hi": "यदि समांतर श्रेणी का तीसरा और पांचवां पद 13 और 21 हैं<strong>, </strong>तो 13वां पद क्या होगा?",
+    "options": [
+      "53",
+      "49",
+      "57",
+      "61"
+    ],
+    "options_hi": [
+      "53",
+      "49",
+      "57",
+      "61"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the first term of AP be a and common difference be d</p>\n\n<p>From the problem&rsquo;s statement</p>\n\n<p>&rArr; 3<sup>rd</sup> term = a + (3 - 1) d = a + 2d = 13&nbsp;&nbsp; &nbsp;----(i)</p>\n\n<p>&rArr; 5<sup>th</sup> term = a + (5 - 1) d = a + 4d = 21&nbsp;&nbsp; &nbsp;----(ii)</p>\n\n<p>Now (ii) - (i)</p>\n\n<p>&rArr; 2d = 8</p>\n\n<p>&rArr; d = 4, put this in (i)</p>\n\n<p>&rArr; a = 13 - 8 = 5</p>\n\n<p>Now the 13<sup>th</sup> term can be given as a + 12d</p>\n\n<p>&rArr; 13<sup>th</sup> term = 5 + 12 &times; 4 = 53</p>\n&there4; the 15<sup>th</sup> term of AP is 53",
+    "solution_hi": "<p>माना समांतर श्रेणी का पहला पद a और सामान्य अंतर d है।</p>\n\n<p>प्रश्न के कथन के अनुसार,</p>\n\n<p>&rArr; तीसरा पद = a + (3 - 1) d = a + 2d = 13&nbsp;&nbsp;&nbsp; ----(i)</p>\n\n<p>&rArr; पांचवां पद = a + (5 - 1) d = a + 4d = 21&nbsp;&nbsp;&nbsp; ----(ii)</p>\n\n<p>अब (ii) - (i)</p>\n\n<p>&rArr; 2d = 8</p>\n\n<p>&rArr; d = 4, इसे (i) में रखने पर</p>\n\n<p>&rArr; a = 13 - 8 = 5</p>\n\n<p>अब 13<sup>वां</sup> पद इस प्रकार दिया जा सकता है, a + 12d,</p>\n\n<p>&rArr; 13<sup>वां</sup> पद = 5 + 12 &times; 4 = 53</p>\n&there4; समांतर श्रेणी का 13<sup>वां</sup> पद 53 है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the reflection of the point (3, -5) in the origin?",
+    "question_hi": "केंद्र पर बिंदु (3, -5) का प्रतिबिंब क्या है?",
+    "options": [
+      "(-3, -5)",
+      "(5, -3)",
+      "(-5, -3)",
+      "(-3, 5)"
+    ],
+    "options_hi": [
+      "(-3, -5)",
+      "(5, -3)",
+      "(-5, -3)",
+      "(-3, 5)"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:-</strong></p>\n\n<p>Point = (3, -5)</p>\n\n<p><strong>Concept used:-</strong></p>\n\n<p>Reflection point - To find a reflection&nbsp;of any point, change the sign of each coordinate.</p>\n\n<p><strong>Calculation:-</strong></p>\n\n<p>Change the sign of each coordinate -&nbsp;<br />\n&there4; reflection about origin is (-3, 5)</p>\n",
+    "solution_hi": "<p><strong>दिया है:-</strong></p>\n\n<p>बिंदु = (3, -5)</p>\n\n<p><strong>प्रयुक्त&nbsp;अवधारणा:-</strong></p>\n\n<p><span style=\"\">प्रतिबिंब&nbsp;</span>बिंदु - किसी भी बिंदु का प्रतिबिंब ज्ञात करने के लिए, प्रत्येक निर्देशांक का चिह्न बदलिए।</p>\n\n<p><strong>गणना:-</strong></p>\n\n<p>प्रत्येक निर्देशांक का <span style=\"\">चिह्न&nbsp;</span><span style=\"\">बदलिए&nbsp;</span>-<br />\n<span style=\"\">&there4;&nbsp;</span><span style=\"\">केंद्र पर \\प्रतिबिंब</span> (-3, 5) है।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Point P is the midpoint of segment AB. Co - ordinates of P are (5, -1) and A are (2, -4) . What are the co - ordinates of point B?",
+    "question_hi": "खंड AB का मध्यबिंदु P बिंदु पर है। P के निर्देशांक (5, -1) और A के निर्देशांक (2, -4) है। बिंदु B के निर्देशांक क्या हैं?",
+    "options": [
+      "(6, 4)",
+      "(8, 2)",
+      "(1, -2)",
+      "(-6, -2)"
+    ],
+    "options_hi": [
+      "(6, 4)",
+      "(8, 2)",
+      "(1, -2)",
+      "(-6, -2)"
+    ],
+    "correct": 2,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_13.10.22_D1.png\" style=\"height: 43px; width: 324px;\" /></p>\n\n<p>Let coordinate of B be (x, y)</p>\n\n<p>Since P is mid point so it can be written as</p>\n\n<p>&rArr; 5 = (2 + x) /2</p>\n\n<p>&rArr; x = 8</p>\n\n<p>Now, for Y coordinate</p>\n\n<p>&rArr; -1 = (-4 + y) /2</p>\n\n<p>&rArr; y = 2</p>\n&there4; the coordinates of B are (8, 2)&nbsp;",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_13.10.22_D1.png\" style=\" height: 43px; width: 324px;\" /></p>\n\n<p>माना B का निर्देशांक (x, y) है।</p>\n\n<p>क्योंकि P मध्यबिंदु है<strong>,</strong> तो इसे लिखा जा सकता है,</p>\n\n<p>&rArr; 5 = (2 + x) /2</p>\n\n<p>&rArr; x = 8</p>\n\n<p>अब, Y निर्देशांक के लिए</p>\n\n<p>&rArr; -1 = (-4 + y) /2</p>\n\n<p>&rArr; y = 2</p>\n&there4; B का निर्देशांक (8, 2) है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the slope of the line perpendicular to the line passing through the points (-2, 3) and (2, 0)?",
+    "question_hi": "बिन्दुओं (-2, 3) और (2, 0) से होकर गुजरने वाली रेखा के लंबवत रेखा की प्रवणता क्या है?",
+    "options": [
+      "4/3",
+      "3/4",
+      "-3/4",
+      "-4/3"
+    ],
+    "options_hi": [
+      "4/3",
+      "3/4",
+      "-3/4",
+      "-4/3"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:-</strong></p>\n\n<p>Points (-2, 3) and (2, 0)</p>\n\n<p><strong>Formula used:-</strong></p>\n\n<p>Slope of line which is passing through two points -&nbsp;</p>\n\n<p>Slope(m) = (y<sub>2</sub> - y<sub>1</sub>)/(x<sub>2</sub> - x<sub>1</sub>)</p>\n\n<p>Slope of perpendicular line = -1/m</p>\n\n<p><strong>Calculation:-</strong></p>\n\n<p>According to&nbsp;the question -</p>\n\n<p>Slope(m) = (0&nbsp;- 3)/{2 - (-2)}&nbsp;= -3/4</p>\n\n<p>&there4; Slope of line perpendicular to given line = -1/(-3/4) = 4/3</p>\n&there4; <strong>The required slope is 4/3</strong>",
+    "solution_hi": "<p><strong>दिया गया&nbsp;है:-</strong></p>\n\n<p>बिंदु (-2, 3) और (2, 0)</p>\n\n<p><strong>प्रयुक्त सूत्र:-</strong></p>\n\n<p>दो बिंदुओं से गुजरने वाली रेखा की&nbsp;<span style=\"\">प्रवणता&nbsp;</span>-</p>\n\n<p><span style=\"\">प्रवणता</span><span style=\"\">(m) = (y</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;- y</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">1</span><span style=\"\">)/(x</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;- x</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">1</span><span style=\"\">)</span></p>\n\n<p>लंबवत रेखा की <span style=\"\">प्रवणता&nbsp;</span>= -1/m</p>\n\n<p><strong>गणना:-</strong></p>\n\n<p>प्रश्न के अनुसार-</p>\n\n<p><span style=\"\">प्रवणता(m) = (3 - 0)/(-2 - 2) = -3/4</span></p>\n\n<p>दी गई रेखा के लंबवत रेखा की&nbsp;<span style=\"\">प्रवणता&nbsp;</span>= -1/(-3/4) = 4/3</p>\n<span style=\"font-weight: 700; \">&there4; अभीष्ट&nbsp;प्रवणता&nbsp;4/3&nbsp;है</span>",
+    "marks": "2"
+  },
+  {
+    "question": "<p>∆ABC is similar to ∆PQR. If ratio of perimeters of ∆ABC and ∆PQR is 1 : 2 and if PQ = 10 cm then what is the length of AB (in cm)?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D11.png\" style=\"height: 162px; width: 342px;\" /></p>\n",
+    "question_hi": "<p>∆ABC, &Delta;PQR के समरूप है। यदि ∆ABC और &Delta;PQR के परिमाप का अनुपात 1 : 2 है और यदि PQ = 10 सेमी है तो AB की लंबाई (सेमी में) क्या है?</p>\n\n<p><span style=\"display: none;\">&nbsp;</span>&nbsp;<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D11.png\" style=\" height: 162px; width: 342px;\" /><span style=\"display: none;\">&nbsp;&nbsp;&nbsp;</span><span style=\"display: none;\">&nbsp;</span><span style=\"display: none;\">&nbsp;</span><span style=\"display: none;\">&nbsp;</span><span style=\"display: none;\">&nbsp;</span></p>\n",
+    "options": [
+      "5",
+      "20",
+      "25",
+      "15"
+    ],
+    "options_hi": [
+      "5",
+      "20",
+      "25",
+      "15"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:-</strong></p>\n\n<p>&Delta;ABC&nbsp;&sim;&nbsp;&Delta;PQR and PQ = 10 cm</p>\n\n<p>Perimeter of&nbsp;&Delta;ABC/Perimeter of&nbsp;&Delta;PQR = 1/2</p>\n\n<p><strong>Formula used:-</strong></p>\n\n<p>Perimeter of&nbsp;&Delta;ABC/Perimeter of&nbsp;&Delta;PQR = AB/PQ = BC/QR = AC/PR</p>\n\n<p><strong>Calculation:-</strong>&nbsp;&nbsp;</p>\n\n<p>According to the question -</p>\n\n<p>&rArr; Perimeter of &Delta;ABC/Perimeter of &Delta;PQR = 1/2 = AB/PQ</p>\n\n<p>&rArr; AB = (1 &times; 10)/2</p>\n\n<p><span style=\"\">&rArr; AB&nbsp;</span>= 5 cm</p>\n\n<p>&there4; <strong>The required value of AB is 5 cm.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया है:-</strong></p>\n\n<p><span style=\"\">&Delta;ABC&nbsp;&sim;&nbsp;&Delta;PQR</span> और PQ = 10 सेमी</p>\n\n<p><span style=\"\">&Delta;ABC&nbsp;</span>का परिमाप/&Delta;PQR का परिमाप = 1/2</p>\n\n<p><strong>प्रयुक्त सूत्र:-</strong></p>\n\n<p><span style=\"\">&Delta;ABC</span>का परिमाप/&Delta;PQR का परिमाप = AB/PQ = BC/QR = AC/PR</p>\n\n<p><strong>गणना:-</strong></p>\n\n<p>प्रश्न के अनुसार-</p>\n\n<p><span style=\"\">&rArr;&nbsp;&Delta;ABC</span>का परिमाप/&Delta;PQR का परिमाप = 1/2 = AB/PQ</p>\n\n<p style=\"\">&rArr; AB = (1 &times; 10)/2</p>\n\n<p style=\"\">&rArr; AB&nbsp;= 5 सेमी</p>\n\n<p><span style=\"\">&there4;&nbsp;</span><strong>AB का अभीष्ट मान 5 सेमी है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "What is the value of Sin 30&deg; + Cos 30&deg;?",
+    "question_hi": "Sin 30&deg; + Cos 30&deg; का मान क्या है?",
+    "options": [
+      "(&radic;6 + 1)/&radic;3",
+      "(&radic;3 + 2)/&radic;3",
+      "(1 + &radic;3)/2",
+      "5/&radic;3"
+    ],
+    "options_hi": [
+      "(&radic;6 + 1)/&radic;3",
+      "(&radic;3 + 2)/&radic;3",
+      "(1 + &radic;3)/2",
+      "5/&radic;3"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:-</strong></p>\n\n<p><span style=\"\">Sin 30&deg; + Cos 30&deg;</span></p>\n\n<p><span style=\"\"><strong>Calculation:-</strong></span></p>\n\n<p>∵ sin 30 = 1/2 and cos 30 = &radic;3/2, put this in given equation</p>\n\n<p>&rArr; &nbsp;&frac12; + &radic;3/2</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>(1 + &radic;3) /2</p>\n&there4; <strong>the value of Sin 30&deg; + Cos 30&deg; is (1 + &radic;3)/2 .</strong>",
+    "solution_hi": "<p><strong>दिया गया:-</strong></p>\n\n<p><span style=\"\">Sin 30&deg; + Cos 30&deg;</span></p>\n\n<p><strong>गणना</strong>:-</p>\n\n<p>∵ sin 30 = 1/2 और cos 30 = &radic;3/2, इसे समीकरण में रखने पर</p>\n\n<p>&rArr;&nbsp;&frac12; + &radic;3/2</p>\n\n<p><span style=\"\">&rArr;</span>&nbsp;(1 + &radic;3) /2</p>\n&there4; <strong>Sin 30&deg; + Cos 30&deg; का मान (1 + &radic;3)/2 है।</strong>",
+    "marks": "2"
+  },
+  {
+    "question": "<p>∆ ABC is right angled at B. If &ang;A = 30&deg;, then Sec C =?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/01/F3_Madhuri_SSC_10.01.2023_D1.png\" style=\"height: 187px; width: 182px;\" /></p>\n",
+    "question_hi": "<p>∆ABC, B पर समकोण त्रिभुज है। यदि &ang;A = 30&deg;, तो Sec C =?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/01/F3_Madhuri_SSC_10.01.2023_D1.png\" style=\" height: 187px; width: 182px;\" /></p>\n",
+    "options": [
+      "1/2",
+      "1/&radic;2",
+      "2",
+      "1/&radic;3"
+    ],
+    "options_hi": [
+      "1/2",
+      "1/&radic;2",
+      "2",
+      "1/&radic;3"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:-</strong></p>\n\n<p>&ang;A = 30&deg;&nbsp;</p>\n\n<p><strong>Calculation:-</strong>&nbsp;</p>\n\n<p>Since &ang;A = 30&deg;,</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>&ang;C = 90 - 30 =&nbsp;<span style=\"\">60&deg;</span></p>\n\n<p>Sec C = Sec 60 = 2</p>\n&there4; <strong>The required value of sec C is 2.</strong>",
+    "solution_hi": "<p><strong>दिया है:-</strong></p>\n\n<p>&ang;A = 30&deg;&nbsp;</p>\n\n<p><strong>गणना:-</strong>&nbsp;</p>\n\n<p>क्योंकि &ang;A = 30&deg;,</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>&ang;C = 90 - 30 =&nbsp;<span style=\"\">60&deg;</span></p>\n\n<p>Sec C = Sec 60 = 2</p>\n&there4; <strong>sec C का अभीष्ट मान 2 है।</strong>",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If Sin &theta; = 12/13, then what is the value of Cot &theta;?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D7.png\" style=\"height: 135px; width: 187px;\" /></p>\n",
+    "question_hi": "<p>यदि Sin &theta; = 12/13, तो Cot &theta; का मान क्या है?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D7.png\" style=\" height: 135px; width: 187px;\" /><span style=\"display: none;\">&nbsp;</span><br />\n<span style=\"display: none;\">&nbsp;</span></p>\n",
+    "options": [
+      "13/12",
+      "5/13",
+      "5/12",
+      "13/5"
+    ],
+    "options_hi": [
+      "13/12",
+      "5/13",
+      "5/12",
+      "13/5"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:-</strong></p>\n\n<p>Sin&theta; = 12/13, so Cosec&theta; = 13/12</p>\n\n<p><strong>Formula used:-</strong></p>\n\n<p>Sin&theta;&nbsp;= Opposite/Hypotenuse = 1/Cosec&theta;&nbsp;</p>\n\n<p>Cot&theta; =&nbsp;&radic;(Cosec<sup>2</sup>&theta; - 1)</p>\n\n<p><strong>Calculation:-</strong></p>\n\n<p>Cot&theta; can be written&nbsp;as</p>\n\n<p>&rArr; Cot&theta; = &radic;(cosec<sup>2</sup>&theta; - 1)</p>\n\n<p>= &radic;(13<sup>2</sup>/12<sup>2</sup> - 1)</p>\n\n<p>= &radic;{(169 - 144) /12<sup>2</sup>}</p>\n\n<p>= &radic;(5<sup>2</sup>/12<sup>2</sup>)</p>\n\n<p>&rArr; Cot&theta; = 5/12</p>\n&there4; <strong>Required value of Cot&theta; is 5/12 .</strong>",
+    "solution_hi": "<p><strong>दिया है:-</strong></p>\n\n<p>sin&theta; = 12/13, इसलिए Cosec&theta; = 13/12</p>\n\n<p><strong>प्रयुक्त सूत्र:-</strong></p>\n\n<p>sin&theta; = लंब/कर्ण = 1/Cosec&theta;</p>\n\n<p>Cot&theta; = <span style=\"\">&radic;(Cosec</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&theta; - 1)</span></p>\n\n<p><strong>गणना:-</strong></p>\n\n<p>Cot&theta; को निम्न प्रकार से लिखा जा सकता है</p>\n\n<p style=\"\">&rArr; Cot&theta; = &radic;(cosec<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&theta; - 1)</p>\n\n<p style=\"\">= &radic;(13<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>/12<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;- 1)</p>\n\n<p style=\"\">= &radic;{(169 - 144) /12<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>}</p>\n\n<p style=\"\">= &radic;(5<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>/12<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>)</p>\n\n<p style=\"\">&rArr; Cot&theta; = 5/12</p>\n<span style=\"\">&there4;&nbsp;</span><strong>Cot&theta; का अभीष्ट मान 5/12 है।</strong>",
+    "marks": "2"
+  },
+  {
+    "question": "What is the ratio of the population densities of country D, in comparison to country C?",
+    "question_hi": "देश C के सापेक्ष, देश D की जनसंख्या घनत्व क्या है?",
+    "options": [
+      "3 : 2",
+      "4 : 3",
+      "5 : 4",
+      "4 : 5"
+    ],
+    "options_hi": [
+      "3 : 2",
+      "4 : 3",
+      "5 : 4",
+      "4 : 5"
+    ],
+    "correct": 2,
+    "solution": "<p>Population density of C = 150</p>\n\n<p>Population capacity of D = 200</p>\n\n<p>The ratio can be given as 200/150 = 4/3</p>\n&there4; the required ratio is 4 : 3",
+    "solution_hi": "<p>C का जनसंख्या घनत्व = 150</p>\n\n<p>D का जनसंख्या घनत्व = 200</p>\n\n<p>अनुपात = 200/150&nbsp;= 4/3</p>\n&there4; अनुपात 4 : 3 है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the difference in the average number of people living per 1,000 sq km in countries E and F?",
+    "question_hi": "देश E और F में प्रति 1,000 वर्ग किमी में रहने वाले व्यक्तियों की औसत संख्या में अंतर क्या है?",
+    "options": [
+      "250",
+      "4000",
+      "400",
+      "2500"
+    ],
+    "options_hi": [
+      "250",
+      "4000",
+      "400",
+      "2500"
+    ],
+    "correct": 4,
+    "solution": "<p>Given that number of people in country E are 400 per 100 sq km</p>\n\n<p>&rArr; number of people in country E are 400 &times; 10 per 100 &times; 10 km</p>\n\n<p>&rArr; number of people in country E are 4000 per 1000 km</p>\n\n<p>Given that number of people in country F are 150 per 100 sq km</p>\n\n<p>&rArr; number of people in country E are 150 &times; 10 per 100 &times; 10 km</p>\n\n<p>&rArr; number of people in country E are 1500 per 1000 km</p>\n\n<p>Difference = 4000 - 1500 = 2500</p>\n&there4; the difference is 2500/",
+    "solution_hi": "<p>दिया है कि देश E में प्रति 100 वर्ग किमी में व्यक्तियों की संख्या 400 है,</p>\n\n<p>&rArr; देश E में लोगों की संख्या 400 &times; 10 प्रति 100 &times; 10 किमी है।</p>\n\n<p>&rArr; देश E में लोगों की संख्या 4000 प्रति 1000 किमी है।</p>\n\n<p>दिया है कि देश F में प्रति 100 वर्ग किमी में व्यक्तियों की संख्या 150 है,</p>\n\n<p>&rArr; देश F में लोगों की संख्या 150 &times; 10 प्रति 100 &times; 10 किमी है।</p>\n\n<p>&rArr; देश F में लोगों की संख्या 1500 प्रति 1000 किमी है।</p>\n\n<p>अंतर = 4000 - 1500 = 2500</p>\n&there4; अंतर 2500 है।",
+    "marks": "2"
+  },
+  {
+    "question": "Population density of country E is greater than population density of country D by:",
+    "question_hi": "देश E का जनसंख्या घनत्व देश D के जनसंख्या घनत्व से कितना अधिक है:",
+    "options": [
+      "50%",
+      "100%",
+      "200%",
+      "300%"
+    ],
+    "options_hi": [
+      "50%",
+      "100%",
+      "200%",
+      "300%"
+    ],
+    "correct": 2,
+    "solution": "<p>Population density of E is 400</p>\n\n<p>Population density of D is 200</p>\n\n<p>&rArr; Difference = 400 - 200 = 200</p>\n\n<p>Difference percentage can be given as</p>\n\n<p>&rArr; 200 &times; 100/200 = 100%</p>\n&there4; Population density of country E is greater than population density of country D by 100%",
+    "solution_hi": "<p>E का जनसंख्या घनत्व 400 है।</p>\n\n<p>D का जनसंख्या घनत्व 200 है।</p>\n\n<p>&rArr; अंतर = 400 - 200 = 200</p>\n\n<p>अंतर प्रतिशत के रूप में दिया जा सकता है</p>\n\n<p>&rArr; 200 &times; 100/200 = 100%</p>\n&there4; देश E का जनसंख्या घनत्व देश D के जनसंख्या घनत्व से 100% अधिक है।",
+    "marks": "2"
+  },
+  {
+    "question": "If area of country B is 20,00,000 sq km, what is its population?",
+    "question_hi": "यदि देश B का क्षेत्रफल 20,00,000 वर्ग किमी है, तो इसकी जनसंख्या कितनी है?",
+    "options": [
+      "10000000",
+      "2500000",
+      "25000000",
+      "1000000"
+    ],
+    "options_hi": [
+      "10000000",
+      "2500000",
+      "25000000",
+      "1000000"
+    ],
+    "correct": 4,
+    "solution": "<p>Given that population of B is 50 people per 100 sq km</p>\n\n<p>&rArr; 50/100 = 1/2 people per sq km</p>\n\n<p>Now the area of B is 2000000 sq km</p>\n\n<p>&rArr; population = 1 &times; 2000000/2 = 1000000 people</p>\n&there4; there are 1000000 people in country B.",
+    "solution_hi": "<p>दिया है कि B की जनसंख्या प्रति 100 वर्ग किमी में 50 व्यक्ति की है</p>\n\n<p>&rArr; 50/100 = 1/2 व्यक्ति प्रति वर्ग किमी</p>\n\n<p>अब B का क्षेत्रफल 2000000 वर्ग किमी है।</p>\n\n<p>&rArr; जनसंख्या = 1 &times; 2000000/2 = 1000000 व्यक्ति</p>\n&there4; देश B में 1000000 व्यक्ति हैं।",
+    "marks": "2"
+  }
+]
