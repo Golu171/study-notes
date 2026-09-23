@@ -1,0 +1,502 @@
+[
+  {
+    "question": "If 5x/2 - [7(6x - 3/2)]/4 = 5/8, then what is the value of x?",
+    "question_hi": "यदि 5x/2 - [7(6x - 3/2)]/4 = 5/8 है, तो x का मान क्या है?",
+    "options": [
+      "1/4",
+      "-1/4",
+      "4",
+      "-4"
+    ],
+    "options_hi": [
+      "1/4",
+      "-1/4",
+      "4",
+      "-4"
+    ],
+    "correct": 1,
+    "solution": "<p>&rArr; 5x/2 - [7(6x - 3/2)]/4 = 5/8</p>\n\n<p>&rArr; 20x - [42x - 21/2] &times; 2 = 5</p>\n\n<p>&rArr; 20x - 84x + 21 = 5</p>\n\n<p>&rArr; x = 16/64 = &frac14;</p>\n&there4; x = &frac14;",
+    "solution_hi": "<p>&rArr; 5x/2 - [7(6x - 3/2)]/4 = 5/8</p>\n\n<p>&rArr; 20x - [42x - 21/2] &times; 2 = 5</p>\n\n<p>&rArr; 20x - 84x + 21 = 5</p>\n\n<p>&rArr; x = 16/64 = &frac14;</p>\n&there4; x = &frac14;",
+    "marks": "2"
+  },
+  {
+    "question": "What is the area (in sq. cm) of a rectangle if its diagonal is 51 cm and one of its sides is 24 cm?",
+    "question_hi": "यदि आयत का विकर्ण 51 सेमी है तथा इसकी एक भुजा 24 सेमी है, तो आयत का क्षेत्रफल (वर्ग सेमी में) क्या है?",
+    "options": [
+      "540",
+      "810",
+      "1080",
+      "360"
+    ],
+    "options_hi": [
+      "540",
+      "810",
+      "1080",
+      "360"
+    ],
+    "correct": 3,
+    "solution": "<p>Using the Pythagoras theorem, other side can be given as</p>\n\n<p>&rArr; 51<sup>2</sup> = 24<sup>2</sup> + side<sup>2</sup></p>\n\n<p>&rArr; side = &radic;(2601 - 576) = &radic;2025 = 45</p>\n\n<p>Area = 45 &times; 24 = 1080 cm<sup>2</sup></p>\n\n<p>&there4; The area of rectangle is 1080 cm<sup>2</sup></p>\n",
+    "solution_hi": "<p>पाइथागोरस प्रमेय का प्रयोग करने पर, दूसरी भुजा इस प्रकार दी जा सकती है।</p>\n\n<p>&rArr; 51<sup>2</sup> = 24<sup>2</sup> + भुजा<sup>2</sup></p>\n\n<p>&rArr; भुजा = &radic;(2601 - 576) = &radic;2025 = 45</p>\n\n<p>क्षेत्रफल = 45 &times; 24 = 1080 सेमी<sup>2</sup></p>\n&there4; आयत का क्षेत्रफल 1080 सेमी<sup>2 </sup>है।",
+    "marks": "2"
+  },
+  {
+    "question": "&Delta;XYZ is right angled at Y. If &ang;Z = 30&deg;. What is the length of YZ (in cm), if ZX = 9 cm?",
+    "question_hi": "&Delta;XYZ, Y पर एक समकोण त्रिभुज है। यदि &ang;Z = 30&deg; है, तो YZ की लम्बाई (सेमी में) क्या है, यदि ZX = 9 सेमी है?",
+    "options": [
+      "6&radic;3",
+      "9&radic;3/2",
+      "3&radic;3",
+      "18"
+    ],
+    "options_hi": [
+      "6&radic;3",
+      "9&radic;3/2",
+      "3&radic;3",
+      "18"
+    ],
+    "correct": 2,
+    "solution": "<p>Cos 30 = &radic;3/2 = YZ/ZX</p>\n\n<p>&rArr; YZ = 9&radic;3/2</p>\n\n<p>&there4; The value of YZ is 9&radic;3/2</p>\n",
+    "solution_hi": "<p>Cos 30 = &radic;3/2 = YZ/ZX</p>\n\n<p>&rArr; YZ = 9&radic;3/2</p>\n&there4; YZ का मान 9&radic;3/2 है।",
+    "marks": "2"
+  },
+  {
+    "question": "A batsman makes a score of 81 runs in the 16<sup>th</sup> match and thus increases his average runs per match by 3. What is his average after the 16th match?",
+    "question_hi": "एक बल्लेबाज सौलहवें मैच में 81 रन बनाता है और इस प्रकार उसका प्रति मैच औसत रन 3 बढ़ जाता है। तो सौलहवें मैच के बाद उसका औसत क्या है?",
+    "options": [
+      "35",
+      "34",
+      "33",
+      "36"
+    ],
+    "options_hi": [
+      "35",
+      "34",
+      "33",
+      "36"
+    ],
+    "correct": 4,
+    "solution": "<p>Let the average before 16<sup>th</sup> match be y.</p>\n\n<p>According to the problem statement</p>\n\n<p>Average before 16<sup>th</sup> match can be given</p>\n\n<p>&rArr; sum of runs made till 15<sup>th</sup> match/15 = y</p>\n\n<p>&rArr; sum of runs made till 15<sup>th</sup> match = 15y&nbsp;&nbsp; &nbsp;&nbsp;----(i)</p>\n\n<p>Now,</p>\n\n<p>&rArr; y + 3 = (sum of runs made till 15<sup>th</sup> match + 81)/16, Using (i)</p>\n\n<p>&rArr; 16y + 48 = 15y + 81</p>\n\n<p>&rArr; y = 33</p>\n&there4; The average after 16<sup>th</sup> match is 36&nbsp;&rArr; (33 + 3)",
+    "solution_hi": "<p>माना कि सौलहवें मैच से पहले औसत y है</p>\n\n<p>प्रश्न के कथन के अनुसार</p>\n\n<p>सौलहवें मैच से पहले औसत इस प्रकार दिया जा सकता है</p>\n\n<p>&rArr; पन्द्रहवें मैच तक बनाये गए रनों का योग/15 = y</p>\n\n<p>&rArr; पन्द्रहवें मैच तक बनाये गए रनों का योग = 15y&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;----(i)</p>\n\n<p>अब,</p>\n\n<p>&rArr; y + 3 = (पन्द्रहवें मैच तक बनाये गए रनों का योग + 81)/16,&nbsp;(i) का प्रयोग करने पर</p>\n\n<p>&rArr; 16y + 48 = 15y + 81</p>\n\n<p>&rArr; y = 33</p>\n&there4; सौलहवें मैच के बाद औसत 36&nbsp;&rArr; (33 + 3) है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the value of &radic;2 Sec 45&deg; + (1/&radic;3)Tan 30&deg;?",
+    "question_hi": "&radic;2 Sec 45&deg; + (1/&radic;3)Tan 30&deg; का मान क्या है?",
+    "options": [
+      "(1 + &radic;3)/2",
+      "(1 + 3&radic;2)/&radic;3",
+      "7/3",
+      "(3 + 2&radic;2)/3&radic;2"
+    ],
+    "options_hi": [
+      "(1 + &radic;3)/2",
+      "(1 + 3&radic;2)/&radic;3",
+      "7/3",
+      "(3 + 2&radic;2)/3&radic;2"
+    ],
+    "correct": 3,
+    "solution": "<p>Since we know that sec 45 = &radic;2 and tan 30 = 1/&radic;3 , put this in the required equation</p>\n\n<p>&rArr; &radic;2 Sec 45&deg; + (1/&radic;3)Tan 30&deg;</p>\n\n<p>&rArr; &radic;2 &times; &radic;2 + (1/&radic;3) &times; (1/&radic;3) = 2 + 1/3 = 7/3</p>\n&there4; The value of&radic;2 Sec 45&deg; + (1/&radic;3)Tan 30&deg; is 7/3",
+    "solution_hi": "<p>चूँकि हम जानते हैं कि sec 45 = &radic;2 और tan 30 = 1/&radic;3, इसे आवश्यक समीकरण में रखने पर</p>\n\n<p>&rArr; &radic;2 Sec 45&deg; + (1/&radic;3)Tan 30&deg;</p>\n\n<p>&rArr; &radic;2 &times;&radic;2 + (1/&radic;3) &times; (1/&radic;3) = 2 + 1/3 = 7/3</p>\n&there4; &radic;2 Sec 45&deg; + (1/&radic;3)Tan 30&deg; का मान 7/3 है।",
+    "marks": "2"
+  },
+  {
+    "question": "If Cos &theta; = 15/17, then what is the value of Cosec &theta;?",
+    "question_hi": "यदि Cos &theta; = 15/17 है, तो Cosec &theta; का मान क्या है?",
+    "options": [
+      "17/8",
+      "8/17",
+      "8/15",
+      "17/15"
+    ],
+    "options_hi": [
+      "17/8",
+      "8/17",
+      "8/15",
+      "17/15"
+    ],
+    "correct": 1,
+    "solution": "<p>Sin &theta; can be given as</p>\n\n<p>&rArr; Sin &theta; = &radic;(1 - cos<sup>2</sup> &theta;) = &radic;(1 - 15<sup>2</sup>/17<sup>2</sup>) = &radic;{(289 - 225)/17<sup>2</sup>} = &radic;(8<sup>2</sup>/17<sup>2</sup>) = 8/17</p>\n\n<p>And we know that Cosec &theta; = 1/sin &theta; = 1/(8/17) = 17/8</p>\n\n<p>&there4; Cosec &theta; is 17/8</p>\n",
+    "solution_hi": "<p>Sin &theta; को इस प्रकार दिया जा सकता है</p>\n\n<p>&rArr; Sin &theta; = &radic;(1 - cos<sup>2</sup> &theta;) = &radic;(1 - 15<sup>2</sup>/17<sup>2</sup>) = &radic;{(289 - 225)/17<sup>2</sup>} = &radic;(8<sup>2</sup>/17<sup>2</sup>) = 8/17</p>\n\n<p>और हम जानते हैं कि Cosec &theta; = 1/sin &theta; = 1/(8/17) = 17/8</p>\n&there4; Cosec &theta;, 17/8 है।",
+    "marks": "2"
+  },
+  {
+    "question": "A shopkeeper marks up his wares by 60% and offers 10% discount. What will be the selling price (in Rs.) if the cost price is Rs. 7500?",
+    "question_hi": "एक दुकानदार अपनी वस्तुओं पर क्रय मूल्य से 60% अधिक मूल्य अंकित करता है और 10% की छूट प्रदान करता है। यदि क्रय मूल्य 7500 रूपये है तो विक्रय मूल्य (रूपये में) क्या होगा?",
+    "options": [
+      "11800",
+      "12800",
+      "13800",
+      "10800"
+    ],
+    "options_hi": [
+      "11800",
+      "12800",
+      "13800",
+      "10800"
+    ],
+    "correct": 4,
+    "solution": "<p>Marked price can be given as 60% more of cost price</p>\n\n<p>Marked price = 7500 &times; (1 + 60/100) = 1.6 &times; 7500 = 12000</p>\n\n<p>After giving 10% discount on this price</p>\n\n<p>After discount = 12000 &times; (1 - 10/100) = 0.9 &times; 12000 = 10800</p>\n\n<p>&there4; The selling price be Rs. 10800</p>\n",
+    "solution_hi": "<p>दिया गया है&nbsp;अंकित मूल्य क्रय मूल्य से 60% अधिक है।</p>\n\n<p>अंकित मूल्य = 7500 &times; (1 + 60/100) = 1.6 &times; 7500 = 12000</p>\n\n<p>इस मूल्य पर 10% की छूट देने पर</p>\n\n<p>छूट के बाद = 12000 &times; (1 - 10/100) = 0.9 &times; 12000 = 10800</p>\n&there4; विक्रय मूल्य 10800 रूपये है।",
+    "marks": "2"
+  },
+  {
+    "question": "If ax - 4y = -6 has a slope of -3/2. What is the value of a?",
+    "question_hi": "यदि ax - 4y = -6 का ढ़लान -3/2 है। तो a का मान क्या है?",
+    "options": [
+      "6",
+      "3",
+      "-6",
+      "-3"
+    ],
+    "options_hi": [
+      "6",
+      "3",
+      "-6",
+      "-3"
+    ],
+    "correct": 3,
+    "solution": "<p>Slope of this straight line can be given as</p>\n\n<p>&rArr; (-a)/(-4) = -3/2</p>\n\n<p>&rArr; a = -6</p>\n\n<p>&there4; The value of a is -6</p>\n",
+    "solution_hi": "<p>इस सीधी रेखा का ढलान इस प्रकार दिया जा सकता है</p>\n\n<p>&rArr; (-a)/(-4) = -3/2</p>\n\n<p>&rArr; a = -6</p>\n&there4; a का मान -6 है।",
+    "marks": "2"
+  },
+  {
+    "question": "What are the coordinates of the reflection of the point (-3, 1) about the line x = -2?&nbsp;",
+    "question_hi": "रेखा x = -2 के विषय में बिंदु (-3, 1) के प्रतिबिंब के निर्देशांक क्या हैं?",
+    "options": [
+      "(-1, 1)",
+      "(-3, -5)",
+      "(1, 1)",
+      "(-3, 5)"
+    ],
+    "options_hi": [
+      "(-1, 1)",
+      "(-3, -5)",
+      "(1, 1)",
+      "(-3, 5)"
+    ],
+    "correct": 1,
+    "solution": "<p>Solving for the reflection of the point (-3, 1) about x = -2,</p>\n\n<p>Since we know that the Y co-ordinate will not change and the X coordinate can be given as,&nbsp;</p>\n\n<p>X co-ordinates + 2 &times; (X coordinates of the line - Given X coordinates)</p>\n\n<p>&rArr; -3 + 2 &times; (-2 - (-3)) = -1</p>\n\n<p>&there4; The coordinates of the reflection are (-1, 1).</p>\n",
+    "solution_hi": "<p>x = -2 के बिंदु (-3, 1) का प्रतिबिम्ब इस प्रकार हल किया&nbsp;जा सकता है</p>\n\n<p>चूँकि हम जानते हैं कि Y का निर्देशांक परिवर्तित नहीं होगा और X का निर्देशांक इस प्रकार दिया जा सकता है</p>\n\n<p>X का निर्देशांक + 2 &times; (रेखा के X&nbsp;निर्देशांक - दिया गया X&nbsp;निर्देशांक)</p>\n\n<p>&rArr; -3 + 2 &times; (-2 - (-3)) = -1</p>\n\n<p>&there4; प्रतिबिम्ब ke निर्देशांक (-1, 1) हैं</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Which country produced the second least number of cars?",
+    "question_hi": "किस देश ने कारों की दूसरी न्यूनतम संख्या उत्पादित की?",
+    "options": [
+      "D",
+      "F",
+      "C",
+      "A"
+    ],
+    "options_hi": [
+      "D",
+      "F",
+      "C",
+      "A"
+    ],
+    "correct": 2,
+    "solution": "From the figure we can see that country F is the second least number of cars producer.",
+    "solution_hi": "आरेख से हम देख सकते हैं कि देश F कारों का दूसरा न्यूनतम उत्पादक है।",
+    "marks": "2"
+  },
+  {
+    "question": "A and B together do a job in 15 days and A alone could do the same job in 20 days. How many days would B take to do half the job if he worked alone?",
+    "question_hi": "A और B मिलकर एक काम को 15 दिनों में कर सकते हैं और A अकेले समान काम को 20 दिनों में कर सकता है। यदि B अकेले काम करता है तो वह आधे काम को करने में कितना समय लेगा?",
+    "options": [
+      "60",
+      "30",
+      "45",
+      "40"
+    ],
+    "options_hi": [
+      "60",
+      "30",
+      "45",
+      "40"
+    ],
+    "correct": 2,
+    "solution": "<p>Work done by A in 1 day can be given as 1/20<sup>th</sup> of the total work</p>\n\n<p>Let the work done by B in 1 day be 1/y of the total work</p>\n\n<p>From the problem statement</p>\n\n<p>&rArr; 1/20 + 1/y&nbsp;= 1/15</p>\n\n<p>&rArr; 1/y = 1/15 - 1/20 = 1/60</p>\n\n<p>&rArr; y = 60</p>\n\n<p>Time required by B to complete the work is 60 days</p>\n\n<p>Time required to complete the half work is &frac12; &times; 60 = 30 days</p>\n\n<p>&there4; The time required to complete half of the work is 30 days</p>\n",
+    "solution_hi": "<p>1 दिन में A द्वारा किये गए काम को कुल काम के 1/20वें भाग के रूप में दिया जा सकता है।</p>\n\n<p>माना कि 1 दिन में B द्वारा किया गया काम कुल काम का 1/y है।</p>\n\n<p>प्रश्न के कथन से</p>\n\n<p>&rArr; 1/20 + 1/y&nbsp;= 1/15</p>\n\n<p>&rArr; 1/y = 1/15 - 1/20 = 1/60</p>\n\n<p>&rArr; y = 60</p>\n\n<p>B द्वारा काम को पूरा करने में आवश्यक समय 60 दिन है।</p>\n\n<p>आधे काम को पूरा करने में आवश्यक दिन &frac12; &times; 60 = 30 दिन है।</p>\n&there4; आधे काम को पूरा करने में आवश्यक समय 30 दिन है।",
+    "marks": "2"
+  },
+  {
+    "question": "What number should be added to each of the numbers 94, 24, 100 and 26, so that the resulting numbers are in continued proportion?",
+    "question_hi": "94, 24, 100 और 26 में से प्रत्येक संख्या में कौन सी संख्या जोड़ी जानी चाहिए ताकि परिणामी संख्या क्रमागत अनुपात में हो?",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "8"
+    ],
+    "options_hi": [
+      "10",
+      "11",
+      "9",
+      "8"
+    ],
+    "correct": 2,
+    "solution": "<p>Let&rsquo;s check options one by one,</p>\n\n<p>For 1<sup>st</sup> option,</p>\n\n<p>After adding 10 to each number, numbers will be 104, 34, 110 and 36</p>\n\n<p>For them to be in continued proportion this ratio must be equal</p>\n\n<p>&rArr; 104/34 &ne; 110/36</p>\n\n<p>Hence option 1 is not correct</p>\n\n<p>For 2<sup>nd</sup> option,</p>\n\n<p>After adding 11 to each number, numbers will be 105, 35, 111 and 37</p>\n\n<p>For them to be in continued proportion this ratio must be equal</p>\n\n<p>&rArr; 105/35 = 111/37 = 3</p>\n\n<p>Hence option 2 is correct</p>\n\n<p>For 3<sup>rd</sup> option,</p>\n\n<p>After adding 9 to each number, numbers will be 103, 33, 109 and 35</p>\n\n<p>For them to be in continued proportion this ratio must be equal</p>\n\n<p>&rArr; 103/33 &ne; 109/35</p>\n\n<p>Hence option 3 is not correct</p>\n\n<p>For 4<sup>th</sup> option,</p>\n\n<p>After adding 10 to each number, numbers will be 102, 32, 108 and 34</p>\n\n<p>For them to be in continued proportion this ratio must be equal</p>\n\n<p>&rArr; 102/32 &ne; 108/34</p>\n\n<p>Hence option 4 is not correct</p>\n",
+    "solution_hi": "<p>एक-एक करके विकल्पों की जांच करने पर,</p>\n\n<p>पहले विकल्प के लिए,</p>\n\n<p>प्रत्येक संख्या में 10 जोड़ने के बाद संख्याएँ 104, 34, 110 और 36 होगी।</p>\n\n<p>उनको क्रमागत अनुपात में होने के लिए इस अनुपात को बराबर होना चाहिए</p>\n\n<p>&rArr; 104/34 &ne; 110/36</p>\n\n<p>इसलिए विकल्प 1 सही नहीं है।</p>\n\n<p>दूसरे विकल्प के लिए,</p>\n\n<p>प्रत्येक संख्या में 11 जोड़ने के बाद संख्याएँ 105, 35, 111 और 37 होगी।</p>\n\n<p>उनको क्रमागत अनुपात में होने के लिए इस अनुपात को बराबर होना चाहिए</p>\n\n<p>&rArr; 105/35 = 111/37 = 3</p>\n\n<p>इसलिए विकल्प 2 सही है।</p>\n\n<p>तीसरे विकल्प के लिए,</p>\n\n<p>प्रत्येक संख्या में 9 जोड़ने के बाद संख्याएँ 103, 33, 109 और 35 होगी।</p>\n\n<p>उनको क्रमागत अनुपात में होने के लिए इस अनुपात को बराबर होना चाहिए</p>\n\n<p>&rArr; 103/33 &ne; 109/35</p>\n\n<p>इसलिए विकल्प 3 सही नहीं है।</p>\n\n<p>चौथे विकल्प के लिए,</p>\n\n<p>प्रत्येक संख्या में 10 जोड़ने के बाद संख्याएँ 102, 32, 108 और 34 होगी।</p>\n\n<p>उनको क्रमागत अनुपात में होने के लिए इस अनुपात को बराबर होना चाहिए</p>\n\n<p>&rArr; 102/32 &ne; 108/34</p>\nइसलिए विकल्प 4 सही नहीं है।",
+    "marks": "2"
+  },
+  {
+    "question": "A man travelled a distance of 99 km in 9 hours. He travelled partly on foot @ 9 km/hr and partly on bicycle @ 18 km/hr. What is distance (in kms) travelled on foot?",
+    "question_hi": "एक पुरुष 99 किमी की दूरी को 9 घंटे में तय करता है। वह आंशिक रूप से 9 किमी/घंटा की गति से पैदल तथा आंशिक रूप से 18 किमी/ घंटा की गति से साइकिल से तय करता है। तो पैदल चली गयी दूरी (किमी में) क्या है?",
+    "options": [
+      "36",
+      "54",
+      "63",
+      "45"
+    ],
+    "options_hi": [
+      "36",
+      "54",
+      "63",
+      "45"
+    ],
+    "correct": 3,
+    "solution": "<p>Let the time for which he had travelled with foot be t hrs. and then he travelled 9 - t hrs on bicycle</p>\n\n<p>According to the problem statement</p>\n\n<p>&rArr; 9t + 18 &times; (9 - t) = 99</p>\n\n<p>&rArr; 9t + 162 - 18t = 99</p>\n\n<p>&rArr; t = 7 hours</p>\n\n<p>&there4; Distance travelled on foot = 7 &times; 9 = 63 Kms</p>\n",
+    "solution_hi": "<p>माना कि वह समय t घंटे हैं जिसके लिए वह पैदल दूरी तय करता है और फिर साइकिल पर उसने 9 - t घंटे दूरी तय की।</p>\n\n<p>प्रश्न के कथन अनुसार</p>\n\n<p>&rArr; 9t + 18 &times; (9 - t) = 99</p>\n\n<p>&rArr; 9t + 162 - 18t = 99</p>\n\n<p>&rArr; t = 7 घंटा</p>\n&there4; पैदल तय की गयी दूरी = 7 &times; 9 = 63 किमी।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the sum of the first 17 terms of an arithmetic progression if the first term is - 20 and last term is 28?",
+    "question_hi": "यदि पहला पद - 20 और अंतिम पद 28 है, तो समांतर श्रेणी के पहले 17 पदों का योग क्या है?",
+    "options": [
+      "68",
+      "156",
+      "142",
+      "242"
+    ],
+    "options_hi": [
+      "68",
+      "156",
+      "142",
+      "242"
+    ],
+    "correct": 1,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p><strong>Sum of AP</strong> = (n ÷ 2) × (<strong>First term</strong> + <strong>Last term</strong>)</p>\n<p>Sum = (17 ÷ 2) × (−20 + 28)</p>\n<p>Sum = (17 ÷ 2) × 8</p>\n<p>Sum = 17 × 4 = 68</p>\n<p><strong>∴ The correct answer is 68.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p><strong>Number of terms</strong> (n) = 17</p>\n<p><strong>First term</strong> (a) = −20</p>\n<p><strong>Last term</strong> (l) = 28</p>\n<p><strong>Formula Used:</strong></p>\n<p>S<sub>n</sub> = (n/2) × (a + l)</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_7fefde24.png/1784699548.png\" style=\"max-width: 100%; height: auto; width: 420px; max-height: 200px;\"></div>\n<p><strong>Calculations:</strong></p>\n<p>⇒ S<sub>17</sub> = (17/2) × [−20 + 28]</p>\n<p>⇒ S<sub>17</sub> = (17/2) × [8]</p>\n<p>⇒ S<sub>17</sub> = 17 × 4</p>\n<p>⇒ S<sub>17</sub> = 68</p>\n<p><strong>∴ The correct answer is 68.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Standard Sum Formula</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">If the last term is not known, the sum is calculated as S<sub>n</sub> = (n/2) × [2a + (n − 1)d], where <strong>d</strong> is the <strong>common difference</strong>.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">General Term of AP</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The n<sup>th</sup> term of an <strong>Arithmetic Progression</strong> is given by T<sub>n</sub> = a + (n − 1)d.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Arithmetic Mean</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The <strong>Arithmetic Mean</strong> of 'n' terms is simply the Sum ÷ n, which also equals (First term + Last term) ÷ 2.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p><strong>AP का योग</strong> = (n ÷ 2) × (<strong>प्रथम पद</strong> + <strong>अंतिम पद</strong>)</p>\n<p>योग = (17 ÷ 2) × (−20 + 28)</p>\n<p>योग = (17 ÷ 2) × 8</p>\n<p>योग = 17 × 4 = 68</p>\n<p><strong>∴ सही उत्तर 68 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p><strong>पदों की संख्या</strong> (n) = 17</p>\n<p><strong>प्रथम पद</strong> (a) = −20</p>\n<p><strong>अंतिम पद</strong> (l) = 28</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>S<sub>n</sub> = (n/2) × (a + l)</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_7fefde24.png/1784699548.png\" style=\"max-width: 100%; height: auto; width: 420px; max-height: 200px;\"></div>\n<p><strong>गणना:</strong></p>\n<p>⇒ S<sub>17</sub> = (17/2) × [−20 + 28]</p>\n<p>⇒ S<sub>17</sub> = (17/2) × [8]</p>\n<p>⇒ S<sub>17</sub> = 17 × 4</p>\n<p>⇒ S<sub>17</sub> = 68</p>\n<p><strong>∴ सही उत्तर 68 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">मानक योग सूत्र</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">यदि अंतिम पद ज्ञात नहीं है, तो योग की गणना S<sub>n</sub> = (n/2) × [2a + (n − 1)d] के रूप में की जाती है, जहाँ <strong>d</strong> <strong>सार्व अंतर (common difference)</strong> है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">AP का सामान्य पद</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">एक <strong>समान्तर श्रेणी (Arithmetic Progression)</strong> का n<sup>वां</sup> पद T<sub>n</sub> = a + (n − 1)d द्वारा दिया जाता है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">समान्तर माध्य</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">'n' पदों का <strong>समान्तर माध्य (Arithmetic Mean)</strong> केवल योग ÷ n होता है, जो (प्रथम पद + अंतिम पद) ÷ 2 के भी बराबर होता है।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "A fraction is greater than twice its reciprocal by 7/15. What is the fraction?",
+    "question_hi": "एक भिन्न इसके व्युत्क्रम के दोगुने से 7/15 अधिक है। तो भिन्न क्या है?",
+    "options": [
+      "3/5",
+      "5/3",
+      "3/4",
+      "4/3"
+    ],
+    "options_hi": [
+      "3/5",
+      "5/3",
+      "3/4",
+      "4/3"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the fraction be y</p>\n\n<p>According to the problem statement</p>\n\n<p>&rArr; y - 2/y = 7/15</p>\n\n<p>&rArr; 15y<sup>2</sup> - 7y - 30 = 0</p>\n\n<p>&rArr; (y - 5/3)(y + 6/5) = 0</p>\n\n<p>&rArr; y = 5/3 or y = - 6/5</p>\n\n<p>Only 5/3 satisfies the required condition given in the question</p>\n\n<p>&there4; The fraction is 5/3</p>\n",
+    "solution_hi": "<p>माना कि y भिन्न है</p>\n\n<p>प्रश्न के कथन के अनुसार</p>\n\n<p>&rArr; y - 2/y = 7/15</p>\n\n<p>&rArr; 15y<sup>2</sup> - 7y - 30 = 0</p>\n\n<p>&rArr; (y - 5/3)(y + 6/5) = 0</p>\n\n<p>&rArr; y = 5/3 या y = - 6/5</p>\n\n<p>केवल 5/3 प्रश्न में दिए गए आवश्यक शर्तो को संतुष्ट करती है।</p>\n&there4; भिन्न 5/3 है।",
+    "marks": "2"
+  },
+  {
+    "question": "Two labourers A and B are paid a total of Rs. 1120 per day. If A is paid 180 percent of what is paid to B, how much (in Rs) is B paid?",
+    "question_hi": "दो मजदुर A और B को प्रतिदिन कुल 1120 रूपये का भुगतान किया जाता है। यदि A को उस राशि के 180 प्रतिशत का भुगतान किया जाता है जो राशि B को दी जाती है, तो B को कितना भुगतान (रूपये में) किया जाता है?",
+    "options": [
+      "400",
+      "720",
+      "500",
+      "620"
+    ],
+    "options_hi": [
+      "400",
+      "720",
+      "500",
+      "620"
+    ],
+    "correct": 1,
+    "solution": "<p>Let A will get Rs. a and B will get Rs. B</p>\n\n<p>According to the problem statement</p>\n\n<p>a + b = 1120&nbsp;&nbsp; &nbsp;----(i)</p>\n\n<p>And a = 180b/100 = 1.8b&nbsp;&nbsp; &nbsp;----(ii), Put this in (i)</p>\n\n<p>&rArr; 1.8b + b = 1120</p>\n\n<p>&rArr; 2.8b = 1120</p>\n\n<p>&rArr; b = 400</p>\n&there4; The B will get Rs. 400",
+    "solution_hi": "<p>माना कि A को a रूपये प्राप्त होंगे और B को b रूपये प्राप्त होंगे।</p>\n\n<p>प्रश्न के कथन के अनुसार</p>\n\n<p>a + b = 1120&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;----(i)</p>\n\n<p>और a = 180b/100 = 1.8b&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;----(ii),&nbsp;इसे (i) में रखने पर</p>\n\n<p>&rArr; 1.8b + b = 1120</p>\n\n<p>&rArr; 2.8b = 1120</p>\n\n<p>&rArr; b = 400</p>\n&there4; B को 400 रूपये प्राप्त होंगे।",
+    "marks": "2"
+  },
+  {
+    "question": "Country E produced how many more cars (in %) than country B?",
+    "question_hi": "देश E ने देश B से कितना अधिक कार (% में) उत्पादित किया?",
+    "options": [
+      "10",
+      "12.5",
+      "11.11",
+      "8"
+    ],
+    "options_hi": [
+      "10",
+      "12.5",
+      "11.11",
+      "8"
+    ],
+    "correct": 2,
+    "solution": "<p>Car produced by E = 0.9</p>\n\n<p>Car produced by B = 0.8</p>\n\n<p>Difference between them = 0.9 - 0.8 = 0.1</p>\n\n<p>Percentage = 0.1 &times; 100/0.8 = 12.5%</p>\n\n<p>&there4; Country E produced 12.5% more cars than country B.</p>\n",
+    "solution_hi": "<p>E द्वारा उत्पादित कार = 0.9</p>\n\n<p>B द्वारा उत्पादित कार = 0.8</p>\n\n<p>उनके बीच अंतर = 0.9 - 0.8 = 0.1</p>\n\n<p>प्रतिशत = 0.1 &times; 100/0.8 = 12.5%</p>\n&there4; देश E ने देश B से 12.5% अधिक कार उत्पादित किया",
+    "marks": "2"
+  },
+  {
+    "question": "If 35% of the cars produced by these six countries are diesel and the rest are petrol, then how many petrol cars were produced (in millions)?",
+    "question_hi": "यदि इन देशों द्वारा उत्पादित कारों का 35% डीजल कार है और शेष पेट्रोल वाले कार हैं, तो कितने पेट्रोल कारों का उत्पादन (मिलियन में) किया गया था?",
+    "options": [
+      "1.755",
+      "0.945",
+      "2.7",
+      "1.8"
+    ],
+    "options_hi": [
+      "1.755",
+      "0.945",
+      "2.7",
+      "1.8"
+    ],
+    "correct": 1,
+    "solution": "<p>Given that 35% of total cars are diesel cars</p>\n\n<p>Petrol cars are 100 - 35 = 65%</p>\n\n<p>Total cars are = 0.4 + 0.8 + 0.3 + 0.1 + 0.9 + 0.2 = 2.7 million</p>\n\n<p>Petrol cars = 65 &times; 2.7/100 = 1.755 million</p>\n\n<p>&there4; The petrol cars are 1.755 million</p>\n",
+    "solution_hi": "<p>दिया गया है कि कुल कारों के 35% डीजल कार हैं।</p>\n\n<p>पेट्रोल कार 100 - 35 = 65% है।</p>\n\n<p>कुल कार = 0.4 + 0.8 + 0.3 + 0.1 + 0.9 + 0.2 = 2.7 मिलियन है।</p>\n\n<p>पेट्रोल कार = 65 &times; 2.7/100 = 1.755 मिलियन है।</p>\n&there4; पेट्रोल कार 1.755 मिलियन है।",
+    "marks": "2"
+  },
+  {
+    "question": "If on an average the cost price of a car is 30000 USD and environmental tax levied on each car is 2.5% of its cost price, how much environmental tax was collected (in billion USD) from production of cars in these 6 countries?",
+    "question_hi": "यदि कार का औसत क्रय मूल्य 30000 अमेरिकी डॉलर है और प्रत्येक कार पर लगाया गया पर्यावरणीय कर इसके क्रय मूल्य का 2.5% है, तो इन 6 देशों में कारों के उत्पादन से एकत्रित पर्यावरणीय कर (अमेरिकी बिलियन डॉलर में) कितना है?",
+    "options": [
+      "1.03",
+      "2.03",
+      "3.03",
+      "4.03"
+    ],
+    "options_hi": [
+      "1.03",
+      "2.03",
+      "3.03",
+      "4.03"
+    ],
+    "correct": 2,
+    "solution": "<p>Environmental tax is 2.5% of 30000</p>\n\n<p>Environmental tax = 2.5 &times; 30000/100 = 750 USD for 1 car sold</p>\n\n<p>Total number of cars are = 0.4 + 0.8 + 0.3 + 0.1 + 0.9 + 0.2 = 2.7 million</p>\n\n<p>Total environmental tax = 750 &times; 2.7 million = 2.03 billion USD</p>\n\n<p>&there4; The total environmental tax to be collected is 2.03 billion USD</p>\n",
+    "solution_hi": "<p>पर्यावरणीय कर 30000 का 2.5% है</p>\n\n<p>पर्यावरणीय कर = 2.5 &times; 30000/100 = 1 कार बेचने पर 750 अमेरिकी डॉलर</p>\n\n<p>कारों की कुल संख्या = 0.4 + 0.8 + 0.3 + 0.1 + 0.9 + 0.2 = 2.7 मिलियन है।</p>\n\n<p>कुल पर्यावरणीय कर = 750 &times; 2.7 मिलियन = 2.03 अमेरिकी बिलियन डॉलर</p>\n&there4; कुल पर्यावरणीय कर 2.03 अमेरिकी बिलियन डॉलर एकत्रित किया जाना है।",
+    "marks": "2"
+  },
+  {
+    "question": "D and E are points on side AB and AC of ∆ABC. DE is parallel to BC. If AD : DB = 1 : 2 and area of ∆ABC is 45 sq cm, what is the area (in sq. cm) of quadrilateral BDEC?",
+    "question_hi": "&Delta;ABC के भुजा AB और AC पर D और E कोई बिंदु हैं। DE, BC के समानांतर है। यदि AD : DB = 1 : 2 है और &Delta;ABC का क्षेत्रफल 45 वर्ग सेमी है, तो चतुर्भुज BDEC का क्षेत्रफल (वर्ग सेमी में) क्या है?",
+    "options": [
+      "20",
+      "40",
+      "15",
+      "30"
+    ],
+    "options_hi": [
+      "20",
+      "40",
+      "15",
+      "30"
+    ],
+    "correct": 2,
+    "solution": "<p>Given AD/DB = &frac12;</p>\n\n<p>DB/AD = 2/1, add 1 to both sides</p>\n\n<p>&rArr; (DB/AD) + 1 = (2/1) + 1</p>\n\n<p>&rArr; (DB + AD)/AD = 3/1</p>\n\n<p>&rArr; AB/AD = 3/1</p>\n\n<p>&rArr; AD/AB = 1/3</p>\n\n<p>For triangle ADE and ABC areas are in the same ratio as that of square of ratios of sides</p>\n\n<p>&rArr; area of triangle ADE/area of triangle ABC = (AD/AB)<sup>2</sup> = 1/3<sup>2</sup> = 1/9</p>\n\n<p>&rArr; area of triangle ADE = 45 &times; 1/9 = 5 cm<sup>2</sup></p>\n\n<p>Area of quadrilateral can be given as area of triangle ABC - area of triangle ADE</p>\n\n<p>&rArr; Area of quadrilateral = 45 - 5 = 40 cm<sup>2</sup></p>\n",
+    "solution_hi": "<p>दिया गया है AD/DB = &frac12;</p>\n\n<p>DB/AD = 2/1, दोनों पक्षों में 1 जोड़ने पर</p>\n\n<p>&rArr; (DB/AD) + 1 = (2/1) + 1</p>\n\n<p>&rArr; (DB + AD)/AD = 3/1</p>\n\n<p>&rArr; AB/AD = 3/1</p>\n\n<p>&rArr; AD/AB = 1/3</p>\n\n<p>त्रिभुज ADE और ABC का क्षेत्रफल भुजाओं के अनुपातों का वर्ग के समान अनुपात में हैं।</p>\n\n<p>&rArr; त्रिभुज ADE का क्षेत्रफल/त्रिभुज ABC का क्षेत्रफल = (AD/AB)<sup>2</sup> = 1/3<sup>2</sup> = 1/9</p>\n\n<p>&rArr; त्रिभुज ADE का क्षेत्रफल = 45 &times; 1/9 = 5 सेमी<sup>2</sup></p>\n\n<p>चतुर्भुज का क्षेत्रफल त्रिभुज ABC के क्षेत्रफल - त्रिभुज ADE के क्षेत्रफल के रूप में दिया जा सकता है</p>\n&rArr; चतुर्भुज का क्षेत्रफल = 45 - 5 = 40 सेमी<sup>2</sup>",
+    "marks": "2"
+  },
+  {
+    "question": "A vendor buys 12 bananas for Rs. 60 and sells 5 bananas for Rs. 32. What will be his gain (in %)?",
+    "question_hi": "एक विक्रेता 12 केलों को 60 रूपये में खरीदता है और 5 केलो को 32 रूपये में बेचता है, तो उसका लाभ (% में) क्या होगा?",
+    "options": [
+      "28",
+      "32",
+      "24",
+      "22"
+    ],
+    "options_hi": [
+      "28",
+      "32",
+      "24",
+      "22"
+    ],
+    "correct": 1,
+    "solution": "<p>He brought 1 banana for = 60/12 = Rs. 5</p>\n\n<p>He sells 1 banana for = 32/5 = Rs. 6.4</p>\n\n<p>Gain = 6.4 - 5 = Rs. 1.4</p>\n\n<p>Gain percentage can be given as = gain &times; 100/5 = 1.4 &times; 100/5 = 28%</p>\n&there4; The gain percentage will be 28%.",
+    "solution_hi": "<p>वह 1 केला = 60/12 = 5 रूपये में खरीदता है</p>\n\n<p>वह 1 केला = 32/5 = 6.4 रूपये में बेचता है</p>\n\n<p>लाभ = 6.4 - 5 = 1.4 रूपये</p>\n\n<p>लाभ प्रतिशत इस प्रकार दिया जा सकता है = लाभ &times; 100/5 = 1.4 &times; 100/5 = 28%</p>\n&there4; लाभ प्रतिशत 28% होगा।",
+    "marks": "2"
+  },
+  {
+    "question": "The co-ordinates of the centroid of a triangle ABC are (2, 2). What are the co-ordinates of vertex C if co-ordinates of A and B are (7, -1) and (1, 2) respectively?",
+    "question_hi": "एक त्रिभुज ABC के केन्द्रक का निर्देशांक (2, 2) है। यदि A और B के निर्देशांक क्रमशः (7, -1) और (1, 2) हैं, तो शीर्ष C का निर्देशांक क्या है?",
+    "options": [
+      "(-2, 5)",
+      "(2, 5)",
+      "(-2, -5)",
+      "(2, -5)"
+    ],
+    "options_hi": [
+      "(-2, 5)",
+      "(2, 5)",
+      "(-2, -5)",
+      "(2, -5)"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the coordinate of C be (x, y)</p>\n\n<p>Centroid of triangle can be given as</p>\n\n<p>For X coordinate,</p>\n\n<p>&rArr; 2 = (x + 7 + 1)/3</p>\n\n<p>&rArr; x = -2</p>\n\n<p>For Y coordinate,</p>\n\n<p>&rArr; 2 = (y - 1 + 2)/3</p>\n\n<p>&rArr; y = 5</p>\n\n<p>&there4; The coordinate of C is (-2, 5)</p>\n",
+    "solution_hi": "<p>माना कि C का निर्देशांक (x, y) है</p>\n\n<p>त्रिभुज का केन्द्रक इस प्रकार दिया जा सकता है</p>\n\n<p>X के निर्देशांक के लिए,</p>\n\n<p>&rArr; 2 = (x + 7 + 1)/3</p>\n\n<p>&rArr; x = -2</p>\n\n<p>Y के निर्देशांक के लिए,</p>\n\n<p>&rArr; 2 = (y - 1 + 2)/3</p>\n\n<p>&rArr; y = 5</p>\n&there4; C का निर्देशांक (-2, 5) है।",
+    "marks": "2"
+  },
+  {
+    "question": "If a<sup>3</sup> - b<sup>3</sup> = 91 and a - b = 1, then what is the value of ab?",
+    "question_hi": "यदि a<sup>3</sup> - b<sup>3</sup> = 91 और a - b = 1 है, तो ab का मान क्या है?",
+    "options": [
+      "27",
+      "6",
+      "9",
+      "30"
+    ],
+    "options_hi": [
+      "27",
+      "6",
+      "9",
+      "30"
+    ],
+    "correct": 4,
+    "solution": "<p>Given a - b = 1, cubing both sides</p>\n\n<p>&rArr; (a - b)<sup>3</sup> = 1</p>\n\n<p>&rArr; a<sup>3</sup> - b<sup>3</sup> - 3ab(a - b) = 1, using a<sup>3</sup> - b<sup>3</sup> = 91</p>\n\n<p>&rArr; 3ab = 90</p>\n\n<p>&rArr; ab = 30</p>\n\n<p>&there4; The value of ab is 30</p>\n",
+    "solution_hi": "<p>दिया गया है a - b = 1, दोनों पक्षों में घन करने पर</p>\n\n<p>&rArr; (a - b)<sup>3</sup> = 1</p>\n\n<p>&rArr; a<sup>3</sup> - b<sup>3</sup> - 3ab(a - b) = 1, a<sup>3</sup> - b<sup>3</sup> = 91 प्रयोग करने पर</p>\n\n<p>&rArr; 3ab = 90</p>\n\n<p>&rArr; ab = 30</p>\n\n<p>&there4; ab का मान 30 है।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "What will be the quotient when 2134 is divided by 38?",
+    "question_hi": "जब 2134 को 38 से विभाजित किया जाता है तो भागफल क्या है?",
+    "options": [
+      "56",
+      "55",
+      "57",
+      "54"
+    ],
+    "options_hi": [
+      "56",
+      "55",
+      "57",
+      "54"
+    ],
+    "correct": 1,
+    "solution": "<p>Since we know that 38 &times; 56 = 2128, which is just less than 2134 and divisible by 38</p>\n\n<p>&there4; The quotient is 56.</p>\n",
+    "solution_hi": "<p>चूँकि हम जानते हैं कि 38 &times; 56 = 2128 है, जो 2134 से थोड़ा कम है और 38 से विभाज्य है।</p>\n&there4; भागफल 56 है।",
+    "marks": "2"
+  },
+  {
+    "question": "The compound interest earned in two years at 15% per annum is Rs. 20640. What is the sum invested (in Rs.)?",
+    "question_hi": "15% वार्षिक ब्याज की दर से दो वर्षो में अर्जित चक्रवृद्धि ब्याज 20640 रूपये है। तो निवेश की गयी राशि (रूपये में) क्या है?",
+    "options": [
+      "64000",
+      "60000",
+      "56000",
+      "52000"
+    ],
+    "options_hi": [
+      "64000",
+      "60000",
+      "56000",
+      "52000"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the sum invested be Rs. P</p>\n\n<p>Compound interest for 2 years at the rate of 15% per annum can be given as</p>\n\n<p>&rArr; CI = P{(1 + 15/100)<sup>2</sup> - 1}</p>\n\n<p>&rArr; 20640 = P(1.3225 - 1)</p>\n\n<p>&rArr; P = 20640/0.3225</p>\n\n<p>&rArr; P = 64000</p>\n\n<p>&there4; The sum invested is Rs. 64000</p>\n",
+    "solution_hi": "<p>माना कि निवेश की गयी राशि P रूपये है।</p>\n\n<p>15% वार्षिक ब्याज की दर से दो वर्षो में अर्जित चक्रवृद्धि ब्याज इस प्रकार दिया जा सकता है।</p>\n\n<p>&rArr; चक्रवृद्धि ब्याज = P{(1 + 15/100)<sup>2</sup> - 1}</p>\n\n<p>&rArr; 20640 = P(1.3225 - 1)</p>\n\n<p>&rArr; P = 20640/0.3225</p>\n\n<p>&rArr; P = 64000</p>\n&there4; निवेश की गयी राशि 64000 रूपये है।",
+    "marks": "2"
+  }
+]
