@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the LCM of 120 and 450?",
+    "question_hi": "120 और 450 का लघुत्तम समापवर्त्य क्या है?",
+    "options": [
+      "2400",
+      "1800",
+      "3600",
+      "4800"
+    ],
+    "options_hi": [
+      "2400",
+      "1800",
+      "3600",
+      "4800"
+    ],
+    "correct": 2,
+    "solution": "<p>We can write,</p>\n\n<p>&rArr; 120 = 2<sup>3</sup> &times; 3 &times; 5</p>\n\n<p>&rArr; 450 = 2 &times; 3<sup>2</sup> &times; 5<sup>2</sup></p>\n\n<p>LCM of two numbers is computed by taking the highest powers of all the factors</p>\n\n<p>&there4; LCM of 120 and 450 = 2<sup>3</sup> &times; 3<sup>2</sup> &times; 5<sup>2</sup> = 1800</p>\n",
+    "solution_hi": "<p>हम लिख सकते हैं,</p>\n\n<p>&rArr; 120 = 2<sup>3</sup> &times; 3 &times; 5</p>\n\n<p>&rArr; 450 = 2 &times; 3<sup>2</sup> &times; 5<sup>2</sup></p>\n\n<p>दो संख्याओं का लघुत्तम समापवर्त्य की गणना सभी गुणकों की उच्च घात को लेकर की जाती है।</p>\n\n<p>&there4; 120 और 450 का लघुत्तम समापवर्त्य = 2<sup>3</sup> &times; 3<sup>2</sup> &times; 5<sup>2</sup> = 1800</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If 10x/3 + 5/2(2 - x/3) = 7/2, then the value of x is..</p>\n",
+    "question_hi": "<p>&nbsp;यदि 10x/3 + 5/2(2 - x/3) = 7/2, तो x का मान क्या है..</p>\n",
+    "options": [
+      "3/5",
+      "-5/3",
+      "5/3",
+      "-3/5"
+    ],
+    "options_hi": [
+      "3/5",
+      "-5/3",
+      "5/3",
+      "-3/5"
+    ],
+    "correct": 4,
+    "solution": "<p>Given, 10x/3 + 5/2(2 - x/3) = 7/2</p>\n\n<p>&rArr; 10x/3 + 5 &ndash; 5x/6 = 7/2</p>\n\n<p>&rArr; 5x/2 = 7/2 &ndash; 5</p>\n\n<p>&rArr; x = -3/2 &times; 2/5</p>\n\n<p>&there4; x = -3/5</p>\n",
+    "solution_hi": "<p>दिया गया है, 10x/3 + 5/2(2 - x/3) = 7/2</p>\n\n<p>&rArr; 10x/3 + 5 &ndash; 5x/6 = 7/2</p>\n\n<p>&rArr; 5x/2 = 7/2 &ndash; 5</p>\n\n<p>&rArr; x = -3/2 &times; 2/5</p>\n\n<p>&there4; x = -3/5</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The average of four consecutive odd numbers is 40. What is the largest number?",
+    "question_hi": "&nbsp;चार&nbsp;क्रमागत विषम संख्याओं का औसत 40 है। सबसे बड़ी संख्या क्या है?",
+    "options": [
+      "42",
+      "45",
+      "43",
+      "44"
+    ],
+    "options_hi": [
+      "42",
+      "45",
+      "43",
+      "44"
+    ],
+    "correct": 3,
+    "solution": "<p>Let the odd numbers be x, (x + 2), (x + 4), (x + 6)</p>\n\n<p>Average of numbers = (x + x + 2 + x + 4 + x + 6)/4 = 40</p>\n\n<p>&rArr; 4x + 12 = 160</p>\n\n<p>&rArr; 4x = 148</p>\n\n<p>&rArr; x = 148/4 = 37</p>\n\n<p>&there4; Largest number = x + 6 = 37 + 6 = 43</p>\n",
+    "solution_hi": "<p>मान लेते हैं कि विषम संख्याएँ x, (x + 2), (x + 4), (x + 6) हैं</p>\n\n<p>संख्याओं का औसत = (x + x + 2 + x + 4 + x + 6)/4 = 40</p>\n\n<p>&rArr; 4x + 12 = 160</p>\n\n<p>&rArr; 4x = 148</p>\n\n<p>&rArr; x = 148/4 = 37</p>\n\n<p>&there4; सबसे बड़ी संख्या = x + 6 = 37 + 6 = 43</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "What is the reflection of the point (5, 3) in the line y = -2?",
+    "question_hi": "<p>रेखा y = -2 में बिंदु (5, 3) का परावर्तन क्या है?</p>\n",
+    "options": [
+      "(-9, 3)",
+      "(-5, -7)",
+      "(-9, -3)",
+      "(5, -7)"
+    ],
+    "options_hi": [
+      "(-9, 3)",
+      "(-5, -7)",
+      "(-9, -3)",
+      "(5, -7)"
+    ],
+    "correct": 4,
+    "solution": "<p>When a point is reflected about the x-axis, the x-coordinate remains the same and only the y-coordinate is transformed</p>\n\n<p>∵ The line y = -2 is parallel to the x-axis, x-coordinate will remain the same after reflection</p>\n\n<p>Now, along the y-direction, the distance between the reflected point and the line will be equal to the distance between the original point and the line</p>\n\n<p>&rArr; Distance between point and line along y-direction = |3 -&nbsp;(-2)| = |5| = 5 unit</p>\n\n<p>&rArr; Y-coordinate of reflection = -2 -&nbsp;5 = -7</p>\n\n<p>&there4; The reflection point is (5, -7)</p>\n",
+    "solution_hi": "<p>जब एक बिंदु x - अक्ष के संबंध में परावर्तित किया जाता है, x-निर्देशांक वही रहता है और केवल y-निर्देशांक बदल जाता है।</p>\n\n<p>∵ रेखा y = -2, x-अक्ष के समानांतर है, परावर्तन के बाद x- निर्देशांक वही रहता है</p>\n\n<p>अब, y-दिशा के साथ, परावर्तन बिंदु और रेखा के बीच की दूरी मूल बिंदु और रेखा के बीच की दूरी के बराबर है।</p>\n\n<p>&rArr; y-दिशा में बिंदु और रेखा के बीच की दूरी = |3 -&nbsp;(-2)| = |5| = 5 इकाई</p>\n\n<p>&rArr; परावर्तन का y-निर्देशांक = -2 - 5 = -7</p>\n\n<p>&there4; परावर्तन बिंदु (5, -7) है।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The distance between the points (4, 8) and (k, -4) is 13. What is the value of k?</p>\n",
+    "question_hi": "<p>बिंदु (4, 8) और (k, -4) के बीच की दूरी 13 है। k का मान क्या है ?</p>\n",
+    "options": [
+      "1",
+      "3",
+      "-1",
+      "-3"
+    ],
+    "options_hi": [
+      "1",
+      "3",
+      "-1",
+      "-3"
+    ],
+    "correct": 3,
+    "solution": "<p>According to the distance formula, the distance between two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) can be computed as,</p>\n\n<p>Distance = &radic;[(x<sub>2</sub> &ndash; x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> &ndash; y<sub>1</sub>)<sup>2</sup>]</p>\n\n<p>Given, distance between the points (4, 8) and (k, -4) is 13</p>\n\n<p>&rArr; (13)<sup>2</sup> = (k &ndash; 4)<sup>2</sup> + (&ndash;4 &ndash; 8)<sup>2</sup></p>\n\n<p>&rArr; 169 = k<sup>2</sup> + 16 &ndash; 8k + 144</p>\n\n<p>&rArr; k<sup>2</sup> &ndash; 8k &ndash; 9 = 0</p>\n\n<p>&rArr; k<sup>2</sup> &ndash; 9k + k &ndash; 9 = 0</p>\n\n<p>&rArr; k(k &ndash; 9) + 1(k &ndash; 9) = 0</p>\n\n<p>&rArr; (k &ndash; 9) (k + 1) = 0</p>\n\n<p>&rArr; k = 9, -1</p>\n\n<p>&there4; Value of k = -1</p>\n",
+    "solution_hi": "<p>दूरी सूत्र के अनुसार, दो बिंदुओं (x<sub>1</sub>, y<sub>1</sub>) और (x<sub>2</sub>, y<sub>2</sub>) के बीच की दूरी की गणना ऐसे की जा सकती है,</p>\n\n<p>दूरी = &radic;[(x<sub>2</sub> &ndash; x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> &ndash; y<sub>1</sub>)<sup>2</sup>]</p>\n\n<p>दिया गया है, बिंदु (4, 8) और (k, -4) के बीच की दूरी 13 है।</p>\n\n<p>&rArr; (13)<sup>2</sup> = (k &ndash; 4)<sup>2</sup> + (&ndash;4 &ndash; 8)<sup>2</sup></p>\n\n<p>&rArr; 169 = k<sup>2</sup> + 16 &ndash; 8k + 144</p>\n\n<p>&rArr; k<sup>2</sup> &ndash; 8k &ndash; 9 = 0</p>\n\n<p>&rArr; k<sup>2</sup> &ndash; 9k + k &ndash; 9 = 0</p>\n\n<p>&rArr; k(k &ndash; 9) + 1(k &ndash; 9) = 0</p>\n\n<p>&rArr; (k &ndash; 9) (k + 1) = 0</p>\n\n<p>&rArr; k = 9, -1</p>\n\n<p>&there4; k का मान = -1</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>&Delta;LMN is right angled at M. If &ang;N = 45&deg;, what is the length of MN (in cm), if NL = 9&radic;2 cm?</p>\n",
+    "question_hi": "<p>&Delta;LMN समकोण M पर है। यदि &ang;N = 45&deg;, MN की लंबाई (सेमी में) क्या है, अगर NL = 9&radic;2 सेमी है?</p>\n",
+    "options": [
+      "9&radic;2",
+      "9/&radic;2",
+      "18",
+      "9"
+    ],
+    "options_hi": [
+      "9&radic;2",
+      "9/&radic;2",
+      "18",
+      "9"
+    ],
+    "correct": 4,
+    "solution": "<p>In ∆LMN shown below,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/03.08.2018.002.PNG\" style=\"height:171px; width:263px\" /></p>\n\n<p>cos N = adjacent/hypotenuse = MN/NL</p>\n\n<p>&rArr; cos 45&deg; = MN/9&radic;2</p>\n\n<p>&rArr; 1/&radic;2 = MN/9&radic;2</p>\n\n<p>&there4; MN = 9 cm</p>\n",
+    "solution_hi": "<p>नीचे दिखाए गए ∆LMN में,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/03.08.2018.002.PNG\" style=\"height:171px; width:263px\" /></p>\n\n<p>cos N = संलग्न/कर्ण = MN/NL</p>\n\n<p>&rArr; cos 45&deg; = MN/9&radic;2</p>\n\n<p>&rArr; 1/&radic;2 = MN/9&radic;2</p>\n\n<p>&there4; MN = 9 सेमी</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "D and E are points on side AB and AC of &Delta;ABC. DE is parallel to BC. If AD : DB = 2 : 3 and area of &Delta;ADE is 4 sq cm, what is the area (in sq cm) of quadrilateral BDEC.",
+    "question_hi": "<p>D और E &Delta;ABC की भुजा AB और AC पर बिंदु हैं। &Delta;ABC में DE, BC के समानांतर है। यदि AD : DB = 2 : 3 और &Delta;ADE का क्षेत्रफल 4 वर्ग सेमी है, चतुर्भुज BDEC का क्षेत्रफल (वर्ग सेमी में) क्या है?</p>\n",
+    "options": [
+      "25",
+      "21",
+      "5",
+      "9"
+    ],
+    "options_hi": [
+      "25",
+      "21",
+      "5",
+      "9"
+    ],
+    "correct": 2,
+    "solution": "<p>The given triangle is shown below,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/03.08.2018.001.PNG\" /></p>\n\n<p>Given, AD ∶ DB = 2 ∶ 3</p>\n\n<p>Let AD = 2x and DB = 3x</p>\n\n<p>&rArr; AB = AD + DB = 2x + 3x = 5x</p>\n\n<p>Now, the ratio of the area of similar triangles is equal to the square of ratio of their corresponding sides,</p>\n\n<p>Hence, for similar triangles &Delta;ABC and &Delta;ADE,</p>\n\n<p>&rArr; area(&Delta;ABC)/area(&Delta;ADE) = (AB/AD)<sup>2</sup></p>\n\n<p>&rArr; area(&Delta;ABC)/4 = (5x/2x)<sup>2</sup></p>\n\n<p>&rArr; area(&Delta;ABC)/4 = 25/4</p>\n\n<p>&rArr; area(&Delta;ABC) = 25 sq. cm.</p>\n\n<p>&there4; Area of quadrilateral BDEC = area of ∆ABC &ndash; area of ∆ADE = 25 &ndash; 4 = 21 sq. cm.</p>\n",
+    "solution_hi": "<p>दिया गया त्रिकोण नीचे दिखाया गया है,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/03.08.2018.001.PNG\" /></p>\n\n<p>दिया गया है, AD ∶ DB = 2 ∶ 3</p>\n\n<p>AD = 2x और DB = 3x मान लेते हैं।</p>\n\n<p>&rArr; AB = AD + DB = 2x + 3x = 5x</p>\n\n<p>अब, समरूप त्रिभुजों के क्षेत्रफल का अनुपात, उनके तत्&zwnj;स्थानी भुजाओं के अनुपात के वर्ग के बराबर है,</p>\n\n<p>इसलिए, समरूप त्रिभुज &Delta;ABC और &Delta;ADE के लिए,</p>\n\n<p>&rArr; क्षेत्रफल (&Delta;ABC)/ क्षेत्रफल (&Delta;ADE) = (AB/AD)<sup>2</sup></p>\n\n<p>&rArr; क्षेत्रफल (&Delta;ABC)/4 = (5x/2x)<sup>2</sup></p>\n\n<p>&rArr; क्षेत्रफल (&Delta;ABC)/4 = 25/4</p>\n\n<p>&rArr; क्षेत्रफल (&Delta;ABC) = 25 वर्ग सेमी</p>\n\n<p>&there4; चतुर्भुज BDEC का क्षेत्रफल = ∆ABC का क्षेत्रफल &ndash; ∆ADE का क्षेत्रफल = 25 &ndash; 4 = 21 वर्ग सेमी</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The 3rd and 8<sup>th</sup> term of an arithmetic progression are -14 and 1 respectively. What is the 11th term?</p>\n",
+    "question_hi": "<p>समांतर श्रेणी का तीसरा और आठवां पद क्रमशः -14 और 1 है। ग्यारहवां पद क्या है?</p>\n",
+    "options": [
+      "14",
+      "16",
+      "20",
+      "10"
+    ],
+    "options_hi": [
+      "14",
+      "16",
+      "20",
+      "10"
+    ],
+    "correct": 4,
+    "solution": "<p>The nth term of an AP with first term &lsquo;a&rsquo; and difference &lsquo;d&rsquo; = a + (n &ndash; 1)d</p>\n\n<p>3<sup>rd</sup> term = a + 2d = -14&nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>8<sup>th</sup> term = a + 7d = 1&nbsp; &nbsp; &nbsp; ----(2)</p>\n\n<p>Subtracting (1) from (2), we get,</p>\n\n<p>&rArr; a + 7d &ndash; a &ndash; 2d = 1 + 14</p>\n\n<p>&rArr; 5d = 15</p>\n\n<p>&rArr; d = 3</p>\n\n<p>Substituting in (2),</p>\n\n<p>&rArr; a = 1 &ndash; 21 = -20</p>\n\n<p>&there4; 11<sup>th</sup> term = a + 10d = -20 + 10(3) = -20 + 30 = 10</p>\n",
+    "solution_hi": "<p>पहले पद &lsquo;a&rsquo; और अंतर &lsquo;d&rsquo; वाली समांतर श्रेणी का n वां पद = a + (n &ndash; 1)d</p>\n\n<p>तीसरा पद = a + 2d = -14&nbsp; &nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>आठवां पद = a + 7d = 1&nbsp; &nbsp; &nbsp; &nbsp; ----(2)</p>\n\n<p>(2) में से (1) को घटाकर, हमें मिलता है,</p>\n\n<p>&rArr; a + 7d &ndash; a &ndash; 2d = 1 + 14</p>\n\n<p>&rArr; 5d = 15</p>\n\n<p>&rArr; d = 3</p>\n\n<p>(2) में रखते हुए,</p>\n\n<p>&rArr; a = 1 &ndash; 21 = -20</p>\n\n<p>&there4; ग्यारहवां पद = a + 10d = -20 + 10(3) = -20 + 30 = 10</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Which Department has the second highest number of employees?",
+    "question_hi": "किस विभाग में कर्मचारियों की दूसरी अधिकतम संख्या है?",
+    "options": [
+      "E",
+      "A",
+      "D",
+      "F"
+    ],
+    "options_hi": [
+      "E",
+      "A",
+      "D",
+      "F"
+    ],
+    "correct": 1,
+    "solution": "As it can be seen from the given graph, no. of employees in department E is the second highest",
+    "solution_hi": "जैसा कि दिये गये आलेख से देखा जा सकता है, विभाग E में कर्मचारियों की दूसरी अधिकतम संख्या है।",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If departments F and D are merged to create a new department G, then which department will have the least number of employees?</p>\n",
+    "question_hi": "<p>यदि विभाग F और D को एक नया विभाग जी बनाने के लिए विलय कर दिया गया है, तो किस विभाग में कर्मचारियों की संख्या न्यूनतम होगी?</p>\n",
+    "options": [
+      "G",
+      "F",
+      "D",
+      "B"
+    ],
+    "options_hi": [
+      "G",
+      "F",
+      "D",
+      "B"
+    ],
+    "correct": 4,
+    "solution": "<p>No. of employees in department D = 12</p>\n\n<p>No. of employees in department F = 4</p>\n\n<p>If departments F and D are merged to create a new department G,</p>\n\n<p>No. of employees in department G = 12 + 4 = 16</p>\n\n<p>&there4; The department with least, i.e. 6, employees will be department B</p>\n",
+    "solution_hi": "<p>विभाग D में कर्मचारियों की संख्या = 12</p>\n\n<p>विभाग F में कर्मचारियों की संख्या = 4</p>\n\n<p>यदि विभाग F और D को मिलाकर एक नया विभाग G बना दिया जाता है,</p>\n\n<p>विभाग G में कर्मचारियों की संख्या = 12 + 4 = 16</p>\n\n<p>&there4; वह विभाग जिसमें सबसे कम अर्थात 6 कर्मचारी होंगे, वह विभाग B होगा।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If cos &theta; = 35/37, then what is the value of cot &theta;?</p>\n",
+    "question_hi": "<p>यदि cos &theta; = 35/37, तो cot &theta; का मान क्या है?</p>\n",
+    "options": [
+      "12/35",
+      "35/12",
+      "37/12",
+      "12/37"
+    ],
+    "options_hi": [
+      "12/35",
+      "35/12",
+      "37/12",
+      "12/37"
+    ],
+    "correct": 2,
+    "solution": "<p>Using trigonometric identities,</p>\n\n<p>sin<sup>2</sup> &theta; = 1 &ndash; cos<sup>2</sup> &theta; = 1 &ndash; (35/37)<sup>2</sup> = 144/1369</p>\n\n<p>&rArr; sin &theta; = &radic;(144/1369) = 12/37</p>\n\n<p>&there4; cot &theta; = cos &theta;/sin &theta; = (35/37)/(12/37) = 35/12</p>\n",
+    "solution_hi": "<p>त्रिकोणमितिक सर्वसमिका का इस्तेमाल करके,</p>\n\n<p>sin<sup>2</sup> &theta; = 1 &ndash; cos<sup>2</sup> &theta; = 1 &ndash; (35/37)<sup>2</sup> = 144/1369</p>\n\n<p>&rArr; sin &theta; = &radic;(144/1369) = 12/37</p>\n\n<p>&there4; cot &theta; = cos &theta;/sin &theta; = (35/37)/(12/37) = 35/12</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If a person walks at 12 km/hr instead of 10 km/hr, he would have walked 1 km more in the same time. What is the actual distance (in kms) travelled by him at 10 km/hr in the same time?</p>\n",
+    "question_hi": "<p>यदि कोई व्यक्ति 10 किमी प्रति घंटा की जगह 12 किमी प्रति घंटा की गति से चलता, तो वह उतने ही समय में 1 किमी अधिक चल लेता। उसी समय में 10 किमी प्रति घंटा की गति से उसके द्वारा तय किए जाने वाली वास्तविक दूरी (<span style=\"display: none;\">&nbsp;</span>किलोमीटर <span style=\"display: none;\">&nbsp;</span>में) क्या है?</p>\n",
+    "options": [
+      "8",
+      "10",
+      "5",
+      "12"
+    ],
+    "options_hi": [
+      "8",
+      "10",
+      "5",
+      "12"
+    ],
+    "correct": 3,
+    "solution": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>When <strong>time is constant</strong>, the <strong>distance</strong> travelled is directly proportional to the <strong>speed</strong> (D ∝ S).</p>\n<p>Ratio of speeds = 10 : 12 ⇒ 5 : 6.</p>\n<p>Ratio of distances = 5 : 6.</p>\n<p>Difference in distance = 6 − 5 = 1 unit.</p>\n<p>According to the question, 1 unit = 1 km, so <strong>actual distance</strong> = 5 units = 5 km.</p>\n<p><strong>∴ The correct answer is 5 km.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Actual speed = <strong>10 km/hr</strong></p>\n<p>New speed = <strong>12 km/hr</strong></p>\n<p>Difference in distance = <strong>1 km</strong></p>\n<p><strong>Formula:</strong></p>\n<p>Time = Distance ÷ Speed</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_7e07bedc.png/1784057764.png\" style=\"max-width: 100%; height: auto;\"></div>\n<p>Let the <strong>actual distance</strong> travelled be D km.</p>\n<p>⇒ Time taken at 10 km/hr = D ÷ 10</p>\n<p>⇒ Time taken at 12 km/hr = (D + 1) ÷ 12</p>\n<p>⇒ Since the time is the same in both cases:</p>\n<p>⇒ D ÷ 10 = (D + 1) ÷ 12</p>\n<p>⇒ 12 × D = 10 × (D + 1)</p>\n<p>⇒ 12D = 10D + 10</p>\n<p>⇒ 12D − 10D = 10</p>\n<p>⇒ 2D = 10</p>\n<p>⇒ D = 10 ÷ 2 = 5 km</p>\n<p><strong>∴ The correct answer is 5 km.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Relationship between Speed, Distance and Time</p>\n<p style='margin:0 0 8px 0;color:#444444;'>Speed is defined as the rate at which an object covers distance. Formula: <strong>Speed = Distance ÷ Time</strong>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Direct Proportionality Case</p>\n<p style='margin:0 0 8px 0;color:#444444;'>When <strong>Time</strong> is constant, Distance (D) is directly proportional to Speed (S). Ratio formula: D<sub>1</sub>/D<sub>2</sub> = S<sub>1</sub>/S<sub>2</sub>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Inverse Proportionality Case</p>\n<p style='margin:0 0 8px 0;color:#444444;'>When <strong>Distance</strong> is constant, Speed (S) is inversely proportional to Time (T). Ratio formula: S<sub>1</sub>/S<sub>2</sub> = T<sub>2</sub>/T<sub>1</sub>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Average Speed Formula</p>\n<p style='margin:0 0 8px 0;color:#444444;'>If a person covers the same distance at two different speeds x and y, the <strong>Average Speed</strong> = 2xy ÷ (x + y).</p><p><strong>∴ The correct answer is 5 km.</strong></p>",
+    "solution_hi": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>जब <strong>समय नियत (constant) होता है</strong>, तब तय की गई <strong>दूरी</strong>, <strong>चाल</strong> के सीधे आनुपातिक होती है (D ∝ S)।</p>\n<p>चालों का अनुपात = 10 : 12 ⇒ 5 : 6.</p>\n<p>दूरियों का अनुपात = 5 : 6.</p>\n<p>दूरी में अंतर = 6 − 5 = 1 यूनिट।</p>\n<p>प्रश्न के अनुसार, 1 यूनिट = 1 किमी, इसलिए <strong>वास्तविक दूरी</strong> = 5 यूनिट = 5 किमी।</p>\n<p><strong>∴ सही उत्तर 5 किमी है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>वास्तविक चाल = <strong>10 किमी/घंटा</strong></p>\n<p>नई चाल = <strong>12 किमी/घंटा</strong></p>\n<p>दूरी में अंतर = <strong>1 किमी</strong></p>\n<p><strong>सूत्र:</strong></p>\n<p>समय = दूरी ÷ चाल</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_7e07bedc.png/1784057764.png\" style=\"max-width: 100%; height: auto;\"></div>\n<p>माना तय की गई <strong>वास्तविक दूरी</strong> D किमी है।</p>\n<p>⇒ 10 किमी/घंटा की गति से लिया गया समय = D ÷ 10</p>\n<p>⇒ 12 किमी/घंटा की गति से लिया गया समय = (D + 1) ÷ 12</p>\n<p>⇒ चूँकि दोनों स्थितियों में समय समान है:</p>\n<p>⇒ D ÷ 10 = (D + 1) ÷ 12</p>\n<p>⇒ 12 × D = 10 × (D + 1)</p>\n<p>⇒ 12D = 10D + 10</p>\n<p>⇒ 12D − 10D = 10</p>\n<p>⇒ 2D = 10</p>\n<p>⇒ D = 10 ÷ 2 = 5 किमी</p>\n<p><strong>∴ सही उत्तर 5 किमी है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>चाल, दूरी और समय के बीच संबंध</p>\n<p style='margin:0 0 8px 0;color:#444444;'>चाल को उस दर के रूप में परिभाषित किया जाता है जिस पर कोई वस्तु दूरी तय करती है। सूत्र: <strong>चाल = दूरी ÷ समय</strong>।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>सीधे आनुपातिकता की स्थिति (Direct Proportionality Case)</p>\n<p style='margin:0 0 8px 0;color:#444444;'>जब <strong>समय</strong> नियत होता है, तो दूरी (D), चाल (S) के सीधे आनुपातिक होती है। अनुपात सूत्र: D<sub>1</sub>/D<sub>2</sub> = S<sub>1</sub>/S<sub>2</sub>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>व्युत्क्रमानुपाती की स्थिति (Inverse Proportionality Case)</p>\n<p style='margin:0 0 8px 0;color:#444444;'>जब <strong>दूरी</strong> नियत होती है, तो चाल (S), समय (T) के व्युत्क्रमानुपाती होती है। अनुपात सूत्र: S<sub>1</sub>/S<sub>2</sub> = T<sub>2</sub>/T<sub>1</sub>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>औसत चाल सूत्र</p>\n<p style='margin:0 0 8px 0;color:#444444;'>यदि कोई व्यक्ति समान दूरी को दो अलग-अलग चालों x और y से तय करता है, तो <strong>औसत चाल</strong> = 2xy ÷ (x + y).</p><p><strong>∴ सही उत्तर 5 किमी है।</strong></p>",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the equation of the line perpendicular to the line 2x + 3y = -6 and having Y-intercept 3?</p>\n",
+    "question_hi": "<p>रेखा 2x + 3y = -6 के लंबवत रेखा का समीकरण क्या है और जिसका Y-निर्देशांक 3 है?</p>\n",
+    "options": [
+      "3x - 2y = 6",
+      "3x - 2y = -6",
+      "2x - 3y = -6",
+      "2x - 3y = 6"
+    ],
+    "options_hi": [
+      "3x - 2y = 6",
+      "3x - 2y = -6",
+      "2x - 3y = -6",
+      "2x - 3y = 6"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A line is given 2x + 3y = -6</p>\n\n<p>Y-intercept is 3</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>According to the question, we have</p>\n\n<p>A line with slope &lsquo;m&rsquo; is represented as: y = mx + c</p>\n\n<p>Given line, 2x + 3y = -6</p>\n\n<p>&rArr; y = (-2/3)x &ndash; 2</p>\n\n<p>Slope of line = -2/3</p>\n\n<p>The product of the slope of perpendicular lines is -1,</p>\n\n<p>Slope of required line = -1/(-2/3) = 3/2</p>\n\n<p>Equation of line is</p>\n\n<p>&rArr;&nbsp;y = (3/2)x + c</p>\n\n<p>Given y-intercept = 3,</p>\n\n<p>Putting x = 0, y = 3,</p>\n\n<p>&rArr; 3 = c</p>\n\n<p>&rArr; y = (3/2)x + 3</p>\n\n<p>&rArr; 2y = 3x + 6</p>\n\n<p><strong>&there4; Equation of required line is 3x &ndash; 2y = -6</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>एक रेखा दी गई है 2x + 3y = -6</p>\n\n<p>Y-अवरोधन 3 है।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>प्रश्न के अनुसार, हमारे पास है</p>\n\n<p>एक रेखा को ढाल &lsquo;m&rsquo; का साथ ऐसे दर्शाया जाता है: y = mx + c</p>\n\n<p>दी गई रेखा, 2x + 3y = -6</p>\n\n<p>&rArr; y = (-2/3)x &ndash; 2</p>\n\n<p>रेखा की ढाल = &ndash;2/3</p>\n\n<p>∵ लंबवत रेखाओं की ढाल का गुणनफल -1 है,</p>\n\n<p>आवश्यक रेखा की ढाल = -1/(-2/3) = 3/2</p>\n\n<p>रेखा को समीकरण:</p>\n\n<p>&rArr;&nbsp;y = (3/2)x + c</p>\n\n<p>दिया गया y-निर्देशांक = 3,</p>\n\n<p>x = 0, y = 3 को रखने पर,</p>\n\n<p>&rArr; 3 = c</p>\n\n<p>&rArr; y = (3/2)x + 3</p>\n\n<p>&rArr; 2y = 3x + 6</p>\n\n<p><strong>&there4; आवश्यक रेखा समीकरण 3x &ndash; 2y = -6 है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If 5 employees are transferred from department A to department F, then number of employees in department F would be between those of which two departments?</p>\n",
+    "question_hi": "<p>यदि 5 कर्मचारियों को विभाग A से विभाग F में स्थानांतरित किया जाता है, तो विभाग F में कर्मचारियों की संख्या किन दो विभागों के बीच होगी?</p>\n",
+    "options": [
+      "B and C",
+      "A and E",
+      "D and E",
+      "C and E"
+    ],
+    "options_hi": [
+      "B और C",
+      "A और E",
+      "D और E",
+      "C और E"
+    ],
+    "correct": 1,
+    "solution": "<p>No. of employees in department A = 17</p>\n\n<p>No. of employees in department F = 4</p>\n\n<p>If 5 employees are transferred from department A to department F, then</p>\n\n<p>No. of employees in department A = 17 &ndash; 5 = 12</p>\n\n<p>No. of employees in department F = 4 + 5 = 9</p>\n\n<p>&there4; The no. of employees of F would be between department B(6) and C(10)</p>\n",
+    "solution_hi": "<p>विभाग A में कर्मचारियों की संख्या = 17</p>\n\n<p>विभाग F में कर्मचारियों की संख्या = 4</p>\n\n<p>यदि 5 कर्मचारियों को विभाग A से विभाग F में स्थानांतरित किया जाता है, तो</p>\n\n<p>विभाग A में कर्मचारियों की संख्या = 17 &ndash; 5 = 12</p>\n\n<p>विभाग F में कर्मचारियों की संख्या = 4 + 5 = 9</p>\n\n<p>&there4; F के कर्मचारियों की संख्या विभाग B(6) और C(10) के बीच होगी।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The sum of a fraction and 4 times its reciprocal is 13/3. What is the fraction?</p>\n",
+    "question_hi": "<p>एक भिन्न और उसके व्युत्क्रम&nbsp;के 4 गुना का योग 13/3 है। वह भिन्न क्या है?</p>\n",
+    "options": [
+      "4/3",
+      "3/4",
+      "5/4",
+      "4/5"
+    ],
+    "options_hi": [
+      "4/3",
+      "3/4",
+      "5/4",
+      "4/5"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the fraction be &lsquo;x&rsquo;</p>\n\n<p>&rArr; x + 4/x = 13/3</p>\n\n<p>&rArr; 3x<sup>2</sup> + 12 = 13x</p>\n\n<p>&rArr; 3x<sup>2</sup> &ndash; 13x + 12 = 0</p>\n\n<p>&rArr; 3x<sup>2</sup> &ndash; 9x &ndash; 4x + 12 = 0</p>\n\n<p>&rArr; 3x(x &ndash; 3) &ndash; 4(x &ndash; 3) = 0</p>\n\n<p>&rArr; (x &ndash; 3)(3x &ndash; 4) = 0</p>\n\n<p>&rArr; x = 3, 4/3</p>\n\n<p>&there4; The fraction is 4/3</p>\n",
+    "solution_hi": "<p>भिन्न को &lsquo;x&rsquo; मान लेते हैं।</p>\n\n<p>&rArr; x + 4/x = 13/3</p>\n\n<p>&rArr; 3x<sup>2</sup> + 12 = 13x</p>\n\n<p>&rArr; 3x<sup>2</sup> &ndash; 13x + 12 = 0</p>\n\n<p>&rArr; 3x<sup>2</sup> &ndash; 9x &ndash; 4x + 12 = 0</p>\n\n<p>&rArr; 3x(x &ndash; 3) &ndash; 4(x &ndash; 3) = 0</p>\n\n<p>&rArr; (x &ndash; 3)(3x &ndash; 4) = 0</p>\n\n<p>&rArr; x = 3, 4/3</p>\n\n<p>&there4; भिन्न 4/3 है।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If a wholesaler, sells a tin of coffee at Rs 528 he faces a loss of 12%. Now if he decides to sell it at Rs. 636, what will be the profit (in %)?</p>\n",
+    "question_hi": "<p>यदि एक थोक व्यापारी, 528 रुपये में कॉफी का एक टिन बेचता है, तो उसे 12% की हानि होती है। अब अगर वह इसे 636 रुपये पर बेचने का फैसला करता है, तो लाभ (% में) क्या होगा?</p>\n",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "options_hi": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct": 3,
+    "solution": "<p>When selling price = Rs. 528, loss = 12%</p>\n\n<p>∵ Cost price &ndash; loss = Selling price</p>\n\n<p>&rArr; CP &ndash; 12% of CP = 528</p>\n\n<p>&rArr; 0.88CP = 528</p>\n\n<p>&rArr; Cost price = 528/0.88 = Rs. 600</p>\n\n<p>∵ Selling price = Cost price + Profit</p>\n\n<p>&there4; When selling price is Rs. 636, profit = [(636 &ndash; 600)/600) &times; 100 = 6%</p>\n",
+    "solution_hi": "<p>जब बिक्री मूल्य = 528 रुपये, हानि = 12%</p>\n\n<p>∵ लागत मूल्य &ndash; हानि = बिक्री मूल्य</p>\n\n<p>&rArr; लागत मूल्य &ndash; लागत मूल्य का 12% = 528</p>\n\n<p>&rArr; 0.88 लागत मूल्य = 528</p>\n\n<p>&rArr; लागत मूल्य = 528/0.88 = 600 रुपये</p>\n\n<p>∵ बिक्री मूल्य = लागत मूल्य + लाभ</p>\n\n<p>&there4; जब बिक्री मूल्य 636 रुपये है, लाभ = [(636 &ndash; 600)/600) &times; 100 = 6%</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Albert invested an amount of x rupees in a fixed deposit scheme offering 10% per annum for 1st year and 15% per annum for 2<sup>nd</sup> year and received an amount of Rs. 20,240 after the two years. What is x (in Rs.)?</p>\n",
+    "question_hi": "<p>अल्बर्ट ने एक सावधि जमा योजना में x रुपये की राशि का निवेश किया जो 1 साल के लिए प्रति वर्ष 10% देता है और दूसरे वर्ष के लिए 15% प्रति वर्ष देता है और दो साल के बाद उसे 20,240 रुपये की राशि प्राप्त हुई है। x (रुपये में) क्या है?</p>\n",
+    "options": [
+      "15000",
+      "16000",
+      "14000",
+      "18000"
+    ],
+    "options_hi": [
+      "15000",
+      "16000",
+      "14000",
+      "18000"
+    ],
+    "correct": 2,
+    "solution": "<p>∵ Simple interest = (Principal &times; Rate &times; Time)/100</p>\n\n<p>For first year, Principal = Rs. x, Rate = 10%</p>\n\n<p>Amount after first year = x + (x &times; 10 &times; 1)/100 = Rs. 1.1x</p>\n\n<p>For second year, Principal = Rs. 1.1x = Rate = 15%</p>\n\n<p>Amount after second year = 1.1x + (1.1x &times; 15 &times; 1)/100 = Rs. 1.265x</p>\n\n<p>&rArr; 1.265x = 20240</p>\n\n<p>&there4; x = 20240/1.265 = Rs. 16000</p>\n",
+    "solution_hi": "<p>∵ साधारण ब्याज = (मूल राशि &times; दर &times; समय)/100</p>\n\n<p>पहले वर्ष के लिए, मूल राशि = x रुपये, दर = 10%</p>\n\n<p>पहले वर्ष के बाद राशि = x + (x &times; 10 &times; 1)/100 = Rs. 1.1x</p>\n\n<p>दूसरे वर्ष के लिए, मूल राशि = 1.1x रुपये = दर = 15%</p>\n\n<p>दूसरे वर्ष के बाद राशि = 1.1x + (1.1x &times; 15 &times; 1)/100 = 1.265x रुपये</p>\n\n<p>&rArr; 1.265x = 20240</p>\n\n<p>&there4; x = 20240/1.265 = 16000 रुपये</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If A&#39;s wealth is 4/9 times of B&#39;s and C&#39;s is 7/6 times of B&#39;s, what is the ratio of C&#39;s wealth to A&#39;s?",
+    "question_hi": "<p>यदि A की संपत्ति B के 4/9 गुना है और C की संपत्ति B के 7/6 गुना है, C की संपत्ति का A से क्या अनुपात है?</p>\n",
+    "options": [
+      "(8 : 21)",
+      "(21 : 8)",
+      "(27 : 14)",
+      "(14 : 27)"
+    ],
+    "options_hi": [
+      "(8 : 21)",
+      "(21 : 8)",
+      "(27 : 14)",
+      "(14 : 27)"
+    ],
+    "correct": 2,
+    "solution": "<p>A&rsquo;s wealth = 4/9 &times; (B&rsquo;s wealth)&nbsp; &nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>C&rsquo;s wealth = 7/6 &times; (B&rsquo;s wealth)&nbsp; &nbsp; &nbsp; &nbsp;----(2)</p>\n\n<p>Dividing (2) by (1),</p>\n\n<p>&rArr; C&rsquo;s wealth/A&rsquo;s wealth = (7/6)/(4/9) = 21/8</p>\n\n<p>&there4; Ratio of C&rsquo;s wealth to A&rsquo;s wealth = 21 ∶ 8</p>\n",
+    "solution_hi": "<p>A की संपत्ति = 4/9 &times; (B की संपत्ति)&nbsp; &nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>C की संपत्ति = 7/6 &times; (B की संपत्ति)&nbsp; &nbsp; &nbsp; &nbsp;----(2)</p>\n\n<p>(2) को (1) से भाग करके,</p>\n\n<p>&rArr; C की संपत्ति/A की संपत्ति = (7/6)/(4/9) = 21/8</p>\n\n<p>&there4; C की संपत्ति का A की संपत्ति से अनुपात = 21 ∶ 8</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The discount offered on a Shirt of Rs. 500 and a pair of Trousers of Rs 1000 is 20% and 40% respectively. If Ajay bought 2 Shirt and 3 pair of Trousers then what was the effective discount (in %) he received?</p>\n",
+    "question_hi": "<p>500 रुपये की शर्ट और 1000 रुपये की एक पैंट पर&nbsp;क्रमश: 20% और 40% की छूट दी जाती है। यदि अजय ने 2 शर्ट और 3 <span style=\"\">पैंट</span>&nbsp;खरीदीं तो उसे कितनी प्रभावी छूट (% में)&nbsp;मिली?</p>\n",
+    "options": [
+      "30",
+      "32",
+      "25",
+      "35"
+    ],
+    "options_hi": [
+      "30",
+      "32",
+      "25",
+      "35"
+    ],
+    "correct": 4,
+    "solution": "<p>∵ Selling price = Marked price &ndash; Discount</p>\n\n<p>Marked price of 1 shirt = Rs. 500</p>\n\n<p>Selling price of 1 shirt = 500 &ndash; 20% of 500 = Rs. 400</p>\n\n<p>Marked price of a pair of trousers = Rs. 1000</p>\n\n<p>Selling price of a pair of trousers = 1000 &ndash; 40% of 1000 = Rs. 600</p>\n\n<p>Marked price of 2 shirts and 3 pairs of trousers = 2(500) + 3(1000) = Rs. 4000</p>\n\n<p>Selling price of 2 shirts and 3 pairs of trousers = 2(400) + 3(600) = Rs. 2600</p>\n\n<p>Total discount = 4000 &ndash; 2600 = Rs. 1400</p>\n\n<p>&there4; Effective discount = (1400/4000) &times; 100 = 35%</p>\n",
+    "solution_hi": "<p>∵ बिक्री मूल्य = अंकित मूल्य &ndash; छूट</p>\n\n<p>&nbsp;1 शर्ट का अंकित मूल्य = 500 रुपये</p>\n\n<p>1 शर्ट का बिक्री मूल्य = 500 &ndash; 500 का 20% = 400 रुपये</p>\n\n<p><span style=\"\">पैंट</span><span style=\"\">&nbsp;</span>का अंकित मूल्य = 1000 रुपये</p>\n\n<p><span style=\"\">पैंट</span><span style=\"\">&nbsp;</span>का बिक्री मूल्य = 1000 &ndash; 1000 का 40% = 600 रुपये</p>\n\n<p>2 शर्टों और 3 <span style=\"\">पैंट</span><span style=\"\">&nbsp;</span>का अंकित मूल्य = 2(500) + 3(1000) = 4000 रुपये</p>\n\n<p>2 शर्टों और 3 <span style=\"\">पैंट</span><span style=\"\">&nbsp;</span>का बिक्री मूल्य = 2(400) + 3(600) = 2600 रुपये</p>\n\n<p>कुल छूट = 4000 &ndash; 2600 = 1400 रुपये</p>\n\n<p>&there4; प्रभावी छूट = (1400/4000) &times; 100 = 35%</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the value of Sin 30&deg; - Cosec 45&deg;?</p>\n",
+    "question_hi": "<p>Sin 30&deg; - Cosec 45&deg; का मान क्या है?</p>\n",
+    "options": [
+      "(2&radic;6 - 1)/&radic;3",
+      "(1 - 2&radic;3)/2",
+      "(&radic;2 - &radic;3)/&radic;6",
+      "(1 - 2&radic;2)/2"
+    ],
+    "options_hi": [
+      "(2&radic;6 - 1)/&radic;3",
+      "(1 - 2&radic;3)/2",
+      "(&radic;2 - &radic;3)/&radic;6",
+      "(1 - 2&radic;2)/2"
+    ],
+    "correct": 4,
+    "solution": "<p>sin 30&deg; &ndash; cosec 45&deg;</p>\n\n<p>= sin 30&deg; &ndash; 1/sin 45&deg;</p>\n\n<p>= 1/2 &ndash; &radic;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (∵ sin 45&deg; = 1/&radic;2, sin 30&deg; = 1/2)</p>\n\n<p>= 1/2 &ndash; 2&radic;2/2</p>\n\n<p>= (1 &ndash; 2&radic;2)/2</p>\n",
+    "solution_hi": "<p>sin 30&deg; &ndash; cosec 45&deg;</p>\n\n<p>= sin 30&deg; &ndash; 1/sin 45&deg;</p>\n\n<p>= 1/2 &ndash; &radic;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (∵ sin 45&deg; = 1/&radic;2, sin 30&deg; = 1/2)</p>\n\n<p>= 1/2 &ndash; 2&radic;2/2</p>\n\n<p>= (1 &ndash; 2&radic;2)/2</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If the average salary of these employees is Rs.&nbsp;8,000, then how much was the company&#39;s expense (in Rs. Lakhs) towards salaries?</p>\n",
+    "question_hi": "<p>यदि इन कर्मचारियों का औसत वेतन 8,000 रुपये है, तो वेतन पर कंपनी का खर्च (लाख रुपये में) कितना था?</p>\n",
+    "options": [
+      "4.86",
+      "5.12",
+      "3.24",
+      "5.88"
+    ],
+    "options_hi": [
+      "4.86",
+      "5.12",
+      "3.24",
+      "5.88"
+    ],
+    "correct": 2,
+    "solution": "<p>Total no. of employees = 17 + 6 + 10 + 12 + 15 + 4 = 64</p>\n\n<p>Average salary = Rs. 8000</p>\n\n<p>&there4; Company&rsquo;s expense towards salaries = 64 &times; 8000 = Rs. 512000 = Rs. 5.12 lakhs</p>\n",
+    "solution_hi": "<p>कर्मचारियों की कुल संख्या = 17 + 6 + 10 + 12 + 15 + 4 = 64</p>\n\n<p>औसत वेतन = 8000 रुपये</p>\n\n<p>&there4; वेतन <span style=\"\">पर&nbsp;</span>कंपनी का खर्च = 64 &times; 8000 = 512000 रुपये = 5.12 लाख रुपये</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>A, B and C can do a job working alone in 6, 9 and 18 days respectively. They all work together for 1 day, then A and B quit. How many days C working alone will take to complete the remainder of the job?</p>\n",
+    "question_hi": "<p>A, B और C किसी काम को अकेले क्रमश: 6, 9 और 18 दिन में कर सकते हैं। वे सभी एक दिन के लिए मिलकर काम करते हैं, फिर A और B काम करना छोड़ देते हैं। शेष काम को पूरा करने के लिए अकेले C को कितने दिन लगेंगे?</p>\n",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "10"
+    ],
+    "options_hi": [
+      "9",
+      "6",
+      "12",
+      "10"
+    ],
+    "correct": 3,
+    "solution": "<p>A&rsquo;s 1 day work = 1/6</p>\n\n<p>B&rsquo;s 1 day work = 1/9</p>\n\n<p>C&rsquo;s 1 day work = 1/18</p>\n\n<p>Let C alone worked for &lsquo;x&rsquo; days</p>\n\n<p>∵ A and B worked only for one day and C worked for (x + 1) days,</p>\n\n<p>&rArr; A&rsquo;s 1 day work + B&rsquo;s 1 day work + C&rsquo;s (x + 1) days&rsquo; work = 1</p>\n\n<p>&rArr; 1/6 + 1/9 + (x + 1)/18 = 1</p>\n\n<p>&rArr; (x + 1)/18 = 13/18</p>\n\n<p>&rArr; x + 1 = 13</p>\n\n<p>&rArr; x = 13 &ndash; 1 = 12</p>\n\n<p>&there4; C worked alone for 12 days</p>\n",
+    "solution_hi": "<p>A का एक दिन का काम = 1/6</p>\n\n<p>B का एक दिन का काम = 1/9</p>\n\n<p>C का एक दिन का काम = 1/18</p>\n\n<p>मान लेते हैं कि अकेले C ने &lsquo;x&rsquo; दिनों के लिए काम किया</p>\n\n<p>∵ A और B ने केवल एक दिन के लिए काम किया और सी ने (x + 1) दिनों के लिए काम किया,</p>\n\n<p>&rArr; A के एक दिन का काम + B के एक दिन का काम + C का (x + 1) दिनों का काम = 1</p>\n\n<p>&rArr; 1/6 + 1/9 + (x + 1)/18 = 1</p>\n\n<p>&rArr; (x + 1)/18 = 13/18</p>\n\n<p>&rArr; x + 1 = 13</p>\n\n<p>&rArr; x = 13 &ndash; 1 = 12</p>\n\n<p>&there4; C ने अकेले 12 दिनों के लिए काम किया।</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>A man wills 40% of his wealth to his wife and rest to his children. What percent of the wealth willed to the wife do the children get?</p>\n",
+    "question_hi": "<p>एक आदमी अपनी वसीयत का 40% अपनी पत्नी को देगा और शेष अपने बच्चों को देगा। पत्नी को दिया गया वसीयत का कितना प्रतिशत बच्चों को मिलेगा?</p>\n",
+    "options": [
+      "150",
+      "66.6",
+      "50",
+      "20"
+    ],
+    "options_hi": [
+      "150",
+      "66.6",
+      "50",
+      "20"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the total wealth be &lsquo;x&rsquo;</p>\n\n<p>Wealth willed to wife = 40% of x = 0.4x</p>\n\n<p>Wealth for children = x &ndash; 0.4x = 0.6x</p>\n\n<p>&there4; Required percentage = (0.6x/0.4x) &times; 100 = 150%</p>\n",
+    "solution_hi": "<p>पूरी संपत्ति को &lsquo;x&rsquo; मान लेते हैं।</p>\n\n<p>वसीयत में पत्नी के नाम संपत्ति = x का 40% = 0.4x</p>\n\n<p>बच्चों के लिए संपत्ति = x &ndash; 0.4x = 0.6x</p>\n\n<p>&there4; आवश्यक प्रतिशत = (0.6x/0.4x) &times; 100 = 150%</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>If a - b = 2 and ab = 15, then what is the value of a<sup>3</sup> - b<sup>3</sup>?</p>\n",
+    "question_hi": "<p>यदि a - b = 2 और ab = 15, तो a<sup>3</sup> - b<sup>3</sup> का मान क्या है?</p>\n",
+    "options": [
+      "152",
+      "112",
+      "108",
+      "98"
+    ],
+    "options_hi": [
+      "152",
+      "112",
+      "108",
+      "98"
+    ],
+    "correct": 4,
+    "solution": "<p>∵ a<sup>3</sup> &ndash; b<sup>3</sup> = (a &ndash; b)<sup>3</sup> + 3ab(a &ndash; b)</p>\n\n<p>&there4; a<sup>3</sup> &ndash; b<sup>3</sup> = (2)<sup>3</sup> + 3(15)(2) = 8 + 90 = 98</p>\n",
+    "solution_hi": "<p>∵ a<sup>3</sup> &ndash; b<sup>3</sup> = (a &ndash; b)<sup>3</sup> + 3ab(a &ndash; b)</p>\n\n<p>&there4; a<sup>3</sup> &ndash; b<sup>3</sup> = (2)<sup>3</sup> + 3(15)(2) = 8 + 90 = 98</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>What is the diameter (in cm) of a sphere of surface area 6.16 sq cm?</p>\n",
+    "question_hi": "<p>6.16 वर्ग सेमी तल-क्षेत्रफल वाले गोले का व्यास (सेमी में) क्या है?</p>\n",
+    "options": [
+      "1.4",
+      "0.7",
+      "2.8",
+      "2.1"
+    ],
+    "options_hi": [
+      "1.4",
+      "0.7",
+      "2.8",
+      "2.1"
+    ],
+    "correct": 1,
+    "solution": "<p>Surface area of a sphere with radius &lsquo;r&rsquo; = 4&pi;r<sup>2</sup></p>\n\n<p>Given, surface area = 6.16 sq. cm</p>\n\n<p>&rArr; 4&pi;r<sup>2</sup> = 6.16</p>\n\n<p>&rArr; r<sup>2</sup> = 0.49</p>\n\n<p>&rArr; r = &radic;0.49 = 0.7 cm</p>\n\n<p>&there4; Diameter of sphere = 2r = 2(0.7) = 1.4 cm</p>\n",
+    "solution_hi": "<p>अर्धव्यास &lsquo;r&rsquo; के साथ गोले का तल-क्षेत्रफल = 4&pi;r<sup>2</sup></p>\n\n<p>दिया गया, तल-क्षेत्रफल = 6.16 वर्ग सेमी</p>\n\n<p>&rArr; 4&pi;r<sup>2</sup> = 6.16</p>\n\n<p>&rArr; r<sup>2</sup> = 0.49</p>\n\n<p>&rArr; r = &radic;0.49 = 0.7 सेमी</p>\n\n<p>&there4; गोले का व्यास = 2r = 2(0.7) = 1.4 सेमी</p>\n",
+    "marks": "2"
+  }
+]
