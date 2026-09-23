@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the area (in sq cm) of a rectangle, if its diagonal is 25 cm and one of its sides is 24 cm?",
+    "question_hi": "आयत का क्षेत्रफल (वर्ग सेमी में) क्या है यदि इसका विकर्ण 25 सेमी है और इसकी कोई भुजा 24 सेमी है?",
+    "options": [
+      "186",
+      "144",
+      "132",
+      "168"
+    ],
+    "options_hi": [
+      "186",
+      "144",
+      "132",
+      "168"
+    ],
+    "correct": 4,
+    "solution": "<p>Let the other side be x cm.</p>\n\n<p>Length of diagonal = &radic;(x<sup>2</sup> + 24<sup>2</sup>) cm = 25 cm</p>\n\n<p>&rArr; x<sup>2</sup> + 24<sup>2</sup> = 25<sup>2</sup></p>\n\n<p>&rArr; x<sup>2</sup> = 625 &ndash; 576 = 49</p>\n\n<p>&rArr; x = 7</p>\n&there4; Area of the rectangle = 7 cm &times; 24 cm = 168 cm<sup>2</sup>",
+    "solution_hi": "<p>माना कि भुजा x सेमी है</p>\n\n<p>विकर्ण की लंबाई = &radic;(x<sup>2</sup> + 24<sup>2</sup>) सेमी = 25 सेमी</p>\n\n<p>&rArr; x<sup>2</sup> + 24<sup>2</sup> = 25<sup>2</sup></p>\n\n<p>&rArr; x<sup>2</sup> = 625 &ndash; 576 = 49</p>\n\n<p>&rArr; x = 7</p>\n&there4; आयत का क्षेत्रफल = 7 सेमी &times; 24 सेमी = 168 सेमी<sup>2</sup>",
+    "marks": "2"
+  },
+  {
+    "question": "What is the value of tan 6&deg; tan 36&deg; tan 84&deg; tan 54&deg; tan 45&deg;?",
+    "question_hi": "tan 6&deg; tan 36 tan 84&deg; tan 54&deg; tan 45 का मान क्या है?",
+    "options": [
+      "1/2",
+      "1/&radic;2",
+      "1",
+      "1/3"
+    ],
+    "options_hi": [
+      "1/2",
+      "1/&radic;2",
+      "1",
+      "1/3"
+    ],
+    "correct": 3,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Use the property: If <strong>θ<sub>1</sub> + θ<sub>2</sub> = 90°</strong>, then <strong>tan θ<sub>1</sub> × tan θ<sub>2</sub> = 1</strong>.</p>\n<p>Pairing terms: (<strong>tan 6° × tan 84°</strong>) × (<strong>tan 36° × tan 54°</strong>) × <strong>tan 45°</strong>.</p>\n<p>As 6 + 84 = 90 and 36 + 54 = 90, both pairs become 1.</p>\n<p>Final calculation: 1 × 1 × 1 = 1.</p>\n<p><strong>∴ The correct answer is 1.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_52980235.png/1785475965.png\" style=\"max-width: 100%; height: auto; width: 420px; max-height: 200px;\"></div>\n<p><strong>Given:</strong> tan 6°, tan 36°, tan 84°, tan 54°, tan 45°</p>\n<p><strong>Formula:</strong> tan (90° − θ) = cot θ and tan θ × cot θ = 1</p>\n<p>⇒ Expression = tan 6° × tan 36° × tan (90° − 6°) × tan (90° − 36°) × tan 45°</p>\n<p>⇒ Expression = tan 6° × tan 36° × cot 6° × cot 36° × tan 45°</p>\n<p>⇒ Expression = (tan 6° × cot 6°) × (tan 36° × cot 36°) × 1</p>\n<p>⇒ Expression = 1 × 1 × 1 = 1</p>\n<p><strong>∴ The correct answer is 1.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Complementary Angle Identities</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">For any angle θ, sin (90° − θ) = cos θ, tan (90° − θ) = cot θ, and sec (90° − θ) = cosec θ.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Standard Values</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">Value of <strong>tan 45° = 1</strong> and <strong>cot 45° = 1</strong> are frequently used to simplify trigonometric products.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Product Rule</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">If A + B = 90°, then tan A × tan B = 1 and cot A × cot B = 1.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>गुणधर्म का उपयोग करें: यदि <strong>θ<sub>1</sub> + θ<sub>2</sub> = 90°</strong>, तो <strong>tan θ<sub>1</sub> × tan θ<sub>2</sub> = 1</strong>।</p>\n<p>पदों का युग्म बनाना: (<strong>tan 6° × tan 84°</strong>) × (<strong>tan 36° × tan 54°</strong>) × <strong>tan 45°</strong>।</p>\n<p>चूँकि 6 + 84 = 90 और 36 + 54 = 90 है, इसलिए दोनों युग्म 1 हो जाते हैं।</p>\n<p>अंतिम गणना: 1 × 1 × 1 = 1.</p>\n<p><strong>∴ सही उत्तर 1 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_52980235.png/1785475965.png\" style=\"max-width: 100%; height: auto; width: 420px; max-height: 200px;\"></div>\n<p><strong>दिया गया है:</strong> tan 6°, tan 36°, tan 84°, tan 54°, tan 45°</p>\n<p><strong>सूत्र:</strong> tan (90° − θ) = cot θ और tan θ × cot θ = 1</p>\n<p>⇒ व्यंजक = tan 6° × tan 36° × tan (90° − 6°) × tan (90° − 36°) × tan 45°</p>\n<p>⇒ व्यंजक = tan 6° × tan 36° × cot 6° × cot 36° × tan 45°</p>\n<p>⇒ व्यंजक = (tan 6° × cot 6°) × (tan 36° × cot 36°) × 1</p>\n<p>⇒ व्यंजक = 1 × 1 × 1 = 1</p>\n<p><strong>∴ सही उत्तर 1 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">पूरक कोण सर्वसमिकाएँ</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">किसी भी कोण θ के लिए, sin (90° − θ) = cos θ, tan (90° − θ) = cot θ, और sec (90° − θ) = cosec θ।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">मानक मान</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">त्रिकोणमितीय गुणनफलों को सरल बनाने के लिए <strong>tan 45° = 1</strong> और <strong>cot 45° = 1</strong> के मानों का अक्सर उपयोग किया जाता है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">गुणन नियम</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">यदि A + B = 90° है, तो tan A × tan B = 1 और cot A × cot B = 1 होता है।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "A vendor buys 6 bananas for Rs. 25 and sells them at 3 for Rs. 20. What is his profit percentage?",
+    "question_hi": "एक विक्रेता 25 रुपये में 6 केले खरीदता है और उन्हें 20 रुपये में 3 बेचता है। उसका लाभ प्रतिशत क्या है?",
+    "options": [
+      "50",
+      "40",
+      "60",
+      "30"
+    ],
+    "options_hi": [
+      "50",
+      "40",
+      "60",
+      "30"
+    ],
+    "correct": 3,
+    "solution": "<p>Cost price of 6 bananas = Rs. 25</p>\n\n<p>Selling price of 3 bananas = Rs. 20</p>\n\n<p>Selling price of 6 bananas = Rs. 20 &times; 2 = Rs. 40</p>\n&there4; Profit % = (Rs. 40 &ndash; Rs. 25)/Rs. 25 &times; 100% = 60%",
+    "solution_hi": "<p>6 केलों का क्रय मूल्य = 25 रुपये</p>\n\n<p>3 केलों का विक्रय मूल्य = 20 रुपये</p>\n\n<p>6 केलों का विक्रय मूल्य = 20 रुपये &times; 2 = 40 रुपये</p>\n&there4; लाभ % = ( 40 रुपये &ndash; 25 रुपये)/25 रुपये &times; 100% = 60%",
+    "marks": "2"
+  },
+  {
+    "question": "Two laborers A and B are paid a total of Rs. 650 per day. If A is paid 160 percent of what is paid to B, how much (in Rs) is B paid?",
+    "question_hi": "दो मजदूर A और B को प्रति दिन कुल 650 रुपये का भुगतान किया जाता है। यदि B को किये जाने वाले भुगतान का 160 प्रतिशत भुगतान A को किया जाता है, तो B को (रुपये में) कितना भुगतान किया जाता है?",
+    "options": [
+      "250",
+      "400",
+      "350",
+      "450"
+    ],
+    "options_hi": [
+      "250",
+      "400",
+      "350",
+      "450"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the wages of A and B be Rs. x and Rs. y respectively.</p>\n\n<p>Since A is paid 160% of what B is paid,</p>\n\n<p>&rArr; (x/y) &times; 100 = 160</p>\n\n<p>&rArr; x = 160y/100 = 8y/5&nbsp; &nbsp; &nbsp; &nbsp;---(1)</p>\n\n<p>Total wage = Rs. x + Rs. y = Rs. (8y/5) + y {Using (1)} = Rs. 13y/5 = Rs. 650 (given)</p>\n\n<p>&rArr; y = 650 &times; 5/13 = 250</p>\n\n<p>&there4; B is paid Rs. 250.</p>\nTwo laborers A and B are paid a total of Rs. 650 per day. If A is paid 160 percent of what is paid to B, how much (in Rs) is B paid?",
+    "solution_hi": "<p>माना कि A और B की मजदूरी क्रमश: x रुपये और y रुपये है।</p>\n\n<p>चूँकि A को B का 160% भुगतान किया जाता है,</p>\n\n<p>&rArr; (x/y) &times; 100 = 160</p>\n\n<p>&rArr; x = 160y/100 = 8y/5&nbsp; &nbsp; &nbsp; ---(1)</p>\n\n<p>कुल मजदूरी = x रुपये + y रुपये = (8y/5) रुपये + y {(1) से} = 13y रुपये/ 5 = 650 रुपये (दिया है)</p>\n\n<p>&rArr; y = 650 &times; 5/13 = 250</p>\n&there4; B को 250 रुपये दिया जाता है।",
+    "marks": "2"
+  },
+  {
+    "question": "The co-ordinates of the centroid of a triangle ABC are (1, -4). What are the co-ordinates of vertex C if co-ordinates of A and B are (3, -4) and (0, 5) respectively?",
+    "question_hi": "त्रिभुज ABC के केंद्रक का निर्देशांक (1, -4) हैं। यदि A और B के निर्देशांक क्रमशः (3, -4) और (0, 5) है, तब शीर्ष C के निर्देशांक क्या हैं?",
+    "options": [
+      "(0, 13)",
+      "(0, 5)",
+      "(0, -5)",
+      "(0, -13)"
+    ],
+    "options_hi": [
+      "(0, 13)",
+      "(0, 5)",
+      "(0, -5)",
+      "(0, -13)"
+    ],
+    "correct": 4,
+    "solution": "<p>Let the co-ordinates of the vertex C be (x, y).</p>\n\n<p>Then,</p>\n\n<p>Centroid = ((3 + 0 + x)/3, (-4 + 5 + y)/3) = (1, -4)</p>\n\n<p>&rArr; (3 + x)/3 = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and&nbsp;&rArr; (1 + y)/3 = -4</p>\n\n<p>&rArr; 3 + x = 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rArr; 1 + y = -12</p>\n\n<p>&rArr; x = 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &rArr; y = -13</p>\n&there4; Co-ordinates of the vertex C are (0, -13).",
+    "solution_hi": "<p>माना कि C के शीर्ष के निर्देशांक (x, y) है।</p>\n\n<p>तब,</p>\n\n<p>केंद्रक = <span style=\"\">((3 + 0 + x)/3, (-4 + 5 + y)/3) = (1, -4)</span></p>\n\n<p style=\"\">&rArr; (3 + x)/3 = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"\">और&nbsp;</span>&rArr; (1 + y)/3 = -4</p>\n\n<p style=\"\">&rArr; 3 + x = 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rArr; 1 + y = -12</p>\n\n<p>&rArr; x = 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rArr; y = -13</p>\n&there4; शीर्ष C की निर्देशांक बिंदु (0, -13) है।",
+    "marks": "2"
+  },
+  {
+    "question": "If [2(4x/5 - 3/4)]/3 - 5/3 = -1/6, then the value of x is?",
+    "question_hi": "यदि [2(4x/5 - 3/4)]/3 - 5/3 = -1/6, तब x का मान क्या है?",
+    "options": [
+      "4/15",
+      "-15/4",
+      "-4/15",
+      "15/4"
+    ],
+    "options_hi": [
+      "4/15",
+      "-15/4",
+      "-4/15",
+      "15/4"
+    ],
+    "correct": 4,
+    "solution": "<p>[2(4x/5 - 3/4)]/3 - 5/3 = -1/6</p>\n\n<p>&rArr; [2(4x/5 - 3/4)]/3 = 5/3 &ndash; 1/6 = 9/6 = 3/2</p>\n\n<p>&rArr; [2(4x/5 - 3/4)] = 3/2 &times; 3 = 9/2</p>\n\n<p>&rArr; (4x/5 - 3/4) = 9/2 &times; 1/2 = 9/4</p>\n\n<p>&rArr; 4x/5 = 9/4 + 3/4 = 12/4 = 3</p>\n\n<p>&rArr; x = 3 &times; 5/4 = 15/4</p>\n&there4; x = 15/4",
+    "solution_hi": "<p>[2(4x/5 - 3/4)]/3 - 5/3 = -1/6</p>\n\n<p>&rArr; [2(4x/5 - 3/4)]/3 = 5/3 &ndash; 1/6 = 9/6 = 3/2</p>\n\n<p>&rArr; [2(4x/5 - 3/4)] = 3/2 &times; 3 = 9/2</p>\n\n<p>&rArr; (4x/5 - 3/4) = 9/2 &times; 1/2 = 9/4</p>\n\n<p>&rArr; 4x/5 = 9/4 + 3/4 = 12/4 = 3</p>\n\n<p>&rArr; x = 3 &times; 5/4 = 15/4</p>\n&there4; x = 15/4",
+    "marks": "2"
+  },
+  {
+    "question": "What number should be added to each of the numbers 55, 100, 65 and 116, so that the resulting numbers are in continued proportion?",
+    "question_hi": "प्रत्येक संख्या 55, 100, 65 और 116 में कौन सी संख्या जोड़ी जानी चाहिए, जिससे प्राप्त संख्याएँ समान अनुपात में हों?",
+    "options": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "options_hi": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "correct": 1,
+    "solution": "<p>Let x be added to each number i.e. 55, 100, 65 and 116, such that the resulting numbers are in continued proportion.</p>\n\n<p>&rArr; (55 + x) : (100 + x) = (65 + x) : (116 + x)</p>\n\n<p>&rArr; (55 + x) (116 + x) = (65 + x) (100 + x)</p>\n\n<p>&rArr; x<sup>2</sup> + 171x + 6380 = x<sup>2</sup> + 165x + 6500</p>\n\n<p>&rArr; 6x = 120</p>\n\n<p>&rArr; x = 20</p>\n&there4; 20 must be added to each number.",
+    "solution_hi": "<p>माना कि प्रत्येक संख्या 55, 100, 65 और 116 में x जोड़ा जाता है, जिससे प्राप्त संख्याएँ समान अनुपात में होंगी।</p>\n\n<p>&rArr; (55 + x) : (100 + x) = (65 + x) : (116 + x)</p>\n\n<p>&rArr; (55 + x) (116 + x) = (65 + x) (100 + x)</p>\n\n<p>&rArr; x<sup>2</sup> + 171x + 6380 = x<sup>2</sup> + 165x + 6500</p>\n\n<p>&rArr; 6x = 120</p>\n\n<p>&rArr; x = 20</p>\n&there4; प्रत्येक संख्या में 20 को जोड़ना चाहिए।",
+    "marks": "2"
+  },
+  {
+    "question": "ax + 5y = 8 has slope of -4/3. What is the value of a?",
+    "question_hi": "ax + 5y = 8 की प्रवणता -4/3 है। a का मान क्या है?",
+    "options": [
+      "20/3",
+      "3/20",
+      "-20/3",
+      "-3/20"
+    ],
+    "options_hi": [
+      "20/3",
+      "3/20",
+      "-20/3",
+      "-3/20"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>ax + 5y = 8</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>ax + 5y = 8</p>\n\n<p>&rArr; y = -ax/5 + 8/5</p>\n\n<p>Comparing it with y = mx + c, where m = Slope</p>\n\n<p>So, m = -a/5</p>\n\n<p>&rArr; Slope = -a/5 = -4/3 (given)</p>\n\n<p>&rArr; a/5 = 4/3</p>\n&there4; a = 20/3",
+    "solution_hi": "<p><strong>दिया गया&nbsp;है:</strong>&nbsp;</p>\n\n<p>ax + 5y = 8</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>ax + 5y = 8</p>\n\n<p>&rArr; y = -ax/5 + 8/5</p>\n\n<p>इसकी तुलना <span style=\"\">y = mx + c</span> के साथ करने पर, जहाँ m = प्रवणता</p>\n\n<p>इसलिए, m = -a/5</p>\n\n<p>&rArr; <span style=\"\">प्रवणता&nbsp;</span>= -a/5 = -4/3 (दिया गया&nbsp;है)</p>\n\n<p>&rArr; a/5 = 4/3</p>\n&nbsp;&there4; a = 20/3",
+    "marks": "2"
+  },
+  {
+    "question": "Asif is twice as good a workman as Bashir and together they finish a piece of work in 30 days. In how many days will Asif alone finish the work?",
+    "question_hi": "<span style=\"\">आसिफ, बशीर की अपेक्षा दोगुना अच्छा मजदूर है और साथ में वे 30 दिनों में काम का एक हिस्सा पूरा करते हैं। आसिफ अकेले कितने दिन मे काम समाप्त करेगा?</span>",
+    "options": [
+      "90",
+      "45",
+      "60",
+      "75"
+    ],
+    "options_hi": [
+      "90",
+      "45",
+      "60",
+      "75"
+    ],
+    "correct": 2,
+    "solution": "<p>Let work done by Bashir in 1 day be x</p>\n\n<p>Work done by Asif in 1 day = 2x</p>\n\n<p>Work done by both in 1 day = 3x = 1/30 (given)</p>\n\n<p>&rArr; x = 1/90</p>\n\n<p>Work done by Asif in 1 day = 2/90 = 1/45</p>\n&there4; Time taken by Asif to finish the work alone = 45 days",
+    "solution_hi": "<p>माना कि बशीर द्वारा 1 दिन में किया गया काम x है</p>\n\n<p>आसिफ द्वारा 1 दिन में किया गया काम = 2x</p>\n\n<p>दोनों द्वारा 1 दिन में किया काम = 3x = 1/30 (दिया गया है)</p>\n\n<p>&rArr; x = 1/90</p>\n\n<p>आसिफ द्वारा 1 दिन में किया गया काम = 2/90 = 1/45</p>\n&there4; आसिफ को अकेले काम समाप्त करने में लगने वाला समय = 45 दिन",
+    "marks": "2"
+  },
+  {
+    "question": "What is the reflection of the point (-1, 3) in the line x = -4?",
+    "question_hi": "रेखा x = -4 पर बिंदु (-1, 3) का परावर्तन क्या है?",
+    "options": [
+      "(-7, -3)",
+      "(-7, 3)",
+      "(7, -3)",
+      "(7, 3)"
+    ],
+    "options_hi": [
+      "(-7, -3)",
+      "(-7, 3)",
+      "(7, -3)",
+      "(7, 3)"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the reflected point be (x, y).</p>\n\n<p>Then the midpoint of (-1, 3) and (x, y) i.e. [(x-1)/2, (y+3)/2]&nbsp;must lie on the line x = -4.</p>\n\n<p>&rArr; (x &ndash; 1) / 2 = -4</p>\n\n<p>&rArr; x = -8 + 1 = -7</p>\n\n<p>Since the line joining the original and the reflected point in perpendicular to x = -4, hence its slope will be equal to 0.</p>\n\n<p>&rArr; [y &ndash; 3]/[(-7) &ndash; (-1)] = 0</p>\n\n<p>&rArr; y &ndash; 3 = 0</p>\n\n<p>&rArr; y = 3</p>\n&there4; The reflected point is (-7, 3).",
+    "solution_hi": "<p>माना कि परावर्तित बिंदु (x, y) है।</p>\n\n<p>तब मध्य बिंदु (-1, 3) और (x, y) है जो (x-1/2, y + 3/2) है, अवश्य रेखा x = -4 मिलती है।</p>\n\n<p>&rArr; x &ndash; 1/2 = -4</p>\n\n<p>&rArr; x = -8 + 1 = -7</p>\n\n<p>चूंकि मूल और परावर्तित बिंदु को जोड़ने वाली रेखा x = -4 पर है, इसलिए इसकी ढलान 0 होगी।</p>\n\n<p>&rArr; [y &ndash; 3]/[(-7) &ndash; (-1)] = 0</p>\n\n<p>&rArr; y &ndash; 3 = 0</p>\n\n<p>&rArr; y = 3</p>\n&there4; परावर्तित बिंदु (-7, 3) है।",
+    "marks": "2"
+  },
+  {
+    "question": "A batsman makes a score of 111 runs in the 10th match and thus increases his average runs per match by 5. What will be his average after the 10<sup>th</sup> match?",
+    "question_hi": "एक बल्लेबाज दसवें मैच में 111 रन बनाता है और इस प्रकार प्रति मैच अपना औसत 5 रन से बढाता है। दसवें मैच के बाद उसका औसत क्या होगा?&nbsp;",
+    "options": [
+      "66",
+      "61",
+      "62",
+      "64"
+    ],
+    "options_hi": [
+      "66",
+      "61",
+      "62",
+      "64"
+    ],
+    "correct": 1,
+    "solution": "<p>Let average runs be x.</p>\n\n<p>Total runs in 9 matches = 9x</p>\n\n<p>Average runs after 10<sup>th</sup> match = (9x + 111)/10 = x + 5 (given)</p>\n\n<p>&rArr; 9x + 111 = 10x + 50)</p>\n\n<p>&rArr; x = 61</p>\n&there4; Average after 10<sup>th</sup> match = 61 + 5 = 66",
+    "solution_hi": "<p>माना कि औसत रन x है</p>\n\n<p>9 मैचों मे कुल रन = 9x</p>\n\n<p>दसवें मैच के बाद औसत रन = (9x + 111)/10 = x + 5 (दिया गया है)</p>\n\n<p>&rArr; 9x + 111 = 10x + 50</p>\n\n<p>&rArr; x = 61</p>\n&there4; दसवें मैच के बाद औसत रन = 61 + 5 = 66",
+    "marks": "2"
+  },
+  {
+    "question": "What is the quotient when 7251 is divided by 66?",
+    "question_hi": "7251 को 66 से विभाजित करने पर भागफल क्या होगा?",
+    "options": [
+      "110",
+      "109",
+      "111",
+      "112"
+    ],
+    "options_hi": [
+      "110",
+      "109",
+      "111",
+      "112"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Formula used:</strong></p>\n\n<p>dividend = divisor &times; quotient + remainder.</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/05/F2_Madhuri_Railways_19.05.2022_D1.png\" style=\"width: 127px; height: 115px;\" /></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/hint-text-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Hint</u></span></strong></span><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/05/F2_Madhuri_Railways_19.05.2022_D2.png\" style=\"width: 310px; height: 149px;\" /></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>भाज्य = भाजक &times; भागफल + शेषफल</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/05/F2_Madhuri_Railways_19.05.2022_D1.png\" style=\"width: 127px; height: 115px;\" /></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/hint-text-image.png\" width=\"26px\" /><u style=\"font-weight: 700;\"><span style=\"font-size:20px;\">Hint</span></u></span> <img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/05/F2_Madhuri_Railways_19.05.2022_D2.png\" style=\"width: 310px; height: 149px;\" /></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "What is the value of Cot 45&deg; - (1/&radic;3)Cosec 60&deg;?",
+    "question_hi": "Cot 45&deg; - (1/&radic;3) Cosec 60&deg; का मान क्या है?",
+    "options": [
+      "1/&radic;3",
+      "1/2",
+      "1/&radic;2",
+      "1/3"
+    ],
+    "options_hi": [
+      "1/&radic;3",
+      "1/2",
+      "1/&radic;2",
+      "1/3"
+    ],
+    "correct": 4,
+    "solution": "<p>cot45ᵒ = 1</p>\n\n<p>cosec60ᵒ = 2/&radic;3</p>\n&there4; cot45ᵒ - (1/&radic;3)cosec60ᵒ = 1 &ndash; 2/3 = 1/3",
+    "solution_hi": "<p>cot45ᵒ = 1</p>\n\n<p>cosec60ᵒ = 2/&radic;3</p>\n&there4; cot45ᵒ - (1/&radic;3)cosec60ᵒ = 1 &ndash; 2/3 = 1/3",
+    "marks": "2"
+  },
+  {
+    "question": "&Delta;DEF is right angled at E. If &ang;F = 45&deg;, then what is the value of 2 Sin F &times; Cot F?",
+    "question_hi": "E पर &Delta;DEF समकोण है। यदि &ang;F = 45&deg; है, तब 2 Sin F&nbsp;&times; Cot F का मान क्या है?",
+    "options": [
+      "&radic;2",
+      "2",
+      "1/&radic;2",
+      "1/2"
+    ],
+    "options_hi": [
+      "&radic;2",
+      "2",
+      "1/&radic;2",
+      "1/2"
+    ],
+    "correct": 1,
+    "solution": "<p>sinF = sin45ᵒ = 1/&radic;2</p>\n\n<p>cotF = cot45ᵒ = 1</p>\n&there4; 2sinF &times; cotF = 2 &times; 1/&radic;2 &times; 1 = &radic;2",
+    "solution_hi": "<p>sinF = sin45&deg; = 1/&radic;2</p>\n\n<p>cotF = cot45&deg; = 1</p>\n&there4; 2sinF &times; cotF = 2 &times; 1/&radic;2 &times; 1 = &radic;2",
+    "marks": "2"
+  },
+  {
+    "question": "If cot &theta; = 21/20, then what is the value of cosec &theta;?",
+    "question_hi": "यदि cot &theta; = 21/20, तब cosec &theta; का मान क्या है?",
+    "options": [
+      "21/29",
+      "29/21",
+      "20/29",
+      "29/20"
+    ],
+    "options_hi": [
+      "21/29",
+      "29/21",
+      "20/29",
+      "29/20"
+    ],
+    "correct": 4,
+    "solution": "<p>cot<sup>2</sup>&theta; = cosec<sup>2</sup>&theta; &ndash; 1</p>\n\n<p>&rArr; cosec<sup>2</sup>&theta; = cot<sup>2</sup>&theta; + 1 = 441/400 + 1 = 841/400</p>\n&there4; cosec&theta; = 29/20",
+    "solution_hi": "<p>cot<sup>2</sup>&theta; = cosec<sup>2</sup>&theta; &ndash; 1</p>\n\n<p>&rArr; cosec<sup>2</sup>&theta; = cot<sup>2</sup>&theta; + 1 = 441/400 + 1 = 841/400</p>\n&there4; cosec&theta; = 29/20",
+    "marks": "2"
+  },
+  {
+    "question": "PQ is the chord of a circle whose centre is O. ROS is a line segment originating from a point R on the circle that intersect PQ produced at point S such that QS = OR. If &ang;QSR = 30&deg;, then what is the value (in degrees)of POR?",
+    "question_hi": "PQ एक वृत्त की जीवा है जिसका केंद्र O है। ROS वृत्त पर एक बिंदु R से शुरू होने वाला एक रेखा-खंड है जो PQ को बिंदु S पर इस प्रकार काटता है कि QS = OR प्राप्त होता है। यदि &ang;QSR = 30ᵒ है, तो POR का मान (अंशों में) क्या है?",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "options_hi": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "correct": 4,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/6Aug_shift_1_Riya%20%281%29%20reviewed_images_Q73.PNG\" /></p>\n\n<p>Join OP and OQ</p>\n\n<p>Since OQ = OP&nbsp;= OR (radius)</p>\n\n<p>&rArr; QS = OR = OQ</p>\n\n<p>&rArr; &ang;QOS = &ang;QSO = 30&deg;</p>\n\n<p>In triangle SQO,</p>\n\n<p>&rArr; &ang;QOS + &ang;QSO + &ang;SQO = 180&deg;</p>\n\n<p>&rArr; &ang;SQO = 120&deg;</p>\n\n<p>In triangle POQ,</p>\n\n<p>OP = OQ (both are radius)</p>\n\n<p>&rArr; &ang;OQP = &ang;QPO = 180&deg;&nbsp;- 120&deg;&nbsp;= 60&deg;</p>\n\n<p>&ang;QPO + &ang;POQ = &ang;OQS (Exterior angle property)</p>\n\n<p>&rArr; &ang;QPO + &ang;POQ = 120&deg;</p>\n\n<p>&rArr; &ang;POQ = 120&deg;&nbsp;- &ang;QPO = 120&deg;&nbsp;- 60&deg;&nbsp;= 60&deg;</p>\n\n<p>&rArr; &ang;POS = 60&deg;&nbsp;+ 30&deg;&nbsp;= 90&deg;</p>\n\n<p>&there4; &ang;POR = 180&deg;&nbsp;- &ang;POS = 90&deg;</p>\n",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/6Aug_shift_1_Riya%20%281%29%20reviewed_images_Q73.PNG\" /></p>\n\n<p>OP और OQ को मिलाएँ</p>\n\n<p>चूँकि&nbsp;OQ = OP&nbsp;= OR (त्रिज्या)</p>\n\n<p>&rArr;&nbsp;QS = OR = OQ</p>\n\n<p>&rArr; &ang;QOS = &ang;QSO = 30&deg;</p>\n\n<p>त्रिभुज SQO में,</p>\n\n<p>&rArr; &ang;QOS + &ang;QSO + &ang;SQO = 180&deg;</p>\n\n<p>&rArr; &ang;SQO = 120&deg;</p>\n\n<p>त्रिभुज POQ में,</p>\n\n<p>OP = OQ (दोनों त्रिज्याएँ है)</p>\n\n<p>&rArr; &ang;OQP = &ang;QPO = 180&deg;&nbsp;- 120&deg;&nbsp;= 60&deg;</p>\n\n<p>&ang;QPO + &ang;POQ = &ang;OQS (बाह्यकोण के गुण से)</p>\n\n<p>&rArr; &ang;QPO + &ang;POQ = 120&deg;</p>\n\n<p>&rArr; &ang;POQ = 120&deg;&nbsp;- &ang;QPO = 120&deg;&nbsp;- 60&deg;&nbsp;= 60&deg;</p>\n\n<p>&rArr; &ang;POS = 60&deg;&nbsp;+ 30&deg;&nbsp;= 90&deg;</p>\n\n<p>&there4; &ang;POR = 180&deg;&nbsp;- &ang;POS = 90&deg;</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A shopkeeper marks up his wares by 60% and offers 25% discount. What will be the selling price (in Rs) if the cost price is Rs. 1600?",
+    "question_hi": "एक दुकानदार अपने माल पर 60% अधिक चिह्नित करता है और 25% छूट देता है। यदि क्रय मूल्य 1600 रुपये है तो विक्रय मूल्य (रुपये में) क्या होगा?",
+    "options": [
+      "1920",
+      "2000",
+      "2120",
+      "2200"
+    ],
+    "options_hi": [
+      "1920",
+      "2000",
+      "2120",
+      "2200"
+    ],
+    "correct": 1,
+    "solution": "<p>Cost price = Rs. 1600</p>\n\n<p>List price = Rs. 1600 + Rs. 1600 &times; 60/100 = Rs. 1600 + Rs. 960 = Rs. 2560</p>\n\n<p>Discount = Rs. 2560 &times; 25/100 = Rs. 640</p>\n&there4; Selling price = Rs. 2560 &ndash; Rs. 640 = Rs. 1920",
+    "solution_hi": "<p>क्रय मूल्य = 1600 रुपये</p>\n\n<p>अंकित मूल्य = 1600 रुपये + 1600 रुपये &times; 60/100 = 1600 रुपये + 960 रुपये = 2560 रुपये</p>\n\n<p>छूट = 2560 रुपये &times; 25/100 = 640 रुपये</p>\n&there4; विक्रय मूल्य = 2560 रुपये &ndash; 640 रुपये = 1920 रुपये",
+    "marks": "2"
+  },
+  {
+    "question": "Sum of a fraction and thrice of its reciprocal is 73/20. What is the fraction?",
+    "question_hi": "एक भिन्न&nbsp; और उसके व्युत्क्रम के तिगुने का योग 73/20 है। भिन्न क्या है?",
+    "options": [
+      "4/5",
+      "9/4",
+      "4/9",
+      "5/4"
+    ],
+    "options_hi": [
+      "4/5",
+      "9/4",
+      "4/9",
+      "5/4"
+    ],
+    "correct": 4,
+    "solution": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>Test the options to satisfy the condition: <strong>Fraction + 3 × (Reciprocal) = 73/20</strong>.</p>\n<p>Checking option <strong>5/4</strong>:</p>\n<p>Reciprocal = <strong>4/5</strong></p>\n<p>Thrice reciprocal = 3 × (4/5) = <strong>12/5</strong></p>\n<p>Sum = 5/4 + 12/5 = (25 + 48) / 20 = <strong>73/20</strong>. This matches the given condition.</p>\n<p><strong>∴ The correct answer is 5/4.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Let the <strong>fraction</strong> be x.</p>\n<p>Sum of x and 3 × (1/x) = 73/20</p>\n<p><strong>Formula Used:</strong></p>\n<p>Quadratic equation: ax<sup>2</sup> + bx + c = 0</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_5313a128.png/1784204618.png\" style=\"max-width: 100%; height: auto;\"></div>\n<p><strong>Calculations:</strong></p>\n<p>⇒ x + 3/x = 73/20</p>\n<p>⇒ (x<sup>2</sup> + 3) / x = 73/20</p>\n<p>⇒ 20(x<sup>2</sup> + 3) = 73x</p>\n<p>⇒ 20x<sup>2</sup> − 73x + 60 = 0</p>\n<p>⇒ 20x<sup>2</sup> − 48x − 25x + 60 = 0</p>\n<p>⇒ 4x(5x − 12) − 5(5x − 12) = 0</p>\n<p>⇒ (4x − 5)(5x − 12) = 0</p>\n<p>⇒ 4x − 5 = 0 or 5x − 12 = 0</p>\n<p>⇒ x = 5/4 or x = 12/5</p>\n<p>Comparing with options, the <strong>fraction</strong> is 5/4.</p>\n<p><strong>∴ The correct answer is 5/4.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Reciprocal Property</p>\n<p style='margin:0 0 8px 0;color:#444444;'>For any non-zero fraction a/b, its <strong>reciprocal</strong> is b/a. The product of a fraction and its reciprocal is always 1.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Quadratic Roots</p>\n<p style='margin:0 0 8px 0;color:#444444;'>A quadratic equation ax<sup>2</sup> + bx + c = 0 can be solved using the <strong>discriminant</strong> D = b<sup>2</sup> − 4ac. If D is a perfect square, roots are rational.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Proper vs Improper Fractions</p>\n<p style='margin:0 0 8px 0;color:#444444;'>A <strong>proper fraction</strong> has a numerator smaller than the denominator (e.g., 4/5), while an <strong>improper fraction</strong> has a numerator equal to or larger than the denominator (e.g., 5/4).</p>",
+    "solution_hi": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>इस शर्त को पूरा करने के लिए विकल्पों का परीक्षण करें: <strong>Fraction + 3 × (Reciprocal) = 73/20</strong>.</p>\n<p>विकल्प <strong>5/4</strong> की जाँच करने पर:</p>\n<p>Reciprocal = <strong>4/5</strong></p>\n<p>व्युत्क्रम का तिगुना (Thrice reciprocal) = 3 × (4/5) = <strong>12/5</strong></p>\n<p>योग = 5/4 + 12/5 = (25 + 48) / 20 = <strong>73/20</strong>. यह दी गई शर्त से मेल खाता है।</p>\n<p><strong>∴ सही उत्तर 5/4 है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>माना <strong>fraction</strong> x है।</p>\n<p>x और 3 × (1/x) का योग = 73/20</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>द्विघात समीकरण (Quadratic equation): ax<sup>2</sup> + bx + c = 0</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_5313a128.png/1784204618.png\" style=\"max-width: 100%; height: auto;\"></div>\n<p><strong>गणना:</strong></p>\n<p>⇒ x + 3/x = 73/20</p>\n<p>⇒ (x<sup>2</sup> + 3) / x = 73/20</p>\n<p>⇒ 20(x<sup>2</sup> + 3) = 73x</p>\n<p>⇒ 20x<sup>2</sup> − 73x + 60 = 0</p>\n<p>⇒ 20x<sup>2</sup> − 48x − 25x + 60 = 0</p>\n<p>⇒ 4x(5x − 12) − 5(5x − 12) = 0</p>\n<p>⇒ (4x − 5)(5x − 12) = 0</p>\n<p>⇒ 4x − 5 = 0 या 5x − 12 = 0</p>\n<p>⇒ x = 5/4 या x = 12/5</p>\n<p>विकल्पों के साथ तुलना करने पर, <strong>fraction</strong> 5/4 है।</p>\n<p><strong>∴ सही उत्तर 5/4 है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>व्युत्क्रम गुण (Reciprocal Property)</p>\n<p style='margin:0 0 8px 0;color:#444444;'>किसी भी गैर-शून्य भिन्न a/b के लिए, इसका <strong>reciprocal</strong> b/a होता है। एक भिन्न और उसके व्युत्क्रम का गुणनफल हमेशा 1 होता है।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>द्विघात मूल (Quadratic Roots)</p>\n<p style='margin:0 0 8px 0;color:#444444;'>एक द्विघात समीकरण ax<sup>2</sup> + bx + c = 0 को <strong>discriminant</strong> D = b<sup>2</sup> − 4ac का उपयोग करके हल किया जा सकता है। यदि D एक पूर्ण वर्ग है, तो मूल परिमेय होते हैं।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>उचित बनाम अनुचित भिन्न (Proper vs Improper Fractions)</p>\n<p style='margin:0 0 8px 0;color:#444444;'>एक <strong>proper fraction</strong> में अंश, हर से छोटा होता है (जैसे, 4/5), जबकि एक <strong>improper fraction</strong> में अंश, हर के बराबर या उससे बड़ा होता है (जैसे, 5/4)।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "If (x &ndash; 2)<sup>2</sup> + (y + 3)<sup>2</sup> + (z &ndash; 15)<sup>2</sup> = 0, then what is the value of x + y + z &ndash; 5",
+    "question_hi": "यदि (x &ndash; 2)<sup>2</sup> + (y + 3)<sup>2</sup> + (z &ndash; 15)<sup>2</sup> = 0 है, तब x + y + z &ndash; 5 का मान क्या है?",
+    "options": [
+      "5",
+      "9",
+      "15",
+      "20"
+    ],
+    "options_hi": [
+      "5",
+      "9",
+      "15",
+      "20"
+    ],
+    "correct": 2,
+    "solution": "<p>(x &ndash; 2)<sup>2</sup> + (y + 3)<sup>2</sup> + (z &ndash; 15)<sup>2</sup> = 0</p>\n\n<p>Since all the three terms are positive</p>\n\n<p>Their sum can be 0 only when all the 3 terms are 0</p>\n\n<p>&rArr; x &ndash; 2 = 0;&nbsp; y + 3 = 0;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z &ndash; 15 = 0</p>\n\n<p>&rArr; x = 2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y = -3;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z = 15</p>\n&there4; x + y + z &ndash; 5 = 2 &ndash; 3 + 15 &ndash; 5 = 9",
+    "solution_hi": "<p>(x &ndash; 2)<sup>2</sup> + (y + 3)<sup>2</sup> + (z &ndash; 15)<sup>2</sup> = 0</p>\n\n<p>चूँकि तीनों पद धनात्मक हैं</p>\n\n<p>उनका योग केवल 0 तभी हो सकता है जब सभी 3 पद 0 हों</p>\n\n<p>&rArr; x &ndash; 2 = 0;&nbsp; y + 3 = 0;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z &ndash; 15 = 0</p>\n\n<p>&rArr; x = 2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y = -3;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z = 15</p>\n&there4; x + y + z &ndash; 5 = 2 &ndash; 3 + 15 &ndash; 5 = 9",
+    "marks": "2"
+  },
+  {
+    "question": "If a<sup>3</sup> + b<sup>3</sup> = 35 and ab = 6, then what is the value of a + b?",
+    "question_hi": "यदि a<sup>3</sup> + b<sup>3</sup> = 35 और ab = 6,तब a + b का मान क्या है?",
+    "options": [
+      "5",
+      "8",
+      "2",
+      "-8"
+    ],
+    "options_hi": [
+      "5",
+      "8",
+      "2",
+      "-8"
+    ],
+    "correct": 1,
+    "solution": "<p>Given, a<sup>3</sup> + b<sup>3</sup> = 35</p>\n\n<p>Using expansion,</p>\n\n<p>(a + b) (a<sup>2</sup> - ab + b<sup>2</sup>) = 35</p>\n\n<p>&rArr; (a + b) (a<sup>2</sup> + b<sup>2</sup> + 2ab -2ab &ndash; ab) = 35</p>\n\n<p>&rArr; (a + b) {(a + b)<sup>2</sup> &ndash; 3ab} = 35</p>\n\n<p>Since, ab = 6 (given)</p>\n\n<p>&rArr; (a + b) {(a + b)<sup>2</sup> &ndash; 18} = 35</p>\n\n<p>&rArr; (a + b)<sup>3</sup> &ndash; 18(a + b) &ndash; 35 = 0</p>\n\n<p>Put a + b = x</p>\n\n<p>&rArr; x<sup>3</sup> &ndash; 18x &ndash; 35 = 0</p>\n\n<p>Using trial error method,</p>\n\n<p>(Trick: Put values of x as given in the options)</p>\n\n<p>Putting x = 5</p>\n\n<p>L.H.S. = 125 &ndash; 90 &ndash; 35 = 0 = R.H.S.</p>\n&nbsp;&there4; a + b = 5",
+    "solution_hi": "<p>दिया है, a<sup>3</sup> + b<sup>3</sup> = 35</p>\n\n<p>विस्तारिता का उपयोग करने पर,</p>\n\n<p>(a + b) (a<sup>2</sup> - ab + b<sup>2</sup>) = 35</p>\n\n<p>&rArr; (a + b) (a<sup>2</sup> + b<sup>2</sup> + 2ab -2ab &ndash; ab) = 35</p>\n\n<p>&rArr; (a + b) {(a + b)<sup>2</sup> &ndash; 3ab} = 35</p>\n\n<p>चूँकि, ab = 6 (दिया गया है)</p>\n\n<p>&rArr; (a + b) {(a + b)<sup>2</sup> &ndash; 18} = 35</p>\n\n<p>&rArr; (a + b)<sup>3</sup> &ndash; 18(a + b) &ndash; 35 = 0</p>\n\n<p>a + b = x का मान रखने पर</p>\n\n<p>&rArr; x<sup>3</sup> &ndash; 18x &ndash; 35 = 0</p>\n\n<p>परीक्षण त्रुटि विधि का प्रयोग करने पर</p>\n\n<p>युक्ति: दिए गये विकल्प से x का मान रखने पर</p>\n\n<p>X का मान = 5</p>\n\n<p>बायां पक्ष = 125 &ndash; 90 &ndash; 35 = 0 = दायां पक्ष</p>\n&there4; a + b = 5",
+    "marks": "2"
+  },
+  {
+    "question": "The two equal sides of an isosceles triangle is 20 cm each and the third side is 30 cm. What is the area (in cm<sup>2</sup>) of the triangle?",
+    "question_hi": "एक समद्विबाहु त्रिभुज की दो समान भुजाएँ 20 सेमी है और तीसरी भुजा 30 सेमी है। त्रिभुज का क्षेत्रफल (सेमी<sup>2</sup> में) क्या है?",
+    "options": [
+      "50&radic;5",
+      "100",
+      "75&radic;7",
+      "175"
+    ],
+    "options_hi": [
+      "50&radic;5",
+      "100",
+      "75&radic;7",
+      "175"
+    ],
+    "correct": 3,
+    "solution": "<p>Semi perimeter = (20 + 20 + 30)/2 cm = 35 cm</p>\n\n<p>Using Heron&rsquo;s formula,</p>\n&there4; Area = &radic;[35(35 &ndash; 20)(35 &ndash; 20)(35 &ndash; 30)] = 75&radic;7",
+    "solution_hi": "<p>अर्ध परिमिति = (20 + 20 + 30)/2 सेमी = 35 सेमी</p>\n\n<p>हिरो का सूत्र उपयोग करने पर,</p>\n&there4; क्षेत्रफल = &radic;[35(35 &ndash; 20)(35 &ndash; 20)(35 &ndash; 30)] = 75&radic;7",
+    "marks": "2"
+  },
+  {
+    "question": "A man travelled a distance of 60 km in 7 hours. He travelled partly on foot @ 6 km/hr and partly on bicycle @ 12 km/hr. What is the distance (in kms) travelled on foot?",
+    "question_hi": "एक आदमी 7 घंटे में 60 किमी की यात्रा करता है। वह कुछ यात्रा 6 किमी/घंटा की गति से पैदल और शेष यात्रा 12 किमी/घंटा की गति से साइकिल से करता है। यात्रा में पैदल तय की गयी दूरी (किमी में) क्या है?",
+    "options": [
+      "15",
+      "9",
+      "48",
+      "24"
+    ],
+    "options_hi": [
+      "15",
+      "9",
+      "48",
+      "24"
+    ],
+    "correct": 4,
+    "solution": "<p>Let the man travel x km on foot and y km on a bicycle.</p>\n\n<p>Total distance travelled = x + y km = 60 km (given)</p>\n\n<p>&rArr; x + y = 60&nbsp; &nbsp; &nbsp; ----(1)</p>\n\n<p>Duration for which man travelled on foot = x km &divide; 6 km/hr = x/6 hrs</p>\n\n<p>Duration for which man travelled on bicycle = y km &divide; 12 km/hr = y/12 hrs</p>\n\n<p>Total travelling time = x/6 + y/12 hrs = 7 hrs (given)</p>\n\n<p>&rArr; (2x + y)/12 = 7</p>\n\n<p>&rArr; 2x + y = 84&nbsp; &nbsp; &nbsp; &nbsp; ----(2)</p>\n\n<p>Subtracting (1) from (2), we get</p>\n\n<p>&rArr; x = 24</p>\n&there4; The man travelled 24 km on foot.",
+    "solution_hi": "<p>माना कि आदमी x किमी पैदल तय करता है और y किमी साईकिल से करता है।</p>\n\n<p>यात्रा में तय की गयी कुल दूरी = x + y किमी = 60 किमी (दिया है)</p>\n\n<p>&rArr; x + y = 60&nbsp; &nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>आदमी द्वारा पैदल यात्रा में लगा समय = x किमी &divide; 6 किमी/घंटा = x/6 घंटा</p>\n\n<p>आदमी द्वारा साईकिल से यात्रा में लगा समय = y किमी &divide; 12 किमी/घंटा = y/12 घंटा</p>\n\n<p>यात्रा में लगा कुल समय = x/6 + y/12 घंटा = 7 घंटा (दिया है)</p>\n\n<p>&rArr; (2x + y)/12 = 7</p>\n\n<p>&rArr; 2x + y = 84&nbsp; &nbsp; &nbsp; &nbsp;----(2)</p>\n\n<p>(2) से (1) को घटाने पर हम पाते हैं,</p>\n\n<p>&rArr; x = 24</p>\n&there4; आदमी पैदल 24 किमी यात्रा करता है।",
+    "marks": "2"
+  },
+  {
+    "question": "The compound interest earned in two years at 12% per annum is Rs 10176. What is the sum (in Rs) invested?",
+    "question_hi": "12% प्रति वर्ष पर दो साल में चक्रवृद्धि ब्याज 10176 रुपये है। कुल निवेश (रुपये में) क्या है?",
+    "options": [
+      "50000",
+      "60000",
+      "40000",
+      "80000"
+    ],
+    "options_hi": [
+      "50000",
+      "60000",
+      "40000",
+      "80000"
+    ],
+    "correct": 3,
+    "solution": "<p>Let invested sum be Rs. P.</p>\n\n<p>Interest rate, r = 12/100 = 0.12</p>\n\n<p>Value of investment after 2 years = Rs. P + 10176</p>\n\n<p>Using compound interest formula,</p>\n\n<p>A = P (1 + r/n)<sup>nt</sup></p>\n\n<p>&rArr; P + 10176 = P (1 + 0.12)<sup>2</sup></p>\n\n<p>&rArr; P + 10176 = 1.2544P</p>\n\n<p>&rArr; 0.2555P = 10176</p>\n\n<p>&rArr; P = 40000</p>\n\n<p>&there4; Sum invested = Rs. 40000</p>\n",
+    "solution_hi": "<p>मान् की कुल निवेश P रुपये है।</p>\n\n<p>ब्याज दर, r = 12/100 = 0.12</p>\n\n<p>2 साल के बाद निवेश मूल्य = P रुपये + 10176</p>\n\n<p>चक्रवृद्धि ब्याज के सूत्र का उपयोग करने पर,</p>\n\n<p>A = P (1 + r/n)<sup>nt</sup></p>\n\n<p>&rArr; P + 10176 = P (1 + 0.12)<sup>2</sup></p>\n\n<p>&rArr; P + 10176 = 1.2544P</p>\n\n<p>&rArr; 0.2555P = 10176</p>\n\n<p>&rArr; P = 40000</p>\n&there4; कुल निवेश = 40000 रुपये",
+    "marks": "2"
+  },
+  {
+    "question": "What is the sum of the first 11 terms of an arithmetic progression if the 4th term is 11 and the 7th term is -4?",
+    "question_hi": "एक समांतर श्रेढ़ी के पहले 11 पदों का योग क्या है यदि चौथा पद 11 है और 7वाँ पद -4 है?",
+    "options": [
+      "-75",
+      "55",
+      "11",
+      "100"
+    ],
+    "options_hi": [
+      "-75",
+      "55",
+      "11",
+      "100"
+    ],
+    "correct": 3,
+    "solution": "<p>Let the first term be a and the common difference be r.</p>\n\n<p>a<sub>4</sub> = a + (4 &ndash; 1) r</p>\n\n<p>&rArr; a + 3r = 11 ------ (1)</p>\n\n<p>a<sub>7 </sub>= a + (7 &ndash; 1) r&nbsp;</p>\n\n<p>&rArr; a + 6r = -4 ------ (2)</p>\n\n<p>Subtracting (1) from (2), we get</p>\n\n<p>3r = -15</p>\n\n<p>r = -5</p>\n\n<p>a = 11 &ndash; 3 &times; (-5) = 26</p>\n\n<p>Sum of first 11 terms = 11/2 [2 &times; 26 + (11 &ndash; 1) &times; (-5)] = 11</p>\n\n<p><strong>&there4; The sum of the first 11 term is 11</strong></p>\n",
+    "solution_hi": "<p>मान लीजिए कि पहला पद a है और सार्व अंतर r है।</p>\n\n<p style=\"color: rgb(33, 37, 41);\">a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">4</span>&nbsp;= a + (4 &ndash; 1) r</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; a + 3r = 11 ------ (1)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">7&nbsp;</span>= a + (7 &ndash; 1) r&nbsp;</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; a + 6r = -4 ------ (2)</p>\n\n<p>(1) को (2) से घटाने पर, हम पाते हैं</p>\n\n<p style=\"color: rgb(33, 37, 41);\">3r = -15</p>\n\n<p style=\"color: rgb(33, 37, 41);\">r = -5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">a = 11 &ndash; 3 &times; (-5) = 26</p>\n\n<p>पहले 11 पदों का योग = 11/2 [2 &times; 26 + (11 &ndash; 1) &times; (-5)] = 11</p>\n\n<p><strong>&there4; पहले 11 पदों का योग 11 है</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "D and E are points on side AB and AC of &Delta;ABC. DE is parallel to BC. If AD : DB = 2 : 5 and area of &Delta;ABC is 98 cm sq, what is the area (in sq cm) of quadrilateral BDEC?",
+    "question_hi": "&Delta;ABC की दो भुजाओं AB और AC पर दो बिंदु D और E हैं। BC के समांतर DE है। यदि AD : DB = 2 : 5 और &Delta;ABC का क्षेत्रफल 98 cm<sup>2</sup> है, चतुर्भुज BDEC का क्षेत्रफल (cm<sup>2</sup>&nbsp;में) क्या है?",
+    "options": [
+      "90",
+      "98",
+      "94",
+      "86"
+    ],
+    "options_hi": [
+      "90",
+      "98",
+      "94",
+      "86"
+    ],
+    "correct": 1,
+    "solution": "<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span>AD : DB = 2 : 5</p>\n\n<p>So, AB = 7a</p>\n\n<p>Area of&nbsp;<span style=\"color: rgb(33, 37, 41);\">&Delta;ABC = 7<sup>2</sup>a</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 7<sup>2</sup>a = 98&nbsp;</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; a = 2</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">Area of quad BDEC = 7<sup>2</sup>a - 2<sup>2</sup></span>a</p>\n\n<p>= 45a</p>\n\n<p>= 90<br />\n<br />\n<strong><u>Solution:</u></strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/6Aug_shift_1_Riya%20%281%29%20reviewed_images_Q68.PNG\" /></p>\n\n<p>Since DE is parallel to BC.</p>\n\n<p>&rArr; &ang;ABP = &ang;ADQ ---- (1)</p>\n\n<p>AD : DB = 2 : 5</p>\n\n<p>&rArr; DB/AD = 5/2</p>\n\n<p>&rArr; 1 + DB/AD = 1 + 5/2</p>\n\n<p>&rArr; (AD + DB)/AD = 7/2</p>\n\n<p>&rArr; AB/AD = 7/2 ---- (2)</p>\n\n<p>In &Delta;ABC and &Delta;ADE</p>\n\n<p>&ang;BAC = &ang;DAE (common angle)</p>\n\n<p>&ang;ABC = &ang;ADE (corresponding angles) {using (1)}</p>\n\n<p>&ang;ACB = &ang;AED (corresponding angles)</p>\n\n<p>&rArr; &Delta;ABC ~ &Delta;ADE (by AAA)</p>\n\n<p>&rArr; AB/AD = BC/DE = 7/2 {using (2)}</p>\n\n<p>&rArr; DE = 2BC/7 ---- (3)</p>\n\n<p>In &Delta;ABP and &Delta;ADQ</p>\n\n<p>&ang;BAP = &ang;DAQ (common angle)</p>\n\n<p>&ang;ABC = &ang;ADE (corresponding angles) {using (1)}</p>\n\n<p>&ang;APB = &ang;AQD = 90ᵒ</p>\n\n<p>&rArr; &Delta;ABP ~ &Delta;ADQ (by AAA)</p>\n\n<p>&rArr; AB/AD = AQ/AP = 7/2 {using (2)}</p>\n\n<p>&rArr; AQ = 2AP/7 ---- (4)</p>\n\n<p>Area of &Delta;ABC = 98 cm<sup>2</sup></p>\n\n<p>Area of &Delta;ADE = 1/2 &times; DE &times; AQ = 1/2 &times; 2BC/7 &times; 2AP/7 = 4/49 &times; 1/2 &times; BC &times; AP = 4/49 &times; Area of &Delta;ABC = 4/49 &times; 98 cm<sup>2</sup> = 8 cm<sup>2</sup></p>\n\n<p>&there4; Area of BDEC = 98 &ndash; 8 cm<sup>2</sup> = 90 cm<sup>2</sup></p>\n",
+    "solution_hi": "<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span>AD : DB = 2 : 5</p>\n\n<p>इसलिए, AB = 7a</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&Delta;ABC का क्षेत्रफल = 7<sup>2</sup>a</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 7<sup>2</sup>a = 98&nbsp;</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; a = 2</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">चतुर्भज BDEC का क्षेत्रफल = 7<sup>2</sup>a - 2<sup>2</sup></span>a</p>\n\n<p>= 45a</p>\n\n<p>= 90<br />\n<br />\n<strong><u>हल:</u></strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/08/6Aug_shift_1_Riya%20%281%29%20reviewed_images_Q68.PNG\" /></p>\n\n<p style=\"color: rgb(33, 37, 41);\">चूँकि DE, BC के समांतर है।</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; &ang;ABP = &ang;ADQ ------ (1)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">AD : DB = 2 : 5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; DB/AD = 5/2</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 1 + DB/AD = 1 + 5/2</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; (AD + DB)/AD = 7/2</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; AB/AD = 7/2 ------ (2)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&nbsp;&Delta;ABC और &Delta;ADE में,</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&ang;BAC = &ang;DAE (उभयनिष्ठ कोण)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&ang;ABC = &ang;ADE (संगत कोण) { (1) का&nbsp;उपयोग करके}</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&ang;ACB = &ang;AED (संगत कोण)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; &Delta;ABC ~ &Delta;ADE {कोण-कोण-कोण सर्वांसमता (AAA) द्वारा}</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; AB/AD = BC/DE = 7/2 {(2) <span style=\"color: rgb(33, 37, 41);\">का</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;उपयोग करके}</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; DE = 2BC/7 ------ (3)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&Delta;ABP और &Delta;ADQ में</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&ang;BAP = &ang;DAQ (उभयनिष्ठ कोण)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&ang;ABC = &ang;ADE (संगत कोण) {(1) <span style=\"color: rgb(33, 37, 41);\">का</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;उपयोग करके}</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&ang;APB = &ang;AQD = 90ᵒ</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; &Delta;ABP ~ &Delta;ADQ (AAA से)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; AB/AD = AQ/AP = 7/2 {(2) <span style=\"color: rgb(33, 37, 41);\">का</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;उपयोग करके}</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; AQ = 2AP/7 ------ (4)</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&Delta;ABC का क्षेत्रफल = 98&nbsp;cm<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&Delta;ADE का क्षेत्रफल = 1/2 &times; DE &times; AQ = 1/2 &times; 2BC/7 &times; 2AP/7 = 4/49 &times; 1/2 &times; BC &times; AP = 4/49 &times; &Delta;ABC का क्षेत्रफल = 4/49 &times; 98&nbsp;cm<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;= 8&nbsp;cm<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&there4; BDEC का क्षेत्रफल = 98 &ndash; 8&nbsp;cm<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>= 90&nbsp;cm<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span></p>\n",
+    "marks": "2"
+  }
+]
