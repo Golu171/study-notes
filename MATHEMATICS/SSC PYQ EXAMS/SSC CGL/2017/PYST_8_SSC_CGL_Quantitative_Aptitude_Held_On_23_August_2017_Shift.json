@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>Select the correct option:</p>\nConvert binary 10110 to decimal.",
+    "question_hi": "<p>सही विकल्प का चयन करें:</p>\nद्विपदी 10110 को दशमलव में बदलें।",
+    "options": [
+      "22",
+      "20",
+      "18",
+      "16"
+    ],
+    "options_hi": [
+      "22",
+      "20",
+      "18",
+      "16"
+    ],
+    "correct": 1,
+    "solution": "<p>A binary number is converted to decimal by multiplying each binary digit by 2<sup>n</sup>, where &lsquo;n&rsquo; is the place of the digit, such as 0, 1, 2,&hellip;</p>\n&there4; (10110)<sub>2</sub> = (1 &times; 2<sup>4</sup>) + (0 &times; 2<sup>3</sup>) + (1 &times; 2<sup>2</sup>) + (1 &times; 2<sup>1</sup>) + (0 &times; 2<sup>0</sup>) = 16 + 4 + 2 = 22",
+    "solution_hi": "<p>एक द्विपदी संखया को दशमलव में बदलने के लिए प्रत्येक द्विपदी अंक को 2<sup>n</sup> से गुणा करना पड़ता है, जहां &#39;n&#39; एक अंक की जगह है, जैसे कि 0,1,2...</p>\n&there4; (10110)<sub>2</sub> = (1 &times; 2<sup>4</sup>) + (0 &times; 2<sup>3</sup>) + (1 &times; 2<sup>2</sup>) + (1 &times; 2<sup>1</sup>) + (0 &times; 2<sup>0</sup>) = 16 + 4 + 2 = 22",
+    "marks": "2"
+  },
+  {
+    "question": "A, B and C can do a job working alone in 12, 16 and 24 days respectively. In how many days they can do the job if they worked together?",
+    "question_hi": "A, B और C किसी काम को अकेले क्रमश: 12, 16 और 24 दिनों में कर सकते हैं। यदि वे एक साथ काम करते हैं तो वे कितने दिनों में उस काम को कर सकते हैं?",
+    "options": [
+      "16/3",
+      "15/4",
+      "17/3",
+      "19/4"
+    ],
+    "options_hi": [
+      "16/3",
+      "15/4",
+      "17/3",
+      "19/4"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Formula used:</strong></p>\n\n<p>Total Work = Efficiency &times; Total Time</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the total work be 48 units (LCM of 12, 16 and 24)</p>\n\n<p>&rArr; Efficiency of A = 48/12 = 4 units/day</p>\n\n<p>&rArr; Efficiency of B = 48/16 = 3 units/day</p>\n\n<p>&rArr; Efficiency of C = 48/24 = 2 units/day</p>\n\n<p>Combined efficiency of A, B and C = 4 + 3 + 2 = 9 units/day</p>\n\n<p>&rArr; Total time required = 48/9 = 16/3 days</p>\n\n<p><strong>&there4; While working together, A, B and C will complete the work in&nbsp;<span style=\"color: rgb(33, 37, 41);\">16/3 days.</span></strong></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>कुल कार्य = दक्षता &times; कुल समय</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>मान लीजिए कि कुल कार्य 48 इकाइयाँ हैं (12, 16 और 24 का LCM)</p>\n\n<p>&rArr; A की दक्षता = 48/12 = 4 यूनिट/दिन</p>\n\n<p>&rArr; B की दक्षता = 48/16 = 3 यूनिट/दिन</p>\n\n<p>&rArr; C की दक्षता = 48/24 = 2 यूनिट/दिन</p>\n\n<p>A, B और C की संयुक्त दक्षता = 4 + 3 + 2 = 9 यूनिट/दिन</p>\n\n<p>&rArr; कुल आवश्यक समय = 48/9 = 16/3 दिन</p>\n\n<p><strong>&there4; A, B और C एक साथ काम करते हुए 16/3 दिनों में काम पूरा करेंगे।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The diagonal of a square is 10 cm. What is the length (in cm) of its side?",
+    "question_hi": "एक वर्ग का विकर्ण 10 सेमी है। इसकी भुजा की लंबाई (सेमी में) क्या है?",
+    "options": [
+      "5",
+      "5&radic;2",
+      "10&radic;2",
+      "5/&radic;2"
+    ],
+    "options_hi": [
+      "5",
+      "5&radic;2",
+      "10&radic;2",
+      "5/&radic;2"
+    ],
+    "correct": 2,
+    "solution": "<p>∵ Diagonal of square = &radic;2 &times; side of square</p>\n\n<p>Given, diagonal = 10 cm</p>\n&there4; Side of square = 10/&radic;2 = 5&radic;2 cm",
+    "solution_hi": "<p>∵ वर्ग का विकर्ण = &radic;2 &times; वर्ग की भुजा</p>\n\n<p>दिया गया है, विकर्ण = 10 सेमी</p>\n&there4; वर्ग की भुजा = 10/&radic;2 = 5&radic;2 सेमी",
+    "marks": "2"
+  },
+  {
+    "question": "If on a Sale there is 40% discount on the marked price of Rs. 1000, but the sale is done at Rs. 510 only then what additional discount (in %) did the customer get?",
+    "question_hi": "यदि विक्रय पर, बिक्री मूल्य के 1000 रुपये पर 40% की छूट है, लेकिन विक्रय केवल 510 रुपये पर की जाती है तो ग्राहक को अतिरिक्त छूट (% में) कितनी मिलती है?",
+    "options": [
+      "25",
+      "15",
+      "10",
+      "30"
+    ],
+    "options_hi": [
+      "25",
+      "15",
+      "10",
+      "30"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the additional successive discount be &lsquo;d%&rsquo;</p>\n\n<p>Marked price = Rs. 1000</p>\n\n<p>Selling price = Rs. 510</p>\n\n<p>First discount = 40%</p>\n\n<p>∵ Selling price = Marked price &ndash; discount price</p>\n\n<p>&rArr; 510 = (100 &ndash; d)% of (100 &ndash; 40)% of 1000</p>\n\n<p>&rArr; 510 = (100 &ndash; d)/100 &times; 0.6 &times; 1000</p>\n\n<p>&rArr; 510 = 600 &ndash; 6d</p>\n\n<p>&rArr; 6d = 90</p>\n\n<p>&rArr; d = 90/6 = 15%</p>\n&there4; The additional discount is 15%",
+    "solution_hi": "<p>अतिरिक्त लगातार छूट को &lsquo;d%&rsquo; मान लेते हैं।</p>\n\n<p>अंकित मूल्य = Rs. 1000</p>\n\n<p>बिक्री मूल्य = Rs. 510</p>\n\n<p>पहली छूट = 40%</p>\n\n<p>∵ बिक्री मूल्य = अंकित मूल्य &ndash; छूट मूल्य</p>\n\n<p>&rArr; 510 = (100 &ndash; d)% of (100 &ndash; 40)% of 1000</p>\n\n<p>&rArr; 510 = (100 &ndash; d)/100 &times; 0.6 &times; 1000</p>\n\n<p>&rArr; 510 = 600 &ndash; 6d</p>\n\n<p>&rArr; 6d = 90</p>\n\n<p>&rArr; d = 90/6 = 15%</p>\n&there4; अतिरिक्त छूट 15% है।",
+    "marks": "2"
+  },
+  {
+    "question": "If x ∶ 3 ∶∶&nbsp;y ∶ 9, then the value of y/3x is?",
+    "question_hi": "यदि x ∶ 3 ∶∶&nbsp;y ∶ 9, तो y/3x का मान क्या होगा?",
+    "options": [
+      "1/3",
+      "1",
+      "3",
+      "1/2"
+    ],
+    "options_hi": [
+      "1/3",
+      "1",
+      "3",
+      "1/2"
+    ],
+    "correct": 2,
+    "solution": "<p>If x ∶ 3 ∶∶&nbsp;y ∶ 9,</p>\n\n<p>&rArr; x/3 = y/9</p>\n\n<p>&rArr; y/x = 3</p>\n\n<p>&rArr; y/3x = 1</p>\n&there4; y/3x = 1",
+    "solution_hi": "<p>यदि x ∶ 3 ∶∶&nbsp;y ∶ 9,&nbsp;</p>\n\n<p>&rArr; x/3 = y/9</p>\n\n<p>&rArr; y/x = 3</p>\n\n<p>&rArr; y/3x = 1</p>\n\n<p>&there4; y/3x = 1</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "In a class of 39 students, there are 26 girls. The average weight of these girls is 42 Kgs and the average weight of the full class is 48 kgs. What is the average weight (in kgs) of the boys in the class?",
+    "question_hi": "39 छात्रों की एक कक्षा में, 26 लड़कियां हैं। इन लड़कियों का औसत वज़न 42 किलो है और पूरी कक्षा का औसत वज़न 48 किलोग्राम है। कक्षा में लड़कों का औसत वज़न (किलो में) क्या है?",
+    "options": [
+      "54",
+      "66",
+      "60",
+      "62"
+    ],
+    "options_hi": [
+      "54",
+      "66",
+      "60",
+      "62"
+    ],
+    "correct": 3,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Number of <strong>Boys</strong> = <strong>39</strong> − <strong>26</strong> = <strong>13</strong>. Ratio of <strong>Girls</strong> : <strong>Boys</strong> = <strong>26</strong> : <strong>13</strong> = <strong>2</strong> : <strong>1</strong>.</p>\n<p>Deviation of <strong>Girls average</strong> (<strong>42</strong>) from <strong>Class average</strong> (<strong>48</strong>) = <strong>−6</strong>.</p>\n<p>Total deviation for <strong>2 units</strong> of girls = <strong>2</strong> × (<strong>−6</strong>) = <strong>−12</strong>.</p>\n<p>To balance, deviation for <strong>1 unit</strong> of boys must be <strong>+12</strong>.</p>\n<p><strong>Average weight of boys</strong> = <strong>48</strong> + <strong>12</strong> = <strong>60 kg</strong>.</p>\n<p><strong>∴ The correct answer is 60 kg.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong> Total students = <strong>39</strong>, <strong>Girls</strong> = <strong>26</strong>, <strong>Avg weight of girls</strong> = <strong>42 kg</strong>, <strong>Avg weight of class</strong> = <strong>48 kg</strong>.</p>\n<p><strong>Formula:</strong> Total Weight = <strong>Average</strong> × <strong>Number of students</strong></p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_b4e0049d.png/1784279627.png\" style=\"max-width: 100%; height: auto;\"></div>\n<p>⇒ Number of <strong>Boys</strong> = <strong>39</strong> − <strong>26</strong> = <strong>13</strong></p>\n<p>⇒ Total weight of the <strong>class</strong> = <strong>39</strong> × <strong>48</strong> = <strong>1872 kg</strong></p>\n<p>⇒ Total weight of <strong>girls</strong> = <strong>26</strong> × <strong>42</strong> = <strong>1092 kg</strong></p>\n<p>⇒ Total weight of <strong>boys</strong> = <strong>1872</strong> − <strong>1092</strong> = <strong>780 kg</strong></p>\n<p>⇒ <strong>Average weight of boys</strong> = <strong>780</strong> ÷ <strong>13</strong></p>\n<p>⇒ <strong>Average weight of boys</strong> = <strong>60 kg</strong></p>\n<p><strong>∴ The correct answer is 60 kg.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Weighted Average Formula</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The combined average of two groups is given by A<sub>avg</sub> = (n<sub>1</sub>w<sub>1</sub> + n<sub>2</sub>w<sub>2</sub>) ÷ (n<sub>1</sub> + n<sub>2</sub>), where n is the count and w is the weight.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Deviation Method</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The sum of deviations of all observations from the mean is always zero. This helps in finding missing values quickly without large multiplications.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Rule of Alligation</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">(Quantity of Cheaper) ÷ (Quantity of Dearer) = (Rate of Dearer − Mean Rate) ÷ (Mean Rate − Rate of Cheaper).</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p><strong>लड़कों</strong> की संख्या = <strong>39</strong> − <strong>26</strong> = <strong>13</strong>. <strong>लड़कियों</strong> : <strong>लड़कों</strong> का अनुपात = <strong>26</strong> : <strong>13</strong> = <strong>2</strong> : <strong>1</strong>.</p>\n<p><strong>कक्षा के औसत</strong> (<strong>48</strong>) से <strong>लड़कियों के औसत</strong> (<strong>42</strong>) का विचलन = <strong>−6</strong>.</p>\n<p>लड़कियों की <strong>2 इकाइयों</strong> के लिए कुल विचलन = <strong>2</strong> × (<strong>−6</strong>) = <strong>−12</strong>.</p>\n<p>संतुलित करने के लिए, लड़कों की <strong>1 इकाई</strong> का विचलन <strong>+12</strong> होना चाहिए।</p>\n<p><strong>लड़कों का औसत वजन</strong> = <strong>48</strong> + <strong>12</strong> = <strong>60 किग्रा</strong>.</p>\n<p><strong>∴ सही उत्तर 60 किग्रा है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong> कुल छात्र = <strong>39</strong>, <strong>लड़कियां</strong> = <strong>26</strong>, <strong>लड़कियों का औसत वजन</strong> = <strong>42 किग्रा</strong>, <strong>कक्षा का औसत वजन</strong> = <strong>48 किग्रा</strong>।</p>\n<p><strong>सूत्र:</strong> कुल वजन = <strong>औसत</strong> × <strong>छात्रों की संख्या</strong></p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_b4e0049d.png/1784279627.png\" style=\"max-width: 100%; height: auto;\"></div>\n<p>⇒ <strong>लड़कों</strong> की संख्या = <strong>39</strong> − <strong>26</strong> = <strong>13</strong></p>\n<p>⇒ <strong>कक्षा</strong> का कुल वजन = <strong>39</strong> × <strong>48</strong> = <strong>1872 किग्रा</strong></p>\n<p>⇒ <strong>लड़कियों</strong> का कुल वजन = <strong>26</strong> × <strong>42</strong> = <strong>1092 किग्रा</strong></p>\n<p>⇒ <strong>लड़कों</strong> का कुल वजन = <strong>1872</strong> − <strong>1092</strong> = <strong>780 किग्रा</strong></p>\n<p>⇒ <strong>लड़कों का औसत वजन</strong> = <strong>780</strong> ÷ <strong>13</strong></p>\n<p>⇒ <strong>लड़कों का औसत वजन</strong> = <strong>60 किग्रा</strong></p>\n<p><strong>∴ सही उत्तर 60 किग्रा है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">भारित औसत सूत्र (Weighted Average Formula)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">दो समूहों का संयुक्त औसत A<sub>avg</sub> = (n<sub>1</sub>w<sub>1</sub> + n<sub>2</sub>w<sub>2</sub>) ÷ (n<sub>1</sub> + n<sub>2</sub>) द्वारा दिया जाता है, जहाँ n संख्या है और w वजन है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">विचलन विधि (Deviation Method)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">माध्य से सभी प्रेक्षणों के विचलनों का योग हमेशा शून्य होता है। यह बड़े गुणा के बिना लुप्त मानों को जल्दी खोजने में मदद करता है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">मिश्रण का नियम (Rule of Alligation)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">(सस्ती वस्तु की मात्रा) ÷ (महंगी वस्तु की मात्रा) = (महंगी दर − औसत दर) ÷ (औसत दर − सस्ती दर)।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "If a saree is sold for Rs. 2880 the seller will face 10% loss, at what price (in Rs) should he sell to gain 20% profit?",
+    "question_hi": "यदि एक साड़ी 2880 रुपये के लिए बेची जाती है तो विक्रेता को 10% हानि का सामना करना पड़ सकता है, 20% का लाभ हासिल करने के लिए उसको वह किस कीमत पर (रुपये में) बेचनी चाहिए?",
+    "options": [
+      "4830",
+      "3840",
+      "3480",
+      "4380"
+    ],
+    "options_hi": [
+      "4830",
+      "3840",
+      "3480",
+      "4380"
+    ],
+    "correct": 2,
+    "solution": "<p>When selling price = Rs. 2880, loss = 10%</p>\n\n<p>∵ Cost price &ndash; loss = Selling price</p>\n\n<p>&rArr; CP &ndash; 10% of CP = 2880</p>\n\n<p>&rArr; 0.9CP = 2880</p>\n\n<p>&rArr; Cost price = 2880/0.9 = Rs. 3200</p>\n\n<p>∵ Selling price = Cost price + Profit</p>\n&there4; To gain a profit of 20%, selling price = 3200 + 20% &times; 3200 = Rs. 3840",
+    "solution_hi": "<p>जब बिक्री मूल्य = 2880 रुपये, हानि = 10%</p>\n\n<p>∵ लागत मूल्य &ndash; हानि = बिक्री मूल्य</p>\n\n<p>&rArr; CP &ndash; CP का 10% = 2880</p>\n\n<p>&rArr; 0.9CP = 2880</p>\n\n<p>&rArr; लागत मूल्य = 2880/0.9 = 3200 रुपये</p>\n\n<p>∵ बिक्री मूल्य = लागत मूल्य + लाभ</p>\n&there4; 20% का लाभ पाने के लिए, बिक्री मूल्य = 3200 + 20% &times; 3200 = 3840 रुपये",
+    "marks": "2"
+  },
+  {
+    "question": "Priya got 9 marks more in History than what she got in Geography. Her history marks are 56% of the sum of her History and Geography marks. What are her Geography marks?",
+    "question_hi": "भूगोल में जो भी अंक मिले हैं, उससे प्रिया को इतिहास में 9 अंक अधिक मिले हैं। उसके इतिहास के अंक इतिहास और भूगोल अंकों के योग का 56% हैं। उसके भूगोल के अंक क्या हैं?",
+    "options": [
+      "42",
+      "65",
+      "53",
+      "33"
+    ],
+    "options_hi": [
+      "42",
+      "65",
+      "53",
+      "33"
+    ],
+    "correct": 4,
+    "solution": "<p>Let Priya&rsquo;s marks in Geography and History be &lsquo;x&rsquo; and &lsquo;y&rsquo; respectively</p>\n\n<p>She got 9 more marks in History than in Geography,</p>\n\n<p>&rArr; y = x + 9</p>\n\n<p>Also, her History marks is 56% of sum of both marks</p>\n\n<p>&rArr; y = 56% of (x + y)</p>\n\n<p>&rArr; y = 0.56x + 0.56y</p>\n\n<p>&rArr; 0.44y = 0.56x</p>\n\n<p>Substituting for y,</p>\n\n<p>&rArr; 0.44(x + 9) = 0.56x</p>\n\n<p>&rArr; 0.44x + 3.96 = 0.56x</p>\n\n<p>&rArr; 0.12x = 3.96</p>\n\n<p>&rArr; x = 3.96/0.12 = 33</p>\n&there4; Priya&rsquo;s Geography marks = 33",
+    "solution_hi": "<p>भूगोल और इतिहास में प्रिया के अंक क्रमश: &#39;x&#39; और &#39;y&#39; मान लेते हैं।</p>\n\n<p>भूगोल की तुलना में उसे इतिहास में 9 अंक और मिले हैं,</p>\n\n<p>&rArr; y = x + 9</p>\n\n<p>इसके साथ ही, उसके इतिहास के अंक दोनों अंकों के योग का 56% है।</p>\n\n<p>&rArr; y = 56% of (x + y)</p>\n\n<p>&rArr; y = 0.56x + 0.56y</p>\n\n<p>&rArr; 0.44y = 0.56x</p>\n\n<p>y के लिए प्रतिस्थापित करना,</p>\n\n<p>&rArr; 0.44(x + 9) = 0.56x</p>\n\n<p>&rArr; 0.44x + 3.96 = 0.56x</p>\n\n<p>&rArr; 0.12x = 3.96</p>\n\n<p>&rArr; x = 3.96/0.12 = 33</p>\n&there4; प्रिया के भूगोल के अंक = 33",
+    "marks": "2"
+  },
+  {
+    "question": "To travel 720 km, a Express train takes 6 hours more than Duronto. If however, the speed of the Express train is doubled, it takes 2 hours less than Duronto. The speed of Duronto (in km/hr) is?",
+    "question_hi": "720 किमी की यात्रा के लिए, एक एक्सप्रेस ट्रेन दुरोंतो से 6 घंटे अधिक लेती है। अगर, एक्सप्रेस ट्रेन की गति दोगुनी हो जाती है, तो वह दुरोंतो से 2 घंटे कम लेती है। दुरोंतो की गति (किमी प्रति घंटा में) क्या है?",
+    "options": [
+      "60",
+      "72",
+      "66",
+      "78"
+    ],
+    "options_hi": [
+      "60",
+      "72",
+      "66",
+      "78"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the speed of Duronto be &lsquo;x&rsquo; km/hr</p>\n\n<p>Time taken by Duronto to travel 720 km = 720/x hrs.</p>\n\n<p>Let the initial speed of Express train be &lsquo;y&rsquo; km/hr</p>\n\n<p>Time taken by Express train to travel 720 km = 720/y hrs.</p>\n\n<p>∵ Express train takes 6 hours more than Duronto,</p>\n\n<p>&rArr; 720/y = 6 + 720/x&nbsp; &nbsp; &nbsp; ----(1)</p>\n\n<p>When the speed of Express train is doubled, it takes 2 hours less than Duronto,</p>\n\n<p>&rArr; 720/2y = 720/x &ndash; 2</p>\n\n<p>&rArr; 720/y = 1440/x &ndash; 4</p>\n\n<p>Substituting from (1),</p>\n\n<p>&rArr; 6 + 720/x = 1440/x &ndash; 4</p>\n\n<p>&rArr; 6 + 4 = 1440/x &ndash; 720/x</p>\n\n<p>&rArr; 10 = 720/x</p>\n\n<p>&rArr; x = 720/10 = 72 km/hr</p>\n&there4; Speed of Duronto = 72 km/hr",
+    "solution_hi": "<p>दुरोंतो की गति को &#39;x&#39; किमी प्रति घंटा मान लेते हैं।</p>\n\n<p>720 किमी की यात्रा करने के लिए दुरोंतो द्वारा लिया गया समय = 720/x घंटा</p>\n\n<p>एक्सप्रेस ट्रेन की प्रारंभिक गति को &#39;y&#39; किमी प्रति घंटा मान लेते हैं।</p>\n\n<p>720 किमी की यात्रा करने के लिए एक्सप्रेस ट्रेन द्वारा लिया गया समय = 720/y hrs.</p>\n\n<p>∵ एक्सप्रेस ट्रेन दुरोंतो से 6 घंटे अधिक लेती है,</p>\n\n<p>&rArr; 720/y = 6 + 720/x&nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>जब एक्सप्रेस ट्रेन की गति दोगुनी हो जाती है, तो वह दुरोंतो से 2 घंटे कम लेती है।</p>\n\n<p>&rArr; 720/2y = 720/x &ndash; 2</p>\n\n<p>&rArr; 720/y = 1440/x &ndash; 4</p>\n\n<p>(1) से प्रतिस्थापित करके,</p>\n\n<p>&rArr; 6 + 720/x = 1440/x &ndash; 4</p>\n\n<p>&rArr; 6 + 4 = 1440/x &ndash; 720/x</p>\n\n<p>&rArr; 10 = 720/x</p>\n\n<p>&rArr; x = 720/10 = 72 किमी प्रति घंटा</p>\n&there4; दुरोंतो की गति = 72 किमी प्रति घंटा",
+    "marks": "2"
+  },
+  {
+    "question": "What is the difference (in Rs) between the compound interests on Rs. 1000 for 1 year at 10% per annum compounded yearly and half-yearly?",
+    "question_hi": "चक्रवृद्धि ब्याज जो 1000 रुपये की राशि एक वर्ष के लिए 10% की दर से वार्षिक संयोजित ब्याज और अर्ध- वार्षिक संयोजित ब्याज में (रुपये में) अंतर क्या है?",
+    "options": [
+      "1.5",
+      "0.5",
+      "2.5",
+      "3.5"
+    ],
+    "options_hi": [
+      "1.5",
+      "0.5",
+      "2.5",
+      "3.5"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>GIVEN:</strong></p>\n\n<p>P = Rs. 1000</p>\n\n<p>Rate = 10%</p>\n\n<p>Time = 1 year</p>\n\n<p><strong>FORMULA USED:</strong></p>\n\n<p>On a sum of Rs. P at rate of R% per annum after n years,</p>\n\n<p>Compound interest = P[(1 + R/100)<sup>n</sup> &ndash; 1], when compounded annually</p>\n\n<p>Compound interest = P[(1 + R/200)<sup>2n</sup> &ndash; 1], when compounded half-yearly</p>\n\n<p><strong>CALCULATION:</strong></p>\n\n<p>Interest compounded annually = 1000 &times; (1 + 10/100 &ndash; 1) = 1000 &times; 0.1 = Rs. 100</p>\n\n<p>Interest compounded half-yearly = 1000 &times; [(1 + 10/200)<sup>2</sup> &ndash; 1] = 1000 &times; 0.1025 = Rs. 102.5</p>\n&there4; Required difference = 102.5 &ndash; 100 = Rs. 2.5",
+    "solution_hi": "<p><strong>दिया गया है,</strong></p>\n\n<p>P = Rs. 1000, R = 10%, n = 1 वर्ष</p>\n\n<p><strong>सूत्र का प्रयोग:</strong></p>\n\n<p>n वर्षों के बाद, रुपये P की राशि पर प्रति वर्ष R% की दर से</p>\n\n<p>चक्रवृद्धि ब्याज = P[(1 + R/100)<sup>n</sup> &ndash; 1], जब वार्षिक रूप से संयोजित किया जाता है।</p>\n\n<p>चक्रवृद्धि ब्याज = P[(1 + R/200)<sup>2n</sup> &ndash; 1], जब अर्ध- वार्षिक रूप से संयोजित किया जाता है।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>वार्षिक संयोजित ब्याज = 1000 &times; (1 + 10/100 &ndash; 1) = 1000 &times; 0.1 = 100 रुपये</p>\n\n<p>अर्ध- वार्षिक संयोजित ब्याज = 1000 &times; [(1 + 10/200)<sup>2</sup> &ndash; 1] = 1000 &times; 0.1025 = 102.5 रुपये</p>\n&there4; आवश्यक अंतर = 102.5 &ndash; 100 = 2.5 रुपये",
+    "marks": "2"
+  },
+  {
+    "question": "If 7x - (3/2) &times; (4x - 9) = 6.5, then the value of x is?",
+    "question_hi": "यदि 7x - (3/2) &times; (4x - 9) = 6.5, तो x का मान क्या है?",
+    "options": [
+      "7",
+      "20",
+      "-7",
+      "-20"
+    ],
+    "options_hi": [
+      "7",
+      "20",
+      "-7",
+      "-20"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>7x - (3/2) &times;&nbsp;(4x - 9) = 6.5</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 7x - 3/2&nbsp;&times; 4x +&nbsp;3/2&nbsp;&times; 9 = 6.5</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 7x - 6x +&nbsp;27/2 = 6.5</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; x = 6.5 -&nbsp;27/2</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; x = 6.5 -&nbsp;13.5</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; x = - 7</span></p>\n\n<p><strong>&there4; The correct answer is option (3).</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया:</strong></p>\n\n<p style=\"color: rgb(33, 37, 41);\">7x - (3/2) &times;&nbsp;(4x - 9) = 6.5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 7x - 3/2&nbsp;&times; 4x +&nbsp;3/2&nbsp;&times; 9 = 6.5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 7x - 6x +&nbsp;27/2 = 6.5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; x = 6.5 -&nbsp;27/2</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; x = 6.5 -&nbsp;13.5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; x = - 7</p>\n\n<p><strong>&there4; सही उत्तर विकल्प (3) है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If a + b = 8 and ab = 15, then what is the value of a<sup>3</sup> + b<sup>3</sup>?",
+    "question_hi": "यदि a + b = 8 and ab = 15, तो a<sup>3</sup> + b<sup>3</sup> का मान क्या है?",
+    "options": [
+      "98",
+      "152",
+      "124",
+      "260"
+    ],
+    "options_hi": [
+      "98",
+      "152",
+      "124",
+      "260"
+    ],
+    "correct": 2,
+    "solution": "<p>∵ a<sup>3</sup> + b<sup>3</sup> = (a + b)<sup>3</sup> &ndash; 3ab(a + b)</p>\n&there4; a<sup>3</sup> + b<sup>3</sup> = (8)<sup>3</sup> &ndash; 3(15)(8) = 512 &ndash; 360 = 152",
+    "solution_hi": "<p>∵ a<sup>3</sup> + b<sup>3</sup> = (a + b)<sup>3</sup> &ndash; 3ab(a + b)</p>\n&there4; a<sup>3</sup> + b<sup>3</sup> = (8)<sup>3</sup> &ndash; 3(15)(8) = 512 &ndash; 360 = 152",
+    "marks": "2"
+  },
+  {
+    "question": "The sum of a non-zero number and 4 times its reciprocal is 17/2. What is the number?",
+    "question_hi": "गैर शून्य संख्या और उसके व्युत्क्रम&nbsp;का 4 गुना का&nbsp;योग 17/2 है। संख्या क्या है?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "4"
+    ],
+    "options_hi": [
+      "8",
+      "12",
+      "16",
+      "4"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the number be &lsquo;x&rsquo;</p>\n\n<p>&rArr; x + 4/x = 17/2</p>\n\n<p>&rArr; 2x<sup>2</sup> + 8 = 17x</p>\n\n<p>&rArr; 2x<sup>2</sup> &ndash; 17x + 8 = 0</p>\n\n<p>&rArr; 2x<sup>2</sup> &ndash; 16x &ndash; x + 8 = 0</p>\n\n<p>&rArr; 2x(x &ndash; 8) &ndash; 1(x &ndash; 8) = 0</p>\n\n<p>&rArr; (x &ndash; 8)(2x &ndash; 1) = 0</p>\n\n<p>&rArr; x = 8, 1/2</p>\n&there4; The number is 8",
+    "solution_hi": "<p>संखया को &lsquo;x&rsquo; मान लेते हैं।</p>\n\n<p>&rArr; x + 4/x = 17/2</p>\n\n<p>&rArr; 2x<sup>2</sup> + 8 = 17x</p>\n\n<p>&rArr; 2x<sup>2</sup> &ndash; 17x + 8 = 0</p>\n\n<p>&rArr; 2x<sup>2</sup> &ndash; 16x &ndash; x + 8 = 0</p>\n\n<p>&rArr; 2x(x &ndash; 8) &ndash; 1(x &ndash; 8) = 0</p>\n\n<p>&rArr; (x &ndash; 8)(2x &ndash; 1) = 0</p>\n\n<p>&rArr; x = 8, 1/2</p>\n&there4; संख्या 8 है।",
+    "marks": "2"
+  },
+  {
+    "question": "The 5th and 9th term of an arithmetic progression are 7 and 13 respectively. What is the 15th term?",
+    "question_hi": "समांतर श्रेणी का पांचवां और नौवां पद क्रमशः 7 और 13 है। पंद्रहवां पद क्या है?",
+    "options": [
+      "22",
+      "21",
+      "55",
+      "59"
+    ],
+    "options_hi": [
+      "22",
+      "21",
+      "55",
+      "59"
+    ],
+    "correct": 1,
+    "solution": "<p>The nth term of an AP with first term &lsquo;a&rsquo; and difference &lsquo;d&rsquo; = a + (n &ndash; 1)d</p>\n\n<p>5<sup>th</sup> term = a + 4d = 7&nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>9<sup>th</sup> term = a + 8d = 13&nbsp; &nbsp; &nbsp;----(2)</p>\n\n<p>Subtracting (1) from (2), we get,</p>\n\n<p>&rArr; a + 8d &ndash; a &ndash; 4d = 13 &ndash; 7</p>\n\n<p>&rArr; 4d = 6</p>\n\n<p>&rArr; d = 3/2</p>\n\n<p>Substituting in (1),</p>\n\n<p>&rArr; a = 7 &ndash; 4(3/2) = 1</p>\n&there4; 15<sup>th</sup> term = a + 14d = 1 + 14(3/2) = 1 + 21 = 22",
+    "solution_hi": "<p>समांतर श्रेणी का n वां पद पहले पद &lsquo;a&rsquo; और अंतर &lsquo;d&rsquo; के साथ = a + (n &ndash; 1)d</p>\n\n<p>पांचवां पद = a + 4d = 7&nbsp; &nbsp; &nbsp;----(1)</p>\n\n<p>नौवां पद = a + 8d = 13&nbsp; &nbsp; &nbsp;----(2)</p>\n\n<p>(2) में से (1) को घटाकर, हमें मिलता है,</p>\n\n<p>&rArr; a + 8d &ndash; a &ndash; 4d = 13 &ndash; 7</p>\n\n<p>&rArr; 4d = 6</p>\n\n<p>&rArr; d = 3/2</p>\n\n<p>1. में प्रतिस्थापित करके,</p>\n\n<p>&rArr; a = 7 &ndash; 4(3/2) = 1</p>\n&there4; पंद्रहवां पद = a + 14d = 1 + 14(3/2) = 1 + 21 = 22",
+    "marks": "2"
+  },
+  {
+    "question": "What is the reflection of the point (6, -3) in the line y = 2?",
+    "question_hi": "रेखा y = 2 में बिंदु (6, -3) का परावर्तन क्या है?",
+    "options": [
+      "(-2, -3)",
+      "(6, 7)",
+      "(-6, 7)",
+      "(-2, 3)"
+    ],
+    "options_hi": [
+      "(-2, -3)",
+      "(6, 7)",
+      "(-6, 7)",
+      "(-2, 3)"
+    ],
+    "correct": 2,
+    "solution": "<p>When a point is reflected about the x-axis, the x-coordinate remains the same and only the y-coordinate is transformed</p>\n\n<p><span style=\"display: none;\">&nbsp;</span>&nbsp;<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/04/F1_Savita_Teaching_12-4-23_D1.png\" style=\"width: 300px; height: 370px;\" /></p>\n\n<p>∵ The line y = 2 is parallel to the x-axis, x-coordinate will remain the same after reflection</p>\n\n<p>Now, along the y-direction, the distance between the reflected point and the line will be equal to the distance between the original point and the line</p>\n\n<p>&rArr; Distance between point and line along y-direction = |-3 &ndash; (2)| = |-5| = 5 unit</p>\n\n<p>&rArr; Y-coordinate of reflection = 2 + 5 = 7</p>\n&there4; The reflection point is (6, 7)",
+    "solution_hi": "<p>जब एक बिंदु x-अक्ष के संबंध में परावर्तित किया जाता है, x- निर्देशांक वही रहता है और केवल y-निर्देशांक बदल जाता है।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/04/F1_Savita_Teaching_12-4-23_D1.png\" style=\" width: 300px; height: 370px;\" /></p>\n\n<p>∵ रेखा y = 2 ,x-अक्ष के समानांतर है, परावर्तन के बाद x- निर्देशांक वही रहता है।</p>\n\n<p>अब, y-दिशा के साथ, परावर्तन बिंदु और रेखा के बीच की दूरी मूल बिंदु और रेखा के बीच की दूरी के बराबर है।</p>\n\n<p>&rArr; बिंदु और y-दिशा के साथ रेखा के बीच की दूरी = |-3 &ndash; (2)| = |-5| = 5 इकाई</p>\n\n<p>&rArr; परावर्तन का y-निर्देशांक = 2 + 5 = 7</p>\n&there4; परावर्तन बिंदु (6, 7) है।",
+    "marks": "2"
+  },
+  {
+    "question": "Point A (24/7, 2) divides segment BC in the ratio 2 : 5. Co-ordinates of B are (2, 6) and C are (7, y). What is the value of y?",
+    "question_hi": "बिंदु A(24/7, 2) खंड़ BC को अनुपात बीसी को 2 : 5. के अनुपात में विभाजित करता है। B के निर्देशांक (2, 6) और C के निर्देशांक (7, y) हैं। y का क्या मान है?",
+    "options": [
+      "8",
+      "-8",
+      "6",
+      "-6"
+    ],
+    "options_hi": [
+      "8",
+      "-8",
+      "6",
+      "-6"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">A (24/7, 2) divides segment BC in the ratio 2 : 5</span></p>\n\n<p><strong><span style=\"\">Solution:</span></strong></p>\n\n<p>According to the section formula,</p>\n\n<p>&rArr; If a point A(x, y) that lies on a line segment BC joining points B(x<sub>1</sub>, y<sub>1</sub>) and C(x<sub>2</sub>, y<sub>2</sub>), divides the line in the ratio m∶ n, then the coordinates of A can be computed as,</p>\n\n<p>&rArr; Coordinates of A = (x, y) = [(mx<sub>2</sub> + nx<sub>1</sub>)/(m + n)], [(my<sub>2</sub> + ny<sub>1</sub>)/(m + n)]</p>\n\n<p>Given, point A<span style=\"\">(24/7, 2)</span> divides the segment joining B(2, 6) and C(7, y) in the ratio 2 ∶ 5,</p>\n\n<p>Hence,</p>\n\n<p>Coordinates of A = <span style=\"\">(24/7, 2)</span> = [(7m + 2n)/(m + n)], [(y m + 6n)/(m + n)]</p>\n\n<p>Considering y-coordinate,</p>\n\n<p>&rArr; 2 = (y m + 6n)/(m + n)</p>\n\n<p>Substituting for m and n,</p>\n\n<p>&rArr; 2 = (2y + 30)/7</p>\n\n<p>&rArr; 14 = 2y + 30</p>\n\n<p>&rArr; 2y = -16</p>\n<strong>&there4; y = -8</strong>",
+    "solution_hi": "<p style=\"\"><span style=\"font-weight: 700;\">दिया है:</span></p>\n\n<p style=\"\">A (24/7, 2) खंड BC को 2 : 5 के अनुपात में विभाजित करता है</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">हल:</span></p>\n\n<p>खंड सूत्र के अनुसार,</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>यदि एक बिंदु A(x, y) जोड़ने वाले बिंदु B(x<sub>1</sub>, y<sub>1</sub>) और C(x<sub>2</sub>, y<sub>2</sub>) खंड BC पर स्थित है, तो वह रेखा को m : n के अनुपात में विभाजित करता है, तब A के निर्देशांक की गणना की जा सकती है,</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>A के निर्देशांक = (x, y) = [(mx<sub>2</sub> + nx<sub>1</sub>)/(m + n)], [(my<sub>2</sub> + ny<sub>1</sub>)/(m + n)]</p>\n\n<p>दिया गया है कि, बिंदू A<span style=\"\">(24/7, 2)</span> अनुपात 2∶ 5 में B(2, 6) और C(7, y) को जोड़ने वाले खंड़ को विभाजित करता है,</p>\n\n<p>इसलिए,</p>\n\n<p>A के निर्देशांक = <span style=\"\">(24/7, 2)</span> = [(7m + 2n)/(m + n)], [(ym + 6n)/(m + n)]</p>\n\n<p>y- निर्देशांक को ध्यान में रखते हुए,</p>\n\n<p>&rArr; 2 = (ym + 6n)/(m + n)</p>\n\n<p>m और n के लिए प्रतिस्थापित करके,</p>\n\n<p>&rArr; 2 = (2y + 30)/7</p>\n\n<p>&rArr; 14 = 2y + 30</p>\n\n<p>&rArr; 2y = -16</p>\n<strong>&there4; y = -8</strong>",
+    "marks": "2"
+  },
+  {
+    "question": "At what point does the line 2x - 3y = 6 cuts the X axis?",
+    "question_hi": "रेखा 2x - 3y = 6, X -अक्ष को किस बिंदु पर काटती है?",
+    "options": [
+      "(-3, 0)",
+      "(0, 3)",
+      "(0, -3)",
+      "(3, 0)"
+    ],
+    "options_hi": [
+      "(-3, 0)",
+      "(0, 3)",
+      "(0, -3)",
+      "(3, 0)"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">&rArr; 2x - 3y = 6&nbsp;</span></p>\n\n<p><strong><span style=\"\">Solution:</span></strong></p>\n\n<p><span style=\"\">We know that,</span></p>\n\n<p>At x &ndash; axis, the value of y-coordinate is zero</p>\n\n<p>Putting y = 0,</p>\n\n<p>&rArr; 2x - 3y = 6</p>\n\n<p>&rArr; 2x - 3(0) = 6</p>\n\n<p>&rArr; 2x = 6</p>\n\n<p>&rArr; x = 6/2 = 3</p>\n<strong>&there4; The required point is (3, 0)</strong>",
+    "solution_hi": "<p><strong>दिया गया&nbsp;है:</strong></p>\n\n<p><span style=\"\">&rArr; 2x - 3y = 6</span></p>\n\n<p><strong><span style=\"\">हल:</span></strong></p>\n\n<p><span style=\"\">हम जानते हैं कि,</span></p>\n\n<p style=\"\">x &ndash;अक्ष पर, y-निर्देशांक का मान 0 (शून्य) होता&nbsp;है।</p>\n\n<p style=\"\">y = 0 रखने पर,</p>\n\n<p style=\"\">&rArr; 2x - 3y = 6</p>\n\n<p style=\"\">&rArr; 2x - 3(0) = 6</p>\n\n<p style=\"\">&rArr; 2x = 6</p>\n\n<p style=\"\">&rArr; x = 6/2 = 3</p>\n<span style=\"font-weight: 700; \">&there4; अभीष्ट बिंदु (3, 0) है।</span>",
+    "marks": "2"
+  },
+  {
+    "question": "∆ABC is right angled at B. BD is an altitude. AD = 4 cm and DC = 9 cm. What is the value of BD (in cm)?",
+    "question_hi": "∆ABC समकोण B पर है। BD एक शीर्षलंब है। AD = 4 सेमी और DC = 9 सेमी है। BD का (सेमी में) क्या मान है?",
+    "options": [
+      "5",
+      "4.5",
+      "5.5",
+      "6"
+    ],
+    "options_hi": [
+      "5",
+      "4.5",
+      "5.5",
+      "6"
+    ],
+    "correct": 4,
+    "solution": "<p>Let the length of BD be &lsquo;x&rsquo; cm</p>\n\n<p>In the given figure below,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/11/SSC_CGL_2017_23Aug_S1_hindi_images_Q18.PNG\" /></p>\n\n<p>Applying Pythagoras theorem in ∆ABD,</p>\n\n<p>&rArr; AB<sup>2</sup> = AD<sup>2</sup> + BD<sup>2</sup> = x<sup>2</sup> + 16</p>\n\n<p>Applying Pythagoras theorem in ∆BCD,</p>\n\n<p>&rArr; BC<sup>2</sup> = BD<sup>2</sup> + CD<sup>2</sup> = x<sup>2</sup> + 81</p>\n\n<p>Applying Pythagoras theorem in ∆ABC,</p>\n\n<p>&rArr; AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup></p>\n\n<p>&rArr; (4 + 9)<sup>2</sup> = x<sup>2</sup> + 16 + x<sup>2</sup> + 81</p>\n\n<p>&rArr; 2x<sup>2</sup> = 72</p>\n\n<p>&rArr; x<sup>2</sup> = 36</p>\n\n<p>&rArr; x = &radic;36 = 6 cm</p>\n&there4; Value of BD = 6 cm",
+    "solution_hi": "<p>BD की लंबाई को &lsquo;x&rsquo; सेमी मान लेते हैं।</p>\n\n<p>नीचे दिये गये चित्र में,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/18/11/SSC_CGL_2017_23Aug_S1_hindi_images_Q18.PNG\" /></p>\n\n<p>∆ABD में पायथागोरस प्रमेय लगाकर,</p>\n\n<p>&rArr; AB<sup>2</sup> = AD<sup>2</sup> + BD<sup>2</sup> = x<sup>2</sup> + 16</p>\n\n<p>∆BCD में पायथागोरस प्रमेय लगाकर,</p>\n\n<p>&rArr; BC<sup>2</sup> = BD<sup>2</sup> + CD<sup>2</sup> = x<sup>2</sup> + 81</p>\n\n<p>∆ABC में पायथागोरस प्रमेय लगाकर,</p>\n\n<p>&rArr; AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup></p>\n\n<p>&rArr; (4 + 9)<sup>2</sup> = x<sup>2</sup> + 16 + x<sup>2</sup> + 81</p>\n\n<p>&rArr; 2x<sup>2</sup> = 72</p>\n\n<p>&rArr; x<sup>2</sup> = 36</p>\n\n<p>&rArr; x = &radic;36 = 6 cm</p>\n&there4; BD का मान = 6 सेमी",
+    "marks": "2"
+  },
+  {
+    "question": "tan 45&deg; + cosec 60&deg; = ?",
+    "question_hi": "tan 45&deg; + cosec 60&deg; = ?",
+    "options": [
+      "(1 + 2&radic;2)/2",
+      "(&radic;3 + 2)/&radic;6",
+      "5/&radic;3",
+      "(3 + 2&radic;3)/3"
+    ],
+    "options_hi": [
+      "(1 + 2&radic;2)/2",
+      "(&radic;3 + 2)/&radic;6",
+      "5/&radic;3",
+      "(3 + 2&radic;3)/3"
+    ],
+    "correct": 4,
+    "solution": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-2aaf6e3f-7fff-255c-c251-cd0246481823\"><span style=\"  background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Concept used:</span></span></p>\n<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/02/Trigo%20-%20Angles%20and%20Radian.PNG\" style=\"width: 392px; height: 218px;\" />\n<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-2aaf6e3f-7fff-255c-c251-cd0246481823\"><span style=\"  background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Calculation:</span></span></p>\n\n<div>tan 45&deg; + cosec 60&deg;</div>\n\n<p>&rArr; tan 45&deg; + 1/sin 60&deg; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (∵ tan 45&deg; = 1, sin 60&deg; = &radic;3/2)</p>\n\n<p>&rArr; 1 + 2/&radic;3</p>\n\n<p>&rArr; 1 + 2&radic;3/3</p>\n\n<p>&rArr; (3 + 2&radic;3)/3</p>\n",
+    "solution_hi": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-2aaf6e3f-7fff-255c-c251-cd0246481823\"><span style=\"  background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">उपयोग की गई अवधारणा:</span></span></p>\n<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/02/Trigo%20-%20Angles%20and%20Radian.PNG\" style=\"width: 392px; height: 218px;\" />\n<p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-2aaf6e3f-7fff-255c-c251-cd0246481823\"><span style=\"  background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">गणना:</span></span></p>\n\n<div>\n<div>tan 45&deg; + cosec 60&deg;</div>\n\n<p>&rArr; tan 45&deg; + 1/sin 60&deg; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (∵ tan 45&deg; = 1, sin 60&deg; = &radic;3/2)</p>\n\n<p>&rArr; 1 + 2/&radic;3</p>\n\n<p>&rArr; 1 + 2&radic;3/3</p>\n\n<p>&rArr; (3 + 2&radic;3)/3</p>\n</div>\n",
+    "marks": "2"
+  },
+  {
+    "question": "&Delta;XYZ is right angled at Y. If &ang;Z = 60&deg;, then Cosec X =",
+    "question_hi": "&Delta;XYZ समकोण Y पर है। यदि &ang;Z = 60&deg;, तो Cosec X =&nbsp;",
+    "options": [
+      "2",
+      "1/2",
+      "1/&radic;2",
+      "1/&radic;3"
+    ],
+    "options_hi": [
+      "2",
+      "1/2",
+      "1/&radic;2",
+      "1/&radic;3"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>In ∆XYZ, &ang;Y = 90&deg;(Right angle) and &ang;Z = 60&deg;</p>\n\n<p><strong>Solution:</strong></p>\n\n<p>We know that,</p>\n\n<p>Sum of angles of a triangle = 180&deg;</p>\n\n<p>&rArr; &ang;X + &ang;Y + &ang;Z = 180&deg;</p>\n\n<p>&rArr; &ang;X + 90&deg; + 60&deg; = 180&deg;</p>\n\n<p>&rArr; &ang;X = 180&deg; &ndash; 150&deg; = 30&deg;</p>\n\n<p>&there4; cosec X</p>\n\n<p><strong>&rArr;&nbsp; cosec 30&deg; = 2</strong></p>\n",
+    "solution_hi": "<p>दिया गया है, ∆XYZ में, &ang;Y = 90&deg; और &ang;Z = 60&deg;</p>\n\n<p>एक त्रिकोण के कोणों का योग = 180&deg;</p>\n\n<p>&rArr; &ang;X + &ang;Y + &ang;Z = 180&deg;</p>\n\n<p>&rArr; &ang;X + 90&deg; + 60&deg; = 180&deg;</p>\n\n<p>&rArr; &ang;X = 180&deg; &ndash; 150&deg; = 30&deg;</p>\n&there4; cosec X = cosec 30&deg; = 2",
+    "marks": "2"
+  },
+  {
+    "question": "If Cosec &theta; = 17/8, then Cot &theta; = ?",
+    "question_hi": "If Cosec &theta; = 17/8, then Cot &theta; = ?",
+    "options": [
+      "17/8",
+      "15/8",
+      "8/15",
+      "17/15"
+    ],
+    "options_hi": [
+      "17/8",
+      "15/8",
+      "8/15",
+      "17/15"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">Cosec &theta; = 17/8</span></p>\n\n<p><strong><span style=\"\">Solution:</span></strong></p>\n\n<p>Using trigonometric identities,</p>\n\n<p>&rArr; cosec<sup>2</sup> &theta; = 1 + cot<sup>2</sup> &theta;</p>\n\n<p>&rArr; cot<sup>2</sup> &theta; = cosec<sup>2</sup> &theta; &ndash; 1</p>\n\n<p>&rArr;&nbsp; 289/64 &ndash; 1</p>\n\n<p>&nbsp;&rArr;&nbsp;<span style=\"\">cot</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta;&nbsp;</span> = 225/64</p>\n\n<p>&there4; <span style=\"\">&nbsp;cot</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta;&nbsp;</span> = &radic;(225/64)</p>\n\n<p><strong>&nbsp;&rArr;<span style=\"\">&nbsp;cot</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta;&nbsp;</span>= 15/8</strong></p>\n",
+    "solution_hi": "<p>त्रिकोणमितिक सर्वसमिका का इस्तेमाल करके,</p>\n\n<p>cosec<sup>2</sup> &theta; = 1 + cot<sup>2</sup> &theta;</p>\n\n<p>&rArr; cot<sup>2</sup> &theta; = cosec<sup>2</sup> &theta; &ndash; 1 = 289/64 &ndash; 1 = 225/64</p>\n&there4; cot &theta; = &radic;(225/64) = 15/8",
+    "marks": "2"
+  },
+  {
+    "question": "Which movie grossed the second highest box office collections?",
+    "question_hi": "कौन सी फिल्म बॉक्स ऑफिस पर दूसरी अधिकतम कमाई वाली फिल्म रही?",
+    "options": [
+      "E",
+      "C",
+      "B",
+      "D"
+    ],
+    "options_hi": [
+      "E",
+      "C",
+      "B",
+      "D"
+    ],
+    "correct": 2,
+    "solution": "As seen from the given graph, the movie C grossed the second highest box office collections",
+    "solution_hi": "जैसा कि दिए गए ग्राफ (आरेख) से देखा गया है, फिल्म C बॉक्स ऑफिस पर दूसरी अधिकतम कमाई वाली फिल्म रही।",
+    "marks": "2"
+  },
+  {
+    "question": "By what percent collections of movie D were lower than that of movie B?",
+    "question_hi": "फिल्म B के मुकाबले फिल्म D के कितने प्रतिशत संग्रह कम थे?",
+    "options": [
+      "66.7",
+      "40",
+      "20",
+      "60"
+    ],
+    "options_hi": [
+      "66.7",
+      "40",
+      "20",
+      "60"
+    ],
+    "correct": 2,
+    "solution": "<p>Box office collections of movie D = Rs. 60 crores</p>\n\n<p>Box office collections of movie B = Rs. 100 crores</p>\n∴ Required percentage = [(100 – 60)/100] × 100 = 40%",
+    "solution_hi": "<p>फिल्म D के बॉक्स ऑफिस संग्रह = 60 करोड़ रुपये</p>\n\n<p>फिल्म B के बॉक्स ऑफिस संग्रह = 100 करोड़ रुपये</p>\n∴ आवश्यक प्रतिशत = [(100 – 60)/100] × 100 = 40%",
+    "marks": "2"
+  },
+  {
+    "question": "Collection of movie C is equal to the combined collections of which movies?",
+    "question_hi": "फिल्म C का संग्रह किन फिल्मों के संयुक्त संग्रह के बराबर है?",
+    "options": [
+      "F, A and D",
+      "B, D and F",
+      "B and D",
+      "A, B and F"
+    ],
+    "options_hi": [
+      "F, A और D",
+      "B, D और F",
+      "B और D",
+      "A, B और F"
+    ],
+    "correct": 2,
+    "solution": "<p>Box office collections of movie F, A and D = 90 + 40 + 60 = Rs. 190 crores</p>\n\n<p>Box office collections of movie B, D and F = 100 + 60 + 90 = Rs. 250 crores</p>\n\n<p>Box office collections of movie B and D = 100 + 60 = 160</p>\n\n<p>Box office collections of movie A, B and F = 40 + 100 + 90 = Rs. 230 crores</p>\n\n<p>∵ Box office collections of movie C = Rs. 250 crores</p>\n∴ Box office collections of movie C is equal to combines collections of movies B, D and F",
+    "solution_hi": "<p>फिल्म F, A और D के बॉक्स ऑफिस संग्रह = 90 + 40 + 60 = 190 करोड़ रुपये</p>\n\n<p>फिल्म B, D और F के बॉक्स ऑफिस संग्रह = 100 + 60 + 90 = 250 करोड़ रुपये</p>\n\n<p>फिल्म B और D के बॉक्स ऑफिस संग्रह = 100 + 60 = 160</p>\n\n<p>फिल्म A, B और F के बॉक्स ऑफिस संग्रह = 40 + 100 + 90 = 230 करोड़ रुपये</p>\n\n<p>∵ फिल्म C का बॉक्स ऑफिस संग्रह = 250 करोड़ रुपये</p>\n∴ फिल्म C का संग्रह B, D और F फिल्मों के संयुक्त संग्रह के बराबर है।",
+    "marks": "2"
+  },
+  {
+    "question": "If the producer gets 60% of the box office collections, how much (in crores) did the producer of the movies A and E get?",
+    "question_hi": "यदि निर्माता को बॉक्स ऑफिस संग्रह का 60% मिलता है, A और E की फिल्मों के निर्माताओं को (करोड़ों में) कितना मिलेगा?",
+    "options": [
+      "120",
+      "60",
+      "180",
+      "300"
+    ],
+    "options_hi": [
+      "120",
+      "60",
+      "180",
+      "300"
+    ],
+    "correct": 3,
+    "solution": "<p>Box office collections of movie A = Rs. 40 crores</p>\n\n<p>Box office collections of movie E = Rs. 260 crores</p>\n\n<p>If producer gets 60% of box office collections,</p>\n∴ Producer of movies A and E will get = 60% of (40 + 260) = 0.6 × 300 = Rs. 180 crores",
+    "solution_hi": "<p>फिल्म A के बॉक्स ऑफिस संग्रह = 40 करोड़ रुपये</p>\n\n<p>फिल्म E के बॉक्स ऑफिस संग्रह = 260 करोड़ रुपये</p>\n\n<p>यदि निर्माता को बॉक्स ऑफिस संग्रह का 60% मिलता है,</p>\n∴ A और E की फिल्मों के निर्माताओं को मिलेगा = (40 + 260) का 60% = 0.6 × 300 = 180 करोड़ रुपये ।",
+    "marks": "2"
+  }
+]
