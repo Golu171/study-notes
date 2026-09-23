@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What least number must be subtracted from 210, so that the sum is completely divisible by 11?",
+    "question_hi": "210 में से वह कौन सी न्यूनतम संख्या घटायी जानी चाहिए जिससे योग 11 से पुर्णतः विभाज्य हो जाये?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "options_hi": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correct": 4,
+    "solution": "<p>On dividing 210 by 11, a remainder of 1 is obtained</p>\n&there4; The least number that must be subtracted is 1",
+    "solution_hi": "<p>210 को 11 से विभाजित करने पर हमें शेषफल 1 प्राप्त होता है।</p>\n&there4; इसलिए, 210 से घटायी जाने वाली न्यूनतम संख्या 1 होगी।",
+    "marks": "2"
+  },
+  {
+    "question": "A can paint a house in 25 days and B can do it in 10 days. Along with C, they did the job in 6.25 days only. Then in how many days, C alone can do the job?",
+    "question_hi": "A किसी घर की रंगाई 25 दिनों में तथा B, 10 दिनों में कर सकता है। C के साथ मिलकर उन्होंने इस काम को केवल 6.25 दिनों में पूरा किया। तो C अकेले इस काम को कितने दिनों में पूरा कर सकता है?",
+    "options": [
+      "50",
+      "40",
+      "30",
+      "60"
+    ],
+    "options_hi": [
+      "50",
+      "40",
+      "30",
+      "60"
+    ],
+    "correct": 1,
+    "solution": "<p>A&rsquo;s 1 day work = 1/25</p>\n\n<p>B&rsquo;s 1 day work = 1/10</p>\n\n<p>Together with C, they do the job in 6.25 days,</p>\n\n<p>&rArr; A&rsquo;s 1 day work + B&rsquo;s 1 day work + C&rsquo;s 1 day work = 1/6.25</p>\n\n<p>&rArr; 1/25 + 1/10 + C&rsquo;s 1 day work = 4/25</p>\n\n<p>&rArr; C&rsquo;s 1 day work = 4/25 &ndash; 7/50 = 1/50</p>\n&there4; C can do the work alone in 50 days",
+    "solution_hi": "<p>A का 1 दिन का काम = 1/25</p>\n\n<p>B का 1 दिन का काम = 1/10</p>\n\n<p>C के साथ मिलकर वे इस काम को 6.25 दिनों में पूरा करते हैं।</p>\n\n<p>&rArr; A का 1 दिन का काम + B का 1 दिन का काम + C का 1 दिन का काम = 1/6.25</p>\n\n<p>&rArr; 1/25 + 1/10 + C का 1 दिन का काम = 4/25</p>\n\n<p>&rArr; C का 1 दिन का काम = 4/25 &ndash; 7/50 = 1/50</p>\n&there4; C अकेले काम को 50 दिनों में पूरा कर सकता है।",
+    "marks": "2"
+  },
+  {
+    "question": "What is the area (in sq cm) of a regular hexagon of side 6 cm?",
+    "question_hi": "6 सेमी भुजा वाले एक समषट्कोण का क्षेत्रफल (वर्ग सेमी में) क्या है?",
+    "options": [
+      "27&radic;3",
+      "54&radic;3",
+      "54",
+      "27"
+    ],
+    "options_hi": [
+      "27&radic;3",
+      "54&radic;3",
+      "54",
+      "27"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Side of regular hexagon = 6 cm</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Area of a regular hexagon with side &lsquo;a&rsquo; = 3&radic;3/2 &times; a<sup>2</sup></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Area of regular hexagon with side 6 cm = 3&radic;3/2 &times; 6 &times; 6 = 54&radic;3 cm<sup>2</sup></p>\n\n<p><strong><span style=\"\">So, the area of a regular hexagon with side &lsquo;6&rsquo; is&nbsp;54</span><span style=\"font-weight: 700; \">&radic;</span><span style=\"\">3 cm</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया है:</strong></p>\n\n<p>सम षट्भुज की भुजा = 6 सेमी</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>भुजा &#39;a&#39; वाले एक सम षट्भुज का क्षेत्रफल = 3&radic;3/2 &times; a<sup>2</sup></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>6 सेमी भुजा वाले सम षट्भुज का क्षेत्रफल = 3&radic;3/2 &times; 6 &times; 6 = 54&radic;3 सेमी<sup>2</sup></p>\n\n<p><strong><span style=\"\">अतः, &#39;6&#39; भुजा वाले एक सम षट्भुज का क्षेत्रफल 54</span></strong><span style=\"font-weight: 700; \">&radic;</span><strong><span style=\"font-weight: 700; \">3</span> <span style=\"\">सेमी</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span> है</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If 1 saree is offered free on purchase of 3 sarees, what is the effective discount on each saree?",
+    "question_hi": "यदि तीन साड़ी खरीदने पर ग्राहक को एक साड़ी मुफ्त दी जाती है, तो प्रत्येक साड़ी पर प्रभावी छूट क्या है?",
+    "options": [
+      "20%",
+      "30%",
+      "25%",
+      "40%"
+    ],
+    "options_hi": [
+      "20%",
+      "30%",
+      "25%",
+      "40%"
+    ],
+    "correct": 3,
+    "solution": "<p>Let marked price of 1 saree be Rs. x</p>\n\n<p>Marked price of 4 sarees = 4x</p>\n\n<p>Selling price of 4 sarees = Marked price of 3 sarees = 3x</p>\n\n<p>Total discount = 4x &ndash; 3x = x</p>\n&there4; Effective discount = (x/4x) &times; 100 = 25%",
+    "solution_hi": "<p>माना 1 साड़ी का अंकित मूल्य x रुपये है, तो</p>\n\n<p>4 साड़ी का अंकित मूल्य = 4x</p>\n\n<p>4 साड़ी का विक्रय-मूल्य = 3 साड़ी का अंकित मूल्य = 3x</p>\n\n<p>कुल छूट = 4x &ndash; 3x = x</p>\n&there4; प्रभावी छूट = (x/4x) &times; 100 = 25 प्रतिशत",
+    "marks": "2"
+  },
+  {
+    "question": "The ratio of present ages of R and S is 6 : 7. Before 12 years the ratio of their ages was 9 : 11. What is R&#39;s present age (in years)?",
+    "question_hi": "R और S की वर्तमान आयु का अनुपात 6 : 7 है। 12 वर्ष पहले उनकी आयु का अनुपात 9 : 11 था। R की वर्तमान आयु (वर्ष में) क्या है?",
+    "options": [
+      "56",
+      "48",
+      "36",
+      "44"
+    ],
+    "options_hi": [
+      "56",
+      "48",
+      "36",
+      "44"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the present age of R and S be &lsquo;6x&rsquo; and &lsquo;7x&rsquo; years respectively</p>\n\n<p>12 years ago, ratio of their ages = 9 ∶ 11</p>\n\n<p>&rArr; (6x &ndash; 12)/(7x &ndash; 12) = 9/11</p>\n\n<p>&rArr; 66x &ndash; 132 = 63x &ndash; 108</p>\n\n<p>&rArr; 66x &ndash; 63x = 132 &ndash; 108</p>\n\n<p>&rArr; 3x = 24</p>\n\n<p>&rArr; x = 24/3 = 8</p>\n&there4; R&rsquo;s present age = 6x = 6(8) = 48 years",
+    "solution_hi": "<p>माना R और S की वर्तमान आयु क्रमशः &lsquo;6x&rsquo; और &lsquo;7x&rsquo; है।</p>\n\n<p>12 वर्ष पहले उनकी आयु का अनुपात = 9 ∶ 11</p>\n\n<p>&rArr; (6x &ndash; 12)/(7x &ndash; 12) = 9/11</p>\n\n<p>&rArr; 66x &ndash; 132 = 63x &ndash; 108</p>\n\n<p>&rArr; 66x &ndash; 63x = 132 &ndash; 108</p>\n\n<p>&rArr; 3x = 24</p>\n\n<p>&rArr; x = 24/3 = 8</p>\n&there4; R की वर्तमान आयु = 6x = 6(8) = 48 वर्ष",
+    "marks": "2"
+  },
+  {
+    "question": "The average marks of 10 students in an examination was 25. It was later found that the marks of one student had been wrongly entered as 34 instead of 43. What is the correct average?",
+    "question_hi": "किसी परीक्षा में 10 विद्यार्थियों के अंकों का औसत 25 था। बाद में यह पाया गया कि एक विद्यार्थी को गलती से 43 के बजाय 34 अंक दे दिये गए हैं। सही औसत क्या है?",
+    "options": [
+      "25.5",
+      "24.1",
+      "24.5",
+      "25.9"
+    ],
+    "options_hi": [
+      "25.5",
+      "24.1",
+      "24.5",
+      "25.9"
+    ],
+    "correct": 4,
+    "solution": "<p>Total marks of 10 students before correction = 25 &times; 10 = 250</p>\n\n<p>Total marks of 10 students after correction = 250 &ndash; 34 + 43 = 259</p>\n&there4; Correct average = 259/10 = 25.9",
+    "solution_hi": "<p>संशोधन-पूर्व 10 विद्यार्थियों का कुल अंक = 25 &times; 10 = 250</p>\n\n<p>संशोधन के उपरांत 10 विद्यार्थियों का कुल अंक = 250 &ndash; 34 + 43 = 259</p>\n&there4; सही औसत = 259/10 = 25.9",
+    "marks": "2"
+  },
+  {
+    "question": "A wholesaler sells a jacket to a retailer at a profit of 25% and the retailer sells it to a customer at a profit of 20%. If the customer pays Rs. 2,400, what had it cost (in Rs.) the wholesaler ?",
+    "question_hi": "एक थोक-विक्रेता 25 प्रतिशत लाभ पर एक जैकेट किसी फुटकर विक्रेता को बेचता है तथा फुटकर विक्रेता इसे 20 प्रतिशत लाभ पर किसी ग्राहक को बेचता है। यदि, ग्राहक इसके लिए 2400 रुपये का भुगतान करता है, तो थोक-विक्रेता हेतु जैकेट का क्रय-मूल्य ज्ञात कीजिये।",
+    "options": [
+      "2000",
+      "1600",
+      "1800",
+      "2250"
+    ],
+    "options_hi": [
+      "2000",
+      "1600",
+      "1800",
+      "2250"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the cost of jacket to wholesaler be Rs. &lsquo;x&rsquo;</p>\n\n<p>Profit of wholesaler = 25%</p>\n\n<p>Cost to retailer = selling price of wholesaler = x + 25% of x = 1.25x</p>\n\n<p>Profit of retailer = 20%</p>\n\n<p>Cost to customer = selling price of retailer = 1.25x + 20% of 1.25x = 1.5x</p>\n\n<p>&rArr; 1.5x = 2400</p>\n\n<p>&rArr; x = 2400/1.5 = 1600</p>\n&there4; Cost of jacket to wholesaler = Rs. 1600",
+    "solution_hi": "<p>माना थोक विक्रेता के लिए जैकेट का क्रय मूल्य &lsquo;x&rsquo; रुपये है</p>\n\n<p>थोक-विक्रेता को प्राप्त लाभ = 25 प्रतिशत</p>\n\n<p>फुटकर विक्रेता का क्रय-मूल्य = थोक विक्रेता का विक्रय-मूल्य = x + x का 25% = 1.25x</p>\n\n<p>फुटकर विक्रेता को प्राप्त लाभ = 20%</p>\n\n<p>ग्राहक का क्रय-मूल्य = फुटकर विक्रेता का विक्रय-मूल्य = 1.25x + 1.25x का 20% = 1.5x</p>\n\n<p>&rArr; 1.5x = 2400</p>\n\n<p>&rArr; x = 2400/1.5 = 1600</p>\n&there4; थोक-विक्रेता हेतु जैकेट का क्रय-मूल्य = 1600 रुपये",
+    "marks": "2"
+  },
+  {
+    "question": "When a number is increased by 24, it becomes 104% of itself. What is the number?",
+    "question_hi": "एक संख्या में 24 की वृद्धि करने पर वह खुद की 104% हो जाती है। संख्या क्या है?",
+    "options": [
+      "300",
+      "100",
+      "600",
+      "1200"
+    ],
+    "options_hi": [
+      "300",
+      "100",
+      "600",
+      "1200"
+    ],
+    "correct": 3,
+    "solution": "<p>Let the number be &lsquo;x&rsquo;</p>\n\n<p>&rArr; x + 24 = 104% of x</p>\n\n<p>&rArr; x + 24 = 1.04x</p>\n\n<p>&rArr; 0.04x = 24</p>\n\n<p>&rArr; x = 24/0.04 = 600</p>\n&there4; The number is 600",
+    "solution_hi": "<p>माना संख्या &lsquo;x&rsquo; है।</p>\n\n<p>&rArr; x + 24 = x का 104%</p>\n\n<p>&rArr; x + 24 = 1.04x</p>\n\n<p>&rArr; 0.04x = 24</p>\n\n<p>&rArr; x = 24/0.04 = 600</p>\n&there4; अतः संख्या 600 है।",
+    "marks": "2"
+  },
+  {
+    "question": "If a boat goes a certain distance at 30 km/h and comes back the same distance at 20 km/hr, what is the average speed (in km/hr) for the total journey ?",
+    "question_hi": "यदि एक नाव किसी निश्चित स्थान पर 30 किमी प्रति घंटा की गति से जाती है तथा उसी स्थान पर पुनः 20 किमी प्रति घंटा की गति से लौटती है, तो कुल यात्रा के लिए नाव की औसत गति (किमी प्रति घंटा में) क्या है?",
+    "options": [
+      "25",
+      "24.5",
+      "24",
+      "25.5"
+    ],
+    "options_hi": [
+      "25",
+      "24.5",
+      "24",
+      "25.5"
+    ],
+    "correct": 3,
+    "solution": "<p>When equal distance is travelled with different speeds of &lsquo;x&rsquo; km/hr and &lsquo;y&rsquo; km/hr, then,</p>\n\n<p>Average speed = 2xy/(x + y)</p>\n\n<p>Given, speeds of 30 km/hr and 20 km/hr,</p>\n&there4; Average speed of journey = (2 &times; 30 &times; 20)/(30 + 20) = 1200/50 = 24 km/hr",
+    "solution_hi": "<p>समान दूरी को अलग-अलग गति अर्थात् &lsquo;x&rsquo; किमी प्रति घंटा और &lsquo;y&rsquo; किमी प्रति घंटा की दर से तय की जाती है, तब,</p>\n\n<p>औसत गति = 2xy/(x + y)</p>\n\n<p>दिया है, नाव की गति 30 किमी/घंटा तथा 20 किमी/घंटा है।</p>\n&there4; यात्रा की औसत गति = (2 &times; 30 &times; 20)/(30 + 20) = 1200/50 = 24 किमी/घंटा",
+    "marks": "2"
+  },
+  {
+    "question": "A sum fetched a total simple interest of Rs. 1200 at the rate of 7.5%/yr in 4 years. What is the sum (in Rs.)?",
+    "question_hi": "7.5 प्रतिशत साधारण ब्याज की दर से 4 वर्ष में किसी धनराशि पर कुल साधारण ब्याज 1200 रुपये प्राप्त होता है। धनराशि (रुपये में) क्या है?",
+    "options": [
+      "4000",
+      "6000",
+      "8000",
+      "7500"
+    ],
+    "options_hi": [
+      "4000",
+      "6000",
+      "8000",
+      "7500"
+    ],
+    "correct": 1,
+    "solution": "<p>Given, SI = Rs. 1200, Rate = 7.5%, Time = 4 years</p>\n\n<p>∵ Simple interest = (Principal &times; Rate &times; Time)/100</p>\n\n<p>&rArr; 1200 = (Principal &times; 7.5 &times; 4)/100</p>\n&there4; Principal sum of money = 120000/30 = Rs. 4000",
+    "solution_hi": "<p>दिया है, साधारण ब्याज = 1200 रुपये, दर = 7.5%, समय = 4 वर्ष</p>\n\n<p>∵ साधारण ब्याज = (मूलधन &times; दर &times; समय)/100</p>\n\n<p>&rArr; 1200 = (मूलधन &times; 7.5 &times; 4)/100</p>\n&there4; मूलधन = 120000/30 = 4000 रुपये",
+    "marks": "2"
+  },
+  {
+    "question": "If -3[1 - (x/2)] + 5x/3 = 1/6, then what is the value of x?",
+    "question_hi": "यदि -3[1 - (x/2)] + 5x/3 = 1/6 है, तो x का मान क्या है?",
+    "options": [
+      "2",
+      "-1",
+      "1",
+      "-2"
+    ],
+    "options_hi": [
+      "2",
+      "-1",
+      "1",
+      "-2"
+    ],
+    "correct": 3,
+    "solution": "<p>Given, -3[1 - (x/2)] + 5x/3 = 1/6</p>\n\n<p>&rArr; -3 + 3x/2 + 5x/3 = 1/6</p>\n\n<p>&rArr; 19x/6 = 1/6 + 3</p>\n\n<p>&rArr; 19x/6 = 19/6</p>\n&there4; x = 1",
+    "solution_hi": "<p>दिया है, -3[1 -&nbsp;(x/2)] + 5x/3 = 1/6</p>\n\n<p>&rArr; -3 + 3x/2 + 5x/3 = 1/6</p>\n\n<p>&rArr; 19x/6 = 1/6 + 3</p>\n\n<p>&rArr; 19x/6 = 19/6</p>\n&there4; x = 1",
+    "marks": "2"
+  },
+  {
+    "question": "If a + b = 3 and ab = -4, then what is the value of a<sup>3</sup> + b<sup>3</sup>?",
+    "question_hi": "यदि a + b = 3 और ab = -4 है, तब a<sup>3</sup> + b<sup>3</sup> का मान क्या है?",
+    "options": [
+      "36",
+      "63",
+      "12",
+      "-15"
+    ],
+    "options_hi": [
+      "36",
+      "63",
+      "12",
+      "-15"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>a + b = 3&nbsp;</p>\n\n<p>ab = -4&nbsp;</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>(a + b)<sup>3</sup>&nbsp;= a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;+ 3ab(a + b)</p>\n\n<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;= (a + b)<sup>3</sup>&nbsp;&ndash; 3ab(a + b)</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>a<sup>3</sup> + b<sup>3</sup> = (a + b)<sup>3</sup> - 3ab(a + b)</p>\n\n<p>&rArr; a<sup>3</sup> + b<sup>3</sup> = (3)<sup>3</sup> - 3(-4)(3)</p>\n\n<p>&rArr; 27 + 36 = 63</p>\n\n<p><strong>&there4; a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;is 63</strong></p>\n",
+    "solution_hi": "<p><span style=\"font-weight: 700;\">दिया है:</span></p>\n\n<p>a + b = 3&nbsp;</p>\n\n<p>ab = -4</p>\n\n<p><span style=\"font-weight: 700;\">प्रयुक्त अवधारणा:</span></p>\n\n<p>(a + b)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ 3ab(a + b)</p>\n\n<p>a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= (a + b)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;&ndash; 3ab(a + b)</p>\n\n<p><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p>a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= (a + b)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;- 3ab(a + b)</p>\n\n<p>&rArr; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= (3)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;- 3(-4)(3)</p>\n\n<p>&rArr; 27 + 36 = 63</p>\n\n<p><strong><span style=\"font-weight: 700;\">&there4; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;</span>का मान&nbsp;<span style=\"font-weight: 700;\">63&nbsp;</span>है।</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The sum of a non-zero number and 9 times its reciprocal is 10. What is the number?",
+    "question_hi": "एक गैर-शून्य संख्या और उसके व्युत्क्रम के 9 गुना का योग 10 है। संख्या क्या है?",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "90"
+    ],
+    "options_hi": [
+      "10",
+      "11",
+      "9",
+      "90"
+    ],
+    "correct": 3,
+    "solution": "<p>Let the number be &lsquo;x&rsquo;</p>\n\n<p>&rArr; x + 9/x = 10</p>\n\n<p>&rArr; x<sup>2</sup> + 9 = 10x</p>\n\n<p>&rArr; x<sup>2</sup> &ndash; 10x + 9 = 0</p>\n\n<p>&rArr; x<sup>2</sup> &ndash; 9x &ndash; x + 9 = 0</p>\n\n<p>&rArr; x(x &ndash; 9) &ndash; 1(x &ndash; 9) = 0</p>\n\n<p>&rArr; (x &ndash; 9)(x &ndash; 1) = 0</p>\n\n<p>&rArr; x = 9, 1</p>\n&there4; The number is 9",
+    "solution_hi": "<p>माना संख्या &lsquo;x&rsquo; है</p>\n\n<p>&rArr; x + 9/x = 10</p>\n\n<p>&rArr; x<sup>2</sup> + 9 = 10x</p>\n\n<p>&rArr; x<sup>2</sup> &ndash; 10x + 9 = 0</p>\n\n<p>&rArr; x<sup>2</sup> &ndash; 9x &ndash; x + 9 = 0</p>\n\n<p>&rArr; x(x &ndash; 9) &ndash; 1(x &ndash; 9) = 0</p>\n\n<p>&rArr; (x &ndash; 9)(x &ndash; 1) = 0</p>\n\n<p>&rArr; x = 9, 1</p>\n&there4; अतः संख्या 9 है।",
+    "marks": "2"
+  },
+  {
+    "question": "If the 1<sup>st</sup> and the 3<sup>rd</sup> term of an arithmetic progression are -10 and -4, what is the 12<sup>th </sup>term?",
+    "question_hi": "यदि किसी समांतर श्रेणी का पहला और&nbsp;तीसरा पद -10 एवं -4 है, तो 12वां पद क्या है?",
+    "options": [
+      "26",
+      "20",
+      "17",
+      "23"
+    ],
+    "options_hi": [
+      "26",
+      "20",
+      "17",
+      "23"
+    ],
+    "correct": 4,
+    "solution": "<p>The nth term of an AP with first term &lsquo;a&rsquo; and difference &lsquo;d&rsquo; = a + (n - 1)d</p>\n\n<p>1<sup>st</sup> term = a = -10</p>\n\n<p>3<sup>rd</sup> term = a + 2d = -4</p>\n\n<p>&rArr; -10 + 2d = -4</p>\n\n<p>&rArr; 2d = 10 - 4 = 6</p>\n\n<p>&rArr; d = 3</p>\n&there4; 12<sup>th</sup> term = a + 11d = -10 + 11(3) = -10 + 33 = 23",
+    "solution_hi": "<p>पहला पद &lsquo;a&rsquo; और सामान्य अंतर &lsquo;d&rsquo; वाली समांतर श्रेणी का nवां पद = a + (n &ndash; 1)d</p>\n\n<p>पहला पद = a = -10</p>\n\n<p>तीसरा पद = a + 2d = -4</p>\n\n<p>&rArr; -10 + 2d = -4</p>\n\n<p>&rArr; 2d = 10 - 4 = 6</p>\n\n<p>&rArr; d = 3</p>\n&there4; 12वां पद = a + 11d = -10 + 11(3) = -10 + 33 = 23",
+    "marks": "2"
+  },
+  {
+    "question": "What is the reflection of the point (2, -3.5) in the y-axis?",
+    "question_hi": "y-अक्ष में बिन्दु (2, -3.5) का प्रतिबिंब क्या है?",
+    "options": [
+      "(-2, 3.5)",
+      "(-2, -3.5)",
+      "(-3.5, -2)",
+      "(3.5, -2)"
+    ],
+    "options_hi": [
+      "(-2, 3.5)",
+      "(-2, -3.5)",
+      "(-3.5, -2)",
+      "(3.5, -2)"
+    ],
+    "correct": 2,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_13.10.22_D3.png\" style=\"height: 264px; width: 281px;\" /></p>\n\n<p>When a point is reflected in y-axis, the y-coordinate remains the same, but the x-coordinate is reversed</p>\n&there4; The reflection point is (-2, -3.5)",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_13.10.22_D3.png\" style=\" height: 264px; width: 281px;\" /></p>\n\n<p>जब किसी बिन्दु का प्रतिबिंब y-अक्ष में है, तो y-निर्देशांक समान रहता है। परंतु, x-निर्देशांक बदल जाता है।</p>\n&there4; प्रतिबिंब बिन्दु (-2, -3.5) है।",
+    "marks": "2"
+  },
+  {
+    "question": "Point A divides segment BC in the ratio 1 : 3. The co-ordinates of B are (4, -4) and that of&nbsp;C are (0, 6). What are the co-ordinates of point A?",
+    "question_hi": "बिन्दु A रेखाखंड BC को 1 : 3 के अनुपात में विभाजित करता है। B के निर्देशांक (4, -4) और C के निर्देशांक (0, 6) हैं। बिन्दु A के निर्देशांक क्या हैं?",
+    "options": [
+      "(-3, 1.5)",
+      "(-1.5, 3)",
+      "(3, -1.5)",
+      "(1.5, 3)"
+    ],
+    "options_hi": [
+      "(-3, 1.5)",
+      "(-1.5, 3)",
+      "(3, -1.5)",
+      "(1.5, 3)"
+    ],
+    "correct": 3,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_13.10.22_D4.png\" style=\"height: 51px; width: 343px;\" /></p>\n\n<p>According to the section formula, if a point A(x, y) that lies on a line segment BC joining points B(x<sub>1</sub>, y<sub>1</sub>) and C(x<sub>2</sub>, y<sub>2</sub>), divides the line in the ratio m∶ n, then the coordinates of A can be computed as,</p>\n\n<p>Coordinates of A = (x, y) = [(mx<sub>2</sub> + nx<sub>1</sub>)/(m + n)], [(my<sub>2</sub> + ny<sub>1</sub>)/(m + n)]</p>\n\n<p>Given, point A divides the segment joining B(4, -4) and C(0, 6) in the ratio 1 ∶ 3</p>\n\n<p>Hence,</p>\n\n<p>X &ndash; coordinate of A = (0 + 12)/(1 + 3) = 12/4 = 3</p>\n\n<p>Y &ndash; coordinate of A = (6 - 12)/(1 + 3) = -6/4 = -1.5</p>\n&there4; Coordinates of A = (3, -1.5)",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_13.10.22_D4.png\" style=\" height: 51px; width: 343px;\" /></p>\n\n<p>विभाजन सूत्र के अनुसार, यदि बिन्दु A (x, y), बिन्दु B (x<sub>1</sub>, y<sub>1</sub>) तथा C (x<sub>2</sub>, y<sub>2</sub>) को मिलाने वाली रेखा BC पर स्थित है, और रेखा को m ∶ n के अनुपात में विभाजित करता है। तब A के निर्देशांक की गणना निम्नानुसार की जाएगी।</p>\n\n<p>A के निर्देशांक = (x, y) = [(mx<sub>2</sub> + nx<sub>1</sub>)/(m + n)], [(my<sub>2</sub> + ny<sub>1</sub>)/(m + n)]</p>\n\n<p>दिया है, B(4, -4) तथा C(0, 6) को मिलाने वाली रेखा को बिंदु A 1 ∶ 3 के अनुपात में विभाजित करता है।</p>\n\n<p>इसलिए,</p>\n\n<p>A के X &ndash; निर्देशांक = (0 + 12)/(1 + 3) = 12/4 = 3</p>\n\n<p>A के Y &ndash; निर्देशांक = (6 - 12)/(1 + 3) = -6/4 = -1.5</p>\n&there4; A के निर्देशांक = (3, -1.5)",
+    "marks": "2"
+  },
+  {
+    "question": "What is the slope of the line parallel to the line passing through the points (-2, -1) and (4, -3)?",
+    "question_hi": "बिन्दु (-2, -1) तथा (4, -3) से होकर गुजरने वाली रेखा के समानान्तर रेखा की ढलान क्या है?",
+    "options": [
+      "1/3",
+      "-1/3",
+      "-3",
+      "3"
+    ],
+    "options_hi": [
+      "1/3",
+      "-1/3",
+      "-3",
+      "3"
+    ],
+    "correct": 2,
+    "solution": "<p style=\"\"><span style=\"font-weight: 700;\">Given:</span></p>\n\n<p style=\"\">points (-2, -1) and (4, -3)</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Concept used:</span></p>\n\n<p style=\"\">The slope &lsquo;m&rsquo; of the line passing through two points (x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>, y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>) and (x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>, y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>) is computed as,</p>\n\n<p style=\"\">m = (y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>&nbsp;- y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>)/(x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>&nbsp;- x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>)</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Calculation:</span></p>\n\n<p style=\"\">Slope of line passing through the points = (-3 + 1)/(4 + 2) = -2/6 = -1/3</p>\n\n<p style=\"\">∵ slope of parallel lines is equal,</p>\n<strong><span style=\"\">So, the slope of required line = -1/3</span></strong>\n\n<p>&nbsp;</p>\n",
+    "solution_hi": "<p style=\"\"><span style=\"font-weight: 700;\">दिया है:</span></p>\n\n<p style=\"\">बिंदु (-2, -1) और (4, -3)</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">प्रयुक्त अवधारणा:</span></p>\n\n<p style=\"\">दो बिन्दुओं (x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>, y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>) तथा (x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>, y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>) से होकर गुजरने वाली रेखा की प्रवणता &lsquo;m&rsquo; की गणना निम्नानुसार की जाती है-</p>\n\n<p style=\"\">m = (y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>&nbsp;- y<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>)/(x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span>&nbsp;- x<span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span>)</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p style=\"\">बिंदुओं से गुजरने वाली रेखा <span style=\"\">की प्रवणता</span> = (-3 + 1)/(4 + 2) = -2/6 = -1/3</p>\n\n<p style=\"\"><span style=\"\">∵&nbsp;</span>समान्तर रेखाओं <span style=\"\">की प्रवणता</span> बराबर होती&nbsp;है,</p>\n<strong><span style=\"\">अत: अभीष्ट रेखा की प्रवणता = -1/3</span></strong>",
+    "marks": "2"
+  },
+  {
+    "question": "&Delta;XYZ is similar to &Delta;PQR. If ratio of perimeters of &Delta;XYZ : &Delta;PQR is 3 : 2 and if PQ = 6 cm then what is the length of XY (in cm)?",
+    "question_hi": "&Delta;XYZ, &Delta;PQR के समरूप है। यदि, &Delta;XYZ और &Delta;PQR के परिमाप का अनुपात 3 : 2 तथा PQ = 6 सेमी है, तो XY की लंबाई (सेमी में) क्या है?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "9"
+    ],
+    "options_hi": [
+      "4",
+      "8",
+      "12",
+      "9"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">&Delta;XYZ ~&nbsp;&Delta;PQR</span></p>\n\n<p><span style=\"\">&Delta;XYZ :&nbsp;&Delta;PQR =&nbsp;3 : 2</span></p>\n\n<p><span style=\"\">PQ = 6 cm</span></p>\n\n<p><strong><span style=\"\">Concept used:</span></strong></p>\n\n<p>The ratio of the perimeters of similar triangles is equal to the ratio of their corresponding sides</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><img src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D8.png\" /></p>\n\n<p>perimeter(&Delta;XYZ)/perimeter(&Delta;PQR) = XY/PQ</p>\n\n<p>&rArr; 3/2 = XY/6</p>\n\n<p>&rArr; XY = (3 &times; 6)/2 = 9 cm</p>\n\n<p>&there4; Length of XY = 9 cm</p>\n\n<p><strong>So, the length of XY = 9 cm</strong></p>\n",
+    "solution_hi": "<p><strong>दिया है:</strong></p>\n\n<p><span style=\"\">&Delta;XYZ ~&nbsp;&Delta;PQR</span></p>\n\n<p><span style=\"\">&Delta;XYZ :&nbsp;&Delta;PQR =&nbsp;3 : 2</span></p>\n\n<p><span style=\"\">PQ = 6 सेमी</span></p>\n\n<p><strong><span style=\"\">प्रयुक्त अवधारणा:</span></strong></p>\n\n<p>समरूप त्रिभुजों के परिमापों का अनुपात उनकी संगत भुजाओं के अनुपात के बराबर होता है</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><img src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D8.png\" /></p>\n\n<p>&rArr; परिमाप(&Delta;XYZ)/परिमाप(&Delta;PQR) = XY/PQ</p>\n\n<p style=\"\">&rArr; 3/2 = XY/6</p>\n\n<p style=\"\">&rArr; XY = (3 &times; 6)/2 = 9 सेमी</p>\n\n<p style=\"\">&there4; XY की लंबाई = 9 सेमी</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">अत: XY की लंबाई = 9 सेमी</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Sec 45&deg; + Tan 30&deg; = ?",
+    "question_hi": "Sec 45&deg; + Tan 30&deg; = ?",
+    "options": [
+      "(&radic;6 + 1)/&radic;3",
+      "(1 + &radic;3)/2",
+      "(&radic;3 + 2)/&radic;3",
+      "5/&radic;3"
+    ],
+    "options_hi": [
+      "(&radic;6 + 1)/&radic;3",
+      "(1 + &radic;3)/2",
+      "(&radic;3 + 2)/&radic;3",
+      "5/&radic;3"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>sec 45&deg; + tan 30&deg;</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span style=\"\">sec 45&deg; + tan 30&deg;</span></p>\n\n<p>&rArr; 1/cos 45&deg; + tan 30&deg;</p>\n\n<p>&rArr; &radic;2 + 1/&radic;3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (∵ cos 45&deg; = 1/&radic;2, tan 30&deg; = 1/&radic;3)</p>\n\n<p>&rArr; (&radic;6 + 1)/&radic;3</p>\n\n<p><strong>So, the value of&nbsp;<span style=\"\">sec 45&deg; + tan 30&deg; is&nbsp;(&radic;6 + 1)/&radic;3</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया है:</strong></p>\n\n<p>sec 45&deg; + tan 30&deg;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"\">sec 45&deg; + tan 30&deg;</span></p>\n\n<p>&rArr; 1/cos 45&deg; + tan 30&deg;</p>\n\n<p>&rArr; &radic;2 + 1/&radic;3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (∵ cos 45&deg; = 1/&radic;2, tan 30&deg; = 1/&radic;3)</p>\n\n<p>&rArr; (&radic;6 + 1)/&radic;3</p>\n\n<p><strong>इसलिए, <span style=\"\">sec 45&deg; + tan 30&deg; का मान (&radic;6 + 1)/&radic;3 है।</span></strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "&Delta;DEF is right angled at E. If &ang;D = 45&deg;, then Cosec F = ?",
+    "question_hi": "&Delta;DEF, बिंदु E पर समकोण है। यदि, &ang;D = 45&deg; है, तो Cosec F = ?",
+    "options": [
+      "1/2",
+      "1/&radic;2",
+      "&radic;2",
+      "1/&radic;3"
+    ],
+    "options_hi": [
+      "1/2",
+      "1/&radic;2",
+      "&radic;2",
+      "1/&radic;3"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>∆DEF is right-angled at E</p>\n\n<p>&ang;E = 90&deg; ,&nbsp;&ang;D = 45&deg;</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>Sum of angles of a triangle = 180&deg;</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span id=\"docs-internal-guid-6781bf69-7fff-19bc-5a7d-df250e21cb8f\"><span style=\"  background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:332px;height:198px;\"><img src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D9.png\" style=\"margin-left: 0px; margin-top: 0px; width: 175px; height: 165px;\" /></span></span></span></p>\n\n<p><span style=\"\">Sum of angles of a triangle = 180&deg;</span></p>\n\n<p>&ang;D + &ang;E + &ang;F = 180&deg;</p>\n\n<p>&rArr; 45&deg; + 90&deg; + &ang;F = 180&deg;</p>\n\n<p>&rArr; &ang;F = 180&deg; &ndash; 135&deg; = 45&deg;</p>\n\n<p>&there4; cosec F = cosec 45&deg; = &radic;2</p>\n\n<p><strong>So, the value of&nbsp;<span style=\"\">cosec F is&nbsp;&radic;2</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया है:</strong></p>\n\n<p><span style=\"\">∆</span>DEF, E पर समकोण है</p>\n\n<p><span style=\"\">&ang;E = 90&deg; ,&nbsp;&ang;D = 45&deg;</span></p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>त्रिभुज के कोणों का योग = 180&deg;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><img src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Vinanti_Teaching_17.10.22_D9.png\" /></p>\n\n<p>त्रिभुज के कोणों का योग = 180&deg;</p>\n\n<p style=\"\">&rArr; &ang;D + &ang;E + &ang;F = 180&deg;</p>\n\n<p style=\"\">&rArr; 45&deg; + 90&deg; + &ang;F = 180&deg;</p>\n\n<p style=\"\">&rArr; &ang;F = 180&deg; &ndash; 135&deg; = 45&deg;</p>\n\n<p><span style=\"\">&there4; cosec F = cosec 45&deg; = &radic;2</span></p>\n\n<p><strong>अतः <span style=\"\">cosec F का मान &radic;2 है</span></strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If cos &theta; = 5/13, then cosec &theta; = ?",
+    "question_hi": "यदि, cos &theta; = 5/13 है, तो cosec &theta; = ?",
+    "options": [
+      "5/12",
+      "12/5",
+      "13/5",
+      "13/12"
+    ],
+    "options_hi": [
+      "5/12",
+      "12/5",
+      "13/5",
+      "13/12"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>cos&theta; = 5/13</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p><span style=\"\">sin</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta; = 1 &ndash; cos</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta;</span></p>\n\n<p><span style=\"\">cosec &theta; = 1/sin &theta;</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>sin<sup>2</sup> &theta; = 1 &ndash; cos<sup>2</sup> &theta; = 1 - (5/13)<sup>2</sup> = 144/169</p>\n\n<p>&rArr; sin &theta; = &radic;(144/169) = 12/13</p>\n\n<p>&there4; cosec &theta; = 1/sin &theta; = 1/(12/13) = 13/12</p>\n\n<p><strong>So, the value of cosec&nbsp;&theta; =&nbsp;<span style=\"\">13/12</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया है:</strong></p>\n\n<p>cos&theta; = 5/13</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span style=\"\">sin</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta; = 1 &ndash; cos</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;&theta;</span></p>\n\n<p><span style=\"\">cosec &theta; = 1/sin &theta;</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>sin<sup>2</sup> &theta; = 1 &ndash; cos<sup>2</sup> &theta; = 1 - (5/13)<sup>2</sup> = 144/169</p>\n\n<p>&rArr; sin &theta; = &radic;(144/169) = 12/13</p>\n\n<p>&there4; cosec &theta; = 1/sin &theta; = 1/(12/13) = 13/12</p>\n\n<p><strong>इसलिए, cosec&nbsp;&theta; =&nbsp;<span style=\"\">13/12</span></strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "What is the difference in the number of employees of company D and company A?",
+    "question_hi": "कंपनी D और कंपनी A में कार्यरत कर्मचारियों की संख्या में अंतर क्या है?",
+    "options": [
+      "100",
+      "50",
+      "150",
+      "200"
+    ],
+    "options_hi": [
+      "100",
+      "50",
+      "150",
+      "200"
+    ],
+    "correct": 1,
+    "solution": "<p>No. of employees of company D = 180</p>\n\n<p>No. of employees of company A = 80</p>\n&there4; Required difference = 180 - 80 = 100",
+    "solution_hi": "<p>कंपनी D में कार्यरत कर्मचारियों की संख्या = 180</p>\n\n<p>कंपनी A में कार्यरत कर्मचारियों की संख्या = 80</p>\n&there4; अभीष्ट अंतर = 180 - 80 = 100",
+    "marks": "2"
+  },
+  {
+    "question": "If an insurance agent gets to sell policies to all the employees of companies B, D and F, then how many policies would he sell?",
+    "question_hi": "यदि किसी बीमा अभिकर्ता को B, D और F कंपनी के सभी कर्मचारियों को बीमा पॉलिसी बेचने का कार्य दिया जाता है, तो वह कितनी बीमा पॉलिसी बेचता है?",
+    "options": [
+      "750",
+      "650",
+      "800",
+      "700"
+    ],
+    "options_hi": [
+      "750",
+      "650",
+      "800",
+      "700"
+    ],
+    "correct": 1,
+    "solution": "<p>No. of employees of company B = 150</p>\n\n<p>No. of employees of company D = 180</p>\n\n<p>No. of employees of company F = 420</p>\n&there4; No. of policies = Total no. of employees in companies B, D, F = 150 + 180 + 420 = 750",
+    "solution_hi": "<p>कंपनी B के कर्मचारियों की संख्या = 150</p>\n\n<p>कंपनी D के कर्मचारियों की संख्या = 180</p>\n\n<p>कंपनी F के कर्मचारियों की संख्या = 420</p>\n&there4; बीमा पॉलिसियों की संख्या = कंपनी B, D और F के कर्मचारियों की कुल संख्या = 150 + 180 + 420 = 750",
+    "marks": "2"
+  },
+  {
+    "question": "The number of employees in company E are what percent less than those of company B ?",
+    "question_hi": "कंपनी E में कार्यरत कर्मचारियों की संख्या कंपनी B में कार्यरत कर्मचारियों की संख्या से कितने प्रतिशत कम है?",
+    "options": [
+      "60%",
+      "80%",
+      "40%",
+      "20%"
+    ],
+    "options_hi": [
+      "60%",
+      "80%",
+      "40%",
+      "20%"
+    ],
+    "correct": 2,
+    "solution": "<p>No. of employees of company E = 30</p>\n\n<p>No. of employees of company B = 150</p>\n&there4; Required percentage = [(150 - 30)/150] &times; 100 = 80%",
+    "solution_hi": "<p>कंपनी E के कर्मचारियों की संख्या = 30</p>\n\n<p>कंपनी B के कर्मचारियों की संख्या = 150</p>\n&there4; अभीष्ट प्रतिशत = [(150 - 30)/150] &times; 100 = 80%",
+    "marks": "2"
+  },
+  {
+    "question": "If Company B&#39;s department which employs 20% of its employees is sold off to company F, then company F would have how many employees?",
+    "question_hi": "यदि कंपनी B के 20 प्रतिशत कर्मचारियों वाले विभाग को कंपनी F को बेच दिया जाता है, तो अब कंपनी F में कर्मचारियों की कुल संख्या क्या होगी?",
+    "options": [
+      "400",
+      "450",
+      "500",
+      "550"
+    ],
+    "options_hi": [
+      "400",
+      "450",
+      "500",
+      "550"
+    ],
+    "correct": 2,
+    "solution": "<p>No. of employees of company F = 420</p>\n\n<p>No. of employees of company B = 150</p>\n\n<p>If the department with 20% of company B&rsquo;s employees is sold to company F, then,</p>\n&there4; No. of employees of company F = 420 + 20% of 150 = 420 + 30 = 450",
+    "solution_hi": "<p>कंपनी F में कार्यरत कर्मचारियों की संख्या = 420</p>\n\n<p>कंपनी B में कार्यरत कर्मचारियों की संख्या = 150</p>\n\n<p>यदि कंपनी B के 20 प्रतिशत कर्मचारियों वाले विभाग को कंपनी F को बेचा जाता है, तो</p>\n&there4; कंपनी F के कर्मचारियों की संख्या = 420 + 20% of 150 = 420 + 30 = 450",
+    "marks": "2"
+  }
+]
