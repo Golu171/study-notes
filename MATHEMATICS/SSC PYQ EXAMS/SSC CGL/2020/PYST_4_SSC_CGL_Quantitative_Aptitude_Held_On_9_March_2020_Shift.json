@@ -1,0 +1,502 @@
+[
+  {
+    "question": "<p>Study the following table and answer the question.</p>\n\n<p>Expenditures of a company (in Lakh Rupees) per annum over the given Years</p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\" style=\"width:55px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Year</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"5\" style=\"width:506px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Items of Expenditures for the company</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:62px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Salary</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Fuel and Transport</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Bonus</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Interest on Loans</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">Taxes</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2014</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">284</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">98</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.00</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">23.4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">74</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2015</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">342</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">112</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">2.52</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">32.5</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">98</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2016</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">314</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">101</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.84</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">41.4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">83</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2017</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">346</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">134</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.68</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">36.6</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">88</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2018</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">425</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">141</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.96</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">49.4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">108</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Total expenditures on all the items in 2014 was approximately what percent of the total expenditures in 2018?</p>\n",
+    "question_hi": "<p>निम्न तालिका का अध्ययन करें और प्रश्न का उत्तर दें।</p>\n\n<p>दिए गए वर्षों में प्रति वर्ष एक कंपनी (लाख रुपए में) का व्यय</p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"2\" style=\"width:55px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">वर्ष</p>\n\t\t\t</td>\n\t\t\t<td colspan=\"5\" style=\"width:506px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">कंपनी के लिए व्यय की मदें</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:62px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">वेतन</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">ईंधन और परिवहन</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">बोनस</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">ऋण पर ब्याज</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;height:9px;\">\n\t\t\t<p style=\"text-align: center;\">टैक्स</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2014</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">284</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">98</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.00</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">23.4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">74</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2015</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">342</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">112</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">2.52</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">32.5</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">98</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2016</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">314</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">101</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.84</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">41.4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">83</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2017</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">346</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">134</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.68</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">36.6</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">88</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px;\">\n\t\t\t<p style=\"text-align: center;\">2018</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:62px;\">\n\t\t\t<p style=\"text-align: center;\">425</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:145px;\">\n\t\t\t<p style=\"text-align: center;\">141</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:63px;\">\n\t\t\t<p style=\"text-align: center;\">3.96</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:135px;\">\n\t\t\t<p style=\"text-align: center;\">49.4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:102px;\">\n\t\t\t<p style=\"text-align: center;\">108</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>2014 में सभी मदों पर कुल व्यय, 2018 के&nbsp;कुल व्यय का लगभग कितना प्रतिशत था?</p>\n",
+    "options": [
+      "60.32%",
+      "66.32%",
+      "68.32%",
+      "65.32%"
+    ],
+    "options_hi": [
+      "60.32%",
+      "66.32%",
+      "68.32%",
+      "65.32%"
+    ],
+    "correct": 2,
+    "solution": "<p>Total expenditure on all the items in 2014 = 284 + 98 + 3 + 23.4 + 74 = 482.4</p>\n\n<p>Total expenditure on all the items in 2018 = 425 + 141 + 3.96 + 49.4 + 108 = 727.36</p>\nRequired percentage = 482.4/727.36 &times; 100 = 66.32%",
+    "solution_hi": "<p>2014 में सभी मदों पर कुल खर्च = 284 + 98 + 3 + 23.4 + 74 = 482.4</p>\n\n<p>2018 में सभी वस्तुओं पर कुल व्यय = 425 + 141 + 3.96 + 49.4 + 108 = 727.36</p>\n\n<p>आवश्यक प्रतिशत = 482.4/727.36 &times; 100 = 66.32%</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If a = 2b = 8c and a + b + c = 13 then the value of <span class=\"math-tex\">\\(\\frac{{\\sqrt {{a^2} + {b^2} + {c^2}} }}{{2c}}\\)</span>&nbsp;is:",
+    "question_hi": "यदि a = 2b = 8c और a + b + c = 13 तब <span class=\"math-tex\">\\(\\frac{{\\sqrt {{a^2} + {b^2} + {c^2}} }}{{2c}}\\)</span>&nbsp;का मान क्या होगा?",
+    "options": [
+      "-5/6",
+      "9/2",
+      "-9/2",
+      "5/6"
+    ],
+    "options_hi": [
+      "-5/6",
+      "9/2",
+      "-9/2",
+      "5/6"
+    ],
+    "correct": 2,
+    "solution": "<p>a = 2b = 8c</p>\n\n<p>Let a = 2b = 8c = k</p>\n\n<p>a = k</p>\n\n<p>2b = k</p>\n\n<p>&rArr; b = k/2</p>\n\n<p>8c = k</p>\n\n<p>&rArr; c = k/8</p>\n\n<p>Ratio of a : b : c = k : k/2 : k/8 = 8 : 8k/2 : 8k/8 = 8 : 4 : 1</p>\n\n<p>Now,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{\\sqrt {{a^2} + {b^2} + {c^2}} }}{{2c}}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {{8^2} + {4^2} + {1^2}} }}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {64 + 16 + 1} }}{2}\\)</span></p>\n\n<p>&rArr; &radic;81/2</p>\n\n<p>&rArr; 9/2</p>\n\n<p><strong><u>Short Trick</u></strong><strong>:</strong></p>\n\n<p>a = 2b = 8c</p>\n\n<p>a : b : c = 1 : 1/2 : 1/8 = 8 : 4 : 1</p>\n\n<p>Now,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{\\sqrt {{a^2} + {b^2} + {c^2}} }}{{2c}}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {{8^2} + {4^2} + {1^2}} }}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {64 + 16 + 1} }}{2}\\)</span></p>\n\n<p>&rArr; &radic;81/2</p>\n&rArr; 9/2",
+    "solution_hi": "<p>a = 2b = 8c</p>\n\n<p>मान लीजिये a = 2b = 8c = k</p>\n\n<p>a = k</p>\n\n<p>2b = k</p>\n\n<p>&rArr; b = k/2</p>\n\n<p>8c = k</p>\n\n<p>&rArr; c = k/8</p>\n\n<p>a : b : c का अनुपात = k : k/2 : k/8 = 8 : 8k/2 : 8k/8 = 8 : 4 : 1</p>\n\n<p>अब,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{\\sqrt {{a^2} + {b^2} + {c^2}} }}{{2c}}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {{8^2} + {4^2} + {1^2}} }}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {64 + 16 + 1} }}{2}\\)</span></p>\n\n<p>&rArr; &radic;81/2</p>\n\n<p>&rArr; 9/2</p>\n\n<p><u><strong>लघु युक्ति:</strong></u></p>\n\n<p>a = 2b = 8c</p>\n\n<p>a : b : c = 1 : 1/2 : 1/8 = 8 : 4 : 1</p>\n\n<p>अब,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{\\sqrt {{a^2} + {b^2} + {c^2}} }}{{2c}}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {{8^2} + {4^2} + {1^2}} }}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\sqrt {64 + 16 + 1} }}{2}\\)</span></p>\n\n<p>&rArr; &radic;81/2</p>\n&rArr; 9/2",
+    "marks": "2"
+  },
+  {
+    "question": "Arrange the angles of the triangle from the smallest to the largest in the triangle, where the sides are AB = 7 cm, AC = 8 cm, BC = 9 cm.",
+    "question_hi": "एक त्रिभुज में, सबसे छोटे से सबसे बड़े क्रम में त्रिभुज के कोणों को व्यवस्थित करें, जहाँ भुजाएँ AB = 7 सेमी, AC = 8 सेमी, BC = 9 सेमी हैं।",
+    "options": [
+      "C, B, A",
+      "B, A, C",
+      "C, B, D",
+      "A, B, C"
+    ],
+    "options_hi": [
+      "C, B, A",
+      "B, A, C",
+      "C, B, D",
+      "A, B, C"
+    ],
+    "correct": 1,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/05/F1_A.K_6.5.20_Pallavi_D1.png\" style=\"width: 166px; height: 160px;\" /></p>\n\n<p>As we know,</p>\n\n<p>Angle is directly proportional to opposite side length</p>\nHence, &ang;C &lt; &ang;B &lt; &ang;A",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/05/F1_A.K_6.5.20_Pallavi_D1.png\" style=\"width: 166px; height: 160px;\" /></p>\n\n<p>जैसा कि हम जानते हैं,</p>\n\n<p>कोण&nbsp;विपरीत भुजा&#39; की लंबाई के सीधे आनुपातिक है</p>\n\n<p>इसलिए, &ang;C &lt; &ang;B &lt; &ang;A</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Solve the following.</p>\n<span class=\"math-tex\">\\(\\frac{{2sin{{22}^0}}}{{cos{{68}^0}}} - \\frac{{2cot{{75}^0}}}{{5tan{{15}^0}}} - \\frac{{8tan{{45}^0}tan{{20}^0}tan{{40}^0}tan{{50}^0}tan{{70}^0}}}{5}\\)</span>",
+    "question_hi": "<p>निम्नलिखित को हल कीजिये।</p>\n<span class=\"math-tex\">\\(\\frac{{2sin{{22}^0}}}{{cos{{68}^0}}} - \\frac{{2cot{{75}^0}}}{{5tan{{15}^0}}} - \\frac{{8tan{{45}^0}tan{{20}^0}tan{{40}^0}tan{{50}^0}tan{{70}^0}}}{5}\\)</span>",
+    "options": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "options_hi": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:-<br />\n<br />\n&nbsp;<span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;;\">\\(\\frac{{2sin{{22}^0}}}{{cos{{68}^0}}} - \\frac{{2cot{{75}^0}}}{{5tan{{15}^0}}} - \\frac{{8tan{{45}^0}tan{{20}^0}tan{{40}^0}tan{{50}^0}tan{{70}^0}}}{5}\\)</span>&nbsp;<br />\n<br />\nConcept used:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/02/Trigo%20-%20Formula.PNG\" style=\"width: 400px; height: 179px;\" /></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span class=\"math-tex\">\\(\\frac{{2sin{{22}^0}}}{{cos{{68}^0}}} - \\frac{{2cot{{75}^0}}}{{5tan{{15}^0}}} - \\frac{{8tan{{45}^0}tan{{20}^0}tan{{40}^0}tan{{50}^0}tan{{70}^0}}}{5}\\)</span></p>\n\n<p><span class=\"math-tex\">\\( \\Rightarrow \\frac{{2sin{{22}^0}}}{{sin{{22}^0}}} - \\frac{{2cot{{75}^0}}}{{5cot{{75}^0}}} - \\frac{{8\\;tan{{45}^0}tan{{20}^0}tan{{40}^0}\\;cot{{20}^0}cot{{40}^0}}}{5}\\)</span></p>\n\n<p>&rArr; 2 &ndash; 2/5 &ndash; 8/5</p>\n\n<p>&rArr; (10 &ndash; 2 &ndash; 8)/5</p>\n\n<p>&rArr; 0/5</p>\n&rArr; 0",
+    "solution_hi": "<p><span style=\"font-weight: 700; \">दिया है:-</span></p>\n\n<p><span style=\"font-weight: 700; \"><span class=\"math-tex\">\\(\\frac{{2sin{{22}^0}}}{{cos{{68}^0}}} - \\frac{{2cot{{75}^0}}}{{5tan{{15}^0}}} - \\frac{{8tan{{45}^0}tan{{20}^0}tan{{40}^0}tan{{50}^0}tan{{70}^0}}}{5}\\)</span></span></p>\n\n<p><strong>प्रयुक्त अवधारणा</strong><span style=\"font-weight: 700; \">:</span></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/02/Trigo%20-%20Formula.PNG\" style=\"width: 400px; height: 179px;\" /><br />\n<strong>गणना</strong><span style=\"font-weight: 700; \">:</span></p>\n\n<p><span class=\"math-tex\">\\(\\frac{{2sin{{22}^0}}}{{cos{{68}^0}}} - \\frac{{2cot{{75}^0}}}{{5tan{{15}^0}}} - \\frac{{8tan{{45}^0}tan{{20}^0}tan{{40}^0}tan{{50}^0}tan{{70}^0}}}{5}\\)</span></p>\n\n<p><span class=\"math-tex\">\\( \\Rightarrow \\frac{{2sin{{22}^0}}}{{sin{{22}^0}}} - \\frac{{2cot{{75}^0}}}{{5cot{{75}^0}}} - \\frac{{8\\;tan{{45}^0}tan{{20}^0}tan{{40}^0}\\;cot{{20}^0}cot{{40}^0}}}{5}\\)</span></p>\n\n<p>&rArr; 2 &ndash; 2/5 &ndash; 8/5</p>\n\n<p>&rArr; (10 &ndash; 2 &ndash; 8)/5</p>\n\n<p>&rArr; 0/5</p>\n&rArr; 0",
+    "marks": "2"
+  },
+  {
+    "question": "<p>A shopkeeper buys two books for 300. He sells the first book at a profit of 20% and the second book at a loss of 10% what is the selling price of the first book, if, in the whole transaction there is no profit no loss?</p>\n",
+    "question_hi": "<p>एक दुकानदार 300 में दो पुस्तकें खरीदता है। वह पहली पुस्तक 20% लाभ पर बेचता है और दूसरी पुस्तक 10% हानि पर बेचता है, यदि पूरे लेनदेन में कोई लाभ या नुकसान&nbsp;नहीं है, तो पहली पुस्तक का बिक्री मूल्य क्या है?</p>\n",
+    "options": [
+      "<p>Rs. 120</p>\n",
+      "<p>Rs. 125</p>\n",
+      "<p>Rs. 110</p>\n",
+      "<p>Rs. 115</p>\n"
+    ],
+    "options_hi": [
+      "<p>120 रुपये</p>\n",
+      "<p>125&nbsp;रुपये</p>\n",
+      "<p>110&nbsp;रुपये</p>\n",
+      "<p>115&nbsp;रुपये</p>\n"
+    ],
+    "correct": 1,
+    "solution": "<p>Using allegation method</p>\n\n<p>20% - 10%</p>\n\n<p>0%</p>\n\n<p>10 : 20</p>\n\n<p>Ratio of first book to second book = 10 : 20 = 1 : 2</p>\n\n<p>1 + 2 = 3 unit</p>\n\n<p>&rArr; 3 unit = 300</p>\n\n<p>&rArr; 1 unit = 100</p>\n\n<p>CP of the first book = Rs. 100</p>\n\n<p>&there4; SP of the first book = 100 &times; 120/100 = Rs. 120<br />\n<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong>&nbsp;</span></p>\n\n<p>Let CP of both books 100x and 100y respectively.</p>\n\n<p>One is sells at 20% and other at 10% loss. There is no loss no profit means profit from one book is equal to loss from second book.</p>\n\n<p>Profit from one book = 20% of 100x = 20x</p>\n\n<p>Loss from other book = 10% of 100y = 10y</p>\n\n<p>So<br />\n20x = 10y</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>x/y = 1/2</p>\n\n<p>And we know total cost of both books is Rs. 300,</p>\n\n<p>100x + 100y = 300</p>\n\n<p>&rArr; x + y = 3</p>\n\n<p>So&nbsp;</p>\n\n<p>x = 1</p>\n\n<p>y = 2</p>\n\n<p>cost price of book which sells at profit = 100 * 1 = Rs. 100</p>\n\n<p><strong>SP of book which sells at profit = 120% of 100 = Rs. 120</strong></p>\n",
+    "solution_hi": "<p style=\"\">पृथ्थीकरण&nbsp;पद्धति से</p>\n\n<p style=\"\">20% - 10%</p>\n\n<p style=\"\">0%</p>\n\n<p style=\"\">10 : 20</p>\n\n<p style=\"\">पहली पुस्तक का&nbsp;दूसरी पुस्तक के साथ अनुपात&nbsp;= 10 : 20 = 1 : 2</p>\n\n<p style=\"\">1 + 2 = 3 मद</p>\n\n<p style=\"\">&rArr; 3 मद = 300</p>\n\n<p style=\"\">&rArr; 1 मद = 100</p>\n\n<p style=\"\">पहली पुस्तक का लागत&nbsp;मूल्य = 100&nbsp;रुपये</p>\n\n<p><span style=\"\">&there4; पहली पुस्तक का बिक्री मूल्य&nbsp;= 100 &times; 120/100 = 120&nbsp;रुपये</span></p>\n\n<p><br />\n<span style=\"display: flex;gap: 6px;align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span>&nbsp;</span></p>\n\n<p>माना दोनों पुस्तकों का क्रय मूल्य क्रमशः 100x और 100y है।</p>\n\n<p>एक 20% पर और दूसरा 10% हानि पर बेचता है। न हानि न लाभ अर्थात एक पुस्तक का लाभ दूसरी पुस्तक की हानि के बराबर है।</p>\n\n<p>एक <span style=\"\">पुस्तक&nbsp;</span>से लाभ = 100x का 20% = 20x</p>\n\n<p>दूसरी <span style=\"\">पुस्तक&nbsp;</span>से हानि = 100y का 10% = 10y</p>\n\n<p>इसलिए<br />\n20x = 10y</p>\n\n<p><span style=\"\">&rArr;</span> x/y = 2/1</p>\n\n<p>और हम जानते हैं कि दोनों पुस्तकों का&nbsp;कुल मूल्य 300 रुपये,</p>\n\n<p style=\"\">100x + 100y = 300</p>\n\n<p style=\"\">&rArr; x + y = 3</p>\n\n<p style=\"\">इसलिए</p>\n\n<p style=\"\">x = 1</p>\n\n<p style=\"\">y = 2</p>\n\n<p>लाभ पर बिकने वाली पुस्तक का क्रय मूल्य = 100 * 1 = 100 रुपये</p>\n\n<p><strong>लाभ पर बिकने वाली पुस्तक का विक्रय मूल्य = 100 का 120% = 120 रुपये</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If 5cot&theta; = 3, find the value of <span class=\"math-tex\">\\(\\frac{{6sin{\\rm{\\theta }} - 3{\\rm{cos\\theta }}}}{{7sin{\\rm{\\theta }} + 3{\\rm{cos\\theta }}}}\\)</span>",
+    "question_hi": "यदि 5cot&theta; = 3, तो&nbsp;<span class=\"math-tex\">\\(\\frac{{6sin{\\rm{\\theta }} - 3{\\rm{cos\\theta }}}}{{7sin{\\rm{\\theta }} + 3{\\rm{cos\\theta }}}}\\)</span>&nbsp;का मान ज्ञात कीजिये।",
+    "options": [
+      "44/21",
+      "21/44",
+      "11/40",
+      "20/41"
+    ],
+    "options_hi": [
+      "44/21",
+      "21/44",
+      "11/40",
+      "20/41"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>5cot&theta; = 3</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{6sin{\\rm{θ }} - 3{\\rm{cosθ }}}}{{7sin{\\rm{θ }} + 3{\\rm{cosθ }}}}\\)</span>&nbsp;=?</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span style=\"\">5</span><span style=\"\">cot</span><span style=\"\">&theta; = 3</span></p>\n\n<p>&rArr; cot&theta; =&nbsp;<span class=\"math-tex\">\\(5\\over3\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\frac{{6sin{\\rm{θ }} - 3{\\rm{cosθ }}}}{{7sin{\\rm{θ }} + 3{\\rm{cosθ }}}}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({sin\\theta{(6 - 3{cos\\theta\\over sin\\theta})}}\\over{sin\\theta{(7+3{cos\\theta\\over sin\\theta})}}\\)</span>&nbsp;</p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{6 - 3{\\rm{cotθ }}}}{{7 + 3{\\rm{cotθ }}}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{6 - 3 × \\frac{3}{5}}}{{7 + 3 × \\frac{3}{5}}}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{6 - \\frac{9}{5}}}{{7 + \\frac{9}{5}}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{\\frac{{21}}{5}}}{{\\frac{{44}}{5}}}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(21\\over5\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(5\\over44\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(21\\over44\\)</span></p>\n\n<p>&nbsp;</p>\n",
+    "solution_hi": "<p><span style=\"font-weight: 700; \">दिया है:</span></p>\n\n<p>5cot&theta; = 3</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{6sin{\\rm{θ }} - 3{\\rm{cosθ }}}}{{7sin{\\rm{θ }} + 3{\\rm{cosθ }}}}\\)</span>&nbsp;=?</p>\n\n<p><span style=\"font-weight: 700; \">गणना:</span></p>\n\n<p><span style=\"\">5</span><span style=\"\">cot</span><span style=\"\">&theta; = 3</span></p>\n\n<p>&rArr; cot&theta; =&nbsp;<span class=\"math-tex\">\\(5\\over3\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\frac{{6sin{\\rm{θ }} - 3{\\rm{cosθ }}}}{{7sin{\\rm{θ }} + 3{\\rm{cosθ }}}}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({sin\\theta{(6 - 3{cos\\theta\\over sin\\theta})}}\\over{sin\\theta{(7+3{cos\\theta\\over sin\\theta})}}\\)</span>&nbsp;</p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{6 - 3{\\rm{cotθ }}}}{{7 + 3{\\rm{cotθ }}}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{6 - 3 × \\frac{3}{5}}}{{7 + 3 × \\frac{3}{5}}}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{6 - \\frac{9}{5}}}{{7 + \\frac{9}{5}}}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{\\frac{{21}}{5}}}{{\\frac{{44}}{5}}}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(21\\over5\\)</span>&nbsp;&times;&nbsp;<span class=\"math-tex\">\\(5\\over44\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(21\\over44\\)</span></p>\n\n<p>&nbsp;</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If 5 divided the integer n, the remainder is 2. What will be remainder if 7n is divided by 5?",
+    "question_hi": "यदि पूर्णांक n को&nbsp;5 से विभाजित किया जाता है, तो शेषफल 2 मिलता है। 7n को 5 से विभाजित करने पर शेषफल क्या होगा?",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "options_hi": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "correct": 2,
+    "solution": "<p>Let n = 7, then condition satisfied.</p>\n\n<p>Hence, 7n = 7 &times; 7 = 49</p>\n\n<p>Now, 49 &divide; 5, then remainder is 4.</p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" />&nbsp;</p>\n\n<p>Let the number be 5x.</p>\n\n<p>Then, The integer n&nbsp;= 5x + 2</p>\n\n<p>Take x = 1&nbsp;</p>\n\n<p>Then, n = 7</p>\n\n<p>The value of 7n = 49</p>\n\n<p>49 divided by 5 leaves the remainder 4</p>\n\n<p><strong>&there4; 4 is the&nbsp;remainder if 7n is divided by 5.</strong></p>\n",
+    "solution_hi": "<p>माना कि n = 7, तब शर्त पूरी होती है।</p>\n\n<p>इसलिए, 7n = 7 &times; 7 = 49</p>\n\n<p>अब, 49 &divide; 5, तब शेषफल 4 है।</p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></p>\n\n<p>माना कि&nbsp;नंबर 5x&nbsp;है।</p>\n\n<p>फिर, पूर्णांक n = 5x + 2</p>\n\n<p>लेना&nbsp;x = 1&nbsp;</p>\n\n<p>फिर,&nbsp;n = 7</p>\n\n<p>मूल्य&nbsp;&nbsp;7n = 49</p>\n\n<p>49 को 5 से विभाजित&nbsp;करे&nbsp;तो शेष 4&nbsp;होता है</p>\n\n<p><strong>&there4;&nbsp;7n को 5 से विभाजित करे तो शेषफल 4</strong> <strong>होता</strong>&nbsp;<strong>है .</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If x, y, z are three numbers such that x + y = 13, y + z = 15 and z + x = 16, then the value of <span class=\"math-tex\">\\(\\frac{{xy + xz}}{{xyz}}\\)</span>&nbsp;is:",
+    "question_hi": "<p>यदि x, y, z तीन संख्याएँ इस प्रकार हैं कि x + y = 13, y + z = 15 और z + x = 16, तो&nbsp;</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{xy + xz}}{{xyz}}\\)</span>&nbsp;का मान:</p>\n",
+    "options": [
+      "36/5",
+      "5/18",
+      "18/5",
+      "5/36"
+    ],
+    "options_hi": [
+      "36/5",
+      "5/18",
+      "18/5",
+      "5/36"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given: </strong></p>\n\n<p>x + y = 13, y + z = 15 and z + x = 16</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Adding all given equations, we get</p>\n\n<p>2(x + y + z) = 44</p>\n\n<p>&rArr; x + y + z = 22</p>\n\n<p>Hence, x = 22 &ndash; 15 = 7</p>\n\n<p>y = 22 &ndash; 16 = 6</p>\n\n<p>and, z = 22 &ndash; 13 = 9</p>\n\n<p>Now,</p>\n\n<p>(xy + xz)/xyz</p>\n\n<p>&rArr; (y + z)/yz</p>\n\n<p>&rArr; 15/(6 &times; 9)</p>\n&rArr; 5/18",
+    "solution_hi": "<p><strong>दिया हुआ:</strong></p>\n\n<p>x + y = 13, y + z = 15 और z + x = 16</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>सभी दिए गए समीकरणों को जोड़ते हुए, हम प्राप्त करते हैं</p>\n\n<p>2(x + y + z) = 44</p>\n\n<p>&rArr; x + y + z = 22</p>\n\n<p>इसलिए, x = 22 - 15 = 7</p>\n\n<p>y = 22 - 16 = 6</p>\n\n<p>और, z = 22 - 13 = 9</p>\n\n<p>अब,</p>\n\n<p>(xy + xz)/xyz</p>\n\n<p>&rArr; (y + z)/yz</p>\n\n<p>&rArr; 15/(6 &times; 9)</p>\n&rArr; 5/18",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Solve the following expression.</p>\n11 + 11 &times; 11 &ndash; 11 &divide; 11",
+    "question_hi": "<p>निम्नलिखित व्यंजक को हल करें।</p>\n11 + 11 &times; 11 &ndash; 11 &divide; 11",
+    "options": [
+      "121",
+      "22",
+      "11",
+      "131"
+    ],
+    "options_hi": [
+      "121",
+      "22",
+      "11",
+      "131"
+    ],
+    "correct": 4,
+    "solution": "<p>11 + 11 &times; 11 &ndash; 11 &divide; 11</p>\n\n<p>&rArr; 11 + 121 &ndash; 1</p>\n&rArr; 131",
+    "solution_hi": "<p>11 + 11 &times; 11 &ndash; 11 &divide; 11</p>\n\n<p>&rArr; 11 + 121 &ndash; 1</p>\n&rArr; 131",
+    "marks": "2"
+  },
+  {
+    "question": "A man wanted to sell his bat at a discount of 8%. His brother who was a cricketer wanted to buy the bat, so the man sells it at a discount of 10%. In this deal, the man reduces Rs.70 in profit. What was the market value of the bat?",
+    "question_hi": "एक आदमी&nbsp;अपना बल्ला&nbsp; 8% छूट पर बेचना चाहता था। उसका एक क्रिकेटर भाई&nbsp;बल्ला खरीदना चाहता था, इसलिए वह आदमी उसे 10% छूट पर बेचता है। इस सौदे में, आदमी का लाभ 70 रुपये कम होता है। बल्ले का बाजार मूल्य क्या था?",
+    "options": [
+      "Rs. 3,200",
+      "Rs. 2,500",
+      "Rs. 3,000",
+      "Rs. 3,500"
+    ],
+    "options_hi": [
+      "3,200 रु.",
+      "2,500&nbsp;रु.",
+      "3,000&nbsp;रु.",
+      "3,500&nbsp;रु."
+    ],
+    "correct": 4,
+    "solution": "<p>Let MP of the bat be Rs. x</p>\n\n<p>According to the question</p>\n\n<p>92x/100 &ndash; 90x/100 = 70</p>\n\n<p>&rArr; 2x = 7000</p>\n\n<p>&rArr; x = 3500</p>\n\n<p><strong><u>Short Trick</u></strong><strong>:</strong></p>\n\n<p>Let MP of the bat be 100%</p>\n\n<p>10% - 8% = 70</p>\n\n<p>&rArr; 2% = 70</p>\n&rArr;100% = 3500",
+    "solution_hi": "<p>बल्ले का बाजार मूल्य&nbsp;x&nbsp;रु. मानने पर</p>\n\n<p>प्रश्न के अनुसार</p>\n\n<p>92x/100 &ndash; 90x/100 = 70</p>\n\n<p>&rArr; 2x = 7000</p>\n\n<p>&rArr; x = 3500</p>\n\n<p><strong><u>लघु विधि</u></strong><strong>:</strong></p>\n\n<p>बल्ले का बाजार मूल्य&nbsp;x&nbsp;रु. मानने पर</p>\n\n<p>10% - 8% = 70</p>\n\n<p>&rArr; 2% = 70</p>\n&rArr;100% = 3500",
+    "marks": "2"
+  },
+  {
+    "question": "The volumes of spheres A and B are in the ratio 125 : 64. If the sum of radii of A and B is 36 cm, then the surface area (in cm<sup>2</sup>) of A is:",
+    "question_hi": "गोला A और B के आयतन 125: 64 के अनुपात में हैं। यदि A और B की त्रिज्याओं का योग 36 सेमी है, तो A का सतह क्षेत्रफल (cm<sup>2</sup> में) कितना है?",
+    "options": [
+      "1600&pi;",
+      "1024&pi;",
+      "512&pi;",
+      "800&pi;"
+    ],
+    "options_hi": [
+      "1600&pi;",
+      "1024&pi;",
+      "512&pi;",
+      "800&pi;"
+    ],
+    "correct": 1,
+    "solution": "<p>As we know,</p>\n\n<p>Ratio of volume of sphere of A to B = (4/3) &pi;(R<sub>1</sub>)<sup>3</sup> : (4/3) &pi;(R<sub>2</sub>)<sup>3</sup> = (R<sub>1</sub>)<sup>3</sup> : (R<sub>2</sub>)<sup>3</sup></p>\n\n<p>According to the question</p>\n\n<p>(R<sub>1</sub>/R<sub>2</sub>)<sup>3</sup> = 125/64</p>\n\n<p>R<sub>1</sub>/R<sub>2</sub> = ∛125/64 = 5/4</p>\n\n<p>R<sub>1</sub> : R<sub>2</sub> = 5 : 4</p>\n\n<p>Now, 5 + 4 = 9 units</p>\n\n<p>&rArr; 9 units = 36</p>\n\n<p>&rArr; 1 unit = 4</p>\n\n<p>Hence, 5 units = 5 &times; 4 = 20 cm</p>\n\n<p>Radius of sphere A = 20 cm</p>\nTotal surface area of sphere A = 4&pi;r<sup>2</sup> = 4&pi; &times; 20 &times; 20 = 1600&pi; cm<sup>2</sup>",
+    "solution_hi": "<p>जैसा कि हम जानते हैं,</p>\n\n<p>गोला A और B के आयतनों का अनुपात = (4/3) &pi;(R<sub>1</sub>)<sup>3</sup> : (4/3) &pi;(R<sub>2</sub>)<sup>3</sup> = (R<sub>1</sub>)<sup>3</sup> : (R<sub>2</sub>)<sup>3</sup></p>\n\n<p>प्रश्न के अनुसार</p>\n\n<p>(R<sub>1</sub>/R<sub>2</sub>)<sup>3</sup> = 125/64</p>\n\n<p>R<sub>1</sub>/R<sub>2</sub> = ∛125/64 = 5/4</p>\n\n<p>R<sub>1</sub> : R<sub>2</sub> = 5 : 4</p>\n\n<p>अब, 5 + 4 = 9 इकाई&nbsp;</p>\n\n<p>&rArr; 9 <span style=\"\">इकाई</span>= 36</p>\n\n<p>&rArr; 1 <span style=\"\">इकाई</span>= 4</p>\n\n<p>इसलिए, 5 <span style=\"\">इकाई</span>= 5 &times; 4 = 20 cm</p>\n\n<p>गोला A की त्रिज्या = 20 cm</p>\nगोला A का कुल सतह क्षेत्रफल&nbsp;= 4&pi;r<sup>2</sup> = 4&pi; &times; 20 &times; 20 = 1600&pi; cm<sup>2</sup>",
+    "marks": "2"
+  },
+  {
+    "question": "In a circle, chords PQ and TS are produced to meet at R. if RQ = 14.4 cm, PQ = 11.2 cm, and SR = 12.8 cm, then the length of chord TS is:",
+    "question_hi": "एक वृत्त में, जीवा&nbsp;PQ और TS&nbsp;को इस प्रकार बढ़ाया जाता है कि वे&nbsp;R पर मिलती हैं। यदि RQ = 14.4 सेमी, PQ = 11.2 सेमी, और SR = 12.8 सेमी&nbsp;है, तो जीवा&nbsp;TS&nbsp; की लम्बाई कितनी होगी?",
+    "options": [
+      "18 cm",
+      "16 cm",
+      "14.2 cm",
+      "112.4 cm"
+    ],
+    "options_hi": [
+      "18 सेमी",
+      "16 सेमी",
+      "14.2 सेमी",
+      "112.4 सेमी"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Calculation:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/05/F1_A.K_6.5.20_Pallavi_D2.png\" style=\"width: 256px; height: 119px;\" /></p>\n\n<p>RP = RQ + PQ = 14.4 + 11.2 = 25.6</p>\n\n<p>As we know,</p>\n\n<p>RP &times; RQ = RT &times; RS</p>\n\n<p>&rArr;&nbsp;25.6 &times; <span style=\"\">14.4 </span>=&nbsp;RT&nbsp;<span style=\"\">&times; 12.8</span></p>\n\n<p>&rArr; RT = 28.8 cm</p>\nNow, TS = RT &ndash; RS = 28.8 &ndash; 12.8 = <strong>16 cm.</strong>",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/05/F1_A.K_6.5.20_Pallavi_D2.png\" style=\"width: 256px; height: 119px;\" /></p>\n\n<p>RP = RQ + PQ = 14.4 + 11.2 = 25.6</p>\n\n<p>जैसा कि हम जानते हैं,</p>\n\n<p>RP &times; RQ = RT &times; RS</p>\n\n<p><span style=\"\">&rArr;&nbsp;25.6 &times;&nbsp;</span><span style=\"\">14.4&nbsp;</span><span style=\"\">=</span><span style=\"\">&nbsp;RT&nbsp;</span><span style=\"\">&times;&nbsp;12.8</span></p>\n\n<p>&rArr; RT = 28.8 सेमी</p>\nअब, TS = RT &ndash; RS = 28.8 &ndash; 12.8 = 16 सेमी",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The following table shows the imports and exports (in Rs. crore) of a country over 4 years (2016 to 2019).</p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">Years</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2016</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2017</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2018</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2019</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">Imports</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">125</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">145</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">165</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">188</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">Exports</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">130</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">150</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">175</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">200</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>The average trade balance (in Rs. crores) is:</p>\n",
+    "question_hi": "<p>निम्न तालिका 4 वर्षों (2016 से 2019) में एक देश के आयात और निर्यात (करोड़ रुपये में) दिखाती है।</p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">वर्ष</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2016</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2017</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2018</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">2019</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">आयात</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">125</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">145</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">165</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">188</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">निर्यात</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">130</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">150</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">175</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:67px;height:25px;\">\n\t\t\t<p style=\"text-align: center;\">200</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>औसत व्यापार संतुलन (रु.&nbsp;करोड़ों में) है:</p>\n",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "options_hi": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "correct": 2,
+    "solution": "<p>Total imports during the years = 125 + 145 + 165 + 188 = 623</p>\n\n<p>Total exports during the years = 130 + 150 + 175 + 200 = 655</p>\n\n<p>Balance difference = 655 &ndash; 623 = 32</p>\n&there4; Average difference = 32/4 = 8",
+    "solution_hi": "<p>वर्षों के दौरान कुल आयात = 125 + 145 + 165 + 188 = 623</p>\n\n<p>वर्षों के दौरान कुल निर्यात = 130 + 150 + 175 + 200 = 655</p>\n\n<p>संतुलन अंतर = 655 &ndash; 623 = 32</p>\n&there4; औसत अंतर&nbsp;= 32/4 = 8",
+    "marks": "2"
+  },
+  {
+    "question": "A certain sum amounts to Rs. 280900 in 2 years at 6% per annum, interest compounded annually. The sum is:",
+    "question_hi": "एक निश्चित राशि 2 वर्षों में 6% प्रति वर्ष की दर से 280900 रुपये हो जाती है, <span style=\"color: rgb(37, 37, 37);  \">चक्रवृद्धि&nbsp;</span>ब्याज वार्षिक रूप से संयोजित होता है। राशि है:",
+    "options": [
+      "Rs. 550000",
+      "Rs. 200000",
+      "Rs. 250000",
+      "Rs. 350000"
+    ],
+    "options_hi": [
+      "550000&nbsp;रुपये",
+      "200000&nbsp;रुपये",
+      "250000&nbsp;रुपये",
+      "350000&nbsp;रुपये"
+    ],
+    "correct": 3,
+    "solution": "<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Rate = 6% = 6/100 = 3/50</p>\n<p>Ratio of Principal to Amount for 1 year = 50 : 53</p>\n<p>Ratio of Principal to Amount for 2 years = (50)<sup>2</sup> : (53)<sup>2</sup> = 2500 : 2809</p>\n<p>Given Amount = 2809 units = Rs. 280900 ⇒ 1 unit = Rs. 100</p>\n<p>Principal = 2500 units = 2500 × 100 = Rs. 250000</p>\n<p><strong>∴ The correct answer is Rs. 250000.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Amount (A) = Rs. 280900</p>\n<p>Time (T) = 2 years</p>\n<p>Rate (R) = 6% per annum</p>\n<p><strong>Formula Used:</strong></p>\n<p>A = P(1 + R/100)<sup>T</sup></p>\n\n<svg width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;margin:12px 0;background:#ffffff;border-radius:10px;border:1px solid #cccccc;\">\n    <line x1=\"60\" y1=\"130\" x2=\"360\" y2=\"130\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n    \n    <circle cx=\"60\" cy=\"130\" r=\"6\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n    <circle cx=\"210\" cy=\"130\" r=\"6\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n    <circle cx=\"360\" cy=\"130\" r=\"6\" fill=\"#ddeeff\" stroke=\"#2255cc\" stroke-width=\"2\"/>\n    \n    <text x=\"60\" y=\"155\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">Year 0</text>\n    <text x=\"210\" y=\"155\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">Year 1</text>\n    <text x=\"360\" y=\"155\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">Year 2</text>\n    \n    <text x=\"60\" y=\"175\" fill=\"#2255cc\" font-weight=\"bold\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P = ?</text>\n    <text x=\"360\" y=\"175\" fill=\"#2255cc\" font-weight=\"bold\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">280900</text>\n    \n    <path d=\"M 60 120 Q 135 60 210 120\" fill=\"none\" stroke=\"#cc5500\" stroke-width=\"1.5\" stroke-dasharray=\"4,2\"/>\n    <path d=\"M 210 120 Q 285 60 360 120\" fill=\"none\" stroke=\"#cc5500\" stroke-width=\"1.5\" stroke-dasharray=\"4,2\"/>\n    \n    <text x=\"135\" y=\"80\" fill=\"#cc5500\" font-weight=\"bold\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">+ 6%</text>\n    <text x=\"285\" y=\"80\" fill=\"#cc5500\" font-weight=\"bold\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">+ 6%</text>\n    \n    <text x=\"210\" y=\"35\" fill=\"#222222\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Amount = P × (53/50) × (53/50)</text>\n</svg>\n\n<p><strong>Calculation:</strong></p>\n<p>⇒ 280900 = P(1 + 6/100)<sup>2</sup></p>\n<p>⇒ 280900 = P(1 + 3/50)<sup>2</sup></p>\n<p>⇒ 280900 = P(53/50)<sup>2</sup></p>\n<p>⇒ 280900 = P × (2809 / 2500)</p>\n<p>⇒ P = 280900 × (2500 / 2809)</p>\n<p>⇒ P = 100 × 2500 = 250000</p>\n<p><strong>∴ The correct answer is Rs. 250000.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Compound Interest Formula</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">When interest is compounded annually, Amount A = P(1 + R/100)<sup>T</sup>, where P is the principal, R is the rate of interest, and T is the time period in years.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Effective Rate of Interest</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">For 2 years, the effective compound interest rate can be directly calculated using the successive percentage change formula: R<sub>eff</sub> = R + R + (R × R) ÷ 100.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Difference Between CI and SI</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">For 2 years, the difference between Compound Interest and Simple Interest on a sum P at rate R% is given by Diff = P(R/100)<sup>2</sup>.</p></p>",
+    "solution_hi": "<p>A = 280900, R = 6% and t = 2 वर्ष</p>\n\n<p>जैसा कि हम जानते हैं</p>\n\n<p>A = P (1 + r/100)<sup>t</sup></p>\n\n<p>280900 = P (1 + 6/100)<sup>2</sup></p>\n\n<p>&rArr; 280900 = P &times; 53/50 &times; 53/50</p>\n\n<p>&rArr; P = 280900 &times; 50/53 &times; 50/53</p>\n&rArr; P = 250000",
+    "marks": "2"
+  },
+  {
+    "question": "A, B and C can individually complete a task in 24 days, 16 days and 32 days respectively. If A and C start the work and worked for 6 days and left, then the number of days required by B to complete the remaining task, is:",
+    "question_hi": "A, B और C व्यक्तिगत रूप से&nbsp;एक कार्य को क्रमशः 24 दिन, 16 दिन और 32 दिन में पूरा कर सकते हैं। यदि A और C काम शुरू करते हैं और 6 दिनों तक काम करने के बाद छोड़कर चले जाते हैं&#39;, तो बचे हुए कार्य को पूरा करने के लिए B के लिए आवश्यक दिनों की संख्या क्या होगी?",
+    "options": [
+      "9",
+      "<span class=\"math-tex\">\\(17\\frac{1}{2}\\)</span>",
+      "<span class=\"math-tex\">\\(12\\frac{1}{2}\\)</span>",
+      "<span class=\"math-tex\">\\(7\\frac{1}{2}\\)</span>"
+    ],
+    "options_hi": [
+      "9",
+      "<span class=\"math-tex\">\\(17\\frac{1}{2}\\)</span>",
+      "<span class=\"math-tex\">\\(12\\frac{1}{2}\\)</span>",
+      "<span class=\"math-tex\">\\(7\\frac{1}{2}\\)</span>"
+    ],
+    "correct": 1,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/05/F1_A.K_6.5.20_Pallavi_D3.png\" style=\"width: 156px; height: 97px;\" /></p>\n\n<p>Total work = 96 units (LCM of 24, 16 and 32)</p>\n\n<p>Hence, efficiency of A = 4 units, B = 6 units and C = 3 units</p>\n\n<p>Work done by A and C in 6 days = (4 + 3) &times; 6 = 42 units</p>\n\n<p>Remaining work = 96 &ndash; 42 = 54 units</p>\nRemaining work, B complete in = 54/6 = 9 days",
+    "solution_hi": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/05/F1_A.K_6.5.20_Pallavi_D3.png\" style=\"width: 156px; height: 97px;\" /></p>\n\n<p>कुल कार्य = 96 इकाइयाँ (24, 16 और 32 का ल.स.प.)</p>\n\n<p>इसलिए, A&nbsp;की कुशलता = 4 इकाइयाँ&nbsp;, C&nbsp;= 6 इकाइयाँ&nbsp;और C&nbsp;= 3 इकाइयाँ&nbsp;</p>\n\n<p>A और C द्वारा 6 दिनों में किया गया कार्य = (4 + 3) &times; 6 = 42 इकाइयाँ</p>\n\n<p>शेष कार्य = 96 - 42 = 54 इकाइयाँ&nbsp;</p>\n\n<p>शेष कार्य को&nbsp;B द्वारा&nbsp;54/6 = 9 दिनों में&nbsp;पूरा किया जायेगा</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If a<sup>2</sup> + b<sup>2 </sup>&ndash; c<sup>2</sup> = 0, then the value of <span class=\"math-tex\">\\(\\frac{{2\\left( {{a^6} + {b^6} - {c^6}} \\right)}}{{3{a^2}{b^2}{c^2}}}\\)</span>&nbsp;is:",
+    "question_hi": "यदि a<sup>2</sup> + b<sup>2 </sup>&ndash; c<sup>2</sup> = 0, तो&nbsp;<span class=\"math-tex\">\\(\\frac{{2\\left( {{a^6} + {b^6} - {c^6}} \\right)}}{{3{a^2}{b^2}{c^2}}}\\)</span>&nbsp;का मान क्या होगा?",
+    "options": [
+      "1",
+      "0",
+      "-2",
+      "2"
+    ],
+    "options_hi": [
+      "1",
+      "0",
+      "-2",
+      "2"
+    ],
+    "correct": 3,
+    "solution": "<p>As we know,</p>\n\n<p>a<sup>2</sup> + b<sup>2</sup>&nbsp;&ndash; c<sup>2</sup> = 0, then</p>\n\n<p>a<sup>6</sup> + b<sup>6</sup> &ndash; c<sup>6</sup> = -3a<sup>2</sup>b<sup>2</sup>c<sup>2</sup></p>\n\n<p>Now,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{2\\left( {{a^6} + {b^6} - {c^6}} \\right)}}{{3{a^2}{b^2}{c^2}}}\\)</span></p>\n\n<p><span class=\"math-tex\">\\( ⇒ {\\rm{}}\\frac{{2 \\times -3{a^2}{b^2}{c^2}}}{{3{a^2}{b^2}{c^2}}}\\)</span></p>\n\n<p>&rArr; -2</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/important-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Important Points</u></span></strong></span></p>\n\n<p>a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;= 0</p>\n\n<p>&rArr; a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;= c<sup>2</sup></p>\n\n<p>cube both side</p>\n\n<p>&rArr; (a<sup>2</sup>&nbsp;+ b<sup>2</sup>)<sup>3</sup>&nbsp;= (c<sup>2</sup>)<sup>3</sup></p>\n\n<p>&rArr; a<sup>6</sup>&nbsp;+ b<sup>6</sup>&nbsp;+ 3a<sup>2</sup>b<sup>2</sup>(a<sup>2</sup>&nbsp;+ b<sup>2</sup>) = c<sup>6</sup></p>\n\n<p>&rArr; a<sup>6</sup>&nbsp;+ b<sup>6</sup>&nbsp;&ndash; c<sup>6</sup>&nbsp;=&nbsp;&ndash; 3a<sup>2</sup>b<sup>2</sup>c<sup>2</sup></p>\n",
+    "solution_hi": "<p>जैसा की हम जानते हैं,</p>\n\n<p>a<sup>2</sup> + b<sup>2</sup>&nbsp;&ndash; c<sup>2</sup> = 0, तब</p>\n\n<p>a<sup>6</sup> + b<sup>6</sup> &ndash; c<sup>6</sup> = -3a<sup>2</sup>b<sup>2</sup>c<sup>2</sup></p>\n\n<p>अब,</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{2\\left( {{a^6} + {b^6} - {c^6}} \\right)}}{{3{a^2}{b^2}{c^2}}}\\)</span></p>\n\n<p><span class=\"math-tex\">\\( \\Rightarrow {\\rm{}}\\frac{{2 \\times -3{a^2}{b^2}{c^2}}}{{3{a^2}{b^2}{c^2}}}\\)</span></p>\n\n<p>&rArr; -2</p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/important-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Important Points</u></span></strong></span></p>\n\n<p>a<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ b<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;&ndash; c<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;= 0</p>\n\n<p>&rArr; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;= c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p>cube both side</p>\n\n<p>&rArr; (a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= (c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span></p>\n\n<p>&rArr; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>&nbsp;+ 3a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>(a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>) = c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span></p>\n\n<p>&rArr; a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>&nbsp;&ndash; c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">6</span>&nbsp;=&nbsp;&ndash; 3a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Amit travelled a distance of 50 km in 9 hours. He travelled partly on foot at 5 km/h and partly by bicycle at 10 km/h. The distance travelled on the bicycle is:",
+    "question_hi": "अमित ने 9 घंटे में 50 किमी की दूरी तय की। उन्होंने आंशिक रूप से 5 km/h की&nbsp;दर से&nbsp;पैदल यात्रा की और आंशिक रूप से 10 km/h की दर से साइकिल से यात्रा की। साइकिल पर तय की गई दूरी कितनी है?",
+    "options": [
+      "11 km",
+      "13 km",
+      "10 km",
+      "12 km"
+    ],
+    "options_hi": [
+      "11 km",
+      "13 km",
+      "10 km",
+      "12 km"
+    ],
+    "correct": 3,
+    "solution": "<p>Average speed = 50/9 km/hr</p>\n\n<p>Using allegation method</p>\n\n<p>10 km/hr 5 km/hr</p>\n\n<p>50/9 km/hr</p>\n\n<p>5/9 40/9</p>\n\n<p>Time ratio to cover distance by bicycle to that of foot = 5/9 : 40/9 = 1 : 8</p>\n\n<p>Now, (1 + 8) units = 9 hours</p>\n\n<p>&rArr; 1 unit = 1 hour</p>\n\n<p>Hence, time taken by bicycle = 1 hour</p>\nDistance covered by bicycle = 10 &times; 1 = 10 km",
+    "solution_hi": "<p>औसत गति = 50/9 km/hr</p>\n\n<p>पृथक्करण विधि का उपयोग करते हुए</p>\n\n<p>10 km/hr 5 km/hr</p>\n\n<p>50/9 km/hr</p>\n\n<p>5/9 40/9</p>\n\n<p>साइकिल और पैदल तय की गई दूरियों के समयों का अनुपात = 5/9 : 40/9 = 1 : 8</p>\n\n<p>अब, (1 + 8) इकाइयाँ = 9 घंटे</p>\n\n<p>&rArr; 1 इकाई = 1 घंटा</p>\n\n<p>इसलिए, साइकिल द्वारा लिया गया समय = 1 घंटा</p>\n\n<p>साइकिल द्वारा तय की गई दूरी = 10 &times; 1 = 10 km</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "The average of 4 terms is 30 and the 1<sup>st</sup> term is 1/3 of the sum of the remaining terms. What is the first term?",
+    "question_hi": "4 पदों का औसत 30 है और पहला पद&nbsp;शेष पदों के योग का 1/3 है। पहला पद क्या है?",
+    "options": [
+      "20",
+      "30",
+      "60",
+      "40"
+    ],
+    "options_hi": [
+      "20",
+      "30",
+      "60",
+      "40"
+    ],
+    "correct": 2,
+    "solution": "<p>Let the sum of last three terms be 3x.</p>\n\n<p>According to the Question, the first term will be:</p>\n\n<p>= 3x &times; 1/3 = x</p>\n\n<p>Average of 4 terms is given as&nbsp;30, i.e.</p>\n\n<p>(Sum of 4 terms)/4 = 30</p>\n\n<p><span style=\"\">Sum of 4 terms = 120</span></p>\n\n<p><span style=\"\">From the above concluded data, we can write:</span></p>\n\n<p>x + 3x = 120</p>\n\n<p>4x = 120</p>\n\n<p>x = 120/4</p>\n\n<p><strong>x = 30</strong></p>\nFirst term is 30.",
+    "solution_hi": "<p>पिछले तीन पदों का&nbsp;योग 3x है</p>\n\n<p>फिर, पहला पद&nbsp;= 3x &times; 1/3 = x</p>\n\n<p>पहले 4 पदों का औसत = 30</p>\n\n<p>&rArr; 4 पदों&nbsp;का योग = 30 &times; 4 = 120</p>\n\n<p>प्रश्न के अनुसार</p>\n\n<p>x + 3x = 120</p>\n\n<p>4x = 120</p>\n\n<p>x = 120/4</p>\n\n<p><strong>x = 30</strong></p>\nपहला पद 30 है",
+    "marks": "2"
+  },
+  {
+    "question": "When 2 is subtracted from each of the given n numbers, then the sum of the numbers so obtained is 102. When 5 is subtracted from each of them, then the sum of the numbers so obtained is 12. What is the average of the given n numbers?",
+    "question_hi": "जब दी गई n संख्याओं में से प्रत्येक से 2 घटाया जाता है, तो प्राप्त संख्याओं का योग 102 मिलता है। जब उनमें से प्रत्येक से 5 घटाया जाता है, तो प्राप्त संख्याओं का योग 12&nbsp;मिलता है। दी गई n संख्याओं का औसत क्या है?",
+    "options": [
+      "5.4",
+      "5.8",
+      "6.6",
+      "6.2"
+    ],
+    "options_hi": [
+      "5.4",
+      "5.8",
+      "6.6",
+      "6.2"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Formula Used:</strong></p>\n\n<p>Average = Sum of observations/Number of observations</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the sum of n numbers be x, then</p>\n\n<p>According to the question</p>\n\n<p>x &ndash; 2n = 102&nbsp;&nbsp;&nbsp;&nbsp; &hellip;(1)</p>\n\n<p>x &ndash; 5n = 12&nbsp;&nbsp;&nbsp;&nbsp; &hellip;(2)</p>\n\n<p>Subtract equation (1) from equation (2)</p>\n\n<p>3n = 90</p>\n\n<p>&rArr; n = 30</p>\n\n<p>From equation (1)</p>\n\n<p>x &ndash; 60 = 102</p>\n\n<p>&rArr; x = 102 + 60 = 162</p>\n<strong>&there4; Average of first n numbers = 162/30 = 5.4</strong>",
+    "solution_hi": "<p>माना कि N संख्याओं का योग x है, तो</p>\n\n<p>प्रश्न के अनुसार</p>\n\n<p>x &ndash; 2n = 102&nbsp;&nbsp;&nbsp;&nbsp; &hellip;1)</p>\n\n<p>x &ndash; 5n = 12&nbsp;&nbsp;&nbsp;&nbsp; &hellip;2)</p>\n\n<p>समीकरण (1) से समीकरण&nbsp;(2) को घटाने पर</p>\n\n<p>3n = 90</p>\n\n<p>&rArr; n = 30</p>\n\n<p>समीकरण&nbsp;(1)&nbsp;से</p>\n\n<p>x &ndash; 60 = 102</p>\n\n<p>&rArr; x = 102 + 60 = 162</p>\n&there4; पहली n संख्याओं का औसत = 162/30 = 5.4",
+    "marks": "2"
+  },
+  {
+    "question": "The value of (cosec A + cot A + 1) (cosec A &ndash; cot A +1) &ndash; 2cosec A is:",
+    "question_hi": "(cosec A + cot A + 1) (cosec A &ndash; cot A +1) &ndash; 2cosec A का मान क्या है?",
+    "options": [
+      "3cosecA",
+      "0",
+      "4cosecA",
+      "2"
+    ],
+    "options_hi": [
+      "3cosecA",
+      "0",
+      "4cosecA",
+      "2"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\"\">(cosecA + cotA + 1)(cosecA &ndash; cotA +1) &ndash; 2cosecA</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p style=\"\">(cosecA + cotA + 1)(cosecA&ndash; cotA +1) &ndash; 2cosecA</p>\n\n<p style=\"\">&rArr; (cosecA + 1 + cotA)(cosecA + 1 &ndash; cotA) &ndash; 2cosecA</p>\n\n<p style=\"\">&rArr; [(cosecA + 1)<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; cot<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A] &ndash; 2 cosecA</p>\n\n<p style=\"\">&rArr; cosec<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A + 1 + 2cosecA &ndash; cot<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A &ndash; 2cosecA</p>\n\n<p style=\"\">&rArr; cosec<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A &ndash; cot<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A + 1</p>\n\n<p style=\"\">&rArr; 1 + 1 =&nbsp;<span style=\"\">2</span></p>\n\n<p style=\"\"><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></span></p>\n\n<p>(cosecA + cotA + 1)(cosecA &ndash; cotA +1) &ndash; 2cosecA</p>\n\n<p>Put A = 90&deg;</p>\n\n<p>(cosec90 + cot90 + 1)(cosec90 &ndash; cot90 +1) &ndash; 2cosec90</p>\n\n<p>&rArr; (1 + 0 + 1) (1 &ndash; 0 + 1) &ndash; 2</p>\n\n<p>&rArr; 2 &times; 2 &ndash; 2</p>\n\n<p>&rArr; 4 &ndash; 2 = 2</p>\n",
+    "solution_hi": "<p><span style=\"font-weight: 700; \">दिया है:</span></p>\n\n<p><span style=\"\">(cosecA + cotA + 1)(cosecA &ndash; cotA +1) &ndash; 2cosecA</span></p>\n\n<p><span style=\"font-weight: 700; \">गणना:</span></p>\n\n<p style=\"\">(cosecA + cotA + 1)(cosecA&ndash; cotA +1) &ndash; 2cosecA</p>\n\n<p style=\"\">&rArr; (cosecA + 1 + cotA)(cosecA + 1 &ndash; cotA) &ndash; 2cosecA</p>\n\n<p style=\"\">&rArr; [(cosecA + 1)<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; cot<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A] &ndash; 2 cosecA</p>\n\n<p style=\"\">&rArr; cosec<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A + 1 + 2cosecA &ndash; cot<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A &ndash; 2cosecA</p>\n\n<p style=\"\">&rArr; cosec<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A &ndash; cot<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>A + 1</p>\n\n<p style=\"\">&rArr; 1 + 1 =&nbsp;<span style=\"\">2</span></p>\n\n<p style=\"\"><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></span></p>\n\n<p>(cosecA + cotA + 1)(cosecA &ndash; cotA +1) &ndash; 2cosecA</p>\n\n<p>A = 90&deg; रखिए</p>\n\n<p>(cosec90 + cot90 + 1)(cosec90 &ndash; cot90 +1) &ndash; 2cosec90</p>\n\n<p>&rArr; (1 + 0 + 1) (1 &ndash; 0 + 1) &ndash; 2</p>\n\n<p>&rArr; 2 &times; 2 &ndash; 2</p>\n\n<p>&rArr; 4 &ndash; 2 = 2</p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A train X travelling at 60 km/h overtakes another train Y, 225 m long, and completely passes it in 72 seconds. If the trains had been going in opposite directions, they would have passed each other in 18 seconds. The length (in m) of X and the speed (in km/h) of Y are, respectively:",
+    "question_hi": "<p>एक ट्रेन X, 60 किमी/घंटा की गति से चल रही है, 225 मीटर लंबी दूसरी ट्रेन Y को पार करती है, और इसे 72 सेकंड में पूरी तरह से पार कर जाती है। यदि ट्रेनें विपरीत दिशाओं में जा रही होतीं, तो वे 18 सेकंड में एक-दूसरे को पार कर लेतीं। X की लंबाई (मीटर में) और Y की गति (किमी/घंटा में) क्रमशः हैं:</p>\n",
+    "options": [
+      "255 and 36",
+      "255 and 40",
+      "245 and 54",
+      "245 and 45"
+    ],
+    "options_hi": [
+      "255 और 36",
+      "255 और 40",
+      "245 और 54",
+      "245 और 45"
+    ],
+    "correct": 1,
+    "solution": "<p>Let the length of the train X be l m and speed of train Y be x km/hr</p>\n\n<p>As we know,</p>\n\n<p>Time = Distance/speed</p>\n\n<p><span class=\"math-tex\">\\(72 = \\frac{{225 + l}}{{\\left( {60 - x} \\right)\\frac{5}{{18}}}}\\)</span>&nbsp;&nbsp;&nbsp;&nbsp; &hellip;1)</p>\n\n<p><span class=\"math-tex\">\\(18 = \\frac{{225 + l}}{{\\left( {60 + x} \\right)\\frac{5}{{18}}}}\\)</span>&nbsp;&nbsp;&nbsp;&nbsp; &hellip;2)</p>\n\n<p>Multiply by 4 in equation (2)</p>\n\n<p><span class=\"math-tex\">\\(72 = \\frac{{4\\left( {225 + l} \\right)}}{{\\left( {60 + x} \\right)\\frac{5}{{18}}}}\\)</span>&nbsp;&nbsp;&nbsp;&nbsp; &hellip;3)</p>\n\n<p>From equation (1) and equation (3)</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{4\\left( {225 + l} \\right)}}{{\\left( {60 + x} \\right)\\frac{5}{{18}}}} = \\frac{{225 + l}}{{\\left( {60 - x} \\right)\\frac{5}{{18}}}}\\)</span></p>\n\n<p>&rArr; 4 (60 &ndash; x) = (60 + x)</p>\n\n<p>&rArr; 240 &ndash; 4x = 60 + x</p>\n\n<p>&rArr; 4x + x = 240 &ndash; 60</p>\n\n<p>&rArr; 5x = 180</p>\n\n<p>&rArr; x = 36</p>\n\n<p>&there4; Speed of train Y is 36 km/hr</p>\n\n<p>From equation (1)</p>\n\n<p><span class=\"math-tex\">\\(72 = \\frac{{225 + l}}{{\\left( {60 - 36} \\right)\\frac{5}{{18}}}}\\)</span></p>\n\n<p>&rArr; 72 &times; 24 &times; 5/18 = 225 + l</p>\n\n<p>&rArr; 480 = 225 + l</p>\n\n<p>&rArr; l = 480 &ndash; 225</p>\n\n<p>&rArr; l = 255 m</p>\n&there4; Length of train X is 255 m.",
+    "solution_hi": "<p>मान लो कि ट्रेन X की लंबाई l m है और ट्रेन Y की गति x किमी / घंटा है</p>\n\n<p>जैसा कि हम जानते हैं,</p>\n\n<p>समय = दूरी/गति</p>\n\n<p><span class=\"math-tex\">\\(72 = \\frac{{225 + l}}{{\\left( {60 - x} \\right)\\frac{5}{{18}}}}\\)</span>&nbsp;&nbsp;&nbsp;&nbsp; &hellip;1)</p>\n\n<p><span class=\"math-tex\">\\(18 = \\frac{{225 + l}}{{\\left( {60 + x} \\right)\\frac{5}{{18}}}}\\)</span>&nbsp;&nbsp;&nbsp;&nbsp; &hellip;2)</p>\n\n<p>समीकरण (2) को 4 से गुणा करें&nbsp;</p>\n\n<p><span class=\"math-tex\">\\(72 = \\frac{{4\\left( {225 + l} \\right)}}{{\\left( {60 + x} \\right)\\frac{5}{{18}}}}\\)</span>&nbsp;&nbsp;&nbsp;&nbsp; &hellip;3)</p>\n\n<p>समीकरण (1) और समीकरण (3) से</p>\n\n<p><span class=\"math-tex\">\\(\\frac{{4\\left( {225 + l} \\right)}}{{\\left( {60 + x} \\right)\\frac{5}{{18}}}} = \\frac{{225 + l}}{{\\left( {60 - x} \\right)\\frac{5}{{18}}}}\\)</span></p>\n\n<p>&rArr; 4 (60 &ndash; x) = (60 + x)</p>\n\n<p>&rArr; 240 &ndash; 4x = 60 + x</p>\n\n<p>&rArr; 4x + x = 240 &ndash; 60</p>\n\n<p>&rArr; 5x = 180</p>\n\n<p>&rArr; x = 36</p>\n\n<p>&there4; ट्रेन Y की गति 36 km/hr है</p>\n\n<p>समीकरण (1) से</p>\n\n<p><span class=\"math-tex\">\\(72 = \\frac{{225 + l}}{{\\left( {60 - 36} \\right)\\frac{5}{{18}}}}\\)</span></p>\n\n<p>&rArr; 72 &times; 24 &times; 5/18 = 225 + l</p>\n\n<p>&rArr; 480 = 225 + l</p>\n\n<p>&rArr; l = 480 &ndash; 225</p>\n\n<p>&rArr; l = 255 m</p>\n&there4; ट्रेन X की लंबाई 255 मीटर है।",
+    "marks": "2"
+  },
+  {
+    "question": "A wheel covers a distance of 1,100 cm in one round. The diameter of the wheel is:",
+    "question_hi": "एक पहिया एक चक्कर में 1100 सेमी&nbsp;दूरी तय करता है। पहिये का व्यास क्या है?",
+    "options": [
+      "125 cm",
+      "100 cm",
+      "350 cm",
+      "150 cm"
+    ],
+    "options_hi": [
+      "125 सेमी",
+      "100 सेमी",
+      "350 सेमी",
+      "150 सेमी"
+    ],
+    "correct": 3,
+    "solution": "<p>Distance covered by 1 round = perimeter of the circle</p>\n\n<p>2&pi;r = 1100</p>\n\n<p>&rArr; 2 &times; 22/7 &times; r = 1100</p>\n\n<p>&rArr; r = 1100 &times; 7/22 &times; 1/2</p>\n\n<p>&rArr; r = 175 cm</p>\n&there4; Diameter of the wheel = 2 &times; 175 = 350 cm",
+    "solution_hi": "<p>1 चक्कर में तय की गई दूरी = वृत्त की परिधि&nbsp;</p>\n\n<p>2&pi;r = 1100</p>\n\n<p>&rArr; 2 &times; 22/7 &times; 2r = 1100</p>\n\n<p>&rArr; r = 1100 &times; 7/22 &times; 1/2</p>\n\n<p>&rArr; r = 175 सेमी</p>\n&there4; पहिये का व्यास = 2 &times; 175 = 350 सेमी",
+    "marks": "2"
+  },
+  {
+    "question": "Find the height of a cuboid whose volume is 330 cm<sup>3</sup> and the base area is 15 cm<sup>2</sup>.",
+    "question_hi": "एक घनाभ की ऊँचाई ज्ञात करें जिसका आयतन 330 सेमी<span style=\"position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; top: -0.5em;\">3</span> है और आधार का क्षेत्रफल 15 &nbsp;सेमी<span style=\"position: relative; font-size: 10.5px; line-height: 0; vertical-align: baseline; top: -0.5em;\">2</span> है।",
+    "options": [
+      "24 cm",
+      "21 cm",
+      "22 cm",
+      "19 cm"
+    ],
+    "options_hi": [
+      "24 सेमी",
+      "21 सेमी",
+      "22 सेमी",
+      "19 सेमी"
+    ],
+    "correct": 3,
+    "solution": "<p>As we know,</p>\n\n<p>Volume of cuboid = Area of Base &times; Height</p>\n\n<p>&rArr; 15 &times; h = 330</p>\n\n<p>&rArr; h = 330/15</p>\n\n<p>&rArr; h = 22 cm</p>\nSo, height of the cuboid is 22 cm.",
+    "solution_hi": "<p>जैसा कि हम जानते हैं,</p>\n\n<p>घनाभ का आयतन = आधार का क्षेत्रफल &times; ऊँचाई&nbsp;</p>\n\n<p>&rArr; 15 &times; h = 330</p>\n\n<p>&rArr; h = 330/15</p>\n\n<p>&rArr; h = 22 सेमी</p>\nतो, घनाभ की ऊंचाई 22 सेमी है।",
+    "marks": "2"
+  },
+  {
+    "question": "There is a continuous decrease in production over the months in:",
+    "question_hi": "दिए गये महीनों में किस कंपनी उत्पादन में लगातार कमी देखी जा रही है?",
+    "options": [
+      "Company II",
+      "Company I",
+      "Company III",
+      "Company IV"
+    ],
+    "options_hi": [
+      "कंपनी II",
+      "कंपनी I",
+      "कंपनी III",
+      "कंपनी IV"
+    ],
+    "correct": 2,
+    "solution": "Production by company l is 327, 326, 320, 318, and 310, which is continuously decreasing.",
+    "solution_hi": "कंपनी&nbsp;I&nbsp;का उत्पादन 327, 326, 320, 318, और 310 है, जो लगातार कम हो रहा है।",
+    "marks": "2"
+  },
+  {
+    "question": "In which month does Company II have a contribution of approximately 20% in the total fertilizer production by it?",
+    "question_hi": "किस महीने में, कंपनी II का उसके द्वारा उत्पादित कुल उर्वरक उत्पादन में लगभग 20% का योगदान है?",
+    "options": [
+      "May",
+      "April",
+      "January",
+      "March"
+    ],
+    "options_hi": [
+      "मई",
+      "अप्रैल",
+      "जनवरी",
+      "मार्च"
+    ],
+    "correct": 2,
+    "solution": "<p>Total production of company II during the months = 180 + 179 + 160 + 167 + 150 = 836</p>\n\n<p>Now, 20% of 836 = 836 &times; 1/5 = 167.2</p>\nSo, in April month, company II have a contribution approximately 20% in the total fertilizer production.",
+    "solution_hi": "<p>महीनों के दौरान कंपनी II का कुल उत्पादन = 180 + 179 + 160 + 167 + 150 = 836</p>\n\n<p>अब, 836 <span style=\"\">का 20%&nbsp;</span>= 836 &times; 1/5 = 167.2&nbsp;</p>\n\n<p>इसलिए, अप्रैल महीने में,&nbsp;कंपनी II का उसके द्वारा उत्पादित कुल उर्वरक उत्पादन में लगभग 20% का योगदान है।</p>\n",
+    "marks": "2"
+  }
+]
