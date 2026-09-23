@@ -1,0 +1,502 @@
+[
+  {
+    "question": "An 11-digit number 7823326867X is divisible by 18. What is the value of X?&nbsp;",
+    "question_hi": "11 अंकों की संख्या 7823326867X, 18 से विभाज्य है। X का मान कितना है?",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "2"
+    ],
+    "options_hi": [
+      "6",
+      "4",
+      "8",
+      "2"
+    ],
+    "correct": 4,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>For a number to be <strong>divisible by 18</strong>, it must be <strong>even</strong> and the <strong>sum of its digits</strong> must be divisible by 9.</p>\n<p>Sum of digits of 7823326867X = 7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 + X = 52 + X.</p>\n<p>The nearest multiple of 9 greater than 52 is 54.</p>\n<p>Equating: 52 + X = 54 ⇒ X = 2.</p>\n<p>Since 2 is even, both conditions are satisfied.</p>\n<p><strong>∴ The correct answer is 2.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong> The 11-digit number is <strong>7823326867X</strong> and it is <strong>divisible by 18</strong>.</p>\n<p><strong>Divisibility Rule of 18:</strong> A number is divisible by 18 if it is divisible by both its co-prime factors, 2 and 9.</p>\n<p>⇒ <strong>Condition 1:</strong> The number must be divisible by 2, which means the last digit <strong>X</strong> must be an <strong>even number</strong> (0, 2, 4, 6, or 8).</p>\n<p>⇒ <strong>Condition 2:</strong> The number must be divisible by 9, which means the <strong>sum of its digits</strong> must be a multiple of 9.</p>\n<p>⇒ Sum of digits = 7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 + X</p>\n<p>⇒ Sum = 52 + X</p>\n<p>⇒ For (52 + X) to be divisible by 9, we check possible values of X from the options:</p>\n<p>⇒ If X = 6, Sum = 52 + 6 = 58 (Not divisible by 9)</p>\n<p>⇒ If X = 4, Sum = 52 + 4 = 56 (Not divisible by 9)</p>\n<p>⇒ If X = 8, Sum = 52 + 8 = 60 (Not divisible by 9)</p>\n<p>⇒ If X = 2, Sum = 52 + 2 = 54 (Divisible by 9, as 9 × 6 = 54)</p>\n<p>⇒ Since X = 2 is even, it also satisfies the divisibility rule for 2.</p>\n<p><strong>∴ The correct answer is 2.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Divisibility Rule of 9</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">A number is divisible by 9 if the sum of all its digits is exactly divisible by 9.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Divisibility Rule of 2</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">A number is divisible by 2 if its last digit is 0, 2, 4, 6, or 8.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Composite Divisibility</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">To check divisibility by a composite number <strong>n</strong>, the number must be divisible by the co-prime factors of <strong>n</strong> (e.g., for 12, check 3 and 4; for 15, check 3 and 5).</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>किसी संख्या के <strong>18 से विभाज्य</strong> होने के लिए, उसे <strong>सम</strong> होना चाहिए और उसके <strong>अंकों का योग</strong> 9 से विभाज्य होना चाहिए।</p>\n<p>7823326867X के अंकों का योग = 7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 + X = 52 + X.</p>\n<p>52 से बड़ा 9 का निकटतम गुणज 54 है।</p>\n<p>समीकरण: 52 + X = 54 ⇒ X = 2.</p>\n<p>चूँकि 2 सम है, इसलिए दोनों शर्तें पूरी होती हैं।</p>\n<p><strong>∴ सही उत्तर 2 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong> 11-अंकीय संख्या <strong>7823326867X</strong> है और यह <strong>18 से विभाज्य</strong> है।</p>\n<p><strong>18 का विभाज्यता नियम:</strong> कोई संख्या 18 से विभाज्य होती है यदि वह इसके दोनों सह-अभाज्य गुणनखंडों, 2 और 9 से विभाज्य हो।</p>\n<p>⇒ <strong>शर्त 1:</strong> संख्या 2 से विभाज्य होनी चाहिए, जिसका अर्थ है कि अंतिम अंक <strong>X</strong> एक <strong>सम संख्या</strong> (0, 2, 4, 6, या 8) होनी चाहिए।</p>\n<p>⇒ <strong>शर्त 2:</strong> संख्या 9 से विभाज्य होनी चाहिए, जिसका अर्थ है कि इसके <strong>अंकों का योग</strong> 9 का गुणज होना चाहिए।</p>\n<p>⇒ अंकों का योग = 7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 + X</p>\n<p>⇒ योग = 52 + X</p>\n<p>⇒ (52 + X) के 9 से विभाज्य होने के लिए, हम विकल्पों से X के संभावित मानों की जाँच करते हैं:</p>\n<p>⇒ यदि X = 6, योग = 52 + 6 = 58 (9 से विभाज्य नहीं है)</p>\n<p>⇒ यदि X = 4, योग = 52 + 4 = 56 (9 से विभाज्य नहीं है)</p>\n<p>⇒ यदि X = 8, योग = 52 + 8 = 60 (9 से विभाज्य नहीं है)</p>\n<p>⇒ यदि X = 2, योग = 52 + 2 = 54 (9 से विभाज्य है, क्योंकि 9 × 6 = 54)</p>\n<p>⇒ चूँकि X = 2 सम है, यह 2 के विभाज्यता नियम को भी संतुष्ट करता है।</p>\n<p><strong>∴ सही उत्तर 2 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">9 का विभाज्यता नियम</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">कोई संख्या 9 से विभाज्य होती है यदि उसके सभी अंकों का योग 9 से पूर्णतः विभाज्य हो।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">2 का विभाज्यता नियम</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">कोई संख्या 2 से विभाज्य होती है यदि उसका अंतिम अंक 0, 2, 4, 6, या 8 हो।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">संयुक्त विभाज्यता</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">किसी संयुक्त संख्या <strong>n</strong> से विभाज्यता की जाँच करने के लिए, संख्या को <strong>n</strong> के सह-अभाज्य गुणनखंडों से विभाज्य होना चाहिए (जैसे, 12 के लिए 3 और 4 की जाँच करें; 15 के लिए 3 और 5 की जाँच करें)।</p>",
+    "marks": "2"
+  },
+  {
+    "question": "(N +18) persons, each working for 7.5 hours a day, can complete 48% of a work in 20 days. (N + 12) persons can complete the remaining work in 30 days, if each of them works for 6.5 hours per day. Determine the value of N.&nbsp;",
+    "question_hi": "(N +18) व्यक्ति, प्रत्येक दिन 7.5 घंटे कार्य करके, 20 दिनों में 48% कार्य को&nbsp;पूरा कर सकते हैं। (N + 12) व्यक्ति शेष कार्य को 30 दिनों में पूरा कर सकते हैं, यदि उनमें से प्रत्येक व्यक्ति प्रतिदिन 6.5 घंटे कार्य करता है। N का मान ज्ञात कीजिए।",
+    "options": [
+      "18",
+      "16",
+      "20",
+      "22"
+    ],
+    "options_hi": [
+      "18",
+      "16",
+      "20",
+      "22"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>(N +18) persons, each working for 7.5 hours a day, can complete 48% of a work in 20 days.</p>\n\n<p>(N + 12) persons can complete the remaining work in 30 days, if each of them works for 6.5 hours per day.</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>&rArr; (N + 18)&nbsp;&times; 7.5&nbsp;&times; 20/48 = (N + 12)&nbsp;&times; 30&nbsp;&times; 6.5/52</p>\n\n<p>&rArr; (N + 18)&nbsp;&times; 7800 = (N + 12)&nbsp;&times; 9360</p>\n\n<p>&rArr; (N + 18)&nbsp;&times; 780 = (N + 12)&nbsp;&times; 936</p>\n\n<p>&rArr; 780 N + 14040 = 936N + 11232</p>\n\n<p>&rArr; 156N = 2808</p>\n\n<p>&rArr; N = 2808/156 = 18</p>\n\n<p><strong>&there4; The correct answer is 18.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>(N +18) व्यक्ति, प्रत्येक दिन 7.5 घंटे कार्य करके, 20 दिनों में 48%&nbsp;कार्य को&nbsp;पूरा कर सकते हैं।</p>\n\n<p>(N + 12) व्यक्ति शेष कार्य को 30 दिनों में पूरा कर सकते हैं, यदि उनमें से प्रत्येक व्यक्ति प्रतिदिन 6.5 घंटे कार्य करता है।</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>&rArr; (N + 18)&nbsp;&times; 7.5&nbsp;&times; 20/48 = (N + 12)&nbsp;&times; 30&nbsp;&times; 6.5/52</p>\n\n<p>&rArr; (N + 18)&nbsp;&times; 7800 = (N + 12)&nbsp;&times; 9360</p>\n\n<p>&rArr; (N + 18)&nbsp;&times; 780 = (N + 12)&nbsp;&times; 936</p>\n\n<p>&rArr; 780 N + 14040 = 936N + 11232</p>\n\n<p>&rArr; 156N = 2808</p>\n\n<p>&rArr; N = 2808/156 = 18</p>\n\n<p><span style=\"font-weight: bolder;\">&there4; सही उत्तर 18&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If Mohit can complete&nbsp;<span class=\"math-tex\">\\(\\frac{2}{3}\\)</span><sup>rd</sup>&nbsp;of a work in&nbsp;24 days, then in how many days can&nbsp;<span class=\"math-tex\">\\(\\rm\\frac{1}{9}^{th}\\)</span>&nbsp;of the work be completed by him?",
+    "question_hi": "यदि मोहित एक कार्य का&nbsp;<span class=\"math-tex\">\\(\\frac{2}{3}\\)</span>&nbsp;भाग 24 दिनों में पूरा कर सकता है, तब वह कार्य का&nbsp;<span class=\"math-tex\">\\(\\rm\\frac{1}{9}\\)</span>&nbsp;भाग कितने दिनों में पूरा कर सकता है?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "5"
+    ],
+    "options_hi": [
+      "8",
+      "4",
+      "6",
+      "5"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>Mohit can complete&nbsp;<span class=\"math-tex\">\\(\\frac{2}{3}\\)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">rd</span>&nbsp;of a work&nbsp;in&nbsp;24 days.</p>\n\n<p><b>Calculation :&nbsp;</b></p>\n\n<p>Let the time taken be x,</p>\n\n<p>According to question,</p>\n\n<p>&rArr; M&nbsp;&times; 24/2/3 = M&nbsp;&times; x/1/9</p>\n\n<p>&rArr; M&nbsp;&times; 24&nbsp;&times; 3/2 = M&nbsp;&times; x&nbsp;&times; 9</p>\n\n<p>&rArr; 24&nbsp;&times; 3/2 = x&nbsp;&times; 9</p>\n\n<p>&rArr; 12&nbsp;&times; 3 = x &times; 9</p>\n\n<p>&rArr; x = 4 days</p>\n\n<p><strong>&there4; The correct answer is 4 days.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>यदि मोहित एक कार्य का&nbsp;<span class=\"math-tex\">\\(\\frac{2}{3}\\)</span>&nbsp;भाग 24 दिनों में पूरा कर सकता है।&nbsp;</p>\n\n<p><b>गणना&nbsp;:&nbsp;</b></p>\n\n<p>माना, लिया गया समय&nbsp;x है,</p>\n\n<p>प्रश्नानुसार,</p>\n\n<p>&rArr; M&nbsp;&times; 24/2/3 = M&nbsp;&times; x/1/9</p>\n\n<p>&rArr; M&nbsp;&times; 24&nbsp;&times; 3/2 = M&nbsp;&times; x&nbsp;&times; 9</p>\n\n<p>&rArr; 24&nbsp;&times; 3/2 = x&nbsp;&times; 9</p>\n\n<p>&rArr; 12&nbsp;&times; 3 = x &times; 9</p>\n\n<p>&rArr; x = 4 दिन</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर 4 दिन</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If&nbsp;<span class=\"math-tex\">\\(\\rm \\left(x+\\frac{1}{x}\\right)=2\\sqrt2\\)</span>&nbsp;and x &gt; 1, what is the value of&nbsp;<span class=\"math-tex\">\\(\\rm \\left(x^6-\\frac{1}{x^6}\\right)\\)</span>?",
+    "question_hi": "यदि&nbsp;<span class=\"math-tex\">\\(\\rm \\left(x+\\frac{1}{x}\\right)=2\\sqrt2\\)</span>&nbsp;है और x &gt; 1 है, तब&nbsp;<span class=\"math-tex\">\\(\\rm \\left(x^6-\\frac{1}{x^6}\\right)\\)</span>&nbsp;का मान कितना है?",
+    "options": [
+      "140&radic;2",
+      "116&radic;2",
+      "144&radic;2",
+      "128&radic;2"
+    ],
+    "options_hi": [
+      "140&radic;2",
+      "116&radic;2",
+      "144&radic;2",
+      "128&radic;2"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Concept used:</strong></p>\n\n<p>&bull; If (x + 1/x) = a then (x - 1/x) =&nbsp;&radic;(a<sup>2</sup>&nbsp;- 4)</p>\n\n<p>&bull; If x + 1/x = a, then (x<sup>3</sup>&nbsp;+ 1/x<sup>3</sup>) = a<sup>3</sup>&nbsp;- 3a</p>\n\n<p>&bull; If x - 1/x = a, then (x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>) = a<sup>3</sup>&nbsp;+ 3a</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span class=\"math-tex\">\\(\\rm \\left(x+\\frac{1}{x}\\right)=2√2\\)</span>, then&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&nbsp;(x - 1/x) =&nbsp;&radic;(8</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&nbsp;- 4) = 2</span></p>\n\n<p><span class=\"math-tex\">\\(\\rm \\left(x^6-\\frac{1}{x^6}\\right)\\)</span></p>\n\n<p>&rArr; (x<sup>3</sup>)<sup>2</sup>&nbsp;- (1/x<sup>3</sup>)<sup>2</sup></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; (x<sup>3</sup>&nbsp;+ 1/x<sup>3</sup>) (x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>)</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; [(2&radic;2)<sup>3</sup>&nbsp;- 3(2&radic;2)] [2<sup>3</sup>&nbsp;+ 3&nbsp;&times; 2]</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; [16&radic;2 - 6&radic;2]&nbsp;&times; 14</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 10&radic;2&nbsp;&times; 14</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 140&radic;2</span></p>\n\n<p><strong><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&there4; The correct answer is&nbsp;140&radic;2</span></strong></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>&bull; यदि&nbsp;(x + 1/x) = a है, तब&nbsp;(x - 1/x) =&nbsp;&radic;(a<sup>2</sup>&nbsp;- 4)</p>\n\n<p>&bull; <span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">यदि</span>&nbsp;x + 1/x = a&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">है, तब</span> (x<sup>3</sup>&nbsp;+ 1/x<sup>3</sup>) = a<sup>3</sup>&nbsp;- 3a</p>\n\n<p>&bull; <span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">यदि</span>&nbsp;x - 1/x = a&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">है, तब</span>&nbsp;(x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>) = a<sup>3</sup>&nbsp;+ 3a</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span class=\"math-tex\">\\(\\rm \\left(x+\\frac{1}{x}\\right)=2√2\\)</span>&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">है, तब</span>&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">(x - 1/x) =&nbsp;&radic;(8</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&nbsp;- 4) = 2</span></p>\n\n<p><span class=\"math-tex\">\\(\\rm \\left(x^6-\\frac{1}{x^6}\\right)\\)</span></p>\n\n<p>&rArr; (x<sup>3</sup>)<sup>2</sup>&nbsp;- (1/x<sup>3</sup>)<sup>2</sup></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; (x<sup>3</sup>&nbsp;+ 1/x<sup>3</sup>) (x<sup>3</sup>&nbsp;- 1/x<sup>3</sup>)</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; [(2&radic;2)<sup>3</sup>&nbsp;- 3(2&radic;2)] [2<sup>3</sup>&nbsp;+ 3&nbsp;&times; 2]</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; [16&radic;2 - 6&radic;2]&nbsp;&times; 14</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 10&radic;2&nbsp;&times; 14</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 140&radic;2</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&there4; सही उत्तर </span><span style=\"font-weight: bolder;\">140&radic;2</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{\\sin x-\\cos x}{\\sin x+\\cos x}=\\frac{2}{5}\\)</span>, then the value of&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{1+\\cot^2x}{1-\\cot^2x}\\)</span>&nbsp;is:",
+    "question_hi": "यदि&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{\\sin x-\\cos x}{\\sin x+\\cos x}=\\frac{2}{5}\\)</span>&nbsp;है, तब&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{1+\\cot^2x}{1-\\cot^2x}\\)</span>&nbsp;का मान कितना है?",
+    "options": [
+      "2.25",
+      "1.45",
+      "3.75",
+      "5.25"
+    ],
+    "options_hi": [
+      "2.25",
+      "1.45",
+      "3.75",
+      "5.25"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Calculation:</strong></p>\n\n<p><span class=\"math-tex\">\\(\\rm \\frac{\\sin x-\\cos x}{\\sin x+\\cos x}=\\frac{2}{5}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{\\sin x+\\cos x}{\\sin x-\\cos x}=\\frac{5}{2}\\)</span>&nbsp;</p>\n\n<p>Applying C &amp; D rule, we get</p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{\\sin x}{\\cos x}=\\frac{5 + 2}{5 -2}\\)</span></span>&nbsp;</p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; tan x = 7/3</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; cot x = 3/7</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">Now, the value of</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{1+\\cot^2x}{1-\\cot^2x}\\)</span></span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{1+(\\frac{3}{7})^2}{1-(\\frac{3}{7})^2}\\)</span></span>&nbsp;</p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 58/40</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 1.45</span></p>\n\n<p><strong><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&there4; The correct answer is 1.45</span></strong></p>\n",
+    "solution_hi": "<p><strong>गणना:</strong></p>\n\n<p><span class=\"math-tex\">\\(\\rm \\frac{\\sin x-\\cos x}{\\sin x+\\cos x}=\\frac{2}{5}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{\\sin x+\\cos x}{\\sin x-\\cos x}=\\frac{5}{2}\\)</span>&nbsp;</p>\n\n<p>योगान्तरानुपात नियम को लागू करने पर, हमें प्राप्त होता है:</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{\\sin x}{\\cos x}=\\frac{5 + 2}{5 -2}\\)</span></span>&nbsp;</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; tan x = 7/3</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; cot x = 3/7</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">अब, हम मान की गणना निम्नानुसार कर सकते हैं:</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{1+\\cot^2x}{1-\\cot^2x}\\)</span></span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr;&nbsp;<span class=\"math-tex\">\\(\\rm \\frac{1+(\\frac{3}{7})^2}{1-(\\frac{3}{7})^2}\\)</span></span>&nbsp;</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 58/40</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 1.45</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">1.45</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Study the given pie-chart and answer the question that follows.</p>\n\n<p>The pie-chart displays the percentage of fruits sold (in kg) by a fruit seller in one month.</p>\n\n<p>&nbsp;<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/Quant_Akash_Pankaj_23.10.2023_G10_C1.PNG\" style=\"width: 450px; height: 321px;\" /><br />\nIf the total fruits sold by a frult seller In one month was 50,000 kg, find the approximate difference of the quantity (in kg) of pomegranates and that of berries.&nbsp;&nbsp;</p>\n",
+    "question_hi": "<p>दिए गए वृत्त-आलेख&nbsp;का अध्ययन कीजिए&nbsp;और निम्नलिखित प्रश्न का उत्तर दीजिए।</p>\n\n<p>वृत्त-आलेख एक महीने में एक फल विक्रेता द्वारा बेचे गए फलों के&nbsp;प्रतिशत (किग्रा&nbsp;में) को&nbsp;प्रदर्शित करता है।</p>\n\n<p>&nbsp;<img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/Quant_Akash_Pankaj_23.10.2023_G10_C2.PNG\" style=\"width: 398px; height: 319px;\" /></p>\n\n<p>यदि एक फल विक्रेता द्वारा एक महीने में बेचे गए कुल फल 50,000 किग्रा&nbsp;थे, तो अनार और जामुन की मात्रा (किग्रा में) का अनुमानित अंतर ज्ञात कीजिए।</p>\n",
+    "options": [
+      "11,480",
+      "13,535",
+      "21,408",
+      "12,465"
+    ],
+    "options_hi": [
+      "11,480",
+      "13,535",
+      "21,408",
+      "12,465"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;100% = 50000 kg</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr;&nbsp;</span>1 % = 500 kg</p>\n\n<p>&rArr; Difference = 31.07% - 8.11% = 22.96%</p>\n\n<p>&rArr; 22.96&nbsp;&times; 500 = 11480</p>\n\n<p><strong>&there4; The correct answer is 11480.</strong></p>\n",
+    "solution_hi": "<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;100% = 50000&nbsp;किग्रा</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr;&nbsp;</span>1 % = 500&nbsp;किग्रा</p>\n\n<p>&rArr; अंतर&nbsp;= 31.07% - 8.11% = 22.96%</p>\n\n<p>&rArr; 22.96&nbsp;&times; 500 = 11480</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">11480</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Simplify the given expression,&nbsp;</p>\n\n<p><span class=\"math-tex\">\\(\\frac{432\\times 432+247\\times 247-432\\times 247}{432\\times 432\\times 432+247\\times 247\\times 247}\\)</span></p>\n",
+    "question_hi": "<p>निम्नलिखित व्यंजक को हल कीजिए।&nbsp;</p>\n\n<p><span class=\"math-tex\">\\(\\frac{432\\times 432+247\\times 247-432\\times 247}{432\\times 432\\times 432+247\\times 247\\times 247}\\)</span></p>\n",
+    "options": [
+      "<span class=\"math-tex\">\\(\\frac{1}{259}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{1}{185}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{1}{679}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{1}{450}\\)</span>"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\frac{1}{259}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{1}{185}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{1}{679}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{1}{450}\\)</span>"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;= (a + b)(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;- ab)</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{432× 432+247× 247-432× 247}{432× 432× 432+247× 247× 247}\\)</span></p>\n\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{(432)^2 + (247)^2 - 432 × 247}{(432)^3 + (247)^3}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{[(432)^2 + (247)^2 - 432 × 247]}{[(432) + (247)](432^2 + 247^2 - 432 \\times 247)}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{432 + 247}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{679}\\)</span></p>\n\n<p><strong>&there4; The correct answer is 1/679.</strong></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त सूत्र&nbsp;:&nbsp;</strong></p>\n\n<p>a<sup>3</sup>&nbsp;+ b<sup>3</sup>&nbsp;= (a + b)(a<sup>2</sup>&nbsp;+ b<sup>2</sup>&nbsp;- ab)</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{432× 432+247× 247-432× 247}{432× 432× 432+247× 247× 247}\\)</span></p>\n\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{(432)^2 + (247)^2 - 432 × 247}{(432)^3 + (247)^3}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{[(432)^2 + (247)^2 - 432 × 247]}{[(432) + (247)](432^2 + 247^2 - 432 \\times 247)}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{432 + 247}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{1}{679}\\)</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">1/679</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>Simplify the following.&nbsp;&nbsp;</p>\n\n<p><span class=\"math-tex\">\\(\\rm \\frac{3a+b}{2}-\\frac{a-3b}{3}+2b\\)</span></p>\n",
+    "question_hi": "<p>निम्नलिखित व्यंजक को हल कीजिए।&nbsp;</p>\n\n<p><span class=\"math-tex\">\\(\\rm \\frac{3a+b}{2}-\\frac{a-3b}{3}+2b\\)</span></p>\n",
+    "options": [
+      "<span class=\"math-tex\">\\(\\rm \\frac{5(a+3b)}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\rm \\frac{7a+3b}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\rm \\frac{7(a+3b)}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\rm \\frac{(a+3b)}{6}\\)</span>"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\rm \\frac{5(a+3b)}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\rm \\frac{7a+3b}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\rm \\frac{7(a+3b)}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\rm \\frac{(a+3b)}{6}\\)</span>"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;;;;;;;\">\\(\\rm \\frac{3a+b}{2}-\\frac{a-3b}{3}+2b\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{3(3a + b) - 2(a - 3b) + 12b}{6}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{9a + 3b - 2a + 6b + 12b}{6}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{7a + 21b}{6}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{7(a + 3b)}{6}\\)</span></p>\n\n<p><strong>&there4; The correct answer is option 3.</strong></p>\n",
+    "solution_hi": "<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\" style=\"box-sizing: border-box; outline: rgb(170, 204, 238) solid 2px; ;;;;;;;;\">\\(\\rm \\frac{3a+b}{2}-\\frac{a-3b}{3}+2b\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{3(3a + b) - 2(a - 3b) + 12b}{6}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{9a + 3b - 2a + 6b + 12b}{6}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{7a + 21b}{6}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{7(a + 3b)}{6}\\)</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर विकल्प 3</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Suhas mistakenly took as dividend a number which was 10% less than the original dividend. He also mistakenly took as divisor a number which was 20% less than the original divisor. If the correct quotient of the original question of division was 24 and the remainder was 0, then what quotient did Suhas obtain, assuming there was no error in his calculations?",
+    "question_hi": "सुहास गलती से भाज्य के रूप में वह संख्या ले लेता है जो मूल भाज्य से 10% कम थी। वह गलती से भाजक के रूप में भी वह संख्या ले लेता है जो मूल भाजक से 20% कम थी। यदि प्रश्न को हल करने पर सही भागफल 24 था और शेषफल 0 था, तो यह मानते हुए कि उसकी गणना में कोई त्रुटि नहीं है, सुहास को कितना भागफल प्राप्त हुआ होगा?",
+    "options": [
+      "27",
+      "21.6",
+      "26.4",
+      "30"
+    ],
+    "options_hi": [
+      "27",
+      "21.6",
+      "26.4",
+      "30"
+    ],
+    "correct": 1,
+    "solution": "<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>New Quotient = (New Dividend % ÷ New Divisor %) × Original Quotient</p>\n<p>New Quotient = [(100% − 10%) ÷ (100% − 20%)] × 24</p>\n<p>New Quotient = (90% ÷ 80%) × 24</p>\n<p>New Quotient = (9 ÷ 8) × 24 = 27</p>\n<p><strong>∴ The correct answer is 27.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n\n<img src=\"https://cdn.testbook.com/temp_f124e868a7784e638b8f16a323278ed4.png/1777708715.png\" style=\"max-width: 450px;\" />\n\n<p><strong>Given:</strong></p>\n<p>Original Quotient = 24</p>\n<p>Original Remainder = 0</p>\n<p>New Dividend is 10% less than the Original Dividend.</p>\n<p>New Divisor is 20% less than the Original Divisor.</p>\n\n<p><strong>Formula Used:</strong></p>\n<p>Dividend = (Divisor × Quotient) + Remainder</p>\n\n<p><strong>Calculations:</strong></p>\n<p>⇒ Let the Original Dividend be D and the Original Divisor be d.</p>\n<p>⇒ D = (d × 24) + 0</p>\n<p>⇒ D ÷ d = 24</p>\n<p>⇒ New Dividend = D − (10% of D) = 0.9D</p>\n<p>⇒ New Divisor = d − (20% of d) = 0.8d</p>\n<p>⇒ New Quotient = New Dividend ÷ New Divisor</p>\n<p>⇒ New Quotient = 0.9D ÷ 0.8d</p>\n<p>⇒ New Quotient = (0.9 ÷ 0.8) × (D ÷ d)</p>\n<p>⇒ Substitute D ÷ d = 24:</p>\n<p>⇒ New Quotient = (9 ÷ 8) × 24</p>\n<p>⇒ New Quotient = 9 × 3 = 27</p>\n<p><strong>∴ The correct answer is 27.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Division Algorithm</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">The foundational rule of division states that Dividend = (Divisor × Quotient) + Remainder. When the remainder is exactly zero, the dividend is a perfect multiple of the divisor.</p>\n\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Percentage Change in Fractions</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">If the numerator of a fraction changes by x% and the denominator changes by y%, the resulting fraction becomes [(100 ± x) ÷ (100 ± y)] × Original Fraction.</p>\n\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Base Change</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">When any given quantity is decreased by R%, the remaining quantity is computed directly as (100 − R)% of its original value. For example, a 10% decrease perfectly leaves 90% of the original value.</p></p>",
+    "solution_hi": "<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>नया भागफल = (नया भाज्य % ÷ नया भाजक %) × मूल भागफल</p>\n<p>नया भागफल = [(100% − 10%) ÷ (100% − 20%)] × 24</p>\n<p>नया भागफल = (90% ÷ 80%) × 24</p>\n<p>नया भागफल = (9 ÷ 8) × 24 = 27</p>\n<p><strong>∴ सही उत्तर 27 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n\n<img src=\"https://cdn.testbook.com/temp_f124e868a7784e638b8f16a323278ed4.png/1777708715.png\" style=\"max-width: 450px;\" />\n\n<p><strong>दिया गया है:</strong></p>\n<p>मूल भागफल = 24</p>\n<p>मूल शेषफल = 0</p>\n<p>नया भाज्य, मूल भाज्य से 10% कम है।</p>\n<p>नया भाजक, मूल भाजक से 20% कम है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>भाज्य = (भाजक × भागफल) + शेषफल</p>\n\n<p><strong>गणना:</strong></p>\n<p>⇒ मान लीजिए मूल भाज्य D है और मूल भाजक d है।</p>\n<p>⇒ D = (d × 24) + 0</p>\n<p>⇒ D ÷ d = 24</p>\n<p>⇒ नया भाज्य = D − (D का 10%) = 0.9D</p>\n<p>⇒ नया भाजक = d − (d का 20%) = 0.8d</p>\n<p>⇒ नया भागफल = नया भाज्य ÷ नया भाजक</p>\n<p>⇒ नया भागफल = 0.9D ÷ 0.8d</p>\n<p>⇒ नया भागफल = (0.9 ÷ 0.8) × (D ÷ d)</p>\n<p>⇒ D ÷ d = 24 रखने पर:</p>\n<p>⇒ नया भागफल = (9 ÷ 8) × 24</p>\n<p>⇒ नया भागफल = 9 × 3 = 27</p>\n<p><strong>∴ सही उत्तर 27 है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">विभाजन एल्गोरिथ्म (Division Algorithm)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">विभाजन का मूल नियम बताता है कि भाज्य = (भाजक × भागफल) + शेषफल। जब शेषफल शून्य होता है, तो भाज्य, भाजक का एक पूर्ण गुणज होता है।</p>\n\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">भिन्नों में प्रतिशत परिवर्तन</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">यदि किसी भिन्न के अंश में x% का परिवर्तन होता है और हर में y% का परिवर्तन होता है, तो परिणामी भिन्न [(100 ± x) ÷ (100 ± y)] × मूल भिन्न हो जाती है।</p>\n\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">आधार परिवर्तन</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">जब किसी दी गई मात्रा में R% की कमी की जाती है, तो शेष मात्रा की गणना सीधे उसके मूल मान के (100 − R)% के रूप में की जाती है। उदाहरण के लिए, 10% की कमी होने पर मूल मान का 90% शेष बचता है।</p></p>",
+    "marks": "2"
+  },
+  {
+    "question": "On day one, with speed v, R covers a distance x, in t time. On the next day, he covers a distance 2.5x in 0.75t time. What is his speed the next day?&nbsp;",
+    "question_hi": "पहले दिन, गति v के साथ, R, t समय में x दूरी को तय करता है। अगले दिन, वह 0.75t समय में 2.5x दूरी तय करता है। अगले दिन उसकी गति कितनी होगी?",
+    "options": [
+      "3.5 v",
+      "<span class=\"math-tex\">\\(\\frac{10}{3}\\)</span>&nbsp;v",
+      "4.5 v",
+      "<span class=\"math-tex\">\\(\\frac{5}{3}\\)</span>&nbsp;v"
+    ],
+    "options_hi": [
+      "3.5 v",
+      "<span class=\"math-tex\">\\(\\frac{10}{3}\\)</span>&nbsp;v",
+      "4.5 v",
+      "<span class=\"math-tex\">\\(\\frac{5}{3}\\)</span>&nbsp;v"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>Speed = Distance/Time</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>v = x/t</p>\n\n<p>&rArr; Speed = 2.5x/0.75t&nbsp;</p>\n\n<p>&rArr; 25/10&nbsp;&times; 100/75&nbsp;&times; x/t</p>\n\n<p>&rArr; 250/75&nbsp;&times; x/t</p>\n\n<p>By putting v = x/t</p>\n\n<p>&rArr; 10v/3</p>\n\n<p><strong>&there4; The correct answer is 10v/3.</strong></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त सूत्र&nbsp;:&nbsp;</strong></p>\n\n<p>गति = दूरी/समय&nbsp;</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>v = x/t</p>\n\n<p>&rArr; गति&nbsp;= 2.5x/0.75t&nbsp;</p>\n\n<p>&rArr; 25/10&nbsp;&times; 100/75&nbsp;&times; x/t</p>\n\n<p>&rArr; 250/75&nbsp;&times; x/t</p>\n\n<p>v = x/t मान रखने पर,</p>\n\n<p>&rArr; 10v/3</p>\n\n<p><strong>&there4; सही उत्तर&nbsp;10v/3 है।&nbsp;</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "In a 1170 m race, Raman reaches the final point in 65 seconds and Mohan reaches the final point in 90 seconds. By how much distance does Raman beat Mohan?",
+    "question_hi": "1170 मीटर की दौड़ में, रमन 65 सेकंड में अंतिम बिंदु पर पहुँचता है और मोहन 90 सेकंड में अंतिम बिंदु पर पहुँचता है। रमन, मोहन को कितनी दूरी से हराता है?",
+    "options": [
+      "325 m",
+      "300 m",
+      "375 m",
+      "350 m"
+    ],
+    "options_hi": [
+      "325 मीटर",
+      "300&nbsp;<span style=\"color: rgb(33, 37, 41);\">मीटर</span>",
+      "375&nbsp;<span style=\"color: rgb(33, 37, 41);\">मीटर</span>",
+      "350&nbsp;<span style=\"color: rgb(33, 37, 41);\">मीटर</span>"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Calculation:</strong></p>\n\n<p>The speed of Mohan&nbsp;= 1170/90 = 13 m/s</p>\n\n<p>Raman reaches the final point in 65 seconds, so Mohan covers in 65 sec is = (65&nbsp;&times; 13) = 845 m</p>\n\n<p>So, the distance by which Raman beats Mohan = 1170 m &ndash; 845 m = 325 m&nbsp;</p>\n\n<p><strong>&there4; The correct answer is 325 m</strong></p>\n",
+    "solution_hi": "<p><strong>गणना:</strong></p>\n\n<p>मोहन की गति = 1170/90 = 13 मीटर/सेकंड</p>\n\n<p>रमन अंतिम बिंदु पर 65 सेकंड में पहुँचता है, इसलिए मोहन 65 सेकंड में दूरी&nbsp;तय करता है = (65 &times; 13) = 845 मीटर</p>\n\n<p>इसलिए, रमन,&nbsp;मोहन को हराता है&nbsp;= 1170 मीटर - 845 मीटर = 325 मीटर</p>\n\n<p><strong>&there4; सही उत्तर 325 मीटर है।&nbsp;</strong></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "It takes A and B, 3 and 6 hours, respectively, to complete a certain work. If they work on the alternate hour. How long will it take them to accomplish the task?&nbsp;",
+    "question_hi": "एक निश्चित कार्य को पूरा करने में A और B को क्रमशः 3 और 6 घंटे लगते हैं। यदि वे एकांतर समय पर कार्य करते हैं, तो कार्य को पूरा करने में उन्हें कितना समय लगेगा?",
+    "options": [
+      "3 hours",
+      "4 hours",
+      "2 hours",
+      "4.5 hours"
+    ],
+    "options_hi": [
+      "3 घंटे",
+      "4 <span style=\"color: rgb(33, 37, 41);\">घंटे</span>",
+      "2 <span style=\"color: rgb(33, 37, 41);\">घंटे</span>",
+      "4.5 <span style=\"color: rgb(33, 37, 41);\">घंटे</span>"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>A can do work in 3 hours.</p>\n\n<p>B can do work in 6 hours.</p>\n\n<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>Work done = time&nbsp;&times; efficiency</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>Total work = LCM(3, 6) = 6&nbsp;</p>\n\n<p>Efficiency of A = 2</p>\n\n<p>Efficiency of B = 1</p>\n\n<p>Since they work on alternate days starting with A,</p>\n\n<p>So,</p>\n\n<p>&rArr; 2 hours&nbsp;= 3 units&nbsp;</p>\n\n<p>Now to complete 6 units of work&nbsp;</p>\n\n<p>&rArr; 2&nbsp;&times; 2 hours&nbsp;= 3&nbsp;&times; 2 units</p>\n\n<p>&rArr; 4 hours&nbsp;= 6 units</p>\n\n<p><strong>&there4; The correct answer is 4 hours.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>A, 3 घंटे में कार्य को पूरा&nbsp;कर सकता है।</p>\n\n<p>B,&nbsp;6 घंटे में <span style=\"color: rgb(33, 37, 41);\">कार्य को पूरा</span> कर सकता है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>किया गया कार्य = समय &times; दक्षता</p>\n\n<p><strong>गणना :</strong></p>\n\n<p>कुल कार्य = (3, 6) का लघुत्तम समापवर्त्य&nbsp;= 6</p>\n\n<p>A की दक्षता = 2</p>\n\n<p>B की दक्षता = 1</p>\n\n<p>चूँकि वे A से शुरू करके एकांतर&nbsp;दिनों में कार्य को&nbsp;करते हैं,</p>\n\n<p>इसलिए,</p>\n\n<p>&rArr; 2 घंटे = 3 इकाई</p>\n\n<p>अब 6 इकाई&nbsp;के कार्य को&nbsp;पूरा करने के लिए अभीष्ट समय:</p>\n\n<p>&rArr; 2 &times; 2 घंटे = 3 &times; 2 इकाई</p>\n\n<p>&rArr; 4 घंटे = 6 इकाई</p>\n\n<p><span style=\"font-weight: bolder;\">&there4; सही उत्तर 4 घंटे&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Two chords of a circle,&nbsp;<span class=\"math-tex\">\\(\\rm \\overline{AB}\\)</span> and <span class=\"math-tex\">\\(\\rm \\overline{CD}\\)</span>, meet outside the circle at the point P. If m(<span class=\"math-tex\">\\(\\rm \\overline{AP}\\)</span>) = 200 mm, m(<span class=\"math-tex\">\\(\\rm \\overline{AB}\\)</span>) = 120 mm, and m(<span class=\"math-tex\">\\(\\rm \\overline{CP}\\)</span>) = 160 mm, what is the length of <span class=\"math-tex\">\\(\\rm \\overline{CD}\\)</span>?&nbsp;",
+    "question_hi": "एक वृत्त की दो जीवाएँ&nbsp;<span class=\"math-tex\">\\(\\rm \\overline{AB}\\)</span>&nbsp;और&nbsp;<span class=\"math-tex\">\\(\\rm \\overline{CD}\\)</span>&nbsp;वृत्त के बाह्य बिंदु P पर मिलती हैं। यदि&nbsp;m(<span class=\"math-tex\">\\(\\rm \\overline{AP}\\)</span>) = 200 मिमी, m(<span class=\"math-tex\">\\(\\rm \\overline{AB}\\)</span>) = 120 और m(<span class=\"math-tex\">\\(\\rm \\overline{CP}\\)</span>) = 160 मिमी है, तब <span class=\"math-tex\">\\(\\rm \\overline{CD}\\)</span>&nbsp;की लंबाई कितनी है?&nbsp;",
+    "options": [
+      "100 mm",
+      "75 mm",
+      "60 mm",
+      "150 mm"
+    ],
+    "options_hi": [
+      "100&nbsp;मिमी",
+      "75&nbsp;मिमी",
+      "60&nbsp;मिमी",
+      "150&nbsp;मिमी"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>m(<span class=\"math-tex\">\\(\\rm \\overline{AP}\\)</span>) = 200 mm, m(<span class=\"math-tex\">\\(\\rm \\overline{AB}\\)</span>) = 120 mm, and m(<span class=\"math-tex\">\\(\\rm \\overline{CP}\\)</span>) = 160 mm</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>Let the length of CD be x.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/11/F1_Other_Arbaz__30-10-23_D9.png\" style=\"width: 213px; height: 148px;\" /></p>\n\n<p>&rArr; AP&nbsp;&times; BP&nbsp;= CP&nbsp;&times; DP</p>\n\n<p>&rArr; 200&nbsp;&times; 80 = 160&nbsp;&times; (160 -x)</p>\n\n<p>&rArr; 16000 = 160&nbsp;&times; (160 -x)</p>\n\n<p>&rArr; 16000 = 25600&nbsp;- 160x</p>\n\n<p>&rArr; x = 9600/160</p>\n\n<p>&rArr; x = 60 mm</p>\n\n<p><strong>&there4; The correct answer is 60 mm.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>m(<span class=\"math-tex\">\\(\\rm \\overline{AP}\\)</span>) = 200 मिमी, m(<span class=\"math-tex\">\\(\\rm \\overline{AB}\\)</span>) = 120 मिमी और&nbsp;m(<span class=\"math-tex\">\\(\\rm \\overline{CP}\\)</span>) = 160&nbsp;मिमी</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>माना, CD की लंबाई&nbsp;x है।&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/11/F1_Other_Arbaz__30-10-23_D9.png\" style=\"color: rgb(33, 37, 41); width: 213px; height: 148px;\" /></p>\n\n<p>&rArr; AP&nbsp;&times; BP&nbsp;= CP&nbsp;&times; DP</p>\n\n<p>&rArr; 200&nbsp;&times; 80 = 160&nbsp;&times; (160 -x)</p>\n\n<p>&rArr; 16000 = 160&nbsp;&times; (160 -x)</p>\n\n<p>&rArr; 16000 = 25600&nbsp;- 160x</p>\n\n<p>&rArr; x = 9600/160</p>\n\n<p>&rArr; x = 60&nbsp;मिमी</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर </span><strong><span style=\"color: rgb(33, 37, 41);\">60 मिमी</span></strong><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Two circles of same radius 6 cm, intersect each other at P and Q. If PQ = 10 cm, then what is the distance between the centres of the two circles?&nbsp;",
+    "question_hi": "समान त्रिज्या 6 सेमी के दो वृत्त एक दूसरे को P और Q पर काटते हैं। यदि PQ = 10 सेमी है, तो दोनों वृत्तों के केंद्रों के बीच की दूरी कितनी है?",
+    "options": [
+      "10 cm",
+      "8 cm",
+      "6&radic;11 cm",
+      "2&radic;11 cm"
+    ],
+    "options_hi": [
+      "10 सेमी",
+      "8&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>",
+      "6&radic;11&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>",
+      "2&radic;11&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Calculation:</strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/qImage65091c749f41b129c1970eca.png\" /></p>\n\n<p>According to the given picture, O<sub>1</sub>&nbsp;and O<sub>2</sub>&nbsp;be the centres of the two circles,</p>\n\n<p>The line joining the centers&nbsp;O<sub>1</sub>O<sub>2</sub>&nbsp;bisect PQ at R</p>\n\n<p>So, the &Delta;PRO<sub>1&nbsp;</sub>is a right-angle triangle, right angle at&nbsp;&ang;R</p>\n\n<p>From Pythagoras theorem,</p>\n\n<p>O<sub>1</sub>R =&nbsp;&radic;(6<sup>2</sup>&nbsp;- 5<sup>2</sup>)</p>\n\n<p>&rArr;&nbsp;<span style=\"color: rgb(33, 37, 41);\">O</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span><span style=\"color: rgb(33, 37, 41);\">R =&nbsp;</span>&radic;11</p>\n\n<p>Now, distance between O<sub>1</sub>&nbsp;and O<sub>2</sub>&nbsp;is 2 &times; <span style=\"color: rgb(33, 37, 41);\">O</span><span style=\"color: rgb(33, 37, 41); position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">1</span><span style=\"color: rgb(33, 37, 41);\">R = 2</span>&radic;11 cm</p>\n\n<p><strong>&there4; The correct answer is&nbsp;<span style=\"color: rgb(33, 37, 41);\">2&radic;11 cm</span></strong></p>\n",
+    "solution_hi": "<p><strong>गणना:</strong></p>\n\n<p><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/qImage65091c749f41b129c1970eca.png\" /></p>\n\n<p>दी गई छवि के अनुसार, O<sub>1</sub>&nbsp;और&nbsp;O<sub>2</sub>&nbsp;दोनों वृत्तों के केंद्र हैं।&nbsp;</p>\n\n<p>केन्द्रों <span style=\"color: rgb(33, 37, 41);\">O</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span><span style=\"color: rgb(33, 37, 41);\">O</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">2</span> से जुड़ने वाली रेखा, PQ को R पर समद्विभाजित करती है।&nbsp;</p>\n\n<p>इसलिए, &Delta;PRO<sub>1</sub> एक समकोण त्रिभुज है, जो &ang;R पर समकोण है।&nbsp;</p>\n\n<p>पाइथागोरस प्रमेय से,</p>\n\n<p>O<sub>1</sub>R =&nbsp;&radic;(6<sup>2</sup>&nbsp;- 5<sup>2</sup>)</p>\n\n<p>&rArr;&nbsp;<span style=\"color: rgb(33, 37, 41);\">O</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">1</span><span style=\"color: rgb(33, 37, 41);\">R =&nbsp;</span>&radic;11</p>\n\n<p>अब,&nbsp;O<sub>1</sub>&nbsp;और&nbsp;O<sub>2</sub>&nbsp;के बीच की दूरी = 2 &times; <span style=\"color: rgb(33, 37, 41);\">O</span><span style=\"color: rgb(33, 37, 41); position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">1</span><span style=\"color: rgb(33, 37, 41);\">R = 2</span>&radic;11&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">2&radic;11</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Find the value of (sin&nbsp;&theta; + cos&nbsp;&theta;)<sup>2</sup>&nbsp;+ (sin&nbsp;&theta; - cos&nbsp;&theta;)<sup>2</sup>.",
+    "question_hi": "(sin&nbsp;&theta; + cos&nbsp;&theta;)<sup>2</sup>&nbsp;+ (sin&nbsp;&theta; - cos&nbsp;&theta;)<sup>2&nbsp;</sup>का मान ज्ञात कीजिए।&nbsp;",
+    "options": [
+      "4",
+      "0",
+      "2",
+      "1"
+    ],
+    "options_hi": [
+      "4",
+      "0",
+      "2",
+      "1"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>Sin<sup>2</sup>&theta;&nbsp;+ Cos<sup>2</sup>&theta; = 1</p>\n\n<p><b>Calculation :&nbsp;</b></p>\n\n<p>&rArr;&nbsp;(sin&nbsp;&theta; + cos&nbsp;&theta;)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ (sin&nbsp;&theta; - cos&nbsp;&theta;)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p>&rArr; sin<sup>2</sup>&theta; + cos<sup>2</sup>&theta; + 2sin&theta;cos&theta; +&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">sin</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&theta; + cos</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&theta; - 2sin&theta;cos&theta;&nbsp;</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 2(sin<sup>2</sup></span>&theta; + cos<sup>2</sup>&theta;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">)</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 2</span></p>\n\n<p><strong>&there4; The correct answer is 2.</strong></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त सूत्र&nbsp;:&nbsp;</strong></p>\n\n<p>Sin<sup>2</sup>&theta;&nbsp;+ Cos<sup>2</sup>&theta; = 1</p>\n\n<p><b>गणना&nbsp;:&nbsp;</b></p>\n\n<p>&rArr;&nbsp;(sin&nbsp;&theta; + cos&nbsp;&theta;)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ (sin&nbsp;&theta; - cos&nbsp;&theta;)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p>&rArr; sin<sup>2</sup>&theta; + cos<sup>2</sup>&theta; + 2sin&theta;cos&theta; +&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">sin</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&theta; + cos</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&theta; - 2sin&theta;cos&theta;&nbsp;</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 2(sin<sup>2</sup></span>&theta; + cos<sup>2</sup>&theta;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">)</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">&rArr; 2</span></p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&there4; सही उत्तर 2</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A grocer claims that he is selling sugar at Rs. 48/kg, which costs him Rs. 50/kg, but he is giving 900 g instead of 1000 g. What will be the approximate percentage profit?&nbsp;",
+    "question_hi": "एक किराना व्यापारी का दावा है कि वह 48 रुपये प्रति किग्रा की दर पर चीनी बेच रहा है, जिसका मूल्य उसे 50 रुपये प्रति किग्रा पड़ता है, लेकिन वह 1000 ग्राम के बजाय 900 ग्राम तौलता है। उसका लाभ का अनुमानित प्रतिशत कितना होगा?",
+    "options": [
+      "7.5%",
+      "5.5%",
+      "8.5%",
+      "6.7%"
+    ],
+    "options_hi": [
+      "7.5%",
+      "5.5%",
+      "8.5%",
+      "6.7%"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>A grocer claims that he is selling sugar at Rs. 48/kg, which costs him Rs. 50/kg.</p>\n\n<p>He is giving 900 g instead of 1000 g.</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>According to question,</p>\n\n<p>&rArr; 48/50&nbsp;&times; 1000/900</p>\n\n<p>&rArr; 480/(50&nbsp;&times; 9)</p>\n\n<p>&rArr; 480/450</p>\n\n<p>Percentage Profit = 3/45&nbsp;&times; 100 = 100/15 = 6.66%&nbsp;&asymp; 6.7%</p>\n\n<p><strong>&there4; The correct answer is 6.7%.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>एक किराना व्यापारी का दावा है कि वह 48 रुपये प्रति किग्रा की दर पर चीनी बेच रहा है, जिसका मूल्य उसे 50 रुपये प्रति किग्रा पड़ता है।</p>\n\n<p>वह 1000 ग्राम के बजाय 900 ग्राम तौलता है।</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>प्रश्नानुसार,</p>\n\n<p>&rArr; 48/50&nbsp;&times; 1000/900</p>\n\n<p>&rArr; 480/(50&nbsp;&times; 9)</p>\n\n<p>&rArr; 480/450</p>\n\n<p>लाभ प्रतिशत = 3/45&nbsp;&times; 100 = 100/15 = 6.66%&nbsp;&asymp; 6.7%</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर </span><span style=\"font-weight: bolder;\">6.7%</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Which of the following numbers is divisible by 36 ?&nbsp;&nbsp;",
+    "question_hi": "निम्नलिखित में से कौन-सी संख्या 36 से विभाज्य है?",
+    "options": [
+      "8840",
+      "1542",
+      "96272",
+      "55512"
+    ],
+    "options_hi": [
+      "8840",
+      "1542",
+      "96272",
+      "55512"
+    ],
+    "correct": 4,
+    "solution": "<p><b>Calculation :&nbsp;</b></p>\n\n<p>By going through options,</p>\n\n<p>&rArr; 8840/36 = 245.55</p>\n\n<p>&rArr; 1542/36 = 42.833</p>\n\n<p>&rArr; 96272/36 = 2674.22</p>\n\n<p>&rArr; 55512/36 = 1542</p>\n\n<p>We can see out of 4 options only fourth option is divisible by 36.</p>\n\n<p><strong>&there4; The correct answer is 55512.</strong></p>\n",
+    "solution_hi": "<p><b>गणना&nbsp;:&nbsp;</b></p>\n\n<p>विकल्पों की जाँच करने पर,</p>\n\n<p>&rArr; 8840/36 = 245.55</p>\n\n<p>&rArr; 1542/36 = 42.833</p>\n\n<p>&rArr; 96272/36 = 2674.22</p>\n\n<p>&rArr; 55512/36 = 1542</p>\n\n<p>हम देख सकते हैं कि 4 विकल्पों में से केवल चौथा विकल्प 36 से विभाज्य है।</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">55512</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "Find the length of the arc of the sector of a circle of diameter 7 cm with a central angle of 108&deg;. [Use &pi; = 22/7]&nbsp;&nbsp;",
+    "question_hi": "108&deg; के केंद्रीय कोण के साथ 7 सेमी व्यास वाले एक वृत्त के त्रिज्यखंड के चाप की लंबाई ज्ञात कीजिए। [&pi; = 22/7 उपयोग कीजिए]&nbsp;&nbsp;",
+    "options": [
+      "6.6 cm",
+      "5.6 cm",
+      "13.2 cm",
+      "11.2 cm"
+    ],
+    "options_hi": [
+      "6.6 सेमी",
+      "5.6&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>",
+      "13.2&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>",
+      "11.2&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span>"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>Diameter = 7 cm</p>\n\n<p>Central Angle = 108&deg;&nbsp;</p>\n\n<p><strong>Formula Used :</strong></p>\n\n<p>Length of the Arc =&nbsp;&theta;/360&deg;&nbsp;&times; 2&pi;r</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>Length of arc = 108&deg; /360&deg;&nbsp;&times; 2&nbsp;&times; 22/7&nbsp;&times; 7/2</p>\n\n<p>&rArr; 2&nbsp;&times; 11&nbsp;&times; 108&deg;/360&deg;&nbsp;</p>\n\n<p>&rArr; 2&nbsp;&times; 11&nbsp;&times; 12/40</p>\n\n<p>&rArr; 11&nbsp;&times; 3/5</p>\n\n<p>&rArr; 33/5 = 6.6 cm</p>\n\n<p><strong>&there4; The correct answer is 6.6 cm.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>व्यास&nbsp;= 7&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span></p>\n\n<p>केन्द्रीय कोण&nbsp;= 108&deg;&nbsp;</p>\n\n<p><strong>प्रयुक्त सूत्र&nbsp;:</strong></p>\n\n<p>चाप की लंबाई =&nbsp;&theta;/360&deg;&nbsp;&times; 2&pi;r</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>चाप की लंबाई = 108&deg; /360&deg;&nbsp;&times; 2&nbsp;&times; 22/7&nbsp;&times; 7/2</p>\n\n<p>&rArr; 2&nbsp;&times; 11&nbsp;&times; 108&deg;/360&deg;&nbsp;</p>\n\n<p>&rArr; 2&nbsp;&times; 11&nbsp;&times; 12/40</p>\n\n<p>&rArr; 11&nbsp;&times; 3/5</p>\n\n<p>&rArr; 33/5 = 6.6&nbsp;<span style=\"color: rgb(33, 37, 41);\">सेमी</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">6.6 सेमी</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "How much simple interest will Rs. 6,000 earn in 21 months at 8% per annum?&nbsp;",
+    "question_hi": "8% प्रति वर्ष की दर से 21 महीने में 6,000 रुपये पर कितना साधारण ब्याज प्राप्त होगा?",
+    "options": [
+      "Rs. 750",
+      "Rs. 880",
+      "Rs. 620",
+      "Rs. 840"
+    ],
+    "options_hi": [
+      "750 रुपये",
+      "880&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "620&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "840&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span>"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given :</strong></p>\n\n<p>Principal = Rs.6000</p>\n\n<p>Time = 21months</p>\n\n<p>Rate = 8% per annum</p>\n\n<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>SI = (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;SI = 6000&nbsp;&times; 21&nbsp;&times; 8/(100&nbsp;&times; 12)</p>\n\n<p>&rArr; 60&nbsp;&times; 21&nbsp;&times; 8/12</p>\n\n<p>&rArr; 5&nbsp;&times; 21&nbsp;&times; 8&nbsp;</p>\n\n<p>&rArr; 40&nbsp;&times; 21</p>\n\n<p>&rArr; 840</p>\n\n<p><strong>&there4; The correct answer is 840.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:</strong></p>\n\n<p>मूलधन&nbsp;= 6000&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>समय&nbsp;= 21 महीने&nbsp;</p>\n\n<p>दर&nbsp;= 8% वार्षिक&nbsp;&nbsp;</p>\n\n<p><strong>प्रयुक्त सूत्र&nbsp;:&nbsp;</strong></p>\n\n<p>SI = (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;SI = 6000&nbsp;&times; 21&nbsp;&times; 8/(100&nbsp;&times; 12)</p>\n\n<p>&rArr; 60&nbsp;&times; 21&nbsp;&times; 8/12</p>\n\n<p>&rArr; 5&nbsp;&times; 21&nbsp;&times; 8&nbsp;</p>\n\n<p>&rArr; 40&nbsp;&times; 21</p>\n\n<p>&rArr; 840</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">840</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A varies directly as (B + 18) and A = 108 when B = 36. Find the value of A when B = 68.&nbsp;",
+    "question_hi": "A, (B + 18) के अनुक्रमानुपाती है&nbsp;और A = 108 है जब B का मान 36 है। जब B का मान 68 है तो A का मान ज्ञात कीजिए।",
+    "options": [
+      "75",
+      "86",
+      "127",
+      "172"
+    ],
+    "options_hi": [
+      "75",
+      "86",
+      "127",
+      "172"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given :</strong></p>\n\n<p>A = k(B + 18), A = 108, B = 36</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;A = k(B + 18)</p>\n\n<p>&rArr; 108 = k(36 + 18)</p>\n\n<p>&rArr; k = 108/54 = 2</p>\n\n<p>A = 2&nbsp;&times; (68 + 18)</p>\n\n<p>&rArr; 2&nbsp;&times; 86 = 172</p>\n\n<p><strong>&there4; The correct answer is 172.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:</strong></p>\n\n<p>A = k(B + 18), A = 108, B = 36</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>&rArr;&nbsp;A = k(B + 18)</p>\n\n<p>&rArr; 108 = k(36 + 18)</p>\n\n<p>&rArr; k = 108/54 = 2</p>\n\n<p>A = 2&nbsp;&times; (68 + 18)</p>\n\n<p>&rArr; 2&nbsp;&times; 86 = 172</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">172</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A conical tent has a radius of 7 m and a vertical height of 24 m. How many full bags of rice can be emptied in it if the space occupied by the rice in each bag is 2 m<sup>3</sup>?&nbsp;&nbsp;",
+    "question_hi": "एक शंक्वाकार तंबू की त्रिज्या 7 मीटर और ऊर्ध्वाधर ऊँचाई 24 मीटर है। इस तंबू में चावल के ऐसे कितने पूरे बैग खाली किए जा सकते हैं, यदि प्रत्येक बैग में चावल द्वारा घेरा गया स्थान 2 मीटर<sup>3</sup> है।&nbsp;",
+    "options": [
+      "566",
+      "616",
+      "716",
+      "650"
+    ],
+    "options_hi": [
+      "566",
+      "616",
+      "716",
+      "650"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>Radius = 7 m&nbsp;</p>\n\n<p>Height = 24 m</p>\n\n<p>Space occupied by the rice in each bag is 2 m<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>.</p>\n\n<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>Volume = 1/3&pi;r<sup>2</sup>h</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>Volume =&nbsp;</p>\n\n<p>&rArr; 1/3&nbsp;&times; 22/7&nbsp;&times; 7&nbsp;&times; 7&nbsp;&times; 24&nbsp;= n&nbsp;&times; 2</p>\n\n<p>&rArr; 22&nbsp;&times; 7&nbsp;&times; 8 = 2&nbsp;&times; n&nbsp;</p>\n\n<p>&rArr; n = 11&nbsp;&times; 7&nbsp;&times; 8&nbsp;</p>\n\n<p>&rArr; n = 616</p>\n\n<p><strong>&there4; The correct answer is 616.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>त्रिज्या&nbsp;= 7 मीटर</p>\n\n<p>ऊँचाई&nbsp;= 24&nbsp;<span style=\"color: rgb(33, 37, 41);\">मीटर</span></p>\n\n<p>प्रत्येक बैग में चावल द्वारा घेरा गया स्थान 2 मीटर<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;है।</p>\n\n<p><strong>प्रयुक्त सूत्र&nbsp;:&nbsp;</strong></p>\n\n<p>आयतन&nbsp;= 1/3&pi;r<sup>2</sup>h</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>आयतन&nbsp;= 1/3&pi;r<sup>2</sup>h</p>\n\n<p>&rArr; 1/3&nbsp;&times; 22/7&nbsp;&times; 7&nbsp;&times; 7&nbsp;&times; 24&nbsp;= n&nbsp;&times; 2</p>\n\n<p>&rArr; 22&nbsp;&times; 7&nbsp;&times; 8 = 2&nbsp;&times; n&nbsp;</p>\n\n<p>&rArr; n = 11&nbsp;&times; 7&nbsp;&times; 8&nbsp;</p>\n\n<p>&rArr; n = 616</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">616</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "<p>The following figure shows the scores of students in three tests organised by a coaching institution. Who scored the best on average?&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/Quant_Akash_Pankaj_23.10.2023_G11.PNG\" style=\"width: 450px; height: 288px;\" /></p>\n",
+    "question_hi": "<p>नीचे दी गई&nbsp;आकृति&nbsp;एक कोचिंग संस्थान द्वारा आयोजित तीन परीक्षणों में छात्रों के स्कोर को दर्शाती&nbsp;है। औसतन सबसे अच्छा स्कोर&nbsp;किसने प्राप्त किया है?</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/Quant_Akash_Pankaj_23.10.2023_G11.PNG\" style=\"width: 450px; height: 288px;\" /></p>\n",
+    "options": [
+      "D",
+      "C",
+      "E",
+      "B"
+    ],
+    "options_hi": [
+      "D",
+      "C",
+      "E",
+      "B"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>A = (84 + 71 + 95)/3 = 250/3 = 83.33</p>\n\n<p>B = (93 + 76 + 101)/3 = 270/3 = 90</p>\n\n<p>C = (99 + 79 + 71)/3 = 249/3 = 83</p>\n\n<p>D = (80 + 90 + 94)/3 = 264/3 = 88</p>\n\n<p>E = (88 + 93 + 90)/3 = 271/3 = 90.33</p>\n\n<p><strong>&there4; The correct answer is 90.33.</strong></p>\n",
+    "solution_hi": "<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>A = (84 + 71 + 95)/3 = 250/3 = 83.33</p>\n\n<p>B = (93 + 76 + 101)/3 = 270/3 = 90</p>\n\n<p>C = (99 + 79 + 71)/3 = 249/3 = 83</p>\n\n<p>D = (80 + 90 + 94)/3 = 264/3 = 88</p>\n\n<p>E = (88 + 93 + 90)/3 = 271/3 = 90.33</p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">90.33</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A man drives his car for 24 km at a speed of 48 km/h, and for the next 1.5 hours he drives at a speed of 80 km/h. Find his average speed (in km/h) for the entire journey.&nbsp;",
+    "question_hi": "एक व्यक्ति अपनी कार को 24 किमी की दूरी तक 48 किमी/घंटा की गति से चलाता है, और अगले 1.5 घंटे तक वह 80 किमी/घंटा की गति से कार&nbsp;चलाता है। संपूर्ण यात्रा के लिए उसकी औसत गति (किमी/घंटा में) ज्ञात कीजिए।",
+    "options": [
+      "64",
+      "72",
+      "68",
+      "75"
+    ],
+    "options_hi": [
+      "64",
+      "72",
+      "68",
+      "75"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>A man drives his car for 24 km at a speed of 48 km/h.</p>\n\n<p>Next 1.5 hours he drives at a speed of 80 km/h.&nbsp;</p>\n\n<p><strong>Formula Used :&nbsp;</strong></p>\n\n<p>Average Speed = Total distance travelled/Total time taken</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>Time taken for 24 km = 24/48 = 0.5 hours</p>\n\n<p>Distance covered in 1.5 hours = 80&nbsp;&times; 1.5 = 120 km</p>\n\n<p>Average Speed = 120 + 24/(1.5 + 0.5)</p>\n\n<p>&rArr; 144/2 = 72 km/hr</p>\n\n<p><strong>&there4; The correct answer is 72 km/hr.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>एक व्यक्ति अपनी कार को 24 किमी की दूरी तक 48 किमी/घंटा की गति से चलाता है।&nbsp;</p>\n\n<p>अगले 1.5 घंटे तक वह 80 किमी/घंटा की गति से कार&nbsp;चलाता है।&nbsp;</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>औसत गति = तय की गई कुल दूरी / लिया गया कुल समय</p>\n\n<p><strong>गणना :</strong></p>\n\n<p>24 किमी के लिए लिया गया समय = 24/48 = 0.5 घंटे</p>\n\n<p>1.5 घंटे में तय की गई दूरी = 80 &times; 1.5 = 120 किमी</p>\n\n<p>औसत गति&nbsp;= 120 + 24/(1.5 + 0.5)</p>\n\n<p>&rArr; 144/2 = 72&nbsp;<span style=\"color: rgb(33, 37, 41);\">किमी/घंटा</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">72 किमी/घंटा</span><span style=\"color: rgb(33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "If&nbsp;<span class=\"math-tex\">\\(\\rm \\left(\\frac{\\cos A}{1-\\sin A}\\right)+\\rm \\left(\\frac{\\cos A}{1+\\sin A}\\right)=4\\)</span>,&nbsp;then what will be the value of A? (0&deg; &lt;&nbsp;A &lt; 90&deg;)&nbsp;&nbsp;",
+    "question_hi": "यदि&nbsp;<span class=\"math-tex\">\\(\\rm \\left(\\frac{\\cos A}{1-\\sin A}\\right)+\\rm \\left(\\frac{\\cos A}{1+\\sin A}\\right)=4\\)</span>&nbsp;है, तब A का मान कितना होगा? (0&deg; &lt;&nbsp;A &lt; 90&deg;)&nbsp;&nbsp;",
+    "options": [
+      "90&deg;",
+      "45&deg;",
+      "60&deg;",
+      "30&deg;"
+    ],
+    "options_hi": [
+      "90&deg;",
+      "45&deg;",
+      "60&deg;",
+      "30&deg;"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Calculation :</strong></p>\n\n<p>&rArr;&nbsp;<strong><span class=\"math-tex\">\\(\\frac{cosA(1 + sinA) + cosA(1 - sinA)}{{(1 + sinA)}{(1 -sinA)}}\\)</span></strong>&nbsp;= 4</p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{cosA + cosA.sinA + cosA - cosAsinA}{{(1 - sinA)}{(1 + sinA)}}\\)</span>&nbsp;= 4</p>\n\n<p>&rArr; 2/cosA = 4</p>\n\n<p>&rArr; cosA = 1/2</p>\n\n<p>&rArr; A = 60&deg;&nbsp;</p>\n\n<p><strong>&there4; The correct answer is 60&deg;.</strong></p>\n",
+    "solution_hi": "<p><strong>गणना&nbsp;:</strong></p>\n\n<p>&rArr;&nbsp;<strong><span class=\"math-tex\">\\(\\frac{cosA(1 + sinA) + cosA(1 - sinA)}{{(1 + sinA)}{(1 -sinA)}}\\)</span></strong>&nbsp;= 4</p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{cosA + cosA.sinA + cosA - cosAsinA}{{(1 - sinA)}{(1 + sinA)}}\\)</span>&nbsp;= 4</p>\n\n<p>&rArr; 2/cosA = 4</p>\n\n<p>&rArr; cosA = 1/2</p>\n\n<p>&rArr; A = 60&deg;&nbsp;</p>\n\n<p><span style=\"color:  (33, 37, 41); font-weight: 700;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">60&deg;</span><span style=\"color:  (33, 37, 41); font-weight: 700;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  },
+  {
+    "question": "A dealer purchased a washing machine for Rs. 9,000. He allows a discount of 10% on its marked price and still gains 10%. Find the marked price of the machine.&nbsp;&nbsp;",
+    "question_hi": "एक डीलर 9,000 रुपये में एक वॉशिंग मशीन खरीदता है। वह इसके अंकित मूल्य पर 10% की छूट देता है और फिर भी 10% का लाभ प्राप्त करता है। मशीन का अंकित मूल्य ज्ञात कीजिए।",
+    "options": [
+      "Rs. 11,000",
+      "Rs. 12,000",
+      "Rs. 13,000",
+      "Rs. 10,000"
+    ],
+    "options_hi": [
+      "11,000 रुपये",
+      "12,000&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">रुपये</span>",
+      "13,000&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">रुपये</span>",
+      "10,000&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">रुपये</span>"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given :&nbsp;</strong></p>\n\n<p>CP = Rs.9000</p>\n\n<p>Discount = 10%</p>\n\n<p>Profit = 10%</p>\n\n<p><strong>Calculation :&nbsp;</strong></p>\n\n<p>By going through ratio method,</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/F1_Other_Arbaz_30-10-23_D10.png\" style=\"width: 76px; height: 89px;\" /></p>\n\n<p>Now by making SP same</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/F1_Other_Arbaz__30-10-23_D11.png\" style=\"width: 137px; height: 89px;\" /></p>\n\n<p>CP = 90 unit = 9000</p>\n\n<p>&rArr; 1 unit = 100</p>\n\n<p>MP = 110 unit&nbsp;&times; 100 = 11000</p>\n\n<p><strong>&there4; The correct answer is 11000.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है&nbsp;:&nbsp;</strong></p>\n\n<p>CP (क्रय मूल्य) = 9000&nbsp;<span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">रुपये</span></p>\n\n<p>छूट&nbsp;= 10%</p>\n\n<p>लाभ&nbsp;= 10%</p>\n\n<p><strong>गणना&nbsp;:&nbsp;</strong></p>\n\n<p>अनुपात विधि का उपयोग करने पर,</p>\n\n<p><img alt=\"\" data-darkreader-inline-color=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/F1_Other_Arbaz_30-10-23_D10.png\" style=\"color: rgb(33, 37, 41); width: 76px; height: 89px; --darkreader-inline-color: #d1cdc7;\" /></p>\n\n<p>अब,&nbsp;SP (विक्रय मूल्य) को बराबर करने पर,</p>\n\n<p><img alt=\"\" data-darkreader-inline-color=\"\" src=\"https://storage.googleapis.com/tb-img/production/23/10/F1_Other_Arbaz__30-10-23_D11.png\" style=\"color: rgb(33, 37, 41); width: 137px; height: 89px; --darkreader-inline-color: #d1cdc7;\" /></p>\n\n<p>CP (क्रय मूल्य) = 90 इकाई&nbsp;= 9000</p>\n\n<p>&rArr; 1 <span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">इकाई</span> = 100</p>\n\n<p>MP (अंकित मूल्य) = 110 <span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); --darkreader-inline-color: #d1cdc7;\">इकाई</span>&nbsp;&times; 100 = 11000</p>\n\n<p><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&there4; सही उत्तर&nbsp;</span><span style=\"font-weight: bolder;\">11000 रुपये</span><span data-darkreader-inline-color=\"\" style=\"color: rgb(33, 37, 41); font-weight: 700; --darkreader-inline-color: #d1cdc7;\">&nbsp;है।&nbsp;</span></p>\n",
+    "marks": "2"
+  }
+]
