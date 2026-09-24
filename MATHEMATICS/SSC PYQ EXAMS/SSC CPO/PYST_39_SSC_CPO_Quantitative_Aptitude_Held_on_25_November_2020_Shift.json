@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "If x + y + z = 19, xyz = 216 and xy + yz + zx = 114, then the value of&nbsp;<span class=\"math-tex\">\\(\\sqrt {{x^3} + {y^3} + {z^3} + xyz}\\)</span> is:",
+    "question_hi": "यदि x + y + z = 19, xyz = 216 और xy + yz + zx = 114, तो&nbsp;<span class=\"math-tex\">\\(\\sqrt {{x^3} + {y^3} + {z^3} + xyz}\\)</span> का मान है:",
+    "options": [
+      "32",
+      "28",
+      "30",
+      "35"
+    ],
+    "options_hi": [
+      "32",
+      "28",
+      "30",
+      "35"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:&nbsp;</strong></p>\n\n<p>x + y + z = 19</p>\n\n<p>xyz = 216</p>\n\n<p>xy + yz + xz = 114</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>1.) (x + y + z)<sup>2</sup>&nbsp;= x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + xz)</p>\n\n<p>2.) x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3(xyz) + (x + y +z ){(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> &ndash; (xy + yz + xz)}</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>(x + y + z)<sup>2&nbsp;</sup>=&nbsp;x<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ 2(xy + yz + xz)</p>\n\n<p>&rArr; (19)<sup>2</sup>&nbsp;=&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ 2(114)</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>=&nbsp;(19)<sup>2</sup>&nbsp;&ndash; 2(114)</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>= 361 &ndash; 228&nbsp;</p>\n\n<p>&rArr;&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>= 133</p>\n\n<p>Now,</p>\n\n<p>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3(xyz) + (x + y +z ){(x<sup>2</sup> + y<sup>2 </sup>+ z<sup>2</sup> &ndash; (xy + yz + xz)}</p>\n\n<p>&rArr; x<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= 3(216) + (19)(133 &ndash; 114)</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= 648 + 19(19)</p>\n\n<p>&rArr;&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;=&nbsp;648 + 361</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= 1,009</p>\n\n<p><span class=\"math-tex\">\\(\\sqrt {{x^3} + {y^3} + {z^3} + xyz}\\)</span></p>\n\n<p>&rArr; &radic;(1,009 + 216)</p>\n\n<p>&rArr; &radic;1225&nbsp;= 35</p>\n\n<p><strong>&there4; The correct answer is 35</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:&nbsp;</strong></p>\n\n<p>x + y + z = 19</p>\n\n<p>xyz = 216</p>\n\n<p>xy + yz + xz = 114</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>1. (x + y + z)<sup>2</sup>&nbsp;= x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + xz)</p>\n\n<p>2. x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3(xyz) + (x + y +z ){(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> -(xy + yz + xz)}</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>(x + y + z)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2&nbsp;</span>=&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ 2(xy + yz + xz)</p>\n\n<p>&rArr; (19)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;=&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ 2(114)</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>=&nbsp;(19)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; 2(114)</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>= 361 &ndash; 228&nbsp;</p>\n\n<p>&rArr;&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2&nbsp;</span>= 133</p>\n\n<p>अब,</p>\n\n<p>x<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= 3(xyz) + (x + y +z ){(x<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ y<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2&nbsp;</span>+ z<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; (xy + yz + xz)}</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= 3(216) + (19)(133 &ndash; 114)</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= 648 + 19(19)</p>\n\n<p>&rArr;&nbsp;x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;=&nbsp;648 + 361</p>\n\n<p>&rArr; x<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ y<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;+ z<span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= 1,009</p>\n\n<p><span class=\"math-tex\">\\(\\sqrt {{x^3} + {y^3} + {z^3} + xyz}\\)</span></p>\n\n<p>&rArr; &radic;(1,009 + 216)</p>\n\n<p>&rArr; &radic;1225&nbsp;= 35</p>\n\n<p><strong>&there4;&nbsp;<span style=\"color: rgb(37, 37, 37);  \">सही उत्तर 35 है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If the volume of a sphere is 4851 cm<sup>3</sup>, then its surface area (in cm<sup>2</sup>) is: (Taken&nbsp;<span class=\"math-tex\">\\(\\pi = \\frac{{22}}{7}\\)</span>)",
+    "question_hi": "यदि एक गोले का आयतन 4851 सेमी<sup>3</sup> है, तो उसका पृष्ठीय क्षेत्रफल (सेमी<sup>2 </sup>में) है: (<span class=\"math-tex\">\\(\\pi = \\frac{{22}}{7}\\)</span>&nbsp;लीजिये)",
+    "options": [
+      "1268",
+      "1386",
+      "1399",
+      "1427"
+    ],
+    "options_hi": [
+      "1268",
+      "1386",
+      "1399",
+      "1427"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Volume of a sphere is 4851 cm<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span></p>\n\n<p><b>Formula Used:</b></p>\n\n<p>Volume of Sphere = 4/3&nbsp;&pi; r<sup>3</sup></p>\n\n<p>Surface area of sphere = 4 &pi; r<sup>2</sup></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Volume of Sphere = 4/3&nbsp;&pi; r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span></p>\n\n<p>&rArr; 4851 = 4/3 &times; 22/7&nbsp;&times; r<sup>3</sup></p>\n\n<p>&rArr; r<sup>3</sup>&nbsp;= (4851 &times; 7&times; 3) / (22&nbsp;&times; 4)</p>\n\n<p><span style=\"\">&rArr; r</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span><span style=\"\">&nbsp;= (4851 &times; 7&times; 3) / (22&nbsp;&times; 4)</span></p>\n\n<p>&rArr; r<sup>3</sup>&nbsp;= 9261/8</p>\n\n<p>&rArr; r = 21/2</p>\n\n<p><span style=\"\">&rArr; r = 10.5</span></p>\n\n<p>Surface area of = 4 &pi; r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<div>\n<p>Surface area of = 4 &times; 22/7&nbsp;&times; 10.5<sup>2</sup>&nbsp;</p>\n\n<p>Surface area of = 1386 cm<sup>2</sup></p>\n</div>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">एक गोले का आयतन 4851 सेमी</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;है</span></p>\n\n<p><b>प्रयुक्त सूत्र:</b></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">गोले का आयतन</span> = 4/3&nbsp;&pi; r<sup>3</sup></p>\n\n<p>गोले का पृष्ठीय क्षेत्रफल = 4 &pi; r<sup>2</sup></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">गोले का आयतन</span> = 4/3&nbsp;&pi; r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span></p>\n\n<p style=\"\">&rArr; 4851 = 4/3 &times; 22/7&nbsp;&times; r<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span></p>\n\n<p style=\"\">&rArr; r<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= (4851 &times; 7&times; 3) / (22&nbsp;&times; 4)</p>\n\n<p style=\"\">&rArr; r<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">3</span>&nbsp;= (4851 &times; 7&times; 3) / (22&nbsp;&times; 4)</p>\n\n<p style=\"\">&rArr; r<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= 9261/8</p>\n\n<p style=\"\">&rArr; r = 21/2</p>\n\n<p style=\"\">&rArr; r = 10.5</p>\n\n<p>पृष्ठीय क्षेत्रफल = 4 &pi; r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<div>\n<p>पृष्ठीय क्षेत्रफल = 4 &times; 22/7&nbsp;&times; 10.5<sup>2</sup>&nbsp;</p>\n\n<p>पृष्ठीय क्षेत्रफल = 1386 सेमी<sup>2</sup></p>\n</div>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>The simple interest on a sum of money at 10% per annum for 2 years is Rs. 8,100. What would be the compound interest (in Rs.) on the same sum for the same period at 15% p. a., when the interest is compounded yearly? (nearest to Rs. 1)</p>\n",
+    "question_hi": "<p>एक राशि पर 2 वर्ष के लिए 10% प्रति वर्ष की दर से साधारण ब्याज 8,100 रुपये है। समान राशि पर समान अवधि के लिए 15% प्रति वर्ष की दर से&nbsp;चक्रवृद्धि ब्याज&nbsp;(रुपये में)&nbsp;क्या होगा। जब ब्याज वार्षिक रूप से संयोजित होता है? (निकटतम 1 रुपये पर)</p>\n",
+    "options": [
+      "13,061",
+      "8,100",
+      "14,671",
+      "12,751"
+    ],
+    "options_hi": [
+      "13,061",
+      "8,100",
+      "14,671",
+      "12,751"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>R = 10%</p>\n\n<p>T = 2 years</p>\n\n<p>SI = Rs.8,100</p>\n\n<p>R<sub>2</sub>&nbsp;for CI = 15%</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>S.I. = (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p>A = P(1+ R/100)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">T</span></p>\n\n<p>C.I. = A&nbsp;&ndash;&nbsp;P</p>\n\n<p>Where,&nbsp;</p>\n\n<p>P &rarr; Principle</p>\n\n<p>T &rarr;&nbsp;Time</p>\n\n<p>R &rarr; Rate</p>\n\n<p>A &rarr; Amount&nbsp;</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>S.I. = (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p>&rArr; 8<span style=\"font-size:20px;\">,<span style=\"font-size:14px;\">100 = (P &times; 2 &times; 10)/100</span></span></p>\n\n<p>&rArr;&nbsp;8,100 <span style=\"font-size:20px;\"><span style=\"font-size:14px;\">= P/5</span></span></p>\n\n<p>&rArr; P = 5 &times; 8,100</p>\n\n<p>&rArr; P = 40,500</p>\n\n<p>Now for C.I.</p>\n\n<p>A&nbsp;= P(1+ R/100)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">T</span></p>\n\n<p>&rArr; A&nbsp;= 40,500(1 + 15/100)<sup>2</sup>&nbsp;</p>\n\n<p>&rArr; A = 40,500(1 +3/20)<sup>2</sup></p>\n\n<p>&rArr; A = 40,500(23/20)<sup>2</sup>&nbsp;</p>\n\n<p>&rArr; A = 40,500&nbsp;&times; (23/20) &times; (23/20)</p>\n\n<p>&rArr; A = 53561.25</p>\n\n<p>CI = A &ndash; P</p>\n\n<p>&rArr; C.I. = 53561.25 &ndash; 40500 = Rs. 13,061.25&nbsp;&asymp; Rs. 13,061</p>\n\n<p><strong>&there4; The required compound interest is Rs. 13,061</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span>10% for 2 years = 20% of principle = 8100</p>\n\n<p>&rArr; 20P/100 = 8100</p>\n\n<p>&rArr; P = 40500</p>\n\n<p>Equivalent rate of interest for 2 years = 15 + 15 + (15&nbsp;&times; 15)/100 = 32.25%</p>\n\n<p>C.I. = 32.25% of 40500</p>\n\n<p>&rArr; 32.25&nbsp;&times; 40500 /100 =&nbsp; Rs. 13061.25&nbsp;&asymp; Rs. 13061</p>\n\n<p>&there4; The required CI is Rs. 13061.</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>R = 10%</p>\n\n<p>T = 2 वर्ष</p>\n\n<p>साधारण ब्याज = 8,100 रुपये</p>\n\n<p>चक्रवृद्धि ब्याज के लिए R<sub>2</sub>&nbsp;= 15%</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>साधारण ब्याज =&nbsp;(P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p>A = P(1+ R/100)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">T</span></p>\n\n<p>चक्रवृद्धि ब्याज = A - P</p>\n\n<p>जहां,&nbsp;</p>\n\n<p>P &rarr;&nbsp;मूलधन</p>\n\n<p>T &rarr; समय</p>\n\n<p>R &rarr; दर</p>\n\n<p>A &rarr; मिश्रधन&nbsp;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"font-size:18px;\"><span style=\"font-size:14px;\">साधारण ब्याज&nbsp;</span></span>= (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p>&rArr; 8<span style=\"\">,<span style=\"\">100 = (P &times; 2 &times; 10)/100</span></span></p>\n\n<p>&rArr;&nbsp;8,100&nbsp;<span style=\"\"><span style=\"\">= P/5</span></span></p>\n\n<p>&rArr; P = 5 &times; 8,100</p>\n\n<p>&rArr; P = 40,500</p>\n\n<p>अब चक्रवृद्धि ब्याज के लिए,</p>\n\n<p>&rArr; A&nbsp;= P(1+ R/100)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">T</span></p>\n\n<p>&rArr; A&nbsp;= 40,500(1 + 15/100)<sup>2</sup>&nbsp;</p>\n\n<p>&rArr; A = 40,500(1 +3/20)<sup>2</sup></p>\n\n<p>&rArr; A = 40,500(23/20)<sup>2</sup>&nbsp;</p>\n\n<p>&rArr; A = 40,500&nbsp;&times; 23/20&nbsp;&times; 23/20</p>\n\n<p>&rArr; A = 53561.25</p>\n\n<p>चक्रवृद्धि ब्याज = A &ndash; P</p>\n\n<p>&rArr; चक्रवृद्धि ब्याज = 53561.25 - 40500 = 13061.25&nbsp;&asymp; 13061&nbsp;रुपये</p>\n\n<p><strong>&there4;&nbsp;<span style=\"color: rgb(37, 37, 37);  \">अभीष्ट चक्रवृद्धि ब्याज 13,061&nbsp;</span>रुपये<span style=\"color: rgb(37, 37, 37);  \">&nbsp;है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Let A and B be two cylinders such that the capacity of A is the same as the capacity of B. The ratio of the diameters of A and B is 1 ∶ 4. What is the ratio of the heights of A and B?",
+    "question_hi": "माना कि A और B दो बेलन ऐसे हैं जैसे A की क्षमता B की क्षमता के समान है। A और B के व्यास का अनुपात 1 ∶ 4 है। A और B की ऊँचाई का अनुपात क्या है?",
+    "options": [
+      "16 : 3",
+      "16 : 1",
+      "1 : 16",
+      "3 : 16"
+    ],
+    "options_hi": [
+      "16 : 3",
+      "16 : 1",
+      "1 : 16",
+      "3 : 16"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The capacity of cylinders A and B are equal.</p>\n\n<p>Volume<sub>(</sub><sub>A)</sub>&nbsp;= Volume<sub>(</sub><sub>B)</sub>&nbsp;</p>\n\n<p>The ratio of&nbsp;diameters = A ∶ B = 1 ∶ 4</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>Volume of cylinder = &pi;r<sup>2&nbsp;</sup>h</p>\n\n<p>Diameter = 2 &times; r</p>\n\n<p>Where,</p>\n\n<p>r&nbsp;&rarr; Radius of the cylinder&nbsp;</p>\n\n<p>h&nbsp;&rarr; Height of the cylinder&nbsp;</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>r = D/2</p>\n\n<p>The ratio of the radius of A and B</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{Diamater\\;of\\;A}}{{Diameter\\;of\\;B}} = 1/4\\)</span></p>\n\n<p>The capacity of cylinders A and B are equal.</p>\n\n<p>Volume<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">A)</span>&nbsp;= Volume<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">B)</span>&nbsp;</p>\n\n<p>&rArr;&nbsp;&pi;&times;&nbsp;r<sub>(A)</sub><sup>2</sup>&times; h<sub>(A)</sub>&nbsp;=&nbsp;&pi;&times; r<sub>(B)</sub><sup>2</sup>&times; h<sub>(B)</sub></p>\n\n<p>&rArr;&nbsp;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(A)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&times; h<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(A)</span>&nbsp;=&nbsp;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(B)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&times; h<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(B)</span></p>\n\n<p>&rArr; r<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span><span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>/r<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span><span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;=&nbsp;&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>/&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span></p>\n\n<p>&rArr;1<sup>2</sup>/4<sup>2</sup>&nbsp;=&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>/&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span></p>\n\n<p>&rArr;1/16 =&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>/&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span></p>\n\n<p>&rArr;&nbsp; h<sub>(A)</sub>/h<sub>(B)</sub>&nbsp;= 16/1</p>\n\n<p>&rArr;&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)&nbsp;</span>:&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>&nbsp;= 16 : 1</p>\n\n<p><strong>&there4; The ratio of the heights of A and B is 16&nbsp;∶ 1.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">बेलन A और B की क्षमता समान है।</span></p>\n\n<p>आयतन<sub>(</sub><sub>A)</sub>&nbsp;= आयतन<sub>(B)</sub>&nbsp;</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">व्यास का अनुपात&nbsp;</span>= A ∶ B = 1 ∶ 4</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>बेलन का आयतन = &pi;r<sup>2&nbsp;</sup>h</p>\n\n<p>व्यास = 2&times; त्रिज्या</p>\n\n<p>जहां,</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">r &rarr; </span>बेलन<span style=\"color: rgb(37, 37, 37);  \"> का त्रिज्या </span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">h &rarr; </span>बेलन<span style=\"color: rgb(37, 37, 37);  \"> की ऊँचाई</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>r&nbsp;= D/2</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">A और B के त्रिज्या का अनुपात</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{Diamater\\;of\\;A}}{{Diameter\\;of\\;B}} = 1/4\\)</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">बेलन A और B की क्षमता समान है।</span></p>\n\n<p>आयतन<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">A)</span>&nbsp;=&nbsp;आयतन<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(B)</span>&nbsp;</p>\n\n<p>&rArr;&nbsp;&pi;&times;&nbsp;r<sub>(A)</sub><sup>2</sup>&times; h<sub>(A)</sub>&nbsp;=&nbsp;&pi;&times; r<sub>(B)</sub><sup>2</sup>&times; h<sub>(B)</sub></p>\n\n<p>&rArr;&nbsp;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(A)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&times; h<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(A)</span>&nbsp;=&nbsp;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(B)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&times; h<span style=\"position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;\">(B)</span></p>\n\n<p>&rArr; r<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span><span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>/r<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span><span style=\"position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span>&nbsp;=&nbsp;&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>/&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span></p>\n\n<p>&rArr;1<sup>2</sup>/4<sup>2</sup>&nbsp;=&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>/&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span></p>\n\n<p>&rArr;1/16 =&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>/&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)</span></p>\n\n<p>&rArr;&nbsp; h<sub>(A)</sub>/h<sub>(B)</sub>&nbsp;= 16/1</p>\n\n<p>&rArr;&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(A)&nbsp;</span>:&nbsp;h<span style=\"position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">(B)</span>&nbsp;= 16 : 1</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4; A और B की ऊँचाई का अनुपात 16 ∶ 1 है।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The HCF of two numbers is 29, and the other two factors of their LCM are 15 and 13. The smaller of the two numbers is:",
+    "question_hi": "दो संख्याओं का महत्तम समापवर्त्य 29 है, और उनके लघुत्तम समापवर्त्य के अन्य दो गुणक 15 और 13 हैं। दो संख्याओं में से छोटी है:",
+    "options": [
+      "435",
+      "406",
+      "377",
+      "464"
+    ],
+    "options_hi": [
+      "435",
+      "406",
+      "377",
+      "464"
+    ],
+    "correct": 3,
+    "solution": "<p>Given:</p>\n\n<p>HCF of two numbers =&nbsp;29</p>\n\n<p>Other two factors of their LCM =&nbsp;15 and 13</p>\n\n<p>Concept Used:</p>\n\n<p>The HCF of a group of numbers will be always a factor of their LCM.</p>\n\n<p>HCF is the product of all common prime factors using the least power of each common prime factor.</p>\n\n<p>LCM is the product of the highest powers of all prime factors.</p>\n\n<p>Calculation:</p>\n\n<p>HCF of the two numbers = 29</p>\n\n<p>HCF will be always a factor of LCM.</p>\n\n<p>So, 29 is a factor of the LCM.&nbsp;</p>\n\n<p>The other two factors in the LCM are 13 and 15.</p>\n\n<p>Factors of the LCM are 29, 13, and&nbsp;15.</p>\n\n<p>So, Numbers can be taken as (29&nbsp;&times; 13) and (29&nbsp;&times; 15) = 377 and 435</p>\n\n<p>&there4; The smallest number is&nbsp;377.</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">दो संख्याओं का महत्तम समापवर्त्य</span> =&nbsp;29</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">उनके लघुत्तम समापवर्त्य के अन्य दो गुणक</span> =&nbsp;15 और 13</p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">संख्याओं के समूह का महत्तम समापवर्त्य सदैव उनके लघुत्तम समापवर्त्य के गुणक</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">होंगे।</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">महत्तम समापवर्त्य प्रत्येक उभयनिष्ठ अभाज्य गुणनखंड की न्यूनतम घात का उपयोग</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">करते हुए सभी उभयनिष्ठ अभाज्य गुणनखंड का उत्पाद है।</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">लघुत्तम समापवर्त्य सभी अभाज्य गुणनखंडों की उच्चतम घातों का उत्पाद है।</span></p>\n\n<p><strong><span style=\"color: rgb(34, 34, 34);   background-color: rgb(254, 254, 254);\">गणना:</span></strong></p>\n\n<p><span style=\"color: rgb(34, 34, 34);   background-color: rgb(254, 254, 254);\">दो संख्याओं का महत्तम समापवर्त्य = 29</span></p>\n\n<p><span style=\"color: rgb(34, 34, 34); background-color: rgb(254, 254, 254);\">महत्तम समापवर्त्य</span><span style=\"color: rgb(37, 37, 37);  \"> सदैव लघुत्तम समापवर्त्य का एक गुणक होगा।</span></p>\n\n<p>तो,&nbsp;<span style=\"color: rgb(37, 37, 37);  \">29 लघुत्तम समापवर्त्य का एक गुणक है।</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">लघुत्तम समापवर्त्य में अन्य दो गुणक 13 और 15 हैं।</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">लघुत्तम समापवर्त्य</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;के&nbsp;गुणक 29, 13 और 15 हैं।</span></p>\n\n<p>तो,&nbsp;<span style=\"color: rgb(34, 34, 34);   background-color: rgb(254, 254, 254);\">संख्या (29&nbsp;&times; 13) और (29&nbsp;&times; 15) की तरह ली जा सकती हैं&nbsp;= 377 और 435</span></p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">इसलिए, सबसे छोटी संख्या 377 है।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The average age of 40 students of a class is 16 years. After admission of 10 new students to the class, the average becomes 15 years. If the average age of 5 of the new students is 11 years, then the average age (in years) of the remaining 5 new students is:",
+    "question_hi": "एक कक्षा के 40 छात्रों की औसत आयु 16 वर्ष है। कक्षा में 10 नए छात्रों के प्रवेश के बाद, औसत 15 वर्ष हो जाता है। यदि नए छात्रों में से 5 की औसत आयु 11 वर्ष है, तो शेष 5 नए छात्रों की औसत आयु (वर्ष में) है:",
+    "options": [
+      "11",
+      "16",
+      "15",
+      "10"
+    ],
+    "options_hi": [
+      "11",
+      "16",
+      "15",
+      "10"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The average age of 40 students = 16 years</p>\n\n<p>On admission of 10 new students average = 15 years</p>\n\n<p>Average of 5 new students = 11</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{Average}} = \\frac{{{\\rm{sum\\;of\\;all\\;the\\;values}}}}{{{\\rm{number\\;of\\;values}}}}\\)</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Sum of all ages of 40 students = 40 &times; 16</p>\n\n<p>&rArr; 640 years</p>\n\n<p>After admission of 10 new students, number of students now = 40 + 10</p>\n\n<p>&rArr; 50</p>\n\n<p>Sum of all ages after the admission of 10 new students = 50 &times; 15</p>\n\n<p>&rArr; 750 years</p>\n\n<p>Sum of ages of 5 new students = 5 &times; 11</p>\n\n<p>&rArr; 55 years</p>\n\n<p>Now remaining ages of 5 new students = Sum of all ages after the admission of 10 new students - Sum of all ages of 40 students - Sum of ages of 5 new students</p>\n\n<p>&rArr; 750 &ndash; 640 &ndash; 55</p>\n\n<p>&rArr; 750 &ndash; 695</p>\n\n<p>&rArr; 55 years</p>\n\n<p>Average of 5 new students = 55/5</p>\n\n<p>&rArr; 11</p>\n\n<p><strong>Hence, the Average of 5 new students is 11.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">40 छात्रों की औसत आयु</span> = 16 वर्ष</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">10 नए छात्रों के प्रवेश पर औसत&nbsp;</span>= 15 वर्ष</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">5 नए छात्रों का औसत</span> = 11</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{Average}} = \\frac{{{\\rm{sum\\;of\\;all\\;the\\;values}}}}{{{\\rm{number\\;of\\;values}}}}\\)</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">सभी 40 छात्रों की आयु का योग</span> = 40 &times; 16</p>\n\n<p>&rArr; 640 वर्ष</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">10 नए छात्रों के प्रवेश के बाद</span>, <span style=\"color: rgb(37, 37, 37);  \">अब छात्रों की संख्या</span> = 40 + 10</p>\n\n<p>&rArr; 50</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">10 नए छात्रों के प्रवेश के बाद सभी आयु का योग</span> = 50 &times; 15</p>\n\n<p>&rArr; 750 वर्ष</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">5 नए छात्रों की आयु का योग</span> = 5 &times; 11</p>\n\n<p>&rArr; 55 वर्ष</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">अब शेष 5 नए छात्रों की आयु&nbsp;है</span> = <span style=\"color: rgb(37, 37, 37);  \">10 नए छात्रों के प्रवेश के बाद सभी आयु का योग</span> - <span style=\"color: rgb(37, 37, 37);  \">40 छात्रों की सभी आयु का योग</span> - <span style=\"color: rgb(37, 37, 37);  \">5 नए छात्रों की आयु का योग</span></p>\n\n<p>&rArr; 750 &ndash; 640 &ndash; 55</p>\n\n<p>&rArr; 750 &ndash; 695</p>\n\n<p>&rArr; 55 वर्ष</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">5 नए छात्रों का औसत</span> = 55/5</p>\n\n<p>&rArr; 11</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">इसलिए, 5 नए छात्रों का औसत 11 है।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A ladder is resting against a wall, The angle between the foot of the ladder and the ground is 45&deg; and the foot of the ladder is 6.6 m away from the wall. The length of the ladder (in m) is:",
+    "question_hi": "एक सीढ़ी दीवार के सहारे टिकी हुई है। सीढ़ी के पाद और ज़मीन के बीच का कोण 45&deg; है और सीढ़ी का पाद, दीवार से 6.6 मीटर दूर है। सीढ़ी की लंबाई (मीटर में) है:",
+    "options": [
+      "<span class=\"math-tex\">\\(6.6 \\times \\sqrt 2 \\)</span>",
+      "<span class=\"math-tex\">\\(3.3 \\times \\sqrt 2\\)</span>",
+      "<span class=\"math-tex\">\\(2.2\\times \\sqrt 2\\)</span>",
+      "<span class=\"math-tex\">\\(3.6 \\times \\sqrt 2\\)</span>"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(6.6 \\times \\sqrt 2 \\)</span>",
+      "<span class=\"math-tex\">\\(3.3 \\times \\sqrt 2\\)</span>",
+      "<span class=\"math-tex\">\\(2.2\\times \\sqrt 2\\)</span>",
+      "<span class=\"math-tex\">\\(3.6 \\times \\sqrt 2\\)</span>"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>distance between foot of the ladder and wall = 6.6 m</p>\n\n<p>and angle between them = 45<sup>&deg; </sup></p>\n\n<p><strong>Formula used: </strong></p>\n\n<p>Cos&theta; =&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{base}{hypotenuse}\\)</span></p>\n\n<p><strong>Calculation: </strong></p>\n\n<p>let ladder of length be H m</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Shraddha_Ashish%20S_21.01.2021_D4.png\" style=\"width: 134px; height: 106px;\" /></p>\n\n<p>Cos45<sup>&deg;</sup> = <span class=\"math-tex\">\\(\\frac{6.6}{H }\\)</span></p>\n\n<p>&rArr; <span class=\"math-tex\">\\(\\frac{1}{\\sqrt2 }\\)</span>&nbsp;= <span class=\"math-tex\">\\(\\frac{6.6}{H }\\)</span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p>&rArr; H = 6.6 &times; &radic;2</p>\n<strong>Hence, ladder of length is 6.6 &times; &radic;2</strong><strong> m.</strong>",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>सीढ़ी के तल और दीवार के बीच की दूरी = 6.6 मीटर</p>\n\n<p>और उनके बीच का कोण = 45&deg;</p>\n\n<p><strong>प्रयुक्त सूत्र: </strong></p>\n\n<p>Cos&theta; = आधार/कर्ण</p>\n\n<p><strong>गणना: </strong></p>\n\n<p>माना सीढ़ी के लम्बाई H मीटर है</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Shraddha_Ashish%20S_21.01.2021_D4.png\" style=\"width: 134px; height: 106px;\" /></p>\n\n<p>Cos45<sup>&deg;</sup> = <span class=\"math-tex\">\\(\\frac{6.6}{H }\\)</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;</span><span class=\"math-tex\">\\(\\frac{1}{\\sqrt2 }\\)</span><span style=\"\">&nbsp;=&nbsp;</span><span class=\"math-tex\">\\(\\frac{6.6}{H }\\)</span><span style=\"\">&nbsp; &nbsp;&nbsp;</span></p>\n\n<p>&rArr; H = 6.6 &times; &radic;2</p>\n<strong>इसलिए, सीढ़ी की लम्बाई 6.6 &times; &radic;2</strong>&nbsp;<strong>मीटर है</strong><span style=\"color: rgb(37, 37, 37);  \">।</span>",
+    "marks": "1"
+  },
+  {
+    "question": "How many numbers between 300 and 700 are divisible by 5, 6 and 8?",
+    "question_hi": "300 और 700 के बीच की कितनी संख्या 5, 6 और 8 से विभाज्य है?",
+    "options": [
+      "3",
+      "2",
+      "20",
+      "5"
+    ],
+    "options_hi": [
+      "3",
+      "2",
+      "20",
+      "5"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Calculation:</strong></p>\n\n<p>A least common multiple of 5, 6 and 8</p>\n\n<p>From division method</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Shraddha_Ashish%20S_21.01.2021_D3.png\" style=\"width: 193px; height: 136px;\" /></p>\n\n<p>Least common multiple = 2 &times; 2 &times; 5 &times; 3 &times; 2</p>\n\n<p>&rArr; 120</p>\n\n<p>So our first number will be a multiple of 120</p>\n\n<p>Then number between 300 and 700 are</p>\n\n<p>&there4; the first number will be 120 &times; 3 = 360</p>\n\n<p>And the last number will be just below 700 which will be divisible by 120 is</p>\n\n<p>Last number = 120 &times; 5</p>\n\n<p>&rArr; 600</p>\n\n<p>Now the number between 300 and 700 are 360, 480 and 600</p>\n\n<p><strong>Hence, the total number which is divisible by 5, 6, and 8 are 3</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span></p>\n\n<p>The least common multiple of 5, 6, and 8 is 120</p>\n\n<p>Number = (700 &ndash; 300)/120</p>\n\n<p>&rArr; 400/120</p>\n\n<p>&rArr; 3.33</p>\n\n<p>We choose a value from 3.33 that should be an integer&nbsp;number.</p>\n\n<p><strong>Hence,</strong><strong>&nbsp;the numbers are 3.</strong></p>\n",
+    "solution_hi": "<p><strong>गणना:</strong></p>\n\n<p>5, 6 और 8 का लघुत्तम समापवर्त्य</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">विभाजन विधि से</span></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Shraddha_Ashish%20S_21.01.2021_D3.png\" style=\"width: 193px; height: 136px;\" /></p>\n\n<p>लघुत्तम समापवर्त्य = 2 &times; 2 &times; 5 &times; 3 &times; 2</p>\n\n<p>&rArr; 120</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">तो हमारी पहली संख्या 120 का गुणक होगी</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">तो 300 और 700 के बीच की संख्या हैं</span></p>\n\n<p>&there4; पहली संख्या 120 &times; 3 होगी&nbsp;= 360</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">और अंतिम संख्या 700 से कम होगी जो कि 120 से विभाज्य होगी</span></p>\n\n<p>अंतिम संख्या = 120 &times; 5</p>\n\n<p>&rArr; 600</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">अब 300 और 700 के बीच की संख्या 360, 480 और 600 है</span></p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">इसलिए, कुल संख्या जो 5, 6 और 8 से विभाज्य है, 3 हैं</span></strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span></p>\n\n<p>5, 6, और 8 का लघुत्तम समापवर्त्य 120 है</p>\n\n<p>संख्या = (700 &ndash; 300)/120</p>\n\n<p>&rArr; 400/120</p>\n\n<p>&rArr; 3.33</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">हम 3 से एक मान चुनते हैं।&nbsp;33 वह पूर्णांक संख्या होनी चाहिए।</span></p>\n\n<p><strong>इसलिए,&nbsp;<span style=\"color: rgb(37, 37, 37);  \">संख्या 3 हैं।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A sum of Rs. 36,000 is divided into two parts, A and B, such that the simple interest at the rate of 15% p.a. on A and B after two years and four years, respectively, is equal. The total interest (in Rs.) received from A is:",
+    "question_hi": "36,000 रुपये की राशि को दो भागों, A और B में विभाजित किया गया है, जैसे कि 15% की दर पर साधारण ब्याज A और B पर क्रमशः दो वर्ष और चार वर्ष के बाद, समान है। A से प्राप्त कुल ब्याज (रुपये में) है:",
+    "options": [
+      "1,800",
+      "3,600",
+      "5,400",
+      "7,200"
+    ],
+    "options_hi": [
+      "1,800",
+      "3,600",
+      "5,400",
+      "7,200"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Principal = Rs. 36,000</p>\n\n<p>Rate of interest = 15%</p>\n\n<p>Time for A and B = 2 years and 4 years respectively</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Simple interest = (principal &times; rate &times; time)/100</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let Principle for A be Rs. X</p>\n\n<p>Then principal for B = 36,000 - X</p>\n\n<p>Simple interest for A = (X &times; 15 &times; 2)/100</p>\n\n<p>&rArr; 30X/100</p>\n\n<p>&rArr; 0.3X</p>\n\n<p>Simple interest for B = [(36,000 &ndash; X) &times; 15 &times; 4]/100</p>\n\n<p>&rArr; 0.6 &times; (36,000 &ndash; X)</p>\n\n<p>&rArr; 21600 &ndash; 0.6X</p>\n\n<p>Now, simple interest of A in 2 years = simple interest for B in 4 years.</p>\n\n<p>0.3X = 21600 &ndash; 0.6X</p>\n\n<p>&rArr; 0.3X + 0.6X = 21600</p>\n\n<p>&rArr; 0.9X = 21600</p>\n\n<p>&rArr; X = 21600/0.9</p>\n\n<p>&rArr; X = 24000</p>\n\n<p>Then simple interest of A in two years = 0.3X</p>\n\n<p>&rArr; 0.3 &times; 24000</p>\n\n<p>&rArr; 7200</p>\n\n<p><strong>&there4; The simple interest of A is Rs. 7200.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>मूलधन = 36,000 रुपये</p>\n\n<p>ब्याज की दर = 15%</p>\n\n<p>A और B के लिए समय = क्रमशः 2 वर्ष और 4 वर्ष</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>साधारण ब्याज = (मूलधन &times; दर &times; समय)/100</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना A के लिए मूलधन X रुपये है</p>\n\n<p>तो B के लिए मूलधन = 36,000 - X</p>\n\n<p>A के लिए साधारण ब्याज = (X &times; 15 &times; 2)/100</p>\n\n<p>&rArr; 30X/100</p>\n\n<p>&rArr; 0.3X</p>\n\n<p>B&nbsp;के लिए साधारण ब्याज = [(36,000 &ndash; X) &times; 15 &times; 4]/100</p>\n\n<p>&rArr; 0.6 &times; (36,000 &ndash; X)</p>\n\n<p>&rArr; 21600 &ndash; 0.6X</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">अब 2 वर्ष में A का साधारण ब्याज&nbsp;</span>= <span style=\"color: rgb(37, 37, 37);\">4 वर्ष में B का साधारण ब्याज</span></p>\n\n<p>0.3X = 21600 &ndash; 0.6X</p>\n\n<p>&rArr; 0.3X + 0.6X = 21600</p>\n\n<p>&rArr; 0.9X = 21600</p>\n\n<p>&rArr; X = 21600/0.9</p>\n\n<p>&rArr; X = 24000</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">तो दो वर्ष में A का साधारण ब्याज</span> = 0.3X</p>\n\n<p>&rArr; 0.3 &times; 24000</p>\n\n<p>&rArr; 7200</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4; A का साधारण ब्याज 7200 रुपये है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "In an entrance examination at different centres, a total of 25, 30, 40, 45, 60 and 100 students appeared. The pass percentages of the different centres are 20%, 30%, 35%, 40%, 50% and 75%, respectively. The pass percentage of the entrance examination is: (correct to the nearest integer)",
+    "question_hi": "विभिन्न केंद्रों पर एक प्रवेश परीक्षा में कुल 25, 30, 40, 45, 60 और 100 छात्र उपस्थित हुए। विभिन्न केंद्रों का उत्तीर्ण प्रतिशत क्रमशः 20%, 30%, 35%, 40%, 50% और 75% है। प्रवेश परीक्षा का उत्तीर्ण प्रतिशत है: (निकटतम पूर्णांक तक सही)",
+    "options": [
+      "59%",
+      "50%",
+      "53%",
+      "43%"
+    ],
+    "options_hi": [
+      "59%",
+      "50%",
+      "53%",
+      "43%"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The Number of students has given at different centers are 25, 30, 40, 45, 60, and 100</p>\n\n<p>and passing percentages has given on respective centres are 20%, 30%, 35%, 40%, 50% and 75%.</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Pass percentages = (total number of pass students/total number of appeared students) &times; 100</p>\n\n<p>A number of passing students at individual centers = a number of students on centers &times; given the percentage of that center.</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the center&#39;s names are A, B, C, D, E, and F.</p>\n\n<p>Number of passing students at centres A = 25 &times; 20%</p>\n\n<p>&rArr; 5</p>\n\n<p>Number of passing students at centres B = 30 &times; 30%</p>\n\n<p>&rArr; 9</p>\n\n<p>Number of passing students at centres C = 40 &times; 35%</p>\n\n<p>&rArr; 14</p>\n\n<p>Number of passing students at centres D = 45 &times; 40%</p>\n\n<p>&rArr; 18</p>\n\n<p>Number of passing students at centres E = 60 &times; 50%</p>\n\n<p>&rArr; 30</p>\n\n<p>And Number of passing students at centres F = 100 &times; 75%</p>\n\n<p>&rArr; 75</p>\n\n<p>Now total number of passing students = 5 + 9 + 14 + 18 + 30 + 75</p>\n\n<p>&rArr; 151</p>\n\n<p>Total number of students appeared = 25 + 30 + 40 + 45 + 60 + 100</p>\n\n<p>&rArr; 300</p>\n\n<p>Pass percentages = (151/300) &times; 100</p>\n\n<p>&rArr; 50.33%</p>\n\n<p><strong>Hence, the passing percentage, nearest to the integer is 50%.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span></p>\n\n<p><strong><span class=\"math-tex\">\\({\\rm{Passing\\;percentages}} = \\frac{{{\\rm{summation\\;of\\;}}\\left( {{\\rm{number\\;of\\;students\\;appeared\\;at\\;centres\\;}} \\times {\\rm{\\;their\\;passing\\;percentages\\;respectively}}} \\right)}}{{{\\rm{total\\;number\\;of\\;students\\;appeared\\;at\\;centres}}}} \\times 100\\)</span></strong></p>\n\n<p>Passing percentages = [(25 &times; 20% + 30 &times; 30% + 40 &times; 35% + 45 &times; 40% + 60 &times; 50% + 100 &times; 75%)/(25 + 30 + 40 + 45 + 60 + 100)] &times; 100</p>\n\n<p>&rArr; [(5 + 9 + 14 + 18 + 30 + 75)/300] &times; 100</p>\n\n<p>&rArr; [151/300] &times; 100</p>\n\n<p>&rArr; 50.33%</p>\n\n<p><strong>Hence, the passing percentage, nearest to the integer is 50%.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">विभिन्न केंद्रों पर छात्रों की संख्या 25, 30, 40, 45, 60 और 100 है</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">और संबंधित केंद्रों पर उत्तीर्ण प्रतिशत 20%, 30%, 35%, 40%, 50% और 75% हैं।</span></p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">उत्तीर्ण प्रतिशत</span> = (<span style=\"color: rgb(37, 37, 37);  \">उत्तीर्ण छात्रों की कुल संख्या</span>/<span style=\"color: rgb(37, 37, 37);  \">उपस्थित छात्रों की कुल संख्या</span>) &times; 100</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">अलग अलग केंद्रों पर उत्तीर्ण छात्रों की संख्या</span> = <span style=\"color: rgb(37, 37, 37);  \">केंद्रों पर छात्रों की संख्या</span> &times; <span style=\"color: rgb(37, 37, 37);  \">उस केंद्र का दिया गया प्रतिशत</span>.</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना <span style=\"color: rgb(37, 37, 37);\">केंद्रों</span> का नाम A, B, C, D, E, और F है<span style=\"color: rgb(37, 37, 37);  \">।</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">केंद्र A&nbsp;पर उत्तीर्ण छात्रों की संख्या</span>&nbsp;= 25 &times; 20%</p>\n\n<p>&rArr; 5</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">केंद्र B</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;पर उत्तीर्ण छात्रों की संख्या</span> = 30 &times; 30%</p>\n\n<p>&rArr; 9</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">केंद्र C</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;पर उत्तीर्ण छात्रों की संख्या</span> = 40 &times; 35%</p>\n\n<p>&rArr; 14</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">केंद्र D</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;पर उत्तीर्ण छात्रों की संख्या</span> = 45 &times; 40%</p>\n\n<p>&rArr; 18</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">केंद्र E</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;पर उत्तीर्ण छात्रों की संख्या</span> = 60 &times; 50%</p>\n\n<p>&rArr; 30</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">और केंद्र F</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;पर उत्तीर्ण छात्रों की संख्या</span> = 100 &times; 75%</p>\n\n<p>&rArr; 75</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">अब कुल उत्तीर्ण छात्र हैं</span> = 5 + 9 + 14 + 18 + 30 + 75</p>\n\n<p>&rArr; 151</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">कुल उपस्थित हुए छात्र </span>= 25 + 30 + 40 + 45 + 60 + 100</p>\n\n<p>&rArr; 300</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">उत्तीर्ण&nbsp;</span>प्रतिशत = (151/300) &times; 100</p>\n\n<p>&rArr; 50.33%</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">इसलिए, पूर्णांक के पास उत्तीर्ण प्रतिशत 50% है।</span></strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Shortcut Trick</u></span></strong></span></p>\n\n<p><strong><span class=\"math-tex\">\\({\\rm{Passing\\;percentages}} = \\frac{{{\\rm{summation\\;of\\;}}\\left( {{\\rm{number\\;of\\;students\\;appeared\\;at\\;centres\\;}} \\times {\\rm{\\;their\\;passing\\;percentages\\;respectively}}} \\right)}}{{{\\rm{total\\;number\\;of\\;students\\;appeared\\;at\\;centres}}}} \\times 100\\)</span></strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">उत्तीर्ण&nbsp;</span>प्रतिशत = [(25 &times; 20% + 30 &times; 30% + 40 &times; 35% + 45 &times; 40% + 60 &times; 50% + 100 &times; 75%)/(25 + 30 + 40 + 45 + 60 + 100)] &times; 100</p>\n\n<p>&rArr; [(5 + 9 + 14 + 18 + 30 + 75)/300] &times; 100</p>\n\n<p>&rArr; [151/300] &times; 100</p>\n\n<p>&rArr; 50.33%</p>\n\n<p><span style=\"font-weight: 700;\"><span style=\"color: rgb(37, 37, 37);\">इसलिए, पूर्णांक के पास उत्तीर्ण प्रतिशत 50% है।</span></span></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "On a marked price, the difference of selling prices with a discount of 35% and two successive discounts of 20% and 15%, is Rs. 504. The marked price of the article (in Rs.) is:",
+    "question_hi": "एक अंकित मूल्य पर, 35% की छूट तथा 20% और 15% की दो क्रमिक छूट के साथ <span style=\"color: rgb(37, 37, 37); \">विक्रय&nbsp;</span>मूल्य का अंतर, <span style=\"\">504&nbsp;</span>रुपये है। वस्तु का अंकित मूल्य (रुपये में) कितना है?",
+    "options": [
+      "16,000",
+      "18,000",
+      "15,500",
+      "16,800"
+    ],
+    "options_hi": [
+      "16,000",
+      "18,000",
+      "15,500",
+      "16,800"
+    ],
+    "correct": 4,
+    "solution": "<p>&nbsp;</p>\n\n<p><strong>Given:</strong></p>\n\n<p>Normal Discount on selling price = 35%</p>\n\n<p>Successive discount on selling price = 20% &amp; 15%</p>\n\n<p>Difference in amount of normal and successive discount = Rs.504</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>Successive Discount formula = D<sub>1</sub> + D<sub>2</sub> - (D<sub>1 </sub>&times; D<sub>2</sub>)/100</p>\n\n<p>Selling price formula = {MP &times; (100-D)}/100</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Substituting the values in formula</p>\n\n<p>Successive discount = 20 + 15 - (20 &times; 15)/100</p>\n\n<p>&nbsp;&rArr; 32%</p>\n\n<p>Normal discount = 35%</p>\n\n<p>&nbsp;Difference in discount % = Difference in discount amount</p>\n\n<p>35% - 32% = Rs.504</p>\n\n<p>3% =504</p>\n\n<p>&rArr; 1% = 168</p>\n\n<p><strong>&there4;</strong><strong> 100% = Rs.16800</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>विक्रय मूल्य पर सामान्य छूट = 35%</p>\n\n<p>विक्रय मूल्य पर क्रमिक छूट = 20% और 15%</p>\n\n<p>सामान्य और क्रमिक छूट की राशि में अंतर = 504 रुपये</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>क्रमिक छूट का&nbsp;सूत्र = <span style=\"\">D</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">1</span><span style=\"\">&nbsp;+ D</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;- (D</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">1&nbsp;</span><span style=\"\">&times; D</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;\">2</span><span style=\"\">)/100</span></p>\n\n<p>विक्रय मूल्य सूत्र = {<span style=\"\">अंकित मूल्य &times; (100-D)}/100</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>सूत्र में मानों को प्रतिस्थापित करने पर</p>\n\n<p>क्रमिक छूट = 20 + 15 - (20 &times; 15)/100</p>\n\n<p>&nbsp;&rArr; 32%</p>\n\n<p>सामान्य छूट = 35%</p>\n\n<p>छूट की राशि में अंतर % = छूट राशि में अंतर</p>\n\n<p>35% - 32% = 504 रुपये</p>\n\n<p>3% = 504</p>\n\n<p>&rArr; 1% = 168</p>\n\n<p>&there4; 100% = 16800&nbsp;</p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "An article was sold at a loss of 13.5%. If it was sold for Rs. 1,104 more, then there would have been a profit of 9.5%. The cost price of the article was:",
+    "question_hi": "एक वस्तु को 13.5% की हानि पर बेचा गया था। यदि इसे 1,104 रुपये अधिक में बेचा जाता, तो 9.5% का लाभ होता। वस्तु का क्रय मूल्य था:",
+    "options": [
+      "Rs. 4,200",
+      "Rs. 4,400",
+      "Rs. 4,800",
+      "Rs. 4,600"
+    ],
+    "options_hi": [
+      "4,200 रुपये",
+      "4,400&nbsp;रुपये",
+      "4,800&nbsp;रुपये",
+      "4,600&nbsp;रुपये"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Loss of an article = 13.5%</p>\n\n<p>If sold for Rs.1104 more profit will be 9.5%</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let us take the cost price be x</p>\n\n<p>Loss % of x + extra amount = profit % of x</p>\n\n<p>-13.5% of x + 1104 = 9.5% of x</p>\n\n<p><strong>NOTE:</strong> <strong>Negative sign indicates the loss</strong></p>\n\n<p>&rArr; 23% of x = 1104</p>\n\n<p>&rArr; x = (1104 &times; 100)/23</p>\n\n<p>&there4; x = Rs.4800</p>\n\n<p>&there4; <strong>The cost price of the article = Rs.4800</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>वस्तु पर हानि = 13.5%</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">यदि इसे 1,104 रुपये अधिक में बेचा जाता, तो 9.5% का लाभ होगा</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना क्रय मूल्य x है</p>\n\n<p>x का हानि %&nbsp;+ <span style=\"color: rgb(37, 37, 37);  \">अतिरिक्त राशि</span> = profit % of x</p>\n\n<p>x का -13.5%&nbsp;+ 1104 = x का&nbsp;9.5%</p>\n\n<p><strong>नोट:</strong> <strong><span style=\"color: rgb(37, 37, 37);  \">ऋणात्मक संकेत हानि का संकेत है</span></strong></p>\n\n<p>&rArr; x का 23% = 1104</p>\n\n<p>&rArr; x = (1104 &times; 100)/23</p>\n\n<p>&there4; x = 4800 रुपये</p>\n\n<p>&there4; <strong>वस्तु का क्रय मूल्य = 4800 रुपये</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If a + b + c = 0, then the value of&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac{{{a^3}\\; + \\; {b^3}\\; + \\;{c^3}}}{{abc}}\\)</span>&nbsp;is:",
+    "question_hi": "यदि a + b + c = 0, तो&nbsp;<span class=\"math-tex\">\\(\\frac{{{a^3} + {b^3} + {c^3}}}{{abc}}\\)</span>&nbsp;का मान है:",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "3"
+    ],
+    "options_hi": [
+      "1",
+      "0",
+      "-1",
+      "3"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>a + b + c = 0</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>If a + b + c = 0 then</p>\n\n<p>a<sup>3 </sup>+b<sup>3</sup> + c<sup>3</sup> = 3abc</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Substitute the value&nbsp;a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3&nbsp;</span>+b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= 3abc in the given expression</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{{a^3}\\; + \\; {b^3}\\; + \\;{c^3}}}{{abc}} = \\frac{{3abc}}{abc}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{{a^3} + {b^3} + {c^3}}}{{abc}} = 3\\)</span></p>\n\n<p><strong>&there4; The correct answer is 3</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>a + b + c = 0</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>यदि a + b + c = 0 तो</p>\n\n<p>a<sup>3 </sup>+b<sup>3</sup> + c<sup>3</sup> = 3abc</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3&nbsp;</span>+b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ c<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;= 3abc का मान व्यंजक में प्रतिस्थापित करने पर</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{{a^3}\\; + \\; {b^3}\\; + \\;{c^3}}}{{abc}} = \\frac{{3abc}}{abc}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{{a^3} + {b^3} + {c^3}}}{{abc}} = 3\\)</span></p>\n\n<p><strong>&there4;&nbsp;<span style=\"color: rgb(37, 37, 37);  \">सही उत्तर 3 है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Let A and B be two towers with the same base. From the mid point of the line joining their feet, the angles of elevation of the tops of A and B are 30&deg; and 45&deg;, respectively. The ratio of the heights of A and B is:",
+    "question_hi": "A और B समान आधार वाली दो मीनारें हैं। उनके आधार से जुड़ने वाली रेखा के मध्य बिंदु से, A और B के शीर्ष की ऊंचाई के कोण क्रमशः 30&deg; और 45&deg; हैं। A और B की ऊंचाइयों का अनुपात है:",
+    "options": [
+      "<span class=\"math-tex\">\\(\\sqrt 3\\)</span> : 1",
+      "1 : 3",
+      "1 :&nbsp;<span class=\"math-tex\">\\(\\sqrt 3\\)</span>",
+      "3 : 1"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\sqrt 3\\)</span> : 1",
+      "1 : 3",
+      "1 :&nbsp;<span class=\"math-tex\">\\(\\sqrt 3\\)</span>",
+      "3 : 1"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Shraddha_Ashish%20S_21.01.2021_D2.png\" style=\"width: 188px; height: 162px;\" /></p>\n\n<p>A and B are two towers having the same base</p>\n\n<p>The angle of elevation of tops of A and B from point c = 30 &deg; and 45 &deg;</p>\n\n<p>According to the question,</p>\n\n<p>Midpoint to the line joining the feet bc = cd</p>\n\n<p><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">Tan 30&deg; </span><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">&rArr;<span class=\"math-tex\">\\(\\frac{{height\\;(ab)}}{{base(bc)}}\\; = \\frac{1}{{\\sqrt 3 }}\\)</span></span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ---------------(i)</p>\n\n<p><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">Tan 45&deg; </span><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">&rArr;&nbsp;</span><span class=\"math-tex\">\\(\\frac{{height(de)\\;}}{{base(cd)}}\\; = 1\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-----------------(ii)</p>\n\n<p>From the equation (i) &amp; (ii)</p>\n\n<p>Bc = cd = de =&nbsp;<span class=\"math-tex\">\\(\\sqrt 3 \\)</span></p>\n\n<p>&rArr; ab : de =&nbsp;<span class=\"math-tex\">\\(1:\\sqrt 3 \\)</span></p>\n\n<p><strong><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">&there4; The ratio&nbsp;of the heights of A : B =<span class=\"math-tex\">\\({\\bf{1}}:\\sqrt {\\bf{3}} \\)</span></span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Shraddha_Ashish%20S_21.01.2021_D2.png\" style=\"width: 188px; height: 162px;\" /></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">A और B समान आधार वाली दो मीनारें हैं</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">बिंदु c से A और B के शीर्ष की ऊँचाई का कोण</span> = 30&deg; और 45&deg;</p>\n\n<p>प्रश्न के अनुसार,</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">आधार से जुड़ने वाली रेखा का मध्यबिंदु</span> bc = cd</p>\n\n<p><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">Tan 30&deg; </span><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">&rArr;<span class=\"math-tex\">\\(\\frac{{height\\;(ab)}}{{base(bc)}}\\; = \\frac{1}{{\\sqrt 3 }}\\)</span></span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ---------------(i)</p>\n\n<p><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">Tan 45&deg; </span><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">&rArr;&nbsp;</span><span class=\"math-tex\">\\(\\frac{{height(de)\\;}}{{base(cd)}}\\; = 1\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-----------------(ii)</p>\n\n<p>समीकरण (i) और (ii) से</p>\n\n<p>Bc = cd = de =&nbsp;<span class=\"math-tex\">\\(\\sqrt 3 \\)</span></p>\n\n<p>&rArr; ab : de =&nbsp;<span class=\"math-tex\">\\(1:\\sqrt 3 \\)</span></p>\n\n<p><strong><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">&there4; </span></strong><span style=\"color: rgb(37, 37, 37);  \"><strong>A:B की ऊंचाइयों का अनुपात</strong></span><strong><span style=\" line-height: 107%;  background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"> =&nbsp;<span class=\"math-tex\">\\({\\bf{1}}:\\sqrt {\\bf{3}} \\)</span></span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If&nbsp;<span class=\"math-tex\">\\(\\cot \\theta = \\frac{1}{{\\sqrt 3 }}\\)</span>, 0&deg; &lt;&nbsp;&theta;&deg; &lt; 90&deg;, then the value of&nbsp;<span class=\"math-tex\">\\(\\frac{{2 - {{\\sin }^2}\\theta }}{{1 - {{\\cos }^2}\\theta }} + (cose{c^2}\\theta - {\\sec} \\theta )\\)</span> is:",
+    "question_hi": "यदि&nbsp;<span class=\"math-tex\">\\(\\cot \\theta = \\frac{1}{{\\sqrt 3 }}\\)</span>, 0&deg; &lt;&nbsp;&theta;&deg; &lt; 90&deg;, तो&nbsp;<span class=\"math-tex\">\\(\\frac{{2 - {{\\sin }^2}\\theta }}{{1 - {{\\cos }^2}\\theta }} + (cose{c^2}\\theta - {\\sec} \\theta )\\)</span> का मान है:",
+    "options": [
+      "1",
+      "5",
+      "0",
+      "2"
+    ],
+    "options_hi": [
+      "1",
+      "5",
+      "0",
+      "2"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><strong><span class=\"math-tex\">\\(\\cot \\theta = \\frac{1}{{\\sqrt 3 }}\\)</span></strong></p>\n\n<p>&theta; = 60&deg;</p>\n\n<p><span style=\"font-weight: 700;\">Calculation:</span></p>\n\n<p>&nbsp;sin 60&deg; =<span class=\"math-tex\">\\(\\frac{{\\sqrt 3 }}{2}\\)</span>&nbsp;&nbsp;</p>\n\n<p>&nbsp;cos 60&deg; =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\n\n<p>&nbsp;cosec 60&deg; =<span class=\"math-tex\">\\(\\frac{2}{\\sqrt3}\\)</span></p>\n\n<p>&nbsp;sec 60&deg; = 2&nbsp;</p>\n\n<p>substituting the value in the given expression&nbsp;&nbsp;</p>\n\n<p>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{2-\\frac{3}{4}\\ }{1-\\frac{1}{4}}+(\\frac{4}{3}\\ -2)\\)</span>&nbsp;&rArr;<span class=\"math-tex\">\\(\\frac{\\frac{5}{4}\\ }{\\frac{3}{4}}-\\frac{2}{3}\\)</span></p>\n\n<p>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{5\\;}}{3} - \\frac{2}{3} = 1\\)</span></p>\n\n<p><strong>&there4; the value for the&nbsp;<span class=\"math-tex\">\\(\\frac{{2 - {{\\sin }^2}\\theta }}{{1 - {{\\cos }^2}\\theta }} + (cose{c^2}\\theta - {\\sec} \\theta )\\)</span>&nbsp;= 1</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><strong><span class=\"math-tex\">\\(\\cot \\theta = \\frac{1}{{\\sqrt 3 }}\\)</span></strong></p>\n\n<p>&theta; = 60&deg;</p>\n\n<p><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p>sin 60&deg; =<span class=\"math-tex\">\\(\\frac{{\\sqrt 3 }}{2}\\)</span>&nbsp;&nbsp;</p>\n\n<p>cos 60&deg; =&nbsp;<span class=\"math-tex\">\\(\\frac{1}{2}\\)</span></p>\n\n<p>cosec 60&deg; =<span class=\"math-tex\">\\(\\frac{2}{\\sqrt3}\\)</span></p>\n\n<p>sec 60&deg; = 2&nbsp;</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">दिए गए व्यंजक में मान को प्रतिस्थापित करना</span></p>\n\n<p>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{2-\\frac{3}{4}\\ }{1-\\frac{1}{4}}+(\\frac{4}{3}\\ -2)\\)</span>&nbsp;&rArr;<span class=\"math-tex\">\\(\\frac{\\frac{5}{4}\\ }{\\frac{3}{4}}-\\frac{2}{3}\\)</span></p>\n\n<p>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\frac{{5\\;}}{3} - \\frac{2}{3} = 1\\)</span></p>\n\n<p><strong>&there4;&nbsp;<span class=\"math-tex\">\\(\\frac{{2 - {{\\sin }^2}\\theta }}{{1 - {{\\cos }^2}\\theta }} + (cose{c^2}\\theta - {\\sec} \\theta )\\)</span>&nbsp;के लिए मान = 1</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The internal length, breadth and height of a cuboidal room are 12 m, 8 m and 10 m, respectively. The total cost (in Rs.) of whitewashing only all four walls of the room at the cost of Rs. 25 per m<sup>2</sup>, is:",
+    "question_hi": "एक घनाभ कमरे की आंतरिक लंबाई, चौड़ाई और ऊंचाई क्रमशः 12 मीटर, 8 मीटर और 10 मीटर है। कमरे की सभी चार दीवारों को सफेदी करने की कुल लागत (रुपये में) 25 रुपये प्रति वर्ग मीटर की लागत से होती है।",
+    "options": [
+      "Rs. 11,400",
+      "Rs. 18,000",
+      "Rs. 10,000",
+      "Rs. 12,600"
+    ],
+    "options_hi": [
+      "11,400&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span>",
+      "18,000&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span>",
+      "10,000&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span>",
+      "12,600&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span>"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Length = 12 m</p>\n\n<p>Breadth = 8 m</p>\n\n<p>Height = 10 m</p>\n\n<p>Cost of 1&nbsp;m<sup>2&nbsp;&nbsp;</sup>wall painting&nbsp;=&nbsp;Rs. 25&nbsp;</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Area of four walls = 2(l + b)&nbsp;&times; h</p>\n\n<p>Where,</p>\n\n<p>Length = l&nbsp;</p>\n\n<p>Breadth = b&nbsp;</p>\n\n<p>Height = h</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Area of four walls = 2(l + b)&nbsp;&times; h</p>\n\n<p>&rArr; 2(12 + 8)&nbsp;&times; 10</p>\n\n<p>&rArr; 2&nbsp;&times; 20&nbsp;&times; 10</p>\n\n<p>&rArr; 400 m<sup>2</sup></p>\n\n<p>Cost of 1 m<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2&nbsp;</span>wall painting&nbsp;=&nbsp;Rs. 25&nbsp;</p>\n\n<p>Cost of 400 m<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2&nbsp;</span>wall painting&nbsp;=&nbsp;Rs. 25&nbsp;&times; 400 = 10000</p>\n\n<p><strong>&there4; Total cost (in Rs.) of whitewashing only all four walls of the room is Rs. 10000.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>लम्बाई = 12 मी</p>\n\n<p>चौड़ाई = 8 मी</p>\n\n<p>ऊँचाई = 10 मी</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">1 मी<sup>2</sup> दीवार को पेंट करने&nbsp;की लागत</span>&nbsp;= 25 रुपये&nbsp;</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">चार दीवारों का क्षेत्रफल</span> = 2(लम्बाई + चौड़ाई)&nbsp;&times; ऊँचाई</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">चार दीवारों का क्षेत्रफल</span> = 2(लम्बाई + चौड़ाई)&nbsp;&times; ऊँचाई</p>\n\n<p>&rArr; 2(12 + 8)&nbsp;&times; 10</p>\n\n<p>&rArr; 2&nbsp;&times; 20&nbsp;&times; 10</p>\n\n<p>&rArr; 400 मी<sup>2</sup></p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">1 मी</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;दीवार को पेंट करने</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;की लागत</span>&nbsp;= 25 रुपये&nbsp;</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">400 मी</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;दीवार को पेंट करने</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;की लागत</span>&nbsp;= 25 रुपये &times; 400 = 10000</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4; कमरे की सभी चार दीवारों की सफेदी करने की कुल लागत (रुपये में) 10000 रुपये है।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>Study the given histogram that shows the marks obtained by students in an examination and answer the question that follows.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%202__.PNG\" style=\"height: 265px; width: 489px;\" /></p>\n\n<p>If the total marks obtained by students be represented as a pie chart, then the central angle of the sector representing&nbsp; marks 200 or more but less than 300, is:</p>\n\n<p>(correct to the nearest degree)</p>\n",
+    "question_hi": "<p>दिए गए आयतचित्र का अध्ययन कीजिये जो एक परीक्षा में छात्रों द्वारा प्राप्त अंकों को दर्शाता है और निम्न प्रश्न का उत्तर दीजिये।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%202_.PNG\" /></p>\n\n<p>यदि छात्रों द्वारा प्राप्त कुल अंकों को पाई चार्ट के रूप में दर्शाया जाता है, तो क्षेत्र का केंद्रीय कोण 200 या अधिक अंक का प्रतिनिधित्व करता है, लेकिन 300 से कम:</p>\n\n<p>(निकटतम डिग्री के लिए सही)</p>\n",
+    "options": [
+      "154&deg;",
+      "128&deg;",
+      "68&deg;",
+      "88&deg;"
+    ],
+    "options_hi": [
+      "154&deg;",
+      "128&deg;",
+      "68&deg;",
+      "88&deg;"
+    ],
+    "correct": 1,
+    "solution": "<p>&nbsp;</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Central angle of pie chart = (given frequency/total frequency) &times; 360&deg;</p>\n\n<p><strong>Calculation: </strong></p>\n\n<p>Number of students who scored marks between 200 and 300 = 45 + 60 = 105</p>\n\n<p>Total students = 30 + 45 + 60 + 35 + 40 + 35 = 245</p>\n\n<p>Central angle of pie chart = 105/245 &times; 360&deg; = 154&deg;</p>\n\n<p><strong>&there4; The central angle of the sector representing&nbsp; marks 200 or more but less that 300&nbsp;is 154&deg;&nbsp;&nbsp;</strong></p>\n",
+    "solution_hi": "<p>&nbsp;</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">वृत्तीय आलेख का केंद्रीय कोण</span> = (<span style=\"color: rgb(37, 37, 37);  \">दी गई आवृत्ति</span>/कुल&nbsp;<span style=\"color: rgb(37, 37, 37);\">आवृत्ति)</span> &times; 360&deg;</p>\n\n<p><strong>गणना: </strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">200 और 300 के बीच अंक प्राप्त करने वाले छात्रों की संख्या</span> = 45 + 60 = 105</p>\n\n<p>कुल छात्र = 30 + 45 + 60 + 35 + 40 + 35 = 245</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">वृत्तीय आलेख का केंद्रीय कोण</span> = 105/245 &times; 360&deg; = 154&deg;</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4;&nbsp;क्षेत्र का केंद्रीय कोण जो 200 या उससे अधिक, लेकिन 300 से कम&nbsp; अंक का प्रतिनिधित्व करता है 154&deg; है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>The following pie chart shows the percentage expenditure of a country on different heads. The total expenditure is Rs. 1,680 (in billions). Study the chart and answer the question.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%201.PNG\" style=\"width: 307px; height: 347px;\" /></p>\n\n<p>The expenditure on Education is what percentage less than the expenditure on Defence?</p>\n",
+    "question_hi": "<p><span style=\"color: rgb(37, 37, 37);  \">निम्नलिखित वृत्तीय आलेख में विभिन्न देशों के प्रतिशत का व्यय दर्शाया गया है। कुल व्यय 1,680 रुपये (बिलियन में) है। आलेख का अध्ययन कीजिये और प्रश्न का उत्तर दीजिये।</span></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%201_.PNG\" /></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">शिक्षा पर व्यय, रक्षा पर व्यय से कितने प्रतिशत कम है?</span></p>\n",
+    "options": [
+      "150%",
+      "125%",
+      "100%",
+      "50%"
+    ],
+    "options_hi": [
+      "150%",
+      "125%",
+      "100%",
+      "50%"
+    ],
+    "correct": 4,
+    "solution": "<p><b>Calculation:&nbsp;</b></p>\n\n<p>Difference between defence and education = 12 - 6 = 6&nbsp;</p>\n\n<p>percentage less = 6/12&nbsp;&times; 100 = 50%&nbsp;</p>\n\n<p><strong>&there4; Expenditure on education is 50% less than expenditure on defence.</strong></p>\n",
+    "solution_hi": "<p><b>गणना:&nbsp;</b></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">रक्षा और शिक्षा के बीच अंतर</span> = 12 - 6 = 6&nbsp;</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">प्रतिशत कम है</span>= 6/12&nbsp;&times; 100 = 50%&nbsp;</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">इसलिए, शिक्षा पर व्यय, रक्षा पर व्यय से 50% कम है।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The ratio of the total surface area and volume of a sphere is 2 ∶ 7. Its radius is:",
+    "question_hi": "एक गोले का कुल पृष्ठीय क्षेत्रफल और आयतन का अनुपात 2 ∶ 7 है। इसकी त्रिज्या है:",
+    "options": [
+      "10.5 cm",
+      "7 cm",
+      "10 cm",
+      "7.5 cm"
+    ],
+    "options_hi": [
+      "10.5 सेमी",
+      "7 सेमी",
+      "10 सेमी",
+      "7.5 सेमी"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given: </strong></p>\n\n<p>Ratio of total surface area and volume of a sphere = 2 ∶ 7</p>\n\n<p><strong>Formula used: </strong></p>\n\n<p>Total surface area of sphere = 4&pi;r<sup>2</sup></p>\n\n<p>Volume of a sphere = (4/3)&pi;r<sup>3</sup></p>\n\n<p><strong>Calculation: </strong></p>\n\n<p>According to the question,</p>\n\n<p>(4&pi;r<sup>2</sup>)/(4&pi;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>/3)&nbsp;= 2/7</p>\n\n<p>&rArr; 3/r = 2/7</p>\n\n<p>&rArr; r = 21/2 = 10.5cm</p>\n\n<p><strong>&there4; The radius of sphere is 10.5cm&nbsp;</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया: </strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">एक गोले के कुल पृष्ठीय क्षेत्रफल&nbsp;और&nbsp;आयतन&nbsp;का अनुपात</span> = 2 ∶ 7</p>\n\n<p><strong>प्रयुक्त सूत्र: </strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">गोले का कुल पृष्ठीय क्षेत्रफल</span> = 4&pi;r<sup>2</sup></p>\n\n<p>एक गोले का आयतन = 4&pi;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>/3</p>\n\n<p><strong>गणना: </strong></p>\n\n<p>प्रश्न के अनुसार,</p>\n\n<p>(4&pi;r<sup>2</sup>)/(4&pi;r<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>/3) = 2/7</p>\n\n<p>&rArr; 3/r = 2/7</p>\n\n<p>&rArr; r = 21/2 = 10.5 सेमी</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4;&nbsp;गोले की त्रिज्या 10.5 सेमी है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "In a circle with centre O, AD is a diameter and AC is a chord. Point B is on AC such that OB = 7 cm and&nbsp;&ang;OBA = 60&deg;, If&nbsp;&ang;DOC = 60&deg;, then what is the length of BC?",
+    "question_hi": "केंद्र O के साथ एक वृत्त में, AD एक व्यास है और AC एक जीवा है। बिंदु B AC पर ऐसे है जैसे OB = 7 सेमी और &ang;OBA = 60&deg;, यदि &ang;DOC = 60&deg; है, तो BC की लंबाई क्या है?",
+    "options": [
+      "7 cm",
+      "<span class=\"math-tex\">\\(3\\sqrt 7\\)</span>&nbsp;cm",
+      "3.5 cm",
+      "<span class=\"math-tex\">\\(5\\sqrt 7\\)</span>&nbsp;cm"
+    ],
+    "options_hi": [
+      "7 सेमी",
+      "<span class=\"math-tex\">\\(3\\sqrt 7\\)</span>&nbsp;सेमी",
+      "3.5 सेमी",
+      "<span class=\"math-tex\">\\(5\\sqrt 7\\)</span>&nbsp;सेमी"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>AD is a diameter</p>\n\n<p>AC is a chord</p>\n\n<p>OB = 7</p>\n\n<p>&ang;OBA = 60&deg;&nbsp;</p>\n\n<p>&ang;DOC = 60&deg;&nbsp;</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>1.) Angles&nbsp;on a&nbsp;straight line&nbsp;add up to 180&deg;</p>\n\n<p>2.) In a triangle, opposite angles of two equal sides are always equal</p>\n\n<p><strong>Calculations:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/P.PNG\" style=\"width: 290px; height: 254px;\" /></p>\n\n<p>&ang;DOC = 60&deg;</p>\n\n<p>&ang;DOC +&nbsp;&ang;AOC = 180&deg; (Sum of the angles on a straight line is 180&deg;)&nbsp;</p>\n\n<p>&rArr; 60&deg; +&nbsp;&ang;AOC = 180&deg;&nbsp;&nbsp;</p>\n\n<p>&rArr;&nbsp;&ang;AOC = 120&deg;&nbsp;</p>\n\n<p>In&nbsp;&Delta;AOC,</p>\n\n<p>AO = OC (Radius of the circle)</p>\n\n<p>&rArr; &ang;OAC =&nbsp;&ang;OCA = (180&deg; &ndash; 120&deg;)/2 = 30&deg;&nbsp;</p>\n\n<p>&rArr; &ang;OBC = 180&deg; &ndash; 60&deg; = 120&deg;&nbsp;</p>\n\n<p>&rArr; &ang; BOC = (180&deg; &ndash; 120&deg; &ndash; 30&deg;) = 30&deg;</p>\n\n<p>&ang;BOC =&nbsp;&ang;OCB = 30&deg;&nbsp;&nbsp;</p>\n\n<p>In&nbsp;&Delta;BOC,</p>\n\n<p>OB = BC&nbsp; (Isosceles triangle)</p>\n\n<p>&rArr; OB = 7 cm</p>\n\n<p>&rArr; BC = 7 cm</p>\n\n<p><strong>&there4; BC is&nbsp;7 cm</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>AD व्यास है</p>\n\n<p>AC एक जीवा है</p>\n\n<p>OB = 7</p>\n\n<p>&ang;OBA = 60&deg;&nbsp;</p>\n\n<p>&ang;DOC = 60&deg;&nbsp;</p>\n\n<p><strong>उपयोग की गई अवधारणा:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">1.) एक सीधी रेखा पर कोणों का योग 180&deg; है</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">2.) एक </span>त्रिभुज&nbsp;<span style=\"color: rgb(37, 37, 37);  \">में, दो समान पक्षों के विपरीत कोण हमेशा बराबर होते हैं</span></p>\n\n<div class=\"gtx-body\" style=\"display: inline;  margin: 5px auto; padding: 5px 0px; \"><strong>गणना:</strong></div>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/P.PNG\" style=\"width: 290px; height: 254px;\" /></p>\n\n<p>&ang;DOC = 60&deg;&nbsp;</p>\n\n<p>&ang;DOC +&nbsp;&ang;AOC = 180&deg; (<span style=\"color: rgb(37, 37, 37);  \">एक सीधी रेखा पर कोणों का योग 180 &deg; है</span>)</p>\n\n<p>&rArr;&nbsp;&ang;AOC = 120&deg;&nbsp;</p>\n\n<p>&Delta;AOC&nbsp;<span style=\"color: rgb(37, 37, 37);  \">में,</span></p>\n\n<p>AO = OC (<span style=\"color: rgb(37, 37, 37);  \">वृत्त की त्रिज्या</span>)</p>\n\n<p>&rArr; &ang;OAC =&nbsp;&ang;OCA = (180&deg; &ndash; 120&deg;)/2 = 30&deg;&nbsp;</p>\n\n<p>&rArr; &ang; OBC = 180&deg; &ndash;&nbsp; 60&deg; = 120&deg;&nbsp;</p>\n\n<p>&rArr; &ang; BOC = (180&deg; &ndash;&nbsp;120&deg; &ndash; 30&deg;) = 30&deg;&nbsp;</p>\n\n<p>&ang;BOC =&nbsp;&ang;OCB = 30&deg;</p>\n\n<p>&Delta;BOC&nbsp;<span style=\"color: rgb(37, 37, 37);  \">में,</span>&nbsp;</p>\n\n<p>OB = BC</p>\n\n<p>&rArr; OB = 7 सेमी</p>\n\n<p>&rArr; BC = 7 सेमी</p>\n\n<p><strong>&there4; BC,&nbsp;7 सेमी है</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A can complete a certain work in 35 days and B can complete the same work in 15 days. They worked together for 7 days, then B left the work. In how many days will A alone complete 60% of the remaining work?",
+    "question_hi": "A किसी कार्य को 35 दिनों में पूरा कर सकता है और B उसी कार्य को 15 दिनों में पूरा कर सकता है। उन्होंने 7 दिनों तक एक साथ कार्य किया, फिर B ने काम छोड़ दिया। शेष कार्य के 60% को A अकेले कितने दिनों में पूरा करेगा?",
+    "options": [
+      "15",
+      "8",
+      "10",
+      "7"
+    ],
+    "options_hi": [
+      "15",
+      "8",
+      "10",
+      "7"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>GIven:</strong></p>\n\n<p>A completes the work in 35 days</p>\n\n<p>B completes the work in 15&nbsp;days</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>A&#39;s one day work is 1/35</p>\n\n<p>B&#39;s one day work is 1/15</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>A + B = (1/35) + (1/15)</p>\n\n<p>&rArr; A + B = (7 + 3)/105 = 2/21</p>\n\n<p>Work completed by A + B in 7 days&nbsp;</p>\n\n<p>&rArr; (2/21)&nbsp;&times; 7 = 2/3</p>\n\n<p>Remaining work = 1 - (2/3) = 1/3</p>\n\n<p>1/3 work is left&nbsp;</p>\n\n<p>A will complete it in = 35&nbsp;&times; (1/3) = 35/3</p>\n\n<p>Asked in question 60% of the remaining work</p>\n\n<p>&rArr; (35/3)&nbsp;&times; (60/100) =7</p>\n\n<p><span style=\"font-weight: 700;\">&there4; A will take 7 days.</span></p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></p>\n\n<p>By LCM method</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Time&nbsp; &nbsp; &nbsp; Total work(LCM of time)&nbsp; Efficiency(total work/time)</p>\n\n<p>A&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;35&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 105</p>\n\n<p>B&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;7&nbsp;</p>\n\n<p>A + B = 3 + 7 =10</p>\n\n<p>A + B workes for 7 days = 10&nbsp;&times; 7 = 70</p>\n\n<p>Reamning work = 105 - 70 = 35</p>\n\n<p>60% of the remaining work = 35&nbsp;&times; (60/100) = 21</p>\n\n<p>A complete it = 21/3 = 7</p>\n\n<p><span style=\"font-weight: 700;\">&there4; A will take 7 days.</span></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">A 35 दिनों में कार्य पूरा करता है</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">B 15 दिनों में कार्य पूरा करता है</span></p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>A का एक दिन का कार्य 1/35 है</p>\n\n<p>B का एक दिन का कार्य 1/15&nbsp;है</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>A + B = (1/35) + (1/15)</p>\n\n<p>&rArr; A + B = (7 + 3)/105 = 2/21</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">7 दिनों में A + B द्वारा पूरा किया गया कार्य</span></p>\n\n<p>&rArr; (2/21)&nbsp;&times; 7 = 2/3</p>\n\n<p>शेष कार्य = 1 - (2/3) = 1/3</p>\n\n<p>1/3 कार्य शेष है&nbsp;</p>\n\n<p>A उसे पूरा करेगा = 35&nbsp;&times; (1/3) = 35/3</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">प्रश्न में पूछा गया, शेष कार्य का 60%</span></p>\n\n<p>&rArr; (35/3)&nbsp;&times; (60/100) =7</p>\n\n<p><span style=\"font-weight: 700;\">&there4; </span><strong><span style=\"color: rgb(37, 37, 37);  \">A को 7 दिन लगेंगे।</span></strong></p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></p>\n\n<p>लघुत्तम समापवर्त्य विधि द्वारा</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;समय&nbsp; &nbsp; &nbsp; कुल कार्य(समय का ल.स.प.)&nbsp; &nbsp; क्षमता(कुल कार्य/समय)</p>\n\n<p>A&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;35&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 105</p>\n\n<p>B&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;7&nbsp;</p>\n\n<p>A + B = 3 + 7 =10</p>\n\n<p>A + B, 7 दिनों में कार्य किया = 10&nbsp;&times; 7 = 70</p>\n\n<p>शेष कार्य = 105 - 70 = 35</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">शेष कार्य का 60%</span> = 35&nbsp;&times; (60/100) = 21</p>\n\n<p>A ने पूरा किया = 21/3 = 7</p>\n\n<p><span style=\"font-weight: 700;\">&there4; </span><strong><span style=\"color: rgb(37, 37, 37);  \">A को 7 दिन लगेंगे।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A pump can fill a tank with water in 1 hour. Because of a leak, it took&nbsp;<span class=\"math-tex\">\\(1\\frac{1}{3}\\)</span>&nbsp;hours to fill the tank. In how many hours can the leak alone drain all the water of the tank when it is full?",
+    "question_hi": "एक पंप एक टैंक को 1 घंटे में पानी से भर सकता है। रिसाव के कारण टैंक को भरने में&nbsp;<span style=\"color: rgb(37, 37, 37);  \"><span class=\"math-tex\">\\(1\\frac{1}{3}\\)</span></span> घंटे लगे। टैंक के पूरा भरा होने पर कितने घंटों में रिसाव अकेले टैंक के पानी को बहा सकता है?",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "1"
+    ],
+    "options_hi": [
+      "2",
+      "5",
+      "4",
+      "1"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A takes 1&nbsp; hour to fill tank.</p>\n\n<p>A with leakage takes 4/3 hours</p>\n\n<p><b>Concept used:</b></p>\n\n<p>we will use fraction method to find per minute work</p>\n\n<p>A work per minute is 1/1</p>\n\n<p>A and leakage work per minute is {1/(4/3)} = 3/4</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>we subtract A and leakage form A</p>\n\n<p>&rArr; 1 - 3/4 =(4 -3)/4 =1/4</p>\n\n<p>leakage per minute work is 1/4</p>\n\n<p><strong>&there4; A full tank will be emptied by leakage in 4 hours.</strong></p>\n\n<p><strong><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></strong></p>\n\n<p>An alternate method is by LCM<strong>&nbsp;</strong></p>\n\n<p>Let the leakage be L</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Time&nbsp; &nbsp;Total work(LCM of time)&nbsp; Efficiency(total work/ time)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; A&nbsp; &nbsp; &nbsp; &nbsp;1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p>&nbsp; &nbsp; A - L&nbsp; &nbsp; 3/4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3</p>\n\n<p>L efficiency = 4 - 3 =1</p>\n\n<p>Times taken by L = Total work/Efficiency</p>\n\n<p>&rArr; 4/1 = 4 hours</p>\n\n<p><span style=\"font-weight: 700;\">&there4; A full tank will be emptied by leakage in 4 hours.</span></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">A को टैंक भरने में 1 घंटे का समय लगता है।</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">रिसाव के साथ A को 4/3 घंटे लगते हैं</span></p>\n\n<p><b>प्रयुक्त अवधारणा:</b></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">हम प्रति मिनट काम ज्ञात करने के लिए अंश विधि का उपयोग करेंगे</span></p>\n\n<p>A प्रति मिनट 1/1 कार्य करता है</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">प्रति मिनट A और रिसाव का कार्य {1 / (4/3)}</span> = 3/4</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">हम A और A से रिसाव को घटाते हैं</span></p>\n\n<p>&rArr; 1 - 3/4 =(4 -3)/4 =1/4</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">रिसाव का प्रति मिनट कार्य 1/4 है</span></p>\n\n<p><strong>&there4; <span style=\"color: rgb(37, 37, 37);\">एक पूरा टैंक&nbsp;4 घंटे में रिसाव द्वारा&nbsp;खाली कर दिया जाएगा।</span></strong></p>\n\n<p><strong><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" /></strong></p>\n\n<p>लघुत्तम समापवर्त्य एक वैकल्पिक विधि है</p>\n\n<p>माना रिसाव L है</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;समय&nbsp; &nbsp;कुल समय(समय का ल.स.प.)&nbsp; क्षमता(कुल कार्य/समय)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; A&nbsp; &nbsp; &nbsp; &nbsp;1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p>&nbsp; &nbsp; A - L&nbsp; &nbsp; 3/4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3</p>\n\n<p>L की क्षमता = 4 - 3 =1</p>\n\n<p>L के द्वारा लिया गया समय = कुल कार्य/क्षमता</p>\n\n<p>&rArr; 4/1 = 4 घंटे</p>\n\n<p><span style=\"font-weight: 700;\">&there4; <span style=\"color: rgb(37, 37, 37);\">एक पूरा टैंक&nbsp;4 घंटे में रिसाव द्वारा&nbsp;खाली कर दिया जाएगा।</span></span></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Ramesh spends 40% of his monthly salary on food, 18% on house rent, 12% on entertainment, and 5% on conveyance. But due to a family function, he has to borrow Rs. 16,000 from a money lender to meet the expenses of Rs. 20,000. His monthly salary is:",
+    "question_hi": "रमेश अपने मासिक वेतन का 40% भोजन पर, 18% घर के किराये पर, 12% मनोरंजन पर, और 5% परिवहन पर व्यय करता है। लेकिन एक पारिवारिक समारोह के कारण, उन्हें 20,000 रुपये के खर्च को पूरा करने के लिए एक साहूकार से 16,000 रुपये उधार लेने पड़ते हैं। उनका मासिक वेतन है:",
+    "options": [
+      "Rs. 18,000",
+      "Rs. 16,500",
+      "Rs. 15,000",
+      "Rs. 16,000"
+    ],
+    "options_hi": [
+      "18,000 रुपये",
+      "16,500&nbsp;रुपये",
+      "15,000&nbsp;रुपये",
+      "16,000&nbsp;रुपये"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Money borrowed = Rs. 16,000</p>\n\n<p>Party expenses = Rs. 20,000</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the Monthly income be 100%</p>\n\n<p>Money left&nbsp;= 100% -(40% + 18% + 12% + 5%)</p>\n\n<p>Money left&nbsp;= 100% - 75% = 25%</p>\n\n<p>Ramesh party expenses was Rs. 20,000 and he borrowed Rs. 16,000</p>\n\n<p>So, he had Rs. 4,000 in his pocket&nbsp;</p>\n\n<p>That means 25% = 4000</p>\n\n<p>100% = 4000&nbsp;&times; (100/25)</p>\n\n<p>100% = 16000</p>\n\n<p><strong>&there4; The monthly income of Ramesh is Rs. 16,000</strong></p>\n\n<p>&nbsp;</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">उधार ली हुई राशि</span> = 16,000&nbsp;रुपये</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">पार्टी का व्यय</span>= 20,000 रुपये</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">माना मासिक आय 100% है</span></p>\n\n<p>शेष राशि = 100% - (40% + 18% + 12% + 5%)</p>\n\n<p>शेष राशि&nbsp;= 100% - 75% = 25%</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">रमेश की पार्टी का खर्च 20,000 रुपये था और उन्होंने 16,000 रुपये उधार लिए थे</span></p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">तो, उसकी जेब में 4,000 रुपये थे</span></p>\n\n<p>इसका अर्थ 25% = 4000</p>\n\n<p>100% = 4000&nbsp;&times; (100/25)</p>\n\n<p>100% = 16000</p>\n\n<p><strong>&there4; <span style=\"color: rgb(37, 37, 37);  \">रमेश की मासिक आय 16,000 रुपये है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If a<sup>2</sup> + b<sup><span style=\"\">2</span></sup> = 82 and ab = 9, then a possible value of a<sup>3</sup> + b<sup>3</sup> is:",
+    "question_hi": "यदि a<sup>2</sup> + b<sup><span style=\"\">2</span></sup> = 82 और ab = 9, तो a<sup>3</sup> + b<sup>3</sup> का संभावित मान है:",
+    "options": [
+      "750",
+      "730",
+      "830",
+      "720"
+    ],
+    "options_hi": [
+      "750",
+      "730",
+      "830",
+      "720"
+    ],
+    "correct": 2,
+    "solution": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>Identify two numbers whose <strong>product (ab)</strong> is 9 and <strong>sum of squares (a<sup>2</sup>+b<sup>2</sup>)</strong> is 82.</p>\n<p>By inspection, let <strong>a = 9</strong> and <strong>b = 1</strong>.</p>\n<p>Check: <strong>9<sup>2</sup> + 1<sup>2</sup> = 81 + 1 = 82</strong> and <strong>9 × 1 = 9</strong> (Conditions satisfied).</p>\n<p>Now, <strong>a<sup>3</sup> + b<sup>3</sup> = 9<sup>3</sup> + 1<sup>3</sup> = 729 + 1 = 730</strong>.</p>\n<p><strong>∴ The correct answer is 730.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p>Given: <strong>a<sup>2</sup> + b<sup>2</sup> = 82</strong> and <strong>ab = 9</strong></p>\n<p>Formula used: <strong>(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</strong> and <strong>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> + b<sup>2</sup> − ab)</strong></p>\n<p>⇒ (a + b)<sup>2</sup> = 82 + 2 × 9</p>\n<p>⇒ (a + b)<sup>2</sup> = 82 + 18 = 100</p>\n<p>⇒ <strong>a + b = √100 = 10</strong></p>\n<p>⇒ a<sup>3</sup> + b<sup>3</sup> = (10) × (82 − 9)</p>\n<p>⇒ a<sup>3</sup> + b<sup>3</sup> = 10 × 73</p>\n<p>⇒ <strong>a<sup>3</sup> + b<sup>3</sup> = 730</strong></p>\n<p><strong>∴ The correct answer is 730.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Sum of Cubes Identity</p>\n<p style='margin:0 0 8px 0;color:#444444;'>The factorized form is <strong>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> − ab + b<sup>2</sup>)</strong> or <strong>(a + b)<sup>3</sup> − 3ab(a + b)</strong>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Difference of Cubes Identity</p>\n<p style='margin:0 0 8px 0;color:#444444;'>The factorized form is <strong>a<sup>3</sup> − b<sup>3</sup> = (a − b)(a<sup>2</sup> + ab + b<sup>2</sup>)</strong>.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Square of a Binomial</p>\n<p style='margin:0 0 8px 0;color:#444444;'>Standard expansions are <strong>(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></strong> and <strong>(a − b)<sup>2</sup> = a<sup>2</sup> − 2ab + b<sup>2</sup></strong>.</p>",
+    "solution_hi": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>ऐसी दो संख्याएँ ज्ञात कीजिए जिनका <strong>गुणनफल (ab)</strong> 9 है और <strong>वर्गों का योग (a<sup>2</sup>+b<sup>2</sup>)</strong> 82 है।</p>\n<p>निरीक्षण द्वारा, माना <strong>a = 9</strong> और <strong>b = 1</strong>।</p>\n<p>जाँच: <strong>9<sup>2</sup> + 1<sup>2</sup> = 81 + 1 = 82</strong> और <strong>9 × 1 = 9</strong> (शर्तें संतुष्ट हैं)।</p>\n<p>अब, <strong>a<sup>3</sup> + b<sup>3</sup> = 9<sup>3</sup> + 1<sup>3</sup> = 729 + 1 = 730</strong>।</p>\n<p><strong>∴ सही उत्तर 730 है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p>दिया गया है: <strong>a<sup>2</sup> + b<sup>2</sup> = 82</strong> और <strong>ab = 9</strong></p>\n<p>प्रयुक्त सूत्र: <strong>(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</strong> और <strong>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> + b<sup>2</sup> − ab)</strong></p>\n<p>⇒ (a + b)<sup>2</sup> = 82 + 2 × 9</p>\n<p>⇒ (a + b)<sup>2</sup> = 82 + 18 = 100</p>\n<p>⇒ <strong>a + b = √100 = 10</strong></p>\n<p>⇒ a<sup>3</sup> + b<sup>3</sup> = (10) × (82 − 9)</p>\n<p>⇒ a<sup>3</sup> + b<sup>3</sup> = 10 × 73</p>\n<p>⇒ <strong>a<sup>3</sup> + b<sup>3</sup> = 730</strong></p>\n<p><strong>∴ सही उत्तर 730 है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Sum of Cubes Identity</p>\n<p style='margin:0 0 8px 0;color:#444444;'>गुणनखंड रूप <strong>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> − ab + b<sup>2</sup>)</strong> या <strong>(a + b)<sup>3</sup> − 3ab(a + b)</strong> है।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Difference of Cubes Identity</p>\n<p style='margin:0 0 8px 0;color:#444444;'>गुणनखंड रूप <strong>a<sup>3</sup> − b<sup>3</sup> = (a − b)(a<sup>2</sup> + ab + b<sup>2</sup>)</strong> है।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Square of a Binomial</p>\n<p style='margin:0 0 8px 0;color:#444444;'>मानक विस्तार <strong>(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></strong> और <strong>(a − b)<sup>2</sup> = a<sup>2</sup> − 2ab + b<sup>2</sup></strong> हैं।</p>",
+    "marks": "1"
+  },
+  {
+    "question": "On the marked price of Rs. 1,250 of an article, three successive discounts of 5%, 15% and 20% were offered, The amount (in Rs.) of discount received by a customer is:",
+    "question_hi": "एक वस्तु के 1,250 रुपये के चिह्नित मूल्य पर, 5%, 15% और 20% के तीन क्रमिक छूट की पेशकश की गई थी, ग्राहक द्वारा प्राप्त छूट की राशि (रुपये में) है:",
+    "options": [
+      "950.25",
+      "807.50",
+      "442.50",
+      "450"
+    ],
+    "options_hi": [
+      "950.25",
+      "807.50",
+      "442.50",
+      "450"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>M.P = Rs. 1250</p>\n\n<p>Three successive discount = 5%, 15% and 20%</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>S.P = M.P&nbsp;&times;&nbsp;{(100% - discount%)/100}</p>\n\n<p>Discount = M.P - S.P</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>S.P = M.P&nbsp;&times;&nbsp;{(100% - discount%)/100}</p>\n\n<p>&rArr; S.P = 1250&nbsp;&times; (95/100)&nbsp;&times; (85/100)&nbsp;&times; (80/100)</p>\n\n<p>&rArr; S.P = 807.5</p>\n\n<p>Discount = M.P - S.P</p>\n\n<p>&rArr; Discount = 1250 - 807.5 = 442.5</p>\n\n<p><strong>&there4; The&nbsp;discount amount recived by customer&nbsp;is Rs. 442.5</strong></p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" />&nbsp;</p>\n\n<p>Let total discount&nbsp;</p>\n\n<p>S.P&nbsp; = 100&nbsp;&times; (95/100)&nbsp;&times; (85/100)&nbsp;&times; (80/100)</p>\n\n<p>&rArr; S.P&nbsp;= 64.6%</p>\n\n<p>Total discount% = M.P - S.P</p>\n\n<p>&rArr; 100 - 64.6 = 35.4%</p>\n\n<p>Total Discount = 1250&nbsp;&times; (35.4/100) = 442.5</p>\n\n<p><strong>&there4;&nbsp;</strong><span style=\"font-weight: 700;\">The&nbsp;discount amount recived by customer&nbsp;is Rs. 442.5</span></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>चिन्हित मूल्य = Rs. 1250</p>\n\n<p><span style=\"color: rgb(37, 37, 37);\">तीन क्रमिक छूट</span> = 5%, 15% और 20%</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>विक्रय मूल्य = चिन्हित मूल्य &times;&nbsp;{(100% - छूट%)/100}</p>\n\n<p>छूट = चिन्हित मूल्य - विक्रय मूल्य</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>विक्रय मूल्य = चिन्हित मूल्य &times;&nbsp;{(100% - छूट%)/100}</p>\n\n<p>&rArr; विक्रय मूल्य = 1250&nbsp;&times; (95/100)&nbsp;&times; (85/100)&nbsp;&times; (80/100)</p>\n\n<p>&rArr; विक्रय मूल्य = 807.5</p>\n\n<p>छूट =&nbsp;चिन्हित मूल्य&nbsp;-&nbsp;विक्रय मूल्य</p>\n\n<p>&rArr; छूट = 1250 - 807.5 = 442.5</p>\n\n<p><strong>&there4; <span style=\"color: rgb(37, 37, 37);  \">ग्राहक द्वारा दी जाने वाली छूट राशि 442.5 रुपये है</span></strong></p>\n\n<p><img height=\"46px\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage37.png\" width=\"240px\" />&nbsp;</p>\n\n<p>माना कुल छूट</p>\n\n<p>विक्रय मूल्य&nbsp; = 100&nbsp;&times; (95/100)&nbsp;&times; (85/100)&nbsp;&times; (80/100)</p>\n\n<p>&rArr; विक्रय मूल्य&nbsp;= 64.6%</p>\n\n<p>कुल छूट% = चिन्हित मूल्य&nbsp;-&nbsp;विक्रय मूल्य</p>\n\n<p>&rArr; 100 - 64.6 = 35.4%</p>\n\n<p>कुल छूट = 1250&nbsp;&times; (35.4/100) = 442.5</p>\n\n<p><strong>&there4;&nbsp;</strong><span style=\"font-weight: 700;\"><span style=\"color: rgb(37, 37, 37);\">ग्राहक द्वारा दी जाने वाली छूट राशि 442.5 रुपये है</span></span></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If the numerator of a fraction is increased by 0% and the denominator is increased by 40%, then the resultant fraction is&nbsp;<span class=\"math-tex\">\\(\\frac{{16}}{{63}}\\)</span>. The original fraction is:",
+    "question_hi": "यदि एक भिन्न के अंश में 0% की वृद्धि होती है और हर में 40% की वृद्धि होती है, तो परिणामी भिन्न&nbsp;<span class=\"math-tex\">\\(\\frac{{16}}{{63}}\\)</span>&nbsp;है। मूल भिन्न क्या है?",
+    "options": [
+      "<span class=\"math-tex\">\\(\\frac{{4}}{{9}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{16}}{{45}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{5}}{{9}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{2}}{{11}}\\)</span>"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\frac{{4}}{{9}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{16}}{{45}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{5}}{{9}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{2}}{{11}}\\)</span>"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Numerator is increased by 0%</p>\n\n<p>Denominator is increased by 40%</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let numerator be x and denominator be y</p>\n\n<p>According to the question,</p>\n\n<p>100x/140y = 16/63</p>\n\n<p>&rArr; 5x/7y = 16/63</p>\n\n<p>&rArr; 45x = 16y</p>\n\n<p><strong>&there4;&nbsp;</strong><span style=\"font-size:18px;\"><span class=\"math-tex\">\\(\\frac{{\\rm{x}}}{{\\rm{y}}} = \\frac{{16}}{{45}}\\)</span></span></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>अंश में 0% की वृद्धि होती है।</p>\n\n<p>हर में 40% की वृद्धि&nbsp;होती है।&nbsp;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना अंश x है और हर y है।</p>\n\n<p>प्रश्न के अनुसार,</p>\n\n<p>100x/140y = 16/63</p>\n\n<p>&rArr; 5x/7y = 16/63</p>\n\n<p>&rArr; 45x = 16y</p>\n\n<p><strong>&there4;&nbsp;</strong><span style=\"font-size:18px;\"><span class=\"math-tex\">\\(\\frac{{\\rm{x}}}{{\\rm{y}}} = \\frac{{16}}{{45}}\\)</span></span></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Solve for&nbsp;&theta;:&nbsp;<span class=\"math-tex\">\\({\\cos ^2}\\theta - {\\sin ^2}\\theta = \\frac{1}{2}\\)</span>, 0 &lt;&nbsp;&theta; &lt; 90&deg;.",
+    "question_hi": "&theta; के लिए हल कीजिए:&nbsp;<span class=\"math-tex\">\\({\\cos ^2}\\theta - {\\sin ^2}\\theta = \\frac{1}{2}\\)</span>, 0 &lt;&nbsp;&theta; &lt; 90&deg;",
+    "options": [
+      "40&deg;",
+      "30&deg;",
+      "60&deg;",
+      "45&deg;"
+    ],
+    "options_hi": [
+      "40&deg;",
+      "30&deg;",
+      "60&deg;",
+      "45&deg;"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ - {\\rm{si}}{{\\rm{n}}^2}θ = \\frac{1}{2}\\;\\)</span></p>\n\n<p><strong>Formula used:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ + {\\rm{si}}{{\\rm{n}}^2}θ = 1\\;\\)</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ + {\\rm{si}}{{\\rm{n}}^2}θ = 1\\;\\)</span>&nbsp; &nbsp; &nbsp; ----(i)</p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ - {\\rm{si}}{{\\rm{n}}^2}θ = \\frac{1}{2}\\;\\)</span>&nbsp; &nbsp; &nbsp; ----(ii)</p>\n\n<p>By adding (i) and (ii) we get</p>\n\n<p><span class=\"math-tex\">\\(2{\\rm{co}}{{\\rm{s}}^2}θ = \\frac{3}{2}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ = \\frac{3}{4}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\rm{cosθ }} = {\\rm{\\;}}\\frac{{\\sqrt 3 }}{2}\\)</span></p>\n\n<p><strong>&there4;&nbsp;&theta; is&nbsp;30&deg;&nbsp;</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/08/Short%20tricks.PNG\" style=\"width: 169px; height: 37px;\" /><strong>&nbsp;</strong></p>\n\n<p>Put value of&nbsp;&theta; = 30&deg;</p>\n\n<p><span class=\"math-tex\">\\({\\rm{cos^2}}30^\\circ = {\\rm{\\;}}\\frac{3}{4}\\)</span></p>\n\n<p><span class=\"math-tex\">\\({\\rm{sin^2}}30^\\circ = {\\rm{\\;}}\\frac{1}{4}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\frac{3}{4} - \\frac{1}{4} = \\frac{1}{2}\\)</span>&nbsp;(Satisfied)</p>\n\n<p><strong>&there4;&nbsp;&theta; is 30&deg;&nbsp;</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ - {\\rm{si}}{{\\rm{n}}^2}θ = \\frac{1}{2}\\;\\)</span></p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ + {\\rm{si}}{{\\rm{n}}^2}θ = 1\\;\\)</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ + {\\rm{si}}{{\\rm{n}}^2}θ = 1\\;\\)</span>&nbsp; &nbsp; &nbsp; ----(i)</p>\n\n<p><span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ - {\\rm{si}}{{\\rm{n}}^2}θ = \\frac{1}{2}\\;\\)</span>&nbsp; &nbsp; &nbsp; ----(ii)</p>\n\n<p>समीकरण (i) और&nbsp;(ii) को जोड़ने पर, हमें ज्ञात होता है</p>\n\n<p><span class=\"math-tex\">\\(2{\\rm{co}}{{\\rm{s}}^2}θ = \\frac{3}{2}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\rm{co}}{{\\rm{s}}^2}θ = \\frac{3}{4}\\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\({\\rm{cosθ }} = {\\rm{\\;}}\\frac{{\\sqrt 3 }}{2}\\)</span></p>\n\n<p><strong>&there4;&nbsp;&theta;&nbsp;30&deg; है।</strong><strong>&nbsp;</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/20/08/Short%20tricks.PNG\" style=\"width: 169px; height: 37px;\" /><strong>&nbsp;</strong></p>\n\n<p>&theta; = 30&deg; रखिये</p>\n\n<p><span class=\"math-tex\">\\({\\rm{cos^2}}30^\\circ = {\\rm{\\;}}\\frac{3}{4}\\)</span></p>\n\n<p><span class=\"math-tex\">\\({\\rm{sin^2}}30^\\circ = {\\rm{\\;}}\\frac{1}{4}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\frac{3}{4} - \\frac{1}{4} = \\frac{1}{2}\\)</span>&nbsp;(संतुष्ट)</p>\n\n<p><strong>&there4;&nbsp;&theta;&nbsp;30&deg; है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>The fasting blood sugar level (F) and the post prandial blood sugar level (PP) of a patient was monitored for four weeks W1, W2, W3, W4, and the readings (in mg/dl) for the four weeks are as follows:</p>\n\n<p>F/PP: 170/220, 150/180, 120/150, 90/120.</p>\n\n<p>These have been presented through a bar graph. The normal range is considered to be:</p>\n\n<p>F/PP: 70-100/100-130</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%205.PNG\" style=\"width: 483px; height: 269px;\" /></p>\n\n<p>During which week was the fasting blood sugar level of the patient approximately 115.4% of the upper limit of normal PP blood sugar level?</p>\n",
+    "question_hi": "<p>एक मरीज की चार सप्ताह&nbsp;W1, W2, W3, W4 तक फास्टिंग ब्लड शुगर लेवल (F) और पोस्ट प्रेंडियल&nbsp;ब्लड शुगर लेवल (PP) की निगरानी की गई थी और चार सप्ताह की रीडिंग (mg/dl में)&nbsp;इस प्रकार है:</p>\n\n<p>F/PP: 170/220, 150/180, 120/150, 90/120.</p>\n\n<p>इन्हें एक दंड आलेख&nbsp;के माध्यम से प्रस्तुत किया गया है।&nbsp;सामान्य सीमा मानी गई&nbsp;है:</p>\n\n<p>F/PP: 70-100/100-130</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%205.PNG\" style=\"width: 483px; height: 269px;\" /></p>\n\n<p>किस सप्ताह के दौरान रोगी का उपवास रक्त शर्करा स्तर सामान्य पीपी रक्त शर्करा के स्तर की ऊपरी सीमा का लगभग 115.4% था?</p>\n",
+    "options": [
+      "W2",
+      "W1",
+      "W3",
+      "W4"
+    ],
+    "options_hi": [
+      "W2",
+      "W1",
+      "W3",
+      "W4"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Normal range of Fasting blood sugar level (F) = 70 - 100</p>\n\n<p>Normal range of Post prandial blood sugar level (PP) = 100 - 130</p>\n\n<p><strong>Calculation:&nbsp;</strong></p>\n\n<p>115.4%&nbsp;&asymp; 115%</p>\n\n<p>130&nbsp;&times; 115% = 149.5</p>\n\n<p>&rArr; 149.5&nbsp;&lt; 150</p>\n\n<p><strong>&there4; In W2 the&nbsp;fasting blood sugar level (F) is approximately 115.4% of&nbsp;the upper limit of normal PP blood sugar.&nbsp;</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>फास्टिंग ब्लड शुगर लेवल की सामान्य सीमा&nbsp;(F) = 70 - 100</p>\n\n<p>पोस्ट प्रेंडियल ब्लड शुगर लेवल की सामान्य सीमा (PP) = 100 - 130</p>\n\n<p><strong>गणना:&nbsp;</strong></p>\n\n<p>115.4%&nbsp;&asymp; 115%</p>\n\n<p>130&nbsp;&times; 115% = 149.5</p>\n\n<p>&rArr; 149.5&nbsp;&lt; 150</p>\n\n<p><strong>&there4; W2 में फास्टिंग ब्लड शुगर लेवल (F) सामान्य पीपी ब्लड शुगर की ऊपरी सीमा का लगभग 115.4% है</strong><strong>।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The base of a triangle is equal to the perimeter of a square whose diagonal is&nbsp;<span class=\"math-tex\">\\(9\\sqrt 2\\)</span> cm, and its height is equal to the side of a square whose area is 144 cm<sup>2</sup>. The area of the triangle (in cm<sup>2</sup>) is:",
+    "question_hi": "एक त्रिभुज का आधार एक वर्ग के परिमाप के बराबर है जिसका विकर्ण&nbsp;<span class=\"math-tex\">\\(9\\sqrt 2\\)</span> सेमी है और उसकी ऊँचाई एक वर्ग की भुजा के बराबर है जिसका क्षेत्रफल 144 वर्ग सेमी है। त्रिभुज का क्षेत्रफल (वर्ग सेमी में) है:",
+    "options": [
+      "216",
+      "288",
+      "72",
+      "144"
+    ],
+    "options_hi": [
+      "216",
+      "288",
+      "72",
+      "144"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Diagonal of a square = 9&radic;2 cm</p>\n\n<p>Area of a square = 144&nbsp;cm<sup>2</sup></p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Area of a triangle = 1/2&nbsp;&times; base&nbsp;&times; height</p>\n\n<p>Perimeter of a square = 4a</p>\n\n<p>Area of a square = a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p>Here, a = side of a square</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>We know that diagonal of a square = a&radic;2&nbsp;</p>\n\n<p>a&radic;2 = 9&radic;2</p>\n\n<p>&rArr; a = 9</p>\n\n<p>Perimeter of the square = 4&nbsp;&times; 9 = 36 cm = base of the triangle</p>\n\n<p>Area of the square = 144 cm<sup>2</sup></p>\n\n<p>&rArr; a<sup>2</sup>&nbsp;= 144 cm<sup>2</sup></p>\n\n<p>&rArr; a = 12 cm = height of the triangle&nbsp;</p>\n\n<p>Area of the triangle = 1/2&nbsp;&times; 36&nbsp;&times; 12</p>\n\n<p>&rArr; 18&nbsp;&times; 12 = 216</p>\n\n<p><strong>&there4; Area of the triangle is&nbsp;216</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/confusion-points-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Confusion Points</u></span></strong></span>&nbsp;The question is talking about two different squares one with sides of12 cm and the other with diagonal of 9&radic;2 cm .</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>एक वर्ग का विकर्ण = 9&radic;2 सेमी</p>\n\n<p>वर्ग का क्षेत्रफल&nbsp;= 144 वर्ग सेमी</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>= 1/2&nbsp;&times; आधार&nbsp;&times; ऊँचाई</p>\n\n<p>एक वर्ग का परिमाप = 4a</p>\n\n<p>वर्ग का क्षेत्रफल = a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p>यहाँ, a = एक वर्ग की भुजा</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>हम जानते हैं कि एक वर्ग का विकर्ण = a&radic;2&nbsp;</p>\n\n<p>a&radic;2 = 9&radic;2</p>\n\n<p>&rArr; a = 9</p>\n\n<p>वर्ग का परिमाप = 4&nbsp;&times; 9 = 36 सेमी&nbsp;= त्रिभुज का आधार</p>\n\n<p>वर्ग का क्षेत्रफल = 144 वर्ग सेमी</p>\n\n<p>&rArr; a<sup>2</sup>&nbsp;= 144 वर्ग सेमी</p>\n\n<p>&rArr; a = 12 सेमी&nbsp;= त्रिभुज की ऊँचाई&nbsp;</p>\n\n<p>त्रिभुज&nbsp;का क्षेत्रफल = 1/2&nbsp;&times; 36&nbsp;&times; 12</p>\n\n<p>&rArr; 18&nbsp;&times; 12 = 216</p>\n\n<p><strong>&there4; त्रिभुज&nbsp;का क्षेत्रफल&nbsp;216 है।</strong></p>\n\n<p><span style=\" display: flex; gap: 6px; align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/confusion-points-image.png\" width=\"26px\" /><span style=\"font-weight: 700;\"><span style=\"vertical-align: middle; \"><u>Confusion Points</u></span></span></span>प्रश्न में 12 सेमी भुजा वाले तथा 9&radic;2 सेमी के विकर्ण वाले दो भिन्न -भिन्न वर्गों के बारे में चर्चा की गई है।</p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The value of is: (427 &times;&nbsp;&nbsp;427 &times;&nbsp;427 + 325&times; 325&nbsp;&times; 325)/(42.7&nbsp;&times; 42.7&nbsp;&ndash;&nbsp; 42.7 &times; 32.5 + 32.5&nbsp;&times; 32.5)",
+    "question_hi": "<p>निम्नलिखित का मान क्या है:</p>\n\n<p>(427 &times;&nbsp;&nbsp;427 &times;&nbsp;427 + 325&times; 325&nbsp;&times; 325)/(42.7&nbsp;&times; 42.7 &ndash;&nbsp; 42.7 &times; 32.5 +&nbsp;32.5&nbsp;&times; 32.5)</p>\n",
+    "options": [
+      "7520",
+      "7.52",
+      "75200",
+      "752"
+    ],
+    "options_hi": [
+      "7520",
+      "7.52",
+      "75200",
+      "752"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>(427 &times;&nbsp;&nbsp;427 &times;&nbsp;427 + 325&times; 325&nbsp;&times; 325)/(42.7&nbsp;&times; 42.7&nbsp;&ndash;&nbsp;&nbsp;42.7 &times; 32.5 + 32.5&nbsp;&times; 32.5)</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>(a<sup>3</sup>&nbsp;+ b<sup>3</sup>) = (a + b)(<span style=\"color: rgb(51, 51, 51);   background-color: rgb(255, 255, 255);\">a</span><span style=\"box-sizing: border-box; position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;  background-color: rgb(255, 255, 255);font-size:10.5px;\">2&nbsp;</span><span style=\"color: rgb(51, 51, 51);   background-color: rgb(255, 255, 255);\">- ab + b</span><span style=\"box-sizing: border-box; position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;  background-color: rgb(255, 255, 255);font-size:10.5px;\">2</span><span style=\"color: rgb(51, 51, 51);   background-color: rgb(255, 255, 255);\">)</span></p>\n\n<p>(a + b) =(a<sup>3</sup>+ b<sup>3</sup>)/(a<sup>2&nbsp;</sup>- ab + b<sup>2</sup>)</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>(427 &times;&nbsp;&nbsp;427 &times;&nbsp;427 + 325 &times; 325&nbsp;&times; 325)/(42.7&nbsp;&times; 42.7 + 42.7 &times; 32.5&nbsp;&ndash; 32.5&nbsp;&times; 32.5)</p>\n\n<p>&rArr; (427<sup>3</sup> + 325<sup>3</sup>)/[(427/10)<sup>2</sup>+ (325/10)<sup>2&nbsp;</sup>&ndash; (427/10 &times; 325/10)]</p>\n\n<p>&rArr; (427<sup>3</sup> + 325<sup>3</sup>)/[(427)<sup>2</sup> + (325)<sup>2</sup>&nbsp;&ndash; (427&nbsp;&times; 325)]/100</p>\n\n<p>Let 427 and 325 be &#39;a&#39; and &#39;b&#39; respectively</p>\n\n<p>&rArr; [{(a<sup>3</sup> + b<sup>3</sup>)/(a<sup>2</sup>&nbsp;&ndash; ab + b<sup>2</sup>)}/100]</p>\n\n<p>&rArr; [(a + b) &times; (1/100)]</p>\n\n<p>&rArr; [(427 + 325) &times; 100]</p>\n\n<p>&rArr; 752 &times; 100 = 75200</p>\n\n<p><strong>&there4; The value of equation&nbsp;is&nbsp;75200.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>(427 &times;&nbsp;&nbsp;427 &times;&nbsp;427 + 325&times; 325&nbsp;&times; 325)/(42.7&nbsp;&times; 42.7&nbsp;&ndash;&nbsp;&nbsp;42.7 &times; 32.5 + 32.5&nbsp;&times; 32.5)</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>(a<sup>3</sup>&nbsp;+ b<sup>3</sup>) = (a + b)(<span style=\"color: rgb(51, 51, 51);   background-color: rgb(255, 255, 255);\">a</span><span style=\"box-sizing: border-box; position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;  background-color: rgb(255, 255, 255);font-size:10.5px;\">2&nbsp;</span><span style=\"color: rgb(51, 51, 51);   background-color: rgb(255, 255, 255);\">- ab + b</span><span style=\"box-sizing: border-box; position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;  background-color: rgb(255, 255, 255);font-size:10.5px;\">2</span><span style=\"color: rgb(51, 51, 51);   background-color: rgb(255, 255, 255);\">)</span></p>\n\n<p>(a + b) = (a<sup>3</sup>+ b<sup>3</sup>)/(a<sup>2&nbsp;</sup>- ab + b<sup>2</sup>)</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>(427 &times;&nbsp;&nbsp;427 &times;&nbsp;427 + 325 &times; 325&nbsp;&times; 325)/(42.7&nbsp;&times; 42.7 + 42.7 &times; 32.5&nbsp;&ndash; 32.5&nbsp;&times; 32.5)</p>\n\n<p>&rArr; (427<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ 325<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>)/[(427/10)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>+ (325/10)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2&nbsp;</span>&ndash; (427/10 &times; 325/10)]</p>\n\n<p>&rArr; (427<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ 325<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>)/[(427)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;+ (325)<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; (427&nbsp;&times; 325)]/100</p>\n\n<p><span style=\"color: rgb(37, 37, 37);  \">427 और 325 को </span>क्रमशः&nbsp;<span style=\"color: rgb(37, 37, 37);  \">&#39;a&#39; और &#39;b&#39;&nbsp;&nbsp;</span>माना&nbsp;</p>\n\n<p>&rArr; [{(a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>&nbsp;+ b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">3</span>)/(a<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>&nbsp;&ndash; ab + b<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span>)}/100]</p>\n\n<p>&rArr; [(a + b) &times; (1/100)]</p>\n\n<p>&rArr; [(427 + 325) &times; 100]</p>\n\n<p>&rArr; 752 &times; 100 = 75200</p>\n\n<p><span style=\"font-weight: 700;\">&there4; दिए गए समीकरण का मान 75200&nbsp;है।&nbsp;</span>&nbsp;</p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Two pipes A and B can fill a cistern in&nbsp;<span class=\"math-tex\">\\(12\\frac{1}{2}\\)</span> hours and 25 hours, respectively. The pipes are opened simultaneously and it is found that due to a leakage in the bottom, it took 1 hour 40 minutes more to fill the cistern. When the cistern is full, in how much time will the leak empty the cistern?",
+    "question_hi": "दो पाइप A और B एक टंकी को क्रमशः&nbsp;<span class=\"math-tex\">\\(12\\frac{1}{2}\\)</span> घंटे और 25 घंटे में भर सकते हैं। दोनों पाइप एक साथ खोले जाते हैं और यह पाया जाता है कि तली में एक रिसाव के कारण, टंकी को भरने में 1 घंटा 40 मिनट अधिक लगा। जब टंकी पूरी तरह से भरी हो, तो रिसाव टंकी को कितने समय में खाली कर देगा?",
+    "options": [
+      "48 hours",
+      "42 hours",
+      "45 hours",
+      "50 hours"
+    ],
+    "options_hi": [
+      "48 घंटे",
+      "42 घंटे",
+      "45 घंटे",
+      "50 घंटे"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A can fill the cistern 12.5 hours</p>\n\n<p>B can fill the cistern 25 hours&nbsp;</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>Total Work = Efficiency&nbsp;&times; Time</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the capacity of the cistern be 25 units (LCM of 12.5 &amp; 25)</p>\n\n<p>&rArr; Efficiency of A = 25/12.5 = 2 units/hr</p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; Efficiency of B = 25/25 = 1 unit/hr</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;&nbsp;</span>Combined efficiency of A and B = 2 + 1 = 3 units/hr</p>\n\n<p>Time taken by&nbsp;<span style=\"color:  (33, 37, 41);\">A and B to fill the cistern without leakage</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; 25/3 = 8(1/3) hours = 8 hours 20 mins</span></p>\n\n<p>Time taken by&nbsp;<span style=\"color:  (33, 37, 41);\">A and B to fill the cistern with&nbsp;leakage</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;&nbsp;8 hours 20 mins +&nbsp;</span>1 hour 40 mins = 10 hours</p>\n\n<p><span style=\"color:  (33, 37, 41);\">The combined efficiency of A and B with leakage</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; 25/10 = 2.5 units/hr</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;&nbsp;</span>Efficiency of leakage = 3 - 2.5 = 0.5 units/hr</p>\n\n<p>Time required by the leak to empty the full cistern</p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;&nbsp;</span>25/0.5 = 50 hours</p>\n\n<p><strong>&there4; The leak can empty the full cistern in 50 hours.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n\n<p><strong>Calculation:</strong>&nbsp; &nbsp;</p>\n\n<p>Pipe A work in cistern = 12</p>\n\n<p>&rArr; Work is done by pipe A in 1 hour =2/25</p>\n\n<p>Pipe&nbsp; B can fill a cistern =&nbsp; 25 hours</p>\n\n<p>&rArr; work is done by pipe B in 1 hours =1/25</p>\n\n<p>Work done by two pipes in 1 hour together&nbsp;<span class=\"math-tex\">\\(\\frac{2}{{25}} + \\frac{1}{{25}}\\)</span></p>\n\n<p>&rArr; By taking LCM 25,and 25 = 25&nbsp;</p>\n\n<p>&rArr; two pipes complete&nbsp;<span class=\"math-tex\">\\(\\frac{3}{{25}}\\)</span></p>\n\n<p>&rArr; time taking together 25/3 hours</p>\n\n<p>&rArr; 1 hours = 60 minute</p>\n\n<p>&rArr; 25/3 hours =<span class=\"math-tex\">\\(\\frac{{25}}{3} × 60\\)</span>&nbsp;= 8 hours 20 minutes&nbsp;</p>\n\n<p>&rArr; Due to leak 8 hours 20 minutes + 1 hour 40 minute = 10 hours&nbsp;</p>\n\n<p>&rArr; Due to leak was done by the pipe in 1 hour =<span class=\"math-tex\">\\(\\frac{3}{{25}} - \\frac{1}{{10}}\\)</span></p>\n\n<p>&rArr; By taking LCM 25 and 10 = 250&nbsp;</p>\n\n<p>&nbsp;&rArr;&nbsp;<span class=\"math-tex\">\\(\\frac{{30 - 25}}{{250}}\\)</span>&nbsp;=&nbsp;<span style=\"font-size:12px;\"><span class=\"math-tex\">\\(\\frac{5}{{250}}\\)</span></span></p>\n\n<p>&rArr; Time taking 250/5 hours =&nbsp;50 hours&nbsp;</p>\n\n<p><span style=\"font-weight: bolder;\">&there4; The leak can empty the full cistern in 50 hours.</span></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>A टंकी को 12.5 घंटे में भर सकता है।</p>\n\n<p>B टंकी को 25 घंटे में भर सकता है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>कुल कार्य = दक्षता &times; समय</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना टंकी की क्षमता 25 इकाई है (12.5 और 25 का लघुत्तम समापवर्त्य)</p>\n\n<p>&rArr; A की दक्षता = 25/12.5 = 2 इकाई/घंटा</p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; B की दक्षता = 25/25 = 1 इकाई/घंटा</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;</span> A और B की संयुक्त दक्षता = 2 + 1 = 3 इकाई/घंटा</p>\n\n<p><span style=\"color:  (33, 37, 41);\">A और B द्वारा टंकी को बिना रिसाव के भरने में</span> लिया गया समय</p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; 25/3 = 8(1/3) घंटे = 8 घंटे 20 मिनट</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">रिसाव वाली टंकी को भरने में A और B</span> द्वारा लिया गया समय</p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; 8 घंटे 20 मिनट +</span> 1 घंटा 40 मिनट = 10 घंटे</p>\n\n<p><span style=\"color:  (33, 37, 41);\">रिसाव के साथ ए और बी की संयुक्त दक्षता</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr; 25/10 = 2.5 इकाई/घंटा</span></p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;</span> रिसाव की दक्षता = 3 - 2.5 = 0.5 <span style=\"color:  (33, 37, 41);\">इकाई</span>/घंटा</p>\n\n<p>रिसाव के कारण पूरी टंकी को खाली करने में लगने वाला समय</p>\n\n<p><span style=\"color:  (33, 37, 41);\">&rArr;</span> 25/0.5 = 50 घंटे</p>\n\n<p><strong>&there4; रिसाव पूरी टंकी को 50 घंटे में खाली कर सकता है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>टंकी में पाइप A का कार्य = 12</p>\n\n<p>&rArr; पाइप A द्वारा 1 घंटे में पूरा किया गया <span style=\"color:  (33, 37, 41);\">कार्य&nbsp;</span>= 2/25</p>\n\n<p>पाइप B एक टंकी को भर सकता है = 25 घंटे</p>\n\n<p>&rArr; पाइप B द्वारा 1 घंटे में पूरा किया गया <span style=\"color:  (33, 37, 41);\">कार्य&nbsp;</span>=1/25</p>\n\n<p>दो पाइपों द्वारा 1 घंटे में एक साथ किया गया कार्य <span contenteditable=\"false\" tabindex=\"-1\"><span class=\"math-tex\" data-widget=\"mathjax\" style=\"display:inline-block\"></span></span></p>\n\n<p>&rArr; 25 और 25&nbsp;<span style=\"color:  (33, 37, 41);\">का लघुत्तम समापवर्त्य</span> = 25 लेने पर</p>\n\n<p>&rArr; दो पाइप&nbsp;<span contenteditable=\"false\" tabindex=\"-1\"><span class=\"math-tex\" data-widget=\"mathjax\" style=\"display:inline-block\"></span></span><span style=\"color:  (33, 37, 41);\">&nbsp;पूरा करते हैं</span></p>\n\n<p>&rArr; समय मिलाकर 25/3 घंटे</p>\n\n<p>&rArr; 1 घंटा = 60 मिनट</p>\n\n<p>&rArr; 25/3 घंटे = <span contenteditable=\"false\" tabindex=\"-1\"><span class=\"math-tex\" data-widget=\"mathjax\" style=\"display:inline-block\"></span></span> = 8 घंटे 20 मिनट</p>\n\n<p>&rArr; रिसाव के कारण 8 घंटे 20 मिनट + 1 घंटा 40 मिनट = 10 घंटे</p>\n\n<p>&rArr; पाइप द्वारा 1 घंटे में रिसाव होने के कारण = <span contenteditable=\"false\" tabindex=\"-1\"><span class=\"math-tex\" data-widget=\"mathjax\" style=\"display:inline-block\"></span></span></p>\n\n<p>&rArr; 25 और 10 <span style=\"color:  (33, 37, 41);\">का लघुत्तम समापवर्त्य</span><span style=\"color:  (33, 37, 41);\">&nbsp;</span>= 250 लेने पर</p>\n\n<p>&rArr; <span contenteditable=\"false\" tabindex=\"-1\"><span class=\"math-tex\" data-widget=\"mathjax\" style=\"display:inline-block\"></span></span> = <span style=\"font-size:12px;\"><span contenteditable=\"false\" tabindex=\"-1\"><span class=\"math-tex\" data-widget=\"mathjax\" style=\"display:inline-block\"></span></span></span></p>\n\n<p>&rArr; लगने वाला समय 250/5 घंटे = 50 घंटे</p>\n\n<p><span style=\"font-weight: bolder;\">&there4; रिसाव पूरी टंकी को 50 घंटे में खाली कर सकता है।</span></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The speed of a boat in still water is 15 km/h, and the speed of the current is 5 km/h. In how much time (in hours) will the boat travel a distance of 60 km upstream and the same distance downstream?",
+    "question_hi": "शांत जल में एक नाव की गति 15 किमी/घंटा है और धारा की गति 5 किमी/घंटा है। नाव धारा के प्रतिप्रवाह 60 किमी और धारा के अनुप्रवाह समान दूरी कितने समय (घंटे में) में तय करेगी?",
+    "options": [
+      "12",
+      "10",
+      "9",
+      "20"
+    ],
+    "options_hi": [
+      "12",
+      "10",
+      "9",
+      "20"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><span style=\";   ;\">The speed of a boat in still water is 15 km/h, </span></p>\n\n<p><span style=\";   ;\">And the speed of the current is 5 km/h.</span></p>\n\n<p><span style=\";   ;\">Distance of upstream or downstream = 60km.</span></p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>If the speed of boat&nbsp;is X km/hr, and the speed of the stream is y km/hr then,</p>\n\n<p><span id=\"docs-internal-guid-58b9444b-7fff-76b4-6c9d-293986a06dfc\">Speed of boat upstream = (X - Y) km/hr.</span></p>\n\n<p>Speed of boat downstream = (X + Y) km/hr</p>\n\n<p><strong>formula used:</strong></p>\n\n<p>Time = Distance/Time</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>According to the question:</p>\n\n<p>D/(X - Y) + D/(X + Y) = T</p>\n\n<p>&rArr; 60 km/(15 - 5) km/hr + 60 km/(15 + 5 ) km/hr = T</p>\n\n<p>&rArr; T = (60/10 + 60/20) hr.</p>\n\n<p>&rArr;&nbsp; (6 + 3) hr. = 9 hr.</p>\n\n<p><strong>&there4; The time taken by the boat is&nbsp;9 hours.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>शांत जल में एक नाव की गति 15 किमी/घंटा है<span style=\";   ;\">, </span></p>\n\n<p>और धारा की गति 5 किमी/घंटा है।</p>\n\n<p>धारा के प्रतिप्रवाह&nbsp;या अनुप्रवाह दूरी =<span style=\";   ;\">&nbsp;60 किमी</span></p>\n\n<p><strong>प्रयुक्त संकल्पना:</strong></p>\n\n<p>यदि नाव की गति X किमी/घंटा और धारा की गति&nbsp;y किमी/घंटा है, तब&nbsp;</p>\n\n<p>धारा के प्रतिप्रवाह<span> </span>नाव की गति<span> = (X - Y) </span>किमी/घंटा</p>\n\n<p>धारा के अनुप्रवाह नाव की गति = (X + Y) किमी/घंटा</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>समय = दूरी/समय</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>प्रश्न के अनुसार:</p>\n\n<p>D/(X - Y) + D/(X + Y) = T</p>\n\n<p>&rArr; 60 किमी/(15 - 5) किमी/घंटा + 60 किमी/(15 + 5 ) किमी/घंटा = T</p>\n\n<p>&rArr; T = (60/10 + 60/20) घंटे</p>\n\n<p>&rArr;&nbsp; (6 + 3) घंटे = 9 घंटे</p>\n\n<p><strong>&there4; नाव द्वारा लगा समय is&nbsp;9&nbsp;घंटे</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "In&nbsp;&Delta;ABC,&nbsp;&ang;A = 54&deg;. If I is the incentre of the triangle, then the measure of&nbsp;&ang;BIC is:",
+    "question_hi": "&Delta;ABC में,&nbsp;&ang;A = 54&deg; । यदि I त्रिभुज का अंतःकेंद्र है, तो &ang;BIC का माप क्या है?",
+    "options": [
+      "68&deg;",
+      "54&deg;",
+      "117&deg;",
+      "148&deg;"
+    ],
+    "options_hi": [
+      "68&deg;",
+      "54&deg;",
+      "117&deg;",
+      "148&deg;"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:&nbsp;</strong></p>\n\n<p>&Delta;ABC, &ang;A&nbsp;= 54&nbsp;</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>&ang;BIC = 90 +&nbsp;&ang;A/2</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>&ang;BIC = 90 +&nbsp;&ang;A/2</p>\n\n<p>&rArr;&nbsp;&ang;BIC = 90 + 54/2</p>\n\n<p>&there4;&nbsp;&ang;BIC = 117&deg;&nbsp;</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:&nbsp;</strong></p>\n\n<p>&Delta;ABC, &ang;A&nbsp;= 54&nbsp;</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>&ang;BIC = 90 +&nbsp;&ang;A/2</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>&ang;BIC = 90 +&nbsp;&ang;A/2</p>\n\n<p>&rArr;&nbsp;&ang;BIC = 90 + 54/2</p>\n\n<p>&there4;&nbsp;&ang;BIC = 117&deg;&nbsp;</p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Five bells ring together at the intervals of 3, 5, 8, 9 and 10 seconds. All the bells ring simultaneously at the same time. They will again ring simultaneously after:",
+    "question_hi": "पाँच घंटियाँ एक साथ&nbsp;3, 5, 8, 9 और 10 सेकंड के अंतराल पर बजती हैं। सभी घंटियाँ एक साथ एक ही समय पर बजती हैं। वे फिर से एक साथ कब बंजेगी?",
+    "options": [
+      "6 minutes",
+      "4 minutes",
+      "9 minutes",
+      "8 minutes"
+    ],
+    "options_hi": [
+      "6 मिनट",
+      "4 मिनट",
+      "9 मिनट",
+      "8 मिनट"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:&nbsp; &nbsp;&nbsp;</strong></p>\n\n<p>Five&nbsp; bell rings together at the intervals of 3,5,8,9 and 10 second</p>\n\n<p><strong>&nbsp;Calculation:&nbsp;</strong></p>\n\n<p>By taking the LCM for 3, 5, 8, 9 and 10 seconds = 360 seconds&nbsp;</p>\n\n<p>&rArr;1 minute = 60 second&nbsp;</p>\n\n<p>So that,1 seconds= 1/60 min</p>\n\n<p>&rArr; 360 seconds =&nbsp;360/60 = 6 minutes</p>\n\n<p><strong>&there4;&nbsp;All the bell rings together in</strong> <strong>6 minutes.</strong></p>\n\n<p>&nbsp;</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:&nbsp; &nbsp;&nbsp;</strong></p>\n\n<p>पाँच घंटियाँ एक साथ 3, 5, 8, 9 और 10 सेकंड के अंतराल पर बजती हैं।</p>\n\n<p><strong>गणना:&nbsp;</strong></p>\n\n<p>3, 5, 8, 9 और&nbsp;10 सेकंड का ल.स.प. लेने पर&nbsp;= 360 सेकंड&nbsp;</p>\n\n<p>&rArr; 1 मिनट&nbsp;= 60 सेकंड&nbsp;</p>\n\n<p>इस प्रकार, 1 सेकंड = 1/60 मिनट</p>\n\n<p>&rArr; 360 सेकंड =&nbsp;360/60 = 6 मिनट</p>\n\n<p>&there4;&nbsp;<strong>सभी घंटियाँ एक साथ 6 मिनट बाद बजेंगी।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "P and Q together can do a work in 12 days. P alone can do the same work in 36 days. In how many days can Q alone complete two-third part of the same work?",
+    "question_hi": "P और Q एक साथ एक कार्य को 12 दिन में पूरा कर सकते हैं। P अकेले उस कार्य को 36 दिन में पूरा कर सकता है। Q अकेले उस कार्य के दो-तिहाई भाग को कितने दिन में पूरा कर सकता है?",
+    "options": [
+      "18",
+      "15",
+      "21",
+      "12"
+    ],
+    "options_hi": [
+      "18",
+      "15",
+      "21",
+      "12"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given: </strong></p>\n\n<p>P + Q = 12 days</p>\n\n<p>P&nbsp;= 36 days</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>P + Q do a piece of work in =12 days</p>\n\n<p>Work is done by P + Q in 1 day =1/12</p>\n\n<p>P can do the same work in 36 days</p>\n\n<p>Work is done by P in = 1/36</p>\n\n<p>Work is done by both in 1 day = 1/36 +1/12&nbsp;</p>\n\n<p>The efficiency of P and Q is 2 and 1 (3 &ndash; 1)</p>\n\n<p>Q alone complete two-third part of the same work = 36 &times; 2/3 = 24</p>\n\n<p>Q complete the work of = 24/2 = 12 days&nbsp;</p>\n\n<p>Hence Q complete the work in = <strong>12 days</strong></p>\n\n<p>&nbsp;</p>\n",
+    "solution_hi": "<p><strong>दिया गया है: </strong></p>\n\n<p>P + Q = 12 दिन</p>\n\n<p>P&nbsp;= 36 दिन</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>P + Q एक कार्य को पूरा कर सकते&nbsp;हैं&nbsp;= 12 दिन में&nbsp;</p>\n\n<p>P + Q द्वारा 1 दिन में किया गया कार्य&nbsp;= 1/12</p>\n\n<p>P अकेले उस कार्य को&nbsp;36 दिन में पूरा कर सकता&nbsp;है</p>\n\n<p>P द्वारा 1 दिन में किया गया कार्य&nbsp;= 1/36</p>\n\n<p>दोनों के&nbsp;द्वारा 1 दिन में किया गया कार्य = 1/36 +1/12&nbsp;</p>\n\n<p>P और Q की कार्यक्षमता क्रमशः&nbsp;2 और&nbsp;1 (3 &ndash; 1) है।</p>\n\n<p>Q अकेले उस कार्य के दो-तिहाई भाग&nbsp;को पूरा करता है&nbsp;= 36 &times; 2/3 = 24</p>\n\n<p>Q कार्य पूरा करता है&nbsp;= 24/2 = 12 दिन में&nbsp;</p>\n\n<p>अतः Q कार्य पूरा करता है = <strong>12 दिन में</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "In a school, 5/12&nbsp;of the number of students are girls and the rest are boys. 4/7 of the number of boys are below 14 years of age, and&nbsp;2/5 of the number of girls are 14 years or above 14 years of age. If the number of students below 14 years of age is 1120, then the total number of students in the school is:",
+    "question_hi": "एक स्कूल में, छात्रों की संख्या का 5/12&nbsp;भाग लड़कियां हैं और शेष लड़के हैं। लड़कों की संख्या में से 4/7&nbsp;भाग ऐसा है जिसमें 14 वर्ष से कम आयु के लड़के हैं और लड़कियों की संख्या में से 2/5&nbsp;भाग ऐसा है जिसमें 14 वर्ष या 14 वर्ष से अधिक आयु की लड़कियाँ हैं। यदि 14 वर्ष से कम आयु वाले छात्रों की संख्या 1120 है, तो स्कूल में कुल छात्रों की संख्या कितनी होगी?",
+    "options": [
+      "1820",
+      "1290",
+      "1920",
+      "1900"
+    ],
+    "options_hi": [
+      "1820",
+      "1290",
+      "1920",
+      "1900"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The no. of girls is 5/12 of the total no. of&nbsp;students</p>\n\n<p>The no. of boys&nbsp;below 14 years of age is 4/7 of the total no. of boys.</p>\n\n<p>The no. of girls 14 years or above 14 years of age is 2/5 of the total no. of girls.</p>\n\n<p>Total no. of student&nbsp;below 14 years of age is 1120.</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the total no. of students be x</p>\n\n<p>The total no. of&nbsp;girls = 5x/12&nbsp;</p>\n\n<p>Then, the no. of boys = x -&nbsp;5x/12&nbsp;=&nbsp;7x/12</p>\n\n<p>The no. of below 14 years of age =&nbsp;4/7&nbsp;&times;&nbsp;7x/12&nbsp;= x/3</p>\n\n<p>The no. of girls&nbsp;14 years or above 14 years of age =&nbsp;2/5 &times;&nbsp;5x/12&nbsp;=&nbsp;x/6</p>\n\n<p>The no. of girls below 14 years =&nbsp;5x/12&nbsp;-&nbsp;x/6&nbsp;=&nbsp;3x/12&nbsp;=&nbsp;x/4</p>\n\n<p>Total no. of students below 14 years =&nbsp;x/3&nbsp;+&nbsp;x/4&nbsp;=&nbsp;7x/12</p>\n\n<p>According to the question</p>\n\n<p>&rArr;&nbsp;7x/12 = 1120</p>\n\n<p>&rArr; x = 1920</p>\n\n<p><strong>The total number of students is 1920</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>लड़कियों की संख्या कुल छात्रों की संख्या का 5/12&nbsp;भाग है</p>\n\n<p>14 वर्ष से कम आयु वाले लड़कों की संख्या, लड़कों की कुल संख्या का 4/7&nbsp;भाग है</p>\n\n<p>14 वर्ष या 14 वर्ष से अधिक आयु वाली लड़कियों की संख्या,&nbsp;लड़कियों की कुल संख्या का&nbsp;2/5&nbsp;भाग है</p>\n\n<p>14 वर्ष से कम आयु वाले छात्रों की संख्या 1120 है।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना छात्रों की कुल संख्या x है।</p>\n\n<p>लड़कियों की कुल संख्या = 5x/12&nbsp;</p>\n\n<p>तो, लड़कों&nbsp;की&nbsp;संख्या = x -&nbsp;5x/12&nbsp;=&nbsp;7x/12</p>\n\n<p>14 वर्ष से कम आयु वाले छात्रों की संख्या =&nbsp;4/7&nbsp;&times;&nbsp;7x/12&nbsp;= x/3</p>\n\n<p>14 वर्ष या 14 वर्ष से अधिक आयु वाली लड़कियों की संख्या&nbsp;=&nbsp;2/5&nbsp;&times;&nbsp;5x/12&nbsp;=&nbsp;x/6</p>\n\n<p>14 वर्ष से कम&nbsp;आयु वाली लड़कियों की संख्या =&nbsp;5x/12&nbsp;-&nbsp;x/6&nbsp;=&nbsp;3x/12&nbsp;=&nbsp;x/4</p>\n\n<p>14 वर्ष से कम आयु वाले छात्रों की कुल संख्या =&nbsp;x/3&nbsp;+&nbsp;x/4&nbsp;=&nbsp;7x/12</p>\n\n<p>प्रश्न के अनुसार</p>\n\n<p>&rArr;&nbsp;7x/12&nbsp;= 1120</p>\n\n<p>&rArr; x = 1920</p>\n\n<p><strong>छात्रों की कुल संख्या 1920 है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>Study the given histogram that shows the marks obtained by students in an examination and answer the question that follows.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%202__.PNG\" /></p>\n\n<p>The number of students who obtained less than 200 marks is:</p>\n",
+    "question_hi": "<p>दिए गए आयतचित्र&nbsp;का अध्ययन कीजिए&nbsp;जो एक परीक्षा में छात्रों द्वारा प्राप्त अंकों को दर्शाता&nbsp;है और निम्नलिखित प्रश्नों के&nbsp;उत्तर दीजिए।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%202_.PNG\" /></p>\n\n<p>200 से कम अंक प्राप्त करने वाले छात्रों की संख्या कितनी है?</p>\n",
+    "options": [
+      "45",
+      "135",
+      "30",
+      "75"
+    ],
+    "options_hi": [
+      "45",
+      "135",
+      "30",
+      "75"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 160px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">Marks</td>\n\t\t\t<td style=\"text-align: center;\">No. of student</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">150 - 200&nbsp;&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;&nbsp;30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">200 - 250</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;45</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">250 - 300</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;60</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">300 - 350</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;35</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">350 - 400</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;40</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">400 - 450</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;35</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Calculation:</strong></p>\n\n<p>We can see in this histogram the first rectangle shows that the number of students who have scored between 150 to 200 is 30</p>\n\n<p><strong>Hence, the number of students of students who have scored less than 200 is 30&nbsp;</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 160px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">अंक</td>\n\t\t\t<td style=\"text-align: center;\">छात्रों की संख्या</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">150 - 200&nbsp;&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;&nbsp;30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">200 - 250</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;45</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">250 - 300</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;60</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">300 - 350</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;35</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">350 - 400</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;40</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">400 - 450</td>\n\t\t\t<td style=\"text-align: center;\">&nbsp;35</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>गणना:</strong></p>\n\n<p>इस आयतचित्र में, हम देख सकते हैं कि पहला आयत यह दर्शाता है कि उन छात्रों की संख्या 30 है जिन्हीने&nbsp;150 से&nbsp;200 के बीच अंक प्राप्त किये हैं।</p>\n\n<p><strong>अतः 200 से कम अंक प्राप्त करने वाले छात्रों की संख्या 30 है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>A&#39;s salary is 35% more than B&#39;s salary. How much per cent is B&#39;s salary less than that of A&#39;s?</p>\n\n<p>(correct to the nearest integer)</p>\n",
+    "question_hi": "<p>A का&nbsp;वेतन, B के वेतन से&nbsp;35% अधिक है। B का वेतन, A के वेतन से कितने प्रतिशत कम है?</p>\n\n<p>(निकटतम सही पूर्णांक तक)</p>\n",
+    "options": [
+      "26%",
+      "35%",
+      "17.5%",
+      "20%"
+    ],
+    "options_hi": [
+      "26%",
+      "35%",
+      "17.5%",
+      "20%"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A&#39;s salary is 35% more than B&#39;s salary</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>% = (A &ndash; B)/A&nbsp;&times; 100</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let&nbsp;the B&#39;s&nbsp;salary be 100&nbsp;&nbsp;</p>\n\n<p>Then, The salary of A =&nbsp;100&nbsp;&times; (135/100) = 135</p>\n\n<p>Now, percent B&#39;s salary less than A&#39;s salary = ((135&nbsp;&ndash; 100)/135)&nbsp;&times; 100</p>\n\n<p>&rArr; (35/135) &times; 100 = 25.92 &asymp;&nbsp;26%</p>\n\n<p><strong>By 26% B&#39;s salary less than A&#39;s salary.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>A का&nbsp;वेतन, B के वेतन से 35% अधिक है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>% = ( A - B)/A&nbsp;&times; 100</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना B का वेतन 100 है।&nbsp;&nbsp;</p>\n\n<p>तब,&nbsp;A का वेतन =&nbsp;100&nbsp;&times; (135/100) = 135</p>\n\n<p>अब, B का वेतन, A के वेतन से&nbsp;प्रतिशत कम है = = ((135&nbsp;&ndash; 100)/135)&nbsp;&times; 100</p>\n\n<p>&rArr; 35/135&nbsp;&times; 100 = 25.92 &asymp;&nbsp;26%</p>\n\n<p><strong>B का वेतन, A के वेतन से 26%&nbsp;कम है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A train covers 400 km at a uniform speed. If the speed had been 10 km/h more, it would have taken 2 hours less for the same journey. What is the usual time taken (in hours) by it to complete the journey?",
+    "question_hi": "एक ट्रेन 400 किमी की दूरी&nbsp;एक समान गति से तय करती है। यदि गति 10 किमी/घंटे अधिक होती, तो उस यात्रा में 2 घंटे कम समय लगते।&nbsp;उसके द्वारा यात्रा को पूरी करने में सामान्यतः कितना समय (घंटे में) लगता है?",
+    "options": [
+      "12",
+      "15",
+      "8",
+      "10"
+    ],
+    "options_hi": [
+      "12",
+      "15",
+      "8",
+      "10"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A train covers total distance = 400km</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>Speed&nbsp;= Distance covered/Time taken</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let the speed of the train be x</p>\n\n<p>Time taken by train = 400/x</p>\n\n<p>Now, the increased speed of train be(x + 10)</p>\n\n<p>Now, Time taken by train = 400/(x + 10)</p>\n\n<p>According to the question;</p>\n\n<p>Difference between time taken = 2 hours</p>\n\n<p>&rArr; 400/x - 400/(x + 10) = 2</p>\n\n<p>&rArr; 1/x - 1/(x + 10) = 2/400</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\left( {x + 10 - x} \\right)}}{{\\left( {x + 10} \\right)x}} = \\frac{{1}}{200}\\)</span></p>\n\n<p>&rArr; 10&nbsp;&times; 200 = x<sup>2&nbsp;</sup>+ 10x</p>\n\n<p>&rArr; x<sup>2</sup>&nbsp;+ 10x = 2000</p>\n\n<p>&rArr; x<sup>2</sup>&nbsp;+ 10x - 2000 = 0</p>\n\n<p>&rArr; x = - 50, 40</p>\n\n<p>The speed of the train = 40 km/hr</p>\n\n<p>Time taken by train = 400/40 = 10 hours</p>\n\n<p><strong>&there4; The usual time taken&nbsp;by the train&nbsp;to complete the journey is 10 hours</strong>.</p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>एक ट्रेन कुल दूरी तय करती है&nbsp;= 400 किमी</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>लगा समय = तय की गई दूरी/ट्रेन की गति</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना ट्रेन की गति&nbsp;x है।</p>\n\n<p>ट्रेन द्वारा लगा समय&nbsp;= 400/x</p>\n\n<p>अब, ट्रेन की बढ़ी हुई गति (x + 10) है</p>\n\n<p>अब, ट्रेन द्वारा लगा समय = 400/(x + 10)</p>\n\n<p>प्रश्न के अनुसार;</p>\n\n<p>लगे समय के बीच अंतर&nbsp;= 2 घंटे</p>\n\n<p>&rArr; 400/x - 400/(x + 10) = 2</p>\n\n<p>&rArr; 1/x - 1/(x + 10) = 2/400</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{\\left( {x + 10 - x} \\right)}}{{\\left( {x + 10} \\right)x}} = \\frac{{1}}{200}\\)</span></p>\n\n<p>&rArr; 10&nbsp;&times; 200 = x<sup>2&nbsp;</sup>+ 10x</p>\n\n<p>&rArr; x<sup>2</sup>&nbsp;+ 10x = 2000</p>\n\n<p>&rArr; x<sup>2</sup>&nbsp;+ 10x - 2000 = 0</p>\n\n<p>&rArr; x = - 50, 40</p>\n\n<p>ट्रेन की गति = 40 किमी/घंटा</p>\n\n<p>ट्रेन द्वारा लगा समय = 400/40 = 10 घंटे</p>\n\n<p><strong>&there4; ट्रेन द्वारा यात्रा को पूरी करने में सामान्यतः लगा समय 10 घंटे&nbsp;है</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p><strong>Diagram:</strong> Study the chart and answer the question.&nbsp;The following pie chart shows percentage expenditure of a country on different heads.</p>\n\n<p>The total expenditure is Rs. 1,680 (in billions).&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%201.PNG\" style=\"width: 307px; height: 347px;\" /></p>\n\n<p>The expenditure for Proceeds to state (in billions Rs.) is:</p>\n",
+    "question_hi": "<p>निम्नलिखित वृत्त आलेख एक देश के&nbsp;भिन्न-भिन्न मदों पर&nbsp;प्रतिशत व्यय को दर्शाता&nbsp;है।&nbsp;कुल व्यय 1,680 रु.&nbsp;(अरब&nbsp;में) है।&nbsp;आलेख&nbsp;का अध्ययन कीजिए&nbsp;और प्रश्न का उत्तर दीजिए।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%201_.PNG\" /></p>\n\n<p>राज्य पर व्यय (अरब&nbsp;में) कितना है?</p>\n",
+    "options": [
+      "684",
+      "571.20",
+      "586.50",
+      "126"
+    ],
+    "options_hi": [
+      "684",
+      "571.20",
+      "586.50",
+      "126"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The total expenditure is Rs 1,680 (in billions)</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>The expenditure for Proceeds = 34% of 1680&nbsp;(in billions)</p>\n\n<p>&rArr; 34/100&nbsp;&times; 1680 = 571.20</p>\n\n<p><strong>&there4; The expenditue for proceeds to state is Rs 571.20&nbsp;(in billions)</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>कुल व्यय 1,680 रु. (अरब में) है।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>राज्य पर व्यय = 1680 का&nbsp;34% (अरब&nbsp;में)</p>\n\n<p>&rArr; 34/100&nbsp;&times; 1680 = 571.20</p>\n\n<p><strong>&there4; राज्य पर व्यय 571.20 रु. (अरब&nbsp;में)&nbsp;है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The sides PQ and PR of &Delta;PQR are produced to points S and T, respectively. The bisectors of&nbsp;&ang;SQR and&nbsp;&ang;TRQ meet at U. If&nbsp;&ang;QUR = 59&deg;, then the measure of&nbsp;&ang;P is:",
+    "question_hi": "&Delta;PQR में,&nbsp;भुजा PQ और PR को क्रमशः बिंदु S और T तक खींचा गया है। &ang;SQR और &ang;TRQ के द्विभाजक बिंदु U पर मिलते हैं। यदि &ang;QUR = 59&deg; है, तो &ang;P का माप क्या है?",
+    "options": [
+      "41&deg;",
+      "31&deg;",
+      "49&deg;",
+      "62&deg;"
+    ],
+    "options_hi": [
+      "41&deg;",
+      "31&deg;",
+      "49&deg;",
+      "62&deg;"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p><strong>&ang;</strong>QUR = 59&deg;</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>External angle bisector theorem</p>\n\n<p>In &Delta;ABC if external angle bisectors of angle &ang;B and &ang;C meet at point D, then</p>\n\n<p>&ang;D = 90 &ndash; &ang;A/2</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Harshit_21-1-21_Savita_D1.png\" style=\"width: 181px; height: 149px;\" /></p>\n\n<p>By theorem,</p>\n\n<p>&ang;QUR = 90 &ndash;&nbsp;&ang;P/2</p>\n\n<p>&rArr; &ang;P/2 = 90 &ndash; 59</p>\n\n<p>&rArr; &ang;P/2 = 31</p>\n\n<p>&rArr; &ang;P = 62</p>\n\n<p><strong>&there4;</strong> <strong>The measure of&nbsp;</strong><strong>&ang;</strong><strong>P is 62.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p><strong>&ang;</strong>QUR = 59&deg;</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>वाह्य कोण द्विभाजक प्रमेय</p>\n\n<p>&Delta;ABC में, यदि कोण &ang;B और&nbsp;&ang;C के वाह्य कोण द्विभाजक बिंदु&nbsp;D पर मिलते हैं, तब</p>\n\n<p>&ang;D = 90 &ndash; &ang;A/2</p>\n\n<p><strong>गणना:</strong></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F1_Harshit_21-1-21_Savita_D1.png\" style=\"width: 181px; height: 149px;\" /></p>\n\n<p>प्रमेय से,</p>\n\n<p>&ang;QUR = 90 &ndash;&nbsp;&ang;P/2</p>\n\n<p>&rArr; &ang;P/2 = 90 &ndash; 59</p>\n\n<p>&rArr; &ang;P/2 = 31</p>\n\n<p>&rArr; &ang;P = 62</p>\n\n<p><strong>&there4;</strong> <strong>&ang;P का माप&nbsp;62&deg;</strong><strong> है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A, B, C subscribe a sum of Rs. 75,500 for a business. A subscribes Rs. 3,500 more than B, and B subscribes Rs. 4,500 more than C. Out of a total profit of Rs. 45,300, how much (in Rs.) does A receive?",
+    "question_hi": "A, B और C एक व्यवसाय के लिए 75,500 रुपये जमा करते हैं। A, B से 3,500 रुपये अधिक&nbsp;जमा करता है और B, C से 4,500 रुपये अधिक जमा करता है, 45,300 रुपये के&nbsp;कुल लाभ में से A को&nbsp;कितना प्राप्त होता है?",
+    "options": [
+      "12,600",
+      "14,700",
+      "17,400",
+      "15,000"
+    ],
+    "options_hi": [
+      "12,600",
+      "14,700",
+      "17,400",
+      "15,000"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Total investment = 75500</p>\n\n<p>Profit = 45300</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>Person&rsquo;s Profit = Investment &times; Time period</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let x be the investment of C</p>\n\n<p>C = x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----(1)</p>\n\n<p>B = (x + 4500)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----(2)</p>\n\n<p>A = (x + 4500 + 3500)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----(3)</p>\n\n<p>We know that,</p>\n\n<p>x + (x + 4500) + (x + 4500 + 3500) = 75500</p>\n\n<p>&rArr; x + (x + 4500) + (x + 8000) = 75500</p>\n\n<p>&rArr; 3x + 12500 = 75500</p>\n\n<p>&rArr; 3x = 63000</p>\n\n<p>x = 21000</p>\n\n<p>Put the value of x in equation 1, 2, and 3.</p>\n\n<p>A = 29000</p>\n\n<p>B = 25500</p>\n\n<p>C = 21000</p>\n\n<p>Ratio of Profit = 29000 : 25500 : 21000</p>\n\n<p>&rArr; 58 : 51 : 42</p>\n\n<p>A&rsquo;s share = [58/(58 + 51 + 42)] &times; 45300</p>\n\n<p><strong>&there4;</strong><strong> Share of A in the business is Rs. 17400.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>कुल निवेश = 75500</p>\n\n<p>लाभ = 45300</p>\n\n<p><strong>प्रयुक्त संकल्पना:</strong></p>\n\n<p>व्यक्ति का लाभ = निवेश&nbsp;&times; समयावधि&nbsp;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना C का&nbsp;निवेश x है।&nbsp;</p>\n\n<p>C = x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----(1)</p>\n\n<p>B = (x + 4500)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----(2)</p>\n\n<p>A = (x + 4500 + 3500)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----(3)</p>\n\n<p>हम जानते हैं कि,</p>\n\n<p>x + (x + 4500) + (x + 4500 + 3500) = 75500</p>\n\n<p>&rArr; x + (x + 4500) + (x + 8000) = 75500</p>\n\n<p>&rArr; 3x + 12500 = 75500</p>\n\n<p>&rArr; 3x = 63000</p>\n\n<p>x = 21000</p>\n\n<p>x का मान समीकरण&nbsp;1, 2 और&nbsp;3 में रखने पर</p>\n\n<p>A = 29000</p>\n\n<p>B = 25500</p>\n\n<p>C = 21000</p>\n\n<p>लाभ का अनुपात = 29000 : 25500 : 21000</p>\n\n<p>&rArr; 58 : 51 : 42</p>\n\n<p>A का लाभांश&nbsp;= [58/(58 + 51 + 42)] &times; 45300</p>\n\n<p><strong>&there4;&nbsp;व्यवसाय में&nbsp;A&nbsp;का लाभांश&nbsp;17400 रु. है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "When a number is successively divided by 3, 4 and 7, the remainder obtained is 2, 3 and 5, respectively. What will be the remainder when 42 divides the same number?",
+    "question_hi": "एक संख्या को क्रमागत रूप से 3, 4 और 7 से विभाजित करने पर शेषफल क्रमशः 2, 3 और 5 प्राप्त होता है। उस संख्या को 42&nbsp;से विभाजित करने पर शेषफल&nbsp;क्या होगा?",
+    "options": [
+      "41",
+      "29",
+      "31",
+      "30"
+    ],
+    "options_hi": [
+      "41",
+      "29",
+      "31",
+      "30"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given: </strong></p>\n\n<p>Remainders corresponding to the divisor</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Dividend = (Divisor &times; Quotient) + Remainder&nbsp;</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let x be the number</p>\n\n<p>Let y and z be the quotients</p>\n\n<p><span style=\"\">Dividend =&nbsp;</span><span style=\"\">(Divisor &times; Quotient) + Remainder</span></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Savita_SSC_13-10-22_D1_V2.png\" style=\"width: 140px; height: 110px;\" /></p>\n\n<p>&rArr; z = 7 &times; 1 + 5 = 12</p>\n\n<p>&rArr; y = 4 &times; z + 3 = 51</p>\n\n<p>&rArr; x = 3 &times; y + 2 = 155</p>\n\n<p>On dividing 155 by 42</p>\n\n<p><strong>&there4;</strong><strong> Remainder = 29</strong>.</p>\n",
+    "solution_hi": "<p><strong>दिया गया है: </strong></p>\n\n<p>शेषफल भाजक के अनुरूप होता है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>&nbsp;भाज्य <span style=\"\">=&nbsp;</span>(भाजक&nbsp;&times; भागफल) + शेषफल&nbsp;</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना x वह संख्या है।&nbsp;</p>\n\n<p>माना y और&nbsp;z भागफल हैं।</p>\n\n<p><span style=\"\">&nbsp;भाज्य&nbsp;</span><span style=\"\">=&nbsp;</span><span style=\"\">(भाजक&nbsp;&times; भागफल) + शेषफल&nbsp;</span></p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/22/10/F1_Savita_SSC_13-10-22_D1_V2.png\" style=\" width: 140px; height: 110px;\" /></p>\n\n<p>&rArr; z = 7 &times; 1 + 5 = 12</p>\n\n<p>&rArr; y = 4 &times; z + 3 = 51</p>\n\n<p>&rArr; x = 3 &times; y + 2 = 155</p>\n\n<p>155 को&nbsp;42 से विभाजित करने पर</p>\n\n<p><strong>&there4;</strong><strong>&nbsp;शेषफल&nbsp;= 29</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>The number of students in Class XI in Science, Arts and Commerce streams of a school over a period of 4 years (2011-2014) has been depicted through the bar chart given below.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%203.PNG\" /></p>\n\n<p>What is the average number of Arts students in the given class over the given period of 4 years?</p>\n",
+    "question_hi": "<p>4 वर्षों&nbsp;(2011-2014) की अवधि में एक विद्यालय की ग्यारहवीं&nbsp;कक्षा&nbsp;में&nbsp;विज्ञान, कला और वाणिज्य वर्ग&nbsp;में&nbsp;छात्रों की संख्या को नीचे दिए गए दंड-आलेख&nbsp;के माध्यम से दर्शाया गया है।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%203_.PNG\" /></p>\n\n<p>दी गई 4 वर्षों&nbsp;की&nbsp;अवधि में, दी गई कक्षा में कला वर्ग के&nbsp;छात्रों की संख्या का औसत कितना है?</p>\n",
+    "options": [
+      "32",
+      "35",
+      "30",
+      "25"
+    ],
+    "options_hi": [
+      "32",
+      "35",
+      "30",
+      "25"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>The number of students in Arts in 2011, 2012, 2013, and 2014 are 30, 50, 20, and 20 respectively.</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Average = Sum of observations/Number of observations</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Average = (30 + 50 + 20 + 20)/4</p>\n\n<p>&rArr; 120/4 = 30</p>\n\n<p><strong>&there4;</strong><strong> The average &nbsp;number of Arts students in the given classes is 30.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>वर्ष 2011, 2012, 2013 और 2014 में कला वर्ग के छात्रों की संख्या क्रमशः 30, 50, 20 और 20 है।</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>औसत = पदों का योगफल/पदों की संख्या</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>औसत = (30 + 50 + 20 + 20)/4</p>\n\n<p>&rArr; 120/4 = 30</p>\n\n<p><strong>&there4; दी गई कक्षा में कला वर्ग के छात्रों की संख्या का औसत 30 है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>Study the given histogram that shows the marks obtained by students in an examination and answer the question that follows.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%202__.PNG\" /></p>\n\n<p>The number of students who obtained less than 250 marks is what per cent more than the number of students who obtained 400 or more marks?</p>\n\n<p>(correct to one decimal place)</p>\n",
+    "question_hi": "<p>दिए गए आयतचित्र&nbsp;का अध्ययन कीजिए&nbsp;जो एक परीक्षा में छात्रों द्वारा प्राप्त अंकों को दर्शाता&nbsp;है और निम्नलिखित प्रश्नों के&nbsp;उत्तर दीजिए।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%202_.PNG\" /></p>\n\n<p>250 से कम अंक प्राप्त करने वाले छात्रों की संख्या, 400 या 400 से&nbsp;अधिक अंक प्राप्त करने वाले छात्रों की संख्या से कितने प्रतिशत अधिक है?</p>\n\n<p>(दशमलव के एक सही स्थान तक)</p>\n",
+    "options": [
+      "114.3%",
+      "100%",
+      "150%",
+      "175.8%"
+    ],
+    "options_hi": [
+      "114.3%",
+      "100%",
+      "150%",
+      "175.8%"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Number of students who obtained marks less&nbsp;than 250 = 45 + 30 = 75</p>\n\n<p>Number of students who obtained marks more or equal to 400 = 35</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Percentage difference = [(75 - 35)/35] &times; 100</p>\n\n<p>&rArr; (40/35) &times; 100</p>\n\n<p><strong>&there4;</strong><strong> The required answer is 114.3%</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>250 से कम अंक प्राप्त करने वाले छात्रों की संख्या = 45 + 30 = 75</p>\n\n<p>400 या 400 से अधिक अंक प्राप्त करने वाले छात्रों की संख्या = 35</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>प्रतिशत अंतर = [(75 - 35)/35] &times; 100</p>\n\n<p>&rArr; (40/35) &times; 100</p>\n\n<p><strong>&there4;&nbsp;अभीष्ट उत्तर&nbsp;114.3% है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>The number of students in Class XI in Science, Arts and Commerce streams of a school over a period of 4 years (2011-2014) has been depicted through the bar chart given below.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%203.PNG\" /></p>\n\n<p>What is the difference between the averages of the number of Science and Commerce students in the given class over the given period of 4 years?</p>\n",
+    "question_hi": "<p>4 वर्षों&nbsp;(2011-2014) की अवधि में एक विद्यालय की ग्यारहवीं&nbsp;कक्षा&nbsp;में&nbsp;विज्ञान, कला और वाणिज्य वर्ग&nbsp;में&nbsp;छात्रों की संख्या को नीचे दिए गए दंड आलेखों&nbsp;के माध्यम से दर्शाया गया है।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%203_.PNG\" /></p>\n\n<p>दी गई 4 वर्षों&nbsp;की&nbsp;अवधि में, दी गई कक्षा&nbsp;में विज्ञान&nbsp;और वाणिज्य वर्ग के छात्रों की संख्या के औसत के बीच&nbsp;अंतर क्या है?</p>\n",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "5"
+    ],
+    "options_hi": [
+      "10",
+      "8",
+      "12",
+      "5"
+    ],
+    "correct": 4,
+    "solution": "<p>Number of science students in 2011&nbsp;= 20</p>\n\n<p>Number of science students in 2012&nbsp;= 30</p>\n\n<p>Number of science students in 2013&nbsp;= 40</p>\n\n<p>Number of science students in 2014&nbsp;= 10</p>\n\n<p>Total no. of students in science over the given years:</p>\n\n<p>&rArr; 20 + 30 + 40 + 10 = 100</p>\n\n<p>Average no. of science students over the given years = 100/4&nbsp;= 25</p>\n\n<p>Number of commerce&nbsp;students in 2011 = 40</p>\n\n<p>Number of commerce&nbsp;students in 2012&nbsp;= 30</p>\n\n<p>Number of commerce&nbsp;students in 2013&nbsp;= 20</p>\n\n<p>Number of commerce&nbsp;students in 2014&nbsp;= 30</p>\n\n<p>Total no. of students in&nbsp;commerce over the given years:</p>\n\n<p>&rArr; 40 + 30 + 20 + 30 = 120</p>\n\n<p>Average no. of commerce students over the given years = 120/4 = 30</p>\n\n<p>Difference between the average number of&nbsp;Science and Commerce students in the given class over the given period&nbsp;= 30 &ndash; 25 = 5</p>\n\n<p><strong>&there4; The required difference is 5</strong></p>\n",
+    "solution_hi": "<p>वर्ष 2011 में विज्ञान वर्ग के छात्रों की संख्या&nbsp;= 20</p>\n\n<p>वर्ष 2012&nbsp;में विज्ञान&nbsp;वर्ग के छात्रों की संख्या&nbsp;= 30</p>\n\n<p>वर्ष 2013&nbsp;में विज्ञान&nbsp;वर्ग के छात्रों की संख्या&nbsp;= 40</p>\n\n<p>वर्ष 2014&nbsp;में विज्ञान&nbsp;वर्ग के छात्रों की संख्या&nbsp;= 10</p>\n\n<p>दिए गए सभी वर्षों में विज्ञान&nbsp;वर्ग के छात्रों की कुल&nbsp;संख्या:</p>\n\n<p>&rArr; 20 + 30 + 40 + 10 = 100</p>\n\n<p>दिए गए सभी वर्षों में विज्ञान&nbsp;वर्ग के छात्रों की औसत&nbsp;संख्या = 100/4&nbsp;= 25</p>\n\n<p>वर्ष 2011 में वाणिज्य&nbsp;वर्ग के छात्रों की संख्या = 40</p>\n\n<p>वर्ष 2012&nbsp;में वाणिज्य&nbsp;वर्ग के छात्रों की संख्या&nbsp;= 30</p>\n\n<p>वर्ष 2013&nbsp;में वाणिज्य&nbsp;वर्ग के छात्रों की संख्या&nbsp;= 20</p>\n\n<p>वर्ष 2014&nbsp;में वाणिज्य वर्ग के छात्रों की संख्या&nbsp;= 30</p>\n\n<p>दिए गए सभी वर्षों में वाणिज्य&nbsp;वर्ग के छात्रों की कुल संख्या:</p>\n\n<p>&rArr; 40 + 30 + 20 + 30 = 120</p>\n\n<p>दिए गए सभी वर्षों में वाणिज्य&nbsp;वर्ग के छात्रों की औसत&nbsp;संख्या = 120/4 = 30</p>\n\n<p>दी गई&nbsp;अवधि में, दी गई कक्षा में विज्ञान और वाणिज्य&nbsp;वर्ग के छात्रों की संख्या के औसत के बीच&nbsp;अंतर = 30 &ndash; 25 = 5</p>\n\n<p><strong>&there4;&nbsp;<span style=\"color: rgb(37, 37, 37);  \">आवश्यक अंतर 5 है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The value of 7 &divide; [5 + 1 &divide; 2 - {4 + (4 of 2 &divide; 4) + (5 &divide; 5 of 2)}] is:",
+    "question_hi": "7 &divide; [5 + 1 &divide; 2 - {4 + (4 का 2 &divide; 4) + (5 &divide; 5 का 2)}] का मान क्या है?",
+    "options": [
+      "<span class=\"math-tex\">\\(\\frac{7}{2}\\)</span>",
+      "7",
+      "<span class=\"math-tex\">\\(-\\frac{7}{2}\\)</span>",
+      "- 7"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\frac{7}{2}\\)</span>",
+      "7",
+      "<span class=\"math-tex\">\\(-\\frac{7}{2}\\)</span>",
+      "- 7"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Concept used:</strong></p>\n\n<p>We have to follow the BODMAS rule:</p>\n\n<p><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage70.png\" /></p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>The given equation is:</p>\n\n<p>&rArr;7 &divide; [5 + 1 &divide; 2 - {4 + (4 of 2 &divide; 4) + (5 &divide; 5 of 2)}]</p>\n\n<p>&rArr;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + (4 of 2 &divide; 4) + (5 &divide; 10)}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + (4 &times; 2 &divide; 4) + 0.5}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + (8&nbsp;&divide; 4) + 0.5}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + 2&nbsp;+ 0.5}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - 6.5]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 0.5 - 6.5]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; (-1)</p>\n\n<p>&rArr; -7</p>\n\n<p><strong>&there4; The correct answer is -7</strong></p>\n",
+    "solution_hi": "<p><strong><span style=\"color: rgb(37, 37, 37);  \">उपयोग की गई अवधारणा:</span></strong></p>\n\n<p>हमें BODMAS नियम का अनुसरण करना होगा:</p>\n\n<p><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage70.png\" /></p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">गणना:</span></strong></p>\n\n<p>दिया गया व्यंजक इस प्रकार है:</p>\n\n<p>&rArr; 7 &divide; [5 + 1 &divide; 2 - {4 + (2 &divide; 4 का 4) + (5 &divide; 5 का&nbsp;2)}]</p>\n\n<p>&rArr; 7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + (4 of 2 &divide; 4) + (5 &divide; 10)}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + (4 &times; 2 &divide; 4) + 0.5}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + (8&nbsp;&divide; 4) + 0.5}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - {4 + 2&nbsp;+ 0.5}]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 1 &divide; 2 - 6.5]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; [5 + 0.5 - 6.5]</p>\n\n<p>&rArr;&nbsp;7&nbsp;&divide; (-1)</p>\n\n<p>&rArr; -7</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4; सही उत्तर&nbsp;-7&nbsp;है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The circles of radii 15 cm and 10 cm intersect each other and the length of their common chord is 16 cm. What is the distance (in cm) between their centres?",
+    "question_hi": "15 सेमी और 10 सेमी त्रिज्याओं के दो वृत्त एक-दूसरे को प्रतिच्छेदित करते हैं और उनके उभयनिष्ठ जीवा की लम्बाई 16 सेमी है उनके केंद्रों के बीच की दूरी (सेमी में) कितनी है?",
+    "options": [
+      "<span class=\"math-tex\">\\(6 + \\sqrt 161\\)</span>",
+      "<span class=\"math-tex\">\\(15 + 2\\sqrt 161\\)</span>",
+      "<span class=\"math-tex\">\\(12 + 3\\sqrt 7\\)</span>",
+      "<span class=\"math-tex\">\\(10 + \\sqrt 161\\)</span>"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(6 + \\sqrt 161\\)</span>",
+      "<span class=\"math-tex\">\\(15 + 2\\sqrt 161\\)</span>",
+      "<span class=\"math-tex\">\\(12 + 3\\sqrt 7\\)</span>",
+      "<span class=\"math-tex\">\\(10 + \\sqrt 161\\)</span>"
+    ],
+    "correct": 1,
+    "solution": "<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F3_Harshit_21-01-21_Savita_D1.png\" style=\"width: 212px; height: 140px;\" />&gt;</p>\n\n<p>Let O and O&#39; be the centres of the circle of radii 15 cm and 10 cm respectively.</p>\n\n<p>Let PQ be their common chord.</p>\n\n<p>We have,</p>\n\n<p>OP = 15 cm</p>\n\n<p>O&#39;P = 10 cm</p>\n\n<p>PQ = 16 cm</p>\n\n<p>&there4; PL = (1/2) &times; PQ</p>\n\n<p>&rArr; 16/2 = 8 cm</p>\n\n<p>In right triangle OLP, we have</p>\n\n<p>&rArr; OP<sup>2</sup>&nbsp;= OL<sup>2</sup>&nbsp;+ PL<sup>2</sup></p>\n\n<p><span class=\"math-tex\">\\(⇒ OL = \\sqrt{O{P^2} - \\;P{L^2}} \\)</span></p>\n\n<p><span class=\"math-tex\">\\(⇒ \\sqrt {{{15}^2} - \\;{8^2}} \\)</span></p>\n\n<p>&rArr;&nbsp;&radic;161 cm</p>\n\n<p>In right triangle O&#39;LP we have</p>\n\n<p>&rArr; (O&#39;P)<sup>2</sup>&nbsp;= (PL)<sup>2</sup>&nbsp;+ (O&#39;L)<sup>2</sup></p>\n\n<p><span class=\"math-tex\">\\(⇒ O'L = \\sqrt{O'{P^2} - \\;L{P^2}} \\)</span></p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\sqrt{{{10}^2} - \\;{8^2}} \\)</span></p>\n\n<p>&rArr;&nbsp;&radic;36</p>\n\n<p>&rArr; 6cm</p>\n\n<p>OO&#39; = OL&nbsp;+ O&#39;L</p>\n\n<p>&rArr; 6 +&nbsp;&radic;161&nbsp;</p>\n\n<p><strong>&there4; The distance between the centres is 6 +&nbsp;&radic;161&nbsp;</strong></p>\n",
+    "solution_hi": "<p>&lt;Diagram&gt;</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/F3_Harshit_21-01-21_Savita_D1.png\" style=\"width: 212px; height: 140px;\" /></p>\n\n<p>माना O और&nbsp;O&#39; क्रमशः 15 सेमी और&nbsp;10 सेमी त्रिज्या&nbsp;के दो वृत्तों के केंद्र हैं</p>\n\n<p>माना PQ उनकी उभयनिष्ठ जीवा है</p>\n\n<p>हमें ज्ञात है,</p>\n\n<p>OP = 15 सेमी</p>\n\n<p>O&#39;P = 10 सेमी</p>\n\n<p>PQ = 16 सेमी</p>\n\n<p>&there4; PL = (1/2) &times; PQ</p>\n\n<p>&rArr; 16/2 = 8 सेमी</p>\n\n<p>समकोण OLP में, हमें ज्ञात है</p>\n\n<p>&rArr; OP<sup>2</sup>&nbsp;= OL<sup>2</sup>&nbsp;+ PL<sup>2</sup></p>\n\n<p><span class=\"math-tex\">\\(⇒ OL = \\sqrt{O{P^2} - \\;P{L^2}} \\)</span></p>\n\n<p><span class=\"math-tex\">\\(⇒ \\sqrt{{{15}^2} - \\;{8^2}} \\)</span></p>\n\n<p>&rArr;&nbsp;&radic;161 cm</p>\n\n<p>समकोण O&#39;LP में,&nbsp;हमें ज्ञात है</p>\n\n<p>&rArr; (O&#39;P)<sup>2</sup>&nbsp;= (PL)<sup>2</sup>&nbsp;+ (O&#39;L)<sup>2</sup></p>\n\n<p><span class=\"math-tex\">\\(⇒ O'L = \\sqrt{O'{P^2} - \\;L{P^2}} \\)</span></p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\sqrt{{{10}^2} - \\;{8^2}} \\)</span></p>\n\n<p>&rArr;&nbsp;&radic;36</p>\n\n<p>&rArr; 6 सेमी</p>\n\n<p>OO&#39; = OL&nbsp;+ O&#39;L</p>\n\n<p>&rArr; 6 +&nbsp;&radic;161&nbsp;</p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">&there4; केंद्रों के बीच की दूरी 6 + </span><span style=\"font-weight: 700;\">&radic;161&nbsp;</span>&nbsp;<span style=\"color: rgb(37, 37, 37);  \">है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The value of&nbsp;<span class=\"math-tex\">\\(\\frac{2}{3} \\div \\frac{3}{{10}}\\; of\\; \\frac{4}{9} - \\frac{4}{5} \\times 1\\frac{1}{9} \\div \\frac{8}{{15}} + \\frac{3}{4} \\div \\frac{1}{2}\\)</span> is:",
+    "question_hi": "<span class=\"math-tex\">\\(\\frac{2}{3} \\div \\frac{3}{{10}}\\; of\\; \\frac{4}{9} - \\frac{4}{5} \\times 1\\frac{1}{9} \\div \\frac{8}{{15}} + \\frac{3}{4} \\div \\frac{1}{2}\\)</span>&nbsp;का मान क्या है?&nbsp;&nbsp;",
+    "options": [
+      "<span class=\"math-tex\">\\(\\frac{49}{12}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{11}}{{6}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{29}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{14}{3}\\)</span>"
+    ],
+    "options_hi": [
+      "<span class=\"math-tex\">\\(\\frac{49}{12}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{{11}}{{6}}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{29}{6}\\)</span>",
+      "<span class=\"math-tex\">\\(\\frac{14}{3}\\)</span>"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Concept used:</strong></p>\n\n<p>We have to follow the BODMAS rule:</p>\n\n<p><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage70.png\" /></p>\n\n<p><strong>Calculations:</strong></p>\n\n<p>Given expression is:</p>\n\n<p><span class=\"math-tex\">\\(\\frac{2}{3} \\div \\frac{3}{{10}}\\; of\\; \\frac{4}{9} - \\frac{4}{5} \\times 1\\frac{1}{9} \\div \\frac{8}{{15}} + \\frac{3}{4} \\div \\frac{1}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(⇒ \\frac{2}{3} \\div \\frac{2}{{15}} - \\frac{4}{5} \\times \\frac{{25}}{{12}} + \\frac{3}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(⇒ 5 - \\frac{5}{3} + \\frac{3}{2}\\)</span></p>\n\n<p>&nbsp;</p>\n\n<p>&rArr; (10/3) +&nbsp;(3/2)</p>\n\n<p>&rArr; (20 + 9)/6</p>\n\n<p>&rArr; 29/6</p>\n\n<p><strong>&there4; The correct answer is 29/6.</strong></p>\n",
+    "solution_hi": "<p><strong><span style=\"color: rgb(37, 37, 37);  \">उपयोग की गई अवधारणा:</span></strong></p>\n\n<p>हमें BODMAS नियम का अनुसरण करना होगा::</p>\n\n<p><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/quesImage70.png\" /></p>\n\n<p><strong><span style=\"color: rgb(37, 37, 37);  \">गणना:</span></strong></p>\n\n<p>दिया गया व्यंजक इस प्रकार है:</p>\n\n<p><span class=\"math-tex\">\\(\\frac{2}{3} \\div \\frac{3}{{10}}\\; of\\; \\frac{4}{9} - \\frac{4}{5} \\times 1\\frac{1}{9} \\div \\frac{8}{{15}} + \\frac{3}{4} \\div \\frac{1}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(⇒ \\frac{2}{3} \\div \\frac{2}{{15}} - \\frac{4}{5} \\times \\frac{{25}}{{12}} + \\frac{3}{2}\\)</span></p>\n\n<p><span class=\"math-tex\">\\(⇒ 5 - \\frac{5}{3} + \\frac{3}{2}\\)</span></p>\n\n<p>&rArr; (10/3) +&nbsp;(3/2)</p>\n\n<p>&rArr; (20 + 9)/6</p>\n\n<p>&rArr; 29/6</p>\n\n<p><strong>&there4;&nbsp;<span style=\"color: rgb(37, 37, 37);  \">सही उत्तर 29/6 है</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>The following pie chart shows percentage expenditure of a country on different heads. The total expenditure is Rs. 1,680 (in billions). Study the chart and answer the question.</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%201.PNG\" style=\"width: 307px; height: 347px;\" /></p>\n\n<p>The central angle of the sector representing expenditure on Interest payment is:</p>\n",
+    "question_hi": "<p>निम्नलिखित वृत्त आलेख एक देश के&nbsp;भिन्न-भिन्न मदों पर&nbsp;प्रतिशत व्यय को दर्शाता&nbsp;है। कुल व्यय 1,680 रु.&nbsp;(अरब&nbsp;में) है।&nbsp;आलेख&nbsp;का अध्ययन कीजिए&nbsp;और प्रश्न का उत्तर दीजिए।</p>\n\n<p><img alt=\"\" src=\"https://storage.googleapis.com/tb-img/production/21/01/DI_19-01-2021_vaibhav%20soni_umesh_D%20%201_.PNG\" /></p>\n\n<p>ब्याज&nbsp;भुगतान पर व्यय को दर्शाने&nbsp;वाले खंड&nbsp;का केंद्रीय कोण क्या है?</p>\n",
+    "options": [
+      "72&deg;",
+      "108&deg;",
+      "90&deg;",
+      "54&deg;"
+    ],
+    "options_hi": [
+      "72&deg;",
+      "108&deg;",
+      "90&deg;",
+      "54&deg;"
+    ],
+    "correct": 4,
+    "solution": "<p>central angle of the sector representing expenditure on Interest payment is:</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{15 \\times 360}}{{100}}\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p><strong>&rArr; 54&deg;&nbsp;</strong></p>\n\n<p>&nbsp; ∵&nbsp;(Where full circle is 360<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">o</span>)</p>\n",
+    "solution_hi": "<p>ब्याज भुगतान पर व्यय को दर्शाने वाले खंड&nbsp;का केंद्रीय कोण इस प्रकार है:</p>\n\n<p><span class=\"math-tex\">\\(\\Rightarrow \\frac{{15 \\times 360}}{{100}}\\)</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p><strong>&rArr; 54<sup>o</sup></strong></p>\n\n<p>&nbsp; ∵&nbsp;(जहाँ सम्पूर्ण वृत्त&nbsp;360<span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">o </span>है)</p>\n",
+    "marks": "1"
+  }
+]
