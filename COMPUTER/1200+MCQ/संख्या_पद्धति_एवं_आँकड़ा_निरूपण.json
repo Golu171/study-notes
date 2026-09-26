@@ -1,0 +1,1784 @@
+[
+  {
+    "question": "A group of eight bits is called a:",
+    "question_hi": "आठ बिट के समूह को कहते हैं:",
+    "options": [
+      "Nibble",
+      "Word",
+      "Byte",
+      "Block",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "निबल",
+      "शब्द",
+      "बाइट",
+      "खंड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Eight bits make one byte.",
+    "solution_hi": "आठ बिट एक बाइट बनाते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "A nibble in computer terminology is equal to:",
+    "question_hi": "कंप्यूटर शब्दावली में निबल किसके बराबर है?",
+    "options": [
+      "Two bits",
+      "Two bytes",
+      "One byte",
+      "Half a byte",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "दो बिट",
+      "दो बाइट",
+      "एक बाइट",
+      "आधा बाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "A nibble is four bits, that is half a byte.",
+    "solution_hi": "निबल चार बिट अर्थात आधा बाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "Ten nibbles are equal to how many bits?",
+    "question_hi": "दस निबल कितने बिट के बराबर हैं?",
+    "options": [
+      "40 bits",
+      "20 bits",
+      "80 bits",
+      "10 bits",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "40 बिट",
+      "20 बिट",
+      "80 बिट",
+      "10 बिट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Each nibble is four bits, so ten give forty.",
+    "solution_hi": "प्रत्येक निबल चार बिट है, अतः दस से चालीस।",
+    "marks": "1"
+  },
+  {
+    "question": "One megabyte is equal to:",
+    "question_hi": "एक मेगाबाइट बराबर है:",
+    "options": [
+      "1000 kilobytes",
+      "1024 kilobytes",
+      "1024 bytes",
+      "1024 gigabytes",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1000 किलोबाइट",
+      "1024 किलोबाइट",
+      "1024 बाइट",
+      "1024 गीगाबाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "One megabyte is 1024 kilobytes.",
+    "solution_hi": "एक मेगाबाइट 1024 किलोबाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "One petabyte is equal to:",
+    "question_hi": "एक पेटाबाइट बराबर है:",
+    "options": [
+      "1024 TB",
+      "1024 GB",
+      "1024 MB",
+      "1024 EB",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1024 टीबी",
+      "1024 जीबी",
+      "1024 एमबी",
+      "1024 ईबी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "A petabyte is 1024 terabytes.",
+    "solution_hi": "एक पेटाबाइट 1024 टेराबाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "In terms of size, the correct descending order is:",
+    "question_hi": "आकार की दृष्टि से सही अवरोही क्रम है:",
+    "options": [
+      "TB > GB > MB > KB",
+      "KB > MB > GB > TB",
+      "GB > TB > MB > KB",
+      "MB > KB > GB > TB",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "टीबी > जीबी > एमबी > केबी",
+      "केबी > एमबी > जीबी > टीबी",
+      "जीबी > टीबी > एमबी > केबी",
+      "एमबी > केबी > जीबी > टीबी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Terabyte is the largest of these four.",
+    "solution_hi": "इन चारों में टेराबाइट सबसे बड़ा है।",
+    "marks": "1"
+  },
+  {
+    "question": "The number of different values a 32-bit register can store is:",
+    "question_hi": "32-बिट रजिस्टर कितने भिन्न मान रख सकता है?",
+    "options": [
+      "2 to the power 16",
+      "2 to the power 8",
+      "32",
+      "2 to the power 32",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "2 की घात 16",
+      "2 की घात 8",
+      "32",
+      "2 की घात 32",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "An n-bit register stores 2 to the power n values.",
+    "solution_hi": "n-बिट रजिस्टर 2 की घात n मान रखता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The unit of measurement of word length is the:",
+    "question_hi": "शब्द लंबाई मापने की इकाई है:",
+    "options": [
+      "Hertz",
+      "Byte",
+      "Pixel",
+      "Baud",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "हर्ट्ज़",
+      "बाइट",
+      "पिक्सेल",
+      "बॉड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Word length is expressed in bytes.",
+    "solution_hi": "शब्द लंबाई बाइट में व्यक्त होती है।",
+    "marks": "1"
+  },
+  {
+    "question": "Instructions held in computer memory consist of opcodes and:",
+    "question_hi": "कंप्यूटर स्मृति में रखे निर्देशों में ऑपकोड एवं क्या होते हैं?",
+    "options": [
+      "Registers",
+      "Buffers",
+      "Operands",
+      "Pointers",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "रजिस्टर",
+      "बफर",
+      "ऑपरेंड",
+      "पॉइंटर",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "An instruction has an opcode and operands.",
+    "solution_hi": "निर्देश में ऑपकोड एवं ऑपरेंड होते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The process of taking stored results out of the physical memory of a computer is known as the:",
+    "question_hi": "कंप्यूटर की भौतिक स्मृति से संग्रहित परिणाम बाहर निकालने की प्रक्रिया कहलाती है:",
+    "options": [
+      "Output process",
+      "Input process",
+      "Storage process",
+      "Control process",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "निर्गम प्रक्रिया",
+      "निवेश प्रक्रिया",
+      "भंडारण प्रक्रिया",
+      "नियंत्रण प्रक्रिया",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Retrieving results is the output process.",
+    "solution_hi": "परिणाम निकालना निर्गम प्रक्रिया है।",
+    "marks": "1"
+  },
+  {
+    "question": "The base of the binary number system is:",
+    "question_hi": "द्विआधारी संख्या पद्धति का आधार है:",
+    "options": [
+      "8",
+      "2",
+      "10",
+      "16",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "8",
+      "2",
+      "10",
+      "16",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Binary works to base two.",
+    "solution_hi": "द्विआधारी आधार दो पर चलती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The base of the octal number system is:",
+    "question_hi": "अष्टाधारी संख्या पद्धति का आधार है:",
+    "options": [
+      "2",
+      "16",
+      "10",
+      "8",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "2",
+      "16",
+      "10",
+      "8",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Octal works to base eight.",
+    "solution_hi": "अष्टाधारी आधार आठ पर चलती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The base of the hexadecimal number system is:",
+    "question_hi": "षोडश आधारी संख्या पद्धति का आधार है:",
+    "options": [
+      "8",
+      "16",
+      "10",
+      "32",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "8",
+      "16",
+      "10",
+      "32",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Hexadecimal works to base sixteen.",
+    "solution_hi": "षोडश आधारी आधार सोलह पर चलती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The number of digits used in the octal number system is:",
+    "question_hi": "अष्टाधारी संख्या पद्धति में प्रयुक्त अंकों की संख्या है:",
+    "options": [
+      "7",
+      "10",
+      "9",
+      "8",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "7",
+      "10",
+      "9",
+      "8",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "There are eight octal digits, zero through seven.",
+    "solution_hi": "अष्टाधारी अंक आठ हैं, शून्य से सात तक।",
+    "marks": "1"
+  },
+  {
+    "question": "The binary equivalent of the decimal number 8 is:",
+    "question_hi": "दशमलव संख्या 8 का द्विआधारी समतुल्य है:",
+    "options": [
+      "1010",
+      "1100",
+      "1000",
+      "0111",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1010",
+      "1100",
+      "1000",
+      "0111",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Eight in binary is 1000.",
+    "solution_hi": "द्विआधारी में आठ 1000 है।",
+    "marks": "1"
+  },
+  {
+    "question": "The decimal equivalent of the binary number 1011 is:",
+    "question_hi": "द्विआधारी संख्या 1011 का दशमलव समतुल्य है:",
+    "options": [
+      "9",
+      "13",
+      "11",
+      "15",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "9",
+      "13",
+      "11",
+      "15",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "1011 in binary equals eleven.",
+    "solution_hi": "द्विआधारी 1011 ग्यारह के बराबर है।",
+    "marks": "1"
+  },
+  {
+    "question": "The character encoding standard that uses seven bits to represent 128 characters is:",
+    "question_hi": "सात बिट से 128 अक्षर दर्शाने वाला वर्ण कूटलेखन मानक है:",
+    "options": [
+      "ASCII",
+      "EBCDIC",
+      "Unicode",
+      "BCD",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एएससीआईआई",
+      "ईबीसीडीआईसी",
+      "यूनिकोड",
+      "बीसीडी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Standard ASCII is a seven-bit code.",
+    "solution_hi": "मानक एएससीआईआई सात बिट कूट है।",
+    "marks": "1"
+  },
+  {
+    "question": "The abbreviation ASCII stands for:",
+    "question_hi": "संक्षेप एएससीआईआई का अर्थ है:",
+    "options": [
+      "Advanced Standard Code for Information Interface",
+      "American Standard Code for Information Interchange",
+      "Automatic System Code for Internal Instruction",
+      "Applied Symbolic Code for Input Information",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एडवांस्ड स्टैंडर्ड कोड फॉर इनफॉर्मेशन इंटरफेस",
+      "अमेरिकन स्टैंडर्ड कोड फॉर इनफॉर्मेशन इंटरचेंज",
+      "ऑटोमैटिक सिस्टम कोड फॉर इंटरनल इंस्ट्रक्शन",
+      "एप्लाइड सिंबॉलिक कोड फॉर इनपुट इनफॉर्मेशन",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "ASCII is the American Standard Code for Information Interchange.",
+    "solution_hi": "एएससीआईआई अमेरिकन स्टैंडर्ड कोड फॉर इनफॉर्मेशन इंटरचेंज है।",
+    "marks": "1"
+  },
+  {
+    "question": "The encoding standard designed to represent the characters of every writing system in the world is:",
+    "question_hi": "विश्व की प्रत्येक लेखन पद्धति के अक्षर दर्शाने हेतु बना कूटलेखन मानक है:",
+    "options": [
+      "ASCII",
+      "Unicode",
+      "EBCDIC",
+      "BCD",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एएससीआईआई",
+      "यूनिकोड",
+      "ईबीसीडीआईसी",
+      "बीसीडी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Unicode covers all writing systems.",
+    "solution_hi": "यूनिकोड सभी लेखन पद्धतियाँ शामिल करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "One gigabyte is equal to:",
+    "question_hi": "एक गीगाबाइट बराबर है:",
+    "options": [
+      "1024 KB",
+      "1024 bytes",
+      "1024 TB",
+      "1024 MB",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1024 केबी",
+      "1024 बाइट",
+      "1024 टीबी",
+      "1024 एमबी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "A gigabyte is 1024 megabytes.",
+    "solution_hi": "एक गीगाबाइट 1024 मेगाबाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "One terabyte is equal to:",
+    "question_hi": "एक टेराबाइट बराबर है:",
+    "options": [
+      "1024 MB",
+      "1024 PB",
+      "1024 GB",
+      "1024 KB",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1024 एमबी",
+      "1024 पीबी",
+      "1024 जीबी",
+      "1024 केबी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "A terabyte is 1024 gigabytes.",
+    "solution_hi": "एक टेराबाइट 1024 गीगाबाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "In computing, the term 'bit' is short for:",
+    "question_hi": "कंप्यूटिंग में शब्द 'बिट' किसका संक्षिप्त रूप है?",
+    "options": [
+      "Binary Digit",
+      "Basic Unit",
+      "Byte Integer",
+      "Bounded Item",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "बाइनरी डिजिट",
+      "बेसिक यूनिट",
+      "बाइट इंटीजर",
+      "बाउंडेड आइटम",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Bit is short for binary digit.",
+    "solution_hi": "बिट बाइनरी डिजिट का संक्षेप है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which of the following units represents the largest amount of data?",
+    "question_hi": "निम्नलिखित में से कौन सी इकाई डेटा की सबसे बड़ी मात्रा का प्रतिनिधित्व करती है?",
+    "options": [
+      "Gigabyte",
+      "Megabyte",
+      "Kilobyte",
+      "Terabyte",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "गीगाबाइट",
+      "मेगाबाइट",
+      "किलोबाइट",
+      "टेराबाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Terabyte is the largest of these four.",
+    "solution_hi": "इन चारों में टेराबाइट सबसे बड़ा है।",
+    "marks": "1"
+  },
+  {
+    "question": "Half of a byte is called a:",
+    "question_hi": "एक बाइट के आधे भाग को क्या कहते हैं?",
+    "options": [
+      "Bit",
+      "Nibble",
+      "Byte",
+      "Word size",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "बिट",
+      "निबल",
+      "बाइट",
+      "वर्ड साइज",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Four bits, or half a byte, make a nibble.",
+    "solution_hi": "चार बिट अर्थात आधा बाइट निबल कहलाता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The size of the registers, which indicates the amount of data a computer can operate on at one time, is called its:",
+    "question_hi": "रजिस्टरों का आकार, जो यह इंगित करता है कि कंप्यूटर किसी एक समय में कितने डेटा पर काम कर सकता है, कहलाता है:",
+    "options": [
+      "Register word",
+      "Supporting shape",
+      "Word size",
+      "Size of RAM",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "रजिस्टर वर्ड",
+      "सपोर्टिंग शेप",
+      "वर्ड साइज",
+      "रैम का आकार",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Register width is the word size.",
+    "solution_hi": "रजिस्टर की चौड़ाई वर्ड साइज है।",
+    "marks": "1"
+  },
+  {
+    "question": "The binary string 110111100001 is equal to:",
+    "question_hi": "बाइनरी स्ट्रिंग 110111100001 के बराबर है:",
+    "options": [
+      "(A29)16",
+      "(129B)16",
+      "(DE1)16",
+      "(B9A)16",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "(A29)16",
+      "(129B)16",
+      "(DE1)16",
+      "(B9A)16",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Grouping in fours gives D, E and 1.",
+    "solution_hi": "चार-चार में समूहित करने पर D, E एवं 1 मिलते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Computer memory is usually expressed in kilobytes and megabytes. What does a byte mean?",
+    "question_hi": "कंप्यूटर मेमोरी को आमतौर पर किलोबाइट्स और मेगाबाइट्स के रूप में व्यक्त किया जाता है। बाइट का मतलब क्या है?",
+    "options": [
+      "Eight decimal places",
+      "Eight binary digits",
+      "Two binary digits",
+      "Two decimal places",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "आठ दशमलव स्थान",
+      "आठ बाइनरी अंक",
+      "दो बाइनरी अंक",
+      "दो दशमलव स्थान",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "One byte is eight binary digits.",
+    "solution_hi": "एक बाइट आठ बाइनरी अंक है।",
+    "marks": "1"
+  },
+  {
+    "question": "What are the two standard commercially available digital logic gate forms?",
+    "question_hi": "व्यावसायिक रूप से उपलब्ध दो मानक डिजिटल लॉजिक गेट फॉर्म क्या हैं?",
+    "options": [
+      "SSI and MSI",
+      "SOC and PIC",
+      "TTR and ECL",
+      "TTL and CMOS",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एसएसआई और एमएसआई",
+      "एसओसी और पीआईसी",
+      "टीटीआर और ईसीएल",
+      "टीटीएल और सीमॉस",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "TTL and CMOS are the two standard families.",
+    "solution_hi": "TTL एवं CMOS दो मानक परिवार हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the binary equivalent of the decimal number 16?",
+    "question_hi": "दशमलव संख्या 16 के लिए द्विआधारी समतुल्य क्या है?",
+    "options": [
+      "10001",
+      "10002",
+      "10000",
+      "10003",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10001",
+      "10002",
+      "10000",
+      "10003",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Sixteen is 10000 in binary.",
+    "solution_hi": "सोलह द्विआधारी में 10000 है।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the binary equivalent of decimal 13?",
+    "question_hi": "दशमलव 13 का द्विआधारी समतुल्य क्या है?",
+    "options": [
+      "1400",
+      "1110",
+      "0014",
+      "1101",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1400",
+      "1110",
+      "0014",
+      "1101",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Thirteen is 1101 in binary.",
+    "solution_hi": "तेरह द्विआधारी में 1101 है।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the decimal equivalent of octal 257?",
+    "question_hi": "ऑक्टल 257 का दशमलव समतुल्य क्या है?",
+    "options": [
+      "117",
+      "175",
+      "177",
+      "115",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "117",
+      "175",
+      "177",
+      "115",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Two times 64 plus five times 8 plus 7 gives 175.",
+    "solution_hi": "2×64 + 5×8 + 7 = 175।",
+    "marks": "1"
+  },
+  {
+    "question": "How many bits are there in 1 byte?",
+    "question_hi": "1 बाइट में कितने बिट होंगे?",
+    "options": [
+      "6",
+      "4",
+      "2",
+      "8",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "6",
+      "4",
+      "2",
+      "8",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "One byte contains eight bits.",
+    "solution_hi": "एक बाइट में आठ बिट होते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "1 GB is equal to:",
+    "question_hi": "1 GB बराबर है:",
+    "options": [
+      "1 billion bytes",
+      "1017 bytes",
+      "1000 TB",
+      "1,000,000 bytes",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1 अरब बाइट्स",
+      "1017 बाइट्स",
+      "1000 टीबी",
+      "10,00,000 बाइट्स",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "A gigabyte is roughly one billion bytes.",
+    "solution_hi": "एक गीगाबाइट लगभग एक अरब बाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "The octal equivalent of (111101000)2 is:",
+    "question_hi": "(111101000)2 का अष्टक समतुल्य है:",
+    "options": [
+      "456",
+      "556",
+      "750",
+      "550",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "456",
+      "556",
+      "750",
+      "550",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Grouping in threes gives 7, 5 and 0.",
+    "solution_hi": "तीन-तीन में समूहित करने पर 7, 5 एवं 0 मिलते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The ......... standard promises to accommodate sufficient signs for all languages of the world.",
+    "question_hi": "......... मानक, दुनिया की सभी भाषाओं के लिए पर्याप्त संकेत समायोजित करने का वादा करता है।",
+    "options": [
+      "ASCII",
+      "EBCDIC",
+      "UNICODE",
+      "EASCII",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एएससीआईआई",
+      "ईबीसीडीआईसी",
+      "यूनिकोड",
+      "ईएएससीआईआई",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Unicode covers all writing systems.",
+    "solution_hi": "यूनिकोड सभी लेखन पद्धतियाँ शामिल करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "In the binary number system we usually use:",
+    "question_hi": "आमतौर पर हम बाइनरी नंबर सिस्टम का उपयोग करते हैं:",
+    "options": [
+      "0 and 2",
+      "1 and 10",
+      "2 and 3",
+      "0 and 1",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "0 और 2",
+      "1 और 10",
+      "2 और 3",
+      "0 और 1",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Binary uses only zero and one.",
+    "solution_hi": "द्विआधारी में केवल शून्य एवं एक होते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Petabyte equals:",
+    "question_hi": "पेटाबाइट = ?",
+    "options": [
+      "1024 KB",
+      "1024 MB",
+      "1024 GB",
+      "1024 TB",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1024 केबी",
+      "1024 एमबी",
+      "1024 जीबी",
+      "1024 टीबी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "One petabyte is 1024 terabytes.",
+    "solution_hi": "एक पेटाबाइट 1024 टेराबाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "The equivalent representation of the Boolean expression A + 1 is:",
+    "question_hi": "बूलियन अभिव्यक्ति A+1 का समतुल्य प्रतिनिधित्व है।",
+    "options": [
+      "A",
+      "A'",
+      "1",
+      "0",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "A",
+      "A'",
+      "1",
+      "0",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Anything ORed with 1 gives 1.",
+    "solution_hi": "किसी को 1 से OR करने पर 1 मिलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the result of the Boolean expression PQ + PQR + PQRS + PQRST?",
+    "question_hi": "बूलियन अभिव्यक्ति PQ+PQR+PQRS+PQRST का परिणाम क्या है?",
+    "options": [
+      "PQ",
+      "PQ + RS + T",
+      "P + QR + R + S + T",
+      "PQRST",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "PQ",
+      "PQ + RS + T",
+      "P + QR + R + S + T",
+      "PQRST",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "PQ absorbs all the other terms.",
+    "solution_hi": "PQ शेष सभी पदों को अवशोषित कर लेता है।",
+    "marks": "1"
+  },
+  {
+    "question": "X * (Y . Z) = (X * Y) . (X * Z) is which property?",
+    "question_hi": "X* (Y.Z) =(X*Y). (X*Z) है।",
+    "options": [
+      "Commutative property",
+      "Distributive property",
+      "Associative property",
+      "Identity property",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "क्रमविनिमेय गुण",
+      "वितरण गुण",
+      "साहचर्य गुण",
+      "तत्समक गुण",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Spreading one operation over another is distribution.",
+    "solution_hi": "एक संक्रिया का दूसरे पर वितरण वितरण गुण है।",
+    "marks": "1"
+  },
+  {
+    "question": "The range of integers that can be represented by a 32-bit computer using 2's complement is:",
+    "question_hi": "पूर्णांकों की वह श्रेणी जिसे 32 बिट कंप्यूटर द्वारा 2 के पूरक का उपयोग करके पूर्णांक का प्रतिनिधित्व करने के लिए लिया जा सकता है।",
+    "options": [
+      "-2^32 to 2^32",
+      "-2^32 to 2^31",
+      "-2^31 to 2^32",
+      "-2^31 to 2^31 – 1",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "-2^32 से 2^32",
+      "-2^32 से 2^31",
+      "-2^31 से 2^32",
+      "-2^31 से 2^31 – 1",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Two's complement spans -2^31 to 2^31 minus one.",
+    "solution_hi": "2 का पूरक -2^31 से 2^31−1 तक फैलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "It is possible to express every Boolean expression:",
+    "question_hi": "प्रत्येक बूलियन अभिव्यक्ति को व्यक्त करना संभव है।",
+    "options": [
+      "Using AND alone",
+      "Using OR alone",
+      "Using NOT alone",
+      "Using NAND alone",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "केवल AND से",
+      "केवल OR से",
+      "केवल NOT से",
+      "केवल NAND से",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "NAND is a universal gate.",
+    "solution_hi": "NAND एक सार्वभौमिक गेट है।",
+    "marks": "1"
+  },
+  {
+    "question": "The octal number 377 has which hexadecimal equivalent?",
+    "question_hi": "अष्टाधारी संख्या 377 का षट्कोण आधार समतुल्य है।",
+    "options": [
+      "FF",
+      "AF",
+      "F00",
+      "FA",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "FF",
+      "AF",
+      "F00",
+      "FA",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Octal 377 equals decimal 255, which is FF in hex.",
+    "solution_hi": "अष्टाधारी 377 = दशमलव 255 = हेक्स FF।",
+    "marks": "1"
+  },
+  {
+    "question": "The binary number system has a base of:",
+    "question_hi": "बाइनरी नंबर सिस्टम का एक आधार होता है।",
+    "options": [
+      "2",
+      "3",
+      "8",
+      "16",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "2",
+      "3",
+      "8",
+      "16",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Binary works to base two.",
+    "solution_hi": "द्विआधारी आधार दो पर चलती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The code widely used in data communication is:",
+    "question_hi": "डेटा संचार में व्यापक रूप से उपयोग किया जाने वाला कोड है।",
+    "options": [
+      "ASCII",
+      "EBCDIC",
+      "Unicode",
+      "None of the above",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एएससीआईआई",
+      "ईबीसीडीआईसी",
+      "यूनिकोड",
+      "इनमें से कोई नहीं",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "ASCII is the common data communication code.",
+    "solution_hi": "एएससीआईआई सामान्य डेटा संचार कोड है।",
+    "marks": "1"
+  },
+  {
+    "question": "A kilobit is:",
+    "question_hi": "A किलो बिट्स है:",
+    "options": [
+      "1000 bits",
+      "1024 bits",
+      "512 bits",
+      "1048 bits",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1000 बिट्स",
+      "1024 बिट्स",
+      "512 बिट्स",
+      "1048 बिट्स",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "A kilobit is 1024 bits.",
+    "solution_hi": "एक किलोबिट 1024 बिट है।",
+    "marks": "1"
+  },
+  {
+    "question": "The number system using the strings 0 and 1 is called:",
+    "question_hi": "स्ट्रिंग 0 और 1 का उपयोग करने वाली संख्या प्रणाली को कहा जाता है।",
+    "options": [
+      "Decimal number system",
+      "Binary number system",
+      "Hexadecimal number system",
+      "Octal number system",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "दशमलव संख्या प्रणाली",
+      "द्विआधारी संख्या प्रणाली",
+      "षोडश आधारी संख्या प्रणाली",
+      "अष्टाधारी संख्या प्रणाली",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Zeros and ones make the binary system.",
+    "solution_hi": "शून्य एवं एक द्विआधारी प्रणाली बनाते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "(65)10 is equal to which binary number?",
+    "question_hi": "(65)10 बाइनरी में किसके बराबर है?",
+    "options": [
+      "10001000",
+      "10000001",
+      "1000001",
+      "10100101",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10001000",
+      "10000001",
+      "1000001",
+      "10100101",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Sixty-five is 1000001 in binary.",
+    "solution_hi": "पैंसठ द्विआधारी में 1000001 है।",
+    "marks": "1"
+  },
+  {
+    "question": "(1111 1111 1111) is equivalent to which hexadecimal number?",
+    "question_hi": "(1111 1111 1111) हेक्साडेसिमल में समतुल्य है?",
+    "options": [
+      "2493",
+      "2394",
+      "FFF",
+      "AFC",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "2493",
+      "2394",
+      "FFF",
+      "AFC",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Each group of four ones gives F.",
+    "solution_hi": "चार इकाइयों का प्रत्येक समूह F देता है।",
+    "marks": "1"
+  },
+  {
+    "question": "......... is equal to one billion.",
+    "question_hi": "......... एक अरब के बराबर है।",
+    "options": [
+      "2^10",
+      "10^2",
+      "2^20",
+      "None of these",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "2^10",
+      "10^2",
+      "2^20",
+      "इनमें से कोई नहीं",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "None of the listed values equals one billion.",
+    "solution_hi": "दिए गए मानों में कोई एक अरब नहीं है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which code requires 7 bits to represent a character?",
+    "question_hi": "निम्नलिखित कोड को एक वर्ण का प्रतिनिधित्व करने के लिए 7 बिट्स की आवश्यकता होती है?",
+    "options": [
+      "ASCII",
+      "BCD",
+      "EBCDIC",
+      "GRAY",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एएससीआईआई",
+      "बीसीडी",
+      "ईबीसीडीआईसी",
+      "ग्रे",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Standard ASCII is a seven-bit code.",
+    "solution_hi": "मानक एएससीआईआई सात बिट का कोड है।",
+    "marks": "1"
+  },
+  {
+    "question": "ASCII allotted binary codes for the English alphabet. Which new standard allocates codes to almost all languages, of about one lakh characters?",
+    "question_hi": "कौन सा मानक लगभग सभी भाषाओं को एक लाख अक्षरों के कोड आवंटित करता है?",
+    "options": [
+      "CSC",
+      "Unicode",
+      "Standards CSC Code",
+      "Universal CSC Code",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "सीएससी",
+      "यूनिकोड",
+      "स्टैंडर्ड्स सीएससी कोड",
+      "यूनिवर्सल सीएससी कोड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Unicode encodes the world's scripts.",
+    "solution_hi": "यूनिकोड विश्व की लिपियाँ कूटबद्ध करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The EBCDIC coding scheme uses ....... bits to code different characters.",
+    "question_hi": "ईबीसीडीआईसी कोडिंग योजना विभिन्न वर्णों को कोड करने के लिए ......... बिट्स का उपयोग करती है।",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "EBCDIC is an eight-bit code.",
+    "solution_hi": "ईबीसीडीआईसी आठ बिट का कोड है।",
+    "marks": "1"
+  },
+  {
+    "question": "The number of bits required to code 256 operations is:",
+    "question_hi": "256 ऑपरेशनों को कोड करने के लिए आवश्यक बिट्स की संख्या है:",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "4",
+      "6",
+      "8",
+      "16",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Two to the power eight gives 256.",
+    "solution_hi": "2 की घात 8 से 256 मिलते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "BCD coding uses ....... bits to code the decimal digits.",
+    "question_hi": "बीसीडी कोडिंग दशमलव अंकों को कोड करने के लिए ......... बिट्स का उपयोग करती है।",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Each decimal digit needs four bits.",
+    "solution_hi": "प्रत्येक दशमलव अंक हेतु चार बिट चाहिए।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the meaning of BCD?",
+    "question_hi": "बीसीडी का क्या अर्थ है?",
+    "options": [
+      "Binary Coded Decimal",
+      "Binary Code Display",
+      "Bidirectional Coded Data",
+      "Binary Coded Data",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "बाइनरी कोडेड डेसिमल",
+      "बाइनरी कोड डिस्प्ले",
+      "बाइडायरेक्शनल कोडेड डेटा",
+      "बाइनरी कोडेड डेटा",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "BCD is Binary Coded Decimal.",
+    "solution_hi": "बीसीडी बाइनरी कोडेड डेसिमल है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which of the following represents the logical AND gate?",
+    "question_hi": "निम्नलिखित में से कौन तार्किक AND गेट का प्रतिनिधित्व करता है?",
+    "options": [
+      "a + b",
+      "a / b",
+      "A > B",
+      "A . B",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "a + b",
+      "a / b",
+      "A > B",
+      "A . B",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "The dot denotes logical AND.",
+    "solution_hi": "बिंदु तार्किक AND दर्शाता है।",
+    "marks": "1"
+  },
+  {
+    "question": "In Boolean algebra, A'(A + B') is equal to:",
+    "question_hi": "बूलियन बीजगणित में, A'(A+B') बराबर है:",
+    "options": [
+      "AB",
+      "A'B'",
+      "A'B",
+      "A + B",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "AB",
+      "A'B'",
+      "A'B",
+      "A + B",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "A'A is zero, leaving A'B'.",
+    "solution_hi": "A'A शून्य है, शेष A'B' बचता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Considering X and Y as binary variables, the Boolean equation for (X.Y)' is:",
+    "question_hi": "X और Y को द्विआधारी चर मानते हुए, (X.Y)' के लिए बूलियन समीकरण है:",
+    "options": [
+      "X + Y",
+      "X + Y'",
+      "X' + Y'",
+      "X'Y'",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "X + Y",
+      "X + Y'",
+      "X' + Y'",
+      "X'Y'",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "De Morgan's law gives X' + Y'.",
+    "solution_hi": "डी मॉर्गन नियम से X' + Y' मिलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Both ......... and ......... gates are also called universal gates.",
+    "question_hi": "......... और ......... दोनों गेटों को यूनिवर्सल गेट भी कहा जाता है।",
+    "options": [
+      "AND, NAND",
+      "NAND, NOR",
+      "OR, NOR",
+      "XOR, XNOR",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "AND, NAND",
+      "NAND, NOR",
+      "OR, NOR",
+      "XOR, XNOR",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "NAND and NOR can build any other gate.",
+    "solution_hi": "NAND एवं NOR से कोई भी अन्य गेट बन सकता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The most widely used universal gates are:",
+    "question_hi": "सबसे व्यापक रूप से प्रयुक्त सार्वभौमिक गेट है:",
+    "options": [
+      "OR and AND gates",
+      "NAND and NOR gates",
+      "NOR and AND gates",
+      "NAND and AND gates",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "OR एवं AND गेट",
+      "NAND एवं NOR गेट",
+      "NOR एवं AND गेट",
+      "NAND एवं AND गेट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "NAND and NOR are the universal gates.",
+    "solution_hi": "NAND एवं NOR सार्वभौमिक गेट हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Which logic gate is a universal gate, i.e. its combination can construct any other logic gate?",
+    "question_hi": "निम्नलिखित में से कौन सा लॉजिक गेट एक सार्वभौमिक गेट है अर्थात इसके संयोजन का उपयोग किसी अन्य लॉजिक गेट के तर्क का निर्माण करने के लिए किया जा सकता है?",
+    "options": [
+      "OR gate",
+      "AND gate",
+      "NAND gate",
+      "NOT gate",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "OR गेट",
+      "AND गेट",
+      "NAND गेट",
+      "NOT गेट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "The NAND gate is universal.",
+    "solution_hi": "NAND गेट सार्वभौमिक है।",
+    "marks": "1"
+  },
+  {
+    "question": "In binary algebra, A + B can be implemented by:",
+    "question_hi": "द्विआधारी बीजगणित में, A+B को इस प्रकार कार्यान्वित किया जा सकता है:",
+    "options": [
+      "NAND gates alone",
+      "NOR gates alone",
+      "AND gates alone",
+      "Both NAND gates alone and NOR gates alone",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "केवल NAND गेट",
+      "केवल NOR गेट",
+      "केवल AND गेट",
+      "केवल NAND एवं केवल NOR दोनों",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Both NAND and NOR are universal gates.",
+    "solution_hi": "NAND एवं NOR दोनों सार्वभौमिक गेट हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Which logic gate gives output 0 when the input values are different?",
+    "question_hi": "निम्नलिखित में से कौन सा लॉजिक गेट इनपुट मान भिन्न होने पर आउटपुट 0 देता है?",
+    "options": [
+      "OR",
+      "XNOR",
+      "XOR",
+      "NAND",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "OR",
+      "XNOR",
+      "XOR",
+      "NAND",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "XNOR outputs 0 for unequal inputs.",
+    "solution_hi": "XNOR असमान इनपुट पर 0 देता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Considering X and Y as binary variables, the Boolean expression XY + XY' is equal to:",
+    "question_hi": "X और Y को द्विआधारी चर मानते हुए, बूलियन अभिव्यक्ति XY + XY' बराबर है:",
+    "options": [
+      "X",
+      "Y",
+      "X'",
+      "Y'",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "X",
+      "Y",
+      "X'",
+      "Y'",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "X(Y + Y') simplifies to X.",
+    "solution_hi": "X(Y + Y') सरल होकर X बनता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Assuming X to be a binary variable, the Boolean expression X.0 is equal to:",
+    "question_hi": "X को एक बाइनरी वेरिएबल मानते हुए, बूलियन अभिव्यक्ति X.0 के बराबर है।",
+    "options": [
+      "X",
+      "0",
+      "1",
+      "X'",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "X",
+      "0",
+      "1",
+      "X'",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Anything ANDed with 0 gives 0.",
+    "solution_hi": "किसी को 0 से AND करने पर 0 मिलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "In Boolean algebra, AB + AB' is equal to:",
+    "question_hi": "बूलियन बीजगणित में, AB + AB' बराबर है:",
+    "options": [
+      "A",
+      "1",
+      "0",
+      "B",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "A",
+      "1",
+      "0",
+      "B",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "A(B + B') simplifies to A.",
+    "solution_hi": "A(B + B') सरल होकर A बनता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which of the given options has the minimum amount of memory?",
+    "question_hi": "दिए गए विकल्पों में से किसमें मेमोरी की मात्रा न्यूनतम है?",
+    "options": [
+      "Gigabyte",
+      "Terabyte",
+      "Megabyte",
+      "Petabyte",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "गीगाबाइट",
+      "टेराबाइट",
+      "मेगाबाइट",
+      "पेटाबाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Megabyte is the smallest of these.",
+    "solution_hi": "इनमें मेगाबाइट सबसे छोटा है।",
+    "marks": "1"
+  },
+  {
+    "question": "How many bytes make a kilobyte?",
+    "question_hi": "एक किलोबाइट एक मेगाबाइट कैसे बना सकता है?",
+    "options": [
+      "100 bytes",
+      "10000 bytes",
+      "1024 bytes",
+      "500 bytes",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "100 बाइट",
+      "10000 बाइट",
+      "1024 बाइट",
+      "500 बाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "One kilobyte is 1024 bytes.",
+    "solution_hi": "एक किलोबाइट 1024 बाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which is the largest unit of data measurement among the following?",
+    "question_hi": "निम्नलिखित में से डेटा माप की सबसे बड़ी इकाई है।",
+    "options": [
+      "Gigabyte",
+      "Terabyte",
+      "Exabyte",
+      "Petabyte",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "गीगाबाइट",
+      "टेराबाइट",
+      "एक्साबाइट",
+      "पेटाबाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "An exabyte is larger than a petabyte.",
+    "solution_hi": "एक्साबाइट पेटाबाइट से बड़ा है।",
+    "marks": "1"
+  },
+  {
+    "question": "One byte is equal to:",
+    "question_hi": "एक बाइट बराबर है:",
+    "options": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "8 बिट",
+      "16 बिट",
+      "32 बिट",
+      "64 बिट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "A byte contains eight bits.",
+    "solution_hi": "एक बाइट में आठ बिट होते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "How many TB is equal to 1024 GB?",
+    "question_hi": "1024 जीबी कितने टीबी बराबर है?",
+    "options": [
+      "128",
+      "1",
+      "512",
+      "1024",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "128",
+      "1",
+      "512",
+      "1024",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "1024 GB makes exactly one terabyte.",
+    "solution_hi": "1024 जीबी ठीक एक टेराबाइट है।",
+    "marks": "1"
+  },
+  {
+    "question": "A group of 4 bits forms a:",
+    "question_hi": "4 बिट्स का एक समूह बनता है:",
+    "options": [
+      "Byte",
+      "Nibble",
+      "Gigabyte",
+      "Terabyte",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "बाइट",
+      "निबल",
+      "गीगाबाइट",
+      "टेराबाइट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Four bits make a nibble.",
+    "solution_hi": "चार बिट निबल बनाते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Decimal is the basis of which number system?",
+    "question_hi": "दशमलव संख्या प्रणाली का आधार है।",
+    "options": [
+      "2",
+      "16",
+      "4",
+      "10",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "2",
+      "16",
+      "4",
+      "10",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Decimal works to base ten.",
+    "solution_hi": "दशमलव आधार दस पर चलती है।",
+    "marks": "1"
+  },
+  {
+    "question": "Convert 89 to binary notation.",
+    "question_hi": "89 को बाइनरी संकेतन में परिवर्तित करें।",
+    "options": [
+      "1100110",
+      "101110",
+      "1011011",
+      "1011001",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1100110",
+      "101110",
+      "1011011",
+      "1011001",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "64 + 16 + 8 + 1 gives 1011001.",
+    "solution_hi": "64+16+8+1 से 1011001 बनता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Convert the decimal number 103 to binary.",
+    "question_hi": "दशमलव संख्या 103 को बाइनरी में बदलें।",
+    "options": [
+      "1100111",
+      "1100011",
+      "1101001",
+      "1101011",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1100111",
+      "1100011",
+      "1101001",
+      "1101011",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "64 + 32 + 4 + 2 + 1 gives 1100111.",
+    "solution_hi": "64+32+4+2+1 से 1100111 बनता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the binary representation of 0.25?",
+    "question_hi": "0.25 का बाइनरी प्रतिनिधित्व है।",
+    "options": [
+      "(0.10)2",
+      "(0.01)2",
+      "(0.101)2",
+      "(0.11)2",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "(0.10)2",
+      "(0.01)2",
+      "(0.101)2",
+      "(0.11)2",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "One quarter is 0.01 in binary.",
+    "solution_hi": "एक चौथाई द्विआधारी में 0.01 है।",
+    "marks": "1"
+  },
+  {
+    "question": "The octal number system has which base?",
+    "question_hi": "अष्टाधारी संख्या इस प्रणाली का आधार है।",
+    "options": [
+      "10",
+      "2",
+      "8",
+      "16",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10",
+      "2",
+      "8",
+      "16",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Octal works to base eight.",
+    "solution_hi": "अष्टाधारी आधार आठ पर चलती है।",
+    "marks": "1"
+  },
+  {
+    "question": "Convert 110001 to octal notation.",
+    "question_hi": "110001 को अष्टाधारी संकेतन में बदलें।",
+    "options": [
+      "49",
+      "59",
+      "51",
+      "61",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "49",
+      "59",
+      "51",
+      "61",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Grouping 110 and 001 gives 61.",
+    "solution_hi": "110 एवं 001 समूहित करने पर 61 मिलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The octal representation of the binary number (1010.01)2 is:",
+    "question_hi": "बाइनरी संख्या (1010.01)2 का अष्टाधारी प्रतिनिधित्व है:",
+    "options": [
+      "(62.2)8",
+      "(12.2)8",
+      "(50.2)8",
+      "(65.1)8",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "(62.2)8",
+      "(12.2)8",
+      "(50.2)8",
+      "(65.1)8",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "001 010 . 010 gives 12.2 in octal.",
+    "solution_hi": "001 010 . 010 से अष्टाधारी 12.2 मिलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The sum of the binary numbers 11011 and 10111 is:",
+    "question_hi": "द्विआधारी संख्या 11011 और 10111 का योग है:",
+    "options": [
+      "10010",
+      "11001",
+      "110010",
+      "010010",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10010",
+      "11001",
+      "110010",
+      "010010",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "27 plus 23 is 50, which is 110010.",
+    "solution_hi": "27 + 23 = 50 अर्थात 110010।",
+    "marks": "1"
+  }
+]
