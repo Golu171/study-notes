@@ -1,0 +1,1586 @@
+[
+  {
+    "question": "The software used to create financial statements with rows and columns of figures is a:",
+    "question_hi": "पंक्तियों एवं स्तंभों में अंकों सहित वित्तीय विवरण बनाने वाला सॉफ्टवेयर है:",
+    "options": [
+      "Word processor",
+      "Spreadsheet",
+      "Database",
+      "Presentation package",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "शब्द संसाधक",
+      "स्प्रेडशीट",
+      "डेटाबेस",
+      "प्रस्तुतीकरण पैकेज",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Spreadsheets handle financial statements.",
+    "solution_hi": "स्प्रेडशीट वित्तीय विवरण संभालती है।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel, the intersection point of a row and a column within a worksheet is called a:",
+    "question_hi": "एमएस एक्सेल में कार्यपत्रक के भीतर पंक्ति एवं स्तंभ का प्रतिच्छेदन बिंदु कहलाता है:",
+    "options": [
+      "Cell",
+      "Range",
+      "Field",
+      "Node",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "कोशिका",
+      "परास",
+      "क्षेत्र",
+      "नोड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "That intersection is a cell.",
+    "solution_hi": "वह प्रतिच्छेदन कोशिका है।",
+    "marks": "1"
+  },
+  {
+    "question": "Each cell in an MS Excel worksheet is identified by its:",
+    "question_hi": "एमएस एक्सेल कार्यपत्रक की प्रत्येक कोशिका किससे पहचानी जाती है?",
+    "options": [
+      "Serial number",
+      "Value",
+      "Cell address",
+      "Format",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "क्रम संख्या",
+      "मान",
+      "कोशिका पता",
+      "प्रारूप",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "A cell is identified by its address or reference.",
+    "solution_hi": "कोशिका अपने पते अथवा संदर्भ से पहचानी जाती है।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel, letters of the alphabet are used to define:",
+    "question_hi": "एमएस एक्सेल में वर्णमाला के अक्षर किसे परिभाषित करते हैं?",
+    "options": [
+      "Rows",
+      "Sheets",
+      "Columns",
+      "Ranges",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "पंक्तियाँ",
+      "शीट",
+      "स्तंभ",
+      "परास",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Columns are labelled with letters.",
+    "solution_hi": "स्तंभ अक्षरों से नामित होते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The address of the cell in the seventh column of the sixth row in an MS Excel worksheet is:",
+    "question_hi": "एमएस एक्सेल कार्यपत्रक में छठी पंक्ति के सातवें स्तंभ की कोशिका का पता है:",
+    "options": [
+      "F7",
+      "G6",
+      "G7",
+      "F6",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "F7",
+      "G6",
+      "G7",
+      "F6",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "The seventh column is G and the sixth row is 6.",
+    "solution_hi": "सातवाँ स्तंभ G एवं छठी पंक्ति 6 है।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel 365, the cell address of the intersection of column L and row 26 is:",
+    "question_hi": "एमएस एक्सेल 365 में स्तंभ L एवं पंक्ति 26 के प्रतिच्छेदन का कोशिका पता है:",
+    "options": [
+      "L26",
+      "26L",
+      "L-26",
+      "26-L",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "L26",
+      "26L",
+      "L-26",
+      "26-L",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "The column letter precedes the row number.",
+    "solution_hi": "स्तंभ अक्षर पंक्ति संख्या से पहले आता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The cell with a dark boundary in an MS Excel worksheet is called the:",
+    "question_hi": "एमएस एक्सेल कार्यपत्रक में गहरी सीमा वाली कोशिका कहलाती है:",
+    "options": [
+      "Locked cell",
+      "Merged cell",
+      "Active cell",
+      "Named cell",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "लॉक कोशिका",
+      "विलयित कोशिका",
+      "सक्रिय कोशिका",
+      "नामित कोशिका",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "The highlighted cell is the active cell.",
+    "solution_hi": "उभरी कोशिका सक्रिय कोशिका है।",
+    "marks": "1"
+  },
+  {
+    "question": "In an MS Excel worksheet, the content of the active cell is displayed in the:",
+    "question_hi": "एमएस एक्सेल कार्यपत्रक में सक्रिय कोशिका की सामग्री कहाँ दिखती है?",
+    "options": [
+      "Formula bar",
+      "Status bar",
+      "Name box",
+      "Title bar",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "सूत्र पट्टी",
+      "स्थिति पट्टी",
+      "नाम बॉक्स",
+      "शीर्षक पट्टी",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "The formula bar shows the cell content.",
+    "solution_hi": "सूत्र पट्टी कोशिका की सामग्री दिखाती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The symbol used before a formula in a Microsoft Excel sheet is:",
+    "question_hi": "माइक्रोसॉफ्ट एक्सेल शीट में सूत्र से पहले प्रयुक्त प्रतीक है:",
+    "options": [
+      "Plus sign",
+      "Hash sign",
+      "Asterisk",
+      "Equals sign",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "धन चिह्न",
+      "हैश चिह्न",
+      "तारांकन",
+      "बराबर चिह्न",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Every formula begins with an equals sign.",
+    "solution_hi": "प्रत्येक सूत्र बराबर चिह्न से आरंभ होता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The character used to create an absolute cell address in MS Excel is the:",
+    "question_hi": "एमएस एक्सेल में निरपेक्ष कोशिका पता बनाने हेतु प्रयुक्त वर्ण है:",
+    "options": [
+      "Hash sign",
+      "Dollar sign",
+      "Ampersand",
+      "Percent sign",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "हैश चिह्न",
+      "डॉलर चिह्न",
+      "एम्परसैंड",
+      "प्रतिशत चिह्न",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "The dollar sign fixes the reference.",
+    "solution_hi": "डॉलर चिह्न संदर्भ स्थिर करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The default alignment of numbers in an Excel worksheet is:",
+    "question_hi": "एक्सेल कार्यपत्रक में अंकों का डिफ़ॉल्ट संरेखण है:",
+    "options": [
+      "Left",
+      "Justified",
+      "Centre",
+      "Right",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "बाएँ",
+      "समान्तर",
+      "मध्य",
+      "दाएँ",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Numbers align to the right by default.",
+    "solution_hi": "अंक डिफ़ॉल्ट रूप से दाएँ संरेखित होते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The default vertical alignment of text in an Excel worksheet is:",
+    "question_hi": "एक्सेल कार्यपत्रक में पाठ का डिफ़ॉल्ट ऊर्ध्वाधर संरेखण है:",
+    "options": [
+      "Top",
+      "Middle",
+      "Bottom",
+      "Justified",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "ऊपर",
+      "मध्य",
+      "नीचे",
+      "समान्तर",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Text sits at the bottom of the cell by default.",
+    "solution_hi": "पाठ डिफ़ॉल्ट रूप से कोशिका के नीचे रहता है।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel 365, the default row height and column width are respectively:",
+    "question_hi": "एमएस एक्सेल 365 में डिफ़ॉल्ट पंक्ति ऊँचाई एवं स्तंभ चौड़ाई क्रमशः हैं:",
+    "options": [
+      "12 and 10",
+      "20 and 12",
+      "15 and 8.43",
+      "10 and 15",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "12 एवं 10",
+      "20 एवं 12",
+      "15 एवं 8.43",
+      "10 एवं 15",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "The defaults are 15 and 8.43.",
+    "solution_hi": "डिफ़ॉल्ट 15 एवं 8.43 हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "By default, the number of worksheets present in a workbook of MS Excel 2010 is:",
+    "question_hi": "एमएस एक्सेल 2010 की कार्यपुस्तिका में डिफ़ॉल्ट कार्यपत्रकों की संख्या है:",
+    "options": [
+      "1",
+      "10",
+      "5",
+      "3",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1",
+      "10",
+      "5",
+      "3",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Excel 2010 opens with three sheets.",
+    "solution_hi": "एक्सेल 2010 तीन शीट के साथ खुलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The function used to add up the values in a range in MS Excel is:",
+    "question_hi": "एमएस एक्सेल में किसी परास के मान जोड़ने वाला फलन है:",
+    "options": [
+      "COUNT",
+      "SUM",
+      "AVERAGE",
+      "TOTAL",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "COUNT",
+      "SUM",
+      "AVERAGE",
+      "TOTAL",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "SUM adds the values in a range.",
+    "solution_hi": "SUM परास के मान जोड़ता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The Excel function that reports how many cells in a range hold numbers is:",
+    "question_hi": "किसी परास की कितनी कोशिकाओं में संख्याएँ हैं, यह बताने वाला एक्सेल फलन है:",
+    "options": [
+      "SUM",
+      "TRIM",
+      "MATCH",
+      "COUNT",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "SUM",
+      "TRIM",
+      "MATCH",
+      "COUNT",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "COUNT counts numeric entries.",
+    "solution_hi": "COUNT संख्यात्मक प्रविष्टियाँ गिनता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The Excel function used to find the smallest value in a range of cells is:",
+    "question_hi": "कोशिकाओं के परास में सबसे छोटा मान खोजने वाला एक्सेल फलन है:",
+    "options": [
+      "MIN",
+      "MAX",
+      "SMALL",
+      "LOW",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "MIN",
+      "MAX",
+      "SMALL",
+      "LOW",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "MIN returns the smallest value.",
+    "solution_hi": "MIN सबसे छोटा मान देता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The Excel function used to locate the position of a lookup value in a row, column or table is:",
+    "question_hi": "पंक्ति, स्तंभ अथवा तालिका में खोज मान की स्थिति ज्ञात करने वाला एक्सेल फलन है:",
+    "options": [
+      "INDEX",
+      "FIND",
+      "LOOKUP",
+      "MATCH",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "INDEX",
+      "FIND",
+      "LOOKUP",
+      "MATCH",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "MATCH returns the position of a value.",
+    "solution_hi": "MATCH मान की स्थिति देता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The Excel function that removes irregular spacing, leaving one space between values, is:",
+    "question_hi": "अनियमित रिक्ति हटाकर मानों के बीच एक स्थान छोड़ने वाला एक्सेल फलन है:",
+    "options": [
+      "CLEAN",
+      "PROPER",
+      "SUBSTITUTE",
+      "TRIM",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "CLEAN",
+      "PROPER",
+      "SUBSTITUTE",
+      "TRIM",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "TRIM normalises the spacing.",
+    "solution_hi": "TRIM रिक्ति सामान्य करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The Excel function used to display the current date is:",
+    "question_hi": "वर्तमान तिथि दिखाने हेतु प्रयुक्त एक्सेल फलन है:",
+    "options": [
+      "TODAY()",
+      "NOW()",
+      "DATE()",
+      "CURRENT()",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "TODAY()",
+      "NOW()",
+      "DATE()",
+      "CURRENT()",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "TODAY returns the current date.",
+    "solution_hi": "TODAY वर्तमान तिथि देता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The correct syntax to enter a date in MS Excel 365 is:",
+    "question_hi": "एमएस एक्सेल 365 में तिथि दर्ज करने का सही वाक्य विन्यास है:",
+    "options": [
+      "=DATE(year,month,day)",
+      "=DATE(day,month,year)",
+      "=DATE(month,day,year)",
+      "=DATE(year,day,month)",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "=DATE(year,month,day)",
+      "=DATE(day,month,year)",
+      "=DATE(month,day,year)",
+      "=DATE(year,day,month)",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "The order is year, month and then day.",
+    "solution_hi": "क्रम वर्ष, माह फिर दिन है।",
+    "marks": "1"
+  },
+  {
+    "question": "The correct syntax for the SUMIF function in MS Excel is:",
+    "question_hi": "एमएस एक्सेल में SUMIF फलन का सही वाक्य विन्यास है:",
+    "options": [
+      "SUMIF(criteria, range, sum_range)",
+      "SUMIF(range, sum_range, criteria)",
+      "SUMIF(sum_range, range, criteria)",
+      "SUMIF(range, criteria, [sum_range])",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "SUMIF(criteria, range, sum_range)",
+      "SUMIF(range, sum_range, criteria)",
+      "SUMIF(sum_range, range, criteria)",
+      "SUMIF(range, criteria, [sum_range])",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Range comes first, then criteria, then the optional sum range.",
+    "solution_hi": "पहले परास, फिर मानदंड, फिर वैकल्पिक योग परास।",
+    "marks": "1"
+  },
+  {
+    "question": "The simple MS Excel 365 function that raises a given number to an exponent is:",
+    "question_hi": "दिए गए अंक को घात तक उठाने वाला सरल एमएस एक्सेल 365 फलन है:",
+    "options": [
+      "POWER",
+      "EXP",
+      "RAISE",
+      "SQRT",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "POWER",
+      "EXP",
+      "RAISE",
+      "SQRT",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "POWER raises a number to an exponent.",
+    "solution_hi": "POWER अंक को घात तक उठाता है।",
+    "marks": "1"
+  },
+  {
+    "question": "ABS, LOG, FACT, SIN and TAN belong to which category of MS Excel functions?",
+    "question_hi": "ABS, LOG, FACT, SIN एवं TAN एमएस एक्सेल फलनों की किस श्रेणी के हैं?",
+    "options": [
+      "Text functions",
+      "Math and trigonometric functions",
+      "Logical functions",
+      "Lookup functions",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "पाठ फलन",
+      "गणित एवं त्रिकोणमितीय फलन",
+      "तार्किक फलन",
+      "खोज फलन",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "These are math and trigonometry functions.",
+    "solution_hi": "ये गणित एवं त्रिकोणमिति फलन हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "A predefined formula that performs calculations using values in a specific order is called a:",
+    "question_hi": "विशिष्ट क्रम में मानों से गणना करने वाला पूर्व परिभाषित सूत्र कहलाता है:",
+    "options": [
+      "Function",
+      "Macro",
+      "Query",
+      "Filter",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "फलन",
+      "मैक्रो",
+      "क्वेरी",
+      "फिल्टर",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Predefined formulas are functions.",
+    "solution_hi": "पूर्व परिभाषित सूत्र फलन हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The MS Excel feature used to change the appearance of cells in a range based on specified conditions is:",
+    "question_hi": "निर्दिष्ट शर्तों के आधार पर परास की कोशिकाओं का रूप बदलने वाली एमएस एक्सेल सुविधा है:",
+    "options": [
+      "Data validation",
+      "Conditional formatting",
+      "Cell styles",
+      "Filtering",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "डेटा वैलिडेशन",
+      "सशर्त स्वरूपण",
+      "सेल शैली",
+      "फिल्टरिंग",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "This feature is conditional formatting.",
+    "solution_hi": "यह सुविधा सशर्त स्वरूपण है।",
+    "marks": "1"
+  },
+  {
+    "question": "The MS Excel feature used to visually represent data graphically is called:",
+    "question_hi": "आँकड़ों का ग्राफीय दृश्य निरूपण करने वाली एमएस एक्सेल सुविधा कहलाती है:",
+    "options": [
+      "Charts",
+      "Tables",
+      "Filters",
+      "Slicers",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "चार्ट",
+      "तालिकाएँ",
+      "फिल्टर",
+      "स्लाइसर",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Charts display data graphically.",
+    "solution_hi": "चार्ट आँकड़े ग्राफीय रूप में दिखाते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The chart type best suited for showing trends over time is the:",
+    "question_hi": "समय के साथ प्रवृत्तियाँ दिखाने हेतु सर्वाधिक उपयुक्त चार्ट प्रकार है:",
+    "options": [
+      "Pie chart",
+      "Line chart",
+      "Doughnut chart",
+      "Radar chart",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "पाई चार्ट",
+      "लाइन चार्ट",
+      "डोनट चार्ट",
+      "रडार चार्ट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Line charts show trends over time.",
+    "solution_hi": "लाइन चार्ट समय के साथ प्रवृत्तियाँ दिखाते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel 365, the chart used to show the change of magnitude over a period of time is the:",
+    "question_hi": "एमएस एक्सेल 365 में समयावधि में परिमाण परिवर्तन दिखाने वाला चार्ट है:",
+    "options": [
+      "Pie chart",
+      "Bubble chart",
+      "Scatter chart",
+      "Area chart",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "पाई चार्ट",
+      "बबल चार्ट",
+      "स्कैटर चार्ट",
+      "एरिया चार्ट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Area charts emphasise magnitude over time.",
+    "solution_hi": "एरिया चार्ट समय के साथ परिमाण पर बल देते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel 365, a contour map is an example of which chart type?",
+    "question_hi": "एमएस एक्सेल 365 में समोच्च मानचित्र किस चार्ट प्रकार का उदाहरण है?",
+    "options": [
+      "Radar chart",
+      "Bubble chart",
+      "Surface chart",
+      "Stock chart",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "रडार चार्ट",
+      "बबल चार्ट",
+      "सरफेस चार्ट",
+      "स्टॉक चार्ट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Contour maps are surface charts.",
+    "solution_hi": "समोच्च मानचित्र सरफेस चार्ट हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The powerful MS Excel tool used to calculate, summarise and analyse data to reveal comparisons and trends is the:",
+    "question_hi": "तुलना एवं प्रवृत्ति दिखाने हेतु आँकड़ों की गणना, सारांश एवं विश्लेषण करने वाला शक्तिशाली एमएस एक्सेल उपकरण है:",
+    "options": [
+      "Goal Seek",
+      "Solver",
+      "Pivot table",
+      "Scenario Manager",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "गोल सीक",
+      "सॉल्वर",
+      "पिवट टेबल",
+      "सिनेरियो मैनेजर",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Pivot tables summarise and analyse data.",
+    "solution_hi": "पिवट टेबल आँकड़ों का सारांश एवं विश्लेषण करती है।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel 365, data can be sorted in ascending or descending order through:",
+    "question_hi": "एमएस एक्सेल 365 में आँकड़े आरोही अथवा अवरोही क्रम में किसके द्वारा क्रमबद्ध होते हैं?",
+    "options": [
+      "Home then Format",
+      "Data then Sort",
+      "Insert then Table",
+      "View then Arrange",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "होम फिर फॉर्मेट",
+      "डेटा फिर सॉर्ट",
+      "इंसर्ट फिर टेबल",
+      "व्यू फिर अरेंज",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Sorting sits under the Data tab.",
+    "solution_hi": "क्रमबद्धता डेटा टैब के अंतर्गत है।",
+    "marks": "1"
+  },
+  {
+    "question": "The block of cells a user marks out so that only it goes to the printer in MS Excel is called the:",
+    "question_hi": "एमएस एक्सेल में उपयोगकर्ता द्वारा चिह्नित वह कोशिका खंड जो केवल वही मुद्रक तक जाए, कहलाता है:",
+    "options": [
+      "Print preview",
+      "Page break area",
+      "Print area",
+      "Header area",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "प्रिंट प्रीव्यू",
+      "पेज ब्रेक क्षेत्र",
+      "प्रिंट क्षेत्र",
+      "शीर्षलेख क्षेत्र",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "That selection is the print area.",
+    "solution_hi": "वह चयन प्रिंट क्षेत्र है।",
+    "marks": "1"
+  },
+  {
+    "question": "The default print range in MS Excel 365 when printing an entire worksheet is the:",
+    "question_hi": "संपूर्ण कार्यपत्रक मुद्रित करते समय एमएस एक्सेल 365 का डिफ़ॉल्ट मुद्रण परास है:",
+    "options": [
+      "Active sheet",
+      "Entire workbook",
+      "Selection",
+      "Print area only",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "सक्रिय शीट",
+      "संपूर्ण कार्यपुस्तिका",
+      "चयन",
+      "केवल प्रिंट क्षेत्र",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Excel prints the active sheet by default.",
+    "solution_hi": "एक्सेल डिफ़ॉल्ट रूप से सक्रिय शीट मुद्रित करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The bar that provides access to all spreadsheet commands and features in MS Excel 365 is the:",
+    "question_hi": "एमएस एक्सेल 365 में सभी स्प्रेडशीट कमांड एवं सुविधाओं तक पहुँच देने वाली पट्टी है:",
+    "options": [
+      "Formula bar",
+      "Ribbon",
+      "Status bar",
+      "Name box",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "सूत्र पट्टी",
+      "रिबन",
+      "स्थिति पट्टी",
+      "नाम बॉक्स",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "The Ribbon holds the commands.",
+    "solution_hi": "रिबन में कमांड रहते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The purpose of the Undo command in MS Excel is to:",
+    "question_hi": "एमएस एक्सेल में अनडू कमांड का उद्देश्य है:",
+    "options": [
+      "Repeat the last action",
+      "Save the workbook",
+      "Reverse the last action performed",
+      "Close the sheet",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "अंतिम क्रिया दोहराना",
+      "कार्यपुस्तिका सहेजना",
+      "अंतिम की गई क्रिया पलटना",
+      "शीट बंद करना",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Undo reverses the previous action.",
+    "solution_hi": "अनडू पिछली क्रिया पलटता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut key used to start a new line within the same cell in MS Excel 365 is:",
+    "question_hi": "एमएस एक्सेल 365 में एक ही कोशिका में नई पंक्ति आरंभ करने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + Enter",
+      "Shift + Enter",
+      "Alt + Enter",
+      "Tab + Enter",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + Enter",
+      "Shift + Enter",
+      "Alt + Enter",
+      "Tab + Enter",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Alt and Enter wraps to a new line in the cell.",
+    "solution_hi": "Alt एवं Enter कोशिका में नई पंक्ति देते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The function key used in MS Excel to switch a cell to edit mode is:",
+    "question_hi": "एमएस एक्सेल में कोशिका को संपादन विधा में लाने वाली फंक्शन कुंजी है:",
+    "options": [
+      "F1",
+      "F9",
+      "F4",
+      "F2",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "F1",
+      "F9",
+      "F4",
+      "F2",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "F2 puts the cell into edit mode.",
+    "solution_hi": "F2 कोशिका को संपादन विधा में लाती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut key used to make the contents of a cell italic in MS Excel 365 is:",
+    "question_hi": "एमएस एक्सेल 365 में कोशिका की सामग्री तिरछी करने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + 2",
+      "Ctrl + 4",
+      "Ctrl + 3",
+      "Ctrl + 5",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + 2",
+      "Ctrl + 4",
+      "Ctrl + 3",
+      "Ctrl + 5",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Ctrl and 3 toggles italics in Excel.",
+    "solution_hi": "Ctrl एवं 3 एक्सेल में तिरछा टॉगल करते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut key used to underline the contents of a cell in MS Excel is:",
+    "question_hi": "एमएस एक्सेल में कोशिका की सामग्री रेखांकित करने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + 4",
+      "Ctrl + 3",
+      "Ctrl + 2",
+      "Ctrl + 6",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + 4",
+      "Ctrl + 3",
+      "Ctrl + 2",
+      "Ctrl + 6",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Ctrl and 4 toggles underline in Excel.",
+    "solution_hi": "Ctrl एवं 4 एक्सेल में रेखांकन टॉगल करते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut used to copy the contents and format of the topmost cell of a selected range in MS Excel 365 is:",
+    "question_hi": "एमएस एक्सेल 365 में चयनित परास की सबसे ऊपरी कोशिका की सामग्री एवं प्रारूप की प्रति बनाने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + R",
+      "Ctrl + E",
+      "Ctrl + D",
+      "Ctrl + F",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + R",
+      "Ctrl + E",
+      "Ctrl + D",
+      "Ctrl + F",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Ctrl and D fills down from the top cell.",
+    "solution_hi": "Ctrl एवं D ऊपरी कोशिका से नीचे भरते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut key used to fill selected cells from the active cell to the right in MS Excel is:",
+    "question_hi": "एमएस एक्सेल में सक्रिय कोशिका से दाईं ओर चयनित कोशिकाएँ भरने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + D",
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + D",
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Ctrl and R fills to the right.",
+    "solution_hi": "Ctrl एवं R दाईं ओर भरते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut key used to select an entire row in MS Excel is:",
+    "question_hi": "एमएस एक्सेल में संपूर्ण पंक्ति चुनने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + Spacebar",
+      "Shift + Spacebar",
+      "Alt + Spacebar",
+      "Ctrl + Shift + Spacebar",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + स्पेसबार",
+      "Shift + स्पेसबार",
+      "Alt + स्पेसबार",
+      "Ctrl + Shift + स्पेसबार",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Shift and spacebar selects the row.",
+    "solution_hi": "Shift एवं स्पेसबार पंक्ति चुनते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel, an entire column is highlighted by pressing:",
+    "question_hi": "एमएस एक्सेल में संपूर्ण स्तंभ किसे दबाकर चुना जाता है?",
+    "options": [
+      "Shift + Spacebar",
+      "Ctrl + Spacebar",
+      "Alt + Spacebar",
+      "Ctrl + Shift + Enter",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Shift + स्पेसबार",
+      "Ctrl + स्पेसबार",
+      "Alt + स्पेसबार",
+      "Ctrl + Shift + Enter",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Ctrl and spacebar selects the column.",
+    "solution_hi": "Ctrl एवं स्पेसबार स्तंभ चुनते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut used to insert a new row in MS Excel 365 is:",
+    "question_hi": "एमएस एक्सेल 365 में नई पंक्ति जोड़ने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + Insert",
+      "Alt + Insert",
+      "Ctrl + Shift + Plus sign",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + N",
+      "Ctrl + Insert",
+      "Alt + Insert",
+      "Ctrl + Shift + धन चिह्न",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Holding Ctrl and Shift with the plus key inserts a row.",
+    "solution_hi": "Ctrl एवं Shift के साथ धन कुंजी पंक्ति जोड़ती है।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut used to create a new blank workbook in MS Excel is:",
+    "question_hi": "एमएस एक्सेल में नई रिक्त कार्यपुस्तिका बनाने का शॉर्टकट है:",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + O",
+      "Ctrl + W",
+      "Ctrl + B",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + N",
+      "Ctrl + O",
+      "Ctrl + W",
+      "Ctrl + B",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Ctrl and N creates a new workbook.",
+    "solution_hi": "Ctrl एवं N नई कार्यपुस्तिका बनाते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "The shortcut key used to insert a new worksheet in Microsoft Excel is:",
+    "question_hi": "माइक्रोसॉफ्ट एक्सेल में नया कार्यपत्रक जोड़ने का शॉर्टकट है:",
+    "options": [
+      "F11",
+      "Shift + F11",
+      "Ctrl + F11",
+      "Alt + F11",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "F11",
+      "Shift + F11",
+      "Ctrl + F11",
+      "Alt + F11",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Shift and F11 adds a worksheet.",
+    "solution_hi": "Shift एवं F11 कार्यपत्रक जोड़ते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "A worksheet in MS Excel, also known as a ........., is a table in which you enter data and data labels.",
+    "question_hi": "एमएस एक्सेल में एक वर्कशीट, जिसे ......... भी कहा जाता है, एक तालिका है जिसमें आप डेटा और डेटा लेबल दर्ज करते हैं।",
+    "options": [
+      "Datasheet",
+      "Data room",
+      "Data set",
+      "Spreadsheet",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "डेटाशीट",
+      "डेटा रूम",
+      "डेटा सेट",
+      "स्प्रेडशीट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "A worksheet is also called a spreadsheet.",
+    "solution_hi": "वर्कशीट को स्प्रेडशीट भी कहते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "......... is a rule as to what kind of data can be entered in a cell.",
+    "question_hi": "......... एक नियम है कि किसी सेल में किस प्रकार का डेटा दर्ज किया जा सकता है।",
+    "options": [
+      "Drafting rules",
+      "Transit rules",
+      "Data validation rules",
+      "Format rule",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "ड्राफ्टिंग रूल्स",
+      "ट्रांजिट रूल्स",
+      "डेटा वैलिडेशन रूल्स",
+      "फॉर्मेट रूल",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Data validation restricts what a cell accepts.",
+    "solution_hi": "डेटा वैलिडेशन सेल की स्वीकार्य प्रविष्टि सीमित करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The TEXT function in MS Excel useful to combine values from different cells into a single cell is:",
+    "question_hi": "एमएस एक्सेल में एक टेक्स्ट फंक्शन है, जो विभिन्न सेल से मानों को एक ही सेल में संयोजित करने के लिए उपयोगी है।",
+    "options": [
+      "CONCATENATE",
+      "EVEN",
+      "ADD",
+      "MERGER",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "CONCATENATE",
+      "EVEN",
+      "ADD",
+      "MERGER",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "CONCATENATE joins text from several cells.",
+    "solution_hi": "CONCATENATE कई सेल का टेक्स्ट जोड़ता है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which of the following is used as an electronic spreadsheet?",
+    "question_hi": "निम्नलिखित में से किसका उपयोग इलेक्ट्रॉनिक स्प्रेडशीट के रूप में किया जाता है?",
+    "options": [
+      "Microsoft Word",
+      "Microsoft PowerPoint",
+      "Microsoft Excel",
+      "Microsoft Access",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "माइक्रोसॉफ्ट वर्ड",
+      "माइक्रोसॉफ्ट पावरपॉइंट",
+      "माइक्रोसॉफ्ट एक्सेल",
+      "माइक्रोसॉफ्ट एक्सेस",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Excel is the electronic spreadsheet package.",
+    "solution_hi": "एक्सेल इलेक्ट्रॉनिक स्प्रेडशीट पैकेज है।",
+    "marks": "1"
+  },
+  {
+    "question": "Microsoft Excel comes under the category of:",
+    "question_hi": "माइक्रोसॉफ्ट एक्सेल किस श्रेणी में आता है?",
+    "options": [
+      "Table sheets",
+      "Calculation sheets",
+      "Spreadsheets",
+      "Word sheets",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "टेबल शीट",
+      "कैलकुलेशन शीट",
+      "स्प्रेडशीट",
+      "वर्ड शीट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Excel is spreadsheet software.",
+    "solution_hi": "एक्सेल स्प्रेडशीट सॉफ्टवेयर है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which of the following is not a valid formula in MS Excel?",
+    "question_hi": "निम्नलिखित में से कौन सा एमएस-एक्सेल में मान्य फॉर्मूला नहीं है?",
+    "options": [
+      "=AVG(A1:A6)",
+      "=AVERAGE(A1:A6)",
+      "=MEDIAN(A1:A6)",
+      "=MEDIAN(2,4,4,5)",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "=AVG(A1:A6)",
+      "=AVERAGE(A1:A6)",
+      "=MEDIAN(A1:A6)",
+      "=MEDIAN(2,4,4,5)",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Excel has no AVG function; it uses AVERAGE.",
+    "solution_hi": "एक्सेल में AVG नहीं है; AVERAGE प्रयोग होता है।",
+    "marks": "1"
+  },
+  {
+    "question": "You want to highlight numbers between 11 and 30 in a range of cells in yellow. Which command in MS Excel 2010 helps you?",
+    "question_hi": "आप सेल की श्रेणी में 11 और 30 के बीच की संख्याओं को पीले रंग में हाइलाइट करना चाहते हैं। एमएस एक्सेल 2010 में कौन सा कमांड मदद करेगा?",
+    "options": [
+      "Conditional Formatting command",
+      "Sort command",
+      "Filter command",
+      "Format command",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "कंडीशनल फॉर्मेटिंग कमांड",
+      "सॉर्ट कमांड",
+      "फिल्टर कमांड",
+      "फॉर्मेट कमांड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Conditional formatting colours cells by rule.",
+    "solution_hi": "कंडीशनल फॉर्मेटिंग नियम से सेल रंगती है।",
+    "marks": "1"
+  },
+  {
+    "question": "You have long text in a cell and want it to appear on multiple lines. How can you do this in MS Excel 2010?",
+    "question_hi": "आपके पास एक सेल में लंबा टेक्स्ट है और आप चाहते हैं कि यह टेक्स्ट कई पंक्तियों में दिखाई दे। आप MS Excel 2010 में यह कैसे कर सकते हैं?",
+    "options": [
+      "Select the text, click on View > Page Break Preview",
+      "Select the text, click on Page Layout > Breaks",
+      "Select the text, click on Home, in the Alignment group select Wrap Text",
+      "None of the above",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "टेक्स्ट चुनें, व्यू > पेज ब्रेक प्रीव्यू",
+      "टेक्स्ट चुनें, पेज लेआउट > ब्रेक्स",
+      "टेक्स्ट चुनें, होम में एलाइनमेंट समूह से रैप टेक्स्ट चुनें",
+      "इनमें से कोई नहीं",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "Wrap Text breaks long text into lines.",
+    "solution_hi": "रैप टेक्स्ट लंबे टेक्स्ट को पंक्तियों में तोड़ता है।",
+    "marks": "1"
+  },
+  {
+    "question": "How do you fill a certain colour inside a row in an MS Excel worksheet?",
+    "question_hi": "आप एमएस एक्सेल वर्कशीट में एक पंक्ति के अंदर एक निश्चित रंग कैसे भरते हैं?",
+    "options": [
+      "Using the Fill Color command",
+      "Using the border command",
+      "Using the font color command",
+      "Using the Alignment command",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "फिल कलर कमांड",
+      "बॉर्डर कमांड",
+      "फॉन्ट कलर कमांड",
+      "एलाइनमेंट कमांड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Fill Color shades the selected cells.",
+    "solution_hi": "फिल कलर चयनित सेल रंगता है।",
+    "marks": "1"
+  },
+  {
+    "question": "You want to change the font face or theme of text in a cell in an Excel 2010 worksheet. Which command would you use?",
+    "question_hi": "आप Excel 2010 वर्कशीट में किसी सेल में टेक्स्ट का फ़ॉन्ट फेस/थीम बदलना चाहते हैं। आप निम्न में से किस कमांड का उपयोग करेंगे?",
+    "options": [
+      "Font command on the Home tab",
+      "Font size command on Home tab",
+      "Font colour command on Home tab",
+      "Alignment command",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "होम टैब पर फॉन्ट कमांड",
+      "होम टैब पर फॉन्ट साइज कमांड",
+      "होम टैब पर फॉन्ट कलर कमांड",
+      "एलाइनमेंट कमांड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "The Font command changes the typeface.",
+    "solution_hi": "फॉन्ट कमांड टाइपफेस बदलता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What will be the output of =COUNT(B1:B98) in an MS Excel 2010 document?",
+    "question_hi": "MS Excel 2010 दस्तावेज़ में =count B1:B98 का आउटपुट क्या होगा?",
+    "options": [
+      "Count is an invalid function",
+      "Counts cells from B1 to B98 that contain numbers",
+      "#NULL! appears",
+      "Counts cells B1 to B99 that contain numbers",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "काउंट अमान्य फंक्शन है",
+      "B1 से B98 तक की संख्या वाली सेल गिनता है",
+      "#NULL! दिखता है",
+      "B1 से B99 तक की संख्या वाली सेल गिनता है",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "COUNT counts numeric cells in the range.",
+    "solution_hi": "COUNT परास की संख्यात्मक सेल गिनता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What will be the output of SUM(C2:C8) in MS Excel?",
+    "question_hi": "एमएस एक्सेल में Sum(C2:C8) का आउटपुट क्या होगा?",
+    "options": [
+      "Shows the addition from C2 to C8 cells in which numbers are present",
+      "Counts the total number of cells",
+      "Shows the addition of cells C1 to C7 that contain numbers",
+      "NULL appears in the respective cell",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "C2 से C8 तक की संख्या वाली सेल का योग दिखाता है",
+      "कुल सेल की संख्या गिनता है",
+      "C1 से C7 तक की संख्या वाली सेल का योग दिखाता है",
+      "संबंधित सेल में NULL दिखता है",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "SUM adds the values from C2 to C8.",
+    "solution_hi": "SUM C2 से C8 तक के मान जोड़ता है।",
+    "marks": "1"
+  },
+  {
+    "question": "You want to sort the data in columns in ascending order. Which command will you use in MS Excel?",
+    "question_hi": "आप कॉलम में डेटा को आरोही क्रम में क्रमबद्ध करना चाहते हैं। आप किस कमांड का उपयोग करेंगे?",
+    "options": [
+      "Sort",
+      "Filter",
+      "Consolidate",
+      "Group",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "सॉर्ट",
+      "फिल्टर",
+      "कंसोलिडेट",
+      "ग्रुप",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "The Sort command orders the data.",
+    "solution_hi": "सॉर्ट कमांड डेटा क्रमबद्ध करता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What would you do to insert a formula in Microsoft Excel 2010?",
+    "question_hi": "Microsoft Excel 2010 में कोई फ़ॉर्मूला सम्मिलित करने के लिए आप क्या करेंगे?",
+    "options": [
+      "Select New Command from the File menu and enter the formula",
+      "Select the cell, type the = sign and then type the formula",
+      "Select the cell and type the formula",
+      "Select the cell, type the + sign and type the formula",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "फाइल मेनू से न्यू कमांड चुनें और फॉर्मूला दर्ज करें",
+      "सेल चुनें, = चिह्न लिखें फिर फॉर्मूला लिखें",
+      "सेल चुनें और फॉर्मूला लिखें",
+      "सेल चुनें, + चिह्न लिखें और फॉर्मूला लिखें",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Every Excel formula begins with an equals sign.",
+    "solution_hi": "प्रत्येक एक्सेल फॉर्मूला बराबर चिह्न से आरंभ होता है।",
+    "marks": "1"
+  },
+  {
+    "question": "In MS Excel, what is the shortcut key to launch the Open dialog box?",
+    "question_hi": "एमएस एक्सेल में, ओपन डायलॉग बॉक्स लॉन्च करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Alt + F12",
+      "Ctrl + F12",
+      "Shift + F12",
+      "F12",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Alt + F12",
+      "Ctrl + F12",
+      "Shift + F12",
+      "F12",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Ctrl and F12 opens a workbook.",
+    "solution_hi": "Ctrl एवं F12 कार्यपुस्तिका खोलते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "In Excel, you can select the entire row by pressing:",
+    "question_hi": "एक्सेल में, आप निम्न दबाकर पूरी पंक्ति का चयन कर सकते हैं:",
+    "options": [
+      "Ctrl + Space bar",
+      "F8 + arrow key",
+      "Shift + Arrow key",
+      "Shift + Spacebar",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + स्पेस बार",
+      "F8 + एरो की",
+      "Shift + एरो की",
+      "Shift + स्पेसबार",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "Shift and spacebar selects the row.",
+    "solution_hi": "Shift एवं स्पेसबार पंक्ति चुनते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": ".xlsx is an extension for:",
+    "question_hi": ".xlsx इसके लिए एक एक्सटेंशन है:",
+    "options": [
+      "Access",
+      "Excel",
+      "Word",
+      "PowerPoint",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एक्सेस",
+      "एक्सेल",
+      "वर्ड",
+      "पावरपॉइंट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "The .xlsx extension belongs to Excel.",
+    "solution_hi": ".xlsx एक्सटेंशन एक्सेल का है।",
+    "marks": "1"
+  },
+  {
+    "question": "A workbook in computer applications basically deals with:",
+    "question_hi": "कंप्यूटर अनुप्रयोग में कार्यपुस्तिका मूलतः निम्नलिखित से संबंधित है:",
+    "options": [
+      "MS Excel",
+      "Adobe Reader",
+      "MS PowerPoint",
+      "MS Word",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एमएस एक्सेल",
+      "एडोब रीडर",
+      "एमएस पावरपॉइंट",
+      "एमएस वर्ड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "An Excel file is called a workbook.",
+    "solution_hi": "एक्सेल फाइल कार्यपुस्तिका कहलाती है।",
+    "marks": "1"
+  },
+  {
+    "question": "Which is the default file extension of an Excel file in MS Office 2007?",
+    "question_hi": "एमएस ऑफिस 2007 में एक्सेल फ़ाइल का डिफ़ॉल्ट फ़ाइल एक्सटेंशन कौन सा है?",
+    "options": [
+      ".xls",
+      ".xlsx",
+      ".accts",
+      ".docx",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      ".xls",
+      ".xlsx",
+      ".accts",
+      ".docx",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Excel 2007 saves as .xlsx.",
+    "solution_hi": "एक्सेल 2007 .xlsx में सहेजता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the keyboard shortcut for charts in Excel?",
+    "question_hi": "एक्सेल में चार्ट के लिए कीबोर्ड शॉर्टकट क्या है?",
+    "options": [
+      "F2",
+      "F4",
+      "F8",
+      "F11",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "F2",
+      "F4",
+      "F8",
+      "F11",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "F11 creates a chart in a new sheet.",
+    "solution_hi": "F11 नई शीट में चार्ट बनाती है।",
+    "marks": "1"
+  },
+  {
+    "question": "In Microsoft Excel, the basic function of ......... is to join two or more text strings together.",
+    "question_hi": "माइक्रोसॉफ्ट एक्सेल में, ......... का मूल कार्य दो या अधिक टेक्स्ट स्ट्रिंग को एक साथ जोड़ना है।",
+    "options": [
+      "CONCATENATE",
+      "VLOOKUP",
+      "SUMIF",
+      "DSUM",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "CONCATENATE",
+      "VLOOKUP",
+      "SUMIF",
+      "DSUM",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "CONCATENATE joins text strings.",
+    "solution_hi": "CONCATENATE टेक्स्ट स्ट्रिंग जोड़ता है।",
+    "marks": "1"
+  },
+  {
+    "question": "What is the shortcut key to filter selected cells in MS Excel?",
+    "question_hi": "एमएस-एक्सेल में चयनित सेल्स को फ़िल्टर करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Shift + L",
+      "Ctrl + F",
+      "Alt + Click + L",
+      "Shift + F",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "Ctrl + Shift + L",
+      "Ctrl + F",
+      "Alt + Click + L",
+      "Shift + F",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "Ctrl, Shift and L toggles filters.",
+    "solution_hi": "Ctrl, Shift एवं L फिल्टर टॉगल करते हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Calc, Lotus 1-2-3 and Quattro Pro are popular examples of:",
+    "question_hi": "कैल्क, लोटस 1-2-3, क्वात्रो प्रो आदि ......... के लोकप्रिय उदाहरण हैं।",
+    "options": [
+      "Backup utility",
+      "Spreadsheet packages",
+      "Word processing software",
+      "DBMS",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "बैकअप यूटिलिटी",
+      "स्प्रेडशीट पैकेज",
+      "वर्ड प्रोसेसिंग सॉफ्टवेयर",
+      "डीबीएमएस",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "All three are spreadsheet programs.",
+    "solution_hi": "तीनों स्प्रेडशीट प्रोग्राम हैं।",
+    "marks": "1"
+  },
+  {
+    "question": "Which of the following is a spreadsheet application program?",
+    "question_hi": "निम्नलिखित में से कौन सा स्प्रेडशीट अनुप्रयोग प्रोग्राम है?",
+    "options": [
+      "MS Word",
+      "MS Excel",
+      "MS Access",
+      "MS PowerPoint",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "एमएस वर्ड",
+      "एमएस एक्सेल",
+      "एमएस एक्सेस",
+      "एमएस पावरपॉइंट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Excel is the spreadsheet program.",
+    "solution_hi": "एक्सेल स्प्रेडशीट प्रोग्राम है।",
+    "marks": "1"
+  },
+  {
+    "question": "The best application for expressing a large amount of detailed data would be:",
+    "question_hi": "विस्तृत डेटा की बड़ी मात्रा को व्यक्त करने के लिए सबसे अच्छा अनुप्रयोग होगा:",
+    "options": [
+      "Outlook",
+      "Excel",
+      "Word",
+      "PowerPoint",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "आउटलुक",
+      "एक्सेल",
+      "वर्ड",
+      "पावरपॉइंट",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "Excel handles large detailed data well.",
+    "solution_hi": "एक्सेल बड़ी विस्तृत सामग्री अच्छे से संभालता है।",
+    "marks": "1"
+  }
+]
