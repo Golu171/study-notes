@@ -3,5 +3,5 @@
 // Replace the placeholder below with your project's Publishable key.
 window.STUDY_NOTES_SUPABASE = {
   url: 'https://kmsoqpoqeftelauxucak.supabase.co',
-  key: "PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE"
+  key: "sb_publishable_i0FDg4guv95afGCx6oi4rA__ErKrex0"
 };
