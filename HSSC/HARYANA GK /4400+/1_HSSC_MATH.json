@@ -1,0 +1,332 @@
+[
+  {
+    "question": "A is 50% more efficient than B. Together they can complete a piece of work in 12 days. In how many days can A alone complete the work?",
+    "question_hi": "A, B से 50% अधिक कुशल (efficient) है। यदि वे दोनों मिलकर किसी कार्य को 12 दिनों में पूरा कर सकते हैं, तो A अकेला उस कार्य को कितने दिनों में पूरा करेगा?",
+    "options": [
+      "20",
+      "15",
+      "30",
+      "24",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "20",
+      "15",
+      "30",
+      "24",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "EN: Let the efficiency of B be 100. Since A is 50% more efficient, A's efficiency = 150. Ratio of their efficiencies (A:B) = 150:100 = 3:2. This means A does 3 units of work per day, and B does 2 units per day. Total work done by both in one day = 3 + 2 = 5 units. They finish the work in 12 days, so Total Work = 12 days × 5 units/day = 60 units. Time taken by A alone = Total Work / A's efficiency = 60 / 3 = 20 days.",
+    "solution_hi": "मान लीजिए B की कार्य क्षमता 100 है। चूँकि A, B से 50% अधिक कुशल है, इसलिए A की कार्य क्षमता 150 होगी। इनकी क्षमता का अनुपात (A:B) = 150:100 = 3:2 होगा। इसका मतलब है कि A एक दिन में 3 यूनिट काम करता है और B एक दिन में 2 यूनिट काम करता है। दोनों का 1 दिन का कुल काम = 3 + 2 = 5 यूनिट। वे काम को 12 दिनों में पूरा करते हैं, इसलिए कुल कार्य = 12 दिन × 5 यूनिट/दिन = 60 यूनिट। A द्वारा अकेले लिया गया समय = कुल कार्य / A की क्षमता = 60 / 3 = 20 दिन।",
+    "marks": "1"
+  },
+  {
+    "question": "The difference between simple interest and compound interest on a certain sum of money for 2 years at 5% per annum is Rs 40. Find the principal sum.",
+    "question_hi": "किसी निश्चित धनराशि पर 5% वार्षिक दर से 2 वर्ष के साधारण ब्याज (SI) और चक्रवृद्धि ब्याज (CI) का अंतर 40 रुपये है। वह धनराशि (मूलधन) ज्ञात कीजिए।",
+    "options": [
+      "Rs 8,000",
+      "Rs 12,000",
+      "Rs 16,000",
+      "Rs 10,000",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "8,000 रुपये",
+      "12,000 रुपये",
+      "16,000 रुपये",
+      "10,000 रुपये",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "EN: For exactly 2 years, the formula for the difference between CI and SI is: Difference = P(R/100)², where P is Principal and R is the Rate of interest. Given: Difference = 40, R = 5%. 40 = P × (5/100)² 40 = P × (1/20)² 40 = P × (1/400) P = 40 × 400 = 16,000. Thus, the principal sum is Rs 16,000.",
+    "solution_hi": "2 वर्षों के लिए चक्रवृद्धि ब्याज (CI) और साधारण ब्याज (SI) के बीच के अंतर का सीधा सूत्र होता है: अंतर (Difference) = P(R/100)²। (जहाँ P मूलधन है और R दर है)। प्रश्नानुसार: अंतर = 40, दर (R) = 5% 40 = P × (5/100)² 40 = P × (1/20)² 40 = P × (1/400) P = 40 × 400 = 16,000. अतः, वह धनराशि 16,000 रुपये होगी।",
+    "marks": "1"
+  },
+  {
+    "question": "The HCF of two numbers is 29, and the other two factors of their LCM are 15 and 13. The larger of the two numbers is:",
+    "question_hi": "दो संख्याओं का महत्तम समापवर्तक (HCF) 29 है, और उनके लघुत्तम समापवर्त्य (LCM) के अन्य दो गुणनखंड (factors) 15 और 13 हैं। उन दोनों में से बड़ी संख्या कौन सी है?",
+    "options": [
+      "406",
+      "435",
+      "377",
+      "464",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "406",
+      "435",
+      "377",
+      "464",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "EN: The two numbers must be multiples of their HCF (29). Let the numbers be 29a and 29b, where 'a' and 'b' are co-prime factors. The problem states that the other two factors of the LCM are 15 and 13. Thus, a = 15 and b = 13. The two numbers are 29 × 15 and 29 × 13. The larger number = 29 × 15 = 435.",
+    "solution_hi": "हम जानते हैं कि संख्याएं हमेशा अपने HCF का गुणज (multiple) होती हैं। मान लीजिए कि संख्याएं 29a और 29b हैं (जहाँ a और b सह-अभाज्य हैं)। प्रश्न के अनुसार, LCM के अन्य दो गुणनखंड 15 और 13 हैं। अतः, a = 15 और b = 13 होगा। तो वे दो संख्याएं 29 × 15 और 29 × 13 होंगी। बड़ी संख्या = 29 × 15 = 435 होगी।",
+    "marks": "1"
+  },
+  {
+    "question": "A shopkeeper marks his goods 20% above the cost price and allows a discount of 10% to the customers. Find his overall gain percent.",
+    "question_hi": "एक दुकानदार अपनी वस्तुओं का मूल्य क्रय मूल्य (Cost Price) से 20% अधिक अंकित करता है और ग्राहकों को 10% की छूट (Discount) देता है। उसका कुल लाभ प्रतिशत ज्ञात कीजिए।",
+    "options": [
+      "10%",
+      "12%",
+      "8%",
+      "15%",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10%",
+      "12%",
+      "8%",
+      "15%",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "EN: Let the Cost Price (CP) of the goods be Rs 100. Since he marks it 20% above CP, the Marked Price (MP) = Rs 120. He gives a 10% discount on the MP. Discount = 10% of 120 = Rs 12. Selling Price (SP) = MP - Discount = 120 - 12 = Rs 108. Profit = SP - CP = 108 - 100 = Rs 8. Gain Percent = (Profit / CP) × 100 = (8 / 100) × 100 = 8%.",
+    "solution_hi": "मान लीजिए वस्तु का क्रय मूल्य (CP) 100 रुपये है। दुकानदार इसे 20% बढ़ाकर अंकित करता है, इसलिए अंकित मूल्य (MP) = 120 रुपये होगा। छूट हमेशा अंकित मूल्य पर दी जाती है। 10% की छूट = 120 का 10% = 12 रुपये। विक्रय मूल्य (SP) = 120 - 12 = 108 रुपये। अब, 100 रुपये की चीज 108 में बेची गई। लाभ = 108 - 100 = 8 रुपये। चूँकि आधार 100 है, इसलिए लाभ प्रतिशत = 8% होगा। (शॉर्टकट सूत्र: X + Y + XY/100 => 20 - 10 - (200/100) = 8%).",
+    "marks": "1"
+  },
+  {
+    "question": "A train 150 meters long crosses a standing man in 10 seconds. In what time will the same train cross a platform which is 250 meters long?",
+    "question_hi": "150 मीटर लंबी एक रेलगाड़ी एक खड़े हुए व्यक्ति को 10 सेकंड में पार करती है। वही रेलगाड़ी 250 मीटर लंबे प्लेटफॉर्म को कितने समय में पार करेगी?",
+    "options": [
+      "26 (2/3) seconds",
+      "20 seconds",
+      "25 seconds",
+      "15 seconds",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "26 (2/3) सेकंड",
+      "20 सेकंड",
+      "25 सेकंड",
+      "15 सेकंड",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "EN: When a train crosses a standing man, it only covers its own length. Speed of the train = Distance / Time = 150 m / 10 s = 15 m/s. When the train crosses a platform, total distance to cover = length of train + length of platform = 150 + 250 = 400 meters. Time taken = Total Distance / Speed = 400 / 15 = 80 / 3 seconds. 80/3 seconds can be written as a mixed fraction: 26 (2/3) seconds.",
+    "solution_hi": "जब कोई रेलगाड़ी किसी खंभे या खड़े व्यक्ति को पार करती है, तो वह केवल अपनी ही लंबाई (दूरी) तय करती है। रेलगाड़ी की गति = दूरी / समय = 150 मीटर / 10 सेकंड = 15 मीटर/सेकंड। जब रेलगाड़ी प्लेटफॉर्म को पार करेगी, तो उसे अपनी लंबाई और प्लेटफॉर्म की लंबाई दोनों को पार करना होगा। कुल दूरी = 150 + 250 = 400 मीटर। लिया गया समय = कुल दूरी / गति = 400 / 15 = 80 / 3 सेकंड। 80/3 को मिश्रित भिन्न में 26 (2/3) सेकंड लिखा जाता है।",
+    "marks": "1"
+  },
+  {
+    "question": "In what ratio must a grocer mix two varieties of pulses costing Rs. 15 per kg and Rs. 20 per kg respectively, so as to get a mixture worth Rs. 16.50 per kg?",
+    "question_hi": "एक पंसारी को 15 रुपये प्रति किलो और 20 रुपये प्रति किलो वाली दो प्रकार की दालों को किस अनुपात में मिलाना चाहिए, ताकि तैयार मिश्रण का मूल्य 16.50 रुपये प्रति किलो हो जाए?",
+    "options": [
+      "3:7",
+      "5:7",
+      "7:5",
+      "7:3",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "3:7",
+      "5:7",
+      "7:5",
+      "7:3",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 4,
+    "solution": "EN: We use the rule of alligation for this mixture problem. Cheaper price (C) = 15, Dearer price (D) = 20, Mean price (M) = 16.50. Ratio of cheaper quantity to dearer quantity = (D - M) : (M - C) = (20 - 16.50) : (16.50 - 15) = 3.50 : 1.50 Removing decimals and simplifying: 35 : 15 = 7 : 3.",
+    "solution_hi": "इस प्रकार के मिश्रण वाले प्रश्नों में 'एलिगेशन' (Alligation) का नियम सबसे अच्छा काम करता है। सस्ती दाल का मूल्य = 15, महँगी दाल का मूल्य = 20, औसत (मिश्रण) मूल्य = 16.50 अनुपात = (महँगी कीमत - औसत कीमत) : (औसत कीमत - सस्ती कीमत) अनुपात = (20 - 16.50) : (16.50 - 15) अनुपात = 3.50 : 1.50 दशमलव हटाकर सरल करने पर: 350 : 150, जिसे 50 से काटने पर 7 : 3 प्राप्त होता है।",
+    "marks": "1"
+  },
+  {
+    "question": "If x - 1/x = 5, then what is the value of x³ - 1/x³?",
+    "question_hi": "यदि x - 1/x = 5 है, तो x³ - 1/x³ का मान क्या होगा?",
+    "options": [
+      "110",
+      "125",
+      "140",
+      "115",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "110",
+      "125",
+      "140",
+      "115",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "EN: We use the standard algebraic identity: (a - b)³ = a³ - b³ - 3ab(a - b). Applying this to our variables: (x - 1/x)³ = x³ - 1/x³ - 3(x)(1/x)(x - 1/x) Given x - 1/x = 5. (5)³ = x³ - 1/x³ - 3(1)(5) 125 = x³ - 1/x³ - 15 x³ - 1/x³ = 125 + 15 = 140.",
+    "solution_hi": "यहाँ हम बीजगणित का मानक सूत्र उपयोग करेंगे: (a - b)³ = a³ - b³ - 3ab(a - b)। इसे अपने प्रश्न में लागू करने पर: (x - 1/x)³ = x³ - 1/x³ - 3(x × 1/x)(x - 1/x) चूँकि x - 1/x = 5 दिया गया है: (5)³ = x³ - 1/x³ - 3(1)(5) 125 = x³ - 1/x³ - 15 माइनस 15 को दूसरी तरफ ले जाने पर वह प्लस हो जाएगा: x³ - 1/x³ = 125 + 15 = 140। (शॉर्टकट ट्रिक: यदि x - 1/x = v हो, तो x³ - 1/x³ = v³ + 3v होता है। 5³ + 3×5 = 125 + 15 = 140)।",
+    "marks": "1"
+  },
+  {
+    "question": "Two dice are tossed simultaneously. What is the probability that the sum of the numbers appearing on both dice is a prime number?",
+    "question_hi": "दो पासे (dice) एक साथ फेंके जाते हैं। इस बात की क्या प्रायिकता (Probability) है कि दोनों पासों पर आने वाली संख्याओं का योग एक अभाज्य संख्या (Prime Number) हो?",
+    "options": [
+      "5/12",
+      "1/6",
+      "7/12",
+      "1/2",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "5/12",
+      "1/6",
+      "7/12",
+      "1/2",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "EN: When two dice are thrown, the total possible outcomes = 6 × 6 = 36. The maximum sum is 12 (6+6). The prime numbers up to 12 are 2, 3, 5, 7, and 11. Outcomes for sum 2: (1,1) -> 1 pair Outcomes for sum 3: (1,2), (2,1) -> 2 pairs Outcomes for sum 5: (1,4), (4,1), (2,3), (3,2) -> 4 pairs Outcomes for sum 7: (1,6), (6,1), (2,5), (5,2), (3,4), (4,3) -> 6 pairs Outcomes for sum 11: (5,6), (6,5) -> 2 pairs Total favorable outcomes = 1 + 2 + 4 + 6 + 2 = 15. Probability = Favorable outcomes / Total outcomes = 15 / 36 = 5/12.",
+    "solution_hi": "जब दो पासे फेंके जाते हैं, तो कुल संभावित परिणाम = 6 × 6 = 36 होते हैं। पासों पर अधिकतम योग 12 (6+6) हो सकता है। 12 तक की अभाज्य संख्याएँ (जो केवल स्वयं से कटती हैं) 2, 3, 5, 7 और 11 हैं। योग 2 आने के तरीके: (1,1) = 1 तरीका योग 3 आने के तरीके: (1,2), (2,1) = 2 तरीके योग 5 आने के तरीके: (1,4), (4,1), (2,3), (3,2) = 4 तरीके योग 7 आने के तरीके: (1,6), (6,1), (2,5), (5,2), (3,4), (4,3) = 6 तरीके योग 11 आने के तरीके: (5,6), (6,5) = 2 तरीके कुल अनुकूल परिणाम = 1 + 2 + 4 + 6 + 2 = 15। प्रायिकता = अनुकूल परिणाम / कुल परिणाम = 15 / 36। इसे 3 से काटने पर 5/12 प्राप्त होता है।",
+    "marks": "1"
+  },
+  {
+    "question": "10 years ago, the ratio of the ages of A and B was 3:1. After 10 years from present, the ratio of their ages will become 2:1. Find the present age of A.",
+    "question_hi": "10 वर्ष पहले, A और B की आयु का अनुपात 3:1 था। वर्तमान से 10 वर्ष बाद, उनकी आयु का अनुपात 2:1 हो जाएगा। A की वर्तमान आयु ज्ञात कीजिए।",
+    "options": [
+      "60 years",
+      "70 years",
+      "50 years",
+      "80 years",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "60 वर्ष",
+      "70 वर्ष",
+      "50 वर्ष",
+      "80 वर्ष",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "EN: Let the ages 10 years ago be 3x (for A) and x (for B). Their present ages will be (3x + 10) and (x + 10). After 10 more years (which is 20 years from the past reference), their ages will be (3x + 20) and (x + 20). According to the given condition, (3x + 20) / (x + 20) = 2 / 1. Cross multiplying: 3x + 20 = 2(x + 20) 3x + 20 = 2x + 40 x = 20. Present age of A = 3x + 10 = 3(20) + 10 = 60 + 10 = 70 years.",
+    "solution_hi": "मान लीजिए 10 वर्ष पहले A और B की आयु क्रमशः 3x और x थी। आज (वर्तमान में) उनकी आयु (3x + 10) और (x + 10) होगी। वर्तमान से 10 वर्ष बाद, उनकी आयु (3x + 20) और (x + 20) हो जाएगी। प्रश्न के अनुसार, 10 वर्ष बाद यह अनुपात 2:1 होगा। अर्थात्, (3x + 20) / (x + 20) = 2 / 1 तिरछी गुणा (Cross multiply) करने पर: 3x + 20 = 2x + 40 3x - 2x = 40 - 20 x = 20। A की वर्तमान आयु = 3x + 10 = 3(20) + 10 = 60 + 10 = 70 वर्ष होगी।",
+    "marks": "1"
+  },
+  {
+    "question": "The average weight of 8 men is increased by 1.5 kg when one of the men, who weighs 65 kg, is replaced by a new man. The weight of the new man is:",
+    "question_hi": "8 पुरुषों के औसत वजन में 1.5 किलोग्राम की वृद्धि हो जाती है, जब 65 किलोग्राम वजन वाले एक व्यक्ति के स्थान पर एक नया व्यक्ति आ जाता है। नए व्यक्ति का वजन क्या है?",
+    "options": [
+      "76 kg",
+      "76.5 kg",
+      "77 kg",
+      "77.5 kg",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "76 किलोग्राम",
+      "76.5 किलोग्राम",
+      "77 किलोग्राम",
+      "77.5 किलोग्राम",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "EN: When the new man replaces the old one, the average weight of all 8 men increases by 1.5 kg. This means the new man brings in extra weight to increase the overall total. Total increase in weight = Number of men × Increase in average = 8 × 1.5 = 12 kg. Weight of the new man = Weight of the replaced man + Total increase in weight = 65 + 12 = 77 kg.",
+    "solution_hi": "जब नया व्यक्ति पुराने व्यक्ति (65 किलो) की जगह लेता है, तो सभी 8 लोगों का औसत वजन 1.5 किलो बढ़ जाता है। इसका सीधा मतलब है कि नया व्यक्ति 65 किलो से अधिक वजन का है, और वह इतना अधिक है कि उसने सभी 8 लोगों को 1.5-1.5 किलो बाँट दिया। वजन में कुल वृद्धि = पुरुषों की संख्या × औसत में वृद्धि = 8 × 1.5 = 12 किलो। नए व्यक्ति का वजन = जाने वाले व्यक्ति का वजन + कुल वृद्धि = 65 + 12 = 77 किलोग्राम।",
+    "marks": "1"
+  },
+  {
+    "question": "A metallic sphere of radius 10.5 cm is melted and then recast into small cones, each of base radius 3.5 cm and height 3 cm. Find the number of cones thus formed.",
+    "question_hi": "10.5 सेमी त्रिज्या वाले एक धात्विक गोले (Sphere) को पिघलाकर छोटे-छोटे शंकु (Cones) बनाए जाते हैं। यदि प्रत्येक शंकु के आधार की त्रिज्या 3.5 सेमी और ऊँचाई 3 सेमी है, तो इस प्रकार बने शंकुओं की संख्या ज्ञात कीजिए।",
+    "options": [
+      "112",
+      "126",
+      "105",
+      "140",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "112",
+      "126",
+      "105",
+      "140",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "EN: When a 3D shape is melted to form another, the volume remains constant. Volume of the Sphere = (4/3) × π × R³ Volume of one Cone = (1/3) × π × r² × h Let the number of cones be N. Then, N = Volume of Sphere / Volume of Cone. N = [ (4/3) × π × (10.5)³ ] / [ (1/3) × π × (3.5)² × 3 ] Cancel out (1/3) and π from both numerator and denominator: N = [ 4 × 10.5 × 10.5 × 10.5 ] / [ 3.5 × 3.5 × 3 ] Notice that 10.5 / 3.5 = 3. N = 4 × 3 × 3 × (10.5 / 3) N = 4 × 3 × 3 × 3.5 = 12 × 10.5 = 126.",
+    "solution_hi": "जब किसी 3D वस्तु को पिघलाकर कोई दूसरी वस्तु बनाई जाती है, तो उनका आयतन (Volume) हमेशा बराबर होता है। शंकुओं की संख्या (N) = गोले का आयतन / एक शंकु का आयतन गोले का आयतन = (4/3) × π × R³ शंकु का आयतन = (1/3) × π × r² × h N = [ (4/3) × π × (10.5)³ ] / [ (1/3) × π × (3.5)² × 3 ] ऊपर और नीचे से (1/3) और π को काट दें: N = [ 4 × (10.5 × 10.5 × 10.5) ] / [ 3.5 × 3.5 × 3 ] हम जानते हैं कि 10.5 को 3.5 से भाग देने पर 3 आता है। N = 4 × 3 × 3 × (10.5 / 3) = 4 × 9 × 3.5 = 36 × 3.5 = 126.",
+    "marks": "1"
+  },
+  {
+    "question": "In an election between two candidates, 10% of the voters did not cast their votes. A candidate got 60% of the polled votes and won by a majority of 720 votes. Find the total number of voters on the voting list.",
+    "question_hi": "दो उम्मीदवारों के बीच एक चुनाव में, 10% मतदाताओं ने अपना वोट नहीं डाला। एक उम्मीदवार को डाले गए वोटों (Polled votes) का 60% मिला और वह 720 वोटों के बहुमत से जीत गया। मतदाता सूची में कुल मतदाताओं की संख्या ज्ञात कीजिए।",
+    "options": [
+      "4000",
+      "3600",
+      "4500",
+      "5000",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "4000",
+      "3600",
+      "4500",
+      "5000",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "EN: Let the total number of voters on the list be 100x. Votes not cast = 10%. So, Polled votes = 90x. The winner got 60% of the polled votes. Winner's votes = (60/100) × 90x = 54x. The loser got the remaining 40% of the polled votes (since there are no invalid votes mentioned). Loser's votes = (40/100) × 90x = 36x. Difference (Majority) = 54x - 36x = 18x. Given that majority = 720, so 18x = 720, which gives x = 40. Total voters = 100x = 100 × 40 = 4000.",
+    "solution_hi": "मान लीजिए मतदाता सूची में कुल मतदाताओं की संख्या 100x है। 10% लोगों ने वोट नहीं डाला, इसलिए डाले गए कुल वोट = 90x। जीतने वाले उम्मीदवार को इन 90x वोटों का 60% मिला। जीतने वाले के वोट = 90x का 60% = 54x। हारने वाले को 90x का बाकी 40% मिला होगा = 36x। जीत का अंतर = 54x - 36x = 18x। प्रश्न में दिया गया है कि वह 720 वोटों से जीता, अर्थात् 18x = 720, जिससे x = 40 प्राप्त होता है। कुल मतदाताओं की संख्या = 100x = 100 × 40 = 4000।",
+    "marks": "1"
+  },
+  {
+    "question": "Find the value of x if: x = √(12 + √(12 + √(12 + ... up to infinity)))",
+    "question_hi": "यदि x = √(12 + √(12 + √(12 + ... अनंत तक))) है, तो x का मान ज्ञात कीजिए।",
+    "options": [
+      "3",
+      "6",
+      "4",
+      "12",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "3",
+      "6",
+      "4",
+      "12",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 3,
+    "solution": "EN: Given x = √(12 + √(12 + ...)) Squaring both sides, we get: x² = 12 + √(12 + √(12 + ...)) Since the series extends to infinity, the part after 12 is exactly equal to our original x. x² = 12 + x x² - x - 12 = 0 Factorizing the quadratic equation: x² - 4x + 3x - 12 = 0 x(x - 4) + 3(x - 4) = 0 (x - 4)(x + 3) = 0. So, x = 4 or x = -3. Since the square root must be positive, x = 4. Shortcut: For √(n + √(n + ...)), factorize 'n' into two consecutive integers. 12 = 4 × 3. The larger integer is the answer.",
+    "solution_hi": "इस प्रकार के प्रश्नों में एक आसान शॉर्टकट ट्रिक (Shortcut Trick) होती है: दी गई संख्या (यहाँ 12 है) के ऐसे दो गुणनखंड (Factors) बनाइए जिनके बीच का अंतर 1 हो। 12 = 4 × 3 (यहाँ 4 और 3 लगातार संख्याएं हैं)। चूँकि प्रश्न में प्लस (+) का चिह्न है, इसलिए बड़ी संख्या ही उत्तर होगी। अतः उत्तर 4 है। (यदि प्रश्न में माइनस होता, तो छोटी संख्या 3 उत्तर होती)। बेसिक तरीका: x = √(12 + x) मानकर दोनों तरफ वर्ग (Square) करने पर द्विघात समीकरण (Quadratic Equation) x² - x - 12 = 0 बनता है, जिसे हल करने पर x = 4 आता है।",
+    "marks": "1"
+  },
+  {
+    "question": "The angle of elevation of a ladder leaning against a wall is 60°, and the foot of the ladder is 4.6 m away from the wall. Find the length of the ladder.",
+    "question_hi": "एक दीवार के सहारे झुकी हुई सीढ़ी का उन्नयन कोण (Angle of elevation) 60° है, और सीढ़ी का निचला सिरा दीवार से 4.6 मीटर दूर है। सीढ़ी की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "9.2 m",
+      "4.6 m",
+      "2.3 m",
+      "7.8 m",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "9.2 मीटर",
+      "4.6 मीटर",
+      "2.3 मीटर",
+      "7.8 मीटर",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 1,
+    "solution": "EN: In the right-angled triangle formed by the wall, ground, and ladder, the ladder is the hypotenuse, and the distance from the wall is the base adjacent to the 60° angle. We know from trigonometry: cos(θ) = Base / Hypotenuse cos(60°) = 4.6 / Length of ladder (L) The value of cos(60°) is 1/2. 1/2 = 4.6 / L L = 4.6 × 2 = 9.2 m.",
+    "solution_hi": "यहाँ दीवार, जमीन और सीढ़ी मिलकर एक समकोण त्रिभुज (Right-angled triangle) बनाते हैं। सीढ़ी कर्ण (Hypotenuse) है, और दीवार से दूरी आधार (Base) है। कोण 60° दिया गया है। त्रिकोणमिति के सूत्र के अनुसार: cos(θ) = आधार / कर्ण cos(60°) = 4.6 / सीढ़ी की लंबाई (L) हम जानते हैं कि cos(60°) का मान 1/2 होता है। 1/2 = 4.6 / L तिरछी गुणा करने पर: L = 4.6 × 2 = 9.2 मीटर।",
+    "marks": "1"
+  },
+  {
+    "question": "In a triangle ABC, if side AB = side AC, and angle BAC = 50°, then what is the measure of angle ABC?",
+    "question_hi": "एक त्रिभुज ABC में, यदि भुजा AB = भुजा AC है, और कोण BAC = 50° है, तो कोण ABC का मान क्या होगा?",
+    "options": [
+      "50°",
+      "65°",
+      "60°",
+      "130°",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "50°",
+      "65°",
+      "60°",
+      "130°",
+      "प्रश्न Attempt नहीं किया"
+    ],
+    "correct": 2,
+    "solution": "EN: Since sides AB and AC are equal in triangle ABC, it is an isosceles triangle. In an isosceles triangle, the angles opposite to equal sides are also equal. Therefore, angle ABC = angle ACB. Let angle ABC = angle ACB = x. The sum of all three angles of a triangle is always 180°. angle BAC + angle ABC + angle ACB = 180° 50° + x + x = 180° 2x = 180° - 50° 2x = 130° x = 65°. Hence, angle ABC is 65°.",
+    "solution_hi": "चूँकि त्रिभुज ABC में भुजा AB और AC बराबर हैं, इसलिए यह एक समद्विबाहु त्रिभुज (Isosceles Triangle) है। समद्विबाहु त्रिभुज का नियम है कि बराबर भुजाओं के आमने-सामने के कोण भी बराबर होते हैं। इसलिए, कोण ABC = कोण ACB होगा। मान लीजिए कि ये दोनों कोण x हैं। त्रिभुज के तीनों कोणों का योग हमेशा 180° होता है। कोण BAC + कोण ABC + कोण ACB = 180° 50° + x + x = 180° 2x = 180° - 50° = 130° x = 130° / 2 = 65°। अतः कोण ABC का मान 65° होगा।",
+    "marks": "1"
+  }
+]
