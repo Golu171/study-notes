@@ -1,0 +1,26 @@
+# Study Notes — Supabase Login/Rank setup
+
+This build adds:
+- Email/password login and signup
+- Email confirmation through Supabase Auth
+- Protected Study Notes and JSON viewers
+- Fixed October 1–31 demo period (controlled by the Supabase `app_settings` table)
+- First-attempt-only ranking storage per mock
+- Leaderboard page
+
+## Required before deploying
+
+Open `supabase-config.js` and replace:
+`PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE`
+
+with the project's Supabase **Publishable key** (or legacy anon public key).
+
+Do NOT put the Supabase service-role key in this file.
+
+The Supabase SQL schema should already be created using the SQL supplied in chat.
+
+## Vercel
+
+Deploy this project to the same Vercel project. No server secret is required for the browser Supabase client because RLS is enabled.
+
+For a production paid exam system, score verification should eventually move server-side because browser-calculated scores can be manipulated. This build is intended as the demo/foundation.

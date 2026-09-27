@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Notes — Rank</title>
+<script src="supabase-config.js"></script><script src="auth.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fb;color:#172033;font-family:Arial,sans-serif;padding:18px}.wrap{max-width:900px;margin:auto}
+.head{background:linear-gradient(135deg,#1b4e52,#0e3336);color:white;border-radius:22px;padding:22px}.head h1{margin:0 0 5px}.sub{opacity:.85}
+.card{background:white;border-radius:20px;margin-top:16px;padding:18px;box-shadow:0 5px 18px #0000000c}.row{display:grid;grid-template-columns:60px 1fr 90px;gap:10px;padding:13px 8px;border-bottom:1px solid #edf0f3;align-items:center}.row:last-child{border-bottom:0}.row.me{background:#eef7f4;border-radius:12px}.meTag{font-size:11px;color:#176b35;font-weight:800;margin-left:6px}.rank{font-weight:900}.score{font-weight:900;text-align:right}.empty{text-align:center;color:#667085;padding:30px}
+.back{display:inline-block;margin-top:15px;color:#1b4e52;font-weight:800;text-decoration:none}
+</style>
+</head>
+<body><div class="wrap">
+<div class="head"><h1>🏆 Leaderboard</h1><div class="sub" id="title">Loading...</div></div>
+<div class="card" id="board"><div class="empty">Loading...</div></div>
+<a class="back" href="index.html">← Study Notes</a>
+</div>
+<script>
+(async()=>{
+ const user=await StudyNotesAuth.requireAuth(); if(!user)return;
+ const mock=new URLSearchParams(location.search).get("mock");
+ if(!mock){document.getElementById("title").textContent="Mock ID missing";document.getElementById("board").innerHTML='<div class="empty">Result page se Rank open karein.</div>';return}
+ document.getElementById("title").textContent=mock.replace(/[_-]+/g," ");
+ try{
+  const rows=await StudyNotesAuth.getLeaderboard(mock);
+  const me=user.id;
+  let html=rows.length?"":"<div class='empty'>Abhi koi ranking entry nahi hai.</div>";
+  if(rows.length){
+   html=rows.map(r=>{
+     const isMe = r.user_id === me;
+     return `<div class="row ${isMe?'me':''}"><div class="rank">#${r.rank}</div><div>${escapeHtml(r.display_name||"Student")}${isMe?'<span class="meTag">YOU</span>':''}</div><div class="score">${r.score}</div></div>`;
+   }).join("");
+  }
+  document.getElementById("board").innerHTML=html;
+ }catch(e){document.getElementById("board").innerHTML='<div class="empty">Leaderboard load नहीं हुआ: '+escapeHtml(e.message)+'</div>'}
+})();
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
+</script>
+</body></html>
