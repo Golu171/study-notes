@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Study Notes Login</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+:root{--bg:#07101d;--card:#151d2c;--input:#0d1220;--text:#f7f8fc;--muted:#9ba6bb;--gold:#f4c94f;--teal:#1d6668}
+html,body{margin:0;min-height:100%;font-family:Poppins,system-ui,sans-serif;background:var(--bg);color:var(--text)}
+body{min-height:100dvh;display:grid;place-items:center;padding:14px}
+.card{width:min(430px,100%);padding:30px 28px 24px;background:linear-gradient(145deg,#1a2435,#131a29);border:1px solid rgba(255,255,255,.12);border-radius:28px;box-shadow:0 18px 50px rgba(0,0,0,.35);text-align:center}
+.avatar{width:82px;height:82px;border-radius:50%;object-fit:cover;border:4px solid #f5c51c;box-shadow:0 0 18px rgba(245,197,28,.35);margin-bottom:14px}
+h1{margin:0;color:var(--gold);font-size:28px;font-weight:900;line-height:1.15}
+.sub{margin:8px 0 22px;color:var(--muted);font-size:14px;line-height:1.35}
+.field{text-align:left;margin-bottom:12px}
+input{width:100%;height:50px;border:1px solid rgba(255,255,255,.13);border-radius:14px;background:var(--input);color:#fff;padding:0 16px;font:600 14px Poppins;outline:none}
+input:focus{border-color:#2ba9aa;box-shadow:0 0 0 3px rgba(43,169,170,.12)}
+button{font-family:Poppins;cursor:pointer}
+.primary,.google{width:100%;height:50px;border:0;border-radius:14px;font-size:15px;font-weight:800}
+.primary{margin-top:3px;background:linear-gradient(180deg,#246f71,var(--teal));color:#fff;box-shadow:0 8px 20px rgba(20,130,130,.16)}
+.divider{display:flex;align-items:center;gap:10px;margin:15px 0 12px;color:#69748a;font-size:12px;font-weight:700}
+.divider:before,.divider:after{content:"";height:1px;flex:1;background:rgba(255,255,255,.10)}
+.google{background:#fff;color:#202737;display:flex;align-items:center;justify-content:center;gap:10px}
+.google svg{width:20px;height:20px}
+.switch{margin-top:13px;color:var(--muted);font-size:12px}
+.switch button{border:0;background:none;color:var(--gold);font-size:12px;font-weight:800;padding:0 2px}
+.status{min-height:18px;margin-top:7px;font-size:11px;font-weight:700}
+.free{margin-top:12px;padding:10px 12px;border-radius:12px;background:#fff5d5;color:#725d12;font-size:12px;font-weight:800}
+@media(max-height:650px){.card{padding:22px 24px 18px}.avatar{width:66px;height:66px;margin-bottom:9px}h1{font-size:24px}.sub{margin:6px 0 15px}.field{margin-bottom:9px}input,.primary,.google{height:45px}.divider{margin:11px 0 9px}.free{margin-top:9px;padding:8px}}
+</style>
+</head>
+<body>
+<section class="card">
+  <img class="avatar" src="https://files.catbox.moe/myz60w.jpg" alt="Study Notes">
+  <h1 id="title">Welcome Student</h1>
+  <div class="sub" id="subtitle">Login to practice Mock Tests &amp; PYQs</div>
+
+  <form id="authForm">
+    <div class="field"><input id="email" type="email" placeholder="Email Address" autocomplete="email" required></div>
+    <div class="field"><input id="password" type="password" placeholder="Password" minlength="6" autocomplete="current-password" required></div>
+    <button class="primary" id="submitBtn" type="submit">Secure Login</button>
+  </form>
+
+  <div class="divider">OR</div>
+
+  <button class="google" id="googleBtn" type="button">
+    <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M21.35 12.23c0-.78-.07-1.53-.22-2.23H12v4.22h5.24a4.48 4.48 0 0 1-1.94 2.94v2.44h3.14c1.84-1.69 2.91-4.18 2.91-7.37z"/><path fill="#34A853" d="M12 21.99c2.63 0 4.84-.87 6.45-2.36l-3.14-2.44c-.87.58-1.98.92-3.31.92-2.54 0-4.69-1.72-5.46-4.03H3.3v2.52A9.75 9.75 0 0 0 12 21.99z"/><path fill="#FBBC05" d="M6.54 14.08A5.86 5.86 0 0 1 6.23 12c0-.72.12-1.42.31-2.08V7.4H3.3A9.99 9.99 0 0 0 2.25 12c0 1.61.39 3.14 1.05 4.6l3.24-2.52z"/><path fill="#EA4335" d="M12 5.89c1.43 0 2.71.49 3.72 1.45l2.79-2.79C16.84 2.92 14.63 2 12 2a9.75 9.75 0 0 0-8.7 5.4l3.24 2.52C7.31 7.61 9.46 5.89 12 5.89z"/></svg>
+    Continue with Google
+  </button>
+
+  <div class="switch"><span id="switchText">New here?</span> <button id="switchBtn" type="button">Create New ID</button></div>
+  <div class="status" id="status"></div>
+  <div class="free">🎁 October 1–31: All Mock Tests FREE</div>
+</section>
+
+<script>
+let supa=null,signup=false;
+function getSupa(){
+  if(supa)return supa;
+  const c=window.STUDY_NOTES_SUPABASE||{};
+  if(!window.supabase||!c.url||!c.key)throw Error('Supabase configuration is missing.');
+  return supa=window.supabase.createClient(c.url,c.key);
+}
+function status(t,bad=false){
+  const e=document.getElementById('status');e.textContent=t||'';e.style.color=bad?'#ff9b9b':'#9ba6bb';
+}
+function mode(){
+  document.getElementById('title').textContent=signup?'Create New ID':'Welcome Student';
+  document.getElementById('subtitle').textContent=signup?'Create your Study Notes account':'Login to practice Mock Tests & PYQs';
+  document.getElementById('submitBtn').textContent=signup?'Create New ID':'Secure Login';
+  document.getElementById('switchText').textContent=signup?'Already have an account?':'New here?';
+  document.getElementById('switchBtn').textContent=signup?'Login':'Create New ID';
+  document.getElementById('password').autocomplete=signup?'new-password':'current-password';
+  status('');
+}
+document.getElementById('switchBtn').onclick=()=>{signup=!signup;mode()};
+document.getElementById('authForm').onsubmit=async e=>{
+  e.preventDefault();
+  const email=document.getElementById('email').value.trim(),password=document.getElementById('password').value,btn=document.getElementById('submitBtn');
+  btn.disabled=true;status(signup?'Creating account…':'Signing in…');
+  try{
+    const sb=getSupa();
+    if(signup){
+      const {data,error}=await sb.auth.signUp({email,password});if(error)throw error;
+      if(data.session){location.href='index.html';return}
+      signup=false;mode();status('Account created. Check your email, then login.');
+    }else{
+      const {data,error}=await sb.auth.signInWithPassword({email,password});if(error)throw error;
+      if(data.session)location.href='index.html';
+    }
+  }catch(err){status(err?.message||'Authentication failed.',true)}
+  finally{btn.disabled=false}
+};
+document.getElementById('googleBtn').onclick=async()=>{
+  try{
+    const {error}=await getSupa().auth.signInWithOAuth({provider:'google',options:{redirectTo:new URL('index.html',location.href).href}});
+    if(error)throw error;
+  }catch(err){status('Google login is not enabled in Supabase yet.',true)}
+};
+(async()=>{try{const {data}=await getSupa().auth.getSession();if(data.session)location.href='index.html'}catch(e){status('Supabase configuration could not be loaded.',true)}})();
+</script>
+</body>
+</html>
