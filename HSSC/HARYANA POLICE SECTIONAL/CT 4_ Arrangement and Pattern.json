@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Each of the digits in the number 81374569 is arranged in ascending order from left to right. The position of how many digits will remain unchanged as compared to that in the original number?&nbsp;",
+    "question_hi": "संख्या 81374569 में प्रत्येक अंक को बायें से दायें आरोही क्रम में व्यवस्थित किया गया है। मूल संख्या की तुलना में कितने अंकों की स्थिति अपरिवर्तित रहेगी?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "None",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "तीन",
+      "एक",
+      "दो",
+      "कोई नहीं",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p style=\"color: rgb(33, 37, 41);\">&nbsp;Correct Option - 2</p>\n\n<p style=\"color: rgb(33, 37, 41);\">The logic followed here is:</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Logic:</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">The original number has 8 digits. We compare the digits in each position (from left to right).</span></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"color:rgb(33, 37, 41);width:300px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width: 113px;\">\n\t\t\t<p style=\"text-align: center;\">Position</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 47px;\">\n\t\t\t<p style=\"text-align: center;\">1st</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 40px;\">\n\t\t\t<p style=\"text-align: center;\">2nd</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">3rd</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">4th</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">5th</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">6th</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">7th</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">8th</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width: 113px;\">\n\t\t\t<p style=\"text-align: center;\">Original&nbsp;Digit</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 47px;\">\n\t\t\t<p style=\"text-align: center;\">8</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 40px;\">\n\t\t\t<p style=\"text-align: center;\">1</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">3</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">7</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">5</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">6</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">9</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width: 113px;\">\n\t\t\t<p style=\"text-align: center;\">Sorted Digit</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 47px;\">\n\t\t\t<p style=\"text-align: center;\">1</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 40px;\">\n\t\t\t<p style=\"text-align: center;\">3</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">4</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">5</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">6</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">7</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">8</p>\n\t\t\t</td>\n\t\t\t<td style=\"width: 67px;\">\n\t\t\t<p style=\"text-align: center;\">9</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<br />\nSo,&nbsp;Only the digit 9&nbsp;in the last position remains unchanged.\n<p style=\"color: rgb(33, 37, 41);\">The total number of digits whose position remains unchanged is 1.</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Hence, the correct answer is&nbsp;<span style=\"font-weight: bolder;\">&quot;Option 2&quot;</span></p>\n",
+    "solution_hi": "<p><strong>दी गई संख्या:</strong> 81374569</p>\n\n<p><strong>शर्त:</strong> मूल संख्या के अंकों को आरोही क्रम में व्यवस्थित किया गया है। हमें यह ज्ञात करना होगा कि कितने अंक अपनी मूल स्थिति में बने रहते हैं।</p>\n\n<p><strong>मूल और क्रमबद्ध स्थितियों की सूची बनाएं</strong><br />\nमूल संख्या में 8 अंक हैं। हम प्रत्येक स्थिति में अंकों की तुलना करते हैं (बायें से दायें)।</p>\n<img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/qImage68f37bc35982c97a3038521e.png\" />\n<p><strong>गणना:</strong><br />\nअंतिम स्थिति में केवल अंक 9 अपरिवर्तित रहता है।<br />\nअंकों की कुल संख्या जिनकी स्थिति अपरिवर्तित रहती है, 1 है।</p>\n\n<p>इसलिए, सही उत्तर विकल्प 2 है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "If 3 is added to each odd digit and 1 is subtracted from each even digit in the number 6243514, what will be difference between the highest and lowest digits in the number thus formed?",
+    "question_hi": "यदि संख्या 6243514 में प्रत्येक विषम अंक में 3 जोड़ा जाए और प्रत्येक सम अंक में से 1 घटाया जाए, तो इस प्रकार बनी संख्या में सबसे बड़े और सबसे छोटे अंकों के बीच का अंतर क्या होगा?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "5",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "6",
+      "7",
+      "8",
+      "5",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p style=\"color: rgb(33, 37, 41);\">The logic followed here is:</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Logic:&nbsp;</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/qImage69034fb6eb04731ca38589b6.png\" style=\"height: 125px; width: 300px;\" /></p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">The difference between the highest 8 and lowest 1 is&nbsp;</span><span style=\"font-weight: bolder;\">7.</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">Hence, the correct answer is&nbsp;<span style=\"font-weight: bolder;\">&quot;Option 2&quot;</span>.</p>\n",
+    "solution_hi": "<p style=\"color: rgb(33, 37, 41);\">यहाँ अनुसरित तर्क निम्न है:</p>\n\n<p style=\"color: rgb(33, 37, 41);\">तर्क:&nbsp;</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><img alt=\"\" src=\"https://cdn.testbook.com/images/production/quesImages/qImage69034fb6eb04731ca38589b6.png\" style=\"height: 125px; width: 300px;\" /></p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">सबसे बड़ी संख्या&nbsp;8 और सबसे छोटी संख्या&nbsp;1 के बीच का अंतर</span> <span style=\"font-weight: bolder;\">7 </span><span style=\"color: rgb(33, 37, 41);\">है।</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">अतः, सही उत्तर <span style=\"font-weight: bolder;\">&quot;विकल्प 2&quot;</span> है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<p>Consider the five three letter words given below and the answer the questions based on it.</p>\n\n<p>(Left) CMP GAT WIN ROG ACP (Right)</p>\n\n<p>If all the letters of each word are replaced by the next letter as per the English alphabetical order, then in how many newly formed words, there will be only two vowels?</p>\n",
+    "question_hi": "<p>नीचे दिए गए पाँच तीन अक्षरों वाले शब्दों पर विचार कीजिए&nbsp;और इसके आधार पर प्रश्न&nbsp;का&nbsp;उत्तर दीजिए।</p>\n\n<p>(बाएँ) CMP GAT WIN ROG ACP (दाएँ)</p>\n\n<p>यदि प्रत्येक शब्द के सभी अक्षरों को अंग्रेजी वर्णमाला क्रम के अनुसार अगले अक्षर से बदल दिया जाए, तो कितने नए बने शब्दों में केवल दो स्वर होंगे?</p>\n",
+    "options": [
+      "3",
+      "0",
+      "1",
+      "4",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "3",
+      "0",
+      "1",
+      "4",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p>The given three-letter words are: CMP, GAT, WIN, ROG, ACP.</p>\n\n<p>The operation is: Replace each letter of the word by the next letter as per the English alphabetical order.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:40%;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\"><strong>Original Word</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>Letters Changed (+1)</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>Newly Formed Word</strong></td>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">CMP</td>\n\t\t\t<td style=\"text-align: center;\">C+1, M+1, P+1</td>\n\t\t\t<td style=\"text-align: center;\">DNQ</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">GAT</td>\n\t\t\t<td style=\"text-align: center;\">G+1, A+1, T+1</td>\n\t\t\t<td style=\"text-align: center;\">HBU</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">WIN</td>\n\t\t\t<td style=\"text-align: center;\">W+1, I+1, N+1</td>\n\t\t\t<td style=\"text-align: center;\">XJO</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">ROG</td>\n\t\t\t<td style=\"text-align: center;\">R+1, O+1, G+1</td>\n\t\t\t<td style=\"text-align: center;\">SPH</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">ACP</td>\n\t\t\t<td style=\"text-align: center;\">A+1, C+1, P+1</td>\n\t\t\t<td style=\"text-align: center;\">BDQ</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>The words formed are DNQ, HBU, XJO, SPH, and BDQ.</p>\n\n<p>None of the newly formed words contain exactly two vowels.</p>\n\n<p>Hence, the correct answer is <strong>&quot;Option 2&quot;</strong>.</p>\n",
+    "solution_hi": "<p>दिए गए तीन अक्षरों वाले शब्द हैं: CMP, GAT, WIN, ROG, ACP</p>\n\n<p>संक्रिया है: शब्द के प्रत्येक अक्षर को अंग्रेजी वर्णमाला क्रम के अनुसार अगले अक्षर से परिवर्तित कीजिए।</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:40%;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\"><strong>मूल शब्द</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>बदले गए&nbsp;</strong><span style=\"font-weight: bolder; text-align: center;\">अक्षर</span><strong> (+1)</strong></td>\n\t\t\t<td style=\"text-align: center;\"><strong>निर्मित नया शब्द</strong></td>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">CMP</td>\n\t\t\t<td style=\"text-align: center;\">C+1, M+1, P+1</td>\n\t\t\t<td style=\"text-align: center;\">DNQ</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">GAT</td>\n\t\t\t<td style=\"text-align: center;\">G+1, A+1, T+1</td>\n\t\t\t<td style=\"text-align: center;\">HBU</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">WIN</td>\n\t\t\t<td style=\"text-align: center;\">W+1, I+1, N+1</td>\n\t\t\t<td style=\"text-align: center;\">XJO</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">ROG</td>\n\t\t\t<td style=\"text-align: center;\">R+1, O+1, G+1</td>\n\t\t\t<td style=\"text-align: center;\">SPH</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">ACP</td>\n\t\t\t<td style=\"text-align: center;\">A+1, C+1, P+1</td>\n\t\t\t<td style=\"text-align: center;\">BDQ</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>निर्मित&nbsp;शब्द DNQ, HBU, XJO, SPH और BDQ हैं।</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">निर्मित&nbsp;</span>नए&nbsp;शब्दों में से किसी में भी ठीक दो स्वर नहीं हैं।</p>\n\n<p>अतः, सही उत्तर <strong>&quot;विकल्प 2&quot;</strong> है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<p>&nbsp;Consider the five three digit numbers given below and the answer the questions based on it.</p>\n\n<p>(Left) 424 251 576 196 841 (Right)</p>\n\n<p>What will be the sum of hundredth digit of the given three digit numbers?</p>\n",
+    "question_hi": "<p>नीचे दी गई पाँच तीन अंकीय संख्याओं पर विचार कीजिए और उन पर आधारित प्रश्नों के उत्तर दीजिए।</p>\n\n<p>(बायें) 424 251 576 196 841 (दायें)</p>\n\n<p>दी गई तीन अंकों वाली संख्याओं के सैंकड़े के&nbsp;अंक का योग क्या होगा?</p>\n",
+    "options": [
+      "25",
+      "27",
+      "22",
+      "20",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "25",
+      "27",
+      "22",
+      "20",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p>Given series: (Left) 424 251 576 196 841 (Right)</p>\n\n<p>Hundredth digits of the given numbers: 4, 2, 5, 1, 8</p>\n\n<p>Sum of hundredth digit of the given three digit numbers = 4 + 2 + 5 + 1 + 8 = 20</p>\n\n<p class=\"p1\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal;  line-height: normal; \">Hence, the correct answer is &ldquo;<b>Option 4</b>&rdquo;.</p>\n",
+    "solution_hi": "<p>दी गई श्रेणी: (बायें) 424 251 576 196 841 (दायें)</p>\n\n<p>दी गई संख्याओं के सैंकड़े के&nbsp;अंक: 4, 2, 5, 1, 8</p>\n\n<p>दी गई तीन अंकों वाली संख्याओं के <span style=\"color: rgb(33, 37, 41);\">सैंकड़े के</span> अंकों&nbsp;का योग = 4 + 2 + 5 + 1 + 8 = 20</p>\n\n<p class=\"p1\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal;  line-height: normal; \">अतः, सही उत्तर &ldquo; <b>विकल्प 4</b> &rdquo; है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<p>Consider the string given below made up of letter and number. If letter U is replaced by 7 then how many 7&rsquo;s are there in the newly formed string?</p>\n\n<p>T U T U T U U 3 7 3 T U T T T 7 3 U 3 U T T U 3 7</p>\n",
+    "question_hi": "<p>नीचे दिए गए अक्षरों और संख्याओं से निर्मित शृंखला&nbsp;पर विचार करें। यदि अक्षर U को 7 से बदल दिया जाए तो नए निर्मित शृंखला में कितने 7 हैं?</p>\n\n<p>T U T U T U U 3 7 3 T U T T T 7 3 U 3 U T T U 3 7</p>\n",
+    "options": [
+      "13",
+      "12",
+      "10",
+      "11",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "13",
+      "12",
+      "10",
+      "11",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p>Given :</p>\n\n<p>T U T U T U U 3 7 3 T U T T T 7 3 U 3 U T T U 3 7</p>\n\n<p>There are three &#39;7&#39;s in the original string.</p>\n\n<p>There are eight &#39;U&#39;s in the original string.</p>\n\n<p>When each &#39;U&#39; is replaced by a &#39;7&#39;, the total number of &#39;7&#39;s will be:</p>\n\n<p>Total &#39;7&#39;s = (Number of original &#39;7&#39;s) + (Number of &#39;U&#39;s)</p>\n\n<p>= 3 + 8 = <strong>11</strong>.</p>\n\n<p>The total number of &#39;7&#39;s in the newly formed string is 11.</p>\n\n<p>Hence, the correct answer is <strong>&quot;Option 4&quot;</strong>.</p>\n",
+    "solution_hi": "<p>दिया गया है :</p>\n\n<p>T U T U T U U 3 7 3 T U T T T 7 3 U 3 U T T U 3 7</p>\n\n<p>मूल शृंखला&nbsp;में तीन &#39;7&#39; हैं।</p>\n\n<p>मूल <span style=\"color: rgb(33, 37, 41);\">शृंखला</span> में आठ &#39;U&#39; हैं।</p>\n\n<p>जब प्रत्येक &#39;U&#39; को &#39;7&#39; से बदल दिया जाता है, तो &#39;7&#39; की कुल संख्या होगी:</p>\n\n<p>कुल &#39;7&#39; = (मूल &#39;7&#39; की संख्या) + (&#39;U&#39; की संख्या)</p>\n\n<p>= 3 + 8 = <strong>11</strong>।</p>\n\n<p>निर्मित नई&nbsp;<span style=\"color: rgb(33, 37, 41);\">शृंखला</span> में &#39;7&#39; की कुल संख्या 11 है।</p>\n\n<p>इसलिए, सही उत्तर <strong>&quot;विकल्प 4&quot;</strong> है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "In the word &#39;SHORTAGE&#39;, if all the vowels are changed to their next letter as per the English alphabetical order, which letter will be third from the right end in the newly formed word?",
+    "question_hi": "शब्द &#39;SHORTAGE&#39; में, यदि सभी स्वरों को अंग्रेजी वर्णमाला के क्रम के अनुसार उनके अगले अक्षर से बदल दिया जाता है। नवगठित शब्द में दायें छोर से तीसरा अक्षर कौन सा होगा?",
+    "options": [
+      "U",
+      "B",
+      "P",
+      "S",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "U",
+      "B",
+      "P",
+      "S",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p>Given word :&nbsp;SHORTAGE&#39;</p>\n\n<p>If all the<strong> vowels are changed to their next letter </strong>as per the English alphabetical order,</p>\n\n<p>New word : SHPRTBGF</p>\n\n<p>Third letter from right end = B</p>\n\n<p class=\"p1\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal;  line-height: normal; \">Hence, the correct answer is &ldquo;<b>Option 2</b>&rdquo;.</p>\n",
+    "solution_hi": "<p>दिया गया शब्द: SHORTAGE&#39;</p>\n\n<p>यदि सभी <strong>स्वरों को अंग्रेजी वर्णमाला क्रम के अनुसार उनके अगले अक्षर में बदल दिया जाता है</strong>,</p>\n\n<p>नया शब्द: SHPRTBGF</p>\n\n<p>दायें&nbsp;छोर से तीसरा अक्षर = B</p>\n\n<p class=\"p1\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal;  line-height: normal; \">इसलिए, सही उत्तर &ldquo;<b>विकल्प 2</b>&rdquo; है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "Which of the following meaningful four-letter English words can be formed from the first, third, fifth and ninth letters of the word &quot;PROMINENT&quot;?",
+    "question_hi": "निम्नलिखित में से कौन सा सार्थक चार अक्षर वाला अंग्रेजी शब्द &quot;PROMINENT&quot; शब्द के पहले, तीसरे, पांचवें और नौवें अक्षर से बनाया जा सकता है?",
+    "options": [
+      "POIT",
+      "IPOT",
+      "OPIT",
+      "TOPI",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "POIT",
+      "IPOT",
+      "OPIT",
+      "TOPI",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p>Given word:&nbsp;&quot;PROMINENT&quot;</p>\n\n<p>First, third, fifth and ninth letters : P, O, I and T</p>\n\n<p>Meaningful word: TOPI (A topi is a type of small, typically brimless hat or cap, or a species of antelope).</p>\n\n<p class=\"p1\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal;  line-height: normal; \">Hence, the correct answer is &ldquo;<b>Option 4</b>&rdquo;.</p>\n",
+    "solution_hi": "<p>दिया गया शब्द: &quot;PROMINENT&quot;</p>\n\n<p>पहला, तीसरा, पाँचवाँ&nbsp;और नौवाँ&nbsp;अक्षर: P, O, I और T</p>\n\n<p>सार्थक शब्द: TOPI (टोपी एक प्रकार की छोटी, आमतौर पर बिना किनारे वाली टोपी या कैप, या मृग की एक प्रजाति है)।</p>\n\n<p class=\"p1\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal;  line-height: normal; \">इसलिए, सही उत्तर &ldquo;<b>विकल्प 4</b>&rdquo; है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<p>Consider the string given below made up of digits from 0 to 9. How many 3&rsquo;s are immediately preceded by 5 but not immediately followed by 3 or 5?&nbsp;</p>\n\n<p>5 9 8 8 7 8 9 7 8 8 8 3 3 9 3 5 9 5 3 5 5 3 7 3 3&nbsp;</p>\n",
+    "question_hi": "<p>नीचे दिए गए स्ट्रिंग पर विचार कीजिए&nbsp;जो 0 से 9 तक के अंकों से बना है। ऐसे कितने 3 हैं जिनके ठीक पहले 5 है लेकिन ठीक बाद में 3 या 5 नहीं है?</p>\n\n<p>5 9 8 8 7 8 9 7 8 8 8 3 3 9 3 5 9 5 3 5 5 3 7 3 3</p>\n",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "0",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "3",
+      "1",
+      "2",
+      "0",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Given series:</span>&nbsp;5 9 8 8 7 8 9 7 8 8 8 3 3 9 3 5 9 5 3 5 5 3 7 3 3&nbsp;</p>\n\n<p style=\"color: rgb(33, 37, 41);\">According to the question:</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Required condition:</span>&nbsp;5&nbsp;- 3&nbsp;- Not 3 or 5</p>\n\n<p style=\"color: rgb(33, 37, 41);\">5 9 8 8 7 8 9 7 8 8 8 3 3 9 3 5 9 5 3 5 <u><strong>5 3 7</strong></u> 3 3&nbsp;</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Thus, there is one&nbsp;such 3&rsquo;s which are immediately preceded by 5 but not immediately followed by 3 or 5.</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Hence,&nbsp;<span style=\"font-weight: bolder;\">&quot;Option 2&quot;</span>&nbsp;is the correct answer.</p>\n",
+    "solution_hi": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">दी गई </span><strong>शृंखला</strong><span style=\"font-weight: bolder;\">:</span> 5 9 8 8 7 8 9 7 8 8 8 3 3 9 3 5 9 5 3 5 5 3 7 3 3</p>\n\n<p style=\"color: rgb(33, 37, 41);\">प्रश्न के अनुसार:</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">अभीष्ट प्रतिबंध:</span> 5 - 3 - 3 या 5 नहीं</p>\n\n<p style=\"color: rgb(33, 37, 41);\">5 9 8 8 7 8 9 7 8 8 8 3 3 9 3 5 9 5 3 5 <u><strong>5 3 7</strong></u> 3 3</p>\n\n<p style=\"color: rgb(33, 37, 41);\">इस प्रकार, ऐसे 3 की संख्या एक है जिनके ठीक पहले 5 है लेकिन ठीक बाद में 3 या 5 नहीं है।</p>\n\n<p style=\"color: rgb(33, 37, 41);\">अतः, <span style=\"font-weight: bolder;\">&quot;विकल्प 2&quot;</span> सही उत्तर है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "Refer to the given number, symbol series and answer the question that follows.<br />\n(Left) 7 $ # 5 1 # 1 # 3 ^ 8 % 7 $ &amp; 9 3 # 2 &amp; * % &amp; @ 2 3 @ % &amp; 2 $ 5 @ 4 % (Right)<br />\nHow many such symbols are there (from left to right) that are not immediately preceded by a symbol and also not immediately followed by a number?",
+    "question_hi": "दी गई संख्या और प्रतीक श्रेणी को देखें और निम्नलिखित प्रश्न का उत्तर दें।<br />\n(बाएँ) 7 $ # 5 1 # 1 # 3 ^ 8 % 7 $ &amp; 9 3 # 2 &amp; * % &amp; @ 2 3 @ % &amp; 2 $ 5 @ 4 % (दाएँ)<br />\nऐसे कितने प्रतीक (बाएँ से दाएँ) हैं, जो तुरंत पहले किसी प्रतीक से पहले नहीं हैं और तुरंत बाद किसी संख्या के बाद भी नहीं हैं?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "4",
+      "3",
+      "2",
+      "5",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p>Given series:</p>\n\n<p>(Left) 7 $ # 5 1 # 1 # 3 ^ 8 % 7 $ &amp; 9 3 # 2 &amp; * % &amp; @ 2 3 @ % &amp; 2 $ 5 @ 4 % (Right)</p>\n\n<p>Condition to be checked:</p>\n\n<p><b>A symbol that is not immediately preceded by a symbol and not immediately followed by a number.</b></p>\n\n<p><b>&rarr; Not&nbsp;</b><span style=\"font-weight: bolder;\">symbol -&nbsp;Symbol -&nbsp;Not number</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">(Left)&nbsp;</span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">7 $ #&nbsp;</span></u><span style=\"color: rgb(33, 37, 41);\">5 1 # 1 # 3 ^ 8 %&nbsp;</span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">7 $ &amp;</span></u><span style=\"color: rgb(33, 37, 41);\">&nbsp;9 3 #&nbsp;</span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">2 &amp; *</span></u><span style=\"color: rgb(33, 37, 41);\">&nbsp;% &amp; @ 2&nbsp;</span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">3 @ %</span></u><span style=\"color: rgb(33, 37, 41);\">&nbsp;&amp; 2 $ 5 @ 4 % (Right)</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">There are <strong>four </strong>such symbols in the above arrangement.</p>\n\n<p>Hence, the correct answer is <b>&quot;Option 1&quot;</b>.</p>\n",
+    "solution_hi": "<p>दी गई श्रेणी:</p>\n\n<p>(बाएँ) 7 $ # 5 1 # 1 # 3 ^ 8 % 7 $ &amp; 9 3 # 2 &amp; * % &amp; @ 2 3 @ % &amp; 2 $ 5 @ 4 % (दाएँ)</p>\n\n<p>जाँचने की शर्त:</p>\n\n<p><b>एक प्रतीक जो तुरंत पहले किसी प्रतीक से पहले नहीं है और तुरंत बाद किसी संख्या के बाद भी नहीं है।</b></p>\n\n<p><b>&rarr; </b><span style=\"font-weight: bolder;\">प्रतीक नहीं&nbsp;- प्रतीक - संख्या नहीं</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">(बाएँ) </span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">7 $ # </span></u><span style=\"color: rgb(33, 37, 41);\">5 1 # 1 # 3 ^ 8 % </span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">7 $ &amp;</span></u><span style=\"color: rgb(33, 37, 41);\"> 9 3 # </span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">2 &amp; *</span></u><span style=\"color: rgb(33, 37, 41);\"> % &amp; @ 2 </span><u style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">3 @ %</span></u><span style=\"color: rgb(33, 37, 41);\"> &amp; 2 $ 5 @ 4 % (दाएँ)</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">उपरोक्त व्यवस्था में <strong>चार</strong> ऐसे प्रतीक हैं।</p>\n\n<p>अतः सही उत्तर <b>&quot;विकल्प 1&quot;</b> है।</p>\n",
+    "marks": "0.97"
+  },
+  {
+    "question": "<!-- x-tinymce/html -->If it is possible to make a meaningful word with 1st, 4th, 7th and 11th letters of the word &quot;SUPERFLUOUS&quot;, then what will be the first letter of that word? If no meaningful word can be made, X is the answer.",
+    "question_hi": "<!-- x-tinymce/html -->यदि शब्द &quot;SUPERFLUOUS&quot; के पहले, चौथे, सातवें और ग्यारहवें अक्षरों से एक सार्थक शब्द बनाना संभव है, तो उस शब्द का पहला अक्षर क्या होगा? यदि कोई सार्थक शब्द नहीं बनाया जा सकता है, तो उत्तर X है।",
+    "options": [
+      "S",
+      "E",
+      "L",
+      "X",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "S",
+      "E",
+      "L",
+      "X",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given Word:</strong> SUPERFLUOUS</p>\n\n<p>The letters to be used are the 1st, 4th, 7th, and 11th letters of the word.</p>\n\n<ul>\n\t<li>1st letter is S</li>\n\t<li>4th letter is E</li>\n\t<li>7th letter is L</li>\n\t<li>11th letter is S</li>\n</ul>\n\n<p>The letters are S, E, L, S.</p>\n\n<p>By rearranging these letters, a meaningful word can be formed:</p>\n\n<p><strong>LESS</strong></p>\n\n<p>The first letter of this word is &quot;L&quot;.</p>\n\n<p>Hence, the correct answer is <strong>&quot;Option 3&quot;</strong>.</p>\n",
+    "solution_hi": "<p><strong>दिया गया शब्द:</strong> SUPERFLUOUS</p>\n\n<p>प्रयुक्त होने वाले अक्षर शब्द के पहले, चौथे, सातवें और ग्यारहवें अक्षर हैं।</p>\n\n<ul>\n\t<li>पहला अक्षर S है</li>\n\t<li>चौथा अक्षर E है</li>\n\t<li>सातवाँ अक्षर L है</li>\n\t<li>ग्यारहवाँ अक्षर S है</li>\n</ul>\n\n<p>अक्षर हैं S, E, L, S</p>\n\n<p>इन अक्षरों को पुनर्व्यवस्थित करके, एक सार्थक शब्द बनाया जा सकता है:</p>\n\n<p><strong>LESS</strong></p>\n\n<p>इस शब्द का पहला अक्षर &quot;L&quot; है।</p>\n\n<p>इसलिए, सही उत्तर <strong>&quot;विकल्प 3&quot;</strong> है।</p>\n",
+    "marks": "0.97"
+  }
+]
