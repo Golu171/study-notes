@@ -1,0 +1,442 @@
+[
+  {
+    "question": "A sum at a certain rate of simple interest becomes Rs. 14880 after 3 years and Rs. 16800 after 5 years. Find the simple interest on the same sum at 10% per annum for 4 years (in Rs.).",
+    "question_hi": "<span style=\"color: rgb(37, 37, 37);  \">साधारण ब्याज की एक निश्चित दर पर एक राशि 3 वर्ष के बाद 14880 रुपये और 5 वर्ष के बाद 16800 रुपये हो जाती है। उसी राशि पर 10% प्रति वर्ष की दर से 4 वर्षों के लिए साधारण ब्याज (रुपये में)&nbsp;ज्ञात कीजिए।</span>",
+    "options": [
+      "4800",
+      "5184",
+      "4740",
+      "4860",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "4800",
+      "5184",
+      "4740",
+      "4860",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Amount after 3 years = Rs.14880</p>\n\n<p>Amount after 5 years = Rs.16800</p>\n\n<p><strong>Formula:</strong></p>\n\n<p>Let P = Principal, R = Rate of interest and N = time period</p>\n\n<p>Simple interest = PNR/100</p>\n\n<p>Amount = Principal + SI</p>\n\n<p><b>Calculation:</b></p>\n\n<p>Amount for 3 years</p>\n\n<p>&rArr; 14880 = PR&nbsp;&times; 3/100 + P&nbsp; &nbsp; &nbsp; ----(1)</p>\n\n<p>Amount for 5 years</p>\n\n<p>&rArr;&nbsp;16800 = PR&nbsp;&times; 5/100 + P&nbsp; &nbsp; &nbsp; ----(2)</p>\n\n<p>Subtracting eq(1) from eq(2)</p>\n\n<p>2PR/100 = 1920</p>\n\n<p>&rArr;&nbsp; PR = 96000</p>\n\n<p>Then,</p>\n\n<p>&rArr;&nbsp;16800 = 96000&nbsp;&times; 5/100 + P</p>\n\n<p>&rArr;&nbsp;P = 12000</p>\n\n<p>Sum is Rs.12000.</p>\n\n<p>Simple interest = 12000&nbsp;&times; 10&nbsp;&times; 4/100 = Rs.4800</p>\n\n<p><strong>&there4; Simple interest on the same sum at 10% per annum for 4 years is Rs.4800.</strong></p>\n",
+    "solution_hi": "<p style=\"\"><span style=\"font-weight: 700;\">दिया गया है:</span></p>\n\n<p style=\"\">3&nbsp;<span style=\"color: rgb(37, 37, 37);\">वर्षों के&nbsp;</span>बाद राशि = 14880&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;</span></p>\n\n<p style=\"\">5&nbsp;<span style=\"color: rgb(37, 37, 37);\">वर्षों के&nbsp;</span>बाद राशि&nbsp;= 16800&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">सूत्र:</span></p>\n\n<p style=\"\">माना P = मूलधन, R =&nbsp;<span style=\"color: rgb(37, 37, 37);\">ब्याज दर और&nbsp;</span>N<span style=\"color: rgb(37, 37, 37);\">&nbsp;= समय अवधि</span></p>\n\n<p style=\"\"><span style=\"color: rgb(37, 37, 37);\">साधारण ब्याज&nbsp;</span>= PNR/100</p>\n\n<p style=\"\">मिश्रधन = मूलधन + साधारण ब्याज</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p>3 वर्ष के लिए मिश्रधन</p>\n\n<p><span style=\"\">&rArr; 14880 = PR&nbsp;&times; 3/100 + P&nbsp; &nbsp; &nbsp; ----(1)</span></p>\n\n<p>5<span style=\"\">&nbsp;वर्ष के लिए मिश्रधन</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;16800 = PR&nbsp;&times; 5/100 + P&nbsp; &nbsp; &nbsp; ----(2)</span></p>\n\n<p>समी(1) को <span style=\"\">समी</span>(2) से घटा कर</p>\n\n<p>2PR/100 = 1920</p>\n\n<p style=\"\">&rArr;&nbsp; PR = 96000</p>\n\n<p style=\"\">तब,</p>\n\n<p style=\"\">&rArr;&nbsp;16800 = 96000&nbsp;&times; 5/100 + P</p>\n\n<p style=\"\">&rArr;&nbsp;P = 12000</p>\n\n<p style=\"\">राशि&nbsp;12000&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये&nbsp;है।</span></p>\n\n<p style=\"\"><span style=\"color: rgb(37, 37, 37);\">साधारण ब्याज&nbsp;</span>= 12000&nbsp;&times; 10&nbsp;&times; 4/100 = 4800&nbsp;<span style=\"color: rgb(37, 37, 37);\">रुपये</span><span style=\"color: rgb(37, 37, 37);\">&nbsp;</span></p>\n\n<p><strong>&there4;&nbsp;उसी राशि पर 10% प्रति वर्ष की दर से 4 वर्षों के लिए साधारण ब्याज 4800 रुपये&nbsp;है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A sum of money doubles in 14 years. In how many years would it tripple if the rate of interest is considered as simple?&nbsp;",
+    "question_hi": "कोई धनराशि 14 वर्षों में दोगुनी हो जाती है। यदि ब्याज दर साधारण (साधारण ब्याज) मानी जाए, तो कितने वर्षों में यह राशि तीन गुनी हो जाएगी?&nbsp;",
+    "options": [
+      "25 years",
+      "28 years",
+      "18 years",
+      "23 years",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "25 वर्ष",
+      "28 वर्ष",
+      "18 वर्ष",
+      "23 वर्ष",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Concept used:</strong></p>\n\n<p>Simple Interest = (P&nbsp;&times; t&nbsp;&times; r)/100, where P = principal, t = time and r = rate of interest</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Let&#39;s assume that, principal = P and after 14 years it becomes 2P, so interest = (2P - P) = P</p>\n\n<p>So, (P&nbsp;&times; 14&nbsp;&times; r)/100 = P</p>\n\n<p>&rArr; r = 100/14</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; r =&nbsp;</span>50/7</p>\n\n<p>Now, if the principal becomes 3P, then interest = (3P - P) = 2P</p>\n\n<p>Now, (P&nbsp;&times; t&nbsp;&times; 50/7)/100 = 2P</p>\n\n<p>&rArr; t = 1400/50</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; t =&nbsp;</span>28</p>\n\n<p><span id=\"docs-internal-guid-2f738c72-7fff-dee3-439e-c815dc7a4d28\"><span style=\" font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space-collapse: preserve;\">&there4; The correct answer is 28 years</span></span></p>\n",
+    "solution_hi": "<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>साधारण ब्याज = (P &times; t &times; r)/100, जहाँ P = मूलधन, t = समय और r = ब्याज दर</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>माना कि, मूलधन = P और 14 वर्षों के बाद यह 2P हो जाता है, इसलिए ब्याज = (2P - P) = P</p>\n\n<p>इसलिए, <span style=\"color: rgb(33, 37, 41);\">(P&nbsp;&times; 14&nbsp;&times; r)/100 = P</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; r = 100/14</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; r =&nbsp;50/7</p>\n\n<p>अब, यदि मूलधन 3P हो जाता है, तो ब्याज = (3P - P) = 2P</p>\n\n<p>अब, <span style=\"color: rgb(33, 37, 41);\">(P&nbsp;&times; t&nbsp;&times; 50/7)/100 = 2P</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; t = 1400/50</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; t =&nbsp;28</p>\n\n<p><strong>&there4; सही उत्तर 28 वर्ष है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "What will be the amount on a sum of Rs. 1,000 for 3 years at 10% compound interest per annum compounding annually?",
+    "question_hi": "1,000 रुपये के मूलधन पर 3 वर्ष के लिए वार्षिक रूप से संयोजित 10% चक्रवृद्धि ब्याज की दर से मिश्रधन कितना होगा?",
+    "options": [
+      "<span style=\"\">Rs. 1,331</span>",
+      "<span style=\"\">Rs. 2,311</span>",
+      "<span style=\"\">Rs. 4,121</span>",
+      "<span style=\"\">Rs. 3,122</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">1,331&nbsp;</span>रुपये",
+      "<span style=\"\">2,311&nbsp;</span>रुपये",
+      "<span style=\"\">4,121&nbsp;</span>रुपये",
+      "<span style=\"\">3,122&nbsp;</span>रुपये",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Principal: Rs. 1,000</p>\n\n<p>Rate of interest: 10% per annum</p>\n\n<p>Time: 3 years</p>\n\n<p><strong>Concept:</strong></p>\n\n<p>Amount after &#39;n&#39; years with compound interest = P(1 + r/100)<sup>n</sup></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>&rArr; Amount = 1000(1 + 10/100)<sup>3</sup> = 1000(1.1)<sup>3</sup> = Rs. 1331</p>\n\n<p><strong>Therefore, the amount on a sum of Rs. 1,000 for 3 years at 10% compound interest per annum compounding annually is Rs. 1,331.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>मूलधन: 1,000&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>ब्याज की दर: 10% वार्षिक</p>\n\n<p>समय: 3 वर्ष</p>\n\n<p><strong>अवधारणा:</strong></p>\n\n<p>चक्रवृद्धि ब्याज पर&nbsp;&#39;n&#39; <span style=\"\">वर्षों के&nbsp;</span>बाद मिश्रधन</p>\n\n<p>= P(1 + r/100)<sup>n</sup></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>&rArr; <span style=\"color: rgb(33, 37, 41);\">मिश्रधन&nbsp;</span>= 1000(1 + 10/100)<sup>3</sup> = 1000(1.1)<sup>3</sup> = 1331&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p><strong>अतः&nbsp;1,000 रुपये के मूलधन पर 3 वर्षों के लिए <span style=\"\">वार्षिक रूप से संयोजित&nbsp;</span></strong><strong>10%&nbsp;चक्रवृद्धि ब्याज की दर से <span style=\"color: rgb(33, 37, 41);\">मिश्रधन</span>&nbsp;1,331 रुपये होगा।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A sum invested at compound interest amounts to Rs. 8,000 in 4 years and Rs. 8,400 in 5 years, interest being compounded yearly. What will be the amount of the same sum at the end of the 6<sup>th</sup>&nbsp;year?",
+    "question_hi": "चक्रवृद्धि ब्याज पर निवेश की गई राशि 4 वर्षों में 8,000 रुपये और 5 वर्षों में 8,400 रुपये हो जाती है, ब्याज वार्षिक रूप से संयोजित होता है। छठवें वर्ष के अंत में समान राशि की मिश्रित धनराशि क्या होगी?",
+    "options": [
+      "Rs. 8,988",
+      "<span style=\"\">Rs.&nbsp;</span>9,000",
+      "Rs. 8,820",
+      "Rs. 8,904",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "8,988 रुपये",
+      "9,000&nbsp;<span style=\"\">रुपये</span>",
+      "8,820&nbsp;<span style=\"\">रुपये</span>",
+      "8,904&nbsp;<span style=\"\">रुपये</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given;</strong></p>\n\n<p>A sum of the amount becomes 8000 in 4 years and 8400 in 5 years at compound interest</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>At&nbsp;compound interest, the final amount&nbsp;=&nbsp;<span class=\"math-tex\">\\(P\\left(1+\\frac{r}{100} \\right)^n\\)</span></p>\n\n<p>Where, P = The sum of the amount</p>\n\n<p>r = Rate of interest</p>\n\n<p>n = Time (years)</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>Here, Rs. 8000 becomes Rs. 84000 at compound interest in one year.</p>\n\n<p>Let, the rate of interest = R</p>\n\n<p>So, 8400 =&nbsp;<span class=\"math-tex\">\\(8000\\left(1+\\frac{R}{100} \\right)^1\\)</span></p>\n\n<p>&rArr; (100 + R)/100 = 8400/8000 = 21/20</p>\n\n<p><span style=\"\">&rArr; (100 + R) = (21/20)&nbsp;&times; 100 = 105</span></p>\n\n<p><span style=\"\">&rArr; R = 105 - 100 = 5</span></p>\n\n<p><span style=\"\">&there4; The rate of interest = 5%</span></p>\n\n<p>The amount will become at 6th year =&nbsp;<span class=\"math-tex\">\\(8400\\left(1+\\frac{5}{100} \\right)^1\\)</span></p>\n\n<p>= 8400&nbsp;&times; (105/100)</p>\n\n<p>= Rs. 8820</p>\n\n<p><strong>&there4; T<span style=\"\">he amount of the same sum at the end of the 6</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">th</span><span style=\"\">&nbsp;year will be&nbsp;Rs. 8820</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है;</strong></p>\n\n<p><span style=\"\">चक्रवृद्धि ब्याज पर निवेश की गई राशि 4 वर्षों में 8,000 रुपये और 5 वर्षों में 8,400 रुपये हो जाती है।&nbsp;</span></p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p><span style=\"\">चक्रवृद्धि ब्याज पर, अंतिम धनराशि</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(P\\left(1+\\frac{r}{100} \\right)^n\\)</span></p>\n\n<p>जहाँ, P = मूलधन</p>\n\n<p>r = ब्याज की दर</p>\n\n<p>n = समय (वर्षों में)</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>यहां, एक वर्ष में चक्रवृद्धि ब्याज पर 8000 रुपये 84000 रुपये हो जाते हैं।</p>\n\n<p>माना, ब्याज की दर&nbsp;= R</p>\n\n<p>इसलिए, 8400 =&nbsp;<span class=\"math-tex\">\\(8000\\left(1+\\frac{R}{100} \\right)^1\\)</span></p>\n\n<p>&rArr; (100 + R)/100 = 8400/8000 = 21/20</p>\n\n<p><span style=\"\">&rArr; (100 + R) = (21/20)&nbsp;&times; 100 = 105</span></p>\n\n<p><span style=\"\">&rArr; R = 105 - 100 = 5</span></p>\n\n<p><span style=\"\">&there4; ब्याज की दर&nbsp;= 5%</span></p>\n\n<p>छठवें वर्ष में धनराशि हो जाएगी&nbsp;=&nbsp;<span class=\"math-tex\">\\(8400\\left(1+\\frac{5}{100} \\right)^1\\)</span></p>\n\n<p>= 8400&nbsp;&times; (105/100)</p>\n\n<p>=&nbsp;8820 रुपये</p>\n\n<p><strong>&there4; <span style=\"\">छठवें वर्ष के अंत में समान राशि की मिश्रित धनराशि&nbsp;8820 रुपये होगी।&nbsp;</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Simple interest on a certain sum of money at the rate of 5% per annum for 4 years is Rs. 800. What will be the compound interest on the same sum for the same period and at the same rate of interest?",
+    "question_hi": "<span style=\"\">किसी निश्चित धनराशि पर&nbsp;</span><span style=\"\">5%&nbsp;वार्षिक ब्याज दर पर 4 वर्षों के लिए साधारण ब्याज 800 रुपये है। </span>समान राशि पर समान अवधि और समान ब्याज दर पर चक्रवृद्धि ब्याज कितना होगा?",
+    "options": [
+      "<span style=\"\">850</span>",
+      "<span style=\"\">840</span>",
+      "<span style=\"\">855</span>",
+      "<span style=\"\">862</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">850</span>",
+      "<span style=\"\">840</span>",
+      "<span style=\"\">855</span>",
+      "<span style=\"\">862</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given</strong></p>\n\n<p>Rate = 5%</p>\n\n<p>Time = 4 years</p>\n\n<p><span style=\"\">Simple interest = 800</span></p>\n\n<p><strong><span style=\"\">Formula used</span></strong></p>\n\n<p>SI = P &times; R &times; T/100</p>\n\n<p>Where, P = principal</p>\n\n<p>R = rate</p>\n\n<p>T = time</p>\n\n<p>CI = P( 1 + r/100)<sup>n</sup> - P</p>\n\n<p><span style=\"\">Where, P = principal</span></p>\n\n<p><span style=\"\">n = time</span></p>\n\n<p><strong><span style=\"\">Solution</span></strong></p>\n\n<p><span style=\"\">Let the principal be P.</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;SI = (P &times; R &times; T)/100</span></p>\n\n<p><span style=\"\">&rArr; 800</span><span style=\"\">&nbsp;= (P &times; 5&nbsp;&times; 4)/100</span></p>\n\n<p><span style=\"\">&rArr; P = 4000</span></p>\n\n<p><span style=\"\">Now, CI will be:</span></p>\n\n<p>&rArr; CI = 4000( 1 + 5/100)<sup><span style=\"font-size: 10.5px;\">4</span></sup>&nbsp;- 4000</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span><span style=\"\">CI =&nbsp;</span>4000&nbsp;&times;&nbsp;(105/100)<sup>4</sup>&nbsp;- 4000</p>\n\n<p><span style=\"\">&rArr;&nbsp;CI = (4000&nbsp;&times; 21/20&nbsp;&times; 21/20&nbsp;&times; 21/20&nbsp;&times; 21/20) - 4000</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;</span><span style=\"\">CI = 4862.025 - 4000</span></p>\n\n<p><strong><span style=\"\">&rArr;&nbsp;</span></strong><span style=\"\">C.I = 862.025&nbsp;&asymp; Rs. 862</span></p>\n\n<p><strong>&there4; The correct answer is <span style=\"\">Rs. 862</span>.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया&nbsp;है</strong></p>\n\n<p>दर = 5%</p>\n\n<p>समय = 4 वर्ष</p>\n\n<p>साधारण ब्याज = 800</p>\n\n<p><b>प्रयुक्त सूत्र</b></p>\n\n<p>SI = P &times; R &times; T/100</p>\n\n<p>जहाँ, P = मूलधन</p>\n\n<p>R =&nbsp;<span style=\"\">दर</span></p>\n\n<p>T = <span style=\"\">समय</span></p>\n\n<p>CI = P( 1 + r/100)<sup>n</sup> - P</p>\n\n<p><span style=\"\">जहाँ</span><span style=\"\">, P = मूलधन</span></p>\n\n<p><span style=\"\">n = समय</span></p>\n\n<p><b>हल</b></p>\n\n<p>माना कि&nbsp;मूलधन&nbsp;P है।&nbsp;</p>\n\n<p><span style=\"\">&rArr;&nbsp;SI = (P &times; R &times; T)/100</span></p>\n\n<p><span style=\"\">&rArr; 800</span><span style=\"\">&nbsp;= (P &times; 5&nbsp;&times; 4)/100</span></p>\n\n<p><span style=\"\">&rArr; P = 4000</span></p>\n\n<p><span style=\"\">अब, CI होगा:</span></p>\n\n<p>&rArr; CI = 4000( 1 + 5/100)<sup><span style=\"font-size: 10.5px;\">4</span></sup>&nbsp;- 4000</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span><span style=\"\">CI =&nbsp;</span>4000&nbsp;&times;&nbsp;(105/100)<sup>4</sup>&nbsp;- 4000</p>\n\n<p><span style=\"\">&rArr;&nbsp;CI = (4000&nbsp;&times; 21/20&nbsp;&times; 21/20&nbsp;&times; 21/20&nbsp;&times; 21/20) - 4000</span></p>\n\n<p><span style=\"\">&rArr;&nbsp;</span><span style=\"\">CI = 4862.025 - 4000</span></p>\n\n<p><span style=\"font-weight: 700; \">&rArr;&nbsp;</span><span style=\"\">C.I = 862.025&nbsp;&asymp; 862&nbsp;रुपये</span></p>\n\n<p><strong>&there4; सही उत्तर <span style=\"\">862&nbsp;रुपये</span>&nbsp;है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If the difference between the compound interest, compounding annually and the simple interest on a certain sum of money at 5% per annum for 3 years is Rs.183, then what is the sum of money invested?&nbsp;",
+    "question_hi": "यदि एक निश्चित धनराशि पर 3 वर्ष के लिए 5% प्रति वर्ष की दर से वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज और साधारण ब्याज के बीच का अंतर 183 रुपये है, तो निवेश की गई धनराशि कितनी है?",
+    "options": [
+      "<span style=\"\">Rs.20,000</span>",
+      "<span style=\"\">Rs.28,000</span>",
+      "<span style=\"\">Rs.24,000</span>",
+      "<span style=\"\">Rs.16,000</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">20,000 रुपये</span>",
+      "<span style=\"\">28,000&nbsp;</span><span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "<span style=\"\">24,000&nbsp;</span><span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "<span style=\"\">16,000&nbsp;</span><span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given</strong></p>\n\n<p>Interest rate (r) = 5%</p>\n\n<p>Time (t) = 3 years</p>\n\n<p>Difference between Compound Interest and Simple Interest = Rs. 183</p>\n\n<p><strong>Formula:</strong></p>\n\n<p>If the difference between Compound Interest and Simple Interest for 3 years is given,&nbsp;</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">D = P &times;&nbsp;(R/100)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;(R% + 3)</span></p>\n\n<p><strong>Solution:</strong></p>\n\n<p>&rArr; 183 = P &times;&nbsp;(5/100)<sup>2</sup>&nbsp;(R% + 3)</p>\n\n<p>&rArr; P = 183/(0.05)<sup>2</sup> &times;&nbsp;<span style=\"color: rgb(33, 37, 41);\">(5% + 3)</span></p>\n\n<p>&rArr; P = <span style=\"color: rgb(33, 37, 41);\">Rs.24,000</span></p>\n\n<p><strong>&there4; The sum of money invested is <span style=\"color: rgb(33, 37, 41);\">Rs.24,000.</span></strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है</strong></p>\n\n<p>ब्याज दर (r) = 5%</p>\n\n<p>समय (t) = 3 वर्ष</p>\n\n<p>चक्रवृद्धि ब्याज और साधारण ब्याज के बीच अंतर = 183 रुपये</p>\n\n<p><strong>सूत्र:</strong></p>\n\n<p>यदि 3 वर्षों के लिए चक्रवृद्धि ब्याज और साधारण ब्याज के बीच का अंतर दिया गया है,</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">D = P &times;&nbsp;(R/100)</span><span style=\"position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span><span style=\"color: rgb(33, 37, 41);\">&nbsp;(R% + 3)</span></p>\n\n<p><strong>हल:</strong></p>\n\n<p>&rArr; 183 = P &times;&nbsp;(5/100)<sup>2</sup>&nbsp;(R% + 3)</p>\n\n<p>&rArr; P = 183/(0.05)<sup>2</sup> &times;&nbsp;<span style=\"color: rgb(33, 37, 41);\">(5% + 3)</span></p>\n\n<p>&rArr; P = <span style=\"color: rgb(33, 37, 41);\">24,000 रुपये</span></p>\n\n<p><strong>&there4; निवेश की गई धनराशि</strong>&nbsp;<strong><span style=\"color: rgb(33, 37, 41);\">24,000 रुपये है।&nbsp;</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "The compound interest obtained on Rs. 6,250 for two years at the rate of interest 8% per annum, compounded annually, will be:",
+    "question_hi": "वार्षिक रूप से संयोजित&nbsp;<span style=\"\">चक्रवृद्धि&nbsp;</span>ब्याज की <span style=\"\">8%&nbsp;</span>दर से दो वर्षों के लिए 6,250 रुपये पर प्राप्त <span style=\"\">चक्रवृद्धि ब्याज कितना&nbsp;</span>होगा?",
+    "options": [
+      "Rs. 1,040",
+      "Rs. 1,500",
+      "Rs. 1,450",
+      "Rs. 1,020",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "1,040&nbsp;<span style=\"\">रुपये&nbsp;</span>",
+      "1,500&nbsp;<span style=\"\">रुपये&nbsp;</span>",
+      "1,450&nbsp;<span style=\"\">रुपये&nbsp;</span>",
+      "1,020&nbsp;<span style=\"\">रुपये&nbsp;</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given</strong></p>\n\n<p>Principal = Rs. 6,250</p>\n\n<p>Time = 2 years</p>\n\n<p>Rate = 8% per annu<strong>m</strong></p>\n\n<p><strong>Formula used</strong></p>\n\n<p>A = P(1 + r%)<sup>t</sup></p>\n\n<p>where p and r are principal and rate respectively</p>\n\n<p>Compound interest = Amount - Principal</p>\n\n<p><strong>Calculation</strong></p>\n\n<p>A = 6250 (1 + 8%)<sup>2</sup></p>\n\n<p><span style=\"\">&rArr;</span>A = 6250&nbsp;&times; (108/100)&nbsp;&times; (108/100)</p>\n\n<p><span style=\"\">&rArr;</span>A = 6250&nbsp;&times; (27/25)&nbsp;&times; (27/25)</p>\n\n<p><span style=\"\">&rArr;</span>A = 10&nbsp;&times; 27&nbsp;&times; 27</p>\n\n<p><span style=\"\">&rArr;</span>A = 7290</p>\n\n<p>Compound interest = 7290 - 6250</p>\n\n<p>&rArr;1040</p>\n\n<p><strong>&there4; Compound interest is Rs.1040</strong></p>\n\n<p>&nbsp;</p>\n",
+    "solution_hi": "<p><span style=\"font-weight: 700; \">दिया गया है</span></p>\n\n<p>मूलधन = 6,250&nbsp;रुपये&nbsp;</p>\n\n<p>समय = 2 वर्ष</p>\n\n<p>दर = 8% प्रति वर्ष</p>\n\n<p><span style=\"font-weight: 700; \">प्रयुक्त सूत्र</span></p>\n\n<p><span style=\"\">A = P(1 + r%)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">t</span></p>\n\n<p>जहाँ p और r क्रमशः मूलधन और दर हैं।</p>\n\n<p>चक्रवृद्धि ब्याज = मिश्रधन - मूलधन</p>\n\n<p><strong>गणना</strong></p>\n\n<p>A = 6250 (1 + 8%)<sup>2</sup></p>\n\n<p><span style=\"\">&rArr;</span>A = 6250&nbsp;&times; (108/100)&nbsp;&times; (108/100)</p>\n\n<p><span style=\"\">&rArr;</span>A = 6250&nbsp;&times; (27/25)&nbsp;&times; (27/25)</p>\n\n<p><span style=\"\">&rArr;</span>A = 10&nbsp;&times; 27&nbsp;&times; 27</p>\n\n<p><span style=\"\">&rArr;</span>A = 7290</p>\n\n<p><span style=\"\">चक्रवृद्धि ब्याज</span> = 7290 - 6250</p>\n\n<p>&rArr;1040</p>\n\n<p><strong>&there4; <span style=\"\">चक्रवृद्धि ब्याज&nbsp;</span>1040 रुपये है।&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If a sum increases by 21% after 2 years, then the rate of compound interest per annum, when compounded annually, must be:",
+    "question_hi": "यदि कोई राशि 2 वर्ष के बाद 21% बढ़ जाती है, तो चक्रवृद्धि ब्याज की वार्षिक दर, जब वार्षिक रूप से संयोजित होती है, कितनी होनी चाहिए:",
+    "options": [
+      "10.5%",
+      "11.5%",
+      "10%",
+      "11%",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10.5%",
+      "11.5%",
+      "10%",
+      "11%",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p style=\"\"><span style=\"font-weight: 700;\">Given:</span></p>\n\n<p style=\"\">The&nbsp;<span style=\"\">sum increases by 21% after 2 years.</span></p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Concept used:</span></p>\n\n<p style=\"\">Compound interest, CI = P(1 + R/100)<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">n</span>&nbsp;- P</p>\n\n<p style=\"\">where</p>\n\n<p style=\"\">P = Principal amount</p>\n\n<p style=\"\">R = Rate of interest per year</p>\n\n<p style=\"\">N = Time in&nbsp;years</p>\n\n<p style=\"\">Incremented Value = Initial Value&nbsp;&times; (1 + Increment%)</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">Calculation:&nbsp;</span></p>\n\n<p style=\"\">Let the principal amount and rate of interest be Rs. P and R% per annum respectively.</p>\n\n<p style=\"\">P (1 + R/100)<sup>2</sup>&nbsp;= P (1 + 21/100)</p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;P (1 + R/100)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;= P&nbsp;&times; 1.21</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(1 + R/100)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;= 1.21</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(1 + R/100)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;= (1.1)<sup>2</sup></span></p>\n\n<p style=\"\"><span style=\"\">&rArr; R = 10%</span></p>\n\n<p style=\"\"><strong><span style=\"\">&there4; The rate of interest is 10%.</span></strong></p>\n",
+    "solution_hi": "<p style=\"\"><span style=\"font-weight: 700;\">दिया गया है:</span></p>\n\n<p style=\"\">2 वर्ष बाद राशि में 21% की वृद्धि होती है।</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">प्रयुक्त अवधारणा:</span></p>\n\n<p style=\"\">चक्रवृद्धि ब्याज, CI = P(1 + R/100)<span style=\"line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">n</span>&nbsp;- P</p>\n\n<p style=\"\">जहां,</p>\n\n<p style=\"\">P = मूलधन&nbsp;राशि</p>\n\n<p style=\"\">R =&nbsp;ब्याज दर प्रति वर्ष</p>\n\n<p style=\"\">N = समय&nbsp;वर्षों में</p>\n\n<p style=\"\">बढ़ा हुआ मान&nbsp;= आरंभिक मान &times; (1 + वृद्धि%)</p>\n\n<p style=\"\"><span style=\"font-weight: 700;\">गणना:&nbsp;</span></p>\n\n<p style=\"\">माना मूलधन और ब्याज की दर क्रमश: P&nbsp;रुपये&nbsp;और R% प्रति वर्ष है।</p>\n\n<p style=\"\">P (1 + R/100)<sup>2</sup>&nbsp;= P (1 + 21/100)</p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;P (1 + R/100)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;= P&nbsp;&times; 1.21</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(1 + R/100)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;= 1.21</span></p>\n\n<p style=\"\"><span style=\"\">&rArr;&nbsp;(1 + R/100)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">2</span><span style=\"\">&nbsp;= (1.1)<sup>2</sup></span></p>\n\n<p style=\"\"><span style=\"\">&rArr; R = 10%</span></p>\n\n<p style=\"\"><strong><span style=\"font-weight: 700; \">&there4;&nbsp;</span>ब्याज दर 10% है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "At simple interest a sum of <span style=\"color: rgb(33, 37, 41);\">Rs.&nbsp;</span>6,400 becomes <span style=\"color: rgb(33, 37, 41);\">Rs.&nbsp;</span>8,320 in 3 years. What will <span style=\"color: rgb(33, 37, 41);\">Rs.&nbsp;</span>7,200 become in 5 years at the same rate?&nbsp;",
+    "question_hi": "साधारण ब्याज पर, 3 वर्षों में 6,400 रुपये, 8,320 रुपये हो गए। उसी दर से 5 वर्षों में 7,200 रुपये कितने हो जाएंगे?",
+    "options": [
+      "Rs.&nbsp;10,200",
+      "<span style=\"color: rgb(33, 37, 41);\">Rs.&nbsp;</span>10,600",
+      "<span style=\"color: rgb(33, 37, 41);\">Rs.&nbsp;</span>10,800",
+      "<span style=\"color: rgb(33, 37, 41);\">Rs.&nbsp;</span>10,400",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10,200&nbsp;रुपये",
+      "10,600&nbsp;रुपये",
+      "10,800&nbsp;रुपये",
+      "10,400 रुपये",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>Interest for 3 years on ₹6,400 = 8320 − 6400 = ₹1,920.</p>\n<p>Interest per year on ₹6,400 = 1920 ÷ 3 = ₹640.</p>\n<p><strong>Rate of Interest</strong> = (640 ÷ 6400) × 100 = 10%.</p>\n<p>Interest on ₹7,200 for 5 years = 7,200 × 10% × 5 = ₹3,600.</p>\n<p><strong>New Amount</strong> = 7,200 + 3,600 = ₹10,800.</p>\n<p><strong>∴ The correct answer is ₹10,800.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Initial <strong>Principal</strong> (P<sub>1</sub>) = ₹6,400, <strong>Amount</strong> (A<sub>1</sub>) = ₹8,320, <strong>Time</strong> (T<sub>1</sub>) = 3 years.</p>\n<p>Secondary <strong>Principal</strong> (P<sub>2</sub>) = ₹7,200, <strong>Time</strong> (T<sub>2</sub>) = 5 years.</p>\n<p><strong>Formula Used:</strong></p>\n<p>Simple Interest (SI) = (P × R × T) ÷ 100</p>\n<p>Amount (A) = Principal (P) + Simple Interest (SI)</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_27005dee.png/1784620771.png\" style=\"max-width: 100%; height: auto; width: 420px; max-height: 200px;\"></div>\n<p><strong>Calculations:</strong></p>\n<p>⇒ SI<sub>1</sub> = A<sub>1</sub> − P<sub>1</sub> = 8,320 − 6,400 = ₹1,920</p>\n<p>⇒ 1,920 = (6,400 × R × 3) ÷ 100</p>\n<p>⇒ 1,920 = 64 × R × 3</p>\n<p>⇒ R = 1,920 ÷ 192 = 10%</p>\n<p>⇒ Now, SI<sub>2</sub> = (7,200 × 10 × 5) ÷ 100</p>\n<p>⇒ SI<sub>2</sub> = 7,200 × 0.5 = ₹3,600</p>\n<p>⇒ Final Amount (A<sub>2</sub>) = P<sub>2</sub> + SI<sub>2</sub> = 7,200 + 3,600 = ₹10,800</p>\n<p><strong>∴ The correct answer is ₹10,800.</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Relationship between SI and Rate</p>\n<p style='margin:0 0 8px 0;color:#444444;'>Simple interest is directly proportional to the principal, rate, and time. If the rate is constant, SI<sub>1</sub>/SI<sub>2</sub> = (P<sub>1</sub> × T<sub>1</sub>) / (P<sub>2</sub> × T<sub>2</sub>).</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Amount Formula</p>\n<p style='margin:0 0 8px 0;color:#444444;'>The total amount accumulated is A = P(1 + RT/100), where R is the annual interest rate and T is time in years.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Constant Rate Shortcut</p>\n<p style='margin:0 0 8px 0;color:#444444;'>If the principal changes from P<sub>1</sub> to P<sub>2</sub> and time from T<sub>1</sub> to T<sub>2</sub> at the same rate, the new interest is SI<sub>2</sub> = SI<sub>1</sub> × (P<sub>2</sub> × T<sub>2</sub>) / (P<sub>1</sub> × T<sub>1</sub>).</p>",
+    "solution_hi": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>₹6,400 पर 3 वर्ष का ब्याज = 8320 − 6400 = ₹1,920.</p>\n<p>₹6,400 पर प्रति वर्ष का ब्याज = 1920 ÷ 3 = ₹640.</p>\n<p><strong>ब्याज की दर</strong> = (640 ÷ 6400) × 100 = 10%.</p>\n<p>₹7,200 पर 5 वर्ष का ब्याज = 7,200 × 10% × 5 = ₹3,600.</p>\n<p><strong>नई राशि</strong> = 7,200 + 3,600 = ₹10,800.</p>\n<p><strong>∴ सही उत्तर ₹10,800 है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>प्रारंभिक <strong>मूलधन</strong> (P<sub>1</sub>) = ₹6,400, <strong>मिश्रधन</strong> (A<sub>1</sub>) = ₹8,320, <strong>समय</strong> (T<sub>1</sub>) = 3 वर्ष।</p>\n<p>द्वितीयक <strong>मूलधन</strong> (P<sub>2</sub>) = ₹7,200, <strong>समय</strong> (T<sub>2</sub>) = 5 वर्ष।</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>साधारण ब्याज (SI) = (P × R × T) ÷ 100</p>\n<p>मिश्रधन (A) = मूलधन (P) + साधारण ब्याज (SI)</p>\n<div style=\"text-align: left;\"><img src=\"https://cdn.testbook.com/tb_solImg_27005dee.png/1784620771.png\" style=\"max-width: 100%; height: auto; width: 420px; max-height: 200px;\"></div>\n<p><strong>गणना:</strong></p>\n<p>⇒ SI<sub>1</sub> = A<sub>1</sub> − P<sub>1</sub> = 8,320 − 6,400 = ₹1,920</p>\n<p>⇒ 1,920 = (6,400 × R × 3) ÷ 100</p>\n<p>⇒ 1,920 = 64 × R × 3</p>\n<p>⇒ R = 1,920 ÷ 192 = 10%</p>\n<p>⇒ अब, SI<sub>2</sub> = (7,200 × 10 × 5) ÷ 100</p>\n<p>⇒ SI<sub>2</sub> = 7,200 × 0.5 = ₹3,600</p>\n<p>⇒ अंतिम मिश्रधन (A<sub>2</sub>) = P<sub>2</sub> + SI<sub>2</sub> = 7,200 + 3,600 = ₹10,800</p>\n<p><strong>∴ सही उत्तर ₹10,800 है।</strong></p>\n\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>SI और दर के बीच संबंध</p>\n<p style='margin:0 0 8px 0;color:#444444;'>साधारण ब्याज मूलधन, दर और समय के अनुक्रमानुपाती होता है। यदि दर स्थिर है, तो SI<sub>1</sub>/SI<sub>2</sub> = (P<sub>1</sub> × T<sub>1</sub>) / (P<sub>2</sub> × T<sub>2</sub>)।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>मिश्रधन सूत्र</p>\n<p style='margin:0 0 8px 0;color:#444444;'>कुल संचित राशि A = P(1 + RT/100) है, जहाँ R वार्षिक ब्याज दर है और T वर्षों में समय है।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>स्थिर दर शॉर्टकट</p>\n<p style='margin:0 0 8px 0;color:#444444;'>यदि मूलधन P<sub>1</sub> से P<sub>2</sub> और समय T<sub>1</sub> से T<sub>2</sub> में समान दर पर बदलता है, तो नया ब्याज SI<sub>2</sub> = SI<sub>1</sub> × (P<sub>2</sub> × T<sub>2</sub>) / (P<sub>1</sub> × T<sub>1</sub>) होता है।</p>",
+    "marks": "1"
+  },
+  {
+    "question": "Rs. 8,500 becomes Rs.&nbsp;11,050 in 6 years at a certain rate of simple interest. If the rate becomes 1.8 times of itself, the amount of the same principal in 5 years will be:",
+    "question_hi": "<p><span style=\"\">साधारण ब्याज की एक निश्चित दर पर 6 वर्षों में 8,500 रुपये, 11,050 रुपये हो जाते हैं। यदि दर स्वयं का 1.8 गुना हो जाये तो 5 वर्ष में समान मूलधन की राशि होगी:</span></p>\n",
+    "options": [
+      "Rs. 15,625",
+      "Rs. 14,350",
+      "Rs. 13,550",
+      "Rs. 12,325",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "15,625&nbsp;रुपये&nbsp;",
+      "14,350&nbsp;रुपये&nbsp;",
+      "13,550&nbsp;रुपये&nbsp;",
+      "&nbsp;12,325&nbsp;रुपये&nbsp;",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Principal = Rs.8500</p>\n\n<p>Time = 6 years</p>\n\n<p>Amount = Rs.11050</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Amount = S.I + P</p>\n\n<p>S.I = (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p>Where, P = principal; T = time; R = rate</p>\n\n<p><strong>Calculation:&nbsp;</strong></p>\n\n<p>S.I for 6 years = 11050 - 8500 = Rs.2550</p>\n\n<p>Rate = (S.I&nbsp;&times; 100)/(P &times; T)</p>\n\n<p>&rArr; (2550&nbsp;&times; 100)/(8500 &times; 6)</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 425/85 = 5%</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">New rate % = 5&nbsp;&times; 1.8 = 9%</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">S.I = (P&nbsp;&times; R&nbsp;&times; T)/100</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; (8500&nbsp;&times;&nbsp;9&nbsp;&times; 5)/100</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">&rArr; 85 &times;&nbsp;9&nbsp;&times; 5 = Rs.3825</span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">Amount = 8500 + 3825 = Rs.12325</span></p>\n\n<p><strong>&there4; The correct answer is <span style=\"color: rgb(33, 37, 41);\">Rs.12325</span>.</strong></p>\n",
+    "solution_hi": "<p><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">दिया गया है:</font></font></strong></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">मूलधन = 8500 </font></font><span style=\"color: rgb(33, 37, 41);\">रुपये&nbsp;</span></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">समय = 6 वर्ष</font></font></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">मिश्रधन = 11050 </font></font><span style=\"color: rgb(33, 37, 41);\">रुपये&nbsp;</span></p>\n\n<p><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">प्रयुक्त सूत्र:</font></font></strong></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">मिश्रधन&nbsp;</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">= S.I + P</font></font></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">S.I = (P&nbsp;&times; R&nbsp;&times; T)/100</span></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">यहाँ, </font></font><span style=\"color: rgb(33, 37, 41);\">P&nbsp;</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">= मूलधन; </font></font><span style=\"color: rgb(33, 37, 41);\">T</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> = समय; </font></font><span style=\"color: rgb(33, 37, 41);\">R&nbsp;</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">= दर</font></font></p>\n\n<p><strong><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">गणना:&nbsp;</font></font></strong></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">6 वर्ष के लिए S.I = 11050 - 8500 = 2550 </font></font><span style=\"color: rgb(33, 37, 41);\">रुपये&nbsp;</span></p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">दर =</font></font>&nbsp;(S.I&nbsp;&times; 100)/(P &times; T)</p>\n\n<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&rArr; (2550 &times; 100)/(8500 &times; 6)</font></font></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&rArr; 425/85 = 5%</font></font></span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">नई दर % = 5&times; 1.8 = 9%</font></font></span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">S.I = (P&nbsp;&times; R&nbsp;&times; T)/100</p>\n\n<p><span style=\"color: rgb(33, 37, 41);\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&rArr; (8500&times;9&times;5)/100</font></font></span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&rArr; 85 &times; 9 &times; 5 = 3825 रुपये</font></font></span></p>\n\n<p><span style=\"color: rgb(33, 37, 41);\">मिश्रधन&nbsp;<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">= 8500 + 3825 = 12325 रुपये</font></font></span></p>\n\n<p><strong><span style=\"\">&there4; सही उत्तर 12325 रुपये है।</span></strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "Find the compound interest, compounding annually on ₹75,000 for 3 years, if the rate of interest is 5% for the first year, 6% for the second year and 8% for the third year.",
+    "question_hi": "यदि ब्याज की दर&nbsp;पहले वर्ष के लिए 5%, दूसरे वर्ष के लिए 6% और तीसरे वर्ष के लिए 8% है, तो 3 वर्षों के लिए 75,000 रुपये पर वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज ज्ञात कीजिए।",
+    "options": [
+      "<span style=\"\">₹15,150</span>",
+      "<span style=\"\">₹15,153</span>",
+      "<span style=\"\">₹15,160</span>",
+      "<span style=\"\">₹15,260</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">15,150&nbsp;</span>रुपये",
+      "<span style=\"\">15,153&nbsp;</span>रुपये",
+      "<span style=\"\">15,160&nbsp;</span>रुपये",
+      "<span style=\"\">15,260&nbsp;</span>रुपये",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Principal: ₹75,000</p>\n\n<p>Rate of interest for the first year: 5%</p>\n\n<p>Rate of interest for the second year: 6%</p>\n\n<p>Rate of interest for the third year: 8%</p>\n\n<p><strong>Concept:</strong></p>\n\n<p>Compound interest is calculated individually for each time period.</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>&rArr; CI for first year = 5/100 &times; 75000 = ₹3750</p>\n\n<p>&rArr; New Principal for second year = 75000 + 3750 = ₹78750</p>\n\n<p>&rArr; CI for second year = 6/100 &times; 78750 = ₹4725</p>\n\n<p>&rArr; New Principal for third year = 78750 + 4725 = ₹83475</p>\n\n<p>&rArr; CI for third year = 8/100 &times; 83475 = ₹6678</p>\n\n<p><strong>Therefore, the compound interest for 3 years will be ₹15,153 (i.e., ₹3750 + ₹4725 + ₹6678).</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>मूलधन: 75,000&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>पहले वर्ष के लिए ब्याज की दर: 5%</p>\n\n<p>दूसरे वर्ष के लिए ब्याज <span style=\"color: rgb(33, 37, 41);\">की&nbsp;</span>दर: 6%</p>\n\n<p>तीसरे वर्ष के लिए ब्याज <span style=\"color: rgb(33, 37, 41);\">की&nbsp;</span>दर: 8%</p>\n\n<p><strong>अवधारणा:</strong></p>\n\n<p>प्रत्येक समयावधि के लिए <span style=\"color: rgb(33, 37, 41);\">चक्रवृद्धि ब्याज की गणना&nbsp;</span>अलग-<span style=\"color: rgb(33, 37, 41);\">अलग</span>&nbsp;की जाती है।</p>\n\n<p><strong>गणना:</strong></p>\n\n<p>&rArr; <span style=\"color: rgb(33, 37, 41);\">पहले वर्ष के लिए</span> चक्रवृद्धि ब्याज = 5/100 &times; 75000 = 3750&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>&rArr; दूसरे वर्ष के लिए नया मूलधन = 75000 + 3750 = 78750&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>&rArr; दूसरे वर्ष के लिए चक्रवृद्धि ब्याज = 6/100 &times; 78750 = 4725&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>&rArr; तीसरे वर्ष के लिए नया मूलधन = 78750 + 4725 = 83475&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p>&rArr; तीसरे वर्ष के लिए चक्रवृद्धि ब्याज = 8/100 &times; 83475 = 6678&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span></p>\n\n<p><strong>अतः&nbsp;3 वर्षों के लिए चक्रवृद्धि ब्याज 15,153 <span style=\"color: rgb(33, 37, 41);\">रुपये&nbsp;</span>(अर्थात, 3750 + 4725 + 6678) होगा।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "In how many years will a sum of Rs.&nbsp;9,500 amount to Rs. 11,780 at the rate of 8% per annum at simple interest?",
+    "question_hi": "कितने वर्षों में 9,500 रुपये की राशि 8% वार्षिक साधारण ब्याज की दर से 11,780 रुपये हो जाएगी?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Given:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">A sum of Rs.&nbsp;9,500 amount to Rs. 11,780 at the rate of 8% per annum at simple interest</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Formula used:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">Simple interest = P&nbsp;&times;&nbsp;R&nbsp;&times;&nbsp;T / 100 [ P = principal, R = rate of interest, T = time]</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">Calculation:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">Let, Time &nbsp;= T</p>\n\n<p style=\"color: rgb(33, 37, 41);\">Simple interest is&nbsp; (11780 - 9500) = 2280</p>\n\n<p style=\"color: rgb(33, 37, 41);\">As per the question,</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">&rArr;2280 = 9500&nbsp;&times; 8&nbsp;&times;&nbsp;T / 100</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">&rArr; T = 3 years</span></p>\n",
+    "solution_hi": "<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">दिया गया है:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">9,500 रुपये की एक राशि 8% प्रति वर्ष साधारण ब्याज की दर से 11,780 रुपये हो जाती है</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">प्रयुक्त सूत्र:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">साधारण ब्याज = <span style=\"color: rgb(33, 37, 41);\">&nbsp;P&nbsp;&times;&nbsp;R&nbsp;&times;&nbsp;T / 100</span> [P&nbsp;= मूलधन, R&nbsp;= ब्याज की दर, T&nbsp;= समय]</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"font-weight: bolder;\">गणना:</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\">मान लीजिए, समय = T</p>\n\n<p style=\"color: rgb(33, 37, 41);\">साधारण ब्याज (11780 - 9500) = 2280 है</p>\n\n<p style=\"color: rgb(33, 37, 41);\">प्रश्न के अनुसार,</p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">&rArr;2280 = 9500&nbsp;&times; 8&nbsp;&times;&nbsp;T / 100</span></p>\n\n<p style=\"color: rgb(33, 37, 41);\"><span style=\"color: rgb(33, 37, 41);\">&rArr; T = 3 वर्ष</span></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "If interest be compounded half-yearly, then find the compound interest on ₹8,000 at the rate of 20% per annum for 1 year.",
+    "question_hi": "यदि ब्याज अर्धवार्षिक रूप से संयोजित किया जाता है, तो 1 वर्ष के लिए 20% प्रति वर्ष की दर से ₹​​8,000 पर चक्रवृद्धि ब्याज ज्ञात कीजिए।",
+    "options": [
+      "₹1,675",
+      "₹1,690",
+      "₹1,685",
+      "₹1,680",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "₹1,675",
+      "₹1,690",
+      "₹1,685",
+      "₹1,680",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>Effective rate for half-yearly compounding = 20% ÷ 2 = 10% per 6 months.</p>\n<p>For 1 year, there are 2 compounding periods.</p>\n<p>Net effective interest rate = 10 + 10 + (10 × 10) ÷ 100 = 21%.</p>\n<p>Compound Interest = 21% of ₹8,000 = 0.21 × 8,000 = ₹1,680.</p>\n<p><strong>∴ The correct answer is ₹1,680.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Principal (P) = ₹8,000</p>\n<p>Rate of Interest (R) = 20% per annum</p>\n<p>Time (T) = 1 year</p>\n<p><strong>Formula Used:</strong></p>\n<p>For half-yearly compounding: Rate (r) = R ÷ 2, Time periods (n) = 2 × T</p>\n<p>Amount (A) = P(1 + r/100)<sup>n</sup></p>\n<p>Compound Interest (CI) = A − P</p>\n<img src=\"https://cdn.testbook.com/temp_049844eee7b747a0a8aca13b598b2a6c.png/1780084202.png\" style=\"max-width: 450px;\" />\n<p><strong>Calculations:</strong></p>\n<p>⇒ Effective rate (r) = 20 ÷ 2 = 10% per half-year</p>\n<p>⇒ Number of periods (n) = 1 × 2 = 2 periods</p>\n<p>⇒ A = 8000 × (1 + 10/100)<sup>2</sup></p>\n<p>⇒ A = 8000 × (1.1)<sup>2</sup></p>\n<p>⇒ A = 8000 × 1.21</p>\n<p>⇒ A = ₹9,680</p>\n<p>⇒ CI = 9680 − 8000</p>\n<p>⇒ CI = ₹1,680</p>\n<p><strong>∴ The correct answer is ₹1,680.</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Effective Annual Rate (EAR)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">When interest is compounded more than once a year, the effective annual rate is given by [(1 + r/n)<sup>n</sup> − 1] × 100, where n is the number of compounding periods.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Quarterly Compounding</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">If interest is compounded quarterly, the rate is divided by 4 and the time (in years) is multiplied by 4.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">CI vs SI Difference</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">For 2 years (or 2 periods), the difference between CI and SI is P(R/100)<sup>2</sup>.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>अर्धवार्षिक संयोजन के लिए प्रभावी दर = 20% ÷ 2 = प्रति 6 महीने में 10%</p>\n<p>1 वर्ष के लिए, 2 संयोजन अवधियाँ होंगी।</p>\n<p>शुद्ध प्रभावी ब्याज दर = 10 + 10 + (10 × 10) ÷ 100 = 21%</p>\n<p>चक्रवृद्धि ब्याज = ₹8,000 का 21% = 0.21 × 8,000 = ₹1,680</p>\n<p><strong>∴ सही उत्तर ₹1,680 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>मूलधन (P) = ₹8,000</p>\n<p>ब्याज दर (R) = 20% वार्षिक</p>\n<p>समय (T) = 1 वर्ष</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>अर्धवार्षिक संयोजन के लिए: दर (r) = R ÷ 2, समयावधि (n) = 2 × T</p>\n<p>मिश्रधन (A) = P(1 + r/100)<sup>n</sup></p>\n<p>चक्रवृद्धि ब्याज (CI) = A − P</p>\n<img src=\"https://cdn.testbook.com/temp_049844eee7b747a0a8aca13b598b2a6c.png/1780084202.png\" style=\"max-width: 450px;\" />\n<p><strong>गणना:</strong></p>\n<p>⇒ प्रभावी दर (r) = 20 ÷ 2 = 10% प्रति अर्धवर्ष</p>\n<p>⇒ अवधियों की संख्या (n) = 1 × 2 = 2 अवधियाँ</p>\n<p>⇒ A = 8000 × (1 + 10/100)<sup>2</sup></p>\n<p>⇒ A = 8000 × (1.1)<sup>2</sup></p>\n<p>⇒ A = 8000 × 1.21</p>\n<p>⇒ A = ₹9,680</p>\n<p>⇒ CI = 9680 − 8000</p>\n<p>⇒ CI = ₹1,680</p>\n<p><strong>∴ सही उत्तर ₹1,680 है।</strong></p>\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">प्रभावी वार्षिक दर (EAR)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">जब ब्याज वर्ष में एक से अधिक बार संयोजित होता है, तो प्रभावी वार्षिक दर [(1 + r/n)<sup>n</sup> − 1] × 100 द्वारा दी जाती है, जहाँ n संयोजन अवधियों की संख्या है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">त्रैमासिक संयोजन</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">यदि ब्याज त्रैमासिक संयोजित होता है, तो दर को 4 से विभाजित किया जाता है और समय (वर्षों में) को 4 से गुणा किया जाता है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">CI और SI में अंतर</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">2 वर्ष (या 2 अवधियों) के लिए, CI और SI के बीच का अंतर P(R/100)<sup>2</sup> होता है।</p>",
+    "marks": "1"
+  },
+  {
+    "question": "A gave Rs. 1200 to B and Rs 1000 to C at the same simple rate of interest per annum for one year. If B pays simple interest Rs 50 more than that of C, then the rate of interest is",
+    "question_hi": "A ने B को 1200 रुपये और C को 1000 रुपये एक वर्ष के लिए&nbsp;प्रति वर्ष समान साधारण ब्याज दर पर दिए। यदि B साधारण ब्याज का भुगतान C से 50 रुपये अधिक करता है, तो ब्याज की दर क्या है?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10%",
+      "15%",
+      "20%",
+      "25%",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 4,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>A gave Rs. 1200 to B and Rs 1000 to C at the same simple rate of interest per annum for one year</p>\n\n<p>B pays simple interest Rs 50 more than that of C</p>\n\n<p><strong>Formula used:</strong></p>\n\n<p>Simple interest(I) =&nbsp;<span class=\"math-tex\">\\(\\dfrac{P × R × T}{100}\\)</span></p>\n\n<p><b>Calculation:</b></p>\n\n<p>P<sub>B</sub>&nbsp;= 1200</p>\n\n<p>P<sub>c&nbsp;</sub>= 1000</p>\n\n<p>I<sub>B</sub>&nbsp;= I<sub>c</sub>&nbsp;+ 50</p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{1200 × R × 1}{100}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\dfrac{1000 × R × 1}{100}\\)</span>&nbsp;+ 50</p>\n\n<p>&rArr; 12R = 10R + 50</p>\n\n<p>&rArr; 2R = 50</p>\n\n<p>&rArr; R = 25</p>\n\n<p><strong>&there4; The rate of interest = 25%</strong></p>\n",
+    "solution_hi": "<p><span style=\"font-weight: 700;\">दिया गया​ है:</span></p>\n\n<p>A ने B को 1200 रुपये और C को 1000 रुपये&nbsp;एक वर्ष के लिए&nbsp;प्रति वर्ष समान साधारण ब्याज दर पर दिए।&nbsp;</p>\n\n<p>B साधारण ब्याज का भुगतान C से 50 रुपये अधिक करता है।</p>\n\n<p><span style=\"font-weight: 700;\">प्रयुक्त सूत्र:</span></p>\n\n<p>साधारण ब्याज (I) =&nbsp;<span class=\"math-tex\">\\(\\dfrac{P × R × T}{100}\\)</span></p>\n\n<p><span style=\"font-weight: 700;\">गणना:</span></p>\n\n<p>P<sub>B</sub>&nbsp;= 1200</p>\n\n<p>P<sub>c&nbsp;</sub>= 1000</p>\n\n<p>I<sub>B</sub>&nbsp;= I<sub>c</sub>&nbsp;+ 50</p>\n\n<p>&rArr;&nbsp;<span class=\"math-tex\">\\(\\dfrac{1200 × R × 1}{100}\\)</span>&nbsp;=&nbsp;<span class=\"math-tex\">\\(\\dfrac{1000 × R × 1}{100}\\)</span>&nbsp;+ 50</p>\n\n<p>&rArr; 12R = 10R + 50</p>\n\n<p>&rArr; 2R = 50</p>\n\n<p>&rArr; R = 25</p>\n\n<p><strong>&there4; ब्याज की दर&nbsp;= 25%</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<div>A certain sum amounts to ₹ 29,282 in 4 years at 10% p.a. when the interest is compounded yearly. What is the simple interest (in ₹) on the same sum for 5 years at the same rate?</div>\n",
+    "question_hi": "एक निश्चित राशि 10% प्रति वर्ष की दर से 4 वर्षों में ₹ 29,282 हो जाती है, जब <span style=\"\">चक्रवृद्धि&nbsp;</span>ब्याज वार्षिक रूप से संयोजित होता है। समान राशि और समान दर पर 5 वर्षों के लिए साधारण ब्याज (रुपये में) कितना है?",
+    "options": [
+      "<span style=\"\">10,000</span>",
+      "<span style=\"\">11,500</span>",
+      "<span style=\"\">7,000</span>",
+      "<span style=\"\">9,000</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">10,000</span>",
+      "<span style=\"\">11,500</span>",
+      "<span style=\"\">7,000</span>",
+      "<span style=\"\">9,000</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Rate of interest = 10%</p>\n\n<p>Amount = Rs. 29282</p>\n\n<p>Time for C.I = 4 years</p>\n\n<p>Time for S.I = 5 years</p>\n\n<p><strong>Concept used:</strong></p>\n\n<p>A = P(1 + r/100)<sup>n</sup></p>\n\n<p>Where, A = Amount P = Principal r = rate of interest n = time period in years</p>\n\n<p><span style=\"\">S.I. = PRT/100</span></p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>29282 = P(1 + 10/100)<sup>4</sup></p>\n\n<p>&rArr; 29282 = P(11/10)<sup>4</sup></p>\n\n<p>&rArr; P = 29282 &times; 10/11 &times; 10/11 &times; 10/11 &times; 10/11</p>\n\n<p>&rArr; P = Rs. 20000</p>\n\n<p>S.I. = (20000 &times; 10 &times; 5)/100</p>\n\n<p>&rArr; S.I. = Rs. 10000</p>\n\n<p><strong>&there4; Required simple interest is Rs. 10000</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>दर&nbsp;= 10%</p>\n\n<p>मिश्रधन = 29282 रुपये</p>\n\n<p>चक्रवृद्धि ब्याज के लिए समय&nbsp;= 4 वर्ष</p>\n\n<p>साधारण ब्याज के लिए समय&nbsp;= 5 वर्ष</p>\n\n<p><strong>प्रयुक्त अवधारणा:</strong></p>\n\n<p>A = P(1 + r/100)<sup>n</sup></p>\n\n<p>जहां, A = मिश्रधन P = मूलधन&nbsp;r = दर n = वर्षों में समय अवधि</p>\n\n<p><span style=\"\">साधारण ब्याज&nbsp;= PRT/100</span></p>\n\n<p><strong>गणना:</strong></p>\n\n<p>29282 = P(1 + 10/100)<sup>4</sup></p>\n\n<p>&rArr; 29282 = P(11/10)<sup>4</sup></p>\n\n<p>&rArr; P = 29282 &times; 10/11 &times; 10/11 &times; 10/11 &times; 10/11</p>\n\n<p>&rArr; P = 20000 रुपये</p>\n\n<p><span style=\"\">साधारण ब्याज&nbsp;</span>= (20000 &times; 10 &times; 5)/100</p>\n\n<p>&rArr; <span style=\"\">साधारण ब्याज&nbsp;</span>=&nbsp;10000 रुपये</p>\n\n<p><strong>&there4; अभीष्ट साधारण ब्याज&nbsp;10000 रुपये</strong>&nbsp;<strong>है।&nbsp;</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A person deposited Rs.&nbsp;500 for 3 years, Rs. 650 for 5 years, and Rs.&nbsp;1,250 for 7 years. He received a total simple interest of Rs.&nbsp;1,620. The rate of interest per annum is:&nbsp;",
+    "question_hi": "एक व्यक्ति ने 3 वर्षों के लिए 500 रुपये, 5 वर्षों&nbsp;के लिए 650 रुपये और 7 वर्षों&nbsp;के लिए 1,250 रुपये जमा किये। उसे कुल 1,620 रुपये का साधारण ब्याज प्राप्त हुआ। प्रति वर्ष ब्याज दर क्या है?",
+    "options": [
+      "12%",
+      "13%",
+      "10%",
+      "11%",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "12%",
+      "13%",
+      "10%",
+      "11%",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 1,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Person deposited Rs. 500 for 3&nbsp;years&nbsp;</p>\n\n<p>Person deposited Rs. 650 for 5 years&nbsp;</p>\n\n<p>Person deposited Rs. 1250 for 7&nbsp;years&nbsp;</p>\n\n<p>Total simple interest is Rs. 1620</p>\n\n<p style=\"color: rgb(30, 43, 51);  \"><span style=\"font-weight: bolder;  line-height: 20px;\">Formula used:</span></p>\n\n<p style=\"color: rgb(30, 43, 51);  \">S.I = Amount &ndash; P</p>\n\n<p style=\"color: rgb(30, 43, 51);  \">S.I = (P &times; R &times; T)/100</p>\n\n<p style=\"color: rgb(30, 43, 51);  \">Where S.I = Simple Interest</p>\n\n<p style=\"color: rgb(30, 43, 51);  \">P = Principal, R = Rate, T = time</p>\n\n<p style=\"color: rgb(30, 43, 51);  \"><strong>Calculation</strong></p>\n\n<p style=\"color: rgb(30, 43, 51);  \"><span style=\"color: rgb(33, 37, 41);\">&rArr; 1620&nbsp;=&nbsp;</span><span style=\"color: rgb(30, 43, 51);\">(500&nbsp;&times; R &times; 3)/100 +&nbsp;(650&nbsp;&times; R &times; 5)/100 +&nbsp;(1250&nbsp;&times; R &times; 7)/100</span></p>\n\n<p>&rArr; 1620&nbsp;= 15R + 32.5R + 87.5R</p>\n\n<p>&rArr; 135R = 1620</p>\n\n<p>&rArr; R = 12%</p>\n\n<p><strong>&there4; The rate of interest per annum is 12%.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>व्यक्ति ने 3 वर्षों&nbsp;के लिए 500 रुपये जमा किये</p>\n\n<p>व्यक्ति ने 5 वर्षों के लिए 650 रुपये जमा किये</p>\n\n<p>व्यक्ति ने 7 वर्षों के लिए 1250 रुपये जमा किये</p>\n\n<p>कुल साधारण ब्याज 1620 रुपये है</p>\n\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n\n<p>S.I&nbsp;= मिश्रधन - P</p>\n\n<p><span style=\"color: rgb(30, 43, 51);\">S.I = (P &times; R &times; T)/100</span></p>\n\n<p>जहाँ, S.I = साधारण ब्याज</p>\n\n<p>P = मूलधन, R = दर, T = समय</p>\n\n<p><strong>गणना:</strong></p>\n\n<p style=\"color: rgb(30, 43, 51);\"><span style=\"color: rgb(33, 37, 41);\">&rArr; 1620&nbsp;=&nbsp;</span>(500&nbsp;&times; R &times; 3)/100 +&nbsp;(650&nbsp;&times; R &times; 5)/100 +&nbsp;(1250&nbsp;&times; R &times; 7)/100</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 1620&nbsp;= 15R + 32.5R + 87.5R</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; 135R = 1620</p>\n\n<p style=\"color: rgb(33, 37, 41);\">&rArr; R = 12%</p>\n\n<p><strong>&there4; प्रति वर्ष ब्याज दर 12% है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "A sum of money doubles itself at compound interest in 10 years. In how many years will it be four times at the same rate of interest?",
+    "question_hi": "कोई धनराशि 10 वर्ष में चक्रवृद्धि ब्याज पर स्वयं की दोगुनी हो जाती है। उसी ब्याज दर पर वह कितने वर्षों में चार गुनी हो जाएगी?",
+    "options": [
+      "10",
+      "20",
+      "15",
+      "5",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "10",
+      "20",
+      "15",
+      "5",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>In Compound Interest, if a sum becomes 'n' times in 'T' years, it becomes 'n<sup>k</sup>' times in 'k × T' years.</p>\n<p>Here, the sum doubles (2 times) in 10 years (n = 2, T = 10).</p>\n<p>To become four times (4 = 2<sup>2</sup>), the power k = 2.</p>\n<p>Time required = k × T = 2 × 10 = 20 years.</p>\n<p><strong>∴ The correct answer is 20 years.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Initial Sum = P</p>\n<p>Amount after 10 years = 2P</p>\n<p>Target Amount = 4P</p>\n<p><strong>Formula Used:</strong></p>\n<p>A = P(1 + r/100)<sup>t</sup></p>\n<img src=\"https://cdn.testbook.com/temp_17fe87e69be546299cc3b9935a9986d0.png/1780114586.png\" style=\"max-width: 450px;\" />\n<p><strong>Calculations:</strong></p>\n<p>⇒ 2P = P(1 + r/100)<sup>10</sup></p>\n<p>⇒ 2 = (1 + r/100)<sup>10</sup> ---- (i)</p>\n<p>⇒ Let the required time be 't' years for the sum to become 4P.</p>\n<p>⇒ 4P = P(1 + r/100)<sup>t</sup></p>\n<p>⇒ 4 = (1 + r/100)<sup>t</sup></p>\n<p>⇒ (2)<sup>2</sup> = (1 + r/100)<sup>t</sup></p>\n<p>⇒ Substituting value of 2 from (i):</p>\n<p>⇒ [(1 + r/100)<sup>10</sup>]<sup>2</sup> = (1 + r/100)<sup>t</sup></p>\n<p>⇒ (1 + r/100)<sup>20</sup> = (1 + r/100)<sup>t</sup></p>\n<p>⇒ By comparing powers, t = 20 years.</p>\n<p><strong>∴ The correct answer is 20 years.</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Effective Rate of Interest</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">When interest is compounded more than once a year, the effective annual rate is (1 + r/n)<sup>n</sup> − 1, where n is the frequency of compounding.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">Rule of 72</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">A quick way to estimate how long it takes to double money at CI: Time ≈ 72 ÷ Interest Rate.</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">SI vs CI for Doubling</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">In Simple Interest, if a sum doubles in T years, it becomes n times in (n−1) × T years. For 4 times, it would take (4−1) × 10 = 30 years.</p>",
+    "solution_hi": "<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png\" width=\"26px\" /> <u style=\"font-size: 21px; font-weight: 700; display: inline !important;\">Shortcut Trick</u></span>\n<p>चक्रवृद्धि ब्याज में, यदि कोई धनराशि 'T' वर्षों में 'n' गुना हो जाती है, तो वह 'k × T' वर्षों में 'n<sup>k</sup>' गुना हो जाती है।</p>\n<p>यहाँ, धनराशि 10 वर्षों में दोगुनी (2 गुना) हो जाती है (n = 2, T = 10)।</p>\n<p>चार गुना (4 = 2<sup>2</sup>) होने के लिए, घात k = 2 है।</p>\n<p>अभीष्ट समय = k × T = 2 × 10 = 20 वर्ष।</p>\n<p><strong>∴ सही उत्तर 20 वर्ष है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>प्रारंभिक धनराशि = P</p>\n<p>10 वर्ष बाद मिश्रधन = 2P</p>\n<p>लक्षित मिश्रधन = 4P</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>A = P(1 + r/100)<sup>t</sup></p>\n<img src=\"https://cdn.testbook.com/temp_17fe87e69be546299cc3b9935a9986d0.png/1780114586.png\" style=\"max-width: 450px;\" />\n<p><strong>गणना:</strong></p>\n<p>⇒ 2P = P(1 + r/100)<sup>10</sup></p>\n<p>⇒ 2 = (1 + r/100)<sup>10</sup> ---- (i)</p>\n<p>⇒ माना धनराशि को 4P होने में लगने वाला अभीष्ट समय 't' वर्ष है।</p>\n<p>⇒ 4P = P(1 + r/100)<sup>t</sup></p>\n<p>⇒ 4 = (1 + r/100)<sup>t</sup></p>\n<p>⇒ (2)<sup>2</sup> = (1 + r/100)<sup>t</sup></p>\n<p>⇒ (i) से 2 का मान प्रतिस्थापित करने पर:</p>\n<p>⇒ [(1 + r/100)<sup>10</sup>]<sup>2</sup> = (1 + r/100)<sup>t</sup></p>\n<p>⇒ (1 + r/100)<sup>20</sup> = (1 + r/100)<sup>t</sup></p>\n<p>⇒ घातों की तुलना करने पर, t = 20 वर्ष।</p>\n<p><strong>∴ सही उत्तर 20 वर्ष है।</strong></p>\n\n<p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">प्रभावी ब्याज दर</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">जब ब्याज वर्ष में एक से अधिक बार संयोजित होता है, तो प्रभावी वार्षिक दर (1 + r/n)<sup>n</sup> − 1 होती है, जहाँ n संयोजन की आवृत्ति है।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">72 का नियम</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">चक्रवृद्धि ब्याज (CI) पर धनराशि को दोगुना होने में लगने वाले समय का अनुमान लगाने का एक त्वरित तरीका: समय ≈ 72 ÷ ब्याज दर।</p>\n<p style=\"margin:8px 0 2px 0;font-weight:700;color:#222222;\">दोगुना होने के लिए साधारण ब्याज (SI) बनाम चक्रवृद्धि ब्याज (CI)</p>\n<p style=\"margin:0 0 8px 0;color:#444444;\">साधारण ब्याज में, यदि कोई धनराशि T वर्षों में दोगुनी हो जाती है, तो वह (n−1) × T वर्षों में n गुना हो जाती है। 4 गुना होने के लिए, इसमें (4−1) × 10 = 30 वर्ष लगेंगे।</p>",
+    "marks": "1"
+  },
+  {
+    "question": "At what percent per annum will Rs. 12,500 amount to Rs. 14,045 in 2 years if the interest is compounded annually?",
+    "question_hi": "कितने प्रतिशत प्रतिवर्ष की दर से 12,500 रुपये की राशि&nbsp;2 वर्षों में 14,045 रुपये हो जाएगी, यदि ब्याज को वार्षिक रूप से संयोजित किया जाता है?",
+    "options": [
+      "7%",
+      "9%",
+      "6%",
+      "8%",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">7%</span>",
+      "<span style=\"\">9%</span>",
+      "<span style=\"\">6%</span>",
+      "<span style=\"\">8%</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given</strong></p>\n\n<p>Principal = Rs.12,500</p>\n\n<p>Amount = RS.14,045</p>\n\n<p>Time = 2 years</p>\n\n<p><strong>Formula used</strong></p>\n\n<p>Amount = Principal(1 + r%)<sup>t</sup></p>\n\n<p><strong>Calculation</strong></p>\n\n<p>14,045 = 12,500(1 + r%)<sup>2</sup></p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>(14045/12500) = (1 + r%)<sup>2</sup></p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>2809/2500 = (1 + r%)<sup>2</sup></p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>&radic; 2809/2500 = (1 + r%)</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>(53/50) - 1 = r%</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>(53 - 50)/50 = r%</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>3/50 = r/100</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>(3&nbsp;&times; 100)/50 = r</p>\n\n<p><span style=\"\">&rArr;&nbsp;</span>6% = r</p>\n\n<p><strong>&there4; Rate of interest is 6%.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया है</strong></p>\n\n<p>मूलधन = 12,500&nbsp;रुपये</p>\n\n<p>मिश्रधन = 14,045&nbsp;रुपये</p>\n\n<p>समय = 2 वर्ष</p>\n\n<p><strong>प्रयुक्त सूत्र</strong></p>\n\n<p>मिश्रधन = मूलधन(1 + r%<span style=\"\">)</span><span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;\">t</span></p>\n\n<p><strong>गणना</strong></p>\n\n<p style=\"\">14,045 = 12,500(1 + r%)<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p style=\"\">&rArr;&nbsp;(14045/12500) = (1 + r%)<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p style=\"\">&rArr;&nbsp;2809/2500 = (1 + r%)<span style=\" line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;\">2</span></p>\n\n<p style=\"\">&rArr;&nbsp;&radic; 2809/2500 = (1 + r%)</p>\n\n<p style=\"\">&rArr;&nbsp;(53/50) - 1 = r%</p>\n\n<p style=\"\">&rArr;&nbsp;(53 - 50)/50 = r%</p>\n\n<p style=\"\">&rArr;&nbsp;3/50 = r/100</p>\n\n<p style=\"\">&rArr;&nbsp;(3&nbsp;&times; 100)/50 = r</p>\n\n<p style=\"\">&rArr;&nbsp;6% = r</p>\n\n<p><strong>&there4;&nbsp;ब्याज दर 6% है।</strong></p>\n",
+    "marks": "1"
+  },
+  {
+    "question": "<p>A sum of money doubled itself at certain rate of compound interest in 15 years. In how many years will it become four times of itself?</p>\n",
+    "question_hi": "<p>एक राशि चक्रवृद्धि ब्याज की निश्चित दर पर 15 वर्षों में दोगुनी हो जाती है। कितने वर्षों में यह स्वयं की चार गुना हो जाएगी?</p>\n",
+    "options": [
+      "<span style=\"\">45</span>",
+      "<span style=\"\">30</span>",
+      "<span style=\"\">25</span>",
+      "<span style=\"\">15</span>",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "<span style=\"\">45</span>",
+      "<span style=\"\">30</span>",
+      "<span style=\"\">25</span>",
+      "<span style=\"\">15</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 2,
+    "solution": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>In Compound Interest, if a sum becomes n times in t years, it becomes n<sup>k</sup> times in k × t years.</p>\n<p>Given: A sum doubles (n = 2) in t = 15 years.</p>\n<p>Target: 4 times of itself → 4 = 2<sup>2</sup>, so k = 2.</p>\n<p>Required time = k × t = 2 × 15 = 30 years.</p>\n<p><strong>∴ The correct answer is 30 years.</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>Given:</strong></p>\n<p>Time (t<sub>1</sub>) = 15 years</p>\n<p>Growth = Doubled (2 times)</p>\n<p><strong>Formula Used:</strong></p>\n<p>Amount (A) = P(1 + r/100)<sup>t</sup></p>\n<img src=\"https://cdn.testbook.com/temp_f2d8b5adc13940448836d46ba7116c2b.png/1780114795.png\" style=\"max-width: 450px;\" />\n<p><strong>Calculations:</strong></p>\n<p>⇒ 2P = P(1 + r/100)<sup>15</sup></p>\n<p>⇒ 2 = (1 + r/100)<sup>15</sup> --- (Equation 1)</p>\n<p>⇒ Let the required time be T years to become 4 times.</p>\n<p>⇒ 4P = P(1 + r/100)<sup>T</sup></p>\n<p>⇒ 4 = (1 + r/100)<sup>T</sup></p>\n<p>⇒ 2<sup>2</sup> = (1 + r/100)<sup>T</sup></p>\n<p>⇒ Substituting value of 2 from Eq.1:</p>\n<p>⇒ [(1 + r/100)<sup>15</sup>]<sup>2</sup> = (1 + r/100)<sup>T</sup></p>\n<p>⇒ (1 + r/100)<sup>30</sup> = (1 + r/100)<sup>T</sup></p>\n<p>⇒ T = 30 years</p>\n<p><strong>∴ The correct answer is 30 years.</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Compound Interest Amount Formula</p>\n<p style='margin:0 0 8px 0;color:#444444;'>The total amount A is given by A = P(1 + R/100)<sup>n</sup>, where P is the principal, R is the rate of interest per annum, and n is the number of years.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Successive Multiplication in CI</p>\n<p style='margin:0 0 8px 0;color:#444444;'>In Compound Interest, the sum of money increases in a Geometric Progression (GP) where the amount becomes n times in a fixed interval of time.</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>Rule of 72</p>\n<p style='margin:0 0 8px 0;color:#444444;'>To find the approximate time needed to double the money at compound interest, divide 72 by the annual interest rate (Time ≈ 72 ÷ Rate).</p>",
+    "solution_hi": "<span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/shortcut-trick-image.png' width='26px' /> <u style='font-size: 21px; font-weight: 700; display: inline !important;'>Shortcut Trick</u></span>\n<p>चक्रवृद्धि ब्याज में, यदि कोई धनराशि t वर्षों में n गुना हो जाती है, तो यह k × t वर्षों में n<sup>k</sup> गुना हो जाती है।</p>\n<p>दिया गया है: एक धनराशि t = 15 वर्षों में दोगुनी (n = 2) हो जाती है।</p>\n<p>लक्ष्य: स्वयं का 4 गुना → 4 = 2<sup>2</sup>, इसलिए k = 2.</p>\n<p>अभीष्ट समय = k × t = 2 × 15 = 30 वर्ष।</p>\n<p><strong>∴ सही उत्तर 30 वर्ष है।</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/alternate-methord-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Alternate Method</u></span></strong></span></p>\n<p><strong>दिया गया है:</strong></p>\n<p>समय (t<sub>1</sub>) = 15 वर्ष</p>\n<p>वृद्धि = दोगुनी (2 गुना)</p>\n<p><strong>प्रयुक्त सूत्र:</strong></p>\n<p>मिश्रधन (A) = P(1 + r/100)<sup>t</sup></p>\n<img src=\"https://cdn.testbook.com/temp_f2d8b5adc13940448836d46ba7116c2b.png/1780114795.png\" style=\"max-width: 450px;\" />\n<p><strong>गणना:</strong></p>\n<p>⇒ 2P = P(1 + r/100)<sup>15</sup></p>\n<p>⇒ 2 = (1 + r/100)<sup>15</sup> --- (समीकरण 1)</p>\n<p>⇒ माना 4 गुना होने में लगने वाला अभीष्ट समय T वर्ष है।</p>\n<p>⇒ 4P = P(1 + r/100)<sup>T</sup></p>\n<p>⇒ 4 = (1 + r/100)<sup>T</sup></p>\n<p>⇒ 2<sup>2</sup> = (1 + r/100)<sup>T</sup></p>\n<p>⇒ समीकरण 1 से 2 का मान प्रतिस्थापित करने पर:</p>\n<p>⇒ [(1 + r/100)<sup>15</sup>]<sup>2</sup> = (1 + r/100)<sup>T</sup></p>\n<p>⇒ (1 + r/100)<sup>30</sup> = (1 + r/100)<sup>T</sup></p>\n<p>⇒ T = 30 वर्ष</p>\n<p><strong>∴ सही उत्तर 30 वर्ष है।</strong></p>\n<p><span style='display: flex;gap: 6px;align-items: center;'><img height='26px' src='https://cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png' width='26px' /><strong><span style='vertical-align: middle;font-size: 21px;'><u>Additional Information</u></span></strong></span></p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>चक्रवृद्धि ब्याज मिश्रधन सूत्र</p>\n<p style='margin:0 0 8px 0;color:#444444;'>कुल मिश्रधन A, A = P(1 + R/100)<sup>n</sup> द्वारा दिया जाता है, जहाँ P मूलधन है, R वार्षिक ब्याज दर है, और n वर्षों की संख्या है।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>चक्रवृद्धि ब्याज में क्रमिक गुणन</p>\n<p style='margin:0 0 8px 0;color:#444444;'>चक्रवृद्धि ब्याज में, धनराशि एक गुणोत्तर श्रेढ़ी (GP) में बढ़ती है जहाँ मिश्रधन एक निश्चित समय अंतराल में n गुना हो जाता है।</p>\n<p style='margin:8px 0 2px 0;font-weight:700;color:#222222;'>72 का नियम</p>\n<p style='margin:0 0 8px 0;color:#444444;'>चक्रवृद्धि ब्याज पर धन को दोगुना करने के लिए आवश्यक अनुमानित समय ज्ञात करने के लिए, 72 को वार्षिक ब्याज दर से विभाजित करें (समय ≈ 72 ÷ दर)।</p>",
+    "marks": "1"
+  },
+  {
+    "question": "A car dealer borrows Rs.&nbsp;20,000 from a bank for a period of 2 years at a simple interest rate of 8% per annum. If he repays the loan in full at the end of the 2-year period, how much will he have to pay?",
+    "question_hi": "एक कार डीलर 8% प्रति वर्ष की साधारण ब्याज दर पर 2 वर्ष की अवधि के लिए बैंक से 20,000 रुपये उधार लेता है। यदि वह 2 वर्ष की अवधि के अंत में ऋण का पूरा भुगतान कर देता है, तो उसे कितना भुगतान करना होगा?",
+    "options": [
+      "Rs.&nbsp;3,600",
+      "Rs.&nbsp;23,600",
+      "Rs.&nbsp;23,200",
+      "Rs.&nbsp;3,200",
+      "Question Not Attempted"
+    ],
+    "options_hi": [
+      "3,600 रुपये",
+      "23,600&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "23,200&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "3,200&nbsp;<span style=\"color: rgb(33, 37, 41);\">रुपये</span>",
+      "अनुत्तरित प्रश्न"
+    ],
+    "correct": 3,
+    "solution": "<p><strong>Given:</strong></p>\n\n<p>Principal (P) = Rs. 20,000</p>\n\n<p>Time (T) = 2 years</p>\n\n<p>Rate of interest (R) = 8% per annum</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>Simple Interest (SI) = (P &times; R &times; T) / 100</p>\n\n<p>Total amount to be repaid = Principal + Simple Interest</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>SI = (20000 &times; 8 &times; 2) / 100</p>\n\n<p>SI = (320000) / 100</p>\n\n<p>SI = Rs. 3,200</p>\n\n<p>Total amount to be repaid = 20000 + 3200</p>\n\n<p>Total amount to be repaid = Rs. 23,200</p>\n\n<p><strong>The total amount to be repaid by the car dealer is Rs. 23,200.</strong></p>\n",
+    "solution_hi": "<p><strong>दिया गया है:</strong></p>\n\n<p>मूलधन (P) = Rs. 20,000</p>\n\n<p>समय (T) = 2 वर्ष</p>\n\n<p>ब्याज दर (R) = 8% प्रति वर्ष</p>\n\n<p><strong>Formula Used:</strong></p>\n\n<p>साधारण ब्याज (SI) = (P × R × T) / 100</p>\n\n<p>कुल पुनर्भुगतान की जाने वाली राशि = मूलधन + साधारण ब्याज</p>\n\n<p><strong>Calculation:</strong></p>\n\n<p>SI = (20000 × 8 × 2) / 100</p>\n\n<p>SI = (320000) / 100</p>\n\n<p>SI = Rs. 3,200</p>\n\n<p>कुल पुनर्भुगतान की जाने वाली राशि = 20000 + 3200</p>\n\n<p>कुल पुनर्भुगतान की जाने वाली राशि = Rs. 23,200</p>\n\n<p><strong>कार डीलर द्वारा पुनर्भुगतान की जाने वाली कुल राशि Rs. 23,200 है।</strong></p>\n",
+    "marks": "1"
+  }
+]
